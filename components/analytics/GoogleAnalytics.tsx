@@ -6,7 +6,7 @@ interface GoogleAnalyticsProps {
   measurementId?: string;
 }
 
-export default function GoogleAnalytics({ measurementId = 'G-XXXXXXXXXX' }: GoogleAnalyticsProps) {
+export default function GoogleAnalytics({ measurementId = 'G-R0T893VZW0' }: GoogleAnalyticsProps) {
   // Only load in production
   if (process.env.NODE_ENV !== 'production') {
     return null;
