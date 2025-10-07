@@ -25,6 +25,7 @@ interface DigimonCSVRow {
   evolves_to: string;
   devolves_to: string;
   notes?: string;
+  imageUrl?: string;
 }
 
 /**
@@ -69,6 +70,7 @@ function csvRowToDigimon(row: DigimonCSVRow): Digimon {
     evolvesTo: parseEvolutionPaths(row.evolves_to),
     devolvesTo: parseEvolutionPaths(row.devolves_to),
     notes: row.notes || undefined,
+    imageUrl: row.imageUrl || undefined,
   };
 }
 

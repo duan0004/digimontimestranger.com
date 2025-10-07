@@ -54,6 +54,7 @@ export interface Digimon {
   notes?: string;
   description?: string;
   tags?: string[]; // e.g., 'healer', 'tank', 'dps', 'support'
+  imageUrl?: string; // URL to Digimon image
 }
 
 // Team Builder types

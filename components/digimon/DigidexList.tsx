@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Search, Filter } from 'lucide-react';
 import { Digimon, Stage, Attribute, Element } from '@/types/digimon';
 
@@ -215,11 +216,22 @@ export default function DigidexList({ initialDigimon }: DigidexListProps) {
             href={`/digimon/${digimon.slug}`}
             className="card p-5 hover:shadow-xl group"
           >
-            {/* Placeholder Image Area */}
-            <div className="w-full h-48 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800 rounded-lg mb-4 flex items-center justify-center">
-              <div className="text-6xl font-bold text-gray-300 dark:text-gray-600">
-                {digimon.name.charAt(0)}
-              </div>
+            {/* Digimon Image */}
+            <div className="w-full h-48 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative">
+              {digimon.imageUrl ? (
+                <Image
+                  src={digimon.imageUrl}
+                  alt={digimon.name}
+                  width={150}
+                  height={150}
+                  className="object-contain group-hover:scale-110 transition-transform duration-300"
+                  unoptimized
+                />
+              ) : (
+                <div className="text-6xl font-bold text-gray-300 dark:text-gray-600">
+                  {digimon.name.charAt(0)}
+                </div>
+              )}
             </div>
 
             {/* Digimon Info */}

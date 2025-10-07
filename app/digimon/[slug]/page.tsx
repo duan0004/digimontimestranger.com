@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, MapPin, Zap, TrendingUp } from 'lucide-react';
 import { getDigimonBySlug, getAllDigimonSlugs, loadDigimonData } from '@/lib/data-loader';
 import { generateMetadata as genMeta, generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo';
@@ -140,11 +141,23 @@ export default async function DigimonPage({ params }: DigimonPageProps) {
         <div className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-12">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-[300px_1fr] gap-8 items-center">
-              {/* Placeholder Image */}
-              <div className="w-full h-64 md:h-80 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center border-2 border-white/20">
-                <div className="text-8xl md:text-9xl font-bold text-white/30">
-                  {digimon.name.charAt(0)}
-                </div>
+              {/* Digimon Image */}
+              <div className="w-full h-64 md:h-80 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center border-2 border-white/20 overflow-hidden relative">
+                {digimon.imageUrl ? (
+                  <Image
+                    src={digimon.imageUrl}
+                    alt={digimon.name}
+                    width={300}
+                    height={300}
+                    className="object-contain"
+                    unoptimized
+                    priority
+                  />
+                ) : (
+                  <div className="text-8xl md:text-9xl font-bold text-white/30">
+                    {digimon.name.charAt(0)}
+                  </div>
+                )}
               </div>
 
               {/* Info */}
