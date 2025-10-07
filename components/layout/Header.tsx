@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { Menu, X, Search } from 'lucide-react';
 
@@ -26,8 +27,15 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-3">
-              <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-primary-600 to-primary-800">
-                <span className="text-white font-bold text-xl">DTS</span>
+              <div className="relative w-10 h-10 flex-shrink-0">
+                <Image
+                  src="/logo.png"
+                  alt="Digimon Time Stranger"
+                  width={40}
+                  height={40}
+                  className="object-contain"
+                  priority
+                />
               </div>
               <div className="hidden sm:block">
                 <div className="text-lg font-bold gradient-text">

@@ -27,7 +27,7 @@ export function generateMetadata(config: SEOConfig = {}): Metadata {
 
   const description = config.description || SITE_DESCRIPTION;
   const url = config.url ? `${SITE_URL}${config.url}` : SITE_URL;
-  const image = config.image || `${SITE_URL}/og-image.png`;
+  const image = config.image || `${SITE_URL}/logo.png`;
 
   const metadata: Metadata = {
     title,
