@@ -301,7 +301,7 @@ export default function PCSteamDeckPage() {
                   Controller Not Working
                 </h4>
                 <p className="text-sm text-gray-700 dark:text-gray-300">
-                  • Enable "Steam Input" in game properties<br/>
+                  • Enable &quot;Steam Input&quot; in game properties<br/>
                   • Verify controller is detected in Steam Big Picture<br/>
                   • Try switching USB ports or using Bluetooth<br/>
                   • Restart Steam and the game

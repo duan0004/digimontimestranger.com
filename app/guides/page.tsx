@@ -130,7 +130,7 @@ export default function GuidesPage() {
             📚 More Guides Coming Soon
           </h2>
           <p className="text-gray-700 dark:text-gray-300 mb-4">
-            We're actively working on more comprehensive guides covering all aspects of Digimon Story: Time Stranger. Check back regularly for updates!
+            We&apos;re actively working on more comprehensive guides covering all aspects of Digimon Story: Time Stranger. Check back regularly for updates!
           </p>
           <p className="text-sm text-gray-600 dark:text-gray-400">
             Want to request a specific guide? Let us know through our feedback channels.

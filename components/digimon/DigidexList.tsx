@@ -33,7 +33,7 @@ export default function DigidexList({ initialDigimon }: DigidexListProps) {
 
   // Filter and sort Digimon
   const filteredDigimon = useMemo(() => {
-    let filtered = initialDigimon.filter((digimon) => {
+    const filtered = initialDigimon.filter((digimon) => {
       const matchesSearch = digimon.name
         .toLowerCase()
         .includes(searchQuery.toLowerCase());

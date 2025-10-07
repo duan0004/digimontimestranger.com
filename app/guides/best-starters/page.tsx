@@ -78,10 +78,10 @@ export default function BestStartersGuidePage() {
             {/* Introduction */}
             <section className="mb-12">
               <p className="text-xl leading-relaxed text-gray-700 dark:text-gray-300">
-                Choosing your first Digimon partner in <strong>Digimon Story: Time Stranger</strong> is one of the most important decisions you'll make in your journey. While you'll eventually have access to hundreds of Digimon, your starter will carry you through the critical early game hours and set the foundation for your team composition.
+                Choosing your first Digimon partner in <strong>Digimon Story: Time Stranger</strong> is one of the most important decisions you&apos;ll make in your journey. While you&apos;ll eventually have access to hundreds of Digimon, your starter will carry you through the critical early game hours and set the foundation for your team composition.
               </p>
               <p className="text-gray-700 dark:text-gray-300">
-                In this comprehensive guide, we'll analyze all available starter options, their evolution paths, stat distributions, and ideal team synergies. Whether you're a returning Digimon veteran or brand new to the series, this guide will help you make an informed choice that matches your playstyle.
+                In this comprehensive guide, we&apos;ll analyze all available starter options, their evolution paths, stat distributions, and ideal team synergies. Whether you&apos;re a returning Digimon veteran or brand new to the series, this guide will help you make an informed choice that matches your playstyle.
               </p>
             </section>
 
@@ -113,7 +113,7 @@ export default function BestStartersGuidePage() {
                 Understanding Starter Mechanics
               </h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                Before diving into specific recommendations, it's crucial to understand how starter Digimon work in Time Stranger:
+                Before diving into specific recommendations, it&apos;s crucial to understand how starter Digimon work in Time Stranger:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300">
                 <li><strong>Permanent Stat Bonus:</strong> Your starter receives a permanent +5% bonus to all base stats, making it slightly stronger than the same Digimon obtained later.</li>
@@ -309,7 +309,7 @@ export default function BestStartersGuidePage() {
                     <span className="font-semibold whitespace-nowrap">Gallantmon</span>
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                    <strong>Evolution Tip:</strong> Save "Crimson Mode" evolution for post-game content.
+                    <strong>Evolution Tip:</strong> Save &quot;Crimson Mode&quot; evolution for post-game content.
                   </p>
                 </div>
               </div>
@@ -321,28 +321,28 @@ export default function BestStartersGuidePage() {
                 Early Game Team Building Tips
               </h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                Your starter is just the foundation. Here's how to build a balanced early-game team around each starter:
+                Your starter is just the foundation. Here&apos;s how to build a balanced early-game team around each starter:
               </p>
 
               <div className="space-y-4">
                 <div className="card p-4">
                   <h4 className="font-bold text-gray-900 dark:text-white mb-2">For Agumon Starters:</h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    Add a Water-type like Gomamon or Palmon (Plant) to cover Fire's weakness. Include a support Digimon like Patamon for healing.
+                    Add a Water-type like Gomamon or Palmon (Plant) to cover Fire&apos;s weakness. Include a support Digimon like Patamon for healing.
                   </p>
                 </div>
 
                 <div className="card p-4">
                   <h4 className="font-bold text-gray-900 dark:text-white mb-2">For Veemon Starters:</h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    Since Veemon lacks bulk, add defensive Digimon like Armadillomon or Kotemon. Use Veemon's speed to strike first and eliminate threats.
+                    Since Veemon lacks bulk, add defensive Digimon like Armadillomon or Kotemon. Use Veemon&apos;s speed to strike first and eliminate threats.
                   </p>
                 </div>
 
                 <div className="card p-4">
                   <h4 className="font-bold text-gray-900 dark:text-white mb-2">For Guilmon Starters:</h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    Complement Guilmon's slow speed with fast attackers like Terriermon or Renamon. Let Guilmon tank hits while others deal damage.
+                    Complement Guilmon&apos;s slow speed with fast attackers like Terriermon or Renamon. Let Guilmon tank hits while others deal damage.
                   </p>
                 </div>
               </div>
@@ -357,7 +357,7 @@ export default function BestStartersGuidePage() {
                 <div className="border-l-4 border-red-500 pl-4 py-2 bg-red-50 dark:bg-red-900/20">
                   <h4 className="font-bold text-red-900 dark:text-red-300 mb-1">❌ Evolving Too Early</h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    Wait until your starter learns its signature Rookie-level move before evolving. For Agumon, that's Claw Swipe at Level 16.
+                    Wait until your starter learns its signature Rookie-level move before evolving. For Agumon, that&apos;s Claw Swipe at Level 16.
                   </p>
                 </div>
 
@@ -371,7 +371,7 @@ export default function BestStartersGuidePage() {
                 <div className="border-l-4 border-red-500 pl-4 py-2 bg-red-50 dark:bg-red-900/20">
                   <h4 className="font-bold text-red-900 dark:text-red-300 mb-1">❌ Over-Relying on Your Starter</h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    While starters are strong, don't neglect building a diverse team. Some bosses will hard counter your starter's typing.
+                    While starters are strong, don&apos;t neglect building a diverse team. Some bosses will hard counter your starter&apos;s typing.
                   </p>
                 </div>
               </div>
@@ -405,10 +405,10 @@ export default function BestStartersGuidePage() {
                 While all starters are viable in Time Stranger, <strong>Agumon</strong> remains the safest and most beginner-friendly choice. Its balanced stats, straightforward evolution path, and powerful end-game form make it an excellent companion from start to finish.
               </p>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                However, if you value speed and tactical depth, <strong>Veemon</strong> offers incredible versatility. For players who prefer defensive playstyles, <strong>Guilmon's</strong> tankiness is unmatched.
+                However, if you value speed and tactical depth, <strong>Veemon</strong> offers incredible versatility. For players who prefer defensive playstyles, <strong>Guilmon&apos;s</strong> tankiness is unmatched.
               </p>
               <p className="text-gray-700 dark:text-gray-300">
-                Remember: your starter choice matters most for the first 10-15 hours of gameplay. By mid-game, you'll have access to dozens of powerful Digimon, so choose the starter that appeals to your personal playstyle and enjoy the journey!
+                Remember: your starter choice matters most for the first 10-15 hours of gameplay. By mid-game, you&apos;ll have access to dozens of powerful Digimon, so choose the starter that appeals to your personal playstyle and enjoy the journey!
               </p>
             </section>
 

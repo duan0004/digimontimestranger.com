@@ -39,10 +39,10 @@ export default function AboutPage() {
                 </h2>
               </div>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
-                We're passionate Digimon fans dedicated to creating the most comprehensive and user-friendly strategy guide for <strong>Digimon Story: Time Stranger</strong>. Our goal is to help Tamers of all skill levels master the game through detailed guides, interactive tools, and up-to-date information.
+                We&apos;re passionate Digimon fans dedicated to creating the most comprehensive and user-friendly strategy guide for <strong>Digimon Story: Time Stranger</strong>. Our goal is to help Tamers of all skill levels master the game through detailed guides, interactive tools, and up-to-date information.
               </p>
               <p className="text-gray-700 dark:text-gray-300">
-                Whether you're a newcomer to the Digimon World or a veteran Tamer, we're here to support your journey through Time Stranger with quality content, accurate data, and helpful resources.
+                Whether you&apos;re a newcomer to the Digimon World or a veteran Tamer, we&apos;re here to support your journey through Time Stranger with quality content, accurate data, and helpful resources.
               </p>
             </div>
           </section>
@@ -141,7 +141,7 @@ export default function AboutPage() {
             </h2>
             <div className="card p-6">
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                Have suggestions, found an error, or want to contribute? We'd love to hear from you!
+                Have suggestions, found an error, or want to contribute? We&apos;d love to hear from you!
               </p>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">

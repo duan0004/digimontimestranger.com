@@ -23,7 +23,7 @@ export default function FastLevelingGuidePage() {
           Coming Soon
         </p>
         <p className="text-gray-700 dark:text-gray-300 mb-8">
-          We're working hard on this comprehensive fast leveling guide. Check back soon!
+          We&apos;re working hard on this comprehensive fast leveling guide. Check back soon!
         </p>
         <Link
           href="/guides"

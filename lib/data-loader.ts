@@ -52,9 +52,9 @@ function csvRowToDigimon(row: DigimonCSVRow): Digimon {
     id: row.id,
     slug: row.slug,
     name: row.name,
-    stage: row.stage as any,
-    attribute: row.attribute as any,
-    element: row.element as any,
+    stage: row.stage as Digimon['stage'],
+    attribute: row.attribute as Digimon['attribute'],
+    element: row.element as Digimon['element'],
     memory: parseInt(row.memory, 10),
     baseStats: {
       hp: parseInt(row.base_hp, 10),
