@@ -16,7 +16,20 @@ export const metadata: Metadata = generateMetadata({
   url: '/updates',
 });
 
-const updates = [
+type UpdateType = 'release' | 'patch' | 'hotfix';
+type ChangeType = 'new' | 'fix' | 'improvement';
+
+interface Update {
+  version: string;
+  date: string;
+  type: UpdateType;
+  changes: {
+    type: ChangeType;
+    text: string;
+  }[];
+}
+
+const updates: Update[] = [
   {
     version: '1.0.2',
     date: '2025-01-05',
@@ -49,13 +62,13 @@ const updates = [
   },
 ];
 
-const typeColors = {
+const typeColors: Record<ChangeType, string> = {
   new: 'bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300',
   fix: 'bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300',
   improvement: 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300',
 };
 
-const typeIcons = {
+const typeIcons: Record<UpdateType, React.ComponentType<{ className?: string }>> = {
   release: Sparkles,
   patch: Download,
   hotfix: Bug,
