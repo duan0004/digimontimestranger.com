@@ -10,6 +10,7 @@ const navigation = [
   { name: 'Evolution', href: '/evolution' },
   { name: 'Team Builder', href: '/tools/team-builder' },
   { name: 'Guides', href: '/guides' },
+  { name: 'Community', href: '/community' },
   { name: 'Updates', href: '/updates' },
   { name: 'PC/Deck', href: '/pc/steam-deck' },
 ];

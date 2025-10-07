@@ -13,6 +13,7 @@ const footerLinks = {
     { name: 'Digidex', href: '/digidex' },
   ],
   resources: [
+    { name: 'Community Forum', href: '/community' },
     { name: 'PC Settings', href: '/pc/steam-deck' },
     { name: 'Updates & Patches', href: '/updates' },
     { name: 'About', href: '/about' },
