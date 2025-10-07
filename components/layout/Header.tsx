@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Digidex', href: '/digidex' },
   { name: 'Evolution', href: '/evolution' },
   { name: 'Team Builder', href: '/tools/team-builder' },
+  { name: 'Database', href: '/database' },
   { name: 'Guides', href: '/guides' },
   { name: 'Community', href: '/community' },
   { name: 'Updates', href: '/updates' },

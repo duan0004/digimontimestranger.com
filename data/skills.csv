@@ -1,0 +1,31 @@
+id,name,type,element,damageType,target,power,spCost,accuracy,criticalRate,effect,description
+1,Angel Ladder I,attack,light,physical,all-enemies,25,45,90,5,,Physical Light attack that hits all enemies
+2,Acceleration Boost,buff,none,none,single-ally,0,25,100,0,charge-physical,Grants Charge Physical buff to one ally
+3,Heal,recovery,none,none,single-ally,0,25,100,0,heal-moderate,Moderately recovers HP for one ally
+4,Mega Heal,recovery,none,none,single-ally,0,50,100,0,heal-large,Greatly recovers HP for one ally
+5,Meditation,recovery,none,none,self,0,0,100,0,heal-small-sp,Slightly recovers SP for self
+6,Restore,recovery,none,none,single-ally,0,40,100,0,cure-status,Cures status ailments for one ally
+7,Mass Restore,recovery,none,none,all-allies,0,80,100,0,cure-status-all,Cures status ailments for all allies
+8,Fire Blast I,attack,fire,magic,single-enemy,50,30,95,5,,Magic Fire attack that hits one enemy
+9,Water Blast I,attack,water,magic,single-enemy,50,30,95,5,,Magic Water attack that hits one enemy
+10,Wind Blast I,attack,wind,magic,single-enemy,50,30,95,5,,Magic Wind attack that hits one enemy
+11,Earth Blast I,attack,earth,magic,single-enemy,50,30,95,5,,Magic Earth attack that hits one enemy
+12,Thunder Blast I,attack,thunder,magic,single-enemy,50,30,95,5,,Magic Thunder attack that hits one enemy
+13,Ice Blast I,attack,ice,magic,single-enemy,50,30,95,5,,Magic Ice attack that hits one enemy
+14,Light Blast I,attack,light,magic,single-enemy,50,30,95,5,,Magic Light attack that hits one enemy
+15,Dark Blast I,attack,dark,magic,single-enemy,50,30,95,5,,Magic Dark attack that hits one enemy
+16,Attack Charge,buff,none,none,single-ally,0,20,100,0,buff-attack,Increases ATK for one ally
+17,Defense Charge,buff,none,none,single-ally,0,20,100,0,buff-defense,Increases DEF for one ally
+18,Speed Charge,buff,none,none,single-ally,0,20,100,0,buff-speed,Increases SPD for one ally
+19,Intelligence Charge,buff,none,none,single-ally,0,20,100,0,buff-intelligence,Increases INT for one ally
+20,Attack Break,debuff,none,none,single-enemy,0,25,85,0,debuff-attack,Decreases enemy ATK
+21,Defense Break,debuff,none,none,single-enemy,0,25,85,0,debuff-defense,Decreases enemy DEF
+22,Speed Break,debuff,none,none,single-enemy,0,25,85,0,debuff-speed,Decreases enemy SPD
+23,Intelligence Break,debuff,none,none,single-enemy,0,25,85,0,debuff-intelligence,Decreases enemy INT
+24,Poison Breath,status,poison,physical,single-enemy,30,20,80,0,poison,Physical attack that may inflict Poison
+25,Paralyze Breath,status,thunder,physical,single-enemy,30,20,80,0,paralyze,Physical attack that may inflict Paralyze
+26,Sleep Powder,status,none,magic,all-enemies,0,35,70,0,sleep,May inflict Sleep on all enemies
+27,Confusion Gas,status,none,magic,all-enemies,0,35,70,0,confusion,May inflict Confusion on all enemies
+28,Revive,recovery,none,none,single-ally,0,100,100,0,revive,Revives one fallen ally with 50% HP
+29,Full Revive,recovery,none,none,single-ally,0,150,100,0,revive-full,Revives one fallen ally with full HP
+30,Dispel,support,none,none,single-enemy,0,30,100,0,remove-buffs,Removes all buffs from one enemy

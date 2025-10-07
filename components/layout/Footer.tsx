@@ -11,6 +11,7 @@ const footerLinks = {
     { name: 'Team Builder', href: '/tools/team-builder' },
     { name: 'Evolution Tree', href: '/evolution' },
     { name: 'Digidex', href: '/digidex' },
+    { name: 'Database', href: '/database' },
   ],
   resources: [
     { name: 'Community Forum', href: '/community' },

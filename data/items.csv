@@ -1,0 +1,51 @@
+id,name,category,subcategory,effect,value,description,buyPrice,sellPrice,rarity
+1,HP Capsule 50,consumable,healing,heal-hp-50,50,Recovers 50 HP for one Digimon,100,25,common
+2,HP Capsule 100,consumable,healing,heal-hp-100,100,Recovers 100 HP for one Digimon,200,50,common
+3,HP Capsule 200,consumable,healing,heal-hp-200,200,Recovers 200 HP for one Digimon,400,100,uncommon
+4,HP Capsule Max,consumable,healing,heal-hp-full,999,Fully recovers HP for one Digimon,1000,250,rare
+5,SP Capsule 50,consumable,healing,heal-sp-50,50,Recovers 50 SP for one Digimon,150,38,common
+6,SP Capsule 100,consumable,healing,heal-sp-100,100,Recovers 100 SP for one Digimon,300,75,common
+7,SP Capsule 200,consumable,healing,heal-sp-200,200,Recovers 200 SP for one Digimon,600,150,uncommon
+8,SP Capsule Max,consumable,healing,heal-sp-full,999,Fully recovers SP for one Digimon,1500,375,rare
+9,Medical Spray,consumable,healing,heal-all-hp-50,50,Recovers 50 HP for all Digimon,500,125,uncommon
+10,Full Medical Spray,consumable,healing,heal-all-hp-full,999,Fully recovers HP for all Digimon,2500,625,rare
+11,Antidote,consumable,status,cure-poison,0,Cures Poison status,50,13,common
+12,Stimulant,consumable,status,cure-paralyze,0,Cures Paralyze status,50,13,common
+13,Awakening,consumable,status,cure-sleep,0,Cures Sleep status,50,13,common
+14,Mental Patch,consumable,status,cure-confusion,0,Cures Confusion status,50,13,common
+15,All Recovery,consumable,status,cure-all-status,0,Cures all status ailments,200,50,uncommon
+16,Revive,consumable,revival,revive-50,50,Revives one Digimon with 50% HP,500,125,uncommon
+17,Full Revive,consumable,revival,revive-100,100,Revives one Digimon with full HP,1500,375,rare
+18,Attack Chip,consumable,stat-boost,boost-attack,10,Permanently increases ATK by 10,5000,1250,rare
+19,Defense Chip,consumable,stat-boost,boost-defense,10,Permanently increases DEF by 10,5000,1250,rare
+20,Speed Chip,consumable,stat-boost,boost-speed,10,Permanently increases SPD by 10,5000,1250,rare
+21,Intelligence Chip,consumable,stat-boost,boost-intelligence,10,Permanently increases INT by 10,5000,1250,rare
+22,HP Chip,consumable,stat-boost,boost-hp,50,Permanently increases MAX HP by 50,5000,1250,rare
+23,SP Chip,consumable,stat-boost,boost-sp,20,Permanently increases MAX SP by 20,5000,1250,rare
+24,Courage Stone,evolution,digivice,digivolve-courage,0,Required for certain Courage-attribute evolutions,10000,2500,epic
+25,Friendship Stone,evolution,digivice,digivolve-friendship,0,Required for certain Friendship-attribute evolutions,10000,2500,epic
+26,Love Stone,evolution,digivice,digivolve-love,0,Required for certain Love-attribute evolutions,10000,2500,epic
+27,Knowledge Stone,evolution,digivice,digivolve-knowledge,0,Required for certain Knowledge-attribute evolutions,10000,2500,epic
+28,Sincerity Stone,evolution,digivice,digivolve-sincerity,0,Required for certain Sincerity-attribute evolutions,10000,2500,epic
+29,Reliability Stone,evolution,digivice,digivolve-reliability,0,Required for certain Reliability-attribute evolutions,10000,2500,epic
+30,Hope Stone,evolution,digivice,digivolve-hope,0,Required for certain Hope-attribute evolutions,10000,2500,epic
+31,Light Stone,evolution,digivice,digivolve-light,0,Required for certain Light-attribute evolutions,10000,2500,epic
+32,Topaz,collectible,gem,sell-value,0,A beautiful gemstone - can be sold for gold,0,500,uncommon
+33,Ruby,collectible,gem,sell-value,0,A precious red gemstone - can be sold for gold,0,1000,rare
+34,Sapphire,collectible,gem,sell-value,0,A precious blue gemstone - can be sold for gold,0,1000,rare
+35,Emerald,collectible,gem,sell-value,0,A precious green gemstone - can be sold for gold,0,1000,rare
+36,Diamond,collectible,gem,sell-value,0,A brilliant gemstone - can be sold for gold,0,2500,epic
+37,Agumon Card,collectible,card,collection,0,A collectible card featuring Agumon,0,100,common
+38,Gabumon Card,collectible,card,collection,0,A collectible card featuring Gabumon,0,100,common
+39,Patamon Card,collectible,card,collection,0,A collectible card featuring Patamon,0,100,common
+40,Tailmon Card,collectible,card,collection,0,A collectible card featuring Tailmon,0,100,common
+41,Fire Attachment,equipment,attachment,boost-fire-damage,15,Increases Fire damage by 15%,3000,750,uncommon
+42,Water Attachment,equipment,attachment,boost-water-damage,15,Increases Water damage by 15%,3000,750,uncommon
+43,Wind Attachment,equipment,attachment,boost-wind-damage,15,Increases Wind damage by 15%,3000,750,uncommon
+44,Earth Attachment,equipment,attachment,boost-earth-damage,15,Increases Earth damage by 15%,3000,750,uncommon
+45,Light Attachment,equipment,attachment,boost-light-damage,15,Increases Light damage by 15%,3000,750,uncommon
+46,Dark Attachment,equipment,attachment,boost-dark-damage,15,Increases Dark damage by 15%,3000,750,uncommon
+47,Courage Points S,consumable,exp-boost,exp-boost-small,500,Grants 500 EXP to one Digimon,300,75,common
+48,Courage Points M,consumable,exp-boost,exp-boost-medium,1500,Grants 1500 EXP to one Digimon,900,225,uncommon
+49,Courage Points L,consumable,exp-boost,exp-boost-large,5000,Grants 5000 EXP to one Digimon,3000,750,rare
+50,Friendship Berry,consumable,bond-boost,bond-boost,10,Increases Digimon Bond by 10 points,500,125,uncommon
