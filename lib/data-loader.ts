@@ -94,7 +94,7 @@ export async function loadDigimonData(): Promise<Digimon[]> {
         const digimon = results.data.map(csvRowToDigimon);
         resolve(digimon);
       },
-      error: (error) => {
+      error: (error: Error) => {
         console.error('Error parsing CSV:', error);
         reject(error);
       },
