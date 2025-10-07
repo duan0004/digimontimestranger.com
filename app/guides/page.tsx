@@ -31,7 +31,7 @@ const guides = [
     description: 'Master evolution mechanics, requirements, and optimal evolution timing for all Digimon.',
     href: '/guides/evolution-guide',
     icon: TrendingUp,
-    status: 'coming-soon',
+    status: 'available',
     readTime: '12 min',
   },
   {
@@ -39,7 +39,7 @@ const guides = [
     description: 'Advanced team composition, role balance, and synergy strategies for competitive play.',
     href: '/guides/team-building',
     icon: Users,
-    status: 'coming-soon',
+    status: 'available',
     readTime: '10 min',
   },
   {
@@ -47,7 +47,7 @@ const guides = [
     description: 'Efficient leveling paths, best grinding locations, and XP optimization techniques.',
     href: '/guides/fast-leveling',
     icon: Zap,
-    status: 'coming-soon',
+    status: 'available',
     readTime: '7 min',
   },
   {
@@ -63,7 +63,7 @@ const guides = [
     description: 'Detailed strategies for every boss encounter with recommended teams and counter tactics.',
     href: '/guides/boss-strategies',
     icon: Gamepad2,
-    status: 'coming-soon',
+    status: 'available',
     readTime: '15 min',
   },
 ];
