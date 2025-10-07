@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { generateMetadata } from '@/lib/seo';
 import Link from 'next/link';
-import { Database, Zap, Package, Users, TrendingUp, BookOpen, ArrowRight } from 'lucide-react';
+import { Database, Zap, Package, Users, TrendingUp, BookOpen, ArrowRight, Shield, Award, Activity } from 'lucide-react';
 
 export const metadata: Metadata = generateMetadata({
   title: 'Game Database - Digimon Time Stranger',
@@ -55,6 +55,33 @@ const databases = [
     count: '100+',
     link: '/evolution',
   },
+  {
+    id: 'agent-skills',
+    name: 'Agent Skills',
+    description: 'Bond-based abilities and perfection skills for team enhancement',
+    icon: Shield,
+    color: 'cyan',
+    count: '20+',
+    link: '/database/agent-skills',
+  },
+  {
+    id: 'personalities',
+    name: 'Personalities',
+    description: 'Personality types and their stat growth bonuses',
+    icon: Award,
+    color: 'pink',
+    count: '16',
+    link: '/database/personalities',
+  },
+  {
+    id: 'stats',
+    name: 'Stats Guide',
+    description: 'Comprehensive guide to all stats, formulas, and damage calculations',
+    icon: Activity,
+    color: 'orange',
+    count: '7',
+    link: '/database/stats',
+  },
 ];
 
 const colorClasses: Record<string, { bg: string; text: string; border: string }> = {
@@ -77,6 +104,21 @@ const colorClasses: Record<string, { bg: string; text: string; border: string }>
     bg: 'bg-purple-100 dark:bg-purple-900',
     text: 'text-purple-600 dark:text-purple-400',
     border: 'border-purple-200 dark:border-purple-800',
+  },
+  cyan: {
+    bg: 'bg-cyan-100 dark:bg-cyan-900',
+    text: 'text-cyan-600 dark:text-cyan-400',
+    border: 'border-cyan-200 dark:border-cyan-800',
+  },
+  pink: {
+    bg: 'bg-pink-100 dark:bg-pink-900',
+    text: 'text-pink-600 dark:text-pink-400',
+    border: 'border-pink-200 dark:border-pink-800',
+  },
+  orange: {
+    bg: 'bg-orange-100 dark:bg-orange-900',
+    text: 'text-orange-600 dark:text-orange-400',
+    border: 'border-orange-200 dark:border-orange-800',
   },
 };
 
