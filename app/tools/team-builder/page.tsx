@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { generateMetadata } from '@/lib/seo';
 import TeamBuilderClient from '@/components/tools/TeamBuilderClient';
+import { loadDigimonData } from '@/lib/data-loader';
 
 export const metadata: Metadata = generateMetadata({
   title: 'Team Builder Tool - Build Perfect Digimon Teams',
@@ -17,7 +18,8 @@ export const metadata: Metadata = generateMetadata({
   url: '/tools/team-builder',
 });
 
-export default function TeamBuilderPage() {
+export default async function TeamBuilderPage() {
+  const allDigimon = await loadDigimonData();
   return (
     <>
       <script
@@ -53,7 +55,7 @@ export default function TeamBuilderPage() {
         </div>
 
         {/* Main Content */}
-        <TeamBuilderClient />
+        <TeamBuilderClient allDigimon={allDigimon} />
       </div>
     </>
   );

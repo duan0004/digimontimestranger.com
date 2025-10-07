@@ -3,12 +3,14 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Users, Share2, Save, Trash2, Download, Upload, TrendingUp } from 'lucide-react';
 import { Digimon, TeamMember, Element } from '@/types/digimon';
-import { getSampleDigimonData } from '@/lib/data-loader';
 import DigimonSelector from './DigimonSelector';
 import TeamStats from './TeamStats';
 
-export default function TeamBuilderClient() {
-  const [allDigimon, setAllDigimon] = useState<Digimon[]>([]);
+interface TeamBuilderClientProps {
+  allDigimon: Digimon[];
+}
+
+export default function TeamBuilderClient({ allDigimon }: TeamBuilderClientProps) {
   const [team, setTeam] = useState<TeamMember[]>(
     Array.from({ length: 6 }, (_, i) => ({ slot: i }))
   );
@@ -16,16 +18,8 @@ export default function TeamBuilderClient() {
   const [selectedSlot, setSelectedSlot] = useState<number | null>(null);
   const [showSelector, setShowSelector] = useState(false);
 
-  // Load Digimon data
+  // Load saved team from localStorage
   useEffect(() => {
-    const loadData = async () => {
-      // TODO: Replace with actual data loader when available
-      const data = getSampleDigimonData();
-      setAllDigimon(data);
-    };
-    loadData();
-
-    // Load saved team from localStorage
     const saved = localStorage.getItem('dts_team_state_v1');
     if (saved) {
       try {
