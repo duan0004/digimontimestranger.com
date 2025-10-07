@@ -4,6 +4,8 @@ import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { generateMetadata } from '@/lib/seo';
+import GoogleAnalytics from '@/components/analytics/GoogleAnalytics';
+import GoogleAdsense from '@/components/ads/GoogleAdsense';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -57,6 +59,8 @@ export default function RootLayout({
             }),
           }}
         />
+        <GoogleAnalytics />
+        <GoogleAdsense />
       </head>
       <body className="antialiased">
         <div className="flex flex-col min-h-screen">
