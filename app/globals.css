@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Animated Background Gradients */
+@keyframes gradient {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes gradient-slow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+}
+
 /* Premium Design System for Digimon Time Stranger */
 
 @layer base {

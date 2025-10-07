@@ -37,6 +37,20 @@ module.exports = {
         sans: ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
         mono: ['JetBrains Mono', 'Courier New', 'monospace'],
       },
+      animation: {
+        'gradient': 'gradient 8s ease-in-out infinite',
+        'gradient-slow': 'gradient-slow 15s ease-in-out infinite',
+      },
+      keyframes: {
+        gradient: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.8' },
+        },
+        'gradient-slow': {
+          '0%, 100%': { opacity: '0.3', transform: 'scale(1)' },
+          '50%': { opacity: '0.5', transform: 'scale(1.1)' },
+        },
+      },
     },
   },
   plugins: [],
