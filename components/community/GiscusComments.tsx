@@ -16,7 +16,7 @@ interface GiscusCommentsProps {
 
 export default function GiscusComments({
   category = 'General',
-  categoryId = 'DIC_kwDONX7Ues4Ckt_Q',
+  categoryId = 'DIC_kwDOP9rmts4CwWJ5',
   mapping = 'pathname',
   term,
   reactionsEnabled = true,
@@ -45,7 +45,7 @@ export default function GiscusComments({
     const script = document.createElement('script');
     script.src = 'https://giscus.app/client.js';
     script.setAttribute('data-repo', 'duan0004/digimontimestranger.com');
-    script.setAttribute('data-repo-id', 'R_kgDONX7Ueg');
+    script.setAttribute('data-repo-id', 'R_kgDOP9rmtg');
     script.setAttribute('data-category', category);
     script.setAttribute('data-category-id', categoryId);
     script.setAttribute('data-mapping', mapping);
