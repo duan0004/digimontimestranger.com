@@ -1,0 +1,188 @@
+{
+  "common": {
+    "readMore": "Magbasa pa",
+    "search": "Maghanap",
+    "filter": "I-filter",
+    "sort": "Ayusin",
+    "loading": "Naglo-load...",
+    "error": "May naganap na error",
+    "notFound": "Hindi nahanap",
+    "backToHome": "Bumalik sa home"
+  },
+  "nav": {
+    "home": "Home",
+    "digidex": "Digidex",
+    "guides": "Mga Gabay",
+    "evolution": "Ebolusyon",
+    "bosses": "Mga Boss",
+    "walkthroughs": "Mga Walkthrough",
+    "tools": "Mga Tool",
+    "community": "Komunidad",
+    "about": "Tungkol"
+  },
+  "home": {
+    "title": "Digimon Story: Time Stranger",
+    "subtitle": "Ang iyong kumpletong gabay sa Digital World",
+    "description": "Tuklasin ang komprehensibong mga gabay, evolution trees, boss strategies at community resources para sa Digimon Story: Time Stranger.",
+    "hero": {
+      "title": "Maligayang pagdating sa Digital World",
+      "subtitle": "Ang iyong pinakamahusay na gabay para sa Digimon Story: Time Stranger",
+      "cta": "I-explore ang Digidex"
+    },
+    "features": {
+      "title": "Lahat ng kailangan mo",
+      "digidex": {
+        "title": "Kumpletong Digidex",
+        "description": "Detalyadong stats, evolution paths at mga lokasyon para sa bawat Digimon"
+      },
+      "guides": {
+        "title": "Mga Expert na Gabay",
+        "description": "Malalim na walkthrough, mga estratehiya at tips mula sa mga bihasang manlalaro"
+      },
+      "evolution": {
+        "title": "Mga Evolution Tree",
+        "description": "Interactive na evolution charts na nagpapakita ng lahat ng daan at mga kinakailangan"
+      },
+      "bosses": {
+        "title": "Mga Boss Strategy",
+        "description": "Napatunayang mga taktika at team composition para sa bawat boss battle"
+      }
+    },
+    "quickStart": {
+      "title": "Mabilis na Gabay sa Pagsisimula",
+      "beginner": "Bago sa laro? Magsimula dito!",
+      "evolution": "Matuto tungkol sa Digimon evolution",
+      "team": "Bumuo ng iyong perpektong team"
+    },
+    "popularGuides": {
+      "title": "Mga Sikat na Gabay",
+      "evolutionGuide": "Gabay sa Digimon Evolution",
+      "teamBuilding": "Mga Estratehiya sa Pagbuo ng Team",
+      "storyBranches": "Mga Sanga ng Kwento at Mga Ending",
+      "memoryManagement": "Mga Tip sa Memory Management"
+    },
+    "recentUpdates": {
+      "title": "Mga Kamakailang Update",
+      "seeAll": "Tingnan Lahat ng Update"
+    },
+    "community": {
+      "title": "Sumali sa Aming Komunidad",
+      "description": "Makipag-ugnayan sa ibang mga Tamer, magbahagi ng mga estratehiya at manatiling updated",
+      "discord": "Sumali sa Discord",
+      "forum": "Bisitahin ang Forum"
+    }
+  },
+  "digidex": {
+    "title": "Digidex",
+    "description": "I-browse ang lahat ng Digimon na may detalyadong stats at evolution paths",
+    "searchPlaceholder": "Maghanap ng Digimon...",
+    "filters": {
+      "all": "Lahat",
+      "stage": "Stage",
+      "attribute": "Attribute",
+      "element": "Element"
+    },
+    "stats": {
+      "hp": "HP",
+      "atk": "ATK",
+      "def": "DEF",
+      "spAtk": "SP.ATK",
+      "spDef": "SP.DEF",
+      "speed": "BILIS"
+    }
+  },
+  "digimon": {
+    "baseStats": "Base Stats",
+    "skills": "Mga Skill",
+    "evolvesTo": "Umuusbong sa",
+    "devolvesFrom": "Nag-devolve mula sa",
+    "locations": "Mga Lokasyon",
+    "memory": "Memory",
+    "quickLinks": "Mga Mabilis na Link",
+    "viewEvolutionTree": "Tingnan ang Evolution Tree",
+    "addToTeamBuilder": "Idagdag sa Team Builder",
+    "backToDigidex": "Bumalik sa Digidex",
+    "howToGet": "Paano makuha ang {name}",
+    "foundIn": "Matatagpuan ang {name} sa: {locations}",
+    "obtainThroughEvolution": "Maaaring makuha ang {name} sa pamamagitan ng evolution"
+  },
+  "guides": {
+    "title": "Mga Gabay",
+    "description": "Komprehensibong mga gabay at estratehiya",
+    "categories": {
+      "beginner": "Baguhan",
+      "advanced": "Advanced",
+      "evolution": "Evolution",
+      "team": "Pagbuo ng Team",
+      "story": "Kwento"
+    }
+  },
+  "evolution": {
+    "title": "Mga Evolution Tree",
+    "description": "Interactive na evolution charts at mga kinakailangan",
+    "requirements": "Mga Kinakailangan",
+    "level": "Level {level}",
+    "stats": "Mga Kinakailangang Stat"
+  },
+  "bosses": {
+    "title": "Mga Gabay sa Boss",
+    "description": "Mga estratehiya at rekomendasyon ng team para sa mga boss battle",
+    "difficulty": "Kahirapan",
+    "recommendedLevel": "Inirerekomendang Level",
+    "weaknesses": "Mga Kahinaan",
+    "strategy": "Estratehiya",
+    "teamComposition": "Inirerekomendang Team"
+  },
+  "walkthroughs": {
+    "title": "Mga Walkthrough",
+    "description": "Step-by-step na mga gabay para sa mga kabanata ng kwento",
+    "chapter": "Kabanata {number}",
+    "objectives": "Mga Layunin",
+    "rewards": "Mga Gantimpala"
+  },
+  "tools": {
+    "title": "Mga Tool",
+    "description": "Mga kapaki-pakinabang na calculator at builder",
+    "teamBuilder": {
+      "title": "Team Builder",
+      "description": "Bumuo at suriin ang iyong perpektong Digimon team"
+    },
+    "statCalculator": {
+      "title": "Stat Calculator",
+      "description": "Kalkulahin ang final stats sa iba't ibang build"
+    }
+  },
+  "community": {
+    "title": "Komunidad",
+    "description": "Makipag-ugnayan sa ibang mga manlalaro",
+    "categories": {
+      "discussion": "Pangkalahatang Talakayan",
+      "strategy": "Estratehiya at Mga Tip",
+      "showcase": "Pagpapakita ng Team",
+      "questions": "Mga Tanong"
+    }
+  },
+  "footer": {
+    "description": "Ang iyong kumpletong gabay para sa Digimon Story: Time Stranger",
+    "quickLinks": "Mga Mabilis na Link",
+    "resources": "Mga Mapagkukunan",
+    "community": "Komunidad",
+    "legal": "Legal",
+    "copyright": "© 2024 Gabay sa Digimon Story Time Stranger. Lahat ng karapatan ay nakalaan.",
+    "disclaimer": "Ito ay isang gabay na ginawa ng mga tagahanga. Ang Digimon ay trademark ng Bandai Namco."
+  },
+  "seo": {
+    "home": {
+      "title": "Digimon Story: Time Stranger - Kumpletong Gabay at Database",
+      "description": "Komprehensibong gabay para sa Digimon Story: Time Stranger. Kumpletong Digidex, evolution trees, boss strategies, walkthrough at community resources."
+    },
+    "digidex": {
+      "title": "Digidex - Kumpletong Digimon Database | Digimon Story Time Stranger",
+      "description": "I-browse ang lahat ng Digimon na may detalyadong stats, evolution paths, mga lokasyon at skills. Kumpletong database para sa Digimon Story: Time Stranger."
+    },
+    "guides": {
+      "title": "Mga Gabay at Estratehiya | Digimon Story Time Stranger",
+      "description": "Expert na mga gabay, estratehiya at tips para sa Digimon Story: Time Stranger. Evolution guides, team building at advanced tactics."
+    }
+  }
+}

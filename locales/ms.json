@@ -1,0 +1,188 @@
+{
+  "common": {
+    "readMore": "Baca lagi",
+    "search": "Cari",
+    "filter": "Tapis",
+    "sort": "Isih",
+    "loading": "Memuatkan...",
+    "error": "Ralat berlaku",
+    "notFound": "Tidak dijumpai",
+    "backToHome": "Kembali ke laman utama"
+  },
+  "nav": {
+    "home": "Laman Utama",
+    "digidex": "Digidex",
+    "guides": "Panduan",
+    "evolution": "Evolusi",
+    "bosses": "Bos",
+    "walkthroughs": "Walkthrough",
+    "tools": "Alatan",
+    "community": "Komuniti",
+    "about": "Tentang"
+  },
+  "home": {
+    "title": "Digimon Story: Time Stranger",
+    "subtitle": "Panduan lengkap anda ke Dunia Digital",
+    "description": "Terokai panduan komprehensif, pokok evolusi, strategi bos dan sumber komuniti untuk Digimon Story: Time Stranger.",
+    "hero": {
+      "title": "Selamat datang ke Dunia Digital",
+      "subtitle": "Panduan utama anda untuk Digimon Story: Time Stranger",
+      "cta": "Teroka Digidex"
+    },
+    "features": {
+      "title": "Semua yang anda perlukan",
+      "digidex": {
+        "title": "Digidex Lengkap",
+        "description": "Statistik terperinci, laluan evolusi dan lokasi untuk setiap Digimon"
+      },
+      "guides": {
+        "title": "Panduan Pakar",
+        "description": "Walkthrough mendalam, strategi dan petua daripada pemain berpengalaman"
+      },
+      "evolution": {
+        "title": "Pokok Evolusi",
+        "description": "Carta evolusi interaktif menunjukkan semua laluan dan keperluan"
+      },
+      "bosses": {
+        "title": "Strategi Bos",
+        "description": "Taktik terbukti dan susunan pasukan untuk setiap pertempuran bos"
+      }
+    },
+    "quickStart": {
+      "title": "Panduan Mula Pantas",
+      "beginner": "Baharu dalam permainan? Mulakan di sini!",
+      "evolution": "Pelajari tentang evolusi Digimon",
+      "team": "Bina pasukan sempurna anda"
+    },
+    "popularGuides": {
+      "title": "Panduan Popular",
+      "evolutionGuide": "Panduan Evolusi Digimon",
+      "teamBuilding": "Strategi Pembinaan Pasukan",
+      "storyBranches": "Cabang Cerita & Pengakhiran",
+      "memoryManagement": "Petua Pengurusan Memori"
+    },
+    "recentUpdates": {
+      "title": "Kemas Kini Terkini",
+      "seeAll": "Lihat Semua Kemas Kini"
+    },
+    "community": {
+      "title": "Sertai Komuniti Kami",
+      "description": "Berhubung dengan Tamer lain, kongsi strategi dan kekal terkini",
+      "discord": "Sertai Discord",
+      "forum": "Lawati Forum"
+    }
+  },
+  "digidex": {
+    "title": "Digidex",
+    "description": "Layari semua Digimon dengan statistik terperinci dan laluan evolusi",
+    "searchPlaceholder": "Cari Digimon...",
+    "filters": {
+      "all": "Semua",
+      "stage": "Peringkat",
+      "attribute": "Atribut",
+      "element": "Unsur"
+    },
+    "stats": {
+      "hp": "HP",
+      "atk": "SER",
+      "def": "PER",
+      "spAtk": "SER.KHS",
+      "spDef": "PER.KHS",
+      "speed": "KELAJUAN"
+    }
+  },
+  "digimon": {
+    "baseStats": "Statistik Asas",
+    "skills": "Kemahiran",
+    "evolvesTo": "Berevolusi kepada",
+    "devolvesFrom": "Devolve daripada",
+    "locations": "Lokasi",
+    "memory": "Memori",
+    "quickLinks": "Pautan Pantas",
+    "viewEvolutionTree": "Lihat Pokok Evolusi",
+    "addToTeamBuilder": "Tambah ke Pembina Pasukan",
+    "backToDigidex": "Kembali ke Digidex",
+    "howToGet": "Cara mendapat {name}",
+    "foundIn": "{name} boleh dijumpai di: {locations}",
+    "obtainThroughEvolution": "{name} boleh diperolehi melalui evolusi"
+  },
+  "guides": {
+    "title": "Panduan",
+    "description": "Panduan dan strategi komprehensif",
+    "categories": {
+      "beginner": "Pemula",
+      "advanced": "Lanjutan",
+      "evolution": "Evolusi",
+      "team": "Pembinaan Pasukan",
+      "story": "Cerita"
+    }
+  },
+  "evolution": {
+    "title": "Pokok Evolusi",
+    "description": "Carta evolusi interaktif dan keperluan",
+    "requirements": "Keperluan",
+    "level": "Tahap {level}",
+    "stats": "Statistik Diperlukan"
+  },
+  "bosses": {
+    "title": "Panduan Bos",
+    "description": "Strategi dan cadangan pasukan untuk pertempuran bos",
+    "difficulty": "Kesukaran",
+    "recommendedLevel": "Tahap Disyorkan",
+    "weaknesses": "Kelemahan",
+    "strategy": "Strategi",
+    "teamComposition": "Pasukan Disyorkan"
+  },
+  "walkthroughs": {
+    "title": "Walkthrough",
+    "description": "Panduan langkah demi langkah untuk bab cerita",
+    "chapter": "Bab {number}",
+    "objectives": "Objektif",
+    "rewards": "Ganjaran"
+  },
+  "tools": {
+    "title": "Alatan",
+    "description": "Kalkulator dan pembina berguna",
+    "teamBuilder": {
+      "title": "Pembina Pasukan",
+      "description": "Bina dan analisis pasukan Digimon sempurna anda"
+    },
+    "statCalculator": {
+      "title": "Kalkulator Statistik",
+      "description": "Kira statistik akhir dengan binaan berbeza"
+    }
+  },
+  "community": {
+    "title": "Komuniti",
+    "description": "Berhubung dengan pemain lain",
+    "categories": {
+      "discussion": "Perbincangan Umum",
+      "strategy": "Strategi & Petua",
+      "showcase": "Paparan Pasukan",
+      "questions": "Soalan"
+    }
+  },
+  "footer": {
+    "description": "Panduan lengkap anda untuk Digimon Story: Time Stranger",
+    "quickLinks": "Pautan Pantas",
+    "resources": "Sumber",
+    "community": "Komuniti",
+    "legal": "Undang-undang",
+    "copyright": "© 2024 Panduan Digimon Story Time Stranger. Hak cipta terpelihara.",
+    "disclaimer": "Ini adalah panduan buatan peminat. Digimon adalah tanda dagangan Bandai Namco."
+  },
+  "seo": {
+    "home": {
+      "title": "Digimon Story: Time Stranger - Panduan Lengkap & Pangkalan Data",
+      "description": "Panduan komprehensif untuk Digimon Story: Time Stranger. Digidex lengkap, pokok evolusi, strategi bos, walkthrough dan sumber komuniti."
+    },
+    "digidex": {
+      "title": "Digidex - Pangkalan Data Digimon Lengkap | Digimon Story Time Stranger",
+      "description": "Layari semua Digimon dengan statistik terperinci, laluan evolusi, lokasi dan kemahiran. Pangkalan data lengkap untuk Digimon Story: Time Stranger."
+    },
+    "guides": {
+      "title": "Panduan & Strategi | Digimon Story Time Stranger",
+      "description": "Panduan pakar, strategi dan petua untuk Digimon Story: Time Stranger. Panduan evolusi, pembinaan pasukan dan taktik lanjutan."
+    }
+  }
+}

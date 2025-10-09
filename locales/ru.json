@@ -1,0 +1,188 @@
+{
+  "common": {
+    "readMore": "Читать далее",
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "sort": "Сортировка",
+    "loading": "Загрузка...",
+    "error": "Произошла ошибка",
+    "notFound": "Не найдено",
+    "backToHome": "Вернуться на главную"
+  },
+  "nav": {
+    "home": "Главная",
+    "digidex": "Digidex",
+    "guides": "Руководства",
+    "evolution": "Эволюция",
+    "bosses": "Боссы",
+    "walkthroughs": "Прохождение",
+    "tools": "Инструменты",
+    "community": "Сообщество",
+    "about": "О проекте"
+  },
+  "home": {
+    "title": "Digimon Story: Time Stranger",
+    "subtitle": "Ваше полное руководство по Цифровому Миру",
+    "description": "Исследуйте полные руководства, деревья эволюции, стратегии боссов и ресурсы сообщества для Digimon Story: Time Stranger.",
+    "hero": {
+      "title": "Добро пожаловать в Цифровой Мир",
+      "subtitle": "Ваше полное руководство по Digimon Story: Time Stranger",
+      "cta": "Исследовать Digidex"
+    },
+    "features": {
+      "title": "Всё, что вам нужно",
+      "digidex": {
+        "title": "Полный Digidex",
+        "description": "Подробные характеристики, пути эволюции и локации для каждого Digimon"
+      },
+      "guides": {
+        "title": "Экспертные Руководства",
+        "description": "Подробные прохождения, стратегии и советы от опытных игроков"
+      },
+      "evolution": {
+        "title": "Деревья Эволюции",
+        "description": "Интерактивные схемы эволюции, показывающие все пути и требования"
+      },
+      "bosses": {
+        "title": "Стратегии Боссов",
+        "description": "Проверенная тактика и составы команд для каждого боя с боссом"
+      }
+    },
+    "quickStart": {
+      "title": "Руководство по Быстрому Старту",
+      "beginner": "Новичок в игре? Начните здесь!",
+      "evolution": "Узнайте об эволюции Digimon",
+      "team": "Создайте идеальную команду"
+    },
+    "popularGuides": {
+      "title": "Популярные Руководства",
+      "evolutionGuide": "Руководство по Эволюции Digimon",
+      "teamBuilding": "Стратегии Формирования Команды",
+      "storyBranches": "Ветки Сюжета и Концовки",
+      "memoryManagement": "Советы по Управлению Памятью"
+    },
+    "recentUpdates": {
+      "title": "Последние Обновления",
+      "seeAll": "Посмотреть Все Обновления"
+    },
+    "community": {
+      "title": "Присоединяйтесь к Нашему Сообществу",
+      "description": "Общайтесь с другими Укротителями, делитесь стратегиями и будьте в курсе",
+      "discord": "Присоединиться к Discord",
+      "forum": "Посетить Форум"
+    }
+  },
+  "digidex": {
+    "title": "Digidex",
+    "description": "Просмотрите всех Digimon с подробными характеристиками и путями эволюции",
+    "searchPlaceholder": "Поиск Digimon...",
+    "filters": {
+      "all": "Все",
+      "stage": "Стадия",
+      "attribute": "Атрибут",
+      "element": "Элемент"
+    },
+    "stats": {
+      "hp": "HP",
+      "atk": "АТК",
+      "def": "ЗАЩ",
+      "spAtk": "СП.АТК",
+      "spDef": "СП.ЗАЩ",
+      "speed": "СКОРОСТЬ"
+    }
+  },
+  "digimon": {
+    "baseStats": "Базовые Характеристики",
+    "skills": "Навыки",
+    "evolvesTo": "Эволюционирует в",
+    "devolvesFrom": "Деградирует из",
+    "locations": "Локации",
+    "memory": "Память",
+    "quickLinks": "Быстрые Ссылки",
+    "viewEvolutionTree": "Посмотреть Дерево Эволюции",
+    "addToTeamBuilder": "Добавить в Конструктор Команды",
+    "backToDigidex": "Вернуться к Digidex",
+    "howToGet": "Как получить {name}",
+    "foundIn": "{name} можно найти в: {locations}",
+    "obtainThroughEvolution": "{name} можно получить через эволюцию"
+  },
+  "guides": {
+    "title": "Руководства",
+    "description": "Полные руководства и стратегии",
+    "categories": {
+      "beginner": "Новичок",
+      "advanced": "Продвинутый",
+      "evolution": "Эволюция",
+      "team": "Формирование Команды",
+      "story": "Сюжет"
+    }
+  },
+  "evolution": {
+    "title": "Деревья Эволюции",
+    "description": "Интерактивные схемы эволюции и требования",
+    "requirements": "Требования",
+    "level": "Уровень {level}",
+    "stats": "Требуемые Характеристики"
+  },
+  "bosses": {
+    "title": "Руководства по Боссам",
+    "description": "Стратегии и рекомендации по командам для боев с боссами",
+    "difficulty": "Сложность",
+    "recommendedLevel": "Рекомендуемый Уровень",
+    "weaknesses": "Слабости",
+    "strategy": "Стратегия",
+    "teamComposition": "Рекомендуемая Команда"
+  },
+  "walkthroughs": {
+    "title": "Прохождение",
+    "description": "Пошаговые руководства для глав сюжета",
+    "chapter": "Глава {number}",
+    "objectives": "Цели",
+    "rewards": "Награды"
+  },
+  "tools": {
+    "title": "Инструменты",
+    "description": "Полезные калькуляторы и конструкторы",
+    "teamBuilder": {
+      "title": "Конструктор Команды",
+      "description": "Создайте и проанализируйте вашу идеальную команду Digimon"
+    },
+    "statCalculator": {
+      "title": "Калькулятор Характеристик",
+      "description": "Рассчитайте финальные характеристики с различными билдами"
+    }
+  },
+  "community": {
+    "title": "Сообщество",
+    "description": "Общайтесь с другими игроками",
+    "categories": {
+      "discussion": "Общее Обсуждение",
+      "strategy": "Стратегия и Советы",
+      "showcase": "Демонстрация Команд",
+      "questions": "Вопросы"
+    }
+  },
+  "footer": {
+    "description": "Ваше полное руководство по Digimon Story: Time Stranger",
+    "quickLinks": "Быстрые Ссылки",
+    "resources": "Ресурсы",
+    "community": "Сообщество",
+    "legal": "Правовая Информация",
+    "copyright": "© 2024 Руководство Digimon Story Time Stranger. Все права защищены.",
+    "disclaimer": "Это фанатское руководство. Digimon является торговой маркой Bandai Namco."
+  },
+  "seo": {
+    "home": {
+      "title": "Digimon Story: Time Stranger - Полное Руководство и База Данных",
+      "description": "Полное руководство для Digimon Story: Time Stranger. Полный Digidex, деревья эволюции, стратегии боссов, прохождения и ресурсы сообщества."
+    },
+    "digidex": {
+      "title": "Digidex - Полная База Данных Digimon | Digimon Story Time Stranger",
+      "description": "Просмотрите всех Digimon с подробными характеристиками, путями эволюции, локациями и навыками. Полная база данных для Digimon Story: Time Stranger."
+    },
+    "guides": {
+      "title": "Руководства и Стратегии | Digimon Story Time Stranger",
+      "description": "Экспертные руководства, стратегии и советы для Digimon Story: Time Stranger. Руководства по эволюции, формированию команды и продвинутые тактики."
+    }
+  }
+}

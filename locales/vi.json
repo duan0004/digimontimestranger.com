@@ -1,0 +1,188 @@
+{
+  "common": {
+    "readMore": "Đọc thêm",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "sort": "Sắp xếp",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "notFound": "Không tìm thấy",
+    "backToHome": "Về trang chủ"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "digidex": "Digidex",
+    "guides": "Hướng dẫn",
+    "evolution": "Tiến hóa",
+    "bosses": "Boss",
+    "walkthroughs": "Công lược",
+    "tools": "Công cụ",
+    "community": "Cộng đồng",
+    "about": "Giới thiệu"
+  },
+  "home": {
+    "title": "Digimon Story: Time Stranger",
+    "subtitle": "Hướng dẫn hoàn chỉnh về Thế giới Số",
+    "description": "Khám phá hướng dẫn toàn diện, cây tiến hóa, chiến lược boss và tài nguyên cộng đồng cho Digimon Story: Time Stranger.",
+    "hero": {
+      "title": "Chào mừng đến Thế giới Số",
+      "subtitle": "Hướng dẫn tối ưu cho Digimon Story: Time Stranger",
+      "cta": "Khám phá Digidex"
+    },
+    "features": {
+      "title": "Tất cả những gì bạn cần",
+      "digidex": {
+        "title": "Digidex Hoàn chỉnh",
+        "description": "Chỉ số chi tiết, đường tiến hóa và vị trí cho mỗi Digimon"
+      },
+      "guides": {
+        "title": "Hướng dẫn Chuyên gia",
+        "description": "Công lược chi tiết, chiến lược và mẹo từ người chơi kinh nghiệm"
+      },
+      "evolution": {
+        "title": "Cây Tiến hóa",
+        "description": "Biểu đồ tiến hóa tương tác hiển thị tất cả đường đi và yêu cầu"
+      },
+      "bosses": {
+        "title": "Chiến lược Boss",
+        "description": "Chiến thuật đã được kiểm chứng và đội hình cho mỗi trận boss"
+      }
+    },
+    "quickStart": {
+      "title": "Hướng dẫn Nhanh",
+      "beginner": "Mới chơi game? Bắt đầu tại đây!",
+      "evolution": "Tìm hiểu về tiến hóa Digimon",
+      "team": "Xây dựng đội hình hoàn hảo"
+    },
+    "popularGuides": {
+      "title": "Hướng dẫn Phổ biến",
+      "evolutionGuide": "Hướng dẫn Tiến hóa Digimon",
+      "teamBuilding": "Chiến lược Xây dựng Đội hình",
+      "storyBranches": "Nhánh Cốt truyện & Kết thúc",
+      "memoryManagement": "Mẹo Quản lý Bộ nhớ"
+    },
+    "recentUpdates": {
+      "title": "Cập nhật Gần đây",
+      "seeAll": "Xem Tất cả Cập nhật"
+    },
+    "community": {
+      "title": "Tham gia Cộng đồng",
+      "description": "Kết nối với các Tamer khác, chia sẻ chiến lược và cập nhật tin tức",
+      "discord": "Tham gia Discord",
+      "forum": "Truy cập Diễn đàn"
+    }
+  },
+  "digidex": {
+    "title": "Digidex",
+    "description": "Duyệt tất cả Digimon với chỉ số chi tiết và đường tiến hóa",
+    "searchPlaceholder": "Tìm Digimon...",
+    "filters": {
+      "all": "Tất cả",
+      "stage": "Giai đoạn",
+      "attribute": "Thuộc tính",
+      "element": "Nguyên tố"
+    },
+    "stats": {
+      "hp": "HP",
+      "atk": "Tấn công",
+      "def": "Phòng thủ",
+      "spAtk": "Tấn công Đặc biệt",
+      "spDef": "Phòng thủ Đặc biệt",
+      "speed": "Tốc độ"
+    }
+  },
+  "digimon": {
+    "baseStats": "Chỉ số Cơ bản",
+    "skills": "Kỹ năng",
+    "evolvesTo": "Tiến hóa thành",
+    "devolvesFrom": "Thoái hóa từ",
+    "locations": "Vị trí",
+    "memory": "Bộ nhớ",
+    "quickLinks": "Liên kết Nhanh",
+    "viewEvolutionTree": "Xem Cây Tiến hóa",
+    "addToTeamBuilder": "Thêm vào Công cụ Xây dựng Đội",
+    "backToDigidex": "Quay lại Digidex",
+    "howToGet": "Cách có được {name}",
+    "foundIn": "{name} có thể tìm thấy ở: {locations}",
+    "obtainThroughEvolution": "{name} có thể có được thông qua tiến hóa"
+  },
+  "guides": {
+    "title": "Hướng dẫn",
+    "description": "Hướng dẫn và chiến lược toàn diện",
+    "categories": {
+      "beginner": "Người mới",
+      "advanced": "Nâng cao",
+      "evolution": "Tiến hóa",
+      "team": "Xây dựng Đội",
+      "story": "Cốt truyện"
+    }
+  },
+  "evolution": {
+    "title": "Cây Tiến hóa",
+    "description": "Biểu đồ tiến hóa tương tác và yêu cầu",
+    "requirements": "Yêu cầu",
+    "level": "Cấp {level}",
+    "stats": "Chỉ số Yêu cầu"
+  },
+  "bosses": {
+    "title": "Hướng dẫn Boss",
+    "description": "Chiến lược và đề xuất đội hình cho trận boss",
+    "difficulty": "Độ khó",
+    "recommendedLevel": "Cấp Đề nghị",
+    "weaknesses": "Điểm yếu",
+    "strategy": "Chiến lược",
+    "teamComposition": "Đội hình Đề nghị"
+  },
+  "walkthroughs": {
+    "title": "Công lược",
+    "description": "Hướng dẫn từng bước cho các chương cốt truyện",
+    "chapter": "Chương {number}",
+    "objectives": "Mục tiêu",
+    "rewards": "Phần thưởng"
+  },
+  "tools": {
+    "title": "Công cụ",
+    "description": "Máy tính và công cụ xây dựng hữu ích",
+    "teamBuilder": {
+      "title": "Công cụ Xây dựng Đội",
+      "description": "Xây dựng và phân tích đội Digimon hoàn hảo của bạn"
+    },
+    "statCalculator": {
+      "title": "Máy tính Chỉ số",
+      "description": "Tính toán chỉ số cuối cùng với các cách build khác nhau"
+    }
+  },
+  "community": {
+    "title": "Cộng đồng",
+    "description": "Kết nối với người chơi khác",
+    "categories": {
+      "discussion": "Thảo luận Chung",
+      "strategy": "Chiến lược & Mẹo",
+      "showcase": "Trưng bày Đội hình",
+      "questions": "Câu hỏi"
+    }
+  },
+  "footer": {
+    "description": "Hướng dẫn hoàn chỉnh cho Digimon Story: Time Stranger",
+    "quickLinks": "Liên kết Nhanh",
+    "resources": "Tài nguyên",
+    "community": "Cộng đồng",
+    "legal": "Pháp lý",
+    "copyright": "© 2024 Hướng dẫn Digimon Story Time Stranger. Đã đăng ký bản quyền.",
+    "disclaimer": "Đây là hướng dẫn do fan tạo ra. Digimon là nhãn hiệu của Bandai Namco."
+  },
+  "seo": {
+    "home": {
+      "title": "Digimon Story: Time Stranger - Hướng dẫn Hoàn chỉnh & Cơ sở Dữ liệu",
+      "description": "Hướng dẫn toàn diện cho Digimon Story: Time Stranger. Digidex hoàn chỉnh, cây tiến hóa, chiến lược boss, công lược và tài nguyên cộng đồng."
+    },
+    "digidex": {
+      "title": "Digidex - Cơ sở Dữ liệu Digimon Hoàn chỉnh | Digimon Story Time Stranger",
+      "description": "Duyệt tất cả Digimon với chỉ số chi tiết, đường tiến hóa, vị trí và kỹ năng. Cơ sở dữ liệu hoàn chỉnh cho Digimon Story: Time Stranger."
+    },
+    "guides": {
+      "title": "Hướng dẫn & Chiến lược | Digimon Story Time Stranger",
+      "description": "Hướng dẫn chuyên gia, chiến lược và mẹo cho Digimon Story: Time Stranger. Hướng dẫn tiến hóa, xây dựng đội và chiến thuật nâng cao."
+    }
+  }
+}

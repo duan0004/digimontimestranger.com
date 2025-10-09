@@ -1,0 +1,188 @@
+{
+  "common": {
+    "readMore": "อ่านเพิ่มเติม",
+    "search": "ค้นหา",
+    "filter": "กรอง",
+    "sort": "เรียงลำดับ",
+    "loading": "กำลังโหลด...",
+    "error": "เกิดข้อผิดพลาด",
+    "notFound": "ไม่พบ",
+    "backToHome": "กลับหน้าแรก"
+  },
+  "nav": {
+    "home": "หน้าแรก",
+    "digidex": "Digidex",
+    "guides": "คู่มือ",
+    "evolution": "วิวัฒนาการ",
+    "bosses": "บอส",
+    "walkthroughs": "แนวทาง",
+    "tools": "เครื่องมือ",
+    "community": "ชุมชน",
+    "about": "เกี่ยวกับ"
+  },
+  "home": {
+    "title": "Digimon Story: Time Stranger",
+    "subtitle": "คู่มือฉบับสมบูรณ์สู่โลกดิจิทัล",
+    "description": "สำรวจคู่มือที่ครอบคลุม ต้นไม้วิวัฒนาการ กลยุทธ์บอส และทรัพยากรชุมชนสำหรับ Digimon Story: Time Stranger",
+    "hero": {
+      "title": "ยินดีต้อนรับสู่โลกดิจิทัล",
+      "subtitle": "คู่มือสูงสุดสำหรับ Digimon Story: Time Stranger",
+      "cta": "สำรวจ Digidex"
+    },
+    "features": {
+      "title": "ทุกสิ่งที่คุณต้องการ",
+      "digidex": {
+        "title": "Digidex ฉบับสมบูรณ์",
+        "description": "สถิติโดยละเอียด เส้นทางวิวัฒนาการ และตำแหน่งสำหรับทุก Digimon"
+      },
+      "guides": {
+        "title": "คู่มือผู้เชี่ยวชาญ",
+        "description": "แนวทางละเอียด กลยุทธ์ และเคล็ดลับจากผู้เล่นที่มีประสบการณ์"
+      },
+      "evolution": {
+        "title": "ต้นไม้วิวัฒนาการ",
+        "description": "แผนภูมิวิวัฒนาการแบบโต้ตอบที่แสดงเส้นทางและข้อกำหนดทั้งหมด"
+      },
+      "bosses": {
+        "title": "กลยุทธ์บอส",
+        "description": "กลยุทธ์ที่พิสูจน์แล้วและการจัดทีมสำหรับการต่อสู้บอสแต่ละครั้ง"
+      }
+    },
+    "quickStart": {
+      "title": "คู่มือเริ่มต้นด่วน",
+      "beginner": "มือใหม่? เริ่มที่นี่!",
+      "evolution": "เรียนรู้เกี่ยวกับวิวัฒนาการ Digimon",
+      "team": "สร้างทีมที่สมบูรณ์แบบ"
+    },
+    "popularGuides": {
+      "title": "คู่มือยอดนิยม",
+      "evolutionGuide": "คู่มือวิวัฒนาการ Digimon",
+      "teamBuilding": "กลยุทธ์การสร้างทีม",
+      "storyBranches": "แขนงเรื่องและตอนจบ",
+      "memoryManagement": "เคล็ดลับการจัดการหน่วยความจำ"
+    },
+    "recentUpdates": {
+      "title": "อัปเดตล่าสุด",
+      "seeAll": "ดูอัปเดตทั้งหมด"
+    },
+    "community": {
+      "title": "เข้าร่วมชุมชนของเรา",
+      "description": "เชื่อมต่อกับ Tamer คนอื่นๆ แบ่งปันกลยุทธ์และติดตามข่าวสาร",
+      "discord": "เข้าร่วม Discord",
+      "forum": "เยี่ยมชมฟอรั่ม"
+    }
+  },
+  "digidex": {
+    "title": "Digidex",
+    "description": "เรียกดู Digimon ทั้งหมดพร้อมสถิติโดยละเอียดและเส้นทางวิวัฒนาการ",
+    "searchPlaceholder": "ค้นหา Digimon...",
+    "filters": {
+      "all": "ทั้งหมด",
+      "stage": "ขั้นตอน",
+      "attribute": "คุณสมบัติ",
+      "element": "ธาตุ"
+    },
+    "stats": {
+      "hp": "HP",
+      "atk": "โจมตี",
+      "def": "ป้องกัน",
+      "spAtk": "โจมตีพิเศษ",
+      "spDef": "ป้องกันพิเศษ",
+      "speed": "ความเร็ว"
+    }
+  },
+  "digimon": {
+    "baseStats": "สถิติพื้นฐาน",
+    "skills": "ทักษะ",
+    "evolvesTo": "วิวัฒน์เป็น",
+    "devolvesFrom": "ถอยวิวัฒน์จาก",
+    "locations": "ตำแหน่ง",
+    "memory": "หน่วยความจำ",
+    "quickLinks": "ลิงก์ด่วน",
+    "viewEvolutionTree": "ดูต้นไม้วิวัฒนาการ",
+    "addToTeamBuilder": "เพิ่มในตัวสร้างทีม",
+    "backToDigidex": "กลับไป Digidex",
+    "howToGet": "วิธีรับ {name}",
+    "foundIn": "{name} สามารถพบได้ที่: {locations}",
+    "obtainThroughEvolution": "{name} สามารถได้รับผ่านการวิวัฒนาการ"
+  },
+  "guides": {
+    "title": "คู่มือ",
+    "description": "คู่มือและกลยุทธ์ที่ครอบคลุม",
+    "categories": {
+      "beginner": "มือใหม่",
+      "advanced": "ขั้นสูง",
+      "evolution": "วิวัฒนาการ",
+      "team": "การสร้างทีม",
+      "story": "เรื่องราว"
+    }
+  },
+  "evolution": {
+    "title": "ต้นไม้วิวัฒนาการ",
+    "description": "แผนภูมิวิวัฒนาการแบบโต้ตอบและข้อกำหนด",
+    "requirements": "ข้อกำหนด",
+    "level": "เลเวล {level}",
+    "stats": "สถิติที่ต้องการ"
+  },
+  "bosses": {
+    "title": "คู่มือบอส",
+    "description": "กลยุทธ์และคำแนะนำทีมสำหรับการต่อสู้บอส",
+    "difficulty": "ความยาก",
+    "recommendedLevel": "เลเวลที่แนะนำ",
+    "weaknesses": "จุดอ่อน",
+    "strategy": "กลยุทธ์",
+    "teamComposition": "ทีมที่แนะนำ"
+  },
+  "walkthroughs": {
+    "title": "แนวทาง",
+    "description": "คู่มือทีละขั้นตอนสำหรับบทเรื่อง",
+    "chapter": "บทที่ {number}",
+    "objectives": "วัตถุประสงค์",
+    "rewards": "รางวัล"
+  },
+  "tools": {
+    "title": "เครื่องมือ",
+    "description": "เครื่องคำนวณและตัวสร้างที่มีประโยชน์",
+    "teamBuilder": {
+      "title": "ตัวสร้างทีม",
+      "description": "สร้างและวิเคราะห์ทีม Digimon ที่สมบูรณ์แบบของคุณ"
+    },
+    "statCalculator": {
+      "title": "เครื่องคำนวณสถิติ",
+      "description": "คำนวณสถิติสุดท้ายด้วยบิลด์ต่างๆ"
+    }
+  },
+  "community": {
+    "title": "ชุมชน",
+    "description": "เชื่อมต่อกับผู้เล่นคนอื่นๆ",
+    "categories": {
+      "discussion": "การสนทนาทั่วไป",
+      "strategy": "กลยุทธ์และเคล็ดลับ",
+      "showcase": "โชว์เคสทีม",
+      "questions": "คำถาม"
+    }
+  },
+  "footer": {
+    "description": "คู่มือฉบับสมบูรณ์สำหรับ Digimon Story: Time Stranger",
+    "quickLinks": "ลิงก์ด่วน",
+    "resources": "ทรัพยากร",
+    "community": "ชุมชน",
+    "legal": "กฎหมาย",
+    "copyright": "© 2024 คู่มือ Digimon Story Time Stranger สงวนลิขสิทธิ์",
+    "disclaimer": "นี่เป็นคู่มือที่สร้างโดยแฟน Digimon เป็นเครื่องหมายการค้าของ Bandai Namco"
+  },
+  "seo": {
+    "home": {
+      "title": "Digimon Story: Time Stranger - คู่มือฉบับสมบูรณ์และฐานข้อมูล",
+      "description": "คู่มือที่ครอบคลุมสำหรับ Digimon Story: Time Stranger Digidex ฉบับสมบูรณ์ ต้นไม้วิวัฒนาการ กลยุทธ์บอส แนวทาง และทรัพยากรชุมชน"
+    },
+    "digidex": {
+      "title": "Digidex - ฐานข้อมูล Digimon ฉบับสมบูรณ์ | Digimon Story Time Stranger",
+      "description": "เรียกดู Digimon ทั้งหมดพร้อมสถิติโดยละเอียด เส้นทางวิวัฒนาการ ตำแหน่ง และทักษะ ฐานข้อมูลฉบับสมบูรณ์สำหรับ Digimon Story: Time Stranger"
+    },
+    "guides": {
+      "title": "คู่มือและกลยุทธ์ | Digimon Story Time Stranger",
+      "description": "คู่มือผู้เชี่ยวชาญ กลยุทธ์ และเคล็ดลับสำหรับ Digimon Story: Time Stranger คู่มือวิวัฒนาการ การสร้างทีม และกลยุทธ์ขั้นสูง"
+    }
+  }
+}

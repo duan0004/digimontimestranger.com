@@ -1,0 +1,188 @@
+{
+  "common": {
+    "readMore": "Lees meer",
+    "search": "Zoeken",
+    "filter": "Filteren",
+    "sort": "Sorteren",
+    "loading": "Laden...",
+    "error": "Er is een fout opgetreden",
+    "notFound": "Niet gevonden",
+    "backToHome": "Terug naar home"
+  },
+  "nav": {
+    "home": "Home",
+    "digidex": "Digidex",
+    "guides": "Gidsen",
+    "evolution": "Evolutie",
+    "bosses": "Bazen",
+    "walkthroughs": "Walkthroughs",
+    "tools": "Gereedschap",
+    "community": "Gemeenschap",
+    "about": "Over"
+  },
+  "home": {
+    "title": "Digimon Story: Time Stranger",
+    "subtitle": "Jouw complete gids voor de Digitale Wereld",
+    "description": "Ontdek uitgebreide gidsen, evolutiebomen, baasstrategieën en gemeenschapsbronnen voor Digimon Story: Time Stranger.",
+    "hero": {
+      "title": "Welkom in de Digitale Wereld",
+      "subtitle": "Jouw ultieme gids voor Digimon Story: Time Stranger",
+      "cta": "Verken Digidex"
+    },
+    "features": {
+      "title": "Alles wat je nodig hebt",
+      "digidex": {
+        "title": "Complete Digidex",
+        "description": "Gedetailleerde statistieken, evolutiepaden en locaties voor elke Digimon"
+      },
+      "guides": {
+        "title": "Expert Gidsen",
+        "description": "Diepgaande walkthroughs, strategieën en tips van ervaren spelers"
+      },
+      "evolution": {
+        "title": "Evolutiebomen",
+        "description": "Interactieve evolutiediagrammen met alle paden en vereisten"
+      },
+      "bosses": {
+        "title": "Baasstrategieën",
+        "description": "Bewezen tactieken en teamsamenstelling voor elke baasgevecht"
+      }
+    },
+    "quickStart": {
+      "title": "Snelstartgids",
+      "beginner": "Nieuw in het spel? Begin hier!",
+      "evolution": "Leer over Digimon evolutie",
+      "team": "Bouw je perfecte team"
+    },
+    "popularGuides": {
+      "title": "Populaire Gidsen",
+      "evolutionGuide": "Digimon Evolutiegids",
+      "teamBuilding": "Teambouw Strategieën",
+      "storyBranches": "Verhaalvertakkingen & Eindes",
+      "memoryManagement": "Geheugenbeheer Tips"
+    },
+    "recentUpdates": {
+      "title": "Recente Updates",
+      "seeAll": "Bekijk Alle Updates"
+    },
+    "community": {
+      "title": "Word Lid van Onze Gemeenschap",
+      "description": "Verbind met andere Tamers, deel strategieën en blijf op de hoogte",
+      "discord": "Word Lid van Discord",
+      "forum": "Bezoek Forum"
+    }
+  },
+  "digidex": {
+    "title": "Digidex",
+    "description": "Blader door alle Digimon met gedetailleerde statistieken en evolutiepaden",
+    "searchPlaceholder": "Zoek Digimon...",
+    "filters": {
+      "all": "Alle",
+      "stage": "Stadium",
+      "attribute": "Attribuut",
+      "element": "Element"
+    },
+    "stats": {
+      "hp": "HP",
+      "atk": "ATK",
+      "def": "DEF",
+      "spAtk": "SP.ATK",
+      "spDef": "SP.DEF",
+      "speed": "SNELHEID"
+    }
+  },
+  "digimon": {
+    "baseStats": "Basis Statistieken",
+    "skills": "Vaardigheden",
+    "evolvesTo": "Evolueert naar",
+    "devolvesFrom": "Degenereert van",
+    "locations": "Locaties",
+    "memory": "Geheugen",
+    "quickLinks": "Snelkoppelingen",
+    "viewEvolutionTree": "Bekijk Evolutieboom",
+    "addToTeamBuilder": "Toevoegen aan Teambuilder",
+    "backToDigidex": "Terug naar Digidex",
+    "howToGet": "Hoe {name} te krijgen",
+    "foundIn": "{name} kan gevonden worden in: {locations}",
+    "obtainThroughEvolution": "{name} kan verkregen worden via evolutie"
+  },
+  "guides": {
+    "title": "Gidsen",
+    "description": "Uitgebreide gidsen en strategieën",
+    "categories": {
+      "beginner": "Beginner",
+      "advanced": "Gevorderd",
+      "evolution": "Evolutie",
+      "team": "Teambouw",
+      "story": "Verhaal"
+    }
+  },
+  "evolution": {
+    "title": "Evolutiebomen",
+    "description": "Interactieve evolutiediagrammen en vereisten",
+    "requirements": "Vereisten",
+    "level": "Level {level}",
+    "stats": "Vereiste Statistieken"
+  },
+  "bosses": {
+    "title": "Baas Gidsen",
+    "description": "Strategieën en teamaanbevelingen voor baasgevechten",
+    "difficulty": "Moeilijkheidsgraad",
+    "recommendedLevel": "Aanbevolen Level",
+    "weaknesses": "Zwaktes",
+    "strategy": "Strategie",
+    "teamComposition": "Aanbevolen Team"
+  },
+  "walkthroughs": {
+    "title": "Walkthroughs",
+    "description": "Stap-voor-stap gidsen voor verhaalhoofdstukken",
+    "chapter": "Hoofdstuk {number}",
+    "objectives": "Doelstellingen",
+    "rewards": "Beloningen"
+  },
+  "tools": {
+    "title": "Gereedschap",
+    "description": "Handige rekenmachines en builders",
+    "teamBuilder": {
+      "title": "Teambuilder",
+      "description": "Bouw en analyseer je perfecte Digimon team"
+    },
+    "statCalculator": {
+      "title": "Statistiekenrekenmachine",
+      "description": "Bereken eindstatistieken met verschillende builds"
+    }
+  },
+  "community": {
+    "title": "Gemeenschap",
+    "description": "Verbind met andere spelers",
+    "categories": {
+      "discussion": "Algemene Discussie",
+      "strategy": "Strategie & Tips",
+      "showcase": "Team Showcase",
+      "questions": "Vragen"
+    }
+  },
+  "footer": {
+    "description": "Jouw complete gids voor Digimon Story: Time Stranger",
+    "quickLinks": "Snelkoppelingen",
+    "resources": "Bronnen",
+    "community": "Gemeenschap",
+    "legal": "Juridisch",
+    "copyright": "© 2024 Digimon Story Time Stranger Gids. Alle rechten voorbehouden.",
+    "disclaimer": "Dit is een door fans gemaakte gids. Digimon is een handelsmerk van Bandai Namco."
+  },
+  "seo": {
+    "home": {
+      "title": "Digimon Story: Time Stranger - Complete Gids & Database",
+      "description": "Uitgebreide gids voor Digimon Story: Time Stranger. Complete Digidex, evolutiebomen, baasstrategieën, walkthroughs en gemeenschapsbronnen."
+    },
+    "digidex": {
+      "title": "Digidex - Complete Digimon Database | Digimon Story Time Stranger",
+      "description": "Blader door alle Digimon met gedetailleerde statistieken, evolutiepaden, locaties en vaardigheden. Complete database voor Digimon Story: Time Stranger."
+    },
+    "guides": {
+      "title": "Gidsen & Strategieën | Digimon Story Time Stranger",
+      "description": "Expert gidsen, strategieën en tips voor Digimon Story: Time Stranger. Evolutiegidsen, teambouw en geavanceerde tactieken."
+    }
+  }
+}

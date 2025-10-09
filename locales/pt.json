@@ -1,0 +1,188 @@
+{
+  "common": {
+    "readMore": "Ler mais",
+    "search": "Pesquisar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "loading": "Carregando...",
+    "error": "Ocorreu um erro",
+    "notFound": "Não encontrado",
+    "backToHome": "Voltar ao início"
+  },
+  "nav": {
+    "home": "Início",
+    "digidex": "Digidex",
+    "guides": "Guias",
+    "evolution": "Evolução",
+    "bosses": "Chefes",
+    "walkthroughs": "Passo a Passo",
+    "tools": "Ferramentas",
+    "community": "Comunidade",
+    "about": "Sobre"
+  },
+  "home": {
+    "title": "Digimon Story: Time Stranger",
+    "subtitle": "Seu guia completo para o Mundo Digital",
+    "description": "Explore guias completos, árvores de evolução, estratégias de chefes e recursos da comunidade para Digimon Story: Time Stranger.",
+    "hero": {
+      "title": "Bem-vindo ao Mundo Digital",
+      "subtitle": "Seu guia definitivo para Digimon Story: Time Stranger",
+      "cta": "Explorar Digidex"
+    },
+    "features": {
+      "title": "Tudo que você precisa",
+      "digidex": {
+        "title": "Digidex Completo",
+        "description": "Estatísticas detalhadas, caminhos de evolução e localizações para cada Digimon"
+      },
+      "guides": {
+        "title": "Guias Especializados",
+        "description": "Passo a passo detalhado, estratégias e dicas de jogadores experientes"
+      },
+      "evolution": {
+        "title": "Árvores de Evolução",
+        "description": "Gráficos de evolução interativos mostrando todos os caminhos e requisitos"
+      },
+      "bosses": {
+        "title": "Estratégias de Chefes",
+        "description": "Táticas comprovadas e composições de equipe para cada batalha de chefe"
+      }
+    },
+    "quickStart": {
+      "title": "Guia de Início Rápido",
+      "beginner": "Novo no jogo? Comece aqui!",
+      "evolution": "Aprenda sobre evolução Digimon",
+      "team": "Construa sua equipe perfeita"
+    },
+    "popularGuides": {
+      "title": "Guias Populares",
+      "evolutionGuide": "Guia de Evolução Digimon",
+      "teamBuilding": "Estratégias de Formação de Equipe",
+      "storyBranches": "Ramificações da História e Finais",
+      "memoryManagement": "Dicas de Gerenciamento de Memória"
+    },
+    "recentUpdates": {
+      "title": "Atualizações Recentes",
+      "seeAll": "Ver Todas as Atualizações"
+    },
+    "community": {
+      "title": "Junte-se à Nossa Comunidade",
+      "description": "Conecte-se com outros Tamers, compartilhe estratégias e fique atualizado",
+      "discord": "Entrar no Discord",
+      "forum": "Visitar Fórum"
+    }
+  },
+  "digidex": {
+    "title": "Digidex",
+    "description": "Navegue por todos os Digimon com estatísticas detalhadas e caminhos de evolução",
+    "searchPlaceholder": "Pesquisar Digimon...",
+    "filters": {
+      "all": "Todos",
+      "stage": "Estágio",
+      "attribute": "Atributo",
+      "element": "Elemento"
+    },
+    "stats": {
+      "hp": "HP",
+      "atk": "ATQ",
+      "def": "DEF",
+      "spAtk": "ATQ.ESP",
+      "spDef": "DEF.ESP",
+      "speed": "VELOCIDADE"
+    }
+  },
+  "digimon": {
+    "baseStats": "Estatísticas Base",
+    "skills": "Habilidades",
+    "evolvesTo": "Evolui para",
+    "devolvesFrom": "Degenera de",
+    "locations": "Localizações",
+    "memory": "Memória",
+    "quickLinks": "Links Rápidos",
+    "viewEvolutionTree": "Ver Árvore de Evolução",
+    "addToTeamBuilder": "Adicionar ao Construtor de Equipe",
+    "backToDigidex": "Voltar ao Digidex",
+    "howToGet": "Como conseguir {name}",
+    "foundIn": "{name} pode ser encontrado em: {locations}",
+    "obtainThroughEvolution": "{name} pode ser obtido através de evolução"
+  },
+  "guides": {
+    "title": "Guias",
+    "description": "Guias e estratégias completas",
+    "categories": {
+      "beginner": "Iniciante",
+      "advanced": "Avançado",
+      "evolution": "Evolução",
+      "team": "Formação de Equipe",
+      "story": "História"
+    }
+  },
+  "evolution": {
+    "title": "Árvores de Evolução",
+    "description": "Gráficos de evolução interativos e requisitos",
+    "requirements": "Requisitos",
+    "level": "Nível {level}",
+    "stats": "Estatísticas Necessárias"
+  },
+  "bosses": {
+    "title": "Guias de Chefes",
+    "description": "Estratégias e recomendações de equipe para batalhas de chefes",
+    "difficulty": "Dificuldade",
+    "recommendedLevel": "Nível Recomendado",
+    "weaknesses": "Fraquezas",
+    "strategy": "Estratégia",
+    "teamComposition": "Equipe Recomendada"
+  },
+  "walkthroughs": {
+    "title": "Passo a Passo",
+    "description": "Guias passo a passo para capítulos da história",
+    "chapter": "Capítulo {number}",
+    "objectives": "Objetivos",
+    "rewards": "Recompensas"
+  },
+  "tools": {
+    "title": "Ferramentas",
+    "description": "Calculadoras e construtores úteis",
+    "teamBuilder": {
+      "title": "Construtor de Equipe",
+      "description": "Construa e analise sua equipe Digimon perfeita"
+    },
+    "statCalculator": {
+      "title": "Calculadora de Estatísticas",
+      "description": "Calcule estatísticas finais com diferentes builds"
+    }
+  },
+  "community": {
+    "title": "Comunidade",
+    "description": "Conecte-se com outros jogadores",
+    "categories": {
+      "discussion": "Discussão Geral",
+      "strategy": "Estratégia e Dicas",
+      "showcase": "Vitrine de Equipes",
+      "questions": "Perguntas"
+    }
+  },
+  "footer": {
+    "description": "Seu guia completo para Digimon Story: Time Stranger",
+    "quickLinks": "Links Rápidos",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "copyright": "© 2024 Guia Digimon Story Time Stranger. Todos os direitos reservados.",
+    "disclaimer": "Este é um guia feito por fãs. Digimon é uma marca registrada da Bandai Namco."
+  },
+  "seo": {
+    "home": {
+      "title": "Digimon Story: Time Stranger - Guia Completo e Banco de Dados",
+      "description": "Guia completo para Digimon Story: Time Stranger. Digidex completo, árvores de evolução, estratégias de chefes, passo a passo e recursos da comunidade."
+    },
+    "digidex": {
+      "title": "Digidex - Banco de Dados Completo de Digimon | Digimon Story Time Stranger",
+      "description": "Navegue por todos os Digimon com estatísticas detalhadas, caminhos de evolução, localizações e habilidades. Banco de dados completo para Digimon Story: Time Stranger."
+    },
+    "guides": {
+      "title": "Guias e Estratégias | Digimon Story Time Stranger",
+      "description": "Guias especializados, estratégias e dicas para Digimon Story: Time Stranger. Guias de evolução, formação de equipe e táticas avançadas."
+    }
+  }
+}
