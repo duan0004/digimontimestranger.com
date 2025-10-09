@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { generateMetadata } from '@/lib/seo';
 import Link from 'next/link';
-import { Database, Zap, Package, Users, TrendingUp, BookOpen, ArrowRight, Shield, Award, Activity } from 'lucide-react';
+import { Database, Zap, Package, Users, TrendingUp, BookOpen, ArrowRight, Shield, Award, Activity, Trophy } from 'lucide-react';
 
 export const metadata: Metadata = generateMetadata({
   title: 'Game Database - Digimon Time Stranger',
@@ -27,6 +27,15 @@ const databases = [
     color: 'blue',
     count: '63+',
     link: '/digidex',
+  },
+  {
+    id: 'bosses',
+    name: 'Boss Database',
+    description: 'Complete boss guides with strategies, weaknesses, and recommended teams',
+    icon: Trophy,
+    color: 'red',
+    count: '7',
+    link: '/database/bosses',
   },
   {
     id: 'skills',
@@ -89,6 +98,11 @@ const colorClasses: Record<string, { bg: string; text: string; border: string }>
     bg: 'bg-blue-100 dark:bg-blue-900',
     text: 'text-blue-600 dark:text-blue-400',
     border: 'border-blue-200 dark:border-blue-800',
+  },
+  red: {
+    bg: 'bg-red-100 dark:bg-red-900',
+    text: 'text-red-600 dark:text-red-400',
+    border: 'border-red-200 dark:border-red-800',
   },
   yellow: {
     bg: 'bg-yellow-100 dark:bg-yellow-900',

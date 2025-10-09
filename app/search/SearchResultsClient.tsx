@@ -13,6 +13,7 @@ const categoryColors = {
   tool: 'bg-purple-500',
   database: 'bg-orange-500',
   page: 'bg-gray-500',
+  boss: 'bg-red-500',
 };
 
 const categoryLabels = {
@@ -21,6 +22,7 @@ const categoryLabels = {
   tool: 'Tool',
   database: 'Database',
   page: 'Page',
+  boss: 'Boss',
 };
 
 function SearchResultsContent() {
@@ -90,6 +92,7 @@ function SearchResultsContent() {
   const categories = [
     { value: 'all', label: 'All' },
     { value: 'digimon', label: 'Digimon' },
+    { value: 'boss', label: 'Bosses' },
     { value: 'guide', label: 'Guides' },
     { value: 'tool', label: 'Tools' },
     { value: 'database', label: 'Database' },

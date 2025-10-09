@@ -17,6 +17,7 @@ const categoryColors = {
   tool: 'bg-purple-500',
   database: 'bg-orange-500',
   page: 'bg-gray-500',
+  boss: 'bg-red-500',
 };
 
 const categoryLabels = {
@@ -25,6 +26,7 @@ const categoryLabels = {
   tool: 'Tool',
   database: 'Database',
   page: 'Page',
+  boss: 'Boss',
 };
 
 export default function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {

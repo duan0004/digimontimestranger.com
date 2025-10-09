@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { loadDigimonData, getAllDigimonSlugs } from '@/lib/data-loader';
+import { getAllBossIds } from '@/lib/boss-data';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://digimontimestranger.com';
@@ -20,6 +21,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/pc/steam-deck',
     '/community',
     '/database',
+    '/database/bosses',
     '/about',
     '/search',
     '/privacy',
@@ -40,5 +42,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
-  return [...routes, ...digimonRoutes];
+  // Dynamic Boss routes
+  const bossIds = getAllBossIds();
+  const bossRoutes = bossIds.map((id) => ({
+    url: `${baseUrl}/database/bosses/${id}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  return [...routes, ...digimonRoutes, ...bossRoutes];
 }

@@ -1,0 +1,529 @@
+[
+  {
+    "id": "kuwagamon",
+    "name": "Kuwagamon",
+    "chapter": 1,
+    "location": "Server Continent - Net Ocean",
+    "level": 10,
+    "hp": 2500,
+    "sp": 150,
+    "attribute": "Virus",
+    "type": "Insect",
+    "difficulty": "Easy",
+    "image": "/images/bosses/kuwagamon.png",
+    "description": "The first major boss encounter. A large insect Digimon with powerful pincers.",
+    "stats": {
+      "atk": 120,
+      "def": 80,
+      "int": 60,
+      "spd": 90
+    },
+    "weaknesses": ["Vaccine", "Fire"],
+    "resistances": ["Plant", "Earth"],
+    "skills": [
+      {
+        "name": "Scissor Arms",
+        "type": "Physical",
+        "power": 150,
+        "description": "Powerful pincer attack that deals heavy damage to a single target"
+      },
+      {
+        "name": "Power Guillotine",
+        "type": "Physical",
+        "power": 200,
+        "description": "Ultimate pincer attack with chance to critical hit"
+      }
+    ],
+    "drops": [
+      "HP Chip A",
+      "Offense Chip",
+      "Medium MP Recovery"
+    ],
+    "recommendedLevel": 8,
+    "strategy": "Focus on Vaccine-type Digimon with fire attacks. Keep your HP above 50% as Kuwagamon can deal heavy burst damage with Power Guillotine. Use healing items between attacks.",
+    "recommendedTeam": [
+      "Agumon (Fire attacks)",
+      "Gabumon (Support)",
+      "Terriermon (Speed)"
+    ],
+    "phases": [
+      {
+        "phase": 1,
+        "hpThreshold": "100-50%",
+        "behavior": "Uses Scissor Arms frequently. Moderate damage output.",
+        "strategy": "Deal consistent damage while maintaining HP above 60%"
+      },
+      {
+        "phase": 2,
+        "hpThreshold": "50-0%",
+        "behavior": "Becomes aggressive. Uses Power Guillotine more often.",
+        "strategy": "Prioritize defense and healing. Save your strongest attacks for when it's below 30% HP"
+      }
+    ]
+  },
+  {
+    "id": "devimon",
+    "name": "Devimon",
+    "chapter": 2,
+    "location": "File Island - Infinity Mountain",
+    "level": 18,
+    "hp": 4500,
+    "sp": 250,
+    "attribute": "Virus",
+    "type": "Fallen Angel",
+    "difficulty": "Medium",
+    "image": "/images/bosses/devimon.png",
+    "description": "A fallen angel Digimon that commands darkness. First Champion-level boss encounter.",
+    "stats": {
+      "atk": 180,
+      "def": 140,
+      "int": 160,
+      "spd": 130
+    },
+    "weaknesses": ["Vaccine", "Light"],
+    "resistances": ["Dark", "Virus"],
+    "skills": [
+      {
+        "name": "Death Claw",
+        "type": "Physical",
+        "power": 180,
+        "description": "Razor-sharp claws attack with dark energy"
+      },
+      {
+        "name": "Evil Wing",
+        "type": "Special",
+        "power": 200,
+        "description": "Dark energy projectiles that hit all party members"
+      },
+      {
+        "name": "Touch of Evil",
+        "type": "Status",
+        "power": 0,
+        "description": "Chance to inflict Confusion on one target"
+      }
+    ],
+    "drops": [
+      "Dark Ring",
+      "HP Chip B",
+      "Defense Chip"
+    ],
+    "recommendedLevel": 15,
+    "strategy": "Bring multiple Vaccine-type Digimon. Devimon's Evil Wing hits the entire party, so keep everyone's HP up. Have Antidote items ready for Confusion status.",
+    "recommendedTeam": [
+      "Angemon (Light attacks, Vaccine type)",
+      "Greymon (High HP tank)",
+      "Gatomon (Speed and healing)"
+    ],
+    "phases": [
+      {
+        "phase": 1,
+        "hpThreshold": "100-60%",
+        "behavior": "Alternates between Death Claw and Evil Wing",
+        "strategy": "Focus on dealing damage while healing after Evil Wing attacks"
+      },
+      {
+        "phase": 2,
+        "hpThreshold": "60-30%",
+        "behavior": "Uses Touch of Evil to disrupt your team",
+        "strategy": "Prioritize curing Confusion immediately. Confused allies can attack their own team"
+      },
+      {
+        "phase": 3,
+        "hpThreshold": "30-0%",
+        "behavior": "Desperate mode - uses Evil Wing more frequently",
+        "strategy": "Keep all party members above 40% HP. Use your strongest attacks to finish quickly"
+      }
+    ]
+  },
+  {
+    "id": "etemon",
+    "name": "Etemon",
+    "chapter": 3,
+    "location": "Server Continent - Desert Zone",
+    "level": 25,
+    "hp": 6000,
+    "sp": 300,
+    "attribute": "Virus",
+    "type": "Puppet",
+    "difficulty": "Medium",
+    "image": "/images/bosses/etemon.png",
+    "description": "The self-proclaimed king of Digimon. Uses music-based attacks and has high defense.",
+    "stats": {
+      "atk": 200,
+      "def": 220,
+      "int": 140,
+      "spd": 110
+    },
+    "weaknesses": ["Water", "Ice"],
+    "resistances": ["Earth", "Physical attacks"],
+    "skills": [
+      {
+        "name": "Dark Spirits",
+        "type": "Special",
+        "power": 190,
+        "description": "Dark energy attack hitting random targets"
+      },
+      {
+        "name": "Monkey Kick",
+        "type": "Physical",
+        "power": 210,
+        "description": "Powerful physical attack with high accuracy"
+      },
+      {
+        "name": "Concert Crush",
+        "type": "Special",
+        "power": 250,
+        "description": "Ultimate sound wave attack hitting all enemies. Used when HP is low"
+      }
+    ],
+    "drops": [
+      "Monkey Suit",
+      "Speed Chip",
+      "HP Chip C"
+    ],
+    "recommendedLevel": 22,
+    "strategy": "Etemon has very high defense, making physical attacks less effective. Use special attacks, especially Water and Ice types. His Concert Crush is devastating - try to finish him before he can use it multiple times.",
+    "recommendedTeam": [
+      "Seadramon (Water attacks)",
+      "Frigimon (Ice attacks)",
+      "Birdramon (Special attacker)"
+    ],
+    "phases": [
+      {
+        "phase": 1,
+        "hpThreshold": "100-50%",
+        "behavior": "Uses Dark Spirits and Monkey Kick alternately",
+        "strategy": "Focus on special attacks to bypass his high defense"
+      },
+      {
+        "phase": 2,
+        "hpThreshold": "50-0%",
+        "behavior": "Starts using Concert Crush. Very dangerous phase",
+        "strategy": "Maximize damage output. Keep HP above 60% to survive Concert Crush. Consider using defensive buffs"
+      }
+    ]
+  },
+  {
+    "id": "myotismon",
+    "name": "Myotismon",
+    "chapter": 4,
+    "location": "Folder Continent - Geko Swamp",
+    "level": 32,
+    "hp": 8000,
+    "sp": 400,
+    "attribute": "Virus",
+    "type": "Undead",
+    "difficulty": "Hard",
+    "image": "/images/bosses/myotismon.png",
+    "description": "A vampire Digimon that rules the night. Can drain HP and inflict multiple status effects.",
+    "stats": {
+      "atk": 240,
+      "def": 190,
+      "int": 220,
+      "spd": 180
+    },
+    "weaknesses": ["Light", "Fire"],
+    "resistances": ["Dark", "Poison"],
+    "skills": [
+      {
+        "name": "Crimson Lightning",
+        "type": "Special",
+        "power": 220,
+        "description": "Powerful dark lightning attack"
+      },
+      {
+        "name": "Nightmare Claw",
+        "type": "Physical",
+        "power": 200,
+        "description": "Drains HP from target and heals Myotismon"
+      },
+      {
+        "name": "Grizzly Wing",
+        "type": "Special",
+        "power": 180,
+        "description": "Summons bats that can inflict Sleep status"
+      },
+      {
+        "name": "Nightmare Wave",
+        "type": "Special",
+        "power": 280,
+        "description": "Ultimate dark attack used when HP is critical"
+      }
+    ],
+    "drops": [
+      "Darkness Mantle",
+      "INT Chip B",
+      "Revival Capsule"
+    ],
+    "recommendedLevel": 28,
+    "strategy": "This is a challenging boss. Myotismon can heal himself with Nightmare Claw, making the battle longer. Bring awakening items for Sleep status. Light-type attacks are extremely effective - prioritize Digimon with holy attributes.",
+    "recommendedTeam": [
+      "MagnaAngemon (Light attacks, holy type)",
+      "WarGreymon (High damage output)",
+      "Angewomon (Light support and healing)"
+    ],
+    "phases": [
+      {
+        "phase": 1,
+        "hpThreshold": "100-70%",
+        "behavior": "Cycles through Crimson Lightning and Nightmare Claw",
+        "strategy": "Deal consistent damage. Healing is important as Nightmare Claw can swing momentum"
+      },
+      {
+        "phase": 2,
+        "hpThreshold": "70-40%",
+        "behavior": "Adds Grizzly Wing to rotation. May put multiple allies to sleep",
+        "strategy": "Wake up sleeping allies immediately. Focus fire to reduce his healing opportunities"
+      },
+      {
+        "phase": 3,
+        "hpThreshold": "40-0%",
+        "behavior": "Desperate attacks. Uses Nightmare Wave and Nightmare Claw more frequently",
+        "strategy": "Maintain HP above 50%. Use your strongest Light attacks. Consider defensive items before Nightmare Wave"
+      }
+    ]
+  },
+  {
+    "id": "piedmon",
+    "name": "Piedmon",
+    "chapter": 5,
+    "location": "Dark Area - Spiral Mountain",
+    "level": 40,
+    "hp": 10000,
+    "sp": 500,
+    "attribute": "Virus",
+    "type": "Wizard",
+    "difficulty": "Hard",
+    "image": "/images/bosses/piedmon.png",
+    "description": "A master of dark magic and illusions. One of the Dark Masters with devastating magical attacks.",
+    "stats": {
+      "atk": 220,
+      "def": 210,
+      "int": 280,
+      "spd": 200
+    },
+    "weaknesses": ["Light", "Holy"],
+    "resistances": ["Dark", "Magic"],
+    "skills": [
+      {
+        "name": "Trump Sword",
+        "type": "Special",
+        "power": 250,
+        "description": "Throws magical swords that pierce through defenses"
+      },
+      {
+        "name": "Ending Snipe",
+        "type": "Special",
+        "power": 220,
+        "description": "Precise magic attack with guaranteed critical hit"
+      },
+      {
+        "name": "Clown Trick",
+        "type": "Status",
+        "power": 0,
+        "description": "Transforms one Digimon into a keychain, removing them from battle temporarily"
+      },
+      {
+        "name": "Masks Square",
+        "type": "Special",
+        "power": 300,
+        "description": "Ultimate magic attack hitting all enemies. Used when critical"
+      }
+    ],
+    "drops": [
+      "Clown Mask",
+      "Magic Chip A",
+      "Mega Recovery"
+    ],
+    "recommendedLevel": 36,
+    "strategy": "Piedmon is a magic powerhouse. His Clown Trick can remove your strongest Digimon from battle - spread your damage dealers across your team. High INT defense is crucial. Light and Holy attacks are your best bet.",
+    "recommendedTeam": [
+      "Seraphimon (Holy attacks, high INT)",
+      "Gallantmon (Balanced stats, Holy element)",
+      "Ophanimon (Healing and Light attacks)"
+    ],
+    "phases": [
+      {
+        "phase": 1,
+        "hpThreshold": "100-60%",
+        "behavior": "Uses Trump Sword and Ending Snipe frequently",
+        "strategy": "Deal steady damage. Keep INT defense buffed if possible"
+      },
+      {
+        "phase": 2,
+        "hpThreshold": "60-30%",
+        "behavior": "Starts using Clown Trick to disable your strongest Digimon",
+        "strategy": "Don't rely on one damage dealer. Have backup attackers ready. Disabled Digimon return after 2-3 turns"
+      },
+      {
+        "phase": 3,
+        "hpThreshold": "30-0%",
+        "behavior": "Aggressive magic spam. Uses Masks Square repeatedly",
+        "strategy": "Maximum damage output phase. Keep everyone above 50% HP. Use items liberally. Finish quickly"
+      }
+    ]
+  },
+  {
+    "id": "machinedramon",
+    "name": "Machinedramon",
+    "chapter": 6,
+    "location": "Server Desert - Steel Factory",
+    "level": 45,
+    "hp": 12000,
+    "sp": 450,
+    "attribute": "Virus",
+    "type": "Machine",
+    "difficulty": "Very Hard",
+    "image": "/images/bosses/machinedramon.png",
+    "description": "A mechanical dragon with overwhelming firepower. Another Dark Master with extreme defense.",
+    "stats": {
+      "atk": 300,
+      "def": 280,
+      "int": 200,
+      "spd": 140
+    },
+    "weaknesses": ["Water", "Thunder"],
+    "resistances": ["Fire", "Physical", "Machine"],
+    "skills": [
+      {
+        "name": "Giga Cannon",
+        "type": "Physical",
+        "power": 280,
+        "description": "Massive energy cannon that deals heavy damage"
+      },
+      {
+        "name": "Dragon Fire",
+        "type": "Special",
+        "power": 250,
+        "description": "Flame breath attack hitting multiple targets"
+      },
+      {
+        "name": "Infinity Hand",
+        "type": "Physical",
+        "power": 200,
+        "description": "Mechanical arms attack with high accuracy, hits twice"
+      },
+      {
+        "name": "Catastrophe Blast",
+        "type": "Special",
+        "power": 350,
+        "description": "Ultimate weapon discharge. Devastating AoE attack"
+      }
+    ],
+    "drops": [
+      "Machine Parts",
+      "ATK Chip A",
+      "DEF Chip A"
+    ],
+    "recommendedLevel": 42,
+    "strategy": "Machinedramon has extremely high attack and defense. Water and Thunder attacks are essential. His Catastrophe Blast can wipe your team - keep HP topped off. Physical attacks are heavily resisted, use special moves.",
+    "recommendedTeam": [
+      "MetalSeadramon (Water attacks, high DEF)",
+      "Vikemon (Water/Ice, tank)",
+      "Plesiomon (Water support)"
+    ],
+    "phases": [
+      {
+        "phase": 1,
+        "hpThreshold": "100-50%",
+        "behavior": "Rotates between Giga Cannon, Dragon Fire, and Infinity Hand",
+        "strategy": "Focus on Water/Thunder special attacks. Maintain high HP at all times"
+      },
+      {
+        "phase": 2,
+        "hpThreshold": "50-0%",
+        "behavior": "Catastrophe Blast becomes available. Extremely dangerous",
+        "strategy": "All party members need 70%+ HP. Use defensive buffs before Catastrophe Blast. Burst damage when possible"
+      }
+    ]
+  },
+  {
+    "id": "apocalymon",
+    "name": "Apocalymon",
+    "chapter": 9,
+    "location": "Dark Area - World's End",
+    "level": 55,
+    "hp": 20000,
+    "sp": 800,
+    "attribute": "Unknown",
+    "type": "Unidentified",
+    "difficulty": "Extreme",
+    "image": "/images/bosses/apocalymon.png",
+    "description": "The final boss. An entity of pure chaos born from deleted data. Has multiple forms and devastating attacks.",
+    "stats": {
+      "atk": 350,
+      "def": 300,
+      "int": 320,
+      "spd": 250
+    },
+    "weaknesses": ["None (Holy attacks slightly effective)"],
+    "resistances": ["All elements moderately resisted"],
+    "skills": [
+      {
+        "name": "Grand Death Big Bang",
+        "type": "Special",
+        "power": 400,
+        "description": "Massive explosion of chaos energy"
+      },
+      {
+        "name": "Total Annihilation",
+        "type": "Special",
+        "power": 350,
+        "description": "Attempts to delete all targets from existence"
+      },
+      {
+        "name": "Darkness Zone",
+        "type": "Status",
+        "power": 0,
+        "description": "Creates zone that reduces all stats by 30%"
+      },
+      {
+        "name": "Ultimate Stream",
+        "type": "Special",
+        "power": 300,
+        "description": "Energy stream that hits random targets multiple times"
+      }
+    ],
+    "drops": [
+      "Chaos Shard",
+      "Supreme Chip",
+      "Legend Medal"
+    ],
+    "recommendedLevel": 50,
+    "strategy": "The ultimate challenge. Apocalymon has no true weaknesses. Bring your strongest Mega-level Digimon with diverse attack types. Stock up on revival items and mega recovery. The battle has multiple phases - pace yourself and maintain resources.",
+    "recommendedTeam": [
+      "WarGreymon (Physical powerhouse)",
+      "MetalGarurumon (Special attacks)",
+      "Phoenixmon (Healing and revival)",
+      "Rosemon (Support and status)",
+      "Imperialdramon (Balanced attacker)",
+      "Seraphimon (Holy damage)"
+    ],
+    "phases": [
+      {
+        "phase": 1,
+        "hpThreshold": "100-75%",
+        "behavior": "Testing phase. Uses Ultimate Stream and Total Annihilation",
+        "strategy": "Learn attack patterns. Deal steady damage while conserving items"
+      },
+      {
+        "phase": 2,
+        "hpThreshold": "75-50%",
+        "behavior": "Creates Darkness Zone. All your stats reduced significantly",
+        "strategy": "Use stat-boosting items to counteract debuff. Focus fire continues"
+      },
+      {
+        "phase": 3,
+        "hpThreshold": "50-25%",
+        "behavior": "Begins using Grand Death Big Bang. Extreme damage phase",
+        "strategy": "Keep ALL party members above 60% HP minimum. Heal before and after Big Bang"
+      },
+      {
+        "phase": 4,
+        "hpThreshold": "25-0%",
+        "behavior": "Desperate final stand. Spams strongest attacks",
+        "strategy": "All-out assault. Use your strongest attacks and ultimate moves. Be prepared to revive fallen allies. Victory is close!"
+      }
+    ]
+  }
+]

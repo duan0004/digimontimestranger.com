@@ -1,10 +1,11 @@
 import { loadDigimonData } from './data-loader';
+import { getAllBosses } from './boss-data';
 
 export interface SearchItem {
   id: string;
   title: string;
   description: string;
-  category: 'digimon' | 'guide' | 'tool' | 'database' | 'page';
+  category: 'digimon' | 'guide' | 'tool' | 'database' | 'page' | 'boss';
   url: string;
   tags?: string[];
   image?: string;
@@ -38,6 +39,32 @@ export async function buildSearchIndex(): Promise<SearchItem[]> {
     });
   } catch (error) {
     console.error('Error loading Digimon data for search:', error);
+  }
+
+  // Add Boss data
+  try {
+    const bosses = getAllBosses();
+
+    bosses.forEach((boss) => {
+      searchItems.push({
+        id: `boss-${boss.id}`,
+        title: boss.name,
+        description: boss.description || `Chapter ${boss.chapter} boss - ${boss.difficulty} difficulty`,
+        category: 'boss',
+        url: `/database/bosses/${boss.id}`,
+        tags: [
+          `Chapter ${boss.chapter}`,
+          boss.difficulty,
+          boss.attribute,
+          boss.type,
+          boss.location,
+          ...boss.weaknesses.map(w => `Weak to ${w}`),
+        ].filter(Boolean),
+        image: boss.image,
+      });
+    });
+  } catch (error) {
+    console.error('Error loading Boss data for search:', error);
   }
 
   // Add guide pages
