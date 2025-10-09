@@ -243,6 +243,20 @@ export async function buildSearchIndex(): Promise<SearchItem[]> {
       tags: ['community', 'forum', 'discussion'],
     },
     {
+      id: 'page-contribute',
+      title: 'Contribute to Community',
+      description: 'Submit guides, report issues, and help build the best Digimon resource',
+      url: '/community/contribute',
+      tags: ['contribute', 'submit', 'github', 'community', 'help'],
+    },
+    {
+      id: 'page-events',
+      title: 'Events Calendar',
+      description: 'Game events, updates, DLC releases, and community activities calendar',
+      url: '/events',
+      tags: ['events', 'calendar', 'updates', 'dlc', 'seasonal'],
+    },
+    {
       id: 'page-updates',
       title: 'Updates & Patches',
       description: 'Latest game updates, patches, and news',

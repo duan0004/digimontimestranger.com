@@ -31,6 +31,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/walkthrough/chapter-9',
     '/videos',
     '/faq',
+    '/events',
+    '/community/contribute',
     '/updates',
     '/pc/steam-deck',
     '/community',
