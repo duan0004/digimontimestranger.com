@@ -105,6 +105,13 @@ export async function buildSearchIndex(): Promise<SearchItem[]> {
       tags: ['story', 'endings', 'choices', 'branches', 'decisions', 'timeline', 'friendship'],
     },
     {
+      id: 'guide-collectibles',
+      title: 'Collectibles Guide',
+      description: 'Complete list of all collectibles, Ancient Tablet Fragments, and missable items',
+      url: '/guides/collectibles',
+      tags: ['collectibles', 'items', 'tablets', 'missable', 'treasures', 'secrets'],
+    },
+    {
       id: 'guide-boss-strategies',
       title: 'Boss Strategies Guide',
       description: 'Comprehensive boss battle tactics and team recommendations',
@@ -213,6 +220,20 @@ export async function buildSearchIndex(): Promise<SearchItem[]> {
       description: 'Browse all available guides and tutorials',
       url: '/guides',
       tags: ['guides', 'tutorials', 'help'],
+    },
+    {
+      id: 'page-videos',
+      title: 'Video Guides',
+      description: 'Watch comprehensive video guides and tutorials for all aspects of the game',
+      url: '/videos',
+      tags: ['videos', 'youtube', 'tutorials', 'guides', 'visual'],
+    },
+    {
+      id: 'page-faq',
+      title: 'FAQ - Frequently Asked Questions',
+      description: 'Find answers to common questions about Digimon Time Stranger',
+      url: '/faq',
+      tags: ['faq', 'questions', 'answers', 'help', 'support'],
     },
     {
       id: 'page-community',

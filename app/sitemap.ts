@@ -18,6 +18,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/guides/fast-leveling',
     '/guides/boss-strategies',
     '/guides/story-branches',
+    '/guides/collectibles',
     '/walkthrough',
     '/walkthrough/chapter-1',
     '/walkthrough/chapter-2',
@@ -28,6 +29,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/walkthrough/chapter-7',
     '/walkthrough/chapter-8',
     '/walkthrough/chapter-9',
+    '/videos',
+    '/faq',
     '/updates',
     '/pc/steam-deck',
     '/community',
@@ -40,8 +43,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
-    changeFrequency: route === '' ? 'daily' as const : 'weekly' as const,
-    priority: route === '' ? 1.0 : route === '/privacy' || route === '/terms' ? 0.3 : route === '/search' ? 0.5 : route.startsWith('/walkthrough') ? 0.9 : route === '/guides/story-branches' ? 0.85 : 0.8,
+    changeFrequency: route === '' ? 'daily' as const : route === '/videos' ? 'daily' as const : 'weekly' as const,
+    priority: route === '' ? 1.0 : route === '/privacy' || route === '/terms' ? 0.3 : route === '/search' ? 0.5 : route.startsWith('/walkthrough') ? 0.9 : route === '/guides/story-branches' || route === '/guides/collectibles' ? 0.85 : route === '/videos' ? 0.8 : route === '/faq' ? 0.7 : 0.8,
   }));
 
   // Dynamic Digimon routes

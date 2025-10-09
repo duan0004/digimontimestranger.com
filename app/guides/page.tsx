@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { generateMetadata } from '@/lib/seo';
 import Link from 'next/link';
-import { BookOpen, Zap, Users, TrendingUp, Gamepad2, Settings, GitBranch } from 'lucide-react';
+import { BookOpen, Zap, Users, TrendingUp, Gamepad2, Settings, GitBranch, Package } from 'lucide-react';
 
 export const metadata: Metadata = generateMetadata({
   title: 'Strategy Guides - Complete Digimon Time Stranger Guides',
@@ -65,6 +65,14 @@ const guides = [
     icon: Gamepad2,
     status: 'available',
     readTime: '15 min',
+  },
+  {
+    title: 'Collectibles Guide',
+    description: 'Complete chapter-by-chapter list of all collectibles, Ancient Tablet Fragments, and missable items.',
+    href: '/guides/collectibles',
+    icon: Package,
+    status: 'available',
+    readTime: '20 min',
   },
   {
     title: 'PC & Steam Deck Settings',
