@@ -1,11 +1,6 @@
-import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
-import { generateMetadata } from '@/lib/seo';
-import GoogleAnalytics from '@/components/analytics/GoogleAnalytics';
-import GoogleAdsense from '@/components/ads/GoogleAdsense';
+import { locales } from '@/i18n';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -13,21 +8,9 @@ const inter = Inter({
   display: 'swap',
 });
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Digimon Time Stranger - Complete Strategy Guide & Digidex',
-  description:
-    'Master Digimon Story: Time Stranger with complete evolution guides, team building tools, strategies, and the ultimate Digidex database. 400+ Digimon, 1000+ evolution paths.',
-  keywords: [
-    'Digimon Time Stranger',
-    'Digimon Story guide',
-    'evolution guide',
-    'team builder',
-    'Digidex',
-    'best starters',
-    'JRPG guide',
-    'Digimon evolution paths',
-  ],
-});
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
 export default function RootLayout({
   children,
@@ -35,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html className={inter.variable} suppressHydrationWarning>
       <head>
         {/* PWA Manifest */}
         <link rel="manifest" href="/manifest.json" />
@@ -50,39 +33,8 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'WebSite',
-              name: 'Digimon Time Stranger Guide',
-              description:
-                'Complete strategies and database for Digimon Story: Time Stranger',
-              url: 'https://digimontimestranger.com',
-              potentialAction: {
-                '@type': 'SearchAction',
-                target: {
-                  '@type': 'EntryPoint',
-                  urlTemplate:
-                    'https://digimontimestranger.com/search?q={search_term_string}',
-                },
-                'query-input': 'required name=search_term_string',
-              },
-            }),
-          }}
-        />
-        <GoogleAnalytics />
-        <GoogleAdsense />
       </head>
-      <body className="antialiased">
-        <div className="flex flex-col min-h-screen">
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </div>
-      </body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }

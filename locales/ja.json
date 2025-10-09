@@ -1,0 +1,188 @@
+{
+  "common": {
+    "readMore": "続きを読む",
+    "search": "検索",
+    "filter": "フィルター",
+    "sort": "並び替え",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "notFound": "見つかりません",
+    "backToHome": "ホームに戻る"
+  },
+  "nav": {
+    "home": "ホーム",
+    "digidex": "デジモン図鑑",
+    "guides": "ガイド",
+    "evolution": "進化",
+    "bosses": "ボス戦",
+    "walkthroughs": "攻略チャート",
+    "tools": "ツール",
+    "community": "コミュニティ",
+    "about": "について"
+  },
+  "home": {
+    "title": "デジモンストーリー：タイムストレンジャー",
+    "subtitle": "デジタルワールドの完全ガイド",
+    "description": "デジモンストーリー：タイムストレンジャーの完全ガイド、進化ツリー、ボス戦略、コミュニティリソースをご覧ください。",
+    "hero": {
+      "title": "デジタルワールドへようこそ",
+      "subtitle": "デジモンストーリー：タイムストレンジャー究極ガイド",
+      "cta": "図鑑を見る"
+    },
+    "features": {
+      "title": "必要なすべてが揃っています",
+      "digidex": {
+        "title": "完全図鑑",
+        "description": "全デジモンの詳細なステータス、進化ルート、出現場所"
+      },
+      "guides": {
+        "title": "エキスパートガイド",
+        "description": "経験豊富なプレイヤーによる詳細な攻略、戦略、ヒント"
+      },
+      "evolution": {
+        "title": "進化ツリー",
+        "description": "すべてのルートと条件を示すインタラクティブな進化チャート"
+      },
+      "bosses": {
+        "title": "ボス戦略",
+        "description": "すべてのボスバトルの実証済みの戦術とチーム編成"
+      }
+    },
+    "quickStart": {
+      "title": "クイックスタートガイド",
+      "beginner": "ゲーム初心者の方はこちら！",
+      "evolution": "デジモンの進化について学ぶ",
+      "team": "完璧なチームを作る"
+    },
+    "popularGuides": {
+      "title": "人気のガイド",
+      "evolutionGuide": "デジモン進化ガイド",
+      "teamBuilding": "チーム編成戦略",
+      "storyBranches": "ストーリー分岐とエンディング",
+      "memoryManagement": "メモリ管理のコツ"
+    },
+    "recentUpdates": {
+      "title": "最近の更新",
+      "seeAll": "すべての更新を見る"
+    },
+    "community": {
+      "title": "コミュニティに参加",
+      "description": "他のテイマーとつながり、戦略を共有し、最新情報を入手",
+      "discord": "Discordに参加",
+      "forum": "フォーラムを見る"
+    }
+  },
+  "digidex": {
+    "title": "デジモン図鑑",
+    "description": "すべてのデジモンの詳細なステータスと進化ルートを閲覧",
+    "searchPlaceholder": "デジモンを検索...",
+    "filters": {
+      "all": "すべて",
+      "stage": "世代",
+      "attribute": "属性",
+      "element": "タイプ"
+    },
+    "stats": {
+      "hp": "HP",
+      "atk": "攻撃",
+      "def": "防御",
+      "spAtk": "特攻",
+      "spDef": "特防",
+      "speed": "素早さ"
+    }
+  },
+  "digimon": {
+    "baseStats": "基本ステータス",
+    "skills": "スキル",
+    "evolvesTo": "進化先",
+    "devolvesFrom": "退化元",
+    "locations": "出現場所",
+    "memory": "メモリ",
+    "quickLinks": "クイックリンク",
+    "viewEvolutionTree": "進化ツリーを見る",
+    "addToTeamBuilder": "チームビルダーに追加",
+    "backToDigidex": "図鑑に戻る",
+    "howToGet": "{name}の入手方法",
+    "foundIn": "{name}は以下の場所で見つかります：{locations}",
+    "obtainThroughEvolution": "{name}は進化で入手できます"
+  },
+  "guides": {
+    "title": "ガイド",
+    "description": "包括的なガイドと戦略",
+    "categories": {
+      "beginner": "初心者",
+      "advanced": "上級者",
+      "evolution": "進化",
+      "team": "チーム編成",
+      "story": "ストーリー"
+    }
+  },
+  "evolution": {
+    "title": "進化ツリー",
+    "description": "インタラクティブな進化チャートと条件",
+    "requirements": "条件",
+    "level": "レベル{level}",
+    "stats": "必要なステータス"
+  },
+  "bosses": {
+    "title": "ボス戦ガイド",
+    "description": "ボスバトルの戦略とチーム推奨",
+    "difficulty": "難易度",
+    "recommendedLevel": "推奨レベル",
+    "weaknesses": "弱点",
+    "strategy": "戦略",
+    "teamComposition": "推奨チーム"
+  },
+  "walkthroughs": {
+    "title": "攻略チャート",
+    "description": "ストーリーチャプターのステップバイステップガイド",
+    "chapter": "第{number}章",
+    "objectives": "目標",
+    "rewards": "報酬"
+  },
+  "tools": {
+    "title": "ツール",
+    "description": "便利な計算機とビルダー",
+    "teamBuilder": {
+      "title": "チームビルダー",
+      "description": "完璧なデジモンチームを構築・分析"
+    },
+    "statCalculator": {
+      "title": "ステータス計算機",
+      "description": "異なるビルドでの最終ステータスを計算"
+    }
+  },
+  "community": {
+    "title": "コミュニティ",
+    "description": "他のプレイヤーとつながる",
+    "categories": {
+      "discussion": "一般討論",
+      "strategy": "戦略とヒント",
+      "showcase": "チーム紹介",
+      "questions": "質問"
+    }
+  },
+  "footer": {
+    "description": "デジモンストーリー：タイムストレンジャーの完全ガイド",
+    "quickLinks": "クイックリンク",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "copyright": "© 2024 デジモンストーリータイムストレンジャーガイド。全著作権所有。",
+    "disclaimer": "これはファン制作のガイドです。デジモンはバンダイナムコの商標です。"
+  },
+  "seo": {
+    "home": {
+      "title": "デジモンストーリー：タイムストレンジャー - 完全ガイド＆データベース",
+      "description": "デジモンストーリー：タイムストレンジャーの総合ガイド。完全図鑑、進化ツリー、ボス戦略、攻略チャート、コミュニティリソース。"
+    },
+    "digidex": {
+      "title": "デジモン図鑑 - 完全データベース | デジモンストーリータイムストレンジャー",
+      "description": "すべてのデジモンの詳細なステータス、進化ルート、出現場所、スキルを閲覧。デジモンストーリー：タイムストレンジャー完全データベース。"
+    },
+    "guides": {
+      "title": "ガイド＆戦略 | デジモンストーリータイムストレンジャー",
+      "description": "デジモンストーリー：タイムストレンジャーのエキスパートガイド、戦略、ヒント。進化ガイド、チーム編成、上級戦術。"
+    }
+  }
+}

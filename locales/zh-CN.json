@@ -1,0 +1,188 @@
+{
+  "common": {
+    "readMore": "阅读更多",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "notFound": "未找到",
+    "backToHome": "返回首页"
+  },
+  "nav": {
+    "home": "首页",
+    "digidex": "数码宝贝图鉴",
+    "guides": "攻略指南",
+    "evolution": "进化",
+    "bosses": "Boss战",
+    "walkthroughs": "流程攻略",
+    "tools": "工具",
+    "community": "社区",
+    "about": "关于"
+  },
+  "home": {
+    "title": "数码宝贝物语：时间旅行者",
+    "subtitle": "您完整的数码世界指南",
+    "description": "探索数码宝贝物语：时间旅行者的完整攻略、进化树、Boss战略和社区资源。",
+    "hero": {
+      "title": "欢迎来到数码世界",
+      "subtitle": "数码宝贝物语：时间旅行者终极指南",
+      "cta": "探索图鉴"
+    },
+    "features": {
+      "title": "您所需的一切",
+      "digidex": {
+        "title": "完整图鉴",
+        "description": "每个数码宝贝的详细属性、进化路径和位置"
+      },
+      "guides": {
+        "title": "专家攻略",
+        "description": "经验丰富的玩家提供的深度流程、策略和技巧"
+      },
+      "evolution": {
+        "title": "进化树",
+        "description": "显示所有路径和要求的交互式进化图表"
+      },
+      "bosses": {
+        "title": "Boss战略",
+        "description": "每场Boss战的有效战术和队伍配置"
+      }
+    },
+    "quickStart": {
+      "title": "快速入门指南",
+      "beginner": "游戏新手？从这里开始！",
+      "evolution": "了解数码宝贝进化",
+      "team": "打造完美队伍"
+    },
+    "popularGuides": {
+      "title": "热门攻略",
+      "evolutionGuide": "数码宝贝进化指南",
+      "teamBuilding": "组队策略",
+      "storyBranches": "剧情分支与结局",
+      "memoryManagement": "内存管理技巧"
+    },
+    "recentUpdates": {
+      "title": "最近更新",
+      "seeAll": "查看所有更新"
+    },
+    "community": {
+      "title": "加入我们的社区",
+      "description": "与其他驯兽师联系，分享策略，保持更新",
+      "discord": "加入Discord",
+      "forum": "访问论坛"
+    }
+  },
+  "digidex": {
+    "title": "数码宝贝图鉴",
+    "description": "浏览所有数码宝贝的详细属性和进化路径",
+    "searchPlaceholder": "搜索数码宝贝...",
+    "filters": {
+      "all": "全部",
+      "stage": "阶段",
+      "attribute": "属性",
+      "element": "元素"
+    },
+    "stats": {
+      "hp": "HP",
+      "atk": "攻击",
+      "def": "防御",
+      "spAtk": "特攻",
+      "spDef": "特防",
+      "speed": "速度"
+    }
+  },
+  "digimon": {
+    "baseStats": "基础属性",
+    "skills": "技能",
+    "evolvesTo": "进化成",
+    "devolvesFrom": "退化自",
+    "locations": "位置",
+    "memory": "内存",
+    "quickLinks": "快速链接",
+    "viewEvolutionTree": "查看进化树",
+    "addToTeamBuilder": "添加到队伍构建器",
+    "backToDigidex": "返回图鉴",
+    "howToGet": "如何获得{name}",
+    "foundIn": "{name}可以在以下位置找到：{locations}",
+    "obtainThroughEvolution": "{name}可以通过进化获得"
+  },
+  "guides": {
+    "title": "攻略指南",
+    "description": "综合攻略和策略",
+    "categories": {
+      "beginner": "新手",
+      "advanced": "进阶",
+      "evolution": "进化",
+      "team": "组队",
+      "story": "剧情"
+    }
+  },
+  "evolution": {
+    "title": "进化树",
+    "description": "交互式进化图表和要求",
+    "requirements": "要求",
+    "level": "等级{level}",
+    "stats": "所需属性"
+  },
+  "bosses": {
+    "title": "Boss战指南",
+    "description": "Boss战的策略和队伍推荐",
+    "difficulty": "难度",
+    "recommendedLevel": "推荐等级",
+    "weaknesses": "弱点",
+    "strategy": "策略",
+    "teamComposition": "推荐队伍"
+  },
+  "walkthroughs": {
+    "title": "流程攻略",
+    "description": "剧情章节的详细指南",
+    "chapter": "第{number}章",
+    "objectives": "目标",
+    "rewards": "奖励"
+  },
+  "tools": {
+    "title": "工具",
+    "description": "有用的计算器和构建器",
+    "teamBuilder": {
+      "title": "队伍构建器",
+      "description": "构建和分析您的完美数码宝贝队伍"
+    },
+    "statCalculator": {
+      "title": "属性计算器",
+      "description": "计算不同配置的最终属性"
+    }
+  },
+  "community": {
+    "title": "社区",
+    "description": "与其他玩家联系",
+    "categories": {
+      "discussion": "综合讨论",
+      "strategy": "策略与技巧",
+      "showcase": "队伍展示",
+      "questions": "问题"
+    }
+  },
+  "footer": {
+    "description": "您完整的数码宝贝物语：时间旅行者指南",
+    "quickLinks": "快速链接",
+    "resources": "资源",
+    "community": "社区",
+    "legal": "法律",
+    "copyright": "© 2024 数码宝贝物语时间旅行者指南。保留所有权利。",
+    "disclaimer": "这是一个粉丝制作的指南。数码宝贝是万代南梦宫的商标。"
+  },
+  "seo": {
+    "home": {
+      "title": "数码宝贝物语：时间旅行者 - 完整攻略与数据库",
+      "description": "数码宝贝物语：时间旅行者综合指南。完整图鉴、进化树、Boss战略、流程攻略和社区资源。"
+    },
+    "digidex": {
+      "title": "数码宝贝图鉴 - 完整数据库 | 数码宝贝物语时间旅行者",
+      "description": "浏览所有数码宝贝的详细属性、进化路径、位置和技能。数码宝贝物语：时间旅行者完整数据库。"
+    },
+    "guides": {
+      "title": "攻略指南与策略 | 数码宝贝物语时间旅行者",
+      "description": "数码宝贝物语：时间旅行者的专家攻略、策略和技巧。进化指南、组队和高级战术。"
+    }
+  }
+}

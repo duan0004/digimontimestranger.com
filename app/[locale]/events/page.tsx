@@ -333,13 +333,13 @@ export default function EventsPage() {
             Follow our social media channels or enable notifications to stay updated on all upcoming events, updates, and special activities.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a
+            <Link
               href="/updates"
               className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               <Calendar className="w-5 h-5" />
               View All Updates
-            </a>
+            </Link>
             <Link
               href="/community"
               className="inline-flex items-center gap-2 bg-white dark:bg-gray-800 text-blue-600 dark:text-blue-400 border-2 border-blue-600 dark:border-blue-400 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors"

@@ -3,8 +3,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import { useParams } from 'next/navigation';
 import { Menu, X, Search } from 'lucide-react';
 import GlobalSearch from '@/components/search/GlobalSearch';
+import LanguageSwitcher from './LanguageSwitcher';
+import type { Locale } from '@/i18n';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -19,6 +22,13 @@ const navigation = [
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const params = useParams();
+  const locale = (params.locale as Locale) || 'en';
+
+  // Helper to create locale-aware links
+  const getLocalizedHref = (href: string) => {
+    return `/${locale}${href}`;
+  };
 
   // Keyboard shortcut for search (Cmd/Ctrl + K)
   useEffect(() => {
@@ -39,7 +49,7 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-3">
+            <Link href={getLocalizedHref('/')} className="flex items-center space-x-3">
               <div className="relative w-10 h-10 flex-shrink-0">
                 <Image
                   src="/logo.png"
@@ -66,7 +76,7 @@ export default function Header() {
             {navigation.map((item) => (
               <Link
                 key={item.name}
-                href={item.href}
+                href={getLocalizedHref(item.href)}
                 className="px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors"
               >
                 {item.name}
@@ -74,8 +84,11 @@ export default function Header() {
             ))}
           </div>
 
-          {/* Search & Mobile Menu Button */}
+          {/* Language Switcher, Search & Mobile Menu Button */}
           <div className="flex items-center space-x-2">
+            <div className="hidden md:block">
+              <LanguageSwitcher />
+            </div>
             <button
               onClick={() => setSearchOpen(true)}
               aria-label="Search"
@@ -115,17 +128,20 @@ export default function Header() {
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-800">
-            <div className="space-y-1">
+            <div className="space-y-1 mb-4">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
-                  href={item.href}
+                  href={getLocalizedHref(item.href)}
                   className="block px-3 py-2 text-base font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.name}
                 </Link>
               ))}
+            </div>
+            <div className="px-3 border-t border-gray-200 dark:border-gray-800 pt-4">
+              <LanguageSwitcher />
             </div>
           </div>
         )}
