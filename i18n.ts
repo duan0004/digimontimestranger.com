@@ -4,8 +4,6 @@ import { notFound } from 'next/navigation';
 // Define supported locales
 export const locales = [
   'en',       // English
-  'zh-CN',    // Simplified Chinese
-  'zh-TW',    // Traditional Chinese
   'ja',       // Japanese
   'ko',       // Korean
   'es',       // Spanish
@@ -19,6 +17,7 @@ export const locales = [
   'th',       // Thai
   'ms',       // Malay
   'fil',      // Filipino
+  'zh-CN',    // Simplified Chinese (moved to last)
 ] as const;
 export type Locale = (typeof locales)[number];
 
@@ -28,8 +27,6 @@ export const defaultLocale: Locale = 'en';
 // Locale labels in native language
 export const localeLabels: Record<Locale, string> = {
   en: 'English',
-  'zh-CN': '简体中文',
-  'zh-TW': '繁體中文',
   ja: '日本語',
   ko: '한국어',
   es: 'Español',
@@ -43,13 +40,12 @@ export const localeLabels: Record<Locale, string> = {
   th: 'ไทย',
   ms: 'Bahasa Melayu',
   fil: 'Filipino',
+  'zh-CN': '简体中文',
 };
 
 // Locale flags (emoji or icon identifiers)
 export const localeFlags: Record<Locale, string> = {
   en: '🇺🇸',
-  'zh-CN': '🇨🇳',
-  'zh-TW': '🇹🇼',
   ja: '🇯🇵',
   ko: '🇰🇷',
   es: '🇪🇸',
@@ -63,6 +59,7 @@ export const localeFlags: Record<Locale, string> = {
   th: '🇹🇭',
   ms: '🇲🇾',
   fil: '🇵🇭',
+  'zh-CN': '🇨🇳',
 };
 
 export default getRequestConfig(async ({ requestLocale }) => {
