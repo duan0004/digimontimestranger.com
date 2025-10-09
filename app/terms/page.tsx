@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
-import { generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 
 export const metadata: Metadata = generateSEO({
   title: 'Terms of Service',
   description: 'Terms of Service for Digimon Time Stranger - Read our terms and conditions for using our website and services.',
-  path: '/terms',
+  url: '/terms',
 });
 
 export default function TermsPage() {

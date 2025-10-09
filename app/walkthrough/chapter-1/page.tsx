@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import { generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight, MapPin, Trophy, Star, AlertCircle, CheckCircle2, Lightbulb, Target } from 'lucide-react';
 
 export const metadata: Metadata = generateSEO({
   title: 'Chapter 1: The Beginning - Walkthrough',
   description: 'Complete walkthrough for Chapter 1 of Digimon Time Stranger including all missions, collectibles, and boss strategies.',
-  path: '/walkthrough/chapter-1',
+  url: '/walkthrough/chapter-1',
 });
 
 export default function Chapter1Page() {

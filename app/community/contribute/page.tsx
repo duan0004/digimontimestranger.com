@@ -1,11 +1,12 @@
 import { Metadata } from 'next';
-import { generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 import { Github, MessageSquare, BookOpen, Video, Bug, Lightbulb, Heart, CheckCircle2 } from 'lucide-react';
+import Link from 'next/link';
 
 export const metadata: Metadata = generateSEO({
   title: 'Contribute to the Community - Share Your Knowledge',
   description: 'Contribute guides, strategies, and improvements to the Digimon Time Stranger community. Learn how to submit content, report issues, and help other players.',
-  path: '/community/contribute',
+  url: '/community/contribute',
 });
 
 export default function ContributePage() {
@@ -132,13 +133,13 @@ export default function ContributePage() {
                     </div>
                   </div>
                 </div>
-                <a
+                <Link
                   href="/community"
                   className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
                 >
                   <MessageSquare className="w-5 h-5" />
                   Visit Forum
-                </a>
+                </Link>
               </div>
             </div>
           </div>

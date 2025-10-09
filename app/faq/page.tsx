@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { Metadata } from 'next';
 import { ChevronDown, Search, HelpCircle, Zap, Users, Trophy, Settings, Book } from 'lucide-react';
+import Link from 'next/link';
 
 interface FAQItem {
   question: string;
@@ -359,13 +359,13 @@ export default function FAQPage() {
           <p className="text-gray-700 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
             Can't find what you're looking for? Join our community forum to ask questions and get help from experienced players.
           </p>
-          <a
+          <Link
             href="/community"
             className="inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors shadow-lg"
           >
             <Users className="w-5 h-5" />
             Visit Community Forum
-          </a>
+          </Link>
         </div>
       </div>
     </div>

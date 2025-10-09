@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import { generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight, MapPin, Trophy, Star, AlertCircle, CheckCircle2, Lightbulb, Target } from 'lucide-react';
 
 export const metadata: Metadata = generateSEO({
   title: 'Chapter 8: Sky High Battle - Walkthrough',
   description: 'Complete walkthrough for Chapter 8 of Digimon Time Stranger including all missions, collectibles, and Puppetmon boss strategy.',
-  path: '/walkthrough/chapter-8',
+  url: '/walkthrough/chapter-8',
 });
 
 export default function Chapter8Page() {

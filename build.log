@@ -1,0 +1,304 @@
+
+> website@0.1.0 build
+> next build --turbopack
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/ran/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/ran/Documents/all_site/site27_digimontimestranger/website/package-lock.json
+
+   ▲ Next.js 15.5.4 (Turbopack)
+
+   Creating an optimized production build ...
+ ✓ Finished writing to disk in 274ms
+
+> Build error occurred
+Error: Turbopack build failed with 19 errors:
+./Documents/all_site/site27_digimontimestranger/website/app/community/contribute/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m { [33mGithub[39m[33m,[39m [33mMessageSquare[39m[33m,[39m [33mBookOpen[39m[33m,[39m [33mVideo[39m[33m,[39m [33mBug[39m[33m,[39m [33mLightbulb[39m[33m,[39m [33mHeart[39m[33m,[39m [33mCheckCircle2[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 4 |[39m
+ [90m 5 |[39m [36mexport[39m [36mconst[39m metadata[33m:[39m [33mMetadata[39m [33m=[39m generateSEO({[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/database/bosses/[id]/page.tsx:10:1
+Export generateSEO doesn't exist in target module
+[0m [90m  8 |[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m  9 |[39m [36mimport[39m { getBossById[33m,[39m getAllBossIds[33m,[39m getDifficultyColor[33m,[39m getAttributeColor } [36mfrom[39m [32m'@/lib/boss-data'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 11 |[39m
+ [90m 12 |[39m [36minterface[39m [33mBossPageProps[39m {
+ [90m 13 |[39m   params[33m:[39m {[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/database/bosses/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mBossesClient[39m [36mfrom[39m [32m'./BossesClient'[39m[33m;[39m
+ [90m 4 |[39m
+ [90m 5 |[39m [36mexport[39m [36mconst[39m metadata[33m:[39m [33mMetadata[39m [33m=[39m generateSEO({[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/guides/collectibles/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mStar[39m[33m,[39m [33mAlertTriangle[39m[33m,[39m [33mMapPin[39m[33m,[39m [33mTrophy[39m[33m,[39m [33mCheckCircle2[39m[33m,[39m [33mPackage[39m[33m,[39m [33mLock[39m[33m,[39m [33mEye[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 5 |[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/guides/story-branches/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mGitBranch[39m[33m,[39m [33mAlertTriangle[39m[33m,[39m [33mStar[39m[33m,[39m [33mCheckCircle2[39m[33m,[39m [33mArrowRight[39m[33m,[39m [33mInfo[39m[33m,[39m [33mTrophy[39m[33m,[39m [33mHeart[39m[33m,[39m [33mZap[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 5 |[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/privacy/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m
+ [90m 4 |[39m [36mexport[39m [36mconst[39m metadata[33m:[39m [33mMetadata[39m [33m=[39m generateSEO({
+ [90m 5 |[39m   title[33m:[39m [32m'Privacy Policy'[39m[33m,[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/search/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mSearchResultsClient[39m [36mfrom[39m [32m'./SearchResultsClient'[39m[33m;[39m
+ [90m 4 |[39m
+ [90m 5 |[39m [36mexport[39m [36mconst[39m metadata[33m:[39m [33mMetadata[39m [33m=[39m generateSEO({[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/terms/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m
+ [90m 4 |[39m [36mexport[39m [36mconst[39m metadata[33m:[39m [33mMetadata[39m [33m=[39m generateSEO({
+ [90m 5 |[39m   title[33m:[39m [32m'Terms of Service'[39m[33m,[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/videos/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m { [33mPlay[39m[33m,[39m [33mClock[39m[33m,[39m [33mTrendingUp[39m[33m,[39m [33mUsers[39m[33m,[39m [33mGamepad2[39m[33m,[39m [33mBookOpen[39m[33m,[39m [33mTarget[39m[33m,[39m [33mZap[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 4 |[39m
+ [90m 5 |[39m [36mexport[39m [36mconst[39m metadata[33m:[39m [33mMetadata[39m [33m=[39m generateSEO({[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-1/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mChevronLeft[39m[33m,[39m [33mChevronRight[39m[33m,[39m [33mMapPin[39m[33m,[39m [33mTrophy[39m[33m,[39m [33mStar[39m[33m,[39m [33mAlertCircle[39m[33m,[39m [33mCheckCircle2[39m[33m,[39m [33mLightbulb[39m[33m,[39m [33mTarget[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 5 |[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-2/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mChevronLeft[39m[33m,[39m [33mChevronRight[39m[33m,[39m [33mMapPin[39m[33m,[39m [33mTrophy[39m[33m,[39m [33mStar[39m[33m,[39m [33mAlertCircle[39m[33m,[39m [33mCheckCircle2[39m[33m,[39m [33mLightbulb[39m[33m,[39m [33mTarget[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 5 |[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-3/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mChevronLeft[39m[33m,[39m [33mChevronRight[39m[33m,[39m [33mMapPin[39m[33m,[39m [33mTrophy[39m[33m,[39m [33mStar[39m[33m,[39m [33mAlertCircle[39m[33m,[39m [33mCheckCircle2[39m[33m,[39m [33mLightbulb[39m[33m,[39m [33mTarget[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 5 |[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-4/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mChevronLeft[39m[33m,[39m [33mChevronRight[39m[33m,[39m [33mMapPin[39m[33m,[39m [33mTrophy[39m[33m,[39m [33mStar[39m[33m,[39m [33mAlertCircle[39m[33m,[39m [33mCheckCircle2[39m[33m,[39m [33mLightbulb[39m[33m,[39m [33mTarget[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 5 |[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-5/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mChevronLeft[39m[33m,[39m [33mChevronRight[39m[33m,[39m [33mMapPin[39m[33m,[39m [33mTrophy[39m[33m,[39m [33mStar[39m[33m,[39m [33mAlertCircle[39m[33m,[39m [33mCheckCircle2[39m[33m,[39m [33mLightbulb[39m[33m,[39m [33mTarget[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 5 |[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-6/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mChevronLeft[39m[33m,[39m [33mChevronRight[39m[33m,[39m [33mMapPin[39m[33m,[39m [33mTrophy[39m[33m,[39m [33mStar[39m[33m,[39m [33mAlertCircle[39m[33m,[39m [33mCheckCircle2[39m[33m,[39m [33mLightbulb[39m[33m,[39m [33mTarget[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 5 |[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-7/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mChevronLeft[39m[33m,[39m [33mChevronRight[39m[33m,[39m [33mMapPin[39m[33m,[39m [33mTrophy[39m[33m,[39m [33mStar[39m[33m,[39m [33mAlertCircle[39m[33m,[39m [33mCheckCircle2[39m[33m,[39m [33mLightbulb[39m[33m,[39m [33mTarget[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 5 |[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-8/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mChevronLeft[39m[33m,[39m [33mChevronRight[39m[33m,[39m [33mMapPin[39m[33m,[39m [33mTrophy[39m[33m,[39m [33mStar[39m[33m,[39m [33mAlertCircle[39m[33m,[39m [33mCheckCircle2[39m[33m,[39m [33mLightbulb[39m[33m,[39m [33mTarget[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 5 |[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-9/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mChevronLeft[39m[33m,[39m [33mHome[39m[33m,[39m [33mMapPin[39m[33m,[39m [33mTrophy[39m[33m,[39m [33mStar[39m[33m,[39m [33mAlertCircle[39m[33m,[39m [33mCheckCircle2[39m[33m,[39m [33mLightbulb[39m[33m,[39m [33mTarget[39m[33m,[39m [33mSkull[39m[33m,[39m [33mZap[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 5 |[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/page.tsx:2:1
+Export generateSEO doesn't exist in target module
+[0m [90m 1 |[39m [36mimport[39m { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { generateSEO } [36mfrom[39m [32m'@/lib/seo'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { [33mBookOpen[39m[33m,[39m [33mMapPin[39m[33m,[39m [33mTrophy[39m[33m,[39m [33mClock[39m[33m,[39m [33mAlertTriangle[39m[33m,[39m [33mStar[39m[33m,[39m [33mChevronRight[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 5 |[39m[0m
+
+The export generateSEO was not found in module [project]/Documents/all_site/site27_digimontimestranger/website/lib/seo.ts [app-rsc] (ecmascript).
+Did you mean to import generateFAQSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/community/contribute/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/database/bosses/[id]/page.tsx:10:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/database/bosses/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/guides/collectibles/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/guides/story-branches/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/privacy/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/search/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/terms/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/videos/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-1/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-2/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-3/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-4/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-5/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-6/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-7/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-8/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/chapter-9/page.tsx:2:1)
+    at <unknown> (./Documents/all_site/site27_digimontimestranger/website/app/walkthrough/page.tsx:2:1)

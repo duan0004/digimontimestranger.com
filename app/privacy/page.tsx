@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
-import { generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 
 export const metadata: Metadata = generateSEO({
   title: 'Privacy Policy',
   description: 'Privacy Policy for Digimon Time Stranger - Learn how we collect, use, and protect your information.',
-  path: '/privacy',
+  url: '/privacy',
 });
 
 export default function PrivacyPage() {

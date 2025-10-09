@@ -19,7 +19,7 @@ export default function BossesClient() {
 
   // Filter and sort bosses
   const filteredBosses = useMemo(() => {
-    let filtered = allBosses.filter((boss) => {
+    const filtered = allBosses.filter((boss) => {
       const matchesSearch =
         boss.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         boss.location.toLowerCase().includes(searchQuery.toLowerCase()) ||

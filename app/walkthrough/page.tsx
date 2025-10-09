@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import { generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 import Link from 'next/link';
 import { BookOpen, MapPin, Trophy, Clock, AlertTriangle, Star, ChevronRight } from 'lucide-react';
 
 export const metadata: Metadata = generateSEO({
   title: 'Complete Walkthrough',
   description: 'Complete chapter-by-chapter walkthrough for Digimon Time Stranger with all missions, bosses, collectibles, and story choices.',
-  path: '/walkthrough',
+  url: '/walkthrough',
 });
 
 const chapters = [

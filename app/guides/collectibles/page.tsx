@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import { generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 import Link from 'next/link';
-import { Star, AlertTriangle, MapPin, Trophy, CheckCircle2, Package, Lock, Eye } from 'lucide-react';
+import { Star, AlertTriangle, MapPin, Trophy, CheckCircle2, Package, Lock, Eye, BookOpen } from 'lucide-react';
 
 export const metadata: Metadata = generateSEO({
   title: 'Collectibles Guide - Complete List & Locations',
   description: 'Complete guide to all collectibles in Digimon Time Stranger. Find every Ancient Tablet Fragment, rare item, and hidden treasure across all 9 chapters.',
-  path: '/guides/collectibles',
+  url: '/guides/collectibles',
 });
 
 interface Collectible {
@@ -848,7 +848,7 @@ export default function CollectiblesPage() {
             href="/walkthrough"
             className="card p-6 hover:shadow-lg transition-shadow text-center"
           >
-            <Book className="w-10 h-10 text-blue-600 mx-auto mb-3" />
+            <BookOpen className="w-10 h-10 text-blue-600 mx-auto mb-3" />
             <h3 className="font-bold text-gray-900 dark:text-white mb-2">Walkthrough</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">Chapter guides</p>
           </Link>
@@ -857,7 +857,7 @@ export default function CollectiblesPage() {
             href="/guides"
             className="card p-6 hover:shadow-lg transition-shadow text-center"
           >
-            <Book className="w-10 h-10 text-green-600 mx-auto mb-3" />
+            <BookOpen className="w-10 h-10 text-green-600 mx-auto mb-3" />
             <h3 className="font-bold text-gray-900 dark:text-white mb-2">All Guides</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">View all guides</p>
           </Link>

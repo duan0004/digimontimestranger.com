@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import { generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight, MapPin, Trophy, Star, AlertCircle, CheckCircle2, Lightbulb, Target } from 'lucide-react';
 
 export const metadata: Metadata = generateSEO({
   title: 'Chapter 6: Steel Factory - Walkthrough',
   description: 'Complete walkthrough for Chapter 6 of Digimon Time Stranger including all missions, collectibles, and Machinedramon boss strategy.',
-  path: '/walkthrough/chapter-6',
+  url: '/walkthrough/chapter-6',
 });
 
 export default function Chapter6Page() {

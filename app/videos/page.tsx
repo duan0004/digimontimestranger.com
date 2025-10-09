@@ -1,11 +1,11 @@
 import { Metadata } from 'next';
-import { generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 import { Play, Clock, TrendingUp, Users, Gamepad2, BookOpen, Target, Zap } from 'lucide-react';
 
 export const metadata: Metadata = generateSEO({
   title: 'Video Guides & Tutorials - Complete Video Library',
   description: 'Watch comprehensive video guides and tutorials for Digimon Time Stranger. Learn strategies, mechanics, and tips through our curated video library.',
-  path: '/videos',
+  url: '/videos',
 });
 
 interface Video {

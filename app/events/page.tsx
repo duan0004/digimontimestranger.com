@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { Calendar, Clock, Trophy, Gift, Zap, Users, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Calendar, Clock, Trophy, Gift, Zap, Users, ChevronRight } from 'lucide-react';
+import Link from 'next/link';
 
 interface GameEvent {
   id: string;
@@ -92,6 +93,7 @@ const events: GameEvent[] = [
   },
 ];
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const eventTypeColors: Record<string, { bg: string; text: string; icon: any }> = {
   update: { bg: 'bg-blue-100 dark:bg-blue-900/30', text: 'text-blue-700 dark:text-blue-300', icon: Zap },
   dlc: { bg: 'bg-purple-100 dark:bg-purple-900/30', text: 'text-purple-700 dark:text-purple-300', icon: Gift },
@@ -338,13 +340,13 @@ export default function EventsPage() {
               <Calendar className="w-5 h-5" />
               View All Updates
             </a>
-            <a
+            <Link
               href="/community"
               className="inline-flex items-center gap-2 bg-white dark:bg-gray-800 text-blue-600 dark:text-blue-400 border-2 border-blue-600 dark:border-blue-400 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors"
             >
               <Users className="w-5 h-5" />
               Join Community
-            </a>
+            </Link>
           </div>
         </div>
       </div>

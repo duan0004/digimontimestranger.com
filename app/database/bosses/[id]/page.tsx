@@ -7,7 +7,7 @@ import {
   CheckCircle, XCircle
 } from 'lucide-react';
 import { getBossById, getAllBossIds, getDifficultyColor, getAttributeColor } from '@/lib/boss-data';
-import { generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 
 interface BossPageProps {
   params: {
@@ -27,14 +27,14 @@ export async function generateMetadata({ params }: BossPageProps): Promise<Metad
     return generateSEO({
       title: 'Boss Not Found',
       description: 'The requested boss could not be found.',
-      path: `/database/bosses/${params.id}`,
+      url: `/database/bosses/${params.id}`,
     });
   }
 
   return generateSEO({
     title: `${boss.name} - Boss Guide`,
     description: `Complete boss guide for ${boss.name}: strategies, weaknesses, recommended team, and phase breakdowns.`,
-    path: `/database/bosses/${params.id}`,
+    url: `/database/bosses/${params.id}`,
   });
 }
 

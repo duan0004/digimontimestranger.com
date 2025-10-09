@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import { generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 import Link from 'next/link';
 import { ChevronLeft, Home, MapPin, Trophy, Star, AlertCircle, CheckCircle2, Lightbulb, Target, Skull, Zap } from 'lucide-react';
 
 export const metadata: Metadata = generateSEO({
   title: 'Chapter 9: The Final Battle - Walkthrough',
   description: 'Complete walkthrough for the final chapter of Digimon Time Stranger including all missions, collectibles, and the epic Apocalymon boss battle.',
-  path: '/walkthrough/chapter-9',
+  url: '/walkthrough/chapter-9',
 });
 
 export default function Chapter9Page() {

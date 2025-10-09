@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import { generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 import Link from 'next/link';
 import { GitBranch, AlertTriangle, Star, CheckCircle2, ArrowRight, Info, Trophy, Heart, Zap } from 'lucide-react';
 
 export const metadata: Metadata = generateSEO({
   title: 'Story Branches & Timeline Guide - Multiple Endings',
   description: 'Complete guide to story branches, key decisions, and multiple endings in Digimon Time Stranger. Learn how your choices affect the timeline and unlock all endings.',
-  path: '/guides/story-branches',
+  url: '/guides/story-branches',
 });
 
 export default function StoryBranchesPage() {
