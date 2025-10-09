@@ -1,15 +1,19 @@
 import { Metadata } from 'next';
 import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight, MapPin, Trophy, Star, AlertCircle, CheckCircle2, Lightbulb, Target } from 'lucide-react';
 
-export const metadata: Metadata = generateSEO({
-  title: 'Chapter 2: Dark Shadows - Walkthrough',
-  description: 'Complete walkthrough for Chapter 2 of Digimon Time Stranger including all missions, collectibles, and Devimon boss strategies.',
-  url: '/walkthrough/chapter-2',
-});
+export async function generateMetadata(): Promise<Metadata> {
+  return generateSEO({
+    title: 'Chapter 2: ... - Walkthrough',
+    description: 'Complete walkthrough for Chapter 2 of Digimon Time Stranger...',
+    url: '/walkthrough/chapter-2',
+  });
+}
 
-export default function Chapter2Page() {
+export default async function Chapter2Page() {
+  const t = await getTranslations('walkthroughChapter');
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -159,7 +163,7 @@ export default function Chapter2Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #1:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 1 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Defense Chip - Talk to the merchant Digimon and complete his fetch quest to receive this chip.</span>
                     </div>
                   </div>
@@ -246,7 +250,7 @@ export default function Chapter2Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #2:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 2 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> HP Chip B - Dropped by Ogremon after defeating him.</span>
                     </div>
                   </div>
@@ -255,7 +259,7 @@ export default function Chapter2Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #3:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 3 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Large MP Recovery - Hidden treasure chest behind the frozen waterfall near Hyogamon's position.</span>
                     </div>
                   </div>
@@ -298,7 +302,7 @@ export default function Chapter2Page() {
                   <div className="flex items-start gap-2">
                     <AlertCircle className="w-5 h-5 text-yellow-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-yellow-900 dark:text-yellow-300">Preparation Checklist:</strong>
+                      <strong className="text-yellow-900 dark:text-yellow-300">{t('labels.preparationChecklist')}</strong>
                       <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mt-1">
                         <li>Team at Level 15+ (recommended)</li>
                         <li>Stock 5+ Antidote/Clarity items for Confusion</li>
@@ -322,23 +326,23 @@ export default function Chapter2Page() {
                 <div className="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg mb-3">
                   <div className="grid md:grid-cols-2 gap-3 mb-3">
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">Level</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.level')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">18</div>
                     </div>
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">HP</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.hp')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">4,500</div>
                     </div>
                   </div>
                   <div className="mb-3">
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Weaknesses</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.weaknesses')}</div>
                     <div className="flex gap-2">
                       <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-xs font-bold rounded">Vaccine</span>
                       <span className="px-2 py-1 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300 text-xs font-bold rounded">Light</span>
                     </div>
                   </div>
                   <div>
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Main Attacks</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.mainAttacks')}</div>
                     <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
                       <li>• <strong>Death Claw:</strong> Physical dark attack (~180 damage)</li>
                       <li>• <strong>Evil Wing:</strong> Dark projectiles hitting all party (~200 damage)</li>
@@ -348,7 +352,7 @@ export default function Chapter2Page() {
                 </div>
 
                 <div className="space-y-2">
-                  <h4 className="font-bold text-gray-900 dark:text-white">Battle Strategy:</h4>
+                  <h4 className="font-bold text-gray-900 dark:text-white">{t('battle.strategy')}</h4>
                   <ol className="list-decimal list-inside text-gray-700 dark:text-gray-300 space-y-2">
                     <li><strong>Phase 1 (100-60% HP):</strong> Devimon alternates Death Claw and Evil Wing. Keep all party members above 50% HP. Use Light-type attacks for maximum damage.</li>
                     <li><strong>Phase 2 (60-30% HP):</strong> Touch of Evil becomes frequent. Immediately cure Confusion with Antidote items - confused allies attack their own team!</li>
@@ -361,7 +365,7 @@ export default function Chapter2Page() {
                   <div className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-green-900 dark:text-green-300">Victory Rewards:</strong>
+                      <strong className="text-green-900 dark:text-green-300">{t('labels.victoryRewards')}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Dark Ring, HP Chip B, Defense Chip, 1,200 EXP</span>
                     </div>
                   </div>
@@ -404,7 +408,7 @@ export default function Chapter2Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #4:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 4 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Ancient Tablet Fragment - Found on the throne. This is a key item for the story.</span>
                     </div>
                   </div>
@@ -425,7 +429,7 @@ export default function Chapter2Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #5:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 5 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Evolution Crystal - In the secret chamber's treasure room. Requires defeating the mini-boss SkullGreymon (Level 20).</span>
                     </div>
                   </div>
@@ -438,7 +442,7 @@ export default function Chapter2Page() {
                 ✓
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-gray-900 dark:text-white mb-1">Chapter Complete!</h3>
+                <h3 className="font-bold text-gray-900 dark:text-white mb-1">{t('labels.chapterComplete')}</h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Congratulations on liberating Infinity Mountain! Return to base camp and speak to Leomon to unlock travel to Server Desert for Chapter 3.
                 </p>
@@ -450,11 +454,11 @@ export default function Chapter2Page() {
         {/* Summary Box */}
         <div className="card p-6 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 border-2 border-green-200 dark:border-green-800">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-            Chapter 2 Summary
+            {t('summary.title', { number: 2 })}
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2">Key Achievements:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2">{t('labels.keyAchievements')}</h3>
               <ul className="space-y-1 text-gray-700 dark:text-gray-300">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
@@ -475,7 +479,7 @@ export default function Chapter2Page() {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2">Collectibles Found:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2">{t('labels.collectiblesFound')}</h3>
               <ul className="space-y-1 text-gray-700 dark:text-gray-300">
                 <li>• Defense Chip (Base Camp)</li>
                 <li>• HP Chip B (Ogremon drop)</li>
@@ -483,7 +487,7 @@ export default function Chapter2Page() {
                 <li>• Ancient Tablet Fragment (Story item)</li>
                 <li>• Evolution Crystal (Optional - Secret Chamber)</li>
               </ul>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2 mt-4">Next Chapter:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2 mt-4">{t('labels.nextChapter')}</h3>
               <p className="text-gray-700 dark:text-gray-300">
                 Journey to Server Desert where the self-proclaimed king Etemon awaits in Chapter 3.
               </p>

@@ -95,6 +95,51 @@
       "speed": "SPEED"
     }
   },
+  "database": {
+    "title": "Database",
+    "description": "Complete game database with bosses, items, skills, and stats",
+    "breadcrumb": "Database",
+    "categories": {
+      "bosses": "Bosses",
+      "items": "Items",
+      "skills": "Skills",
+      "stats": "Stats",
+      "personalities": "Personalities",
+      "agentSkills": "Agent Skills"
+    },
+    "bosses": {
+      "title": "Boss Database",
+      "description": "Complete boss guide with strategies and weaknesses",
+      "difficulty": "Difficulty",
+      "level": "Level",
+      "hp": "HP",
+      "weaknesses": "Weaknesses",
+      "resistances": "Resistances",
+      "strategy": "Strategy",
+      "rewards": "Rewards",
+      "location": "Location"
+    },
+    "items": {
+      "title": "Item Database",
+      "description": "Complete item list with effects and locations"
+    },
+    "skills": {
+      "title": "Skill Database",
+      "description": "All Digimon skills and abilities"
+    },
+    "stats": {
+      "title": "Stats Reference",
+      "description": "Game mechanics and stat calculations"
+    },
+    "personalities": {
+      "title": "Personalities Guide",
+      "description": "Personality types and stat growth rates"
+    },
+    "agentSkills": {
+      "title": "Agent Skills",
+      "description": "Special agent abilities and effects"
+    }
+  },
   "digimon": {
     "baseStats": "Base Stats",
     "skills": "Skills",
@@ -346,6 +391,56 @@
     "title": "Walkthrough",
     "description": "Complete chapter-by-chapter guides",
     "breadcrumb": "Walkthrough"
+  },
+  "walkthroughChapter": {
+    "navigation": {
+      "allChapters": "All Chapters",
+      "nextChapter": "Next Chapter",
+      "previousChapter": "Previous Chapter",
+      "next": "Next: Chapter {number}"
+    },
+    "chapter": "Chapter {number}",
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard",
+      "veryHard": "Very Hard"
+    },
+    "overview": {
+      "title": "Chapter Overview",
+      "recommendedLevel": "Recommended Level",
+      "averageTime": "Average Time",
+      "difficulty": "Difficulty",
+      "boss": "Boss: {name}",
+      "collectibles": "{count} Collectibles"
+    },
+    "parts": {
+      "part": "Part {number}",
+      "bossBattle": "Boss Battle"
+    },
+    "labels": {
+      "tip": "Tip:",
+      "collectible": "Collectible #{number}:",
+      "encounters": "Encounters:",
+      "recommendation": "Recommendation:",
+      "preparationChecklist": "Preparation Checklist:",
+      "battleStrategy": "Battle Strategy:",
+      "victoryRewards": "Victory Rewards:",
+      "keyAchievements": "Key Achievements:",
+      "collectiblesFound": "Collectibles Found:",
+      "nextChapter": "Next Chapter:",
+      "chapterComplete": "Chapter Complete!"
+    },
+    "battle": {
+      "level": "Level",
+      "hp": "HP",
+      "weaknesses": "Weaknesses",
+      "mainAttacks": "Main Attacks",
+      "strategy": "Battle Strategy:"
+    },
+    "summary": {
+      "title": "Chapter {number} Summary"
+    }
   },
   "tools": {
     "title": "Tools",

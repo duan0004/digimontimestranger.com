@@ -1,26 +1,26 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import { promises as fs } from 'fs';
 import path from 'path';
 import Papa from 'papaparse';
 import Link from 'next/link';
 import { Zap, Filter, ArrowLeft } from 'lucide-react';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Skills Database - Digimon Time Stranger',
-  description:
-    'Complete skills database for Digimon Story: Time Stranger. Search and filter all attack skills, support skills, recovery skills, and special abilities.',
-  keywords: [
-    'skills',
-    'abilities',
-    'attacks',
-    'magic',
-    'support',
-    'recovery',
-    'database',
-  ],
-  url: '/database/skills',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'database.skills' });
+
+  return generateSEO({
+    title: t('title'),
+    description: t('description'),
+    url: '/database/skills',
+  });
+}
 
 interface Skill {
   id: string;
@@ -77,7 +77,9 @@ const elementColors: Record<string, string> = {
   none: 'text-gray-600 dark:text-gray-400',
 };
 
-export default async function SkillsPage() {
+export default async function SkillsPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'database.skills' });
   const skills = await loadSkills();
 
   // Group skills by type
@@ -95,7 +97,7 @@ export default async function SkillsPage() {
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Link
-            href="/database"
+            href={`/${locale}/database`}
             className="inline-flex items-center gap-2 text-blue-100 hover:text-white mb-4 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
@@ -104,11 +106,11 @@ export default async function SkillsPage() {
           <div className="flex items-center gap-4 mb-4">
             <Zap className="w-12 h-12" />
             <h1 className="text-4xl md:text-5xl font-bold">
-              Skills Database
+              {t('title')}
             </h1>
           </div>
           <p className="text-xl text-blue-100">
-            Complete list of all skills and abilities in Digimon Story: Time Stranger
+            {t('description')}
           </p>
           <div className="mt-6 flex flex-wrap gap-3 text-sm">
             <div className="bg-white/10 px-4 py-2 rounded-lg">

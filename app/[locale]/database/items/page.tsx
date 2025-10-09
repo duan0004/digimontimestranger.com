@@ -1,25 +1,26 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import { promises as fs } from 'fs';
 import path from 'path';
 import Papa from 'papaparse';
 import Link from 'next/link';
 import { Package, ArrowLeft, ShoppingBag } from 'lucide-react';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Items Database - Digimon Time Stranger',
-  description:
-    'Complete items database for Digimon Story: Time Stranger. Browse all consumables, equipment, evolution items, and collectibles with prices and effects.',
-  keywords: [
-    'items',
-    'consumables',
-    'equipment',
-    'evolution items',
-    'collectibles',
-    'database',
-  ],
-  url: '/database/items',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'database.items' });
+
+  return generateSEO({
+    title: t('title'),
+    description: t('description'),
+    url: '/database/items',
+  });
+}
 
 interface Item {
   id: string;
@@ -67,7 +68,9 @@ const categoryIcons: Record<string, string> = {
   collectible: '💎',
 };
 
-export default async function ItemsPage() {
+export default async function ItemsPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'database.items' });
   const items = await loadItems();
 
   // Group items by category
@@ -85,7 +88,7 @@ export default async function ItemsPage() {
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Link
-            href="/database"
+            href={`/${locale}/database`}
             className="inline-flex items-center gap-2 text-blue-100 hover:text-white mb-4 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
@@ -94,11 +97,11 @@ export default async function ItemsPage() {
           <div className="flex items-center gap-4 mb-4">
             <Package className="w-12 h-12" />
             <h1 className="text-4xl md:text-5xl font-bold">
-              Items Database
+              {t('title')}
             </h1>
           </div>
           <p className="text-xl text-blue-100">
-            Complete catalog of all items, equipment, and collectibles
+            {t('description')}
           </p>
           <div className="mt-6 flex flex-wrap gap-3 text-sm">
             <div className="bg-white/10 px-4 py-2 rounded-lg">

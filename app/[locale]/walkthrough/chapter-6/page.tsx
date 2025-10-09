@@ -1,15 +1,19 @@
 import { Metadata } from 'next';
 import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight, MapPin, Trophy, Star, AlertCircle, CheckCircle2, Lightbulb, Target } from 'lucide-react';
 
-export const metadata: Metadata = generateSEO({
-  title: 'Chapter 6: Steel Factory - Walkthrough',
-  description: 'Complete walkthrough for Chapter 6 of Digimon Time Stranger including all missions, collectibles, and Machinedramon boss strategy.',
-  url: '/walkthrough/chapter-6',
-});
+export async function generateMetadata(): Promise<Metadata> {
+  return generateSEO({
+    title: 'Chapter 6: ... - Walkthrough',
+    description: 'Complete walkthrough for Chapter 6 of Digimon Time Stranger...',
+    url: '/walkthrough/chapter-6',
+  });
+}
 
-export default function Chapter6Page() {
+export default async function Chapter6Page() {
+  const t = await getTranslations('walkthroughChapter');
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -159,7 +163,7 @@ export default function Chapter6Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #1:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 1 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> DEF Chip A - On a conveyor belt in the northwestern corner of the main hall. Time your jump carefully.</span>
                     </div>
                   </div>
@@ -168,7 +172,7 @@ export default function Chapter6Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #2:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 2 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Thunder Chip - Hidden in a supply crate near the eastern maintenance door.</span>
                     </div>
                   </div>
@@ -219,16 +223,16 @@ export default function Chapter6Page() {
                 <div className="bg-orange-50 dark:bg-orange-900/20 p-4 rounded-lg mb-3">
                   <div className="grid md:grid-cols-2 gap-3 mb-3">
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">Level</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.level')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">43</div>
                     </div>
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">HP</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.hp')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">9,000</div>
                     </div>
                   </div>
                   <div className="mb-3">
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Weaknesses</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.weaknesses')}</div>
                     <div className="flex gap-2">
                       <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-xs font-bold rounded">Water</span>
                       <span className="px-2 py-1 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300 text-xs font-bold rounded">Thunder</span>
@@ -242,7 +246,7 @@ export default function Chapter6Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #3:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 3 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Machine Parts - Dropped by Andromon after the battle. Required for a side quest.</span>
                     </div>
                   </div>
@@ -263,7 +267,7 @@ export default function Chapter6Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #4:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 4 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> ATK Chip A - Inside the control room on level 2 of the Central Tower.</span>
                     </div>
                   </div>
@@ -272,7 +276,7 @@ export default function Chapter6Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #5:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 5 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Mega Recovery - On a ledge accessible by jumping from the elevator shaft midway through the ascent.</span>
                     </div>
                   </div>
@@ -320,7 +324,7 @@ export default function Chapter6Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #6:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 6 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> INT Chip A - Behind the Northern Generator after defeating the guards.</span>
                     </div>
                   </div>
@@ -329,7 +333,7 @@ export default function Chapter6Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #7:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 7 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> SPD Chip - In a chest near the Eastern Generator, behind the third laser grid.</span>
                     </div>
                   </div>
@@ -338,7 +342,7 @@ export default function Chapter6Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #8:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 8 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Revival Capsule - Reward for solving the Southern Generator puzzle.</span>
                     </div>
                   </div>
@@ -359,7 +363,7 @@ export default function Chapter6Page() {
                   <div className="flex items-start gap-2">
                     <AlertCircle className="w-5 h-5 text-yellow-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-yellow-900 dark:text-yellow-300">Pre-Battle Checklist:</strong>
+                      <strong className="text-yellow-900 dark:text-yellow-300">{t('labels.preparationChecklist')}</strong>
                       <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mt-1">
                         <li>Team at Level 42+ (Level 45+ highly recommended)</li>
                         <li>Stock at least 5 Mega Recovery and 3 Revival Capsules</li>
@@ -405,11 +409,11 @@ export default function Chapter6Page() {
                 <div className="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg mb-3">
                   <div className="grid md:grid-cols-2 gap-3 mb-3">
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">Level</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.level')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">45</div>
                     </div>
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">HP</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.hp')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">12,000</div>
                     </div>
                     <div>
@@ -422,7 +426,7 @@ export default function Chapter6Page() {
                     </div>
                   </div>
                   <div className="mb-3">
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Weaknesses</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.weaknesses')}</div>
                     <div className="flex gap-2">
                       <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-xs font-bold rounded">Water</span>
                       <span className="px-2 py-1 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300 text-xs font-bold rounded">Thunder</span>
@@ -437,7 +441,7 @@ export default function Chapter6Page() {
                     </div>
                   </div>
                   <div>
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Main Attacks</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.mainAttacks')}</div>
                     <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
                       <li>• <strong>Giga Cannon:</strong> Massive energy cannon (~280 damage to single target)</li>
                       <li>• <strong>Dragon Fire:</strong> Flame breath hitting 2-3 targets (~250 damage each)</li>
@@ -488,7 +492,7 @@ export default function Chapter6Page() {
                   <div className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-green-900 dark:text-green-300">Victory Rewards:</strong>
+                      <strong className="text-green-900 dark:text-green-300">{t('labels.victoryRewards')}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Machine Parts, ATK Chip A, DEF Chip A, 8,000 EXP, 5,000 Bits</span>
                     </div>
                   </div>
@@ -531,7 +535,7 @@ export default function Chapter6Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #9:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 9 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Digital Processor - In Machinedramon's chamber after the battle, near his fallen form. Very rare crafting material!</span>
                     </div>
                   </div>
@@ -544,7 +548,7 @@ export default function Chapter6Page() {
                 ✓
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-gray-900 dark:text-white mb-1">Chapter Complete!</h3>
+                <h3 className="font-bold text-gray-900 dark:text-white mb-1">{t('labels.chapterComplete')}</h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Congratulations on defeating Machinedramon! Two of the four Dark Masters have now fallen. Your team escapes the factory and regroups to plan the next assault. The path to Net Ocean opens up for Chapter 7.
                 </p>
@@ -556,11 +560,11 @@ export default function Chapter6Page() {
         {/* Summary Box */}
         <div className="card p-6 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 border-2 border-green-200 dark:border-green-800">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-            Chapter 6 Summary
+            {t('summary.title', { number: 6 })}
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2">Key Achievements:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2">{t('labels.keyAchievements')}</h3>
               <ul className="space-y-1 text-gray-700 dark:text-gray-300">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
@@ -581,7 +585,7 @@ export default function Chapter6Page() {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2">Collectibles Found:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2">{t('labels.collectiblesFound')}</h3>
               <ul className="space-y-1 text-gray-700 dark:text-gray-300 text-sm">
                 <li>• DEF Chip A (Main Hall)</li>
                 <li>• Thunder Chip (Main Hall)</li>
@@ -593,7 +597,7 @@ export default function Chapter6Page() {
                 <li>• Revival Capsule (Southern Generator)</li>
                 <li>• Digital Processor (Boss chamber)</li>
               </ul>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2 mt-4">Next Chapter:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2 mt-4">{t('labels.nextChapter')}</h3>
               <p className="text-gray-700 dark:text-gray-300">
                 Descend into the Ocean Depths to face MetalSeadramon in Chapter 7.
               </p>

@@ -5,9 +5,10 @@ import Image from 'next/image';
 import { ArrowRight, MapPin, Zap, TrendingUp } from 'lucide-react';
 import { getDigimonBySlug, getAllDigimonSlugs, loadDigimonData } from '@/lib/data-loader';
 import { generateMetadata as genMeta, generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 
 interface DigimonPageProps {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ slug: string; locale: string }>;
 }
 
 export const revalidate = 3600; // Revalidate every hour (ISR)
@@ -46,21 +47,26 @@ export async function generateMetadata({ params }: DigimonPageProps): Promise<Me
 }
 
 export default async function DigimonPage({ params }: DigimonPageProps) {
-  const { slug } = await params;
+  const { slug, locale } = await params;
   const digimon = await getDigimonBySlug(slug);
 
   if (!digimon) {
     notFound();
   }
 
+  // Get translations
+  const t = await getTranslations({ locale, namespace: 'digimon' });
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
+  const tCommon = await getTranslations({ locale, namespace: 'common' });
+
   // Load related Digimon for evolution paths
   const allDigimon = await loadDigimonData();
 
   // Breadcrumb JSON-LD
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: 'Home', url: '/' },
-    { name: 'Digidex', url: '/digidex' },
-    { name: digimon.name, url: `/digimon/${digimon.slug}` },
+    { name: 'Home', url: `/${locale}` },
+    { name: 'Digidex', url: `/${locale}/digidex` },
+    { name: digimon.name, url: `/${locale}/digimon/${digimon.slug}` },
   ]);
 
   // FAQ JSON-LD
@@ -117,17 +123,17 @@ export default async function DigimonPage({ params }: DigimonPageProps) {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-4">
             <nav className="flex items-center space-x-2 text-sm">
               <Link
-                href="/"
+                href={`/${locale}`}
                 className="text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400"
               >
-                Home
+                {tNav('home')}
               </Link>
               <span className="text-gray-400 dark:text-gray-600">/</span>
               <Link
-                href="/digidex"
+                href={`/${locale}/digidex`}
                 className="text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400"
               >
-                Digidex
+                {tNav('digidex')}
               </Link>
               <span className="text-gray-400 dark:text-gray-600">/</span>
               <span className="text-gray-900 dark:text-white font-medium">
@@ -178,7 +184,7 @@ export default async function DigimonPage({ params }: DigimonPageProps) {
                     {digimon.element}
                   </span>
                   <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold bg-accent-500 text-white">
-                    Memory: {digimon.memory}
+                    {t('memory')}: {digimon.memory}
                   </span>
                 </div>
 
@@ -198,7 +204,7 @@ export default async function DigimonPage({ params }: DigimonPageProps) {
               {/* Base Stats */}
               <div className="card p-6">
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                  Base Stats
+                  {t('baseStats')}
                 </h2>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
                   {Object.entries(digimon.baseStats).map(([stat, value]) => (
@@ -227,7 +233,7 @@ export default async function DigimonPage({ params }: DigimonPageProps) {
                 <div className="card p-6">
                   <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
                     <Zap className="w-6 h-6 text-primary-600" />
-                    Skills
+                    {t('skills')}
                   </h2>
                   <div className="grid sm:grid-cols-2 gap-3">
                     {digimon.skills.map((skill) => (
@@ -247,13 +253,13 @@ export default async function DigimonPage({ params }: DigimonPageProps) {
                 <div className="card p-6">
                   <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
                     <TrendingUp className="w-6 h-6 text-green-600" />
-                    Evolves To
+                    {t('evolvesTo')}
                   </h2>
                   <div className="space-y-3">
                     {digimon.evolvesTo.map((evo) => (
                       <Link
                         key={evo.target}
-                        href={`/digimon/${evo.target}`}
+                        href={`/${locale}/digimon/${evo.target}`}
                         className="block p-4 bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-lg border border-green-200 dark:border-green-800 hover:shadow-md transition-all group"
                       >
                         <div className="flex items-center justify-between">
@@ -277,13 +283,13 @@ export default async function DigimonPage({ params }: DigimonPageProps) {
               {digimon.devolvesTo.length > 0 && (
                 <div className="card p-6">
                   <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                    Devolves From
+                    {t('devolvesFrom')}
                   </h2>
                   <div className="space-y-3">
                     {digimon.devolvesTo.map((devo) => (
                       <Link
                         key={devo.target}
-                        href={`/digimon/${devo.target}`}
+                        href={`/${locale}/digimon/${devo.target}`}
                         className="block p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:shadow-md transition-all group"
                       >
                         <div className="flex items-center gap-3">
@@ -306,7 +312,7 @@ export default async function DigimonPage({ params }: DigimonPageProps) {
                 <div className="card p-6">
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
                     <MapPin className="w-5 h-5 text-primary-600" />
-                    Locations
+                    {t('locations')}
                   </h3>
                   <ul className="space-y-2">
                     {digimon.locations.map((location) => (
@@ -325,26 +331,26 @@ export default async function DigimonPage({ params }: DigimonPageProps) {
               {/* Quick Links */}
               <div className="card p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                  Quick Links
+                  {t('quickLinks')}
                 </h3>
                 <div className="space-y-2">
                   <Link
-                    href="/evolution"
+                    href={`/${locale}/evolution`}
                     className="block px-4 py-2 text-primary-600 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-900/20 rounded-lg transition-colors"
                   >
-                    View Evolution Tree
+                    {t('viewEvolutionTree')}
                   </Link>
                   <Link
-                    href="/tools/team-builder"
+                    href={`/${locale}/tools/team-builder`}
                     className="block px-4 py-2 text-primary-600 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-900/20 rounded-lg transition-colors"
                   >
-                    Add to Team Builder
+                    {t('addToTeamBuilder')}
                   </Link>
                   <Link
-                    href="/digidex"
+                    href={`/${locale}/digidex`}
                     className="block px-4 py-2 text-primary-600 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-900/20 rounded-lg transition-colors"
                   >
-                    Back to Digidex
+                    {t('backToDigidex')}
                   </Link>
                 </div>
               </div>

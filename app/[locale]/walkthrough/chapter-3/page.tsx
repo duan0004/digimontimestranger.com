@@ -1,15 +1,19 @@
 import { Metadata } from 'next';
 import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight, MapPin, Trophy, Star, AlertCircle, CheckCircle2, Lightbulb, Target } from 'lucide-react';
 
-export const metadata: Metadata = generateSEO({
-  title: 'Chapter 3: Desert Kingdom - Walkthrough',
-  description: 'Complete walkthrough for Chapter 3 of Digimon Time Stranger including all missions, collectibles, and Etemon boss strategies.',
-  url: '/walkthrough/chapter-3',
-});
+export async function generateMetadata(): Promise<Metadata> {
+  return generateSEO({
+    title: 'Chapter 3: ... - Walkthrough',
+    description: 'Complete walkthrough for Chapter 3 of Digimon Time Stranger...',
+    url: '/walkthrough/chapter-3',
+  });
+}
 
-export default function Chapter3Page() {
+export default async function Chapter3Page() {
+  const t = await getTranslations('walkthroughChapter');
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -147,7 +151,7 @@ export default function Chapter3Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #1:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 1 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Speed Chip - Hidden in a clay pot in the northwestern house. Break all pots to find it.</span>
                     </div>
                   </div>
@@ -168,7 +172,7 @@ export default function Chapter3Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #2:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 2 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Water Talisman - Reward from the village elder after liberation. Reduces desert heat damage.</span>
                     </div>
                   </div>
@@ -226,7 +230,7 @@ export default function Chapter3Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #3:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 3 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> HP Chip C - In the pyramid's treasure chamber after defeating Meramon.</span>
                     </div>
                   </div>
@@ -252,7 +256,7 @@ export default function Chapter3Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #4:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 4 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Ice Talisman - Behind the frozen waterfall on the third floor.</span>
                     </div>
                   </div>
@@ -291,7 +295,7 @@ export default function Chapter3Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #5:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 5 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Mega MP Recovery - In a side chamber of the underground tunnel, guarded by two Drimogemon.</span>
                     </div>
                   </div>
@@ -334,7 +338,7 @@ export default function Chapter3Page() {
                   <div className="flex items-start gap-2">
                     <AlertCircle className="w-5 h-5 text-yellow-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-yellow-900 dark:text-yellow-300">Preparation Checklist:</strong>
+                      <strong className="text-yellow-900 dark:text-yellow-300">{t('labels.preparationChecklist')}</strong>
                       <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mt-1">
                         <li>Team at Level 22+ (minimum recommended)</li>
                         <li>Stock 6+ Large HP Recovery items</li>
@@ -358,16 +362,16 @@ export default function Chapter3Page() {
                 <div className="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg mb-3">
                   <div className="grid md:grid-cols-2 gap-3 mb-3">
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">Level</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.level')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">25</div>
                     </div>
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">HP</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.hp')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">6,000</div>
                     </div>
                   </div>
                   <div className="mb-3">
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Weaknesses</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.weaknesses')}</div>
                     <div className="flex gap-2">
                       <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-xs font-bold rounded">Water</span>
                       <span className="px-2 py-1 bg-cyan-100 dark:bg-cyan-900/30 text-cyan-700 dark:text-cyan-300 text-xs font-bold rounded">Ice</span>
@@ -381,7 +385,7 @@ export default function Chapter3Page() {
                     </div>
                   </div>
                   <div>
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Main Attacks</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.mainAttacks')}</div>
                     <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
                       <li>• <strong>Dark Spirits:</strong> Random target dark energy (~190 damage)</li>
                       <li>• <strong>Monkey Kick:</strong> Physical attack (~210 damage, high accuracy)</li>
@@ -391,7 +395,7 @@ export default function Chapter3Page() {
                 </div>
 
                 <div className="space-y-2">
-                  <h4 className="font-bold text-gray-900 dark:text-white">Battle Strategy:</h4>
+                  <h4 className="font-bold text-gray-900 dark:text-white">{t('battle.strategy')}</h4>
                   <ol className="list-decimal list-inside text-gray-700 dark:text-gray-300 space-y-2">
                     <li><strong>Phase 1 (100-50% HP):</strong> Etemon alternates Dark Spirits and Monkey Kick. His extremely high defense makes physical attacks nearly useless. Focus exclusively on Water and Ice special attacks. Keep party HP above 50%.</li>
                     <li><strong>Phase 2 (50-0% HP):</strong> Concert Crush becomes available and is devastating. Before he uses it, you'll see a "charging up" animation - use this turn to heal everyone to maximum or apply defensive buffs.</li>
@@ -414,7 +418,7 @@ export default function Chapter3Page() {
                   <div className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-green-900 dark:text-green-300">Victory Rewards:</strong>
+                      <strong className="text-green-900 dark:text-green-300">{t('labels.victoryRewards')}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Monkey Suit, Speed Chip, HP Chip C, 2,000 EXP</span>
                     </div>
                   </div>
@@ -457,7 +461,7 @@ export default function Chapter3Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #6:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 6 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Ancient Tablet Fragment #2 - Found in Etemon's throne room, continues the prophecy.</span>
                     </div>
                   </div>
@@ -478,7 +482,7 @@ export default function Chapter3Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #7:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 7 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Desert Crown - In the Sun Pyramid's secret royal chamber. Boosts Special Attack by 15%.</span>
                     </div>
                   </div>
@@ -491,7 +495,7 @@ export default function Chapter3Page() {
                 ✓
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-gray-900 dark:text-white mb-1">Chapter Complete!</h3>
+                <h3 className="font-bold text-gray-900 dark:text-white mb-1">{t('labels.chapterComplete')}</h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Congratulations on liberating Server Desert! Return to Oasis Village and use the new portal to travel to Geko Swamp for Chapter 4.
                 </p>
@@ -503,11 +507,11 @@ export default function Chapter3Page() {
         {/* Summary Box */}
         <div className="card p-6 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 border-2 border-green-200 dark:border-green-800">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-            Chapter 3 Summary
+            {t('summary.title', { number: 3 })}
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2">Key Achievements:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2">{t('labels.keyAchievements')}</h3>
               <ul className="space-y-1 text-gray-700 dark:text-gray-300">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
@@ -528,7 +532,7 @@ export default function Chapter3Page() {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2">Collectibles Found:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2">{t('labels.collectiblesFound')}</h3>
               <ul className="space-y-1 text-gray-700 dark:text-gray-300">
                 <li>• Speed Chip (Oasis Village)</li>
                 <li>• Water Talisman (Village Elder reward)</li>
@@ -538,7 +542,7 @@ export default function Chapter3Page() {
                 <li>• Ancient Tablet Fragment #2 (Story item)</li>
                 <li>• Desert Crown (Optional - Sun Pyramid secret chamber)</li>
               </ul>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2 mt-4">Next Chapter:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2 mt-4">{t('labels.nextChapter')}</h3>
               <p className="text-gray-700 dark:text-gray-300">
                 Journey to the mysterious Geko Swamp where the vampire lord Myotismon lurks in Chapter 4.
               </p>

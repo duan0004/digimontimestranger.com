@@ -1,15 +1,19 @@
 import { Metadata } from 'next';
 import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight, MapPin, Trophy, Star, AlertCircle, CheckCircle2, Lightbulb, Target } from 'lucide-react';
 
-export const metadata: Metadata = generateSEO({
-  title: 'Chapter 1: The Beginning - Walkthrough',
-  description: 'Complete walkthrough for Chapter 1 of Digimon Time Stranger including all missions, collectibles, and boss strategies.',
-  url: '/walkthrough/chapter-1',
-});
+export async function generateMetadata(): Promise<Metadata> {
+  return generateSEO({
+    title: 'Chapter 1: The Beginning - Walkthrough',
+    description: 'Complete walkthrough for Chapter 1 of Digimon Time Stranger including all missions, collectibles, and boss strategies.',
+    url: '/walkthrough/chapter-1',
+  });
+}
 
-export default function Chapter1Page() {
+export default async function Chapter1Page() {
+  const t = await getTranslations('walkthroughChapter');
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -20,13 +24,13 @@ export default function Chapter1Page() {
             className="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300"
           >
             <ChevronLeft className="w-5 h-5" />
-            All Chapters
+            {t('navigation.allChapters')}
           </Link>
           <Link
             href="/walkthrough/chapter-2"
             className="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300"
           >
-            Next Chapter
+            {t('navigation.nextChapter')}
             <ChevronRight className="w-5 h-5" />
           </Link>
         </div>
@@ -35,10 +39,10 @@ export default function Chapter1Page() {
         <div className="card p-8 mb-8 bg-gradient-to-br from-primary-600 to-primary-800 text-white">
           <div className="flex items-center gap-2 mb-2">
             <span className="px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold">
-              Chapter 1
+              {t('chapter', { number: 1 })}
             </span>
             <span className="px-3 py-1 bg-green-500 rounded-full text-sm font-bold">
-              Easy
+              {t('difficulty.easy')}
             </span>
           </div>
           <h1 className="text-4xl font-bold mb-4">The Beginning</h1>
@@ -49,11 +53,11 @@ export default function Chapter1Page() {
             </div>
             <div className="flex items-center gap-2">
               <Trophy className="w-5 h-5" />
-              <span>Boss: Kuwagamon</span>
+              <span>{t('overview.boss', { name: 'Kuwagamon' })}</span>
             </div>
             <div className="flex items-center gap-2">
               <Star className="w-5 h-5" />
-              <span>3 Collectibles</span>
+              <span>{t('overview.collectibles', { count: 3 })}</span>
             </div>
           </div>
         </div>
@@ -61,22 +65,22 @@ export default function Chapter1Page() {
         {/* Overview */}
         <div className="card p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-            Chapter Overview
+            {t('overview.title')}
           </h2>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
             Your adventure begins on File Island, where you'll learn the basics of the Digital World. This tutorial chapter introduces core mechanics including battling, evolution, and team management. You'll meet your first partner Digimon and face your first real challenge against Kuwagamon.
           </p>
           <div className="grid md:grid-cols-3 gap-4 mt-6">
             <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-              <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Recommended Level</div>
+              <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('overview.recommendedLevel')}</div>
               <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">8+</div>
             </div>
             <div className="p-4 bg-green-50 dark:bg-green-900/20 rounded-lg">
-              <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Average Time</div>
+              <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('overview.averageTime')}</div>
               <div className="text-2xl font-bold text-green-600 dark:text-green-400">2-3 hrs</div>
             </div>
             <div className="p-4 bg-purple-50 dark:bg-purple-900/20 rounded-lg">
-              <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Difficulty</div>
+              <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('overview.difficulty')}</div>
               <div className="text-2xl font-bold text-purple-600 dark:text-purple-400">⭐</div>
             </div>
           </div>
@@ -117,7 +121,7 @@ export default function Chapter1Page() {
                   <div className="flex items-start gap-2">
                     <Lightbulb className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-blue-900 dark:text-blue-300">Tip:</strong>
+                      <strong className="text-blue-900 dark:text-blue-300">{t('labels.tip')}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Agumon will be your main damage dealer early on. Focus on leveling him first.</span>
                     </div>
                   </div>
@@ -155,7 +159,7 @@ export default function Chapter1Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #1:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 1 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> HP Chip A - Behind the large rock formation near the starting point.</span>
                     </div>
                   </div>
@@ -186,7 +190,7 @@ export default function Chapter1Page() {
                   <div className="flex items-start gap-2">
                     <AlertCircle className="w-5 h-5 text-yellow-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-yellow-900 dark:text-yellow-300">Encounters:</strong>
+                      <strong className="text-yellow-900 dark:text-yellow-300">{t('labels.encounters')}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Koromon (Lv. 3), Tsunomon (Lv. 3), Tanemon (Lv. 4)</span>
                     </div>
                   </div>
@@ -221,7 +225,7 @@ export default function Chapter1Page() {
                   <div className="flex items-start gap-2">
                     <Lightbulb className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-blue-900 dark:text-blue-300">Recommendation:</strong>
+                      <strong className="text-blue-900 dark:text-blue-300">{t('labels.recommendation')}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Gabumon pairs well with Agumon for type coverage. Palmon is great for beginners who need healing.</span>
                     </div>
                   </div>
@@ -242,7 +246,7 @@ export default function Chapter1Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #2:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 2 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Medium MP Recovery - Inside the house on the left, check the treasure chest.</span>
                     </div>
                   </div>
@@ -285,7 +289,7 @@ export default function Chapter1Page() {
                   <div className="flex items-start gap-2">
                     <AlertCircle className="w-5 h-5 text-yellow-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-yellow-900 dark:text-yellow-300">Preparation Checklist:</strong>
+                      <strong className="text-yellow-900 dark:text-yellow-300">{t('labels.preparationChecklist')}</strong>
                       <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mt-1">
                         <li>Team at Level 8+ (recommended)</li>
                         <li>Stock 3-5 HP recovery items</li>
@@ -308,23 +312,23 @@ export default function Chapter1Page() {
                 <div className="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg mb-3">
                   <div className="grid md:grid-cols-2 gap-3 mb-3">
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">Level</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.level')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">10</div>
                     </div>
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">HP</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.hp')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">2,500</div>
                     </div>
                   </div>
                   <div className="mb-3">
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Weaknesses</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.weaknesses')}</div>
                     <div className="flex gap-2">
                       <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-xs font-bold rounded">Vaccine</span>
                       <span className="px-2 py-1 bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300 text-xs font-bold rounded">Fire</span>
                     </div>
                   </div>
                   <div>
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Main Attacks</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.mainAttacks')}</div>
                     <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
                       <li>• <strong>Scissor Arms:</strong> Physical attack (~150 damage)</li>
                       <li>• <strong>Power Guillotine:</strong> Heavy damage (~200), critical chance</li>
@@ -333,7 +337,7 @@ export default function Chapter1Page() {
                 </div>
 
                 <div className="space-y-2">
-                  <h4 className="font-bold text-gray-900 dark:text-white">Battle Strategy:</h4>
+                  <h4 className="font-bold text-gray-900 dark:text-white">{t('battle.strategy')}</h4>
                   <ol className="list-decimal list-inside text-gray-700 dark:text-gray-300 space-y-2">
                     <li><strong>Turn 1:</strong> Use Agumon's Pepper Breath (Fire attack). This is super effective.</li>
                     <li><strong>Turn 2-3:</strong> Continue attacking with both Digimon. Keep HP above 50%.</li>
@@ -346,7 +350,7 @@ export default function Chapter1Page() {
                   <div className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-green-900 dark:text-green-300">Victory Rewards:</strong>
+                      <strong className="text-green-900 dark:text-green-300">{t('labels.victoryRewards')}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> HP Chip A, Offense Chip, Medium MP Recovery, 500 EXP</span>
                     </div>
                   </div>
@@ -389,7 +393,7 @@ export default function Chapter1Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #3:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 3 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Stat Chip - In the eastern forest area, defeat the optional mini-boss Shellmon to obtain this item.</span>
                     </div>
                   </div>
@@ -402,7 +406,7 @@ export default function Chapter1Page() {
                 ✓
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-gray-900 dark:text-white mb-1">Chapter Complete!</h3>
+                <h3 className="font-bold text-gray-900 dark:text-white mb-1">{t('labels.chapterComplete')}</h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Congratulations on completing Chapter 1! When you're ready, speak to the elder to travel to Infinity Mountain for Chapter 2.
                 </p>
@@ -414,11 +418,11 @@ export default function Chapter1Page() {
         {/* Summary Box */}
         <div className="card p-6 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 border-2 border-green-200 dark:border-green-800">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-            Chapter 1 Summary
+            {t('summary.title', { number: 1 })}
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2">Key Achievements:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2">{t('labels.keyAchievements')}</h3>
               <ul className="space-y-1 text-gray-700 dark:text-gray-300">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
@@ -439,13 +443,13 @@ export default function Chapter1Page() {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2">Collectibles Found:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2">{t('labels.collectiblesFound')}</h3>
               <ul className="space-y-1 text-gray-700 dark:text-gray-300">
                 <li>• HP Chip A (Starting area)</li>
                 <li>• Medium MP Recovery (Village)</li>
                 <li>• Stat Chip (Optional - Eastern Forest)</li>
               </ul>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2 mt-4">Next Chapter:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2 mt-4">{t('labels.nextChapter')}</h3>
               <p className="text-gray-700 dark:text-gray-300">
                 Head to Infinity Mountain to face the dark forces of Devimon in Chapter 2.
               </p>

@@ -1,24 +1,23 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { ArrowLeft, Users, TrendingUp, Shield, Zap, Brain } from 'lucide-react';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Agent Skills Database - Digimon Time Stranger',
-  description:
-    'Complete guide to Agent Skills in Digimon Story: Time Stranger. Learn about Bonds of Loyalty, Valor, Philanthropy, Amicability, and Wisdom.',
-  keywords: [
-    'agent skills',
-    'bonds',
-    'loyalty',
-    'valor',
-    'philanthropy',
-    'amicability',
-    'wisdom',
-    'skill bonuses',
-  ],
-  url: '/database/agent-skills',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'database.agentSkills' });
+
+  return generateSEO({
+    title: t('title'),
+    description: t('description'),
+    url: '/database/agent-skills',
+  });
+}
 
 const bondCategories = [
   {
@@ -201,14 +200,17 @@ const colorClasses: Record<string, { bg: string; text: string; border: string; i
   },
 };
 
-export default function AgentSkillsPage() {
+export default async function AgentSkillsPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'database.agentSkills' });
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Link
-            href="/database"
+            href={`/${locale}/database`}
             className="inline-flex items-center gap-2 text-blue-100 hover:text-white mb-4 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
@@ -217,11 +219,11 @@ export default function AgentSkillsPage() {
           <div className="flex items-center gap-4 mb-4">
             <Users className="w-12 h-12" />
             <h1 className="text-4xl md:text-5xl font-bold">
-              Agent Skills Database
+              {t('title')}
             </h1>
           </div>
           <p className="text-xl text-blue-100">
-            Master the five Bond categories to unlock powerful abilities
+            {t('description')}
           </p>
         </div>
       </div>

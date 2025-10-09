@@ -1,25 +1,23 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { ArrowLeft, Activity, Shield, Zap, Brain, Heart, TrendingUp, Timer } from 'lucide-react';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Stats Guide - Digimon Time Stranger',
-  description:
-    'Complete guide to Digimon stats in Time Stranger. Learn what each stat does, damage calculations, and how to build optimal teams.',
-  keywords: [
-    'stats',
-    'HP',
-    'ATK',
-    'DEF',
-    'INT',
-    'SPI',
-    'SPD',
-    'damage calculation',
-    'stat guide',
-  ],
-  url: '/database/stats',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'database.stats' });
+
+  return generateSEO({
+    title: t('title'),
+    description: t('description'),
+    url: '/database/stats',
+  });
+}
 
 const stats = [
   {
@@ -167,14 +165,17 @@ const colorClasses: Record<string, { bg: string; text: string; border: string; i
   },
 };
 
-export default function StatsPage() {
+export default async function StatsPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'database.stats' });
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Link
-            href="/database"
+            href={`/${locale}/database`}
             className="inline-flex items-center gap-2 text-blue-100 hover:text-white mb-4 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
@@ -183,11 +184,11 @@ export default function StatsPage() {
           <div className="flex items-center gap-4 mb-4">
             <Activity className="w-12 h-12" />
             <h1 className="text-4xl md:text-5xl font-bold">
-              Stats Guide
+              {t('title')}
             </h1>
           </div>
           <p className="text-xl text-blue-100">
-            Master the 7 core stats to build the ultimate team
+            {t('description')}
           </p>
         </div>
       </div>

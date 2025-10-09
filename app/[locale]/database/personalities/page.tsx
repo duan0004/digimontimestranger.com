@@ -1,23 +1,23 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { ArrowLeft, Heart, Sword, Shield, Brain, TrendingUp, Award } from 'lucide-react';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Personalities Database - Digimon Time Stranger',
-  description:
-    'Complete guide to Digimon personalities in Time Stranger. Learn which personality boosts which stats and how to optimize your team.',
-  keywords: [
-    'personalities',
-    'personality types',
-    'stat bonuses',
-    'brave',
-    'devoted',
-    'compassionate',
-    'astute',
-  ],
-  url: '/database/personalities',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'database.personalities' });
+
+  return generateSEO({
+    title: t('title'),
+    description: t('description'),
+    url: '/database/personalities',
+  });
+}
 
 const personalityCategories = [
   {
@@ -107,14 +107,17 @@ const colorClasses: Record<string, { bg: string; text: string; border: string; i
   },
 };
 
-export default function PersonalitiesPage() {
+export default async function PersonalitiesPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'database.personalities' });
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Link
-            href="/database"
+            href={`/${locale}/database`}
             className="inline-flex items-center gap-2 text-blue-100 hover:text-white mb-4 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
@@ -123,11 +126,11 @@ export default function PersonalitiesPage() {
           <div className="flex items-center gap-4 mb-4">
             <Award className="w-12 h-12" />
             <h1 className="text-4xl md:text-5xl font-bold">
-              Personalities Database
+              {t('title')}
             </h1>
           </div>
           <p className="text-xl text-blue-100">
-            Each personality provides unique stat growth bonuses
+            {t('description')}
           </p>
         </div>
       </div>

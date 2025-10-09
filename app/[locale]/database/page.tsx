@@ -10,12 +10,11 @@ type PageProps = {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'nav' });
+  const t = await getTranslations({ locale, namespace: 'database' });
 
   return createMetadata({
-    title: `${t('database')} - Digimon Time Stranger`,
-    description:
-      'Complete game database for Digimon Story: Time Stranger. Browse all Digimon, skills, items, and game mechanics in one place.',
+    title: `${t('title')} - Digimon Time Stranger`,
+    description: t('description'),
     keywords: [
       'database',
       'digimon list',
@@ -148,7 +147,7 @@ const colorClasses: Record<string, { bg: string; text: string; border: string }>
 
 export default async function DatabasePage({ params }: PageProps) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'nav' });
+  const t = await getTranslations({ locale, namespace: 'database' });
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
@@ -158,11 +157,11 @@ export default async function DatabasePage({ params }: PageProps) {
           <div className="flex items-center gap-4 mb-4">
             <Database className="w-12 h-12" />
             <h1 className="text-4xl md:text-5xl font-bold">
-              {t('database')}
+              {t('title')}
             </h1>
           </div>
           <p className="text-xl text-blue-100">
-            Comprehensive reference for all game content and mechanics
+            {t('description')}
           </p>
         </div>
       </div>

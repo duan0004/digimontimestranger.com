@@ -8,11 +8,13 @@ import {
 } from 'lucide-react';
 import { getBossById, getAllBossIds, getDifficultyColor, getAttributeColor } from '@/lib/boss-data';
 import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 
 interface BossPageProps {
-  params: {
+  params: Promise<{
+    locale: string;
     id: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -21,25 +23,28 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: BossPageProps): Promise<Metadata> {
-  const boss = getBossById(params.id);
+  const { id } = await params;
+  const boss = getBossById(id);
 
   if (!boss) {
     return generateSEO({
       title: 'Boss Not Found',
       description: 'The requested boss could not be found.',
-      url: `/database/bosses/${params.id}`,
+      url: `/database/bosses/${id}`,
     });
   }
 
   return generateSEO({
     title: `${boss.name} - Boss Guide`,
     description: `Complete boss guide for ${boss.name}: strategies, weaknesses, recommended team, and phase breakdowns.`,
-    url: `/database/bosses/${params.id}`,
+    url: `/database/bosses/${id}`,
   });
 }
 
-export default function BossPage({ params }: BossPageProps) {
-  const boss = getBossById(params.id);
+export default async function BossPage({ params }: BossPageProps) {
+  const { locale, id } = await params;
+  const t = await getTranslations({ locale, namespace: 'database.bosses' });
+  const boss = getBossById(id);
 
   if (!boss) {
     notFound();
@@ -50,7 +55,7 @@ export default function BossPage({ params }: BossPageProps) {
       <div className="container mx-auto px-4 py-8 max-w-6xl">
         {/* Back Button */}
         <Link
-          href="/database/bosses"
+          href={`/${locale}/database/bosses`}
           className="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 mb-6"
         >
           <ChevronLeft className="w-5 h-5" />
@@ -113,7 +118,7 @@ export default function BossPage({ params }: BossPageProps) {
                 <div className="flex items-center justify-between p-3 bg-red-50 dark:bg-red-900/20 rounded-lg">
                   <div className="flex items-center gap-2">
                     <Heart className="w-5 h-5 text-red-500" />
-                    <span className="font-semibold text-gray-900 dark:text-white">HP</span>
+                    <span className="font-semibold text-gray-900 dark:text-white">{t('hp')}</span>
                   </div>
                   <span className="text-xl font-bold text-gray-900 dark:text-white">
                     {boss.hp.toLocaleString()}
@@ -178,7 +183,7 @@ export default function BossPage({ params }: BossPageProps) {
             <div className="card p-6">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
                 <Target className="w-5 h-5 text-red-600" />
-                Weaknesses
+                {t('weaknesses')}
               </h3>
               <div className="flex flex-wrap gap-2 mb-6">
                 {boss.weaknesses.map((weakness) => (
@@ -194,7 +199,7 @@ export default function BossPage({ params }: BossPageProps) {
 
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
                 <Shield className="w-5 h-5 text-green-600" />
-                Resistances
+                {t('resistances')}
               </h3>
               <div className="flex flex-wrap gap-2">
                 {boss.resistances.map((resistance) => (
@@ -213,7 +218,7 @@ export default function BossPage({ params }: BossPageProps) {
             <div className="card p-6">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
                 <Gift className="w-5 h-5 text-purple-600" />
-                Drops
+                {t('rewards')}
               </h3>
               <ul className="space-y-2">
                 {boss.drops.map((drop, index) => (
@@ -235,11 +240,11 @@ export default function BossPage({ params }: BossPageProps) {
             <div className="card p-6">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
                 <AlertTriangle className="w-6 h-6 text-orange-600" />
-                Battle Strategy
+                {t('strategy')}
               </h2>
               <div className="bg-orange-50 dark:bg-orange-900/20 border-l-4 border-orange-500 p-4 rounded">
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  <strong>Recommended Level: {boss.recommendedLevel}+</strong>
+                  <strong>{t('level')}: {boss.recommendedLevel}+</strong>
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-2">
                   {boss.strategy}

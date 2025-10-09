@@ -1,15 +1,19 @@
 import { Metadata } from 'next';
 import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { ChevronLeft, Home, MapPin, Trophy, Star, AlertCircle, CheckCircle2, Lightbulb, Target, Skull, Zap } from 'lucide-react';
 
-export const metadata: Metadata = generateSEO({
-  title: 'Chapter 9: The Final Battle - Walkthrough',
-  description: 'Complete walkthrough for the final chapter of Digimon Time Stranger including all missions, collectibles, and the epic Apocalymon boss battle.',
-  url: '/walkthrough/chapter-9',
-});
+export async function generateMetadata(): Promise<Metadata> {
+  return generateSEO({
+    title: 'Chapter 9: ... - Walkthrough',
+    description: 'Complete walkthrough for Chapter 9 of Digimon Time Stranger...',
+    url: '/walkthrough/chapter-9',
+  });
+}
 
-export default function Chapter9Page() {
+export default async function Chapter9Page() {
+  const t = await getTranslations('walkthroughChapter');
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -147,7 +151,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #1:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 1 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Dark Chip - In the northwest corner of the deletion fields, on a stable data platform.</span>
                     </div>
                   </div>
@@ -168,7 +172,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #2:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 2 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Memory Fragment - Midway across the bridge. Grants permanent +50 HP to all Digimon when used.</span>
                     </div>
                   </div>
@@ -220,7 +224,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #3:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 3 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> ATK Chip MAX - Reward for completing the Trial of Strength.</span>
                     </div>
                   </div>
@@ -241,7 +245,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #4:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 4 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> INT Chip MAX - Reward for completing the Trial of Wisdom.</span>
                     </div>
                   </div>
@@ -262,7 +266,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #5:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 5 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> DEF Chip MAX - Reward for completing the Trial of Courage.</span>
                     </div>
                   </div>
@@ -271,7 +275,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #6:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 6 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Courage Emblem - Hidden in the trial chamber. Secret collectible that appears if you never fled from battle during your playthrough.</span>
                     </div>
                   </div>
@@ -292,7 +296,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #7:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 7 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> SPD Chip MAX - Reward for completing the Trial of Bonds.</span>
                     </div>
                   </div>
@@ -301,7 +305,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #8:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 8 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Bond Crystal - Appears during the trial. Allows one Digimon to revive automatically once during the final battle.</span>
                     </div>
                   </div>
@@ -344,7 +348,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #9:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 9 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Ultimate Recovery - Can be purchased from the ghost shop for 10,000 Bits. Fully heals all HP/MP.</span>
                     </div>
                   </div>
@@ -353,7 +357,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #10:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 10 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Phoenix Feather - Can be purchased for 15,000 Bits. Auto-revives entire party once per battle.</span>
                     </div>
                   </div>
@@ -362,7 +366,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #11:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 11 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Infinity Chip - Can be purchased for 20,000 Bits. Boosts all stats by 20%.</span>
                     </div>
                   </div>
@@ -432,7 +436,7 @@ export default function Chapter9Page() {
                 <div className="bg-gradient-to-br from-red-100 to-purple-100 dark:from-red-900/30 dark:to-purple-900/30 p-4 rounded-lg mb-4 border-2 border-red-300 dark:border-red-700">
                   <div className="grid md:grid-cols-2 gap-3 mb-3">
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">Level</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.level')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">55</div>
                     </div>
                     <div>
@@ -449,7 +453,7 @@ export default function Chapter9Page() {
                     </div>
                   </div>
                   <div className="mb-3">
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Weaknesses</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.weaknesses')}</div>
                     <div className="flex gap-2">
                       <span className="px-2 py-1 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300 text-xs font-bold rounded">Holy (Slightly Effective)</span>
                     </div>
@@ -559,7 +563,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-green-900 dark:text-green-300">Victory Rewards:</strong>
+                      <strong className="text-green-900 dark:text-green-300">{t('labels.victoryRewards')}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Chaos Shard, Supreme Chip, Legend Medal, 50,000 EXP, 25,000 Bits, Master Rank Title, New Game+ Unlocked</span>
                     </div>
                   </div>
@@ -602,7 +606,7 @@ export default function Chapter9Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #12:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 12 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> True Hero's Medal - Automatically added to your inventory after beating Apocalymon. Proof of your ultimate victory.</span>
                     </div>
                   </div>

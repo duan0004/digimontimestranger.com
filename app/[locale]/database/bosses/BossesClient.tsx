@@ -4,9 +4,15 @@ import { useState, useMemo } from 'react';
 import { Search, Filter, SortAsc, Trophy } from 'lucide-react';
 import BossCard from '@/components/boss/BossCard';
 import { getAllBosses } from '@/lib/boss-data';
+import { useTranslations } from 'next-intl';
 import type { Boss } from '@/lib/boss-data';
 
-export default function BossesClient() {
+type BossesClientProps = {
+  locale: string;
+};
+
+export default function BossesClient({ locale }: BossesClientProps) {
+  const t = useTranslations('database.bosses');
   const allBosses = getAllBosses();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all');
@@ -62,10 +68,10 @@ export default function BossesClient() {
             </div>
             <div>
               <h1 className="text-4xl font-bold text-slate-900 dark:text-white">
-                Boss Database
+                {t('title')}
               </h1>
               <p className="text-gray-600 dark:text-gray-400">
-                Complete strategies and information for all bosses
+                {t('description')}
               </p>
             </div>
           </div>

@@ -1,15 +1,19 @@
 import { Metadata } from 'next';
 import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight, MapPin, Trophy, Star, AlertCircle, CheckCircle2, Lightbulb, Target } from 'lucide-react';
 
-export const metadata: Metadata = generateSEO({
-  title: 'Chapter 7: Ocean Depths - Walkthrough',
-  description: 'Complete walkthrough for Chapter 7 of Digimon Time Stranger including all missions, collectibles, and MetalSeadramon boss strategy.',
-  url: '/walkthrough/chapter-7',
-});
+export async function generateMetadata(): Promise<Metadata> {
+  return generateSEO({
+    title: 'Chapter 7: ... - Walkthrough',
+    description: 'Complete walkthrough for Chapter 7 of Digimon Time Stranger...',
+    url: '/walkthrough/chapter-7',
+  });
+}
 
-export default function Chapter7Page() {
+export default async function Chapter7Page() {
+  const t = await getTranslations('walkthroughChapter');
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -159,7 +163,7 @@ export default function Chapter7Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #1:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 1 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Ocean Chip - Inside the temple's main chamber, in a treasure chest behind the altar.</span>
                     </div>
                   </div>
@@ -216,7 +220,7 @@ export default function Chapter7Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #2:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 2 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> HP Chip S - Hidden behind the Northern gate, accessible after solving the puzzle.</span>
                     </div>
                   </div>
@@ -236,16 +240,16 @@ export default function Chapter7Page() {
                 <div className="bg-orange-50 dark:bg-orange-900/20 p-4 rounded-lg mb-3">
                   <div className="grid md:grid-cols-2 gap-3 mb-3">
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">Level</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.level')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">46</div>
                     </div>
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">HP</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.hp')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">10,000</div>
                     </div>
                   </div>
                   <div className="mb-3">
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Weaknesses</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.weaknesses')}</div>
                     <div className="flex gap-2">
                       <span className="px-2 py-1 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300 text-xs font-bold rounded">Light</span>
                       <span className="px-2 py-1 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300 text-xs font-bold rounded">Holy</span>
@@ -259,7 +263,7 @@ export default function Chapter7Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #3:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 3 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Dark Essence - Dropped by MarineDevimon. Rare crafting material for dark-element equipment.</span>
                     </div>
                   </div>
@@ -302,7 +306,7 @@ export default function Chapter7Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #4:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 4 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Thunder Chip A - In the western cavern branch, guarded by two Whamon.</span>
                     </div>
                   </div>
@@ -311,7 +315,7 @@ export default function Chapter7Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #5:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 5 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Mega MP Recovery - Eastern cavern, inside a giant clam shell.</span>
                     </div>
                   </div>
@@ -320,7 +324,7 @@ export default function Chapter7Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #6:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 6 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Speed Chip A - Northern cavern, on a ledge above the water surface.</span>
                     </div>
                   </div>
@@ -341,7 +345,7 @@ export default function Chapter7Page() {
                   <div className="flex items-start gap-2">
                     <AlertCircle className="w-5 h-5 text-yellow-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-yellow-900 dark:text-yellow-300">Pre-Battle Checklist:</strong>
+                      <strong className="text-yellow-900 dark:text-yellow-300">{t('labels.preparationChecklist')}</strong>
                       <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mt-1">
                         <li>Team at Level 45+ (Level 47+ recommended)</li>
                         <li>Stock 5+ Mega Recoveries and 3 Revival Capsules</li>
@@ -387,11 +391,11 @@ export default function Chapter7Page() {
                 <div className="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg mb-3">
                   <div className="grid md:grid-cols-2 gap-3 mb-3">
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">Level</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.level')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">48</div>
                     </div>
                     <div>
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">HP</div>
+                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400">{t('battle.hp')}</div>
                       <div className="text-lg font-bold text-gray-900 dark:text-white">13,500</div>
                     </div>
                     <div>
@@ -404,7 +408,7 @@ export default function Chapter7Page() {
                     </div>
                   </div>
                   <div className="mb-3">
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Weaknesses</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.weaknesses')}</div>
                     <div className="flex gap-2">
                       <span className="px-2 py-1 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300 text-xs font-bold rounded">Thunder</span>
                       <span className="px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 text-xs font-bold rounded">Plant</span>
@@ -418,7 +422,7 @@ export default function Chapter7Page() {
                     </div>
                   </div>
                   <div>
-                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">Main Attacks</div>
+                    <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-1">{t('battle.mainAttacks')}</div>
                     <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
                       <li>• <strong>River of Power:</strong> High-pressure water beam (~280 damage, single target)</li>
                       <li>• <strong>Ultimate Stream:</strong> Spiraling water blast hitting 2-3 targets (~250 damage each)</li>
@@ -479,7 +483,7 @@ export default function Chapter7Page() {
                   <div className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-green-900 dark:text-green-300">Victory Rewards:</strong>
+                      <strong className="text-green-900 dark:text-green-300">{t('labels.victoryRewards')}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Chrome Digizoid Scale, Thunder Chip S, DEF Chip S, 9,500 EXP, 6,000 Bits</span>
                     </div>
                   </div>
@@ -522,7 +526,7 @@ export default function Chapter7Page() {
                   <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-purple-900 dark:text-purple-300">Collectible #7:</strong>
+                      <strong className="text-purple-900 dark:text-purple-300">{t('labels.collectible', { number: 7 })}</strong>
                       <span className="text-gray-700 dark:text-gray-300"> Ocean Pearl - In MetalSeadramon's throne after the battle. Extremely rare accessory that boosts Water resistance by 50%.</span>
                     </div>
                   </div>
@@ -535,7 +539,7 @@ export default function Chapter7Page() {
                 ✓
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-gray-900 dark:text-white mb-1">Chapter Complete!</h3>
+                <h3 className="font-bold text-gray-900 dark:text-white mb-1">{t('labels.chapterComplete')}</h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Congratulations on defeating MetalSeadramon! Three Dark Masters have now fallen, with only one remaining. Your team emerges from the ocean and prepares for the next challenge. The path to Cloud Continent and the final Dark Master, Puppetmon, now opens.
                 </p>
@@ -547,11 +551,11 @@ export default function Chapter7Page() {
         {/* Summary Box */}
         <div className="card p-6 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 border-2 border-green-200 dark:border-green-800">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-            Chapter 7 Summary
+            {t('summary.title', { number: 7 })}
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2">Key Achievements:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2">{t('labels.keyAchievements')}</h3>
               <ul className="space-y-1 text-gray-700 dark:text-gray-300">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
@@ -572,7 +576,7 @@ export default function Chapter7Page() {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2">Collectibles Found:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2">{t('labels.collectiblesFound')}</h3>
               <ul className="space-y-1 text-gray-700 dark:text-gray-300 text-sm">
                 <li>• Ocean Chip (Sunken Temple)</li>
                 <li>• HP Chip S (Abyssal Trench)</li>
@@ -582,7 +586,7 @@ export default function Chapter7Page() {
                 <li>• Speed Chip A (Northern Cavern)</li>
                 <li>• Ocean Pearl (Boss chamber)</li>
               </ul>
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2 mt-4">Next Chapter:</h3>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2 mt-4">{t('labels.nextChapter')}</h3>
               <p className="text-gray-700 dark:text-gray-300">
                 Ascend to Cloud Continent to face the final Dark Master, Puppetmon, in Chapter 8.
               </p>
