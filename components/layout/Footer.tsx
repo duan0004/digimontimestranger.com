@@ -19,6 +19,10 @@ const footerLinks = {
     { name: 'Updates & Patches', href: '/updates' },
     { name: 'About', href: '/about' },
   ],
+  legal: [
+    { name: 'Privacy Policy', href: '/privacy' },
+    { name: 'Terms of Service', href: '/terms' },
+  ],
 };
 
 export default function Footer() {
@@ -113,11 +117,22 @@ export default function Footer() {
               <p className="mb-1">
                 © {currentYear} Digimon Time Stranger Guide. All rights reserved.
               </p>
-              <p className="text-xs">
+              <p className="text-xs mb-2">
                 <strong>Disclaimer:</strong> This is an unofficial fan site. Digimon and all related
                 properties are trademarks of Bandai Namco Entertainment. We are not affiliated with or
                 endorsed by Bandai Namco.
               </p>
+              <div className="flex flex-wrap gap-3 text-xs">
+                {footerLinks.legal.map((link) => (
+                  <Link
+                    key={link.name}
+                    href={link.href}
+                    className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors underline"
+                  >
+                    {link.name}
+                  </Link>
+                ))}
+              </div>
             </div>
             <div className="flex items-center space-x-4 text-sm text-gray-600 dark:text-gray-400">
               <span>Built with ❤️ for Tamers</span>

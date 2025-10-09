@@ -12,13 +12,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/tools/team-builder',
     '/guides',
     '/guides/best-starters',
+    '/guides/evolution-guide',
+    '/guides/team-building',
+    '/guides/fast-leveling',
+    '/guides/boss-strategies',
     '/updates',
     '/pc/steam-deck',
+    '/community',
+    '/database',
+    '/about',
+    '/privacy',
+    '/terms',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: route === '' ? 'daily' as const : 'weekly' as const,
-    priority: route === '' ? 1.0 : 0.8,
+    priority: route === '' ? 1.0 : route === '/privacy' || route === '/terms' ? 0.3 : 0.8,
   }));
 
   // Dynamic Digimon routes
