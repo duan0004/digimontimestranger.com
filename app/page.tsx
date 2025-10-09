@@ -34,10 +34,10 @@ const featuredCards = [
 
 const quickLinks = [
   { title: 'Fast Leveling Routes', href: '/guides/fast-leveling' },
-  { title: 'How to Get Veemon', href: '/how-to-get/veemon' },
-  { title: 'Agumon → Greymon Evolution', href: '/evolve/agumon-greymon' },
+  { title: 'Digimon Evolution Guide', href: '/guides/evolution-guide' },
+  { title: 'Team Building Strategies', href: '/guides/team-building' },
   { title: 'PC & Steam Deck Settings', href: '/pc/steam-deck' },
-  { title: 'Memory Management 101', href: '/guides/memory-management' },
+  { title: 'Story Branches & Endings', href: '/guides/story-branches' },
   { title: 'Boss Strategies', href: '/guides/boss-strategies' },
 ];
 

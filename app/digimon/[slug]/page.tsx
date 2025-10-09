@@ -329,10 +329,10 @@ export default async function DigimonPage({ params }: DigimonPageProps) {
                 </h3>
                 <div className="space-y-2">
                   <Link
-                    href={`/how-to-get/${digimon.slug}`}
+                    href="/evolution"
                     className="block px-4 py-2 text-primary-600 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-900/20 rounded-lg transition-colors"
                   >
-                    How to Get {digimon.name}
+                    View Evolution Tree
                   </Link>
                   <Link
                     href="/tools/team-builder"
