@@ -98,6 +98,13 @@ export async function buildSearchIndex(): Promise<SearchItem[]> {
       tags: ['leveling', 'grinding', 'xp', 'experience'],
     },
     {
+      id: 'guide-story-branches',
+      title: 'Story Branches & Endings Guide',
+      description: 'Navigate branching story paths, key decisions, and unlock all 5 endings',
+      url: '/guides/story-branches',
+      tags: ['story', 'endings', 'choices', 'branches', 'decisions', 'timeline', 'friendship'],
+    },
+    {
       id: 'guide-boss-strategies',
       title: 'Boss Strategies Guide',
       description: 'Comprehensive boss battle tactics and team recommendations',

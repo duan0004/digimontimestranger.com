@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { generateMetadata } from '@/lib/seo';
 import Link from 'next/link';
-import { BookOpen, Zap, Users, TrendingUp, Gamepad2, Settings } from 'lucide-react';
+import { BookOpen, Zap, Users, TrendingUp, Gamepad2, Settings, GitBranch } from 'lucide-react';
 
 export const metadata: Metadata = generateMetadata({
   title: 'Strategy Guides - Complete Digimon Time Stranger Guides',
@@ -51,12 +51,12 @@ const guides = [
     readTime: '7 min',
   },
   {
-    title: 'PC & Steam Deck Settings',
-    description: 'Optimize graphics, controls, and performance for the best PC and Steam Deck experience.',
-    href: '/pc/steam-deck',
-    icon: Settings,
-    status: 'coming-soon',
-    readTime: '5 min',
+    title: 'Story Branches & Endings',
+    description: 'Navigate branching story paths, key decisions, and unlock all 5 endings with our comprehensive guide.',
+    href: '/guides/story-branches',
+    icon: GitBranch,
+    status: 'available',
+    readTime: '15 min',
   },
   {
     title: 'Boss Battle Strategies',
@@ -65,6 +65,14 @@ const guides = [
     icon: Gamepad2,
     status: 'available',
     readTime: '15 min',
+  },
+  {
+    title: 'PC & Steam Deck Settings',
+    description: 'Optimize graphics, controls, and performance for the best PC and Steam Deck experience.',
+    href: '/pc/steam-deck',
+    icon: Settings,
+    status: 'coming-soon',
+    readTime: '5 min',
   },
 ];
 
