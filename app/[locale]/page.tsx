@@ -1,54 +1,59 @@
+'use client';
+
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import { useParams } from 'next/navigation';
 import { BookOpen, Zap, Users, TrendingUp, Target, Shield } from 'lucide-react';
 
-const featuredCards = [
-  {
-    title: 'Best Starters Guide',
-    description: 'Discover the top Digimon to begin your journey and dominate early game',
-    icon: Target,
-    href: '/guides/best-starters',
-    color: 'from-orange-500 to-red-600',
-  },
-  {
-    title: 'Personality System',
-    description: 'Master personality mechanics and optimize your Digimon\'s growth',
-    icon: Users,
-    href: '/guides/personality-system',
-    color: 'from-blue-500 to-purple-600',
-  },
-  {
-    title: 'Team Builder Tool',
-    description: 'Build perfect teams with memory, element coverage, and role analysis',
-    icon: Shield,
-    href: '/tools/team-builder',
-    color: 'from-green-500 to-teal-600',
-  },
-  {
-    title: 'Evolution Trees',
-    description: 'Explore complete evolution paths for all 400+ Digimon',
-    icon: TrendingUp,
-    href: '/evolution',
-    color: 'from-purple-500 to-pink-600',
-  },
-];
-
-const quickLinks = [
-  { title: 'Fast Leveling Routes', href: '/guides/fast-leveling' },
-  { title: 'Digimon Evolution Guide', href: '/guides/evolution-guide' },
-  { title: 'Team Building Strategies', href: '/guides/team-building' },
-  { title: 'PC & Steam Deck Settings', href: '/pc/steam-deck' },
-  { title: 'Story Branches & Endings', href: '/guides/story-branches' },
-  { title: 'Boss Strategies', href: '/guides/boss-strategies' },
-];
-
-const stats = [
-  { label: 'Digimon', value: '400+' },
-  { label: 'Evolution Paths', value: '1000+' },
-  { label: 'Guides', value: '50+' },
-  { label: 'Updated', value: 'Daily' },
-];
-
 export default function HomePage() {
+  const t = useTranslations('home');
+  const params = useParams();
+  const locale = params.locale as string;
+
+  const featuredCards = [
+    {
+      title: t('features.digidex.title'),
+      description: t('features.digidex.description'),
+      icon: Target,
+      href: `/${locale}/guides/best-starters`,
+      color: 'from-orange-500 to-red-600',
+    },
+    {
+      title: t('features.guides.title'),
+      description: t('features.guides.description'),
+      icon: Users,
+      href: `/${locale}/guides`,
+      color: 'from-blue-500 to-purple-600',
+    },
+    {
+      title: t('features.evolution.title'),
+      description: t('features.evolution.description'),
+      icon: Shield,
+      href: `/${locale}/tools/team-builder`,
+      color: 'from-green-500 to-teal-600',
+    },
+    {
+      title: t('features.bosses.title'),
+      description: t('features.bosses.description'),
+      icon: TrendingUp,
+      href: `/${locale}/evolution`,
+      color: 'from-purple-500 to-pink-600',
+    },
+  ];
+
+  const quickLinks = [
+    { title: t('popularGuides.evolutionGuide'), href: `/${locale}/guides/evolution-guide` },
+    { title: t('popularGuides.teamBuilding'), href: `/${locale}/guides/team-building` },
+    { title: t('popularGuides.storyBranches'), href: `/${locale}/guides/story-branches` },
+  ];
+
+  const stats = [
+    { label: 'Digimon', value: '400+' },
+    { label: 'Evolution Paths', value: '1000+' },
+    { label: 'Guides', value: '50+' },
+    { label: 'Updated', value: 'Daily' },
+  ];
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -69,26 +74,23 @@ export default function HomePage() {
             </div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6">
-              Master <span className="text-accent-500">Digimon Story:</span>
-              <br />
-              Time Stranger
+              {t('hero.title')}
             </h1>
 
             <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Complete strategies, evolution guides, and team building tools.
-              Your ultimate companion for conquering the Digital World.
+              {t('hero.subtitle')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
-                href="/digidex"
+                href={`/${locale}/digidex`}
                 className="btn-primary inline-flex items-center gap-2 px-8 py-4 text-lg"
               >
                 <BookOpen className="w-5 h-5" />
-                Browse Digidex
+                {t('hero.cta')}
               </Link>
               <Link
-                href="/tools/team-builder"
+                href={`/${locale}/tools/team-builder`}
                 className="btn-accent inline-flex items-center gap-2 px-8 py-4 text-lg"
               >
                 <Shield className="w-5 h-5" />
@@ -135,10 +137,10 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Featured Guides & Tools
+              {t('features.title')}
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400">
-              Everything you need to become a master Tamer
+              {t('description')}
             </p>
           </div>
 
@@ -180,7 +182,7 @@ export default function HomePage() {
       <section className="bg-gray-50 dark:bg-gray-800 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">
-            Trending Guides
+            {t('popularGuides.title')}
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -407,10 +409,10 @@ export default function HomePage() {
                   NEW
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-                  Join Our Community Forum
+                  {t('community.title')}
                 </h2>
                 <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-                  Connect with fellow Tamers, share your strategies, ask questions, and showcase your achievements. No registration needed - just sign in with GitHub!
+                  {t('community.description')}
                 </p>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-start gap-3">
@@ -433,7 +435,7 @@ export default function HomePage() {
                   </li>
                 </ul>
                 <Link
-                  href="/community"
+                  href={`/${locale}/community`}
                   className="inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors shadow-lg"
                 >
                   Visit Community Forum
@@ -460,7 +462,7 @@ export default function HomePage() {
                     <div className="text-2xl font-bold text-gray-900 dark:text-white">693+</div>
                     <div className="text-xs text-gray-600 dark:text-gray-400">Topics</div>
                   </div>
-                  <div className="card p-4 bg-white dark:bg-gray-800">
+                  <div className="card p-4 bg-white dark:text-gray-800">
                     <svg className="w-8 h-8 text-green-600 dark:text-green-400 mb-2" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
                     </svg>
@@ -498,7 +500,7 @@ export default function HomePage() {
             Join thousands of Tamers using our guides to master the game
           </p>
           <Link
-            href="/guides"
+            href={`/${locale}/guides`}
             className="inline-flex items-center gap-2 bg-white text-primary-700 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors shadow-lg"
           >
             View All Guides
