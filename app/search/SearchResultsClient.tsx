@@ -41,10 +41,10 @@ function SearchResultsContent() {
       setIsLoading(true);
       try {
         const response = await fetch('/api/search-index');
-        const data = await response.json();
+        const data = await response.json() as SearchItem[];
         setSearchIndex(data);
 
-        const fuseInstance = new Fuse(data, {
+        const fuseInstance = new Fuse<SearchItem>(data, {
           keys: [
             { name: 'title', weight: 2 },
             { name: 'description', weight: 1 },

@@ -25,16 +25,16 @@ export async function buildSearchIndex(): Promise<SearchItem[]> {
       searchItems.push({
         id: `digimon-${mon.id}`,
         title: mon.name,
-        description: mon.description || `${mon.stage} stage ${mon.attribute} type Digimon`,
+        description: mon.description || `${mon.stage} stage ${mon.attribute} ${mon.element} Digimon`,
         category: 'digimon',
         url: `/digimon/${mon.id}`,
         tags: [
           mon.stage,
           mon.attribute,
-          mon.type,
-          ...(mon.specialties || []),
+          mon.element,
+          ...(mon.tags || []),
         ].filter(Boolean),
-        image: mon.image,
+        image: mon.imageUrl,
       });
     });
   } catch (error) {

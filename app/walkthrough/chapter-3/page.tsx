@@ -454,7 +454,7 @@ export default function Chapter3Page() {
                   Investigating Etemon's control room, you discover he was part of a larger network of evil forces. A map reveals the location of Geko Swamp, your next destination.
                 </p>
                 <div className="p-3 bg-purple-50 dark:bg-purple-900/20 border-l-4 border-purple-500 rounded">
-                  <div class="flex items-start gap-2">
+                  <div className="flex items-start gap-2">
                     <Star className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
                     <div>
                       <strong className="text-purple-900 dark:text-purple-300">Collectible #6:</strong>
