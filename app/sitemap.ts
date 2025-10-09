@@ -17,6 +17,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/guides/team-building',
     '/guides/fast-leveling',
     '/guides/boss-strategies',
+    '/walkthrough',
+    '/walkthrough/chapter-1',
+    '/walkthrough/chapter-2',
+    '/walkthrough/chapter-3',
+    '/walkthrough/chapter-4',
+    '/walkthrough/chapter-5',
+    '/walkthrough/chapter-6',
+    '/walkthrough/chapter-7',
+    '/walkthrough/chapter-8',
+    '/walkthrough/chapter-9',
     '/updates',
     '/pc/steam-deck',
     '/community',
@@ -30,7 +40,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: route === '' ? 'daily' as const : 'weekly' as const,
-    priority: route === '' ? 1.0 : route === '/privacy' || route === '/terms' ? 0.3 : route === '/search' ? 0.5 : 0.8,
+    priority: route === '' ? 1.0 : route === '/privacy' || route === '/terms' ? 0.3 : route === '/search' ? 0.5 : route.startsWith('/walkthrough') ? 0.9 : 0.8,
   }));
 
   // Dynamic Digimon routes

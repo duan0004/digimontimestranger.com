@@ -8,14 +8,12 @@ import GlobalSearch from '@/components/search/GlobalSearch';
 
 const navigation = [
   { name: 'Home', href: '/' },
+  { name: 'Walkthrough', href: '/walkthrough' },
   { name: 'Digidex', href: '/digidex' },
-  { name: 'Evolution', href: '/evolution' },
-  { name: 'Team Builder', href: '/tools/team-builder' },
   { name: 'Database', href: '/database' },
   { name: 'Guides', href: '/guides' },
+  { name: 'Tools', href: '/tools/team-builder' },
   { name: 'Community', href: '/community' },
-  { name: 'Updates', href: '/updates' },
-  { name: 'PC/Deck', href: '/pc/steam-deck' },
 ];
 
 export default function Header() {
