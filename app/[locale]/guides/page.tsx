@@ -1,21 +1,30 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as createMetadata } from '@/lib/seo';
 import Link from 'next/link';
 import { BookOpen, Zap, Users, TrendingUp, Gamepad2, Settings, GitBranch, Package } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Strategy Guides - Complete Digimon Time Stranger Guides',
-  description:
-    'Browse all strategy guides for Digimon Story: Time Stranger. Learn team building, evolution paths, leveling routes, and advanced strategies.',
-  keywords: [
-    'Digimon guides',
-    'strategy guides',
-    'walkthrough',
-    'tips and tricks',
-    'game guide',
-  ],
-  url: '/guides',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'seo.guides' });
+
+  return createMetadata({
+    title: t('title'),
+    description: t('description'),
+    keywords: [
+      'Digimon guides',
+      'strategy guides',
+      'walkthrough',
+      'tips and tricks',
+      'game guide',
+    ],
+    url: '/guides',
+  });
+}
 
 const guides = [
   {
@@ -84,17 +93,20 @@ const guides = [
   },
 ];
 
-export default function GuidesPage() {
+export default async function GuidesPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'guides' });
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Strategy Guides
+            {t('title')}
           </h1>
           <p className="text-xl text-blue-100">
-            Complete guides to master Digimon Story: Time Stranger
+            {t('description')}
           </p>
         </div>
       </div>
@@ -105,7 +117,7 @@ export default function GuidesPage() {
           {guides.map((guide) => (
             <Link
               key={guide.title}
-              href={guide.status === 'available' ? guide.href : '#'}
+              href={guide.status === 'available' ? `/${locale}${guide.href}` : '#'}
               className={`card p-6 hover:shadow-lg transition-all ${
                 guide.status === 'coming-soon' ? 'opacity-75' : ''
               }`}

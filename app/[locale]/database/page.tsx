@@ -1,22 +1,32 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as createMetadata } from '@/lib/seo';
 import Link from 'next/link';
 import { Database, Zap, Package, Users, TrendingUp, BookOpen, ArrowRight, Shield, Award, Activity, Trophy } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Game Database - Digimon Time Stranger',
-  description:
-    'Complete game database for Digimon Story: Time Stranger. Browse all Digimon, skills, items, and game mechanics in one place.',
-  keywords: [
-    'database',
-    'digimon list',
-    'skills',
-    'items',
-    'game data',
-    'reference',
-  ],
-  url: '/database',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'nav' });
+
+  return createMetadata({
+    title: `${t('database')} - Digimon Time Stranger`,
+    description:
+      'Complete game database for Digimon Story: Time Stranger. Browse all Digimon, skills, items, and game mechanics in one place.',
+    keywords: [
+      'database',
+      'digimon list',
+      'skills',
+      'items',
+      'game data',
+      'reference',
+    ],
+    url: '/database',
+  });
+}
 
 const databases = [
   {
@@ -136,7 +146,10 @@ const colorClasses: Record<string, { bg: string; text: string; border: string }>
   },
 };
 
-export default function DatabasePage() {
+export default async function DatabasePage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'nav' });
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
@@ -145,7 +158,7 @@ export default function DatabasePage() {
           <div className="flex items-center gap-4 mb-4">
             <Database className="w-12 h-12" />
             <h1 className="text-4xl md:text-5xl font-bold">
-              Game Database
+              {t('database')}
             </h1>
           </div>
           <p className="text-xl text-blue-100">
@@ -165,7 +178,7 @@ export default function DatabasePage() {
             return (
               <Link
                 key={db.id}
-                href={db.link}
+                href={`/${locale}${db.link}`}
                 className="card p-8 hover:shadow-xl transition-all duration-200 group"
               >
                 <div className="flex items-start gap-6">
@@ -243,7 +256,7 @@ export default function DatabasePage() {
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <Link
-              href="/guides"
+              href={`/${locale}/guides`}
               className="card p-6 hover:shadow-lg transition-shadow group"
             >
               <div className="flex items-center gap-4">
@@ -263,7 +276,7 @@ export default function DatabasePage() {
             </Link>
 
             <Link
-              href="/tools/team-builder"
+              href={`/${locale}/tools/team-builder`}
               className="card p-6 hover:shadow-lg transition-shadow group"
             >
               <div className="flex items-center gap-4">
