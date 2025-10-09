@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "Trang chủ",
+    "walkthrough": "Công lược",
     "digidex": "Digidex",
+    "database": "Cơ sở Dữ liệu",
     "guides": "Hướng dẫn",
     "evolution": "Tiến hóa",
     "bosses": "Boss",
     "walkthroughs": "Công lược",
     "tools": "Công cụ",
     "community": "Cộng đồng",
-    "about": "Giới thiệu"
+    "about": "Giới thiệu",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Hướng Dẫn Chiến Lược Hoàn Chỉnh"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "Hướng dẫn hoàn chỉnh cho Digimon Story: Time Stranger",
-    "quickLinks": "Liên kết Nhanh",
-    "resources": "Tài nguyên",
-    "community": "Cộng đồng",
-    "legal": "Pháp lý",
-    "copyright": "© 2024 Hướng dẫn Digimon Story Time Stranger. Đã đăng ký bản quyền.",
-    "disclaimer": "Đây là hướng dẫn do fan tạo ra. Digimon là nhãn hiệu của Bandai Namco."
+    "description": "Hướng dẫn hoàn chỉnh, đường tiến hóa và công cụ xây dựng đội hình cho Digimon Story: Time Stranger.",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Hướng Dẫn Chiến Lược",
+    "guidesTitle": "Hướng Dẫn",
+    "toolsTitle": "Công Cụ",
+    "resourcesTitle": "Tài Nguyên",
+    "bestStarters": "Starter Tốt Nhất",
+    "evolutionGuide": "Hướng Dẫn Tiến Hóa",
+    "teamBuilding": "Xây Dựng Đội Hình",
+    "fastLeveling": "Lên Cấp Nhanh",
+    "teamBuilder": "Công Cụ Xây Dựng Đội",
+    "evolutionTree": "Cây Tiến Hóa",
+    "communityForum": "Diễn Đàn Cộng Đồng",
+    "pcSettings": "Cài Đặt PC",
+    "updatesPatches": "Cập Nhật & Bản Vá",
+    "about": "Giới Thiệu",
+    "privacyPolicy": "Chính Sách Bảo Mật",
+    "termsOfService": "Điều Khoản Dịch Vụ",
+    "copyright": "© {year} Hướng Dẫn Digimon Time Stranger. Đã đăng ký bản quyền.",
+    "disclaimer": "Đây là trang web fan không chính thức. Digimon và tất cả các tài sản liên quan là nhãn hiệu của Bandai Namco Entertainment. Chúng tôi không liên kết hoặc được xác nhận bởi Bandai Namco.",
+    "builtWith": "Được tạo với ❤️ cho các Tamer"
   },
   "seo": {
     "home": {

@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "首页",
+    "walkthrough": "流程攻略",
     "digidex": "数码宝贝图鉴",
+    "database": "数据库",
     "guides": "攻略指南",
     "evolution": "进化",
     "bosses": "Boss战",
     "walkthroughs": "流程攻略",
     "tools": "工具",
     "community": "社区",
-    "about": "关于"
+    "about": "关于",
+    "siteTitle": "数码宝贝时间旅行者",
+    "siteSubtitle": "完整战略指南"
   },
   "home": {
     "title": "数码宝贝物语：时间旅行者",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "您完整的数码宝贝物语：时间旅行者指南",
-    "quickLinks": "快速链接",
-    "resources": "资源",
-    "community": "社区",
-    "legal": "法律",
-    "copyright": "© 2024 数码宝贝物语时间旅行者指南。保留所有权利。",
-    "disclaimer": "这是一个粉丝制作的指南。数码宝贝是万代南梦宫的商标。"
+    "description": "数码宝贝物语：时间旅行者的完整指南、进化路径和队伍构建工具。",
+    "siteTitle": "数码宝贝时间旅行者",
+    "siteSubtitle": "战略指南",
+    "guidesTitle": "指南",
+    "toolsTitle": "工具",
+    "resourcesTitle": "资源",
+    "bestStarters": "最佳初始",
+    "evolutionGuide": "进化指南",
+    "teamBuilding": "队伍构建",
+    "fastLeveling": "快速升级",
+    "teamBuilder": "队伍构建器",
+    "evolutionTree": "进化树",
+    "communityForum": "社区论坛",
+    "pcSettings": "PC设置",
+    "updatesPatches": "更新与补丁",
+    "about": "关于",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "copyright": "© {year} 数码宝贝时间旅行者指南。保留所有权利。",
+    "disclaimer": "这是一个非官方粉丝网站。数码宝贝及所有相关商标均为万代南梦宫娱乐的商标。我们未与万代南梦宫有任何关联或获得其认可。",
+    "builtWith": "为驯兽师用❤️制作"
   },
   "seo": {
     "home": {

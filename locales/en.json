@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "Home",
+    "walkthrough": "Walkthrough",
     "digidex": "Digidex",
+    "database": "Database",
     "guides": "Guides",
     "evolution": "Evolution",
     "bosses": "Bosses",
     "walkthroughs": "Walkthroughs",
     "tools": "Tools",
     "community": "Community",
-    "about": "About"
+    "about": "About",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Complete Strategy Guide"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "Your complete guide to Digimon Story: Time Stranger",
-    "quickLinks": "Quick Links",
-    "resources": "Resources",
-    "community": "Community",
-    "legal": "Legal",
-    "copyright": "© 2024 Digimon Story Time Stranger Guide. All rights reserved.",
-    "disclaimer": "This is a fan-made guide. Digimon is a trademark of Bandai Namco."
+    "description": "Complete guides, evolution paths, and team building tools for Digimon Story: Time Stranger.",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Strategy Guide",
+    "guidesTitle": "Guides",
+    "toolsTitle": "Tools",
+    "resourcesTitle": "Resources",
+    "bestStarters": "Best Starters",
+    "evolutionGuide": "Evolution Guide",
+    "teamBuilding": "Team Building",
+    "fastLeveling": "Fast Leveling",
+    "teamBuilder": "Team Builder",
+    "evolutionTree": "Evolution Tree",
+    "communityForum": "Community Forum",
+    "pcSettings": "PC Settings",
+    "updatesPatches": "Updates & Patches",
+    "about": "About",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© {year} Digimon Time Stranger Guide. All rights reserved.",
+    "disclaimer": "This is an unofficial fan site. Digimon and all related properties are trademarks of Bandai Namco Entertainment. We are not affiliated with or endorsed by Bandai Namco.",
+    "builtWith": "Built with ❤️ for Tamers"
   },
   "seo": {
     "home": {

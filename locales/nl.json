@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "Home",
+    "walkthrough": "Walkthrough",
     "digidex": "Digidex",
+    "database": "Database",
     "guides": "Gidsen",
     "evolution": "Evolutie",
     "bosses": "Bazen",
     "walkthroughs": "Walkthroughs",
     "tools": "Gereedschap",
     "community": "Gemeenschap",
-    "about": "Over"
+    "about": "Over",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Volledige Strategiegids"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "Jouw complete gids voor Digimon Story: Time Stranger",
-    "quickLinks": "Snelkoppelingen",
-    "resources": "Bronnen",
-    "community": "Gemeenschap",
-    "legal": "Juridisch",
-    "copyright": "© 2024 Digimon Story Time Stranger Gids. Alle rechten voorbehouden.",
-    "disclaimer": "Dit is een door fans gemaakte gids. Digimon is een handelsmerk van Bandai Namco."
+    "description": "Volledige gidsen, evolutiepaden en teambuilding-tools voor Digimon Story: Time Stranger.",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Strategiegids",
+    "guidesTitle": "Gidsen",
+    "toolsTitle": "Gereedschap",
+    "resourcesTitle": "Bronnen",
+    "bestStarters": "Beste Starters",
+    "evolutionGuide": "Evolutiegids",
+    "teamBuilding": "Teambuilding",
+    "fastLeveling": "Snel Levelen",
+    "teamBuilder": "Teambuilder",
+    "evolutionTree": "Evolutieboom",
+    "communityForum": "Gemeenschapsforum",
+    "pcSettings": "PC-instellingen",
+    "updatesPatches": "Updates en Patches",
+    "about": "Over",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfService": "Servicevoorwaarden",
+    "copyright": "© {year} Digimon Time Stranger Gids. Alle rechten voorbehouden.",
+    "disclaimer": "Dit is een onofficiële fansite. Digimon en alle gerelateerde eigenschappen zijn handelsmerken van Bandai Namco Entertainment. We zijn niet gelieerd aan of goedgekeurd door Bandai Namco.",
+    "builtWith": "Gemaakt met ❤️ voor Tamers"
   },
   "seo": {
     "home": {

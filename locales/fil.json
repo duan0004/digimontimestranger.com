@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "Home",
+    "walkthrough": "Walkthrough",
     "digidex": "Digidex",
+    "database": "Database",
     "guides": "Mga Gabay",
     "evolution": "Ebolusyon",
     "bosses": "Mga Boss",
     "walkthroughs": "Mga Walkthrough",
     "tools": "Mga Tool",
     "community": "Komunidad",
-    "about": "Tungkol"
+    "about": "Tungkol",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Kumpletong Gabay sa Estratehiya"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "Ang iyong kumpletong gabay para sa Digimon Story: Time Stranger",
-    "quickLinks": "Mga Mabilis na Link",
-    "resources": "Mga Mapagkukunan",
-    "community": "Komunidad",
-    "legal": "Legal",
-    "copyright": "© 2024 Gabay sa Digimon Story Time Stranger. Lahat ng karapatan ay nakalaan.",
-    "disclaimer": "Ito ay isang gabay na ginawa ng mga tagahanga. Ang Digimon ay trademark ng Bandai Namco."
+    "description": "Kumpletong mga gabay, evolution paths, at mga tool sa pagbuo ng team para sa Digimon Story: Time Stranger.",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Gabay sa Estratehiya",
+    "guidesTitle": "Mga Gabay",
+    "toolsTitle": "Mga Tool",
+    "resourcesTitle": "Mga Mapagkukunan",
+    "bestStarters": "Pinakamahusay na Starters",
+    "evolutionGuide": "Gabay sa Evolution",
+    "teamBuilding": "Pagbuo ng Team",
+    "fastLeveling": "Mabilis na Pag-level",
+    "teamBuilder": "Team Builder",
+    "evolutionTree": "Evolution Tree",
+    "communityForum": "Community Forum",
+    "pcSettings": "Mga Setting ng PC",
+    "updatesPatches": "Mga Update at Patches",
+    "about": "Tungkol",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "termsOfService": "Mga Tuntunin ng Serbisyo",
+    "copyright": "© {year} Gabay sa Digimon Time Stranger. Lahat ng karapatan ay nakalaan.",
+    "disclaimer": "Ito ay isang unofficial fan site. Ang Digimon at lahat ng kaugnay na properties ay mga trademark ng Bandai Namco Entertainment. Hindi kami kaanib o aprubado ng Bandai Namco.",
+    "builtWith": "Ginawa nang may ❤️ para sa mga Tamers"
   },
   "seo": {
     "home": {

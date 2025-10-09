@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "Главная",
+    "walkthrough": "Прохождение",
     "digidex": "Digidex",
+    "database": "База Данных",
     "guides": "Руководства",
     "evolution": "Эволюция",
     "bosses": "Боссы",
     "walkthroughs": "Прохождение",
     "tools": "Инструменты",
     "community": "Сообщество",
-    "about": "О проекте"
+    "about": "О проекте",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Полное Стратегическое Руководство"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "Ваше полное руководство по Digimon Story: Time Stranger",
-    "quickLinks": "Быстрые Ссылки",
-    "resources": "Ресурсы",
-    "community": "Сообщество",
-    "legal": "Правовая Информация",
-    "copyright": "© 2024 Руководство Digimon Story Time Stranger. Все права защищены.",
-    "disclaimer": "Это фанатское руководство. Digimon является торговой маркой Bandai Namco."
+    "description": "Полные руководства, пути эволюции и инструменты формирования команд для Digimon Story: Time Stranger.",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Стратегическое Руководство",
+    "guidesTitle": "Руководства",
+    "toolsTitle": "Инструменты",
+    "resourcesTitle": "Ресурсы",
+    "bestStarters": "Лучшие Стартеры",
+    "evolutionGuide": "Руководство по Эволюции",
+    "teamBuilding": "Формирование Команды",
+    "fastLeveling": "Быстрая Прокачка",
+    "teamBuilder": "Конструктор Команды",
+    "evolutionTree": "Дерево Эволюции",
+    "communityForum": "Форум Сообщества",
+    "pcSettings": "Настройки ПК",
+    "updatesPatches": "Обновления и Патчи",
+    "about": "О Проекте",
+    "privacyPolicy": "Политика Конфиденциальности",
+    "termsOfService": "Условия Использования",
+    "copyright": "© {year} Руководство Digimon Time Stranger. Все права защищены.",
+    "disclaimer": "Это неофициальный фанатский сайт. Digimon и все связанные торговые марки принадлежат Bandai Namco Entertainment. Мы не связаны с Bandai Namco и не одобрены ими.",
+    "builtWith": "Сделано с ❤️ для Укротителей"
   },
   "seo": {
     "home": {

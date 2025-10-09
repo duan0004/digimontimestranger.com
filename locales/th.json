@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "หน้าแรก",
+    "walkthrough": "แนวทาง",
     "digidex": "Digidex",
+    "database": "ฐานข้อมูล",
     "guides": "คู่มือ",
     "evolution": "วิวัฒนาการ",
     "bosses": "บอส",
     "walkthroughs": "แนวทาง",
     "tools": "เครื่องมือ",
     "community": "ชุมชน",
-    "about": "เกี่ยวกับ"
+    "about": "เกี่ยวกับ",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "คู่มือกลยุทธ์ฉบับสมบูรณ์"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "คู่มือฉบับสมบูรณ์สำหรับ Digimon Story: Time Stranger",
-    "quickLinks": "ลิงก์ด่วน",
-    "resources": "ทรัพยากร",
-    "community": "ชุมชน",
-    "legal": "กฎหมาย",
-    "copyright": "© 2024 คู่มือ Digimon Story Time Stranger สงวนลิขสิทธิ์",
-    "disclaimer": "นี่เป็นคู่มือที่สร้างโดยแฟน Digimon เป็นเครื่องหมายการค้าของ Bandai Namco"
+    "description": "คู่มือฉบับสมบูรณ์ เส้นทางวิวัฒนาการ และเครื่องมือสร้างทีมสำหรับ Digimon Story: Time Stranger",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "คู่มือกลยุทธ์",
+    "guidesTitle": "คู่มือ",
+    "toolsTitle": "เครื่องมือ",
+    "resourcesTitle": "ทรัพยากร",
+    "bestStarters": "ตัวเริ่มต้นที่ดีที่สุด",
+    "evolutionGuide": "คู่มือวิวัฒนาการ",
+    "teamBuilding": "การสร้างทีม",
+    "fastLeveling": "การเพิ่มเลเวลอย่างรวดเร็ว",
+    "teamBuilder": "ตัวสร้างทีม",
+    "evolutionTree": "ต้นไม้วิวัฒนาการ",
+    "communityForum": "ฟอรั่มชุมชน",
+    "pcSettings": "การตั้งค่า PC",
+    "updatesPatches": "อัปเดตและแพตช์",
+    "about": "เกี่ยวกับ",
+    "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+    "termsOfService": "ข้อกำหนดการให้บริการ",
+    "copyright": "© {year} คู่มือ Digimon Time Stranger สงวนลิขสิทธิ์",
+    "disclaimer": "นี่เป็นเว็บไซต์แฟนที่ไม่เป็นทางการ Digimon และทรัพย์สินที่เกี่ยวข้องทั้งหมดเป็นเครื่องหมายการค้าของ Bandai Namco Entertainment เราไม่มีความเกี่ยวข้องหรือได้รับการรับรองจาก Bandai Namco",
+    "builtWith": "สร้างด้วย ❤️ สำหรับ Tamers"
   },
   "seo": {
     "home": {

@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "Laman Utama",
+    "walkthrough": "Walkthrough",
     "digidex": "Digidex",
+    "database": "Pangkalan Data",
     "guides": "Panduan",
     "evolution": "Evolusi",
     "bosses": "Bos",
     "walkthroughs": "Walkthrough",
     "tools": "Alatan",
     "community": "Komuniti",
-    "about": "Tentang"
+    "about": "Tentang",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Panduan Strategi Lengkap"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "Panduan lengkap anda untuk Digimon Story: Time Stranger",
-    "quickLinks": "Pautan Pantas",
-    "resources": "Sumber",
-    "community": "Komuniti",
-    "legal": "Undang-undang",
-    "copyright": "© 2024 Panduan Digimon Story Time Stranger. Hak cipta terpelihara.",
-    "disclaimer": "Ini adalah panduan buatan peminat. Digimon adalah tanda dagangan Bandai Namco."
+    "description": "Panduan lengkap, laluan evolusi dan alat pembinaan pasukan untuk Digimon Story: Time Stranger.",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Panduan Strategi",
+    "guidesTitle": "Panduan",
+    "toolsTitle": "Alatan",
+    "resourcesTitle": "Sumber",
+    "bestStarters": "Starter Terbaik",
+    "evolutionGuide": "Panduan Evolusi",
+    "teamBuilding": "Pembinaan Pasukan",
+    "fastLeveling": "Peningkatan Tahap Pantas",
+    "teamBuilder": "Pembina Pasukan",
+    "evolutionTree": "Pokok Evolusi",
+    "communityForum": "Forum Komuniti",
+    "pcSettings": "Tetapan PC",
+    "updatesPatches": "Kemas Kini & Patch",
+    "about": "Tentang",
+    "privacyPolicy": "Dasar Privasi",
+    "termsOfService": "Terma Perkhidmatan",
+    "copyright": "© {year} Panduan Digimon Time Stranger. Hak cipta terpelihara.",
+    "disclaimer": "Ini adalah laman web peminat tidak rasmi. Digimon dan semua harta berkaitan adalah tanda dagangan Bandai Namco Entertainment. Kami tidak bersekutu atau disahkan oleh Bandai Namco.",
+    "builtWith": "Dibina dengan ❤️ untuk Tamer"
   },
   "seo": {
     "home": {

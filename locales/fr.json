@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "Accueil",
+    "walkthrough": "Solution",
     "digidex": "Digidex",
+    "database": "Base de Données",
     "guides": "Guides",
     "evolution": "Évolution",
     "bosses": "Boss",
     "walkthroughs": "Solutions",
     "tools": "Outils",
     "community": "Communauté",
-    "about": "À propos"
+    "about": "À propos",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Guide Stratégique Complet"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "Votre guide complet pour Digimon Story: Time Stranger",
-    "quickLinks": "Liens Rapides",
-    "resources": "Ressources",
-    "community": "Communauté",
-    "legal": "Légal",
-    "copyright": "© 2024 Guide Digimon Story Time Stranger. Tous droits réservés.",
-    "disclaimer": "Ceci est un guide créé par des fans. Digimon est une marque de Bandai Namco."
+    "description": "Guides complets, chemins d'évolution et outils de formation d'équipe pour Digimon Story: Time Stranger.",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Guide Stratégique",
+    "guidesTitle": "Guides",
+    "toolsTitle": "Outils",
+    "resourcesTitle": "Ressources",
+    "bestStarters": "Meilleurs Débutants",
+    "evolutionGuide": "Guide d'Évolution",
+    "teamBuilding": "Formation d'Équipe",
+    "fastLeveling": "Montée de Niveau Rapide",
+    "teamBuilder": "Créateur d'Équipe",
+    "evolutionTree": "Arbre d'Évolution",
+    "communityForum": "Forum Communautaire",
+    "pcSettings": "Paramètres PC",
+    "updatesPatches": "Mises à Jour et Correctifs",
+    "about": "À Propos",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation",
+    "copyright": "© {year} Guide Digimon Time Stranger. Tous droits réservés.",
+    "disclaimer": "Ceci est un site de fans non officiel. Digimon et toutes les propriétés associées sont des marques de Bandai Namco Entertainment. Nous ne sommes pas affiliés ou approuvés par Bandai Namco.",
+    "builtWith": "Fait avec ❤️ pour les Dompteurs"
   },
   "seo": {
     "home": {

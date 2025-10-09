@@ -5,25 +5,28 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { Menu, X, Search } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import GlobalSearch from '@/components/search/GlobalSearch';
 import LanguageSwitcher from './LanguageSwitcher';
 import type { Locale } from '@/i18n';
-
-const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Walkthrough', href: '/walkthrough' },
-  { name: 'Digidex', href: '/digidex' },
-  { name: 'Database', href: '/database' },
-  { name: 'Guides', href: '/guides' },
-  { name: 'Tools', href: '/tools/team-builder' },
-  { name: 'Community', href: '/community' },
-];
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const params = useParams();
   const locale = (params.locale as Locale) || 'en';
+  const t = useTranslations('nav');
+  const tCommon = useTranslations('common');
+
+  const navigation = [
+    { name: t('home'), href: '/' },
+    { name: t('walkthrough'), href: '/walkthrough' },
+    { name: t('digidex'), href: '/digidex' },
+    { name: t('database'), href: '/database' },
+    { name: t('guides'), href: '/guides' },
+    { name: t('tools'), href: '/tools/team-builder' },
+    { name: t('community'), href: '/community' },
+  ];
 
   // Helper to create locale-aware links
   const getLocalizedHref = (href: string) => {
@@ -62,10 +65,10 @@ export default function Header() {
               </div>
               <div className="hidden sm:block">
                 <div className="text-lg font-bold gradient-text">
-                  Digimon Time Stranger
+                  {t('siteTitle')}
                 </div>
                 <div className="text-xs text-gray-500 dark:text-gray-400">
-                  Complete Strategy Guide
+                  {t('siteSubtitle')}
                 </div>
               </div>
             </Link>
@@ -95,7 +98,7 @@ export default function Header() {
               className="hidden md:flex items-center gap-2 px-3 py-2 text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md transition-colors"
             >
               <Search className="w-4 h-4" />
-              <span>Search</span>
+              <span>{tCommon('search')}</span>
               <kbd className="hidden lg:inline-flex items-center gap-1 px-2 py-1 text-xs bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-600 rounded">
                 <span className="text-xs">⌘</span>K
               </kbd>

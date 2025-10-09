@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "Startseite",
+    "walkthrough": "Komplettlösung",
     "digidex": "Digidex",
+    "database": "Datenbank",
     "guides": "Anleitungen",
     "evolution": "Evolution",
     "bosses": "Bosse",
     "walkthroughs": "Komplettlösungen",
     "tools": "Werkzeuge",
     "community": "Community",
-    "about": "Über"
+    "about": "Über",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Vollständiger Strategieleitfaden"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "Dein vollständiger Leitfaden für Digimon Story: Time Stranger",
-    "quickLinks": "Schnelllinks",
-    "resources": "Ressourcen",
-    "community": "Community",
-    "legal": "Rechtliches",
-    "copyright": "© 2024 Digimon Story Time Stranger Leitfaden. Alle Rechte vorbehalten.",
-    "disclaimer": "Dies ist ein von Fans erstellter Leitfaden. Digimon ist eine Marke von Bandai Namco."
+    "description": "Vollständige Anleitungen, Evolutionswege und Teambuilding-Tools für Digimon Story: Time Stranger.",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Strategieleitfaden",
+    "guidesTitle": "Anleitungen",
+    "toolsTitle": "Werkzeuge",
+    "resourcesTitle": "Ressourcen",
+    "bestStarters": "Beste Starter",
+    "evolutionGuide": "Evolutionsanleitung",
+    "teamBuilding": "Teambuilding",
+    "fastLeveling": "Schnelles Leveln",
+    "teamBuilder": "Team-Builder",
+    "evolutionTree": "Evolutionsbaum",
+    "communityForum": "Community-Forum",
+    "pcSettings": "PC-Einstellungen",
+    "updatesPatches": "Updates & Patches",
+    "about": "Über",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "copyright": "© {year} Digimon Time Stranger Leitfaden. Alle Rechte vorbehalten.",
+    "disclaimer": "Dies ist eine inoffizielle Fan-Seite. Digimon und alle verwandten Marken sind Warenzeichen von Bandai Namco Entertainment. Wir sind nicht mit Bandai Namco verbunden oder von ihnen unterstützt.",
+    "builtWith": "Mit ❤️ für Tamer erstellt"
   },
   "seo": {
     "home": {

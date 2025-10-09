@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "Inicio",
+    "walkthrough": "Tutorial",
     "digidex": "Digidex",
+    "database": "Base de Datos",
     "guides": "Guías",
     "evolution": "Evolución",
     "bosses": "Jefes",
     "walkthroughs": "Tutoriales",
     "tools": "Herramientas",
     "community": "Comunidad",
-    "about": "Acerca de"
+    "about": "Acerca de",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Guía Completa de Estrategia"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "Tu guía completa para Digimon Story: Time Stranger",
-    "quickLinks": "Enlaces Rápidos",
-    "resources": "Recursos",
-    "community": "Comunidad",
-    "legal": "Legal",
-    "copyright": "© 2024 Guía de Digimon Story Time Stranger. Todos los derechos reservados.",
-    "disclaimer": "Esta es una guía hecha por fans. Digimon es una marca comercial de Bandai Namco."
+    "description": "Guías completas, rutas de evolución y herramientas de formación de equipos para Digimon Story: Time Stranger.",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Guía de Estrategia",
+    "guidesTitle": "Guías",
+    "toolsTitle": "Herramientas",
+    "resourcesTitle": "Recursos",
+    "bestStarters": "Mejores Iniciales",
+    "evolutionGuide": "Guía de Evolución",
+    "teamBuilding": "Formación de Equipos",
+    "fastLeveling": "Subida Rápida de Nivel",
+    "teamBuilder": "Constructor de Equipos",
+    "evolutionTree": "Árbol de Evolución",
+    "communityForum": "Foro de la Comunidad",
+    "pcSettings": "Configuración de PC",
+    "updatesPatches": "Actualizaciones y Parches",
+    "about": "Acerca de",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "copyright": "© {year} Guía de Digimon Time Stranger. Todos los derechos reservados.",
+    "disclaimer": "Este es un sitio de fans no oficial. Digimon y todas las propiedades relacionadas son marcas comerciales de Bandai Namco Entertainment. No estamos afiliados ni respaldados por Bandai Namco.",
+    "builtWith": "Hecho con ❤️ para Tamers"
   },
   "seo": {
     "home": {

@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "Home",
+    "walkthrough": "Soluzione",
     "digidex": "Digidex",
+    "database": "Database",
     "guides": "Guide",
     "evolution": "Evoluzione",
     "bosses": "Boss",
     "walkthroughs": "Soluzioni",
     "tools": "Strumenti",
     "community": "Comunità",
-    "about": "Info"
+    "about": "Info",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Guida Strategica Completa"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "La tua guida completa per Digimon Story: Time Stranger",
-    "quickLinks": "Link Rapidi",
-    "resources": "Risorse",
-    "community": "Comunità",
-    "legal": "Legale",
-    "copyright": "© 2024 Guida Digimon Story Time Stranger. Tutti i diritti riservati.",
-    "disclaimer": "Questa è una guida creata dai fan. Digimon è un marchio di Bandai Namco."
+    "description": "Guide complete, percorsi evolutivi e strumenti di formazione squadra per Digimon Story: Time Stranger.",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Guida Strategica",
+    "guidesTitle": "Guide",
+    "toolsTitle": "Strumenti",
+    "resourcesTitle": "Risorse",
+    "bestStarters": "Migliori Starter",
+    "evolutionGuide": "Guida all'Evoluzione",
+    "teamBuilding": "Formazione Squadra",
+    "fastLeveling": "Livellamento Rapido",
+    "teamBuilder": "Costruttore Squadra",
+    "evolutionTree": "Albero Evolutivo",
+    "communityForum": "Forum della Comunità",
+    "pcSettings": "Impostazioni PC",
+    "updatesPatches": "Aggiornamenti e Patch",
+    "about": "Info",
+    "privacyPolicy": "Politica sulla Privacy",
+    "termsOfService": "Termini di Servizio",
+    "copyright": "© {year} Guida Digimon Time Stranger. Tutti i diritti riservati.",
+    "disclaimer": "Questo è un sito fan non ufficiale. Digimon e tutte le proprietà correlate sono marchi di Bandai Namco Entertainment. Non siamo affiliati né approvati da Bandai Namco.",
+    "builtWith": "Realizzato con ❤️ per i Domatori"
   },
   "seo": {
     "home": {

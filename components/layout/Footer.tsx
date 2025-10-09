@@ -1,32 +1,44 @@
-import Link from 'next/link';
+'use client';
 
-const footerLinks = {
-  guides: [
-    { name: 'Best Starters', href: '/guides/best-starters' },
-    { name: 'Evolution Guide', href: '/guides/evolution-guide' },
-    { name: 'Team Building', href: '/guides/team-building' },
-    { name: 'Fast Leveling', href: '/guides/fast-leveling' },
-  ],
-  tools: [
-    { name: 'Team Builder', href: '/tools/team-builder' },
-    { name: 'Evolution Tree', href: '/evolution' },
-    { name: 'Digidex', href: '/digidex' },
-    { name: 'Database', href: '/database' },
-  ],
-  resources: [
-    { name: 'Community Forum', href: '/community' },
-    { name: 'PC Settings', href: '/pc/steam-deck' },
-    { name: 'Updates & Patches', href: '/updates' },
-    { name: 'About', href: '/about' },
-  ],
-  legal: [
-    { name: 'Privacy Policy', href: '/privacy' },
-    { name: 'Terms of Service', href: '/terms' },
-  ],
-};
+import Link from 'next/link';
+import { useParams } from 'next/navigation';
+import { useTranslations } from 'next-intl';
+import type { Locale } from '@/i18n';
 
 export default function Footer() {
+  const params = useParams();
+  const locale = (params.locale as Locale) || 'en';
+  const t = useTranslations('footer');
   const currentYear = new Date().getFullYear();
+
+  const getLocalizedHref = (href: string) => {
+    return `/${locale}${href}`;
+  };
+
+  const footerLinks = {
+    guides: [
+      { name: t('bestStarters'), href: '/guides/best-starters' },
+      { name: t('evolutionGuide'), href: '/guides/evolution-guide' },
+      { name: t('teamBuilding'), href: '/guides/team-building' },
+      { name: t('fastLeveling'), href: '/guides/fast-leveling' },
+    ],
+    tools: [
+      { name: t('teamBuilder'), href: '/tools/team-builder' },
+      { name: t('evolutionTree'), href: '/evolution' },
+      { name: 'Digidex', href: '/digidex' },
+      { name: 'Database', href: '/database' },
+    ],
+    resources: [
+      { name: t('communityForum'), href: '/community' },
+      { name: t('pcSettings'), href: '/pc/steam-deck' },
+      { name: t('updatesPatches'), href: '/updates' },
+      { name: t('about'), href: '/about' },
+    ],
+    legal: [
+      { name: t('privacyPolicy'), href: '/privacy' },
+      { name: t('termsOfService'), href: '/terms' },
+    ],
+  };
 
   return (
     <footer className="bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 no-print">
@@ -40,28 +52,28 @@ export default function Footer() {
               </div>
               <div>
                 <div className="text-sm font-bold gradient-text">
-                  Digimon Time Stranger
+                  {t('siteTitle')}
                 </div>
                 <div className="text-xs text-gray-500 dark:text-gray-400">
-                  Strategy Guide
+                  {t('siteSubtitle')}
                 </div>
               </div>
             </div>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Complete guides, evolution paths, and team building tools for Digimon Story: Time Stranger.
+              {t('description')}
             </p>
           </div>
 
           {/* Guides */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 dark:text-gray-100 mb-3">
-              Guides
+              {t('guidesTitle')}
             </h3>
             <ul className="space-y-2">
               {footerLinks.guides.map((link) => (
                 <li key={link.name}>
                   <Link
-                    href={link.href}
+                    href={getLocalizedHref(link.href)}
                     className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                   >
                     {link.name}
@@ -74,13 +86,13 @@ export default function Footer() {
           {/* Tools */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 dark:text-gray-100 mb-3">
-              Tools
+              {t('toolsTitle')}
             </h3>
             <ul className="space-y-2">
               {footerLinks.tools.map((link) => (
                 <li key={link.name}>
                   <Link
-                    href={link.href}
+                    href={getLocalizedHref(link.href)}
                     className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                   >
                     {link.name}
@@ -93,13 +105,13 @@ export default function Footer() {
           {/* Resources */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 dark:text-gray-100 mb-3">
-              Resources
+              {t('resourcesTitle')}
             </h3>
             <ul className="space-y-2">
               {footerLinks.resources.map((link) => (
                 <li key={link.name}>
                   <Link
-                    href={link.href}
+                    href={getLocalizedHref(link.href)}
                     className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                   >
                     {link.name}
@@ -115,18 +127,16 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div className="text-sm text-gray-600 dark:text-gray-400">
               <p className="mb-1">
-                © {currentYear} Digimon Time Stranger Guide. All rights reserved.
+                {t('copyright', { year: currentYear })}
               </p>
               <p className="text-xs mb-2">
-                <strong>Disclaimer:</strong> This is an unofficial fan site. Digimon and all related
-                properties are trademarks of Bandai Namco Entertainment. We are not affiliated with or
-                endorsed by Bandai Namco.
+                <strong>Disclaimer:</strong> {t('disclaimer')}
               </p>
               <div className="flex flex-wrap gap-3 text-xs">
                 {footerLinks.legal.map((link) => (
                   <Link
                     key={link.name}
-                    href={link.href}
+                    href={getLocalizedHref(link.href)}
                     className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors underline"
                   >
                     {link.name}
@@ -135,7 +145,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex items-center space-x-4 text-sm text-gray-600 dark:text-gray-400">
-              <span>Built with ❤️ for Tamers</span>
+              <span>{t('builtWith')}</span>
             </div>
           </div>
         </div>

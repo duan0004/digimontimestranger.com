@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "홈",
+    "walkthrough": "공략",
     "digidex": "디지몬 도감",
+    "database": "데이터베이스",
     "guides": "가이드",
     "evolution": "진화",
     "bosses": "보스전",
     "walkthroughs": "공략",
     "tools": "도구",
     "community": "커뮤니티",
-    "about": "정보"
+    "about": "정보",
+    "siteTitle": "디지몬 타임 스트레인저",
+    "siteSubtitle": "완벽한 공략 가이드"
   },
   "home": {
     "title": "디지몬 스토리: 타임 스트레인저",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "디지몬 스토리: 타임 스트레인저의 완벽한 가이드",
-    "quickLinks": "빠른 링크",
-    "resources": "리소스",
-    "community": "커뮤니티",
-    "legal": "법률",
-    "copyright": "© 2024 디지몬 스토리 타임 스트레인저 가이드. 모든 권리 보유.",
-    "disclaimer": "이것은 팬이 만든 가이드입니다. 디지몬은 반다이 남코의 상표입니다."
+    "description": "디지몬 스토리: 타임 스트레인저의 완벽한 가이드, 진화 경로, 팀 빌딩 도구.",
+    "siteTitle": "디지몬 타임 스트레인저",
+    "siteSubtitle": "공략 가이드",
+    "guidesTitle": "가이드",
+    "toolsTitle": "도구",
+    "resourcesTitle": "리소스",
+    "bestStarters": "최고의 스타터",
+    "evolutionGuide": "진화 가이드",
+    "teamBuilding": "팀 빌딩",
+    "fastLeveling": "빠른 레벨링",
+    "teamBuilder": "팀 빌더",
+    "evolutionTree": "진화 트리",
+    "communityForum": "커뮤니티 포럼",
+    "pcSettings": "PC 설정",
+    "updatesPatches": "업데이트 및 패치",
+    "about": "정보",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "이용약관",
+    "copyright": "© {year} 디지몬 타임 스트레인저 가이드. 모든 권리 보유.",
+    "disclaimer": "이것은 비공식 팬 사이트입니다. 디지몬 및 모든 관련 상표는 반다이 남코 엔터테인먼트의 상표입니다. 우리는 반다이 남코와 제휴하거나 승인을 받지 않았습니다.",
+    "builtWith": "테이머를 위해 ❤️로 제작"
   },
   "seo": {
     "home": {

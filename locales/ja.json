@@ -11,14 +11,18 @@
   },
   "nav": {
     "home": "ホーム",
+    "walkthrough": "攻略チャート",
     "digidex": "デジモン図鑑",
+    "database": "データベース",
     "guides": "ガイド",
     "evolution": "進化",
     "bosses": "ボス戦",
     "walkthroughs": "攻略チャート",
     "tools": "ツール",
     "community": "コミュニティ",
-    "about": "について"
+    "about": "について",
+    "siteTitle": "デジモンタイムストレンジャー",
+    "siteSubtitle": "完全攻略ガイド"
   },
   "home": {
     "title": "デジモンストーリー：タイムストレンジャー",
@@ -163,13 +167,27 @@
     }
   },
   "footer": {
-    "description": "デジモンストーリー：タイムストレンジャーの完全ガイド",
-    "quickLinks": "クイックリンク",
-    "resources": "リソース",
-    "community": "コミュニティ",
-    "legal": "法的情報",
-    "copyright": "© 2024 デジモンストーリータイムストレンジャーガイド。全著作権所有。",
-    "disclaimer": "これはファン制作のガイドです。デジモンはバンダイナムコの商標です。"
+    "description": "デジモンストーリー：タイムストレンジャーの完全ガイド、進化ルート、チーム構築ツール。",
+    "siteTitle": "デジモンタイムストレンジャー",
+    "siteSubtitle": "攻略ガイド",
+    "guidesTitle": "ガイド",
+    "toolsTitle": "ツール",
+    "resourcesTitle": "リソース",
+    "bestStarters": "最強スターター",
+    "evolutionGuide": "進化ガイド",
+    "teamBuilding": "チーム編成",
+    "fastLeveling": "効率的レベリング",
+    "teamBuilder": "チームビルダー",
+    "evolutionTree": "進化ツリー",
+    "communityForum": "コミュニティフォーラム",
+    "pcSettings": "PC設定",
+    "updatesPatches": "アップデート＆パッチ",
+    "about": "について",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "copyright": "© {year} デジモンタイムストレンジャーガイド。全著作権所有。",
+    "disclaimer": "これは非公式のファンサイトです。デジモンおよび関連するすべての商標はバンダイナムコエンターテインメントの商標です。私たちはバンダイナムコとは提携または承認されていません。",
+    "builtWith": "テイマーのために❤️を込めて作成"
   },
   "seo": {
     "home": {
