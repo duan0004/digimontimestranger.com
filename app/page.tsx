@@ -210,6 +210,190 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Video Guides Section */}
+      <section className="bg-white dark:bg-gray-900 py-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+              Video Guides & Tutorials
+            </h2>
+            <p className="text-lg text-gray-600 dark:text-gray-400">
+              Watch comprehensive gameplay guides and tutorials
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Video 1 */}
+            <div className="card overflow-hidden group">
+              <div className="relative aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/2oQb1vYe1uQ"
+                  title="Digimon Time Stranger Guide 1"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Video 2 */}
+            <div className="card overflow-hidden group">
+              <div className="relative aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/kxQBQJmX_MU"
+                  title="Digimon Time Stranger Guide 2"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Video 3 */}
+            <div className="card overflow-hidden group">
+              <div className="relative aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/uaLHMFZdCuE"
+                  title="Digimon Time Stranger Guide 3"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Video 4 */}
+            <div className="card overflow-hidden group">
+              <div className="relative aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/ILR81Az7MoQ"
+                  title="Digimon Time Stranger Guide 4"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Video 5 */}
+            <div className="card overflow-hidden group">
+              <div className="relative aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/cPBLhpfaklc"
+                  title="Digimon Time Stranger Guide 5"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Video 6 */}
+            <div className="card overflow-hidden group">
+              <div className="relative aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/bFEu9XOLmg0"
+                  title="Digimon Time Stranger Guide 6"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Video 7 */}
+            <div className="card overflow-hidden group">
+              <div className="relative aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/JUuTkI1V774"
+                  title="Digimon Time Stranger Guide 7"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Video 8 */}
+            <div className="card overflow-hidden group">
+              <div className="relative aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/f55FFqi09vY"
+                  title="Digimon Time Stranger Guide 8"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Video 9 */}
+            <div className="card overflow-hidden group">
+              <div className="relative aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/13m4Ylsv6A4"
+                  title="Digimon Time Stranger Guide 9"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Video 10 */}
+            <div className="card overflow-hidden group">
+              <div className="relative aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/ICCFACvxF84"
+                  title="Digimon Time Stranger Guide 10"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Video 11 */}
+            <div className="card overflow-hidden group">
+              <div className="relative aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/JRCH0qPHYzo"
+                  title="Digimon Time Stranger Guide 11"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Video 12 */}
+            <div className="card overflow-hidden group">
+              <div className="relative aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/HRkN-3QM9Gk"
+                  title="Digimon Time Stranger Guide 12"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Community Section */}
       <section className="py-16 bg-gray-50 dark:bg-gray-900">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
