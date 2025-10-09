@@ -3,6 +3,7 @@ import { generateMetadata as genMeta } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import GiscusComments from '@/components/community/GiscusComments';
+import { getTranslations } from 'next-intl/server';
 import {
   MessageSquare,
   Users,
@@ -112,9 +113,10 @@ const categories: Record<string, CategoryInfo> = {
 };
 
 interface PageProps {
-  params: {
+  params: Promise<{
+    locale: string;
     category: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -124,26 +126,33 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const category = categories[params.category];
+  const { locale, category: categoryId } = await params;
+  const t = await getTranslations({ locale, namespace: 'community' });
+  const category = categories[categoryId];
 
   if (!category) {
     return genMeta({
       title: 'Category Not Found',
       description: 'This category does not exist.',
-      url: `/community/${params.category}`,
+      url: `/community/${categoryId}`,
     });
   }
 
+  const categoryName = t(`categories.${categoryId}.name`);
+  const categoryDescription = t(`categories.${categoryId}.description`);
+
   return genMeta({
-    title: `${category.name} - Community Forum`,
-    description: category.description,
+    title: `${categoryName} - ${t('title')}`,
+    description: categoryDescription,
     keywords: ['community', 'forum', 'discussion', category.id],
-    url: `/community/${params.category}`,
+    url: `/community/${categoryId}`,
   });
 }
 
-export default function CategoryPage({ params }: PageProps) {
-  const category = categories[params.category];
+export default async function CategoryPage({ params }: PageProps) {
+  const { locale, category: categoryId } = await params;
+  const t = await getTranslations({ locale, namespace: 'community' });
+  const category = categories[categoryId];
 
   if (!category) {
     notFound();
@@ -162,17 +171,22 @@ export default function CategoryPage({ params }: PageProps) {
 
   const colors = colorClasses[category.color];
 
+  // Get translated category information
+  const categoryName = t(`categories.${categoryId}.name`);
+  const categoryDescription = t(`categories.${categoryId}.description`);
+  const guidelines = t.raw(`categories.${categoryId}.guidelines`) as string[];
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <Link
-            href="/community"
+            href={`/${locale}/community`}
             className="inline-flex items-center gap-2 text-blue-100 hover:text-white mb-4 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Community
+            {t('backToCommunity')}
           </Link>
           <div className="flex items-center gap-4">
             <div className={`flex items-center justify-center w-16 h-16 rounded-xl ${colors.bg}`}>
@@ -180,10 +194,10 @@ export default function CategoryPage({ params }: PageProps) {
             </div>
             <div>
               <h1 className="text-3xl md:text-4xl font-bold mb-2">
-                {category.name}
+                {categoryName}
               </h1>
               <p className="text-lg text-blue-100">
-                {category.description}
+                {categoryDescription}
               </p>
             </div>
           </div>
@@ -195,10 +209,10 @@ export default function CategoryPage({ params }: PageProps) {
         {/* Guidelines Card */}
         <div className="card p-6 mb-8">
           <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-3">
-            Category Guidelines
+            {t('categoryGuidelines')}
           </h2>
           <ul className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
-            {category.guidelines.map((guideline, index) => (
+            {guidelines.map((guideline, index) => (
               <li key={index} className="flex items-start gap-2">
                 <span className="text-primary-600 dark:text-primary-400 mt-1">•</span>
                 <span>{guideline}</span>
@@ -213,8 +227,7 @@ export default function CategoryPage({ params }: PageProps) {
             <ExternalLink className="w-5 h-5 text-blue-600 dark:text-blue-400 mt-0.5 flex-shrink-0" />
             <div className="text-sm text-gray-700 dark:text-gray-300">
               <p className="mb-2">
-                <strong>Sign in with GitHub</strong> to start a new discussion or reply to existing ones.
-                Click the button below to open the discussion in GitHub.
+                <strong>{t('signInTitle')}</strong> {t('signInInfo')}
               </p>
               <a
                 href={`https://github.com/duan0004/digimontimestranger.com/discussions/categories/${category.id}`}
@@ -222,7 +235,7 @@ export default function CategoryPage({ params }: PageProps) {
                 rel="noopener noreferrer"
                 className="text-primary-600 dark:text-primary-400 hover:underline font-medium"
               >
-                View on GitHub →
+                {t('viewOnGithub')}
               </a>
             </div>
           </div>
@@ -231,10 +244,10 @@ export default function CategoryPage({ params }: PageProps) {
         {/* Discussions */}
         <div className="card p-6">
           <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-6">
-            Discussions
+            {t('discussions')}
           </h2>
           <GiscusComments
-            category={category.name}
+            category={categoryName}
             categoryId={category.categoryId}
             mapping="pathname"
             reactionsEnabled={true}

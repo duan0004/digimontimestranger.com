@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { ChevronDown, Search, HelpCircle, Zap, Users, Trophy, Settings, Book } from 'lucide-react';
 import Link from 'next/link';
 
@@ -10,13 +11,25 @@ interface FAQItem {
   category: string;
 }
 
+const getCategoryName = (t: ReturnType<typeof useTranslations>, id: string) => {
+  switch (id) {
+    case 'all': return t('categories.all');
+    case 'getting-started': return t('categories.gettingStarted');
+    case 'gameplay': return t('categories.gameplay');
+    case 'evolution': return t('categories.evolution');
+    case 'endgame': return t('categories.endgame');
+    case 'technical': return t('categories.technical');
+    default: return id;
+  }
+};
+
 const categories = [
-  { id: 'all', name: 'All Questions', icon: HelpCircle },
-  { id: 'getting-started', name: 'Getting Started', icon: Book },
-  { id: 'gameplay', name: 'Gameplay', icon: Zap },
-  { id: 'evolution', name: 'Evolution', icon: Users },
-  { id: 'endgame', name: 'Endgame', icon: Trophy },
-  { id: 'technical', name: 'Technical', icon: Settings },
+  { id: 'all', icon: HelpCircle },
+  { id: 'getting-started', icon: Book },
+  { id: 'gameplay', icon: Zap },
+  { id: 'evolution', icon: Users },
+  { id: 'endgame', icon: Trophy },
+  { id: 'technical', icon: Settings },
 ];
 
 const faqs: FAQItem[] = [
@@ -214,6 +227,7 @@ const faqs: FAQItem[] = [
 ];
 
 export default function FAQPage() {
+  const t = useTranslations('faq');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -233,26 +247,26 @@ export default function FAQPage() {
           <div className="flex items-center gap-3 mb-4">
             <HelpCircle className="w-12 h-12" />
             <div>
-              <h1 className="text-4xl font-bold">Frequently Asked Questions</h1>
-              <p className="text-indigo-100 mt-2">Find answers to common questions about Digimon Time Stranger</p>
+              <h1 className="text-4xl font-bold">{t('header.title')}</h1>
+              <p className="text-indigo-100 mt-2">{t('header.subtitle')}</p>
             </div>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="text-3xl font-bold mb-1">{faqs.length}</div>
-              <div className="text-sm text-indigo-100">Questions</div>
+              <div className="text-sm text-indigo-100">{t('stats.questions')}</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="text-3xl font-bold mb-1">{categories.length - 1}</div>
-              <div className="text-sm text-indigo-100">Categories</div>
+              <div className="text-sm text-indigo-100">{t('stats.categories')}</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="text-3xl font-bold mb-1">24/7</div>
-              <div className="text-sm text-indigo-100">Available</div>
+              <div className="text-sm text-indigo-100">{t('stats.available')}</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="text-3xl font-bold mb-1">100%</div>
-              <div className="text-sm text-indigo-100">Accurate</div>
+              <div className="text-sm text-indigo-100">{t('stats.accurate')}</div>
             </div>
           </div>
         </div>
@@ -263,7 +277,7 @@ export default function FAQPage() {
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
             <input
               type="text"
-              placeholder="Search questions..."
+              placeholder={t('search.placeholder')}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-12 pr-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 text-gray-900 dark:text-white"
@@ -273,7 +287,7 @@ export default function FAQPage() {
 
         {/* Category Filter */}
         <div className="card p-6 mb-8">
-          <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Filter by Category</h2>
+          <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-4">{t('filterTitle')}</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
             {categories.map((category) => {
               const Icon = category.icon;
@@ -289,7 +303,7 @@ export default function FAQPage() {
                   }`}
                 >
                   <Icon className="w-6 h-6" />
-                  <span className="text-xs font-medium text-center">{category.name}</span>
+                  <span className="text-xs font-medium text-center">{getCategoryName(t, category.id)}</span>
                   <span className="text-xs opacity-75">
                     {category.id === 'all' ? faqs.length : faqs.filter(f => f.category === category.id).length}
                   </span>
@@ -304,8 +318,8 @@ export default function FAQPage() {
           {filteredFAQs.length === 0 ? (
             <div className="card p-12 text-center">
               <Search className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">No questions found</h3>
-              <p className="text-gray-600 dark:text-gray-400">Try adjusting your search or category filter</p>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('search.noResults')}</h3>
+              <p className="text-gray-600 dark:text-gray-400">{t('search.tryAdjusting')}</p>
             </div>
           ) : (
             filteredFAQs.map((faq, index) => {
@@ -354,17 +368,17 @@ export default function FAQPage() {
         {/* Still Have Questions */}
         <div className="card p-8 mt-8 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 border-2 border-blue-200 dark:border-blue-800 text-center">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-            Still Have Questions?
+            {t('cta.title')}
           </h2>
           <p className="text-gray-700 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-            Can't find what you're looking for? Join our community forum to ask questions and get help from experienced players.
+            {t('cta.description')}
           </p>
           <Link
             href="/community"
             className="inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors shadow-lg"
           >
             <Users className="w-5 h-5" />
-            Visit Community Forum
+            {t('cta.button')}
           </Link>
         </div>
       </div>

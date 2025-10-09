@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Search, Loader2, ArrowRight, Filter } from 'lucide-react';
 import Fuse from 'fuse.js';
 import type { SearchItem } from '@/lib/search-data';
+import { useTranslations } from 'next-intl';
 
 const categoryColors = {
   digimon: 'bg-blue-500',
@@ -25,7 +26,13 @@ const categoryLabels = {
   boss: 'Boss',
 };
 
-function SearchResultsContent() {
+type SearchResultsContentProps = {
+  locale: string;
+};
+
+function SearchResultsContent({ locale }: SearchResultsContentProps) {
+  const t = useTranslations('search');
+  const tCommon = useTranslations('common');
   const searchParams = useSearchParams();
   const router = useRouter();
   const [query, setQuery] = useState(searchParams.get('q') || '');
@@ -86,7 +93,7 @@ function SearchResultsContent() {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    router.push(`/search?q=${encodeURIComponent(query)}`);
+    router.push(`/${locale}/search?q=${encodeURIComponent(query)}`);
   };
 
   const categories = [
@@ -105,7 +112,7 @@ function SearchResultsContent() {
         {/* Search Header */}
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">
-            Search
+            {t('title')}
           </h1>
 
           {/* Search Input */}
@@ -116,7 +123,7 @@ function SearchResultsContent() {
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Search Digimon, guides, tools, and more..."
+                placeholder={t('description')}
                 className="w-full pl-12 pr-4 py-4 text-lg bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 text-gray-900 dark:text-white"
               />
               {isLoading && (
@@ -149,7 +156,7 @@ function SearchResultsContent() {
           <div className="mb-6">
             <p className="text-gray-600 dark:text-gray-400">
               {isLoading ? (
-                'Searching...'
+                tCommon('loading')
               ) : (
                 <>
                   Found <strong>{results.length}</strong> result
@@ -239,7 +246,11 @@ function SearchResultsContent() {
   );
 }
 
-export default function SearchResultsClient() {
+type SearchResultsClientProps = {
+  locale: string;
+};
+
+export default function SearchResultsClient({ locale }: SearchResultsClientProps) {
   return (
     <Suspense
       fallback={
@@ -248,7 +259,7 @@ export default function SearchResultsClient() {
         </div>
       }
     >
-      <SearchResultsContent />
+      <SearchResultsContent locale={locale} />
     </Suspense>
   );
 }

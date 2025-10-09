@@ -1,137 +1,137 @@
 {
   "common": {
-    "readMore": "อ่านเพิ่มเติม",
-    "search": "ค้นหา",
-    "filter": "กรอง",
-    "sort": "เรียงลำดับ",
-    "loading": "กำลังโหลด...",
-    "error": "เกิดข้อผิดพลาด",
-    "notFound": "ไม่พบ",
-    "backToHome": "กลับหน้าแรก"
+    "readMore": "Read More",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Not Found",
+    "backToHome": "Back to Home"
   },
   "nav": {
-    "home": "หน้าแรก",
-    "walkthrough": "แนวทาง",
+    "home": "Home",
+    "walkthrough": "Walkthrough",
     "digidex": "Digidex",
-    "database": "ฐานข้อมูล",
-    "guides": "คู่มือ",
-    "evolution": "วิวัฒนาการ",
-    "bosses": "บอส",
-    "walkthroughs": "แนวทาง",
-    "tools": "เครื่องมือ",
-    "community": "ชุมชน",
-    "about": "เกี่ยวกับ",
+    "database": "Database",
+    "guides": "Guides",
+    "evolution": "Evolution",
+    "bosses": "Bosses",
+    "walkthroughs": "Walkthroughs",
+    "tools": "Tools",
+    "community": "Community",
+    "about": "About",
     "siteTitle": "Digimon Time Stranger",
-    "siteSubtitle": "คู่มือกลยุทธ์ฉบับสมบูรณ์"
+    "siteSubtitle": "Complete Strategy Guide"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
-    "subtitle": "คู่มือฉบับสมบูรณ์สู่โลกดิจิทัล",
-    "description": "สำรวจคู่มือที่ครอบคลุม ต้นไม้วิวัฒนาการ กลยุทธ์บอส และทรัพยากรชุมชนสำหรับ Digimon Story: Time Stranger",
+    "subtitle": "Your Complete Guide to the Digital World",
+    "description": "Explore comprehensive guides, evolution trees, boss strategies, and community resources for Digimon Story: Time Stranger.",
     "hero": {
-      "title": "ยินดีต้อนรับสู่โลกดิจิทัล",
-      "subtitle": "คู่มือสูงสุดสำหรับ Digimon Story: Time Stranger",
-      "cta": "สำรวจ Digidex"
+      "title": "Welcome to the Digital World",
+      "subtitle": "Your ultimate guide for Digimon Story: Time Stranger",
+      "cta": "Explore Digidex"
     },
     "features": {
-      "title": "ทุกสิ่งที่คุณต้องการ",
+      "title": "Everything You Need",
       "digidex": {
-        "title": "Digidex ฉบับสมบูรณ์",
-        "description": "สถิติโดยละเอียด เส้นทางวิวัฒนาการ และตำแหน่งสำหรับทุก Digimon"
+        "title": "Complete Digidex",
+        "description": "Detailed stats, evolution paths, and locations for every Digimon"
       },
       "guides": {
-        "title": "คู่มือผู้เชี่ยวชาญ",
-        "description": "แนวทางละเอียด กลยุทธ์ และเคล็ดลับจากผู้เล่นที่มีประสบการณ์"
+        "title": "Expert Guides",
+        "description": "In-depth walkthroughs, strategies, and tips from experienced players"
       },
       "evolution": {
-        "title": "ต้นไม้วิวัฒนาการ",
-        "description": "แผนภูมิวิวัฒนาการแบบโต้ตอบที่แสดงเส้นทางและข้อกำหนดทั้งหมด"
+        "title": "Evolution Trees",
+        "description": "Interactive evolution charts showing all paths and requirements"
       },
       "bosses": {
-        "title": "กลยุทธ์บอส",
-        "description": "กลยุทธ์ที่พิสูจน์แล้วและการจัดทีมสำหรับการต่อสู้บอสแต่ละครั้ง"
+        "title": "Boss Strategies",
+        "description": "Proven tactics and team compositions for every boss battle"
       }
     },
     "quickStart": {
-      "title": "คู่มือเริ่มต้นด่วน",
-      "beginner": "มือใหม่? เริ่มที่นี่!",
-      "evolution": "เรียนรู้เกี่ยวกับวิวัฒนาการ Digimon",
-      "team": "สร้างทีมที่สมบูรณ์แบบ"
+      "title": "Quick Start Guide",
+      "beginner": "New to the game? Start here!",
+      "evolution": "Learn about Digimon evolution",
+      "team": "Build your perfect team"
     },
     "popularGuides": {
-      "title": "คู่มือยอดนิยม",
-      "evolutionGuide": "คู่มือวิวัฒนาการ Digimon",
-      "teamBuilding": "กลยุทธ์การสร้างทีม",
-      "storyBranches": "แขนงเรื่องและตอนจบ",
-      "memoryManagement": "เคล็ดลับการจัดการหน่วยความจำ"
+      "title": "Popular Guides",
+      "evolutionGuide": "Digimon Evolution Guide",
+      "teamBuilding": "Team Building Strategies",
+      "storyBranches": "Story Branches & Endings",
+      "memoryManagement": "Memory Management Tips"
     },
     "recentUpdates": {
-      "title": "อัปเดตล่าสุด",
-      "seeAll": "ดูอัปเดตทั้งหมด"
+      "title": "Recent Updates",
+      "seeAll": "See All Updates"
     },
     "community": {
-      "title": "เข้าร่วมชุมชนของเรา",
-      "description": "เชื่อมต่อกับ Tamer คนอื่นๆ แบ่งปันกลยุทธ์และติดตามข่าวสาร",
-      "discord": "เข้าร่วม Discord",
-      "forum": "เยี่ยมชมฟอรั่ม"
+      "title": "Join Our Community",
+      "description": "Connect with other Tamers, share strategies, and stay updated",
+      "discord": "Join Discord",
+      "forum": "Visit Forum"
     }
   },
   "digidex": {
     "title": "Digidex",
-    "description": "เรียกดู Digimon ทั้งหมดพร้อมสถิติโดยละเอียดและเส้นทางวิวัฒนาการ",
-    "searchPlaceholder": "ค้นหา Digimon...",
+    "description": "Browse all Digimon with detailed stats and evolution paths",
+    "searchPlaceholder": "Search Digimon...",
     "filters": {
-      "all": "ทั้งหมด",
-      "stage": "ขั้นตอน",
-      "attribute": "คุณสมบัติ",
-      "element": "ธาตุ"
+      "all": "All",
+      "stage": "Stage",
+      "attribute": "Attribute",
+      "element": "Element"
     },
     "stats": {
       "hp": "HP",
-      "atk": "โจมตี",
-      "def": "ป้องกัน",
-      "spAtk": "โจมตีพิเศษ",
-      "spDef": "ป้องกันพิเศษ",
-      "speed": "ความเร็ว"
+      "atk": "ATK",
+      "def": "DEF",
+      "spAtk": "SP.ATK",
+      "spDef": "SP.DEF",
+      "speed": "SPEED"
     }
   },
   "digimon": {
-    "baseStats": "สถิติพื้นฐาน",
-    "skills": "ทักษะ",
-    "evolvesTo": "วิวัฒน์เป็น",
-    "devolvesFrom": "ถอยวิวัฒน์จาก",
-    "locations": "ตำแหน่ง",
-    "memory": "หน่วยความจำ",
-    "quickLinks": "ลิงก์ด่วน",
-    "viewEvolutionTree": "ดูต้นไม้วิวัฒนาการ",
-    "addToTeamBuilder": "เพิ่มในตัวสร้างทีม",
-    "backToDigidex": "กลับไป Digidex",
-    "howToGet": "วิธีรับ {name}",
-    "foundIn": "{name} สามารถพบได้ที่: {locations}",
-    "obtainThroughEvolution": "{name} สามารถได้รับผ่านการวิวัฒนาการ"
+    "baseStats": "Base Stats",
+    "skills": "Skills",
+    "evolvesTo": "Evolves To",
+    "devolvesFrom": "Devolves From",
+    "locations": "Locations",
+    "memory": "Memory",
+    "quickLinks": "Quick Links",
+    "viewEvolutionTree": "View Evolution Tree",
+    "addToTeamBuilder": "Add to Team Builder",
+    "backToDigidex": "Back to Digidex",
+    "howToGet": "How to Get {name}",
+    "foundIn": "{name} can be found in: {locations}",
+    "obtainThroughEvolution": "{name} can be obtained through evolution"
   },
   "guides": {
-    "title": "คู่มือ",
-    "description": "คู่มือและกลยุทธ์ที่ครอบคลุม",
+    "title": "Guides",
+    "description": "Comprehensive guides and strategies",
     "categories": {
-      "beginner": "มือใหม่",
-      "advanced": "ขั้นสูง",
-      "evolution": "วิวัฒนาการ",
-      "team": "การสร้างทีม",
-      "story": "เรื่องราว"
+      "beginner": "Beginner",
+      "advanced": "Advanced",
+      "evolution": "Evolution",
+      "team": "Team Building",
+      "story": "Story"
     },
     "bestStarters": {
-      "title": "คู่มือดิจิมอนเริ่มต้นที่ดีที่สุดสำหรับ Time Stranger",
-      "description": "การวิเคราะห์ที่สมบูรณ์ของดิจิมอนเริ่มต้น เส้นทางวิวัฒนาการ และกลยุทธ์เกมช่วงแรก",
-      "breadcrumb": "เริ่มต้นที่ดีที่สุด",
-      "seoTitle": "คู่มือดิจิมอนเริ่มต้นที่ดีที่สุด - ตัวเลือกยอดนิยมสำหรับความสำเร็จในช่วงแรก",
-      "seoDescription": "ค้นพบดิจิมอนเริ่มต้นที่ดีที่สุดใน Time Stranger สำหรับปี 2025 การวิเคราะห์ที่สมบูรณ์ของตัวเลือกช่วงแรก เส้นทางวิวัฒนาการ สถิติ และการทำงานร่วมกันของทีม",
+      "title": "Best Starter Digimon Guide for Time Stranger",
+      "description": "Complete analysis of starter Digimon, evolution paths, and early-game strategies",
+      "breadcrumb": "Best Starters",
+      "seoTitle": "Best Starter Digimon Guide - Top Picks for Early Game Success",
+      "seoDescription": "Discover the best starter Digimon in Time Stranger for 2025. Complete analysis of early-game choices, evolution paths, stats, and team synergy. Updated for the latest patch.",
       "hero": {
-        "title": "คู่มือดิจิมอนเริ่มต้นที่ดีที่สุดสำหรับ Time Stranger",
-        "subtitle": "การวิเคราะห์ที่สมบูรณ์ของดิจิมอนเริ่มต้น เส้นทางวิวัฒนาการ และกลยุทธ์เกมช่วงแรก",
-        "updated": "อัปเดต: มกราคม 2025",
-        "readTime": "อ่าน 8 นาที",
-        "author": "โดยทีม DTS"
+        "title": "Best Starter Digimon Guide for Time Stranger",
+        "subtitle": "Complete analysis of starter Digimon, evolution paths, and early-game strategies",
+        "updated": "Updated: January 2025",
+        "readTime": "8 min read",
+        "author": "By DTS Team"
       },
       "intro": {
         "paragraph1": "Choosing your first Digimon partner in Digimon Story: Time Stranger is one of the most important decisions you'll make in your journey. While you'll eventually have access to hundreds of Digimon, your starter will carry you through the critical early game hours and set the foundation for your team composition.",
@@ -156,10 +156,7 @@
         "agumon": {
           "rank": "1",
           "name": "Agumon - The Perfect All-Rounder",
-          "types": [
-            "Fire",
-            "Vaccine"
-          ],
+          "types": ["Fire", "Vaccine"],
           "description": "Agumon is the quintessential starter choice and has been a franchise favorite since the original Digimon World. In Time Stranger, Agumon excels in all areas without significant weaknesses.",
           "strengthsTitle": "Strengths:",
           "strengths": [
@@ -181,10 +178,7 @@
         "veemon": {
           "rank": "2",
           "name": "Veemon - The Speed Demon",
-          "types": [
-            "Light",
-            "Free"
-          ],
+          "types": ["Light", "Free"],
           "description": "Veemon is the ideal choice for players who value speed and versatility. With the highest Speed stat among starters and multiple evolution branches, Veemon offers exceptional tactical flexibility.",
           "strengthsTitle": "Strengths:",
           "strengths": [
@@ -207,10 +201,7 @@
         "guilmon": {
           "rank": "3",
           "name": "Guilmon - The Tank",
-          "types": [
-            "Fire",
-            "Virus"
-          ],
+          "types": ["Fire", "Virus"],
           "description": "Guilmon is the tank specialist among starters. With exceptional HP and DEF scaling, Guilmon can take hits that would KO other Digimon, making it perfect for defensive playstyles.",
           "strengthsTitle": "Strengths:",
           "strengths": [
@@ -329,96 +320,444 @@
     }
   },
   "evolution": {
-    "title": "ต้นไม้วิวัฒนาการ",
-    "description": "แผนภูมิวิวัฒนาการแบบโต้ตอบและข้อกำหนด",
-    "requirements": "ข้อกำหนด",
-    "level": "เลเวล {level}",
-    "stats": "สถิติที่ต้องการ"
+    "title": "Evolution Trees",
+    "description": "Interactive evolution charts and requirements",
+    "requirements": "Requirements",
+    "level": "Level {level}",
+    "stats": "Stats Required"
   },
   "bosses": {
-    "title": "คู่มือบอส",
-    "description": "กลยุทธ์และคำแนะนำทีมสำหรับการต่อสู้บอส",
-    "difficulty": "ความยาก",
-    "recommendedLevel": "เลเวลที่แนะนำ",
-    "weaknesses": "จุดอ่อน",
-    "strategy": "กลยุทธ์",
-    "teamComposition": "ทีมที่แนะนำ"
+    "title": "Boss Guides",
+    "description": "Strategies and team recommendations for boss battles",
+    "difficulty": "Difficulty",
+    "recommendedLevel": "Recommended Level",
+    "weaknesses": "Weaknesses",
+    "strategy": "Strategy",
+    "teamComposition": "Recommended Team"
   },
   "walkthroughs": {
-    "title": "แนวทาง",
-    "description": "คู่มือทีละขั้นตอนสำหรับบทเรื่อง",
-    "chapter": "บทที่ {number}",
-    "objectives": "วัตถุประสงค์",
-    "rewards": "รางวัล"
-  },
-  "tools": {
-    "title": "เครื่องมือ",
-    "description": "เครื่องคำนวณและตัวสร้างที่มีประโยชน์",
-    "teamBuilder": {
-      "title": "ตัวสร้างทีม",
-      "description": "สร้างและวิเคราะห์ทีม Digimon ที่สมบูรณ์แบบของคุณ",
-      "breadcrumb": "Team Builder"
-    },
-    "statCalculator": {
-      "title": "เครื่องคำนวณสถิติ",
-      "description": "คำนวณสถิติสุดท้ายด้วยบิลด์ต่างๆ"
-    }
-  },
-  "community": {
-    "title": "ชุมชน",
-    "description": "เชื่อมต่อกับผู้เล่นคนอื่นๆ",
-    "categories": {
-      "discussion": "การสนทนาทั่วไป",
-      "strategy": "กลยุทธ์และเคล็ดลับ",
-      "showcase": "โชว์เคสทีม",
-      "questions": "คำถาม"
-    }
-  },
-  "footer": {
-    "description": "คู่มือฉบับสมบูรณ์ เส้นทางวิวัฒนาการ และเครื่องมือสร้างทีมสำหรับ Digimon Story: Time Stranger",
-    "siteTitle": "Digimon Time Stranger",
-    "siteSubtitle": "คู่มือกลยุทธ์",
-    "guidesTitle": "คู่มือ",
-    "toolsTitle": "เครื่องมือ",
-    "resourcesTitle": "ทรัพยากร",
-    "bestStarters": "ตัวเริ่มต้นที่ดีที่สุด",
-    "evolutionGuide": "คู่มือวิวัฒนาการ",
-    "teamBuilding": "การสร้างทีม",
-    "fastLeveling": "การเพิ่มเลเวลอย่างรวดเร็ว",
-    "teamBuilder": "ตัวสร้างทีม",
-    "evolutionTree": "ต้นไม้วิวัฒนาการ",
-    "communityForum": "ฟอรั่มชุมชน",
-    "pcSettings": "การตั้งค่า PC",
-    "updatesPatches": "อัปเดตและแพตช์",
-    "about": "เกี่ยวกับ",
-    "privacyPolicy": "นโยบายความเป็นส่วนตัว",
-    "termsOfService": "ข้อกำหนดการให้บริการ",
-    "copyright": "© {year} คู่มือ Digimon Time Stranger สงวนลิขสิทธิ์",
-    "disclaimer": "นี่เป็นเว็บไซต์แฟนที่ไม่เป็นทางการ Digimon และทรัพย์สินที่เกี่ยวข้องทั้งหมดเป็นเครื่องหมายการค้าของ Bandai Namco Entertainment เราไม่มีความเกี่ยวข้องหรือได้รับการรับรองจาก Bandai Namco",
-    "builtWith": "สร้างด้วย ❤️ สำหรับ Tamers"
-  },
-  "seo": {
-    "home": {
-      "title": "Digimon Story: Time Stranger - คู่มือฉบับสมบูรณ์และฐานข้อมูล",
-      "description": "คู่มือที่ครอบคลุมสำหรับ Digimon Story: Time Stranger Digidex ฉบับสมบูรณ์ ต้นไม้วิวัฒนาการ กลยุทธ์บอส แนวทาง และทรัพยากรชุมชน"
-    },
-    "digidex": {
-      "title": "Digidex - ฐานข้อมูล Digimon ฉบับสมบูรณ์ | Digimon Story Time Stranger",
-      "description": "เรียกดู Digimon ทั้งหมดพร้อมสถิติโดยละเอียด เส้นทางวิวัฒนาการ ตำแหน่ง และทักษะ ฐานข้อมูลฉบับสมบูรณ์สำหรับ Digimon Story: Time Stranger"
-    },
-    "guides": {
-      "title": "คู่มือและกลยุทธ์ | Digimon Story Time Stranger",
-      "description": "คู่มือผู้เชี่ยวชาญ กลยุทธ์ และเคล็ดลับสำหรับ Digimon Story: Time Stranger คู่มือวิวัฒนาการ การสร้างทีม และกลยุทธ์ขั้นสูง"
-    }
+    "title": "Walkthroughs",
+    "description": "Step-by-step guides for story chapters",
+    "chapter": "Chapter {number}",
+    "objectives": "Objectives",
+    "rewards": "Rewards"
   },
   "walkthrough": {
     "title": "Walkthrough",
     "description": "Complete chapter-by-chapter guides",
     "breadcrumb": "Walkthrough"
   },
+  "tools": {
+    "title": "Tools",
+    "description": "Helpful calculators and builders",
+    "teamBuilder": {
+      "title": "Team Builder",
+      "description": "Build and optimize your perfect Digimon team",
+      "breadcrumb": "Team Builder"
+    },
+    "statCalculator": {
+      "title": "Stat Calculator",
+      "description": "Calculate final stats with different builds"
+    }
+  },
   "about": {
     "title": "About",
     "description": "Learn more about this project",
     "breadcrumb": "About"
+  },
+  "community": {
+    "title": "Community",
+    "description": "Connect with other players",
+    "backToCommunity": "Back to Community",
+    "categoryGuidelines": "Category Guidelines",
+    "discussions": "Discussions",
+    "signInInfo": "Sign in with GitHub to start a new discussion or reply to existing ones. Click the button below to open the discussion in GitHub.",
+    "signInTitle": "Sign in with GitHub",
+    "viewOnGithub": "View on GitHub →",
+    "categories": {
+      "discussion": "General Discussion",
+      "strategy": "Strategy & Tips",
+      "showcase": "Team Showcase",
+      "questions": "Questions",
+      "general": {
+        "name": "General Discussion",
+        "description": "Chat about anything related to Digimon Time Stranger",
+        "guidelines": [
+          "Share your general thoughts and experiences",
+          "Discuss game updates and news",
+          "Connect with other Tamers",
+          "Keep discussions friendly and on-topic"
+        ]
+      },
+      "strategies": {
+        "name": "Battle Strategies",
+        "description": "Share and discuss battle tactics, boss strategies, and combat tips",
+        "guidelines": [
+          "Share effective battle strategies",
+          "Discuss boss fight tactics",
+          "Analyze combat mechanics",
+          "Help others improve their gameplay"
+        ]
+      },
+      "team-builds": {
+        "name": "Team Building",
+        "description": "Show off your team compositions and get feedback",
+        "guidelines": [
+          "Share your team compositions",
+          "Discuss synergies and combos",
+          "Get feedback on your builds",
+          "Suggest improvements for others"
+        ]
+      },
+      "questions": {
+        "name": "Questions & Help",
+        "description": "Get help from the community and ask your questions",
+        "guidelines": [
+          "Ask clear and specific questions",
+          "Search before asking duplicates",
+          "Provide context and details",
+          "Mark helpful answers"
+        ]
+      },
+      "guides": {
+        "name": "Player Guides",
+        "description": "Community-created guides and tutorials",
+        "guidelines": [
+          "Create comprehensive guides",
+          "Use clear formatting and structure",
+          "Include examples and screenshots",
+          "Keep guides up-to-date"
+        ]
+      },
+      "showcase": {
+        "name": "Achievements & Showcase",
+        "description": "Share your accomplishments, rare finds, and collections",
+        "guidelines": [
+          "Share your achievements and milestones",
+          "Show off rare Digimon finds",
+          "Display your collections",
+          "Celebrate community successes"
+        ]
+      }
+    }
+  },
+  "contribute": {
+    "title": "Contribute to the Community - Share Your Knowledge",
+    "description": "Contribute guides, strategies, and improvements to the Digimon Time Stranger community. Learn how to submit content, report issues, and help other players.",
+    "breadcrumb": "Contribute",
+    "header": {
+      "title": "Contribute to the Community",
+      "subtitle": "Help us build the best Digimon Time Stranger resource"
+    },
+    "intro": {
+      "title": "Why Contribute?",
+      "description": "This website is built by and for the Digimon Time Stranger community. Your contributions help thousands of players discover strategies, overcome challenges, and enjoy the game more. Whether you're sharing a guide, reporting a bug, or suggesting improvements, every contribution matters!"
+    },
+    "stats": {
+      "communityMembers": "2.5K+",
+      "communityMembersLabel": "Community Members",
+      "contributors": "150+",
+      "contributorsLabel": "Contributors",
+      "openSource": "Open",
+      "openSourceLabel": "Source Project"
+    },
+    "waysTitle": "Ways to Contribute",
+    "ways": {
+      "github": {
+        "title": "Report Issues or Request Features",
+        "description": "Found a bug? Have an idea for improvement? Open an issue on GitHub to let us know!",
+        "bugReportsLabel": "Bug Reports:",
+        "bugReportsText": "Incorrect information, broken links, display issues",
+        "featureRequestsLabel": "Feature Requests:",
+        "featureRequestsText": "New tools, guides, or functionality you'd like to see",
+        "contentUpdatesLabel": "Content Updates:",
+        "contentUpdatesText": "New game updates, patches, or balance changes",
+        "button": "Open an Issue"
+      },
+      "forum": {
+        "title": "Share in Community Discussions",
+        "description": "Join discussions, answer questions, and share your strategies with other players in our forum.",
+        "answerQuestionsLabel": "Answer Questions:",
+        "answerQuestionsText": "Help new players with gameplay questions",
+        "shareBuildsLabel": "Share Builds:",
+        "shareBuildsText": "Post your best team compositions and strategies",
+        "startDiscussionsLabel": "Start Discussions:",
+        "startDiscussionsText": "Create topics about game mechanics, lore, or updates",
+        "button": "Visit Forum"
+      },
+      "guides": {
+        "title": "Submit Written Guides",
+        "description": "Have expertise in a specific area? Write a guide to help the community!",
+        "strategyGuidesLabel": "Strategy Guides:",
+        "strategyGuidesText": "Team building, evolution paths, boss strategies",
+        "characterGuidesLabel": "Character Guides:",
+        "characterGuidesText": "Detailed analysis of specific Digimon",
+        "beginnerGuidesLabel": "Beginners Guides:",
+        "beginnerGuidesText": "Help new players get started",
+        "howToSubmitTitle": "How to Submit:",
+        "step1": "Write your guide in Markdown format",
+        "step2": "Create a GitHub pull request with your content",
+        "step3": "Our team will review and publish it",
+        "step4": "Your name will be credited as the author",
+        "button": "Guide Template"
+      },
+      "videos": {
+        "title": "Submit Video Guides",
+        "description": "Created helpful video tutorials? We'd love to feature them in our video library!",
+        "youtubeLabel": "YouTube Videos:",
+        "youtubeText": "Gameplay guides, walkthroughs, tutorials",
+        "requirementsLabel": "Requirements:",
+        "requirementsText": "Clear audio, accurate information, family-friendly content",
+        "featuredLabel": "Featured:",
+        "featuredText": "Your video will be added to our video library with full credit",
+        "button": "Submit Video"
+      },
+      "dataErrors": {
+        "title": "Report Data Errors",
+        "description": "Found incorrect Digimon stats, evolution requirements, or other data? Help us keep information accurate!",
+        "statCorrectionsLabel": "Stat Corrections:",
+        "statCorrectionsText": "HP, Attack, Defense, Speed values",
+        "evolutionDataLabel": "Evolution Data:",
+        "evolutionDataText": "Requirements, paths, or missing evolutions",
+        "contentErrorsLabel": "Content Errors:",
+        "contentErrorsText": "Typos, outdated info, missing content",
+        "button": "Report Error"
+      },
+      "suggestions": {
+        "title": "Share Ideas & Suggestions",
+        "description": "Have ideas for new features, tools, or improvements? We're always listening!",
+        "newToolsLabel": "New Tools:",
+        "newToolsText": "Calculators, planners, interactive features",
+        "uiImprovementsLabel": "UI Improvements:",
+        "uiImprovementsText": "Better navigation, design, or user experience",
+        "contentIdeasLabel": "Content Ideas:",
+        "contentIdeasText": "New guides, databases, or resources",
+        "button": "Share Idea"
+      }
+    },
+    "guidelines": {
+      "title": "Contribution Guidelines",
+      "beRespectful": "Be Respectful: Treat all community members with kindness and respect",
+      "accuracyFirst": "Accuracy First: Ensure all information is tested and verified",
+      "creditSources": "Credit Sources: Give credit when using others' strategies or data",
+      "noSpoilers": "No Spoilers: Use spoiler warnings for story-related content",
+      "qualityContent": "Quality Content: Proofread and format your submissions properly"
+    },
+    "recognition": {
+      "title": "Top Contributors Hall of Fame",
+      "description": "Outstanding contributors are featured here with our deepest gratitude!",
+      "thankYou": "Your contributions help thousands of players enjoy the game. Thank you for being part of our community!"
+    }
+  },
+  "footer": {
+    "description": "Complete guides, evolution paths, and team building tools for Digimon Story: Time Stranger.",
+    "siteTitle": "Digimon Time Stranger",
+    "siteSubtitle": "Strategy Guide",
+    "guidesTitle": "Guides",
+    "toolsTitle": "Tools",
+    "resourcesTitle": "Resources",
+    "bestStarters": "Best Starters",
+    "evolutionGuide": "Evolution Guide",
+    "teamBuilding": "Team Building",
+    "fastLeveling": "Fast Leveling",
+    "teamBuilder": "Team Builder",
+    "evolutionTree": "Evolution Tree",
+    "communityForum": "Community Forum",
+    "pcSettings": "PC Settings",
+    "updatesPatches": "Updates & Patches",
+    "about": "About",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© {year} Digimon Time Stranger Guide. All rights reserved.",
+    "disclaimer": "This is an unofficial fan site. Digimon and all related properties are trademarks of Bandai Namco Entertainment. We are not affiliated with or endorsed by Bandai Namco.",
+    "builtWith": "Built with ❤️ for Tamers"
+  },
+  "events": {
+    "title": "Events Calendar",
+    "description": "Stay updated with game events, updates, and community activities",
+    "breadcrumb": "Events",
+    "stats": {
+      "upcoming": "Upcoming",
+      "activeNow": "Active Now",
+      "totalEvents": "Total Events",
+      "eventTypes": "Event Types"
+    },
+    "filters": {
+      "title": "Filter Events",
+      "eventType": "Event Type",
+      "status": "Status",
+      "allTypes": "All Types",
+      "allStatus": "All Status"
+    },
+    "types": {
+      "update": "Update",
+      "dlc": "DLC",
+      "community": "Community",
+      "seasonal": "Seasonal"
+    },
+    "statuses": {
+      "upcoming": "Upcoming",
+      "active": "Active",
+      "ended": "Ended",
+      "live": "LIVE"
+    },
+    "noEvents": "No events found",
+    "tryAdjusting": "Try adjusting your filters",
+    "rewards": "Rewards",
+    "cta": {
+      "title": "Never Miss an Event!",
+      "description": "Follow our social media channels or enable notifications to stay updated on all upcoming events, updates, and special activities.",
+      "viewUpdates": "View All Updates",
+      "joinCommunity": "Join Community"
+    }
+  },
+  "evolutionTree": {
+    "title": "Evolution Tree",
+    "description": "Explore all Digimon evolution paths and requirements",
+    "breadcrumb": "Evolution Tree",
+    "header": {
+      "title": "Evolution Tree",
+      "subtitle": "Explore all Digimon evolution paths and requirements"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common questions about Digimon Time Stranger",
+    "breadcrumb": "FAQ",
+    "header": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about Digimon Time Stranger"
+    },
+    "stats": {
+      "questions": "Questions",
+      "categories": "Categories",
+      "available": "Available",
+      "accurate": "Accurate"
+    },
+    "search": {
+      "placeholder": "Search questions...",
+      "noResults": "No questions found",
+      "tryAdjusting": "Try adjusting your search or category filter"
+    },
+    "filterTitle": "Filter by Category",
+    "categories": {
+      "all": "All Questions",
+      "gettingStarted": "Getting Started",
+      "gameplay": "Gameplay",
+      "evolution": "Evolution",
+      "endgame": "Endgame",
+      "technical": "Technical"
+    },
+    "cta": {
+      "title": "Still Have Questions?",
+      "description": "Can't find what you're looking for? Join our community forum to ask questions and get help from experienced players.",
+      "button": "Visit Community Forum"
+    }
+  },
+  "updates": {
+    "title": "Updates & Patch Notes",
+    "description": "Latest game updates and fixes for Digimon Story: Time Stranger",
+    "breadcrumb": "Updates",
+    "header": {
+      "title": "Updates & Patch Notes",
+      "subtitle": "Latest game updates and fixes for Digimon Story: Time Stranger"
+    },
+    "version": "Version {version}",
+    "types": {
+      "release": "Release",
+      "patch": "Patch",
+      "hotfix": "Hotfix"
+    },
+    "changes": {
+      "new": "NEW",
+      "fix": "FIX",
+      "improvement": "IMPROVEMENT"
+    },
+    "cta": {
+      "title": "📢 Stay Updated",
+      "description": "This page is regularly updated with the latest patch notes and game updates.",
+      "note": "For official announcements, visit the"
+    }
+  },
+  "videos": {
+    "title": "Video Guides & Tutorials",
+    "description": "Watch comprehensive video guides and tutorials for Digimon Time Stranger",
+    "breadcrumb": "Videos",
+    "header": {
+      "title": "Video Guides & Tutorials",
+      "subtitle": "Watch comprehensive guides to master every aspect of the game"
+    },
+    "stats": {
+      "videoGuides": "Video Guides",
+      "totalContent": "Total Content",
+      "totalViews": "Total Views",
+      "categories": "Categories"
+    },
+    "browseTitle": "Browse by Category",
+    "allVideos": "All Video Guides",
+    "categories": {
+      "all": "All Videos",
+      "beginner": "Beginner",
+      "evolution": "Evolution",
+      "teamBuilding": "Team Building",
+      "boss": "Boss Battles",
+      "advanced": "Advanced",
+      "speedrun": "Speedrun"
+    },
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "sections": {
+      "beginnerTitle": "Beginner Guides",
+      "beginnerDescription": "Perfect for new players starting their journey",
+      "bossTitle": "Boss Battle Guides",
+      "bossDescription": "Master every boss encounter with detailed strategies",
+      "advancedTitle": "Advanced Techniques",
+      "advancedDescription": "For experienced players",
+      "speedrunTitle": "Speedrun Content",
+      "speedrunDescription": "Optimize your playtime"
+    },
+    "views": "views",
+    "cta": {
+      "title": "Want More Content?",
+      "description": "Subscribe to our YouTube channel for weekly video guides, updates, and community highlights. Never miss new strategies and tips!",
+      "button": "Subscribe on YouTube"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "Learn how we collect, use, and protect your data",
+    "breadcrumb": "Privacy Policy"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "Terms and conditions for using this website",
+    "breadcrumb": "Terms of Service"
+  },
+  "pc": {
+    "title": "PC & Steam Deck Guide",
+    "description": "Optimal settings and performance tips for PC and Steam Deck",
+    "breadcrumb": "PC Guide"
+  },
+  "search": {
+    "title": "Search Results",
+    "description": "Search the complete Digimon Time Stranger guide",
+    "breadcrumb": "Search"
+  },
+  "seo": {
+    "home": {
+      "title": "Digimon Story: Time Stranger - Complete Guide & Database",
+      "description": "Comprehensive guide for Digimon Story: Time Stranger. Complete Digidex, evolution trees, boss strategies, walkthroughs, and community resources."
+    },
+    "digidex": {
+      "title": "Digidex - Complete Digimon Database | Digimon Story Time Stranger",
+      "description": "Browse all Digimon with detailed stats, evolution paths, locations, and skills. Complete database for Digimon Story: Time Stranger."
+    },
+    "guides": {
+      "title": "Guides & Strategies | Digimon Story Time Stranger",
+      "description": "Expert guides, strategies, and tips for Digimon Story: Time Stranger. Evolution guides, team building, and advanced tactics."
+    }
   }
 }

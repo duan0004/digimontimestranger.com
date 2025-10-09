@@ -1,18 +1,31 @@
 import { Metadata } from 'next';
 import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = generateSEO({
-  title: 'Privacy Policy',
-  description: 'Privacy Policy for Digimon Time Stranger - Learn how we collect, use, and protect your information.',
-  url: '/privacy',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
 
-export default function PrivacyPage() {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'privacy' });
+
+  return generateSEO({
+    title: t('title'),
+    description: t('description'),
+    url: '/privacy',
+  });
+}
+
+export default async function PrivacyPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'privacy' });
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
       <div className="container mx-auto px-4 py-16 max-w-4xl">
         <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">
-          Privacy Policy
+          {t('title')}
         </h1>
         <p className="text-slate-600 dark:text-slate-400 mb-8">
           Last Updated: October 9, 2025

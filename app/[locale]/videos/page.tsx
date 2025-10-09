@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { generateMetadata as generateSEO } from '@/lib/seo';
 import { Play, Clock, TrendingUp, Users, Gamepad2, BookOpen, Target, Zap } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
 
 export const metadata: Metadata = generateSEO({
   title: 'Video Guides & Tutorials - Complete Video Library',
@@ -143,13 +144,13 @@ const videos: Video[] = [
 ];
 
 const categories = [
-  { id: 'all', name: 'All Videos', icon: Play, color: 'bg-blue-500' },
-  { id: 'beginner', name: 'Beginner', icon: BookOpen, color: 'bg-green-500' },
-  { id: 'evolution', name: 'Evolution', icon: TrendingUp, color: 'bg-purple-500' },
-  { id: 'team-building', name: 'Team Building', icon: Users, color: 'bg-orange-500' },
-  { id: 'boss', name: 'Boss Battles', icon: Target, color: 'bg-red-500' },
-  { id: 'advanced', name: 'Advanced', icon: Zap, color: 'bg-yellow-500' },
-  { id: 'speedrun', name: 'Speedrun', icon: Clock, color: 'bg-pink-500' },
+  { id: 'all', icon: Play, color: 'bg-blue-500' },
+  { id: 'beginner', icon: BookOpen, color: 'bg-green-500' },
+  { id: 'evolution', icon: TrendingUp, color: 'bg-purple-500' },
+  { id: 'team-building', icon: Users, color: 'bg-orange-500' },
+  { id: 'boss', icon: Target, color: 'bg-red-500' },
+  { id: 'advanced', icon: Zap, color: 'bg-yellow-500' },
+  { id: 'speedrun', icon: Clock, color: 'bg-pink-500' },
 ];
 
 function getDifficultyColor(difficulty: string) {
@@ -161,7 +162,33 @@ function getDifficultyColor(difficulty: string) {
   return colors[difficulty] || colors.Medium;
 }
 
-export default function VideosPage() {
+export default async function VideosPage() {
+  const t = await getTranslations('videos');
+
+  // Helper function to get category name
+  const getCategoryName = (categoryId: string) => {
+    const categoryMap: Record<string, string> = {
+      'all': t('categories.all'),
+      'beginner': t('categories.beginner'),
+      'evolution': t('categories.evolution'),
+      'team-building': t('categories.teamBuilding'),
+      'boss': t('categories.boss'),
+      'advanced': t('categories.advanced'),
+      'speedrun': t('categories.speedrun'),
+    };
+    return categoryMap[categoryId] || categoryId;
+  };
+
+  // Helper function to get difficulty label
+  const getDifficultyLabel = (difficulty: string) => {
+    const difficultyMap: Record<string, string> = {
+      'Easy': t('difficulty.easy'),
+      'Medium': t('difficulty.medium'),
+      'Hard': t('difficulty.hard'),
+    };
+    return difficultyMap[difficulty] || difficulty;
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
       <div className="container mx-auto px-4 py-8 max-w-7xl">
@@ -170,33 +197,33 @@ export default function VideosPage() {
           <div className="flex items-center gap-3 mb-4">
             <Play className="w-12 h-12" />
             <div>
-              <h1 className="text-4xl font-bold">Video Guides & Tutorials</h1>
-              <p className="text-blue-100 mt-2">Watch comprehensive guides to master every aspect of the game</p>
+              <h1 className="text-4xl font-bold">{t('header.title')}</h1>
+              <p className="text-blue-100 mt-2">{t('header.subtitle')}</p>
             </div>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="text-3xl font-bold mb-1">12</div>
-              <div className="text-sm text-blue-100">Video Guides</div>
+              <div className="text-sm text-blue-100">{t('stats.videoGuides')}</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="text-3xl font-bold mb-1">5+ hrs</div>
-              <div className="text-sm text-blue-100">Total Content</div>
+              <div className="text-sm text-blue-100">{t('stats.totalContent')}</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="text-3xl font-bold mb-1">675K+</div>
-              <div className="text-sm text-blue-100">Total Views</div>
+              <div className="text-sm text-blue-100">{t('stats.totalViews')}</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="text-3xl font-bold mb-1">6</div>
-              <div className="text-sm text-blue-100">Categories</div>
+              <div className="text-sm text-blue-100">{t('stats.categories')}</div>
             </div>
           </div>
         </div>
 
         {/* Category Filter */}
         <div className="card p-6 mb-8">
-          <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Browse by Category</h2>
+          <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">{t('browseTitle')}</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3">
             {categories.map((category) => {
               const Icon = category.icon;
@@ -209,7 +236,7 @@ export default function VideosPage() {
                     <Icon className="w-5 h-5" />
                   </div>
                   <span className="text-sm font-medium text-gray-700 dark:text-gray-300 text-center">
-                    {category.name}
+                    {getCategoryName(category.id)}
                   </span>
                   <span className="text-xs text-gray-500 dark:text-gray-400">
                     {category.id === 'all' ? videos.length : videos.filter(v => v.category === category.id).length}
@@ -222,7 +249,7 @@ export default function VideosPage() {
 
         {/* Video Grid */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">All Video Guides</h2>
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">{t('allVideos')}</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {videos.map((video) => (
               <div key={video.id} className="card overflow-hidden group hover:shadow-xl transition-shadow">
@@ -242,10 +269,10 @@ export default function VideosPage() {
                 <div className="p-4">
                   <div className="flex items-center gap-2 mb-2">
                     <span className={`px-2 py-1 text-xs font-bold rounded border ${getDifficultyColor(video.difficulty)}`}>
-                      {video.difficulty}
+                      {getDifficultyLabel(video.difficulty)}
                     </span>
                     <span className="px-2 py-1 text-xs font-bold bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded capitalize">
-                      {video.category.replace('-', ' ')}
+                      {getCategoryName(video.category)}
                     </span>
                   </div>
 
@@ -265,7 +292,7 @@ export default function VideosPage() {
                     {video.views && (
                       <div className="flex items-center gap-1">
                         <Play className="w-4 h-4" />
-                        <span>{video.views} views</span>
+                        <span>{video.views} {t('views')}</span>
                       </div>
                     )}
                   </div>
@@ -284,8 +311,8 @@ export default function VideosPage() {
                 <BookOpen className="w-5 h-5" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Beginner Guides</h2>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Perfect for new players starting their journey</p>
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{t('sections.beginnerTitle')}</h2>
+                <p className="text-sm text-gray-600 dark:text-gray-400">{t('sections.beginnerDescription')}</p>
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-4">
@@ -321,8 +348,8 @@ export default function VideosPage() {
                 <Target className="w-5 h-5" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Boss Battle Guides</h2>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Master every boss encounter with detailed strategies</p>
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{t('sections.bossTitle')}</h2>
+                <p className="text-sm text-gray-600 dark:text-gray-400">{t('sections.bossDescription')}</p>
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-4">
@@ -367,8 +394,8 @@ export default function VideosPage() {
                   <Zap className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Advanced Techniques</h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">For experienced players</p>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">{t('sections.advancedTitle')}</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">{t('sections.advancedDescription')}</p>
                 </div>
               </div>
               <div className="space-y-3">
@@ -391,8 +418,8 @@ export default function VideosPage() {
                   <Clock className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Speedrun Content</h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">Optimize your playtime</p>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">{t('sections.speedrunTitle')}</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">{t('sections.speedrunDescription')}</p>
                 </div>
               </div>
               <div className="space-y-3">
@@ -414,10 +441,10 @@ export default function VideosPage() {
         {/* CTA Section */}
         <div className="card p-8 mt-8 bg-gradient-to-br from-primary-50 to-blue-50 dark:from-primary-900/20 dark:to-blue-900/20 border-2 border-primary-200 dark:border-primary-800 text-center">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-            Want More Content?
+            {t('cta.title')}
           </h2>
           <p className="text-gray-700 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-            Subscribe to our YouTube channel for weekly video guides, updates, and community highlights. Never miss new strategies and tips!
+            {t('cta.description')}
           </p>
           <a
             href="https://www.youtube.com/@DigimonTimeStranger"
@@ -426,7 +453,7 @@ export default function VideosPage() {
             className="inline-flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors shadow-lg"
           >
             <Play className="w-5 h-5" />
-            Subscribe on YouTube
+            {t('cta.button')}
           </a>
         </div>
       </div>

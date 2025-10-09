@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { Calendar, Clock, Trophy, Gift, Zap, Users, ChevronRight } from 'lucide-react';
 import Link from 'next/link';
 
@@ -108,6 +109,7 @@ const eventStatusColors: Record<string, string> = {
 };
 
 export default function EventsPage() {
+  const t = useTranslations('events');
   const [selectedType, setSelectedType] = useState<string>('all');
   const [selectedStatus, setSelectedStatus] = useState<string>('all');
 
@@ -128,37 +130,37 @@ export default function EventsPage() {
           <div className="flex items-center gap-3 mb-4">
             <Calendar className="w-12 h-12" />
             <div>
-              <h1 className="text-4xl font-bold">Events Calendar</h1>
-              <p className="text-indigo-100 mt-2">Stay updated with game events, updates, and community activities</p>
+              <h1 className="text-4xl font-bold">{t('title')}</h1>
+              <p className="text-indigo-100 mt-2">{t('description')}</p>
             </div>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="text-3xl font-bold mb-1">{upcomingCount}</div>
-              <div className="text-sm text-indigo-100">Upcoming</div>
+              <div className="text-sm text-indigo-100">{t('stats.upcoming')}</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="text-3xl font-bold mb-1">{activeCount}</div>
-              <div className="text-sm text-indigo-100">Active Now</div>
+              <div className="text-sm text-indigo-100">{t('stats.activeNow')}</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="text-3xl font-bold mb-1">{events.length}</div>
-              <div className="text-sm text-indigo-100">Total Events</div>
+              <div className="text-sm text-indigo-100">{t('stats.totalEvents')}</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="text-3xl font-bold mb-1">4</div>
-              <div className="text-sm text-indigo-100">Event Types</div>
+              <div className="text-sm text-indigo-100">{t('stats.eventTypes')}</div>
             </div>
           </div>
         </div>
 
         {/* Filters */}
         <div className="card p-6 mb-6">
-          <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Filter Events</h2>
+          <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-4">{t('filters.title')}</h2>
           <div className="grid md:grid-cols-2 gap-4">
             {/* Type Filter */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Event Type</label>
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">{t('filters.eventType')}</label>
               <div className="grid grid-cols-2 gap-2">
                 <button
                   onClick={() => setSelectedType('all')}
@@ -168,7 +170,7 @@ export default function EventsPage() {
                       : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
                   }`}
                 >
-                  All Types
+                  {t('filters.allTypes')}
                 </button>
                 {Object.entries(eventTypeColors).map(([type, { bg, text, icon: Icon }]) => (
                   <button
@@ -181,7 +183,7 @@ export default function EventsPage() {
                     }`}
                   >
                     <Icon className="w-4 h-4" />
-                    {type.charAt(0).toUpperCase() + type.slice(1)}
+                    {t(`types.${type}`)}
                   </button>
                 ))}
               </div>
@@ -189,7 +191,7 @@ export default function EventsPage() {
 
             {/* Status Filter */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Status</label>
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">{t('filters.status')}</label>
               <div className="grid grid-cols-2 gap-2">
                 <button
                   onClick={() => setSelectedStatus('all')}
@@ -199,7 +201,7 @@ export default function EventsPage() {
                       : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
                   }`}
                 >
-                  All Status
+                  {t('filters.allStatus')}
                 </button>
                 {['upcoming', 'active', 'ended'].map((status) => (
                   <button
@@ -211,7 +213,7 @@ export default function EventsPage() {
                         : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
                     }`}
                   >
-                    {status.charAt(0).toUpperCase() + status.slice(1)}
+                    {t(`statuses.${status}`)}
                   </button>
                 ))}
               </div>
@@ -224,8 +226,8 @@ export default function EventsPage() {
           {filteredEvents.length === 0 ? (
             <div className="card p-12 text-center">
               <Calendar className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">No events found</h3>
-              <p className="text-gray-600 dark:text-gray-400">Try adjusting your filters</p>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('noEvents')}</h3>
+              <p className="text-gray-600 dark:text-gray-400">{t('tryAdjusting')}</p>
             </div>
           ) : (
             filteredEvents.map((event) => {
@@ -250,7 +252,7 @@ export default function EventsPage() {
                       </div>
                       {event.status === 'active' && (
                         <div className="mt-2 px-2 py-1 bg-green-500 text-white text-xs font-bold rounded animate-pulse">
-                          LIVE
+                          {t('statuses.live')}
                         </div>
                       )}
                     </div>
@@ -301,7 +303,7 @@ export default function EventsPage() {
                           <div className="flex items-start gap-2">
                             <Gift className="w-5 h-5 text-amber-600 dark:text-amber-400 flex-shrink-0 mt-0.5" />
                             <div>
-                              <strong className="text-amber-900 dark:text-amber-300">Rewards:</strong>
+                              <strong className="text-amber-900 dark:text-amber-300">{t('rewards')}:</strong>
                               <div className="flex flex-wrap gap-2 mt-2">
                                 {event.rewards.map((reward, idx) => (
                                   <span
@@ -327,10 +329,10 @@ export default function EventsPage() {
         {/* Subscribe CTA */}
         <div className="card p-8 mt-8 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 border-2 border-blue-200 dark:border-blue-800 text-center">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-            Never Miss an Event!
+            {t('cta.title')}
           </h2>
           <p className="text-gray-700 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-            Follow our social media channels or enable notifications to stay updated on all upcoming events, updates, and special activities.
+            {t('cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
@@ -338,14 +340,14 @@ export default function EventsPage() {
               className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               <Calendar className="w-5 h-5" />
-              View All Updates
+              {t('cta.viewUpdates')}
             </Link>
             <Link
               href="/community"
               className="inline-flex items-center gap-2 bg-white dark:bg-gray-800 text-blue-600 dark:text-blue-400 border-2 border-blue-600 dark:border-blue-400 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors"
             >
               <Users className="w-5 h-5" />
-              Join Community
+              {t('cta.joinCommunity')}
             </Link>
           </div>
         </div>
