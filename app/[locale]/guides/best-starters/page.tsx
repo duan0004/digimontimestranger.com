@@ -1,49 +1,79 @@
 import { Metadata } from 'next';
-import { generateMetadata, generateFAQSchema } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { ArrowRight, Star, Zap, Shield, Award } from 'lucide-react';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Best Starter Digimon Guide - Top Picks for Early Game Success',
-  description:
-    'Discover the best starter Digimon in Time Stranger for 2025. Complete analysis of early-game choices, evolution paths, stats, and team synergy. Updated for the latest patch.',
-  keywords: [
-    'best starter Digimon',
-    'starter guide',
-    'beginner tips',
-    'early game',
-    'Digimon choices',
-    'starter evolution',
-  ],
-  url: '/guides/best-starters',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
 
-const faqs = [
-  {
-    question: 'What is the best starter Digimon in Time Stranger?',
-    answer: 'Agumon is widely considered the best overall starter due to excellent stats, strong Fire-type offense, and straightforward evolution path to powerful forms like WarGreymon.',
-  },
-  {
-    question: 'Can I get all starters in one playthrough?',
-    answer: 'Yes! While you choose one starter at the beginning, you can recruit all other starter Digimon later through scanning and evolution.',
-  },
-  {
-    question: 'Does my starter choice affect the story?',
-    answer: 'Your starter choice has minor dialogue variations but does not significantly impact the main story. Choose based on playstyle preference.',
-  },
-  {
-    question: 'When should I evolve my starter?',
-    answer: 'Most starters should evolve to Champion around level 15-18. Wait until they learn their signature Rookie-level skills before evolving.',
-  },
-];
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'guides.bestStarters' });
 
-export default function BestStartersGuidePage() {
+  return {
+    title: t('seoTitle'),
+    description: t('seoDescription'),
+    alternates: {
+      canonical: `/${locale}/guides/best-starters`,
+      languages: {
+        'en': '/en/guides/best-starters',
+        'ja': '/ja/guides/best-starters',
+        'es': '/es/guides/best-starters',
+        'fr': '/fr/guides/best-starters',
+        'de': '/de/guides/best-starters',
+        'ko': '/ko/guides/best-starters',
+        'zh-CN': '/zh-CN/guides/best-starters',
+      },
+    },
+  };
+}
+
+async function generateFAQSchema(faqs: Array<{ question: string; answer: string }>) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
+export default async function BestStartersGuidePage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'guides.bestStarters' });
+  const navT = await getTranslations({ locale, namespace: 'nav' });
+
+  const faqs = [
+    {
+      question: t('faqs.q1.question'),
+      answer: t('faqs.q1.answer'),
+    },
+    {
+      question: t('faqs.q2.question'),
+      answer: t('faqs.q2.answer'),
+    },
+    {
+      question: t('faqs.q3.question'),
+      answer: t('faqs.q3.answer'),
+    },
+    {
+      question: t('faqs.q4.question'),
+      answer: t('faqs.q4.answer'),
+    },
+  ];
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(generateFAQSchema(faqs)),
+          __html: JSON.stringify(await generateFAQSchema(faqs)),
         }}
       />
 
@@ -52,22 +82,22 @@ export default function BestStartersGuidePage() {
         <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
           <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
             <div className="flex items-center gap-2 text-blue-200 mb-4">
-              <Link href="/guides" className="hover:text-white transition-colors">
-                Guides
+              <Link href={`/${locale}/guides`} className="hover:text-white transition-colors">
+                {navT('guides')}
               </Link>
               <ArrowRight className="w-4 h-4" />
-              <span>Best Starters</span>
+              <span>{t('breadcrumb')}</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Best Starter Digimon Guide for Time Stranger
+              {t('hero.title')}
             </h1>
             <p className="text-xl text-blue-100">
-              Complete analysis of starter Digimon, evolution paths, and early-game strategies
+              {t('hero.subtitle')}
             </p>
             <div className="flex items-center gap-4 mt-6 text-sm text-blue-200">
-              <span>📅 Updated: January 2025</span>
-              <span>⏱️ 8 min read</span>
-              <span>✍️ By DTS Team</span>
+              <span>{t('hero.updated')}</span>
+              <span>{t('hero.readTime')}</span>
+              <span>{t('hero.author')}</span>
             </div>
           </div>
         </div>
@@ -78,10 +108,10 @@ export default function BestStartersGuidePage() {
             {/* Introduction */}
             <section className="mb-12">
               <p className="text-xl leading-relaxed text-gray-700 dark:text-gray-300">
-                Choosing your first Digimon partner in <strong>Digimon Story: Time Stranger</strong> is one of the most important decisions you&apos;ll make in your journey. While you&apos;ll eventually have access to hundreds of Digimon, your starter will carry you through the critical early game hours and set the foundation for your team composition.
+                {t('intro.paragraph1')}
               </p>
               <p className="text-gray-700 dark:text-gray-300">
-                In this comprehensive guide, we&apos;ll analyze all available starter options, their evolution paths, stat distributions, and ideal team synergies. Whether you&apos;re a returning Digimon veteran or brand new to the series, this guide will help you make an informed choice that matches your playstyle.
+                {t('intro.paragraph2')}
               </p>
             </section>
 
@@ -89,20 +119,20 @@ export default function BestStartersGuidePage() {
             <div className="card p-6 mb-12 bg-gradient-to-br from-blue-50 to-primary-50 dark:from-blue-900/20 dark:to-primary-900/20 border-2 border-primary-200 dark:border-primary-800">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
                 <Award className="w-6 h-6 text-primary-600" />
-                TL;DR - Quick Recommendations
+                {t('quickRecs.title')}
               </h2>
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                 <li className="flex items-start gap-2">
                   <Star className="w-5 h-5 text-yellow-500 flex-shrink-0 mt-1" />
-                  <span><strong>Best Overall:</strong> Agumon - Excellent balanced stats, strong evolution path, beginner-friendly</span>
+                  <span>{t('quickRecs.bestOverall')}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Zap className="w-5 h-5 text-blue-500 flex-shrink-0 mt-1" />
-                  <span><strong>Best for Speed:</strong> Veemon - High speed stat, versatile evolutions, great for outpacing enemies</span>
+                  <span>{t('quickRecs.bestSpeed')}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Shield className="w-5 h-5 text-green-500 flex-shrink-0 mt-1" />
-                  <span><strong>Best for Defense:</strong> Guilmon - Tank build, excellent HP and DEF scaling</span>
+                  <span>{t('quickRecs.bestDefense')}</span>
                 </li>
               </ul>
             </div>
@@ -110,82 +140,76 @@ export default function BestStartersGuidePage() {
             {/* Understanding Starter Mechanics */}
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-                Understanding Starter Mechanics
+                {t('mechanics.title')}
               </h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                Before diving into specific recommendations, it&apos;s crucial to understand how starter Digimon work in Time Stranger:
+                {t('mechanics.intro')}
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300">
-                <li><strong>Permanent Stat Bonus:</strong> Your starter receives a permanent +5% bonus to all base stats, making it slightly stronger than the same Digimon obtained later.</li>
-                <li><strong>Faster ABI Growth:</strong> Starters gain ABI (Ability) points 20% faster, reaching evolution requirements sooner.</li>
-                <li><strong>Special Bond Move:</strong> After reaching Champion stage, your starter unlocks a unique signature move not available to other Digimon of the same species.</li>
-                <li><strong>Memory Efficiency:</strong> Your starter costs -2 Memory in team composition, allowing for more flexible team building.</li>
+                <li>{t('mechanics.statBonus')}</li>
+                <li>{t('mechanics.abiGrowth')}</li>
+                <li>{t('mechanics.bondMove')}</li>
+                <li>{t('mechanics.memoryEfficiency')}</li>
               </ul>
             </section>
 
             {/* Top Starter Digimon */}
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-                Top Starter Digimon Ranked
+                {t('rankings.title')}
               </h2>
 
               {/* Rank 1: Agumon */}
               <div className="card p-6 mb-6">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="flex items-center justify-center w-12 h-12 bg-yellow-500 text-white rounded-full font-bold text-xl">
-                    1
+                    {t('rankings.agumon.rank')}
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                      Agumon - The Perfect All-Rounder
+                      {t('rankings.agumon.name')}
                     </h3>
                     <div className="flex gap-2 mt-1">
-                      <span className="text-xs px-2 py-1 bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300 rounded">Fire</span>
-                      <span className="text-xs px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded">Vaccine</span>
+                      <span className="text-xs px-2 py-1 bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300 rounded">
+                        {t('rankings.agumon.types.0')}
+                      </span>
+                      <span className="text-xs px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded">
+                        {t('rankings.agumon.types.1')}
+                      </span>
                     </div>
                   </div>
                 </div>
 
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  Agumon is the quintessential starter choice and has been a franchise favorite since the original Digimon World. In Time Stranger, Agumon excels in all areas without significant weaknesses.
+                  {t('rankings.agumon.description')}
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-4 mb-4">
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-2">Strengths:</h4>
+                    <h4 className="font-bold text-gray-900 dark:text-white mb-2">{t('rankings.agumon.strengthsTitle')}</h4>
                     <ul className="list-disc pl-6 space-y-1 text-sm text-gray-700 dark:text-gray-300">
-                      <li>Balanced stat distribution perfect for beginners</li>
-                      <li>Strong offensive capabilities with Fire-type moves</li>
-                      <li>Clear evolution path to WarGreymon (top-tier Mega)</li>
-                      <li>Learns Pepper Breath early for strong early damage</li>
-                      <li>Excellent synergy with most team compositions</li>
+                      {[0, 1, 2, 3, 4].map((i) => (
+                        <li key={i}>{t(`rankings.agumon.strengths.${i}`)}</li>
+                      ))}
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-2">Weaknesses:</h4>
+                    <h4 className="font-bold text-gray-900 dark:text-white mb-2">{t('rankings.agumon.weaknessesTitle')}</h4>
                     <ul className="list-disc pl-6 space-y-1 text-sm text-gray-700 dark:text-gray-300">
-                      <li>No significant weaknesses</li>
-                      <li>Slightly slower than Veemon</li>
-                      <li>Fire typing weak to Water (common early-game)</li>
+                      {[0, 1, 2].map((i) => (
+                        <li key={i}>{t(`rankings.agumon.weaknesses.${i}`)}</li>
+                      ))}
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
                   <h4 className="font-bold text-gray-900 dark:text-white mb-2">Evolution Path:</h4>
-                  <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300 overflow-x-auto">
-                    <span className="font-semibold whitespace-nowrap">Koromon</span>
-                    <ArrowRight className="w-4 h-4" />
-                    <span className="font-semibold whitespace-nowrap">Agumon</span>
-                    <ArrowRight className="w-4 h-4" />
-                    <span className="font-semibold whitespace-nowrap">Greymon</span>
-                    <ArrowRight className="w-4 h-4" />
-                    <span className="font-semibold whitespace-nowrap">MetalGreymon</span>
-                    <ArrowRight className="w-4 h-4" />
-                    <span className="font-semibold whitespace-nowrap">WarGreymon</span>
-                  </div>
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                    <strong>Evolution Tip:</strong> Wait until Level 16 to evolve to Greymon after learning Claw Swipe.
+                  <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
+                    {t('rankings.agumon.evolutionPath')}
+                  </p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    {t('rankings.agumon.evolutionTip')}
                   </p>
                 </div>
               </div>
@@ -194,60 +218,53 @@ export default function BestStartersGuidePage() {
               <div className="card p-6 mb-6">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="flex items-center justify-center w-12 h-12 bg-gray-400 text-white rounded-full font-bold text-xl">
-                    2
+                    {t('rankings.veemon.rank')}
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                      Veemon - The Speed Demon
+                      {t('rankings.veemon.name')}
                     </h3>
                     <div className="flex gap-2 mt-1">
-                      <span className="text-xs px-2 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-700 dark:text-yellow-300 rounded">Light</span>
-                      <span className="text-xs px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300 rounded">Free</span>
+                      <span className="text-xs px-2 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-700 dark:text-yellow-300 rounded">
+                        {t('rankings.veemon.types.0')}
+                      </span>
+                      <span className="text-xs px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300 rounded">
+                        {t('rankings.veemon.types.1')}
+                      </span>
                     </div>
                   </div>
                 </div>
 
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  Veemon is the ideal choice for players who value speed and versatility. With the highest Speed stat among starters and multiple evolution branches, Veemon offers exceptional tactical flexibility.
+                  {t('rankings.veemon.description')}
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-4 mb-4">
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-2">Strengths:</h4>
+                    <h4 className="font-bold text-gray-900 dark:text-white mb-2">{t('rankings.veemon.strengthsTitle')}</h4>
                     <ul className="list-disc pl-6 space-y-1 text-sm text-gray-700 dark:text-gray-300">
-                      <li>Highest Speed stat (60 base) among all starters</li>
-                      <li>Multiple evolution paths (ExVeemon, Veedramon, Flamedramon)</li>
-                      <li>Excellent for competitive play and speedrun strategies</li>
-                      <li>Free attribute makes it neutral to most matchups</li>
-                      <li>Can pivot team composition based on evolution choice</li>
+                      {[0, 1, 2, 3, 4].map((i) => (
+                        <li key={i}>{t(`rankings.veemon.strengths.${i}`)}</li>
+                      ))}
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-2">Weaknesses:</h4>
+                    <h4 className="font-bold text-gray-900 dark:text-white mb-2">{t('rankings.veemon.weaknessesTitle')}</h4>
                     <ul className="list-disc pl-6 space-y-1 text-sm text-gray-700 dark:text-gray-300">
-                      <li>Lower HP and DEF compared to other starters</li>
-                      <li>Requires more strategic positioning</li>
-                      <li>Some evolution paths are harder to unlock</li>
-                      <li>Glass cannon playstyle not beginner-friendly</li>
+                      {[0, 1, 2, 3].map((i) => (
+                        <li key={i}>{t(`rankings.veemon.weaknesses.${i}`)}</li>
+                      ))}
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
                   <h4 className="font-bold text-gray-900 dark:text-white mb-2">Recommended Evolution Path:</h4>
-                  <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300 overflow-x-auto">
-                    <span className="font-semibold whitespace-nowrap">DemiVeemon</span>
-                    <ArrowRight className="w-4 h-4" />
-                    <span className="font-semibold whitespace-nowrap">Veemon</span>
-                    <ArrowRight className="w-4 h-4" />
-                    <span className="font-semibold whitespace-nowrap">ExVeemon</span>
-                    <ArrowRight className="w-4 h-4" />
-                    <span className="font-semibold whitespace-nowrap">Paildramon</span>
-                    <ArrowRight className="w-4 h-4" />
-                    <span className="font-semibold whitespace-nowrap">Imperialdramon</span>
-                  </div>
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                    <strong>Evolution Tip:</strong> Paildramon requires ExVeemon + Stingmon DNA Digivolution. Plan ahead.
+                  <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
+                    {t('rankings.veemon.evolutionPath')}
+                  </p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    {t('rankings.veemon.evolutionTip')}
                   </p>
                 </div>
               </div>
@@ -256,60 +273,53 @@ export default function BestStartersGuidePage() {
               <div className="card p-6 mb-6">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="flex items-center justify-center w-12 h-12 bg-orange-600 text-white rounded-full font-bold text-xl">
-                    3
+                    {t('rankings.guilmon.rank')}
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                      Guilmon - The Tank
+                      {t('rankings.guilmon.name')}
                     </h3>
                     <div className="flex gap-2 mt-1">
-                      <span className="text-xs px-2 py-1 bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300 rounded">Fire</span>
-                      <span className="text-xs px-2 py-1 bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300 rounded">Virus</span>
+                      <span className="text-xs px-2 py-1 bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300 rounded">
+                        {t('rankings.guilmon.types.0')}
+                      </span>
+                      <span className="text-xs px-2 py-1 bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300 rounded">
+                        {t('rankings.guilmon.types.1')}
+                      </span>
                     </div>
                   </div>
                 </div>
 
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  Guilmon is the tank specialist among starters. With exceptional HP and DEF scaling, Guilmon can take hits that would KO other Digimon, making it perfect for defensive playstyles.
+                  {t('rankings.guilmon.description')}
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-4 mb-4">
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-2">Strengths:</h4>
+                    <h4 className="font-bold text-gray-900 dark:text-white mb-2">{t('rankings.guilmon.strengthsTitle')}</h4>
                     <ul className="list-disc pl-6 space-y-1 text-sm text-gray-700 dark:text-gray-300">
-                      <li>Highest HP (62 base) and DEF (50 base) among starters</li>
-                      <li>Can survive boss attacks in early-mid game</li>
-                      <li>Evolution to Gallantmon is extremely powerful</li>
-                      <li>Virus attribute effective against Vaccine bosses</li>
-                      <li>Learns Rock Breaker for AOE damage</li>
+                      {[0, 1, 2, 3, 4].map((i) => (
+                        <li key={i}>{t(`rankings.guilmon.strengths.${i}`)}</li>
+                      ))}
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-2">Weaknesses:</h4>
+                    <h4 className="font-bold text-gray-900 dark:text-white mb-2">{t('rankings.guilmon.weaknessesTitle')}</h4>
                     <ul className="list-disc pl-6 space-y-1 text-sm text-gray-700 dark:text-gray-300">
-                      <li>Slowest Speed stat (48 base)</li>
-                      <li>Often moves last in battle</li>
-                      <li>Lower SP.ATK makes special moves less effective</li>
-                      <li>Gallantmon evolution path requires late-game items</li>
+                      {[0, 1, 2, 3].map((i) => (
+                        <li key={i}>{t(`rankings.guilmon.weaknesses.${i}`)}</li>
+                      ))}
                     </ul>
                   </div>
                 </div>
 
                 <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
                   <h4 className="font-bold text-gray-900 dark:text-white mb-2">Evolution Path:</h4>
-                  <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300 overflow-x-auto">
-                    <span className="font-semibold whitespace-nowrap">Gigimon</span>
-                    <ArrowRight className="w-4 h-4" />
-                    <span className="font-semibold whitespace-nowrap">Guilmon</span>
-                    <ArrowRight className="w-4 h-4" />
-                    <span className="font-semibold whitespace-nowrap">Growlmon</span>
-                    <ArrowRight className="w-4 h-4" />
-                    <span className="font-semibold whitespace-nowrap">WarGrowlmon</span>
-                    <ArrowRight className="w-4 h-4" />
-                    <span className="font-semibold whitespace-nowrap">Gallantmon</span>
-                  </div>
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                    <strong>Evolution Tip:</strong> Save &quot;Crimson Mode&quot; evolution for post-game content.
+                  <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
+                    {t('rankings.guilmon.evolutionPath')}
+                  </p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    {t('rankings.guilmon.evolutionTip')}
                   </p>
                 </div>
               </div>
@@ -318,31 +328,31 @@ export default function BestStartersGuidePage() {
             {/* Team Building Tips */}
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-                Early Game Team Building Tips
+                {t('teamBuilding.title')}
               </h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                Your starter is just the foundation. Here&apos;s how to build a balanced early-game team around each starter:
+                {t('teamBuilding.intro')}
               </p>
 
               <div className="space-y-4">
                 <div className="card p-4">
                   <h4 className="font-bold text-gray-900 dark:text-white mb-2">For Agumon Starters:</h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    Add a Water-type like Gomamon or Palmon (Plant) to cover Fire&apos;s weakness. Include a support Digimon like Patamon for healing.
+                    {t('teamBuilding.agumonTip')}
                   </p>
                 </div>
 
                 <div className="card p-4">
                   <h4 className="font-bold text-gray-900 dark:text-white mb-2">For Veemon Starters:</h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    Since Veemon lacks bulk, add defensive Digimon like Armadillomon or Kotemon. Use Veemon&apos;s speed to strike first and eliminate threats.
+                    {t('teamBuilding.veemonTip')}
                   </p>
                 </div>
 
                 <div className="card p-4">
                   <h4 className="font-bold text-gray-900 dark:text-white mb-2">For Guilmon Starters:</h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    Complement Guilmon&apos;s slow speed with fast attackers like Terriermon or Renamon. Let Guilmon tank hits while others deal damage.
+                    {t('teamBuilding.guilmonTip')}
                   </p>
                 </div>
               </div>
@@ -351,27 +361,33 @@ export default function BestStartersGuidePage() {
             {/* Common Mistakes */}
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-                Common Starter Mistakes to Avoid
+                {t('mistakes.title')}
               </h2>
               <div className="space-y-4">
                 <div className="border-l-4 border-red-500 pl-4 py-2 bg-red-50 dark:bg-red-900/20">
-                  <h4 className="font-bold text-red-900 dark:text-red-300 mb-1">❌ Evolving Too Early</h4>
+                  <h4 className="font-bold text-red-900 dark:text-red-300 mb-1">
+                    {t('mistakes.evolvingEarly.title')}
+                  </h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    Wait until your starter learns its signature Rookie-level move before evolving. For Agumon, that&apos;s Claw Swipe at Level 16.
+                    {t('mistakes.evolvingEarly.description')}
                   </p>
                 </div>
 
                 <div className="border-l-4 border-red-500 pl-4 py-2 bg-red-50 dark:bg-red-900/20">
-                  <h4 className="font-bold text-red-900 dark:text-red-300 mb-1">❌ Ignoring ABI Training</h4>
+                  <h4 className="font-bold text-red-900 dark:text-red-300 mb-1">
+                    {t('mistakes.ignoringABI.title')}
+                  </h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    ABI (Ability) points are crucial for reaching Mega evolutions. Use the DigiFarm to train ABI even when not actively using your starter.
+                    {t('mistakes.ignoringABI.description')}
                   </p>
                 </div>
 
                 <div className="border-l-4 border-red-500 pl-4 py-2 bg-red-50 dark:bg-red-900/20">
-                  <h4 className="font-bold text-red-900 dark:text-red-300 mb-1">❌ Over-Relying on Your Starter</h4>
+                  <h4 className="font-bold text-red-900 dark:text-red-300 mb-1">
+                    {t('mistakes.overRelying.title')}
+                  </h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    While starters are strong, don&apos;t neglect building a diverse team. Some bosses will hard counter your starter&apos;s typing.
+                    {t('mistakes.overRelying.description')}
                   </p>
                 </div>
               </div>
@@ -380,7 +396,7 @@ export default function BestStartersGuidePage() {
             {/* FAQ Section */}
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-                Frequently Asked Questions
+                {t('faqs.title')}
               </h2>
               <div className="space-y-4">
                 {faqs.map((faq, index) => (
@@ -399,33 +415,33 @@ export default function BestStartersGuidePage() {
             {/* Conclusion */}
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-                Final Verdict
+                {t('conclusion.title')}
               </h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                While all starters are viable in Time Stranger, <strong>Agumon</strong> remains the safest and most beginner-friendly choice. Its balanced stats, straightforward evolution path, and powerful end-game form make it an excellent companion from start to finish.
+                {t('conclusion.paragraph1')}
               </p>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                However, if you value speed and tactical depth, <strong>Veemon</strong> offers incredible versatility. For players who prefer defensive playstyles, <strong>Guilmon&apos;s</strong> tankiness is unmatched.
+                {t('conclusion.paragraph2')}
               </p>
               <p className="text-gray-700 dark:text-gray-300">
-                Remember: your starter choice matters most for the first 10-15 hours of gameplay. By mid-game, you&apos;ll have access to dozens of powerful Digimon, so choose the starter that appeals to your personal playstyle and enjoy the journey!
+                {t('conclusion.paragraph3')}
               </p>
             </section>
 
             {/* Related Guides */}
             <div className="card p-6 bg-gradient-to-br from-primary-50 to-blue-50 dark:from-primary-900/20 dark:to-blue-900/20">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                📚 Related Guides
+                {t('relatedGuides.title')}
               </h3>
               <div className="space-y-2">
-                <Link href="/guides/fast-leveling" className="block text-primary-600 dark:text-primary-400 hover:underline">
-                  → Fast Leveling Routes Guide
+                <Link href={`/${locale}/guides/fast-leveling`} className="block text-primary-600 dark:text-primary-400 hover:underline">
+                  {t('relatedGuides.fastLeveling')}
                 </Link>
-                <Link href="/guides/evolution-guide" className="block text-primary-600 dark:text-primary-400 hover:underline">
-                  → Complete Evolution Guide
+                <Link href={`/${locale}/guides/evolution-guide`} className="block text-primary-600 dark:text-primary-400 hover:underline">
+                  {t('relatedGuides.evolutionGuide')}
                 </Link>
-                <Link href="/tools/team-builder" className="block text-primary-600 dark:text-primary-400 hover:underline">
-                  → Team Builder Tool
+                <Link href={`/${locale}/tools/team-builder`} className="block text-primary-600 dark:text-primary-400 hover:underline">
+                  {t('relatedGuides.teamBuilder')}
                 </Link>
               </div>
             </div>

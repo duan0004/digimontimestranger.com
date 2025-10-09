@@ -119,6 +119,171 @@
       "evolution": "Evolución",
       "team": "Formación de Equipos",
       "story": "Historia"
+    },
+    "bestStarters": {
+      "title": "Guía de Mejores Digimon Iniciales para Time Stranger",
+      "description": "Análisis completo de Digimon iniciales, rutas de evolución y estrategias de juego temprano",
+      "breadcrumb": "Mejores Iniciales",
+      "seoTitle": "Guía de Mejores Digimon Iniciales - Las Mejores Opciones para el Éxito Temprano",
+      "seoDescription": "Descubre los mejores Digimon iniciales en Time Stranger para 2025. Análisis completo de opciones tempranas, rutas de evolución, estadísticas y sinergia de equipo.",
+      "hero": {
+        "title": "Guía de Mejores Digimon Iniciales para Time Stranger",
+        "subtitle": "Análisis completo de Digimon iniciales, rutas de evolución y estrategias de juego temprano",
+        "updated": "Actualizado: Enero 2025",
+        "readTime": "8 min de lectura",
+        "author": "Por Equipo DTS"
+      },
+      "intro": {
+        "paragraph1": "Choosing your first Digimon partner in Digimon Story: Time Stranger is one of the most important decisions you'll make in your journey. While you'll eventually have access to hundreds of Digimon, your starter will carry you through the critical early game hours and set the foundation for your team composition.",
+        "paragraph2": "In this comprehensive guide, we'll analyze all available starter options, their evolution paths, stat distributions, and ideal team synergies. Whether you're a returning Digimon veteran or brand new to the series, this guide will help you make an informed choice that matches your playstyle."
+      },
+      "quickRecs": {
+        "title": "TL;DR - Quick Recommendations",
+        "bestOverall": "Best Overall: Agumon - Excellent balanced stats, strong evolution path, beginner-friendly",
+        "bestSpeed": "Best for Speed: Veemon - High speed stat, versatile evolutions, great for outpacing enemies",
+        "bestDefense": "Best for Defense: Guilmon - Tank build, excellent HP and DEF scaling"
+      },
+      "mechanics": {
+        "title": "Understanding Starter Mechanics",
+        "intro": "Before diving into specific recommendations, it's crucial to understand how starter Digimon work in Time Stranger:",
+        "statBonus": "Permanent Stat Bonus: Your starter receives a permanent +5% bonus to all base stats, making it slightly stronger than the same Digimon obtained later.",
+        "abiGrowth": "Faster ABI Growth: Starters gain ABI (Ability) points 20% faster, reaching evolution requirements sooner.",
+        "bondMove": "Special Bond Move: After reaching Champion stage, your starter unlocks a unique signature move not available to other Digimon of the same species.",
+        "memoryEfficiency": "Memory Efficiency: Your starter costs -2 Memory in team composition, allowing for more flexible team building."
+      },
+      "rankings": {
+        "title": "Top Starter Digimon Ranked",
+        "agumon": {
+          "rank": "1",
+          "name": "Agumon - The Perfect All-Rounder",
+          "types": [
+            "Fire",
+            "Vaccine"
+          ],
+          "description": "Agumon is the quintessential starter choice and has been a franchise favorite since the original Digimon World. In Time Stranger, Agumon excels in all areas without significant weaknesses.",
+          "strengthsTitle": "Strengths:",
+          "strengths": [
+            "Balanced stat distribution perfect for beginners",
+            "Strong offensive capabilities with Fire-type moves",
+            "Clear evolution path to WarGreymon (top-tier Mega)",
+            "Learns Pepper Breath early for strong early damage",
+            "Excellent synergy with most team compositions"
+          ],
+          "weaknessesTitle": "Weaknesses:",
+          "weaknesses": [
+            "No significant weaknesses",
+            "Slightly slower than Veemon",
+            "Fire typing weak to Water (common early-game)"
+          ],
+          "evolutionPath": "Koromon → Agumon → Greymon → MetalGreymon → WarGreymon",
+          "evolutionTip": "Evolution Tip: Wait until Level 16 to evolve to Greymon after learning Claw Swipe."
+        },
+        "veemon": {
+          "rank": "2",
+          "name": "Veemon - The Speed Demon",
+          "types": [
+            "Light",
+            "Free"
+          ],
+          "description": "Veemon is the ideal choice for players who value speed and versatility. With the highest Speed stat among starters and multiple evolution branches, Veemon offers exceptional tactical flexibility.",
+          "strengthsTitle": "Strengths:",
+          "strengths": [
+            "Highest Speed stat (60 base) among all starters",
+            "Multiple evolution paths (ExVeemon, Veedramon, Flamedramon)",
+            "Excellent for competitive play and speedrun strategies",
+            "Free attribute makes it neutral to most matchups",
+            "Can pivot team composition based on evolution choice"
+          ],
+          "weaknessesTitle": "Weaknesses:",
+          "weaknesses": [
+            "Lower HP and DEF compared to other starters",
+            "Requires more strategic positioning",
+            "Some evolution paths are harder to unlock",
+            "Glass cannon playstyle not beginner-friendly"
+          ],
+          "evolutionPath": "DemiVeemon → Veemon → ExVeemon → Paildramon → Imperialdramon",
+          "evolutionTip": "Evolution Tip: Paildramon requires ExVeemon + Stingmon DNA Digivolution. Plan ahead."
+        },
+        "guilmon": {
+          "rank": "3",
+          "name": "Guilmon - The Tank",
+          "types": [
+            "Fire",
+            "Virus"
+          ],
+          "description": "Guilmon is the tank specialist among starters. With exceptional HP and DEF scaling, Guilmon can take hits that would KO other Digimon, making it perfect for defensive playstyles.",
+          "strengthsTitle": "Strengths:",
+          "strengths": [
+            "Highest HP (62 base) and DEF (50 base) among starters",
+            "Can survive boss attacks in early-mid game",
+            "Evolution to Gallantmon is extremely powerful",
+            "Virus attribute effective against Vaccine bosses",
+            "Learns Rock Breaker for AOE damage"
+          ],
+          "weaknessesTitle": "Weaknesses:",
+          "weaknesses": [
+            "Slowest Speed stat (48 base)",
+            "Often moves last in battle",
+            "Lower SP.ATK makes special moves less effective",
+            "Gallantmon evolution path requires late-game items"
+          ],
+          "evolutionPath": "Gigimon → Guilmon → Growlmon → WarGrowlmon → Gallantmon",
+          "evolutionTip": "Evolution Tip: Save \"Crimson Mode\" evolution for post-game content."
+        }
+      },
+      "teamBuilding": {
+        "title": "Early Game Team Building Tips",
+        "intro": "Your starter is just the foundation. Here's how to build a balanced early-game team around each starter:",
+        "agumonTip": "For Agumon Starters: Add a Water-type like Gomamon or Palmon (Plant) to cover Fire's weakness. Include a support Digimon like Patamon for healing.",
+        "veemonTip": "For Veemon Starters: Since Veemon lacks bulk, add defensive Digimon like Armadillomon or Kotemon. Use Veemon's speed to strike first and eliminate threats.",
+        "guilmonTip": "For Guilmon Starters: Complement Guilmon's slow speed with fast attackers like Terriermon or Renamon. Let Guilmon tank hits while others deal damage."
+      },
+      "mistakes": {
+        "title": "Common Starter Mistakes to Avoid",
+        "evolvingEarly": {
+          "title": "Evolving Too Early",
+          "description": "Wait until your starter learns its signature Rookie-level move before evolving. For Agumon, that's Claw Swipe at Level 16."
+        },
+        "ignoringABI": {
+          "title": "Ignoring ABI Training",
+          "description": "ABI (Ability) points are crucial for reaching Mega evolutions. Use the DigiFarm to train ABI even when not actively using your starter."
+        },
+        "overRelying": {
+          "title": "Over-Relying on Your Starter",
+          "description": "While starters are strong, don't neglect building a diverse team. Some bosses will hard counter your starter's typing."
+        }
+      },
+      "faqs": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "What is the best starter Digimon in Time Stranger?",
+          "answer": "Agumon is widely considered the best overall starter due to excellent stats, strong Fire-type offense, and straightforward evolution path to powerful forms like WarGreymon."
+        },
+        "q2": {
+          "question": "Can I get all starters in one playthrough?",
+          "answer": "Yes! While you choose one starter at the beginning, you can recruit all other starter Digimon later through scanning and evolution."
+        },
+        "q3": {
+          "question": "Does my starter choice affect the story?",
+          "answer": "Your starter choice has minor dialogue variations but does not significantly impact the main story. Choose based on playstyle preference."
+        },
+        "q4": {
+          "question": "When should I evolve my starter?",
+          "answer": "Most starters should evolve to Champion around level 15-18. Wait until they learn their signature Rookie-level skills before evolving."
+        }
+      },
+      "conclusion": {
+        "title": "Final Verdict",
+        "paragraph1": "While all starters are viable in Time Stranger, Agumon remains the safest and most beginner-friendly choice. Its balanced stats, straightforward evolution path, and powerful end-game form make it an excellent companion from start to finish.",
+        "paragraph2": "However, if you value speed and tactical depth, Veemon offers incredible versatility. For players who prefer defensive playstyles, Guilmon's tankiness is unmatched.",
+        "paragraph3": "Remember: your starter choice matters most for the first 10-15 hours of gameplay. By mid-game, you'll have access to dozens of powerful Digimon, so choose the starter that appeals to your personal playstyle and enjoy the journey!"
+      },
+      "relatedGuides": {
+        "title": "Related Guides",
+        "fastLeveling": "Fast Leveling Routes Guide",
+        "evolutionGuide": "Complete Evolution Guide",
+        "teamBuilder": "Team Builder Tool"
+      }
     }
   },
   "evolution": {
