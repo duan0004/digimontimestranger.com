@@ -284,6 +284,48 @@
         "evolutionGuide": "Complete Evolution Guide",
         "teamBuilder": "Team Builder Tool"
       }
+    },
+    "evolutionGuide": {
+      "title": "Evolution Guide",
+      "description": "Master the art of Digivolution and unlock your Digimon's full potential",
+      "breadcrumb": "Evolution Guide",
+      "seoTitle": "Evolution Guide - Master Digivolution in Time Stranger",
+      "seoDescription": "Complete evolution guide for Digimon Story: Time Stranger. Learn evolution mechanics, requirements, optimal timing, and digivolution strategies."
+    },
+    "fastLeveling": {
+      "title": "Fast Leveling Guide",
+      "description": "Master efficient XP grinding and reach max level faster with optimal strategies",
+      "breadcrumb": "Fast Leveling",
+      "seoTitle": "Fast Leveling Guide - Efficient XP Grinding in Time Stranger",
+      "seoDescription": "Complete fast leveling guide for Digimon Story: Time Stranger. Learn optimal grinding locations, XP optimization, team leveling strategies, and efficient progression routes."
+    },
+    "teamBuilding": {
+      "title": "Team Building Guide",
+      "description": "Master team composition and synergy to dominate every battle",
+      "breadcrumb": "Team Building",
+      "seoTitle": "Team Building Guide - Build the Ultimate Team",
+      "seoDescription": "Master team composition in Digimon Story: Time Stranger. Learn role balance, synergy strategies, and how to build competitive teams."
+    },
+    "bossStrategies": {
+      "title": "Boss Battle Strategies",
+      "description": "Master advanced tactics to defeat the toughest encounters in Time Stranger",
+      "breadcrumb": "Boss Strategies",
+      "seoTitle": "Boss Battle Strategies - Master Difficult Encounters",
+      "seoDescription": "Comprehensive boss battle strategies for Digimon Story: Time Stranger. Learn tactics, counter strategies, team compositions, and preparation tips to defeat any boss."
+    },
+    "storyBranches": {
+      "title": "Story Branches & Timeline Guide",
+      "description": "Navigate the branching paths and unlock all endings",
+      "breadcrumb": "Story Branches",
+      "seoTitle": "Story Branches & Timeline Guide - Multiple Endings",
+      "seoDescription": "Complete guide to story branches, key decisions, and multiple endings in Digimon Time Stranger. Learn how your choices affect the timeline and unlock all endings."
+    },
+    "collectibles": {
+      "title": "Collectibles Guide",
+      "description": "Find every hidden treasure and collectible across all 9 chapters",
+      "breadcrumb": "Collectibles",
+      "seoTitle": "Collectibles Guide - Complete List & Locations",
+      "seoDescription": "Complete guide to all collectibles in Digimon Time Stranger. Find every Ancient Tablet Fragment, rare item, and hidden treasure across all 9 chapters."
     }
   },
   "evolution": {

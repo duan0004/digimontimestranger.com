@@ -1,21 +1,30 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as generateSEOMetadata } from '@/lib/seo';
 import Link from 'next/link';
 import { TrendingUp, ArrowLeft, AlertCircle, CheckCircle, Star, Zap, Shield, Brain } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Evolution Guide - Master Digivolution in Time Stranger',
-  description:
-    'Complete evolution guide for Digimon Story: Time Stranger. Learn evolution mechanics, requirements, optimal timing, and digivolution strategies.',
-  keywords: [
-    'evolution guide',
-    'digivolution',
-    'evolution requirements',
-    'evolution mechanics',
-    'digimon evolution',
-  ],
-  url: '/guides/evolution-guide',
-});
+type PageProps = {
+  params: { locale: string };
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'guides.evolutionGuide' });
+
+  return generateSEOMetadata({
+    title: t('seoTitle'),
+    description: t('seoDescription'),
+    keywords: [
+      'evolution guide',
+      'digivolution',
+      'evolution requirements',
+      'evolution mechanics',
+      'digimon evolution',
+    ],
+    url: `/${locale}/guides/evolution-guide`,
+  });
+}
 
 const evolutionStages = [
   {
@@ -99,27 +108,31 @@ const requirementTypes = [
   },
 ];
 
-export default function EvolutionGuidePage() {
+export default async function EvolutionGuidePage({ params }: PageProps) {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'guides.evolutionGuide' });
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Link
-            href="/guides"
+            href={`/${locale}/guides`}
             className="inline-flex items-center gap-2 text-blue-100 hover:text-white mb-4 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Guides
+            Back to {tNav('guides')}
           </Link>
           <div className="flex items-center gap-4 mb-4">
             <TrendingUp className="w-12 h-12" />
             <h1 className="text-4xl md:text-5xl font-bold">
-              Evolution Guide
+              {t('title')}
             </h1>
           </div>
           <p className="text-xl text-blue-100">
-            Master the art of Digivolution and unlock your Digimon's full potential
+            {t('description')}
           </p>
         </div>
       </div>
@@ -218,7 +231,7 @@ export default function EvolutionGuidePage() {
                 1. Plan Your Evolution Path
               </h3>
               <p className="text-gray-700 dark:text-gray-300 mb-2">
-                Use the <Link href="/evolution" className="text-primary-600 dark:text-primary-400 hover:underline">Evolution Tree</Link> to
+                Use the <Link href={`/${locale}/evolution`} className="text-primary-600 dark:text-primary-400 hover:underline">Evolution Tree</Link> to
                 visualize complete evolution paths before committing.
               </p>
               <ul className="space-y-1 ml-4">
@@ -354,22 +367,22 @@ export default function EvolutionGuidePage() {
               <h3 className="font-bold text-gray-900 dark:text-white mb-3">Essential Tools</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="/digidex" className="text-primary-600 dark:text-primary-400 hover:underline">
+                  <Link href={`/${locale}/digidex`} className="text-primary-600 dark:text-primary-400 hover:underline">
                     → Digidex (Requirements)
                   </Link>
                 </li>
                 <li>
-                  <Link href="/evolution" className="text-primary-600 dark:text-primary-400 hover:underline">
+                  <Link href={`/${locale}/evolution`} className="text-primary-600 dark:text-primary-400 hover:underline">
                     → Evolution Tree
                   </Link>
                 </li>
                 <li>
-                  <Link href="/database/personalities" className="text-primary-600 dark:text-primary-400 hover:underline">
+                  <Link href={`/${locale}/database/personalities`} className="text-primary-600 dark:text-primary-400 hover:underline">
                     → Personalities Guide
                   </Link>
                 </li>
                 <li>
-                  <Link href="/database/stats" className="text-primary-600 dark:text-primary-400 hover:underline">
+                  <Link href={`/${locale}/database/stats`} className="text-primary-600 dark:text-primary-400 hover:underline">
                     → Stats Guide
                   </Link>
                 </li>

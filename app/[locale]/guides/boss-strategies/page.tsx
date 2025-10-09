@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as generateSEOMetadata } from '@/lib/seo';
 import Link from 'next/link';
 import {
   Sword,
@@ -16,22 +16,31 @@ import {
   Users,
   Package
 } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Boss Battle Strategies - Master Difficult Encounters',
-  description:
-    'Comprehensive boss battle strategies for Digimon Story: Time Stranger. Learn tactics, counter strategies, team compositions, and preparation tips to defeat any boss.',
-  keywords: [
-    'boss strategies',
-    'boss battles',
-    'tactics',
-    'counter strategies',
-    'team composition',
-    'boss guide',
-    'difficult encounters',
-  ],
-  url: '/guides/boss-strategies',
-});
+type PageProps = {
+  params: { locale: string };
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'guides.bossStrategies' });
+
+  return generateSEOMetadata({
+    title: t('seoTitle'),
+    description: t('seoDescription'),
+    keywords: [
+      'boss strategies',
+      'boss battles',
+      'tactics',
+      'counter strategies',
+      'team composition',
+      'boss guide',
+      'difficult encounters',
+    ],
+    url: `/${locale}/guides/boss-strategies`,
+  });
+}
 
 const bossTypes = [
   {
@@ -369,27 +378,31 @@ const bossSpecificTips = [
   },
 ];
 
-export default function BossStrategiesPage() {
+export default async function BossStrategiesPage({ params }: PageProps) {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'guides.bossStrategies' });
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Link
-            href="/guides"
+            href={`/${locale}/guides`}
             className="inline-flex items-center gap-2 text-red-100 hover:text-white mb-4 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Guides
+            Back to {tNav('guides')}
           </Link>
           <div className="flex items-center gap-4 mb-4">
             <Sword className="w-12 h-12" />
             <h1 className="text-4xl md:text-5xl font-bold">
-              Boss Battle Strategies
+              {t('title')}
             </h1>
           </div>
           <p className="text-xl text-red-100">
-            Master advanced tactics to defeat the toughest encounters in Time Stranger
+            {t('description')}
           </p>
         </div>
       </div>
@@ -1018,15 +1031,15 @@ export default function BossStrategiesPage() {
           <div className="mt-6 p-4 bg-primary-50 dark:bg-primary-900/20 rounded-lg border-2 border-primary-200 dark:border-primary-800">
             <p className="text-sm text-gray-700 dark:text-gray-300">
               <strong>Related Resources:</strong> Use the{' '}
-              <Link href="/tools/team-builder" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
+              <Link href={`/${locale}/tools/team-builder`} className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
                 Team Builder Tool
               </Link>{' '}
               to plan your boss-fighting teams, and check the{' '}
-              <Link href="/digidex" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
+              <Link href={`/${locale}/digidex`} className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
                 Digidex
               </Link>{' '}
               to find Digimon with the right stats and skills for your strategy. Also review{' '}
-              <Link href="/guides/team-building" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
+              <Link href={`/${locale}/guides/team-building`} className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
                 Team Building Guide
               </Link>{' '}
               for more composition tips.

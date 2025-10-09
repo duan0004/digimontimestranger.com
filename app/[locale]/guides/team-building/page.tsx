@@ -1,22 +1,31 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as generateSEOMetadata } from '@/lib/seo';
 import Link from 'next/link';
 import { Users, ArrowLeft, Sword, Shield, Heart, Sparkles, Zap, Target } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Team Building Guide - Build the Ultimate Team',
-  description:
-    'Master team composition in Digimon Story: Time Stranger. Learn role balance, synergy strategies, and how to build competitive teams.',
-  keywords: [
-    'team building',
-    'team composition',
-    'party setup',
-    'synergy',
-    'roles',
-    'strategy',
-  ],
-  url: '/guides/team-building',
-});
+type PageProps = {
+  params: { locale: string };
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'guides.teamBuilding' });
+
+  return generateSEOMetadata({
+    title: t('seoTitle'),
+    description: t('seoDescription'),
+    keywords: [
+      'team building',
+      'team composition',
+      'party setup',
+      'synergy',
+      'roles',
+      'strategy',
+    ],
+    url: `/${locale}/guides/team-building`,
+  });
+}
 
 const teamRoles = [
   {
@@ -161,27 +170,31 @@ const synergyTips = [
   },
 ];
 
-export default function TeamBuildingGuidePage() {
+export default async function TeamBuildingGuidePage({ params }: PageProps) {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'guides.teamBuilding' });
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Link
-            href="/guides"
+            href={`/${locale}/guides`}
             className="inline-flex items-center gap-2 text-blue-100 hover:text-white mb-4 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Guides
+            Back to {tNav('guides')}
           </Link>
           <div className="flex items-center gap-4 mb-4">
             <Users className="w-12 h-12" />
             <h1 className="text-4xl md:text-5xl font-bold">
-              Team Building Guide
+              {t('title')}
             </h1>
           </div>
           <p className="text-xl text-blue-100">
-            Master team composition and synergy to dominate every battle
+            {t('description')}
           </p>
         </div>
       </div>
@@ -498,7 +511,7 @@ export default function TeamBuildingGuidePage() {
 
           <div className="mt-6">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              💡 <strong>Tip:</strong> Use the <Link href="/tools/team-builder" className="text-primary-600 dark:text-primary-400 hover:underline">Team Builder Tool</Link> to
+              💡 <strong>Tip:</strong> Use the <Link href={`/${locale}/tools/team-builder`} className="text-primary-600 dark:text-primary-400 hover:underline">Team Builder Tool</Link> to
               plan and optimize your team composition before committing resources.
             </p>
           </div>

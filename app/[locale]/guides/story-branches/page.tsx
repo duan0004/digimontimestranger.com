@@ -1,15 +1,28 @@
 import { Metadata } from 'next';
-import { generateMetadata as generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEOMetadata } from '@/lib/seo';
 import Link from 'next/link';
 import { GitBranch, AlertTriangle, Star, CheckCircle2, ArrowRight, Info, Trophy, Heart, Zap } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = generateSEO({
-  title: 'Story Branches & Timeline Guide - Multiple Endings',
-  description: 'Complete guide to story branches, key decisions, and multiple endings in Digimon Time Stranger. Learn how your choices affect the timeline and unlock all endings.',
-  url: '/guides/story-branches',
-});
+type PageProps = {
+  params: { locale: string };
+};
 
-export default function StoryBranchesPage() {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'guides.storyBranches' });
+
+  return generateSEOMetadata({
+    title: t('seoTitle'),
+    description: t('seoDescription'),
+    url: `/${locale}/guides/story-branches`,
+  });
+}
+
+export default async function StoryBranchesPage({ params }: PageProps) {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'guides.storyBranches' });
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
       <div className="container mx-auto px-4 py-8 max-w-6xl">
@@ -18,8 +31,8 @@ export default function StoryBranchesPage() {
           <div className="flex items-center gap-3 mb-4">
             <GitBranch className="w-12 h-12" />
             <div>
-              <h1 className="text-4xl font-bold">Story Branches & Timeline Guide</h1>
-              <p className="text-purple-100 mt-2">Navigate the branching paths and unlock all endings</p>
+              <h1 className="text-4xl font-bold">{t('title')}</h1>
+              <p className="text-purple-100 mt-2">{t('description')}</p>
             </div>
           </div>
         </div>

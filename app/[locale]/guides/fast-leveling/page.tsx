@@ -1,22 +1,31 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as generateSEOMetadata } from '@/lib/seo';
 import Link from 'next/link';
 import { Zap, ArrowLeft, TrendingUp, Target, Users, Brain, Shield, Clock, Award, AlertCircle, CheckCircle } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Fast Leveling Guide - Efficient XP Grinding in Time Stranger',
-  description:
-    'Complete fast leveling guide for Digimon Story: Time Stranger. Learn optimal grinding locations, XP optimization, team leveling strategies, and efficient progression routes.',
-  keywords: [
-    'fast leveling',
-    'XP grinding',
-    'experience guide',
-    'leveling locations',
-    'efficient leveling',
-    'power leveling',
-  ],
-  url: '/guides/fast-leveling',
-});
+type PageProps = {
+  params: { locale: string };
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'guides.fastLeveling' });
+
+  return generateSEOMetadata({
+    title: t('seoTitle'),
+    description: t('seoDescription'),
+    keywords: [
+      'fast leveling',
+      'XP grinding',
+      'experience guide',
+      'leveling locations',
+      'efficient leveling',
+      'power leveling',
+    ],
+    url: `/${locale}/guides/fast-leveling`,
+  });
+}
 
 const grindingLocations = [
   {
@@ -306,27 +315,31 @@ const recommendedGrinders = [
   },
 ];
 
-export default function FastLevelingGuidePage() {
+export default async function FastLevelingGuidePage({ params }: PageProps) {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'guides.fastLeveling' });
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Link
-            href="/guides"
+            href={`/${locale}/guides`}
             className="inline-flex items-center gap-2 text-blue-100 hover:text-white mb-4 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Guides
+            Back to {tNav('guides')}
           </Link>
           <div className="flex items-center gap-4 mb-4">
             <Zap className="w-12 h-12" />
             <h1 className="text-4xl md:text-5xl font-bold">
-              Fast Leveling Guide
+              {t('title')}
             </h1>
           </div>
           <p className="text-xl text-blue-100">
-            Master efficient XP grinding and reach max level faster with optimal strategies
+            {t('description')}
           </p>
         </div>
       </div>
@@ -621,7 +634,7 @@ export default function FastLevelingGuidePage() {
                   <li>• Evolve before major grinding sessions</li>
                   <li>• Higher stages gain more XP per battle</li>
                   <li>• Balance evolution cost vs grinding efficiency</li>
-                  <li>• See <Link href="/guides/evolution-guide" className="text-primary-600 dark:text-primary-400 hover:underline">Evolution Guide</Link></li>
+                  <li>• See <Link href={`/${locale}/guides/evolution-guide`} className="text-primary-600 dark:text-primary-400 hover:underline">Evolution Guide</Link></li>
                 </ul>
               </div>
             </div>
@@ -856,27 +869,27 @@ export default function FastLevelingGuidePage() {
               <h3 className="font-bold text-gray-900 dark:text-white mb-3">Related Guides</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="/guides/evolution-guide" className="text-primary-600 dark:text-primary-400 hover:underline">
+                  <Link href={`/${locale}/guides/evolution-guide`} className="text-primary-600 dark:text-primary-400 hover:underline">
                     → Evolution Guide
                   </Link>
                 </li>
                 <li>
-                  <Link href="/guides/team-building" className="text-primary-600 dark:text-primary-400 hover:underline">
+                  <Link href={`/${locale}/guides/team-building`} className="text-primary-600 dark:text-primary-400 hover:underline">
                     → Team Building Guide
                   </Link>
                 </li>
                 <li>
-                  <Link href="/guides/best-starters" className="text-primary-600 dark:text-primary-400 hover:underline">
+                  <Link href={`/${locale}/guides/best-starters`} className="text-primary-600 dark:text-primary-400 hover:underline">
                     → Best Starters Guide
                   </Link>
                 </li>
                 <li>
-                  <Link href="/digidex" className="text-primary-600 dark:text-primary-400 hover:underline">
+                  <Link href={`/${locale}/digidex`} className="text-primary-600 dark:text-primary-400 hover:underline">
                     → Digidex Database
                   </Link>
                 </li>
                 <li>
-                  <Link href="/database/stats" className="text-primary-600 dark:text-primary-400 hover:underline">
+                  <Link href={`/${locale}/database/stats`} className="text-primary-600 dark:text-primary-400 hover:underline">
                     → Stats & Mechanics
                   </Link>
                 </li>

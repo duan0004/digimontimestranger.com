@@ -1,13 +1,23 @@
 import { Metadata } from 'next';
-import { generateMetadata as generateSEO } from '@/lib/seo';
+import { generateMetadata as generateSEOMetadata } from '@/lib/seo';
 import Link from 'next/link';
 import { Star, AlertTriangle, MapPin, Trophy, CheckCircle2, Package, Lock, Eye, BookOpen } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = generateSEO({
-  title: 'Collectibles Guide - Complete List & Locations',
-  description: 'Complete guide to all collectibles in Digimon Time Stranger. Find every Ancient Tablet Fragment, rare item, and hidden treasure across all 9 chapters.',
-  url: '/guides/collectibles',
-});
+type PageProps = {
+  params: { locale: string };
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'guides.collectibles' });
+
+  return generateSEOMetadata({
+    title: t('seoTitle'),
+    description: t('seoDescription'),
+    url: `/${locale}/guides/collectibles`,
+  });
+}
 
 interface Collectible {
   name: string;
@@ -605,7 +615,10 @@ const allCollectibles: ChapterCollectibles[] = [
   },
 ];
 
-export default function CollectiblesPage() {
+export default async function CollectiblesPage({ params }: PageProps) {
+  const { locale } = params;
+  const t = await getTranslations({ locale, namespace: 'guides.collectibles' });
+
   const totalCollectibles = allCollectibles.reduce((sum, chapter) => sum + chapter.totalCollectibles, 0);
   const totalMissable = allCollectibles.reduce(
     (sum, chapter) => sum + chapter.collectibles.filter(c => c.missable).length,
@@ -624,8 +637,8 @@ export default function CollectiblesPage() {
           <div className="flex items-center gap-3 mb-4">
             <Package className="w-12 h-12" />
             <div>
-              <h1 className="text-4xl font-bold">Complete Collectibles Guide</h1>
-              <p className="text-amber-100 mt-2">Find every hidden treasure and collectible across all 9 chapters</p>
+              <h1 className="text-4xl font-bold">{t('title')}</h1>
+              <p className="text-amber-100 mt-2">{t('description')}</p>
             </div>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
@@ -836,7 +849,7 @@ export default function CollectiblesPage() {
         {/* Related Guides */}
         <div className="grid md:grid-cols-3 gap-4 mt-8">
           <Link
-            href="/guides/story-branches"
+            href={`/${locale}/guides/story-branches`}
             className="card p-6 hover:shadow-lg transition-shadow text-center"
           >
             <Trophy className="w-10 h-10 text-purple-600 mx-auto mb-3" />
@@ -845,7 +858,7 @@ export default function CollectiblesPage() {
           </Link>
 
           <Link
-            href="/walkthrough"
+            href={`/${locale}/walkthrough`}
             className="card p-6 hover:shadow-lg transition-shadow text-center"
           >
             <BookOpen className="w-10 h-10 text-blue-600 mx-auto mb-3" />
@@ -854,7 +867,7 @@ export default function CollectiblesPage() {
           </Link>
 
           <Link
-            href="/guides"
+            href={`/${locale}/guides`}
             className="card p-6 hover:shadow-lg transition-shadow text-center"
           >
             <BookOpen className="w-10 h-10 text-green-600 mx-auto mb-3" />
