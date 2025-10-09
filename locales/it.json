@@ -356,7 +356,8 @@
     "description": "Calcolatori e costruttori utili",
     "teamBuilder": {
       "title": "Costruttore Squadra",
-      "description": "Costruisci e analizza la tua squadra Digimon perfetta"
+      "description": "Costruisci e analizza la tua squadra Digimon perfetta",
+      "breadcrumb": "Team Builder"
     },
     "statCalculator": {
       "title": "Calcolatore Statistiche",
@@ -409,5 +410,15 @@
       "title": "Guide e Strategie | Digimon Story Time Stranger",
       "description": "Guide esperte, strategie e consigli per Digimon Story: Time Stranger. Guide evolutive, formazione squadra e tattiche avanzate."
     }
+  },
+  "walkthrough": {
+    "title": "Walkthrough",
+    "description": "Complete chapter-by-chapter guides",
+    "breadcrumb": "Walkthrough"
+  },
+  "about": {
+    "title": "About",
+    "description": "Learn more about this project",
+    "breadcrumb": "About"
   }
 }

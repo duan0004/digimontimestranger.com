@@ -356,7 +356,8 @@
     "description": "Mga kapaki-pakinabang na calculator at builder",
     "teamBuilder": {
       "title": "Team Builder",
-      "description": "Bumuo at suriin ang iyong perpektong Digimon team"
+      "description": "Bumuo at suriin ang iyong perpektong Digimon team",
+      "breadcrumb": "Team Builder"
     },
     "statCalculator": {
       "title": "Stat Calculator",
@@ -409,5 +410,15 @@
       "title": "Mga Gabay at Estratehiya | Digimon Story Time Stranger",
       "description": "Expert na mga gabay, estratehiya at tips para sa Digimon Story: Time Stranger. Evolution guides, team building at advanced tactics."
     }
+  },
+  "walkthrough": {
+    "title": "Walkthrough",
+    "description": "Complete chapter-by-chapter guides",
+    "breadcrumb": "Walkthrough"
+  },
+  "about": {
+    "title": "About",
+    "description": "Learn more about this project",
+    "breadcrumb": "About"
   }
 }

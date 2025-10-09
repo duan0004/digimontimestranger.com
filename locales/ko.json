@@ -351,17 +351,28 @@
     "objectives": "목표",
     "rewards": "보상"
   },
+  "walkthrough": {
+    "title": "Walkthrough",
+    "description": "Complete chapter-by-chapter guides",
+    "breadcrumb": "Walkthrough"
+  },
   "tools": {
     "title": "도구",
     "description": "유용한 계산기와 빌더",
     "teamBuilder": {
       "title": "팀 빌더",
-      "description": "완벽한 디지몬 팀을 구성하고 분석"
+      "description": "완벽한 디지몬 팀을 구성하고 분석",
+      "breadcrumb": "Team Builder"
     },
     "statCalculator": {
       "title": "스탯 계산기",
       "description": "다양한 빌드의 최종 스탯 계산"
     }
+  },
+  "about": {
+    "title": "About",
+    "description": "Learn more about this project",
+    "breadcrumb": "About"
   },
   "community": {
     "title": "커뮤니티",

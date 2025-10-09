@@ -356,7 +356,8 @@
     "description": "Máy tính và công cụ xây dựng hữu ích",
     "teamBuilder": {
       "title": "Công cụ Xây dựng Đội",
-      "description": "Xây dựng và phân tích đội Digimon hoàn hảo của bạn"
+      "description": "Xây dựng và phân tích đội Digimon hoàn hảo của bạn",
+      "breadcrumb": "Team Builder"
     },
     "statCalculator": {
       "title": "Máy tính Chỉ số",
@@ -409,5 +410,15 @@
       "title": "Hướng dẫn & Chiến lược | Digimon Story Time Stranger",
       "description": "Hướng dẫn chuyên gia, chiến lược và mẹo cho Digimon Story: Time Stranger. Hướng dẫn tiến hóa, xây dựng đội và chiến thuật nâng cao."
     }
+  },
+  "walkthrough": {
+    "title": "Walkthrough",
+    "description": "Complete chapter-by-chapter guides",
+    "breadcrumb": "Walkthrough"
+  },
+  "about": {
+    "title": "About",
+    "description": "Learn more about this project",
+    "breadcrumb": "About"
   }
 }

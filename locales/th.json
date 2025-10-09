@@ -356,7 +356,8 @@
     "description": "เครื่องคำนวณและตัวสร้างที่มีประโยชน์",
     "teamBuilder": {
       "title": "ตัวสร้างทีม",
-      "description": "สร้างและวิเคราะห์ทีม Digimon ที่สมบูรณ์แบบของคุณ"
+      "description": "สร้างและวิเคราะห์ทีม Digimon ที่สมบูรณ์แบบของคุณ",
+      "breadcrumb": "Team Builder"
     },
     "statCalculator": {
       "title": "เครื่องคำนวณสถิติ",
@@ -409,5 +410,15 @@
       "title": "คู่มือและกลยุทธ์ | Digimon Story Time Stranger",
       "description": "คู่มือผู้เชี่ยวชาญ กลยุทธ์ และเคล็ดลับสำหรับ Digimon Story: Time Stranger คู่มือวิวัฒนาการ การสร้างทีม และกลยุทธ์ขั้นสูง"
     }
+  },
+  "walkthrough": {
+    "title": "Walkthrough",
+    "description": "Complete chapter-by-chapter guides",
+    "breadcrumb": "Walkthrough"
+  },
+  "about": {
+    "title": "About",
+    "description": "Learn more about this project",
+    "breadcrumb": "About"
   }
 }

@@ -342,17 +342,28 @@
     "objectives": "Objectives",
     "rewards": "Rewards"
   },
+  "walkthrough": {
+    "title": "Walkthrough",
+    "description": "Complete chapter-by-chapter guides",
+    "breadcrumb": "Walkthrough"
+  },
   "tools": {
     "title": "Tools",
     "description": "Helpful calculators and builders",
     "teamBuilder": {
       "title": "Team Builder",
-      "description": "Build and analyze your perfect Digimon team"
+      "description": "Build and optimize your perfect Digimon team",
+      "breadcrumb": "Team Builder"
     },
     "statCalculator": {
       "title": "Stat Calculator",
       "description": "Calculate final stats with different builds"
     }
+  },
+  "about": {
+    "title": "About",
+    "description": "Learn more about this project",
+    "breadcrumb": "About"
   },
   "community": {
     "title": "Community",

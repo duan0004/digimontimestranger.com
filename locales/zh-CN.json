@@ -356,7 +356,8 @@
     "description": "有用的计算器和构建器",
     "teamBuilder": {
       "title": "队伍构建器",
-      "description": "构建和分析您的完美数码宝贝队伍"
+      "description": "构建和分析您的完美数码宝贝队伍",
+      "breadcrumb": "Team Builder"
     },
     "statCalculator": {
       "title": "属性计算器",
@@ -409,5 +410,15 @@
       "title": "攻略指南与策略 | 数码宝贝物语时间旅行者",
       "description": "数码宝贝物语：时间旅行者的专家攻略、策略和技巧。进化指南、组队和高级战术。"
     }
+  },
+  "walkthrough": {
+    "title": "Walkthrough",
+    "description": "Complete chapter-by-chapter guides",
+    "breadcrumb": "Walkthrough"
+  },
+  "about": {
+    "title": "About",
+    "description": "Learn more about this project",
+    "breadcrumb": "About"
   }
 }

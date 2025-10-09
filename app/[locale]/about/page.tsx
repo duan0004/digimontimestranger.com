@@ -1,27 +1,39 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 import Link from 'next/link';
 import { Heart, Users, Zap, Github } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'About - Digimon Time Stranger Guide',
-  description:
-    'Learn about Digimon Time Stranger Guide, our mission, and the team behind the comprehensive strategy website.',
-  keywords: ['about', 'team', 'mission', 'contact'],
-  url: '/about',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
 
-export default function AboutPage() {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'about' });
+
+  return generateSEO({
+    title: t('title'),
+    description: t('description'),
+    keywords: ['about', 'team', 'mission', 'contact'],
+    url: `/${locale}/about`,
+  });
+}
+
+export default async function AboutPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'about' });
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            About Us
+            {t('title')}
           </h1>
           <p className="text-xl text-blue-100">
-            Building the ultimate Digimon Time Stranger strategy resource
+            {t('description')}
           </p>
         </div>
       </div>
@@ -164,16 +176,16 @@ export default function AboutPage() {
                 📚 Explore More
               </h3>
               <div className="grid md:grid-cols-2 gap-4">
-                <Link href="/guides" className="text-primary-600 dark:text-primary-400 hover:underline">
+                <Link href={`/${locale}/guides`} className="text-primary-600 dark:text-primary-400 hover:underline">
                   → Browse All Guides
                 </Link>
-                <Link href="/tools/team-builder" className="text-primary-600 dark:text-primary-400 hover:underline">
+                <Link href={`/${locale}/tools/team-builder`} className="text-primary-600 dark:text-primary-400 hover:underline">
                   → Try Team Builder
                 </Link>
-                <Link href="/digidex" className="text-primary-600 dark:text-primary-400 hover:underline">
+                <Link href={`/${locale}/digidex`} className="text-primary-600 dark:text-primary-400 hover:underline">
                   → Explore Digidex
                 </Link>
-                <Link href="/evolution" className="text-primary-600 dark:text-primary-400 hover:underline">
+                <Link href={`/${locale}/evolution`} className="text-primary-600 dark:text-primary-400 hover:underline">
                   → View Evolution Tree
                 </Link>
               </div>

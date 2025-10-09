@@ -356,7 +356,8 @@
     "description": "Полезные калькуляторы и конструкторы",
     "teamBuilder": {
       "title": "Конструктор Команды",
-      "description": "Создайте и проанализируйте вашу идеальную команду Digimon"
+      "description": "Создайте и проанализируйте вашу идеальную команду Digimon",
+      "breadcrumb": "Team Builder"
     },
     "statCalculator": {
       "title": "Калькулятор Характеристик",
@@ -409,5 +410,15 @@
       "title": "Руководства и Стратегии | Digimon Story Time Stranger",
       "description": "Экспертные руководства, стратегии и советы для Digimon Story: Time Stranger. Руководства по эволюции, формированию команды и продвинутые тактики."
     }
+  },
+  "walkthrough": {
+    "title": "Walkthrough",
+    "description": "Complete chapter-by-chapter guides",
+    "breadcrumb": "Walkthrough"
+  },
+  "about": {
+    "title": "About",
+    "description": "Learn more about this project",
+    "breadcrumb": "About"
   }
 }

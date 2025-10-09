@@ -2,12 +2,22 @@ import { Metadata } from 'next';
 import { generateMetadata as generateSEO } from '@/lib/seo';
 import Link from 'next/link';
 import { BookOpen, MapPin, Trophy, Clock, AlertTriangle, Star, ChevronRight } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = generateSEO({
-  title: 'Complete Walkthrough',
-  description: 'Complete chapter-by-chapter walkthrough for Digimon Time Stranger with all missions, bosses, collectibles, and story choices.',
-  url: '/walkthrough',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'walkthrough' });
+
+  return generateSEO({
+    title: t('title'),
+    description: t('description'),
+    url: `/${locale}/walkthrough`,
+  });
+}
 
 const chapters = [
   {
@@ -119,7 +129,10 @@ const difficultyColors: Record<string, string> = {
   Extreme: 'bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 border-purple-300 dark:border-purple-700',
 };
 
-export default function WalkthroughPage() {
+export default async function WalkthroughPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'walkthrough' });
+
   const totalHours = chapters.reduce((sum, ch) => {
     const avg = ch.averageTime.split('-').map(t => parseInt(t))[0];
     return sum + avg;
@@ -136,10 +149,10 @@ export default function WalkthroughPage() {
             </div>
             <div>
               <h1 className="text-4xl font-bold text-slate-900 dark:text-white">
-                Complete Walkthrough
+                {t('title')}
               </h1>
               <p className="text-gray-600 dark:text-gray-400">
-                Chapter-by-chapter guide through the entire game
+                {t('description')}
               </p>
             </div>
           </div>
@@ -237,7 +250,7 @@ export default function WalkthroughPage() {
           {chapters.map((chapter) => (
             <Link
               key={chapter.chapter}
-              href={`/walkthrough/chapter-${chapter.chapter}`}
+              href={`/${locale}/walkthrough/chapter-${chapter.chapter}`}
               className="block group"
             >
               <div className="card overflow-hidden hover:shadow-xl transition-all duration-300">

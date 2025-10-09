@@ -1,25 +1,37 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
 import TeamBuilderClient from '@/components/tools/TeamBuilderClient';
 import { loadDigimonData } from '@/lib/data-loader';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Team Builder Tool - Build Perfect Digimon Teams',
-  description:
-    'Create and optimize your perfect Digimon team with our interactive Team Builder. Analyze memory usage, element coverage, speed tiers, and role balance. Share teams with friends!',
-  keywords: [
-    'team builder',
-    'Digimon team',
-    'team composition',
-    'memory calculator',
-    'element coverage',
-    'team optimizer',
-  ],
-  url: '/tools/team-builder',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
 
-export default async function TeamBuilderPage() {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'tools.teamBuilder' });
+
+  return generateSEO({
+    title: t('title'),
+    description: t('description'),
+    keywords: [
+      'team builder',
+      'Digimon team',
+      'team composition',
+      'memory calculator',
+      'element coverage',
+      'team optimizer',
+    ],
+    url: `/${locale}/tools/team-builder`,
+  });
+}
+
+export default async function TeamBuilderPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'tools.teamBuilder' });
   const allDigimon = await loadDigimonData();
+
   return (
     <>
       <script
@@ -46,10 +58,10 @@ export default async function TeamBuilderPage() {
         <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-12">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Team Builder
+              {t('title')}
             </h1>
             <p className="text-xl text-blue-100">
-              Build and optimize your perfect Digimon team
+              {t('description')}
             </p>
           </div>
         </div>

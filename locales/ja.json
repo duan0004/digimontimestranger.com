@@ -351,17 +351,28 @@
     "objectives": "目標",
     "rewards": "報酬"
   },
+  "walkthrough": {
+    "title": "Walkthrough",
+    "description": "Complete chapter-by-chapter guides",
+    "breadcrumb": "Walkthrough"
+  },
   "tools": {
     "title": "ツール",
     "description": "便利な計算機とビルダー",
     "teamBuilder": {
       "title": "チームビルダー",
-      "description": "完璧なデジモンチームを構築・分析"
+      "description": "完璧なデジモンチームを構築・分析",
+      "breadcrumb": "Team Builder"
     },
     "statCalculator": {
       "title": "ステータス計算機",
       "description": "異なるビルドでの最終ステータスを計算"
     }
+  },
+  "about": {
+    "title": "About",
+    "description": "Learn more about this project",
+    "breadcrumb": "About"
   },
   "community": {
     "title": "コミュニティ",
