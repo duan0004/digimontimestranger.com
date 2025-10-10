@@ -832,9 +832,76 @@
     "breadcrumb": "Terms of Service"
   },
   "pc": {
-    "title": "PC & Steam Deck Guide",
-    "description": "Optimal settings and performance tips for PC and Steam Deck",
-    "breadcrumb": "PC Guide"
+    "steamDeck": {
+      "title": "PC & Steam Deck Settings Guide",
+      "description": "Optimize your gaming experience on PC and Steam Deck",
+      "seoTitle": "PC & Steam Deck Settings - Optimal Configuration Guide",
+      "seoDescription": "Complete guide for optimizing Digimon Story: Time Stranger on PC and Steam Deck. Graphics settings, control configurations, and performance tips.",
+      "subtitle": "Optimize your gaming experience on PC and Steam Deck",
+      "systemRequirements": {
+        "title": "System Requirements",
+        "minimum": "Minimum Requirements",
+        "recommended": "Recommended Requirements",
+        "os": "OS:",
+        "cpu": "CPU:",
+        "ram": "RAM:",
+        "gpu": "GPU:",
+        "storage": "Storage:",
+        "directx": "DirectX:"
+      },
+      "graphics": {
+        "title": "Recommended Graphics Settings",
+        "highEnd": "🖥️ High-End PC (RTX 3070 / RX 6800 or better)",
+        "midRange": "💻 Mid-Range PC (GTX 1660 Ti / RX 5600 XT)",
+        "resolution": "Resolution:",
+        "quality": "Quality Preset:",
+        "antiAliasing": "Anti-Aliasing:",
+        "shadows": "Shadows:",
+        "textures": "Textures:",
+        "effects": "Effects:",
+        "vSync": "V-Sync:",
+        "fpsCap": "FPS Cap:",
+        "performance": "Expected Performance:"
+      },
+      "steamDeckSettings": {
+        "title": "Steam Deck Optimized Settings",
+        "verified": "Steam Deck Verified Settings",
+        "optimized": "✓ Optimized for Steam Deck",
+        "fsr": "FSR:",
+        "tdpLimit": "TDP Limit:",
+        "batteryTitle": "💡 Battery Life Tips:",
+        "tip1": "Use 40 FPS cap for extended battery life (4-5 hours)",
+        "tip2": "Enable FSR for better performance without quality loss",
+        "tip3": "Lower screen brightness to 60% for optimal balance",
+        "tip4": "Use TDP limit of 10W for maximum battery duration"
+      },
+      "controls": {
+        "title": "Control Settings",
+        "recommended": "Recommended Controller Layout",
+        "movement": "Movement & Camera",
+        "leftStick": "Left Stick:",
+        "rightStick": "Right Stick:",
+        "dPad": "D-Pad:",
+        "actions": "Actions",
+        "confirm": "A/Cross:",
+        "cancel": "B/Circle:",
+        "menu": "X/Square:",
+        "info": "Y/Triangle:",
+        "characterMovement": "Character Movement",
+        "cameraControl": "Camera Control",
+        "quickMenu": "Quick Menu Navigation",
+        "confirmInteract": "Confirm / Interact",
+        "cancelBack": "Cancel / Back",
+        "menuLabel": "Menu",
+        "quickInfo": "Quick Digimon Info"
+      },
+      "troubleshooting": {
+        "title": "Common Issues & Fixes",
+        "lowFps": "Low FPS / Stuttering",
+        "controller": "Controller Not Working",
+        "saves": "Save File Issues"
+      }
+    }
   },
   "search": {
     "title": "Search Results",

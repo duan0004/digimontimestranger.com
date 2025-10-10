@@ -1,33 +1,45 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata as generateSEO } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import { Monitor, Gamepad2, Settings, Zap, Check } from 'lucide-react';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'PC & Steam Deck Settings - Optimal Configuration Guide',
-  description:
-    'Complete guide for optimizing Digimon Story: Time Stranger on PC and Steam Deck. Graphics settings, control configurations, and performance tips.',
-  keywords: [
-    'PC settings',
-    'Steam Deck',
-    'graphics settings',
-    'performance',
-    'controls',
-    'optimization',
-  ],
-  url: '/pc/steam-deck',
-});
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
 
-export default function PCSteamDeckPage() {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pc.steamDeck' });
+
+  return generateSEO({
+    title: t('seoTitle'),
+    description: t('seoDescription'),
+    keywords: [
+      'PC settings',
+      'Steam Deck',
+      'graphics settings',
+      'performance',
+      'controls',
+      'optimization',
+    ],
+    url: '/pc/steam-deck',
+  });
+}
+
+export default async function PCSteamDeckPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pc.steamDeck' });
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            PC & Steam Deck Settings Guide
+            {t('title')}
           </h1>
           <p className="text-xl text-blue-100">
-            Optimize your gaming experience on PC and Steam Deck
+            {t('subtitle')}
           </p>
         </div>
       </div>
@@ -39,35 +51,35 @@ export default function PCSteamDeckPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
               <Monitor className="w-8 h-8 text-primary-600" />
-              System Requirements
+              {t('systemRequirements.title')}
             </h2>
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="card p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                  Minimum Requirements
+                  {t('systemRequirements.minimum')}
                 </h3>
                 <ul className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
-                  <li><strong>OS:</strong> Windows 10 64-bit</li>
-                  <li><strong>CPU:</strong> Intel Core i5-6600 / AMD Ryzen 5 1600</li>
-                  <li><strong>RAM:</strong> 8 GB</li>
-                  <li><strong>GPU:</strong> NVIDIA GTX 1060 / AMD RX 580</li>
-                  <li><strong>Storage:</strong> 20 GB available space</li>
-                  <li><strong>DirectX:</strong> Version 11</li>
+                  <li><strong>{t('systemRequirements.os')}</strong> Windows 10 64-bit</li>
+                  <li><strong>{t('systemRequirements.cpu')}</strong> Intel Core i5-6600 / AMD Ryzen 5 1600</li>
+                  <li><strong>{t('systemRequirements.ram')}</strong> 8 GB</li>
+                  <li><strong>{t('systemRequirements.gpu')}</strong> NVIDIA GTX 1060 / AMD RX 580</li>
+                  <li><strong>{t('systemRequirements.storage')}</strong> 20 GB available space</li>
+                  <li><strong>{t('systemRequirements.directx')}</strong> Version 11</li>
                 </ul>
               </div>
 
               <div className="card p-6 border-2 border-primary-300 dark:border-primary-700">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                  Recommended Requirements
+                  {t('systemRequirements.recommended')}
                 </h3>
                 <ul className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
-                  <li><strong>OS:</strong> Windows 11 64-bit</li>
-                  <li><strong>CPU:</strong> Intel Core i7-8700 / AMD Ryzen 7 2700X</li>
-                  <li><strong>RAM:</strong> 16 GB</li>
-                  <li><strong>GPU:</strong> NVIDIA RTX 2060 / AMD RX 5700</li>
-                  <li><strong>Storage:</strong> 20 GB SSD space</li>
-                  <li><strong>DirectX:</strong> Version 12</li>
+                  <li><strong>{t('systemRequirements.os')}</strong> Windows 11 64-bit</li>
+                  <li><strong>{t('systemRequirements.cpu')}</strong> Intel Core i7-8700 / AMD Ryzen 7 2700X</li>
+                  <li><strong>{t('systemRequirements.ram')}</strong> 16 GB</li>
+                  <li><strong>{t('systemRequirements.gpu')}</strong> NVIDIA RTX 2060 / AMD RX 5700</li>
+                  <li><strong>{t('systemRequirements.storage')}</strong> 20 GB SSD space</li>
+                  <li><strong>{t('systemRequirements.directx')}</strong> Version 12</li>
                 </ul>
               </div>
             </div>
@@ -77,33 +89,33 @@ export default function PCSteamDeckPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
               <Settings className="w-8 h-8 text-primary-600" />
-              Recommended Graphics Settings
+              {t('graphics.title')}
             </h2>
 
             <div className="space-y-6">
               {/* High-End PC */}
               <div className="card p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                  🖥️ High-End PC (RTX 3070 / RX 6800 or better)
+                  {t('graphics.highEnd')}
                 </h3>
                 <div className="grid md:grid-cols-2 gap-4 text-sm">
                   <div>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-green-500" />
-                        <span><strong>Resolution:</strong> 4K (3840x2160)</span>
+                        <span><strong>{t('graphics.resolution')}</strong> 4K (3840x2160)</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-green-500" />
-                        <span><strong>Quality Preset:</strong> Ultra</span>
+                        <span><strong>{t('graphics.quality')}</strong> Ultra</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-green-500" />
-                        <span><strong>Anti-Aliasing:</strong> TAA</span>
+                        <span><strong>{t('graphics.antiAliasing')}</strong> TAA</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-green-500" />
-                        <span><strong>Shadows:</strong> Ultra</span>
+                        <span><strong>{t('graphics.shadows')}</strong> Ultra</span>
                       </li>
                     </ul>
                   </div>
@@ -111,51 +123,51 @@ export default function PCSteamDeckPage() {
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-green-500" />
-                        <span><strong>Textures:</strong> Ultra</span>
+                        <span><strong>{t('graphics.textures')}</strong> Ultra</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-green-500" />
-                        <span><strong>Effects:</strong> High</span>
+                        <span><strong>{t('graphics.effects')}</strong> High</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-green-500" />
-                        <span><strong>V-Sync:</strong> Off (Use G-Sync/FreeSync)</span>
+                        <span><strong>{t('graphics.vSync')}</strong> Off (Use G-Sync/FreeSync)</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-green-500" />
-                        <span><strong>FPS Cap:</strong> Unlimited</span>
+                        <span><strong>{t('graphics.fpsCap')}</strong> Unlimited</span>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-4">
-                  <strong>Expected Performance:</strong> 60+ FPS at 4K
+                  <strong>{t('graphics.performance')}</strong> 60+ FPS at 4K
                 </p>
               </div>
 
               {/* Mid-Range PC */}
               <div className="card p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                  💻 Mid-Range PC (GTX 1660 Ti / RX 5600 XT)
+                  {t('graphics.midRange')}
                 </h3>
                 <div className="grid md:grid-cols-2 gap-4 text-sm">
                   <div>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-blue-500" />
-                        <span><strong>Resolution:</strong> 1080p (1920x1080)</span>
+                        <span><strong>{t('graphics.resolution')}</strong> 1080p (1920x1080)</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-blue-500" />
-                        <span><strong>Quality Preset:</strong> High</span>
+                        <span><strong>{t('graphics.quality')}</strong> High</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-blue-500" />
-                        <span><strong>Anti-Aliasing:</strong> FXAA</span>
+                        <span><strong>{t('graphics.antiAliasing')}</strong> FXAA</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-blue-500" />
-                        <span><strong>Shadows:</strong> Medium</span>
+                        <span><strong>{t('graphics.shadows')}</strong> Medium</span>
                       </li>
                     </ul>
                   </div>
@@ -163,25 +175,25 @@ export default function PCSteamDeckPage() {
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-blue-500" />
-                        <span><strong>Textures:</strong> High</span>
+                        <span><strong>{t('graphics.textures')}</strong> High</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-blue-500" />
-                        <span><strong>Effects:</strong> Medium</span>
+                        <span><strong>{t('graphics.effects')}</strong> Medium</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-blue-500" />
-                        <span><strong>V-Sync:</strong> On</span>
+                        <span><strong>{t('graphics.vSync')}</strong> On</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-blue-500" />
-                        <span><strong>FPS Cap:</strong> 60</span>
+                        <span><strong>{t('graphics.fpsCap')}</strong> 60</span>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-4">
-                  <strong>Expected Performance:</strong> 60 FPS at 1080p
+                  <strong>{t('graphics.performance')}</strong> 60 FPS at 1080p
                 </p>
               </div>
             </div>
@@ -191,7 +203,7 @@ export default function PCSteamDeckPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
               <Gamepad2 className="w-8 h-8 text-primary-600" />
-              Steam Deck Optimized Settings
+              {t('steamDeckSettings.title')}
             </h2>
 
             <div className="card p-6 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 border-2 border-green-200 dark:border-green-800">
@@ -201,10 +213,10 @@ export default function PCSteamDeckPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-                    Steam Deck Verified Settings
+                    {t('steamDeckSettings.verified')}
                   </h3>
                   <span className="text-sm text-green-700 dark:text-green-300">
-                    ✓ Optimized for Steam Deck
+                    {t('steamDeckSettings.optimized')}
                   </span>
                 </div>
               </div>
@@ -212,33 +224,33 @@ export default function PCSteamDeckPage() {
               <div className="grid md:grid-cols-2 gap-4 mb-4 text-sm">
                 <div>
                   <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                    <li><strong>Resolution:</strong> 1280x800 (Native)</li>
-                    <li><strong>Quality Preset:</strong> Medium</li>
-                    <li><strong>Anti-Aliasing:</strong> FXAA</li>
-                    <li><strong>Shadows:</strong> Low</li>
-                    <li><strong>Textures:</strong> Medium</li>
+                    <li><strong>{t('graphics.resolution')}</strong> 1280x800 (Native)</li>
+                    <li><strong>{t('graphics.quality')}</strong> Medium</li>
+                    <li><strong>{t('graphics.antiAliasing')}</strong> FXAA</li>
+                    <li><strong>{t('graphics.shadows')}</strong> Low</li>
+                    <li><strong>{t('graphics.textures')}</strong> Medium</li>
                   </ul>
                 </div>
                 <div>
                   <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                    <li><strong>Effects:</strong> Low</li>
-                    <li><strong>V-Sync:</strong> On</li>
-                    <li><strong>FPS Cap:</strong> 40 FPS (Battery) / 60 FPS (Plugged)</li>
-                    <li><strong>FSR:</strong> Quality Mode</li>
-                    <li><strong>TDP Limit:</strong> 12W</li>
+                    <li><strong>{t('graphics.effects')}</strong> Low</li>
+                    <li><strong>{t('graphics.vSync')}</strong> On</li>
+                    <li><strong>{t('graphics.fpsCap')}</strong> 40 FPS (Battery) / 60 FPS (Plugged)</li>
+                    <li><strong>{t('steamDeckSettings.fsr')}</strong> Quality Mode</li>
+                    <li><strong>{t('steamDeckSettings.tdpLimit')}</strong> 12W</li>
                   </ul>
                 </div>
               </div>
 
               <div className="bg-white dark:bg-gray-800 p-4 rounded-lg">
                 <h4 className="font-bold text-gray-900 dark:text-white mb-2">
-                  💡 Battery Life Tips:
+                  {t('steamDeckSettings.batteryTitle')}
                 </h4>
                 <ul className="space-y-1 text-sm text-gray-700 dark:text-gray-300">
-                  <li>• Use 40 FPS cap for extended battery life (4-5 hours)</li>
-                  <li>• Enable FSR for better performance without quality loss</li>
-                  <li>• Lower screen brightness to 60% for optimal balance</li>
-                  <li>• Use TDP limit of 10W for maximum battery duration</li>
+                  <li>• {t('steamDeckSettings.tip1')}</li>
+                  <li>• {t('steamDeckSettings.tip2')}</li>
+                  <li>• {t('steamDeckSettings.tip3')}</li>
+                  <li>• {t('steamDeckSettings.tip4')}</li>
                 </ul>
               </div>
             </div>
@@ -248,29 +260,29 @@ export default function PCSteamDeckPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
               <Zap className="w-8 h-8 text-primary-600" />
-              Control Settings
+              {t('controls.title')}
             </h2>
 
             <div className="card p-6">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                Recommended Controller Layout
+                {t('controls.recommended')}
               </h3>
               <div className="grid md:grid-cols-2 gap-6 text-sm">
                 <div>
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-2">Movement & Camera</h4>
+                  <h4 className="font-bold text-gray-900 dark:text-white mb-2">{t('controls.movement')}</h4>
                   <ul className="space-y-1 text-gray-700 dark:text-gray-300">
-                    <li>• <strong>Left Stick:</strong> Character Movement</li>
-                    <li>• <strong>Right Stick:</strong> Camera Control</li>
-                    <li>• <strong>D-Pad:</strong> Quick Menu Navigation</li>
+                    <li>• <strong>{t('controls.leftStick')}</strong> {t('controls.characterMovement')}</li>
+                    <li>• <strong>{t('controls.rightStick')}</strong> {t('controls.cameraControl')}</li>
+                    <li>• <strong>{t('controls.dPad')}</strong> {t('controls.quickMenu')}</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900 dark:text-white mb-2">Actions</h4>
+                  <h4 className="font-bold text-gray-900 dark:text-white mb-2">{t('controls.actions')}</h4>
                   <ul className="space-y-1 text-gray-700 dark:text-gray-300">
-                    <li>• <strong>A/Cross:</strong> Confirm / Interact</li>
-                    <li>• <strong>B/Circle:</strong> Cancel / Back</li>
-                    <li>• <strong>X/Square:</strong> Menu</li>
-                    <li>• <strong>Y/Triangle:</strong> Quick Digimon Info</li>
+                    <li>• <strong>{t('controls.confirm')}</strong> {t('controls.confirmInteract')}</li>
+                    <li>• <strong>{t('controls.cancel')}</strong> {t('controls.cancelBack')}</li>
+                    <li>• <strong>{t('controls.menu')}</strong> {t('controls.menuLabel')}</li>
+                    <li>• <strong>{t('controls.info')}</strong> {t('controls.quickInfo')}</li>
                   </ul>
                 </div>
               </div>
@@ -280,13 +292,13 @@ export default function PCSteamDeckPage() {
           {/* Troubleshooting */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              Common Issues & Fixes
+              {t('troubleshooting.title')}
             </h2>
 
             <div className="space-y-4">
               <div className="card p-4">
                 <h4 className="font-bold text-gray-900 dark:text-white mb-2">
-                  Low FPS / Stuttering
+                  {t('troubleshooting.lowFps')}
                 </h4>
                 <p className="text-sm text-gray-700 dark:text-gray-300">
                   • Lower shadow quality to Medium or Low<br/>
@@ -298,7 +310,7 @@ export default function PCSteamDeckPage() {
 
               <div className="card p-4">
                 <h4 className="font-bold text-gray-900 dark:text-white mb-2">
-                  Controller Not Working
+                  {t('troubleshooting.controller')}
                 </h4>
                 <p className="text-sm text-gray-700 dark:text-gray-300">
                   • Enable &quot;Steam Input&quot; in game properties<br/>
@@ -310,7 +322,7 @@ export default function PCSteamDeckPage() {
 
               <div className="card p-4">
                 <h4 className="font-bold text-gray-900 dark:text-white mb-2">
-                  Save File Issues
+                  {t('troubleshooting.saves')}
                 </h4>
                 <p className="text-sm text-gray-700 dark:text-gray-300">
                   • Verify game files in Steam<br/>
