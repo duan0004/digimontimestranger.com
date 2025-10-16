@@ -20,7 +20,9 @@ export default function Header() {
 
   const navigation = [
     { name: t('home'), href: '/' },
-    { name: 'Dex', href: '/dex' },
+    { name: 'Dex', href: '/dex', isNew: true },
+    { name: t('compare'), href: '/dex/compare', isNew: true },
+    { name: t('pathPlanner'), href: '/dex/path-planner', isNew: true },
     { name: t('walkthrough'), href: '/walkthrough' },
     { name: t('digidex'), href: '/digidex' },
     { name: t('database'), href: '/database' },
@@ -81,9 +83,14 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={getLocalizedHref(item.href)}
-                className="px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors"
+                className="relative px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors"
               >
                 {item.name}
+                {item.isNew && (
+                  <span className="absolute -top-1 -right-1 px-1.5 py-0.5 text-[10px] font-bold text-white bg-gradient-to-r from-red-500 to-pink-500 rounded-full animate-pulse">
+                    NEW
+                  </span>
+                )}
               </Link>
             ))}
           </div>
@@ -137,10 +144,15 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={getLocalizedHref(item.href)}
-                  className="block px-3 py-2 text-base font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors"
+                  className="relative flex items-center justify-between px-3 py-2 text-base font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  {item.name}
+                  <span>{item.name}</span>
+                  {item.isNew && (
+                    <span className="px-2 py-0.5 text-[10px] font-bold text-white bg-gradient-to-r from-red-500 to-pink-500 rounded-full animate-pulse">
+                      NEW
+                    </span>
+                  )}
                 </Link>
               ))}
             </div>
