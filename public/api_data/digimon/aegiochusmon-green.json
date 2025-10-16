@@ -1,0 +1,17 @@
+{
+  "slug": "aegiochusmon-green",
+  "name_en": "Aegiochusmon Green",
+  "stage_en": "Ultimate",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11831566/3d0d2258a0c57af05728fe1fd4fbffd6.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555716",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Aegiochusmon Green",
+  "stage": "Ultimate",
+  "name_ja": "アイギオテュースモン：グリーン"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "elecmon",
+  "name_en": "Elecmon",
+  "stage_en": "Rookie",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4295353/e316f68a2accfc81d5ad4f1ab7b7fa33.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555192",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Elecmon",
+  "stage": "Rookie",
+  "name_ja": "エレキモン"
+}

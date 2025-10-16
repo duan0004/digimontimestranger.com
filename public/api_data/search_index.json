@@ -1,0 +1,7562 @@
+[
+  {
+    "slug": "tanemon",
+    "name_en": "Tanemon",
+    "name_ja": "タネモン",
+    "name_en_lower": "tanemon",
+    "name_ja_lower": "タネモン",
+    "stage": "In-Training II",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "mamemon",
+    "name_en": "Mamemon",
+    "name_ja": "マメモン",
+    "name_en_lower": "mamemon",
+    "name_ja_lower": "マメモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "tentomon",
+    "name_en": "Tentomon",
+    "name_ja": "テントモン",
+    "name_en_lower": "tentomon",
+    "name_ja_lower": "テントモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "koromon",
+    "name_en": "Koromon",
+    "name_ja": "コロモン",
+    "name_en_lower": "koromon",
+    "name_ja_lower": "コロモン",
+    "stage": "In-Training II",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "arukenimon",
+    "name_en": "Arukenimon",
+    "name_ja": "アルケニモン",
+    "name_en_lower": "arukenimon",
+    "name_ja_lower": "アルケニモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "sukamon",
+    "name_en": "Sukamon",
+    "name_ja": "スカモン",
+    "name_en_lower": "sukamon",
+    "name_ja_lower": "スカモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "kimeramon",
+    "name_en": "Kimeramon",
+    "name_ja": "キメラモン",
+    "name_en_lower": "kimeramon",
+    "name_ja_lower": "キメラモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "motimon",
+    "name_en": "Motimon",
+    "name_ja": "モチモン",
+    "name_en_lower": "motimon",
+    "name_ja_lower": "モチモン",
+    "stage": "In-Training II",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "kamemon",
+    "name_en": "Kamemon",
+    "name_ja": "カメモン",
+    "name_en_lower": "kamemon",
+    "name_ja_lower": "カメモン",
+    "stage": "Rookie",
+    "attribute": "データ"
+  },
+  {
+    "slug": "renamon",
+    "name_en": "Renamon",
+    "name_ja": "レナモン",
+    "name_en_lower": "renamon",
+    "name_ja_lower": "レナモン",
+    "stage": "Rookie",
+    "attribute": "データ"
+  },
+  {
+    "slug": "otamamon",
+    "name_en": "Otamamon",
+    "name_ja": "オタマモン",
+    "name_en_lower": "otamamon",
+    "name_ja_lower": "オタマモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "sakuyamon",
+    "name_en": "Sakuyamon",
+    "name_ja": "サクヤモン",
+    "name_en_lower": "sakuyamon",
+    "name_ja_lower": "サクヤモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "rosemon",
+    "name_en": "Rosemon",
+    "name_ja": "ロゼモン",
+    "name_en_lower": "rosemon",
+    "name_ja_lower": "ロゼモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kotemon",
+    "name_en": "Kotemon",
+    "name_ja": "コテモン",
+    "name_en_lower": "kotemon",
+    "name_ja_lower": "コテモン",
+    "stage": "Rookie",
+    "attribute": "データ"
+  },
+  {
+    "slug": "keramon",
+    "name_en": "Keramon",
+    "name_ja": "ケラモン",
+    "name_en_lower": "keramon",
+    "name_ja_lower": "ケラモン",
+    "stage": "Rookie",
+    "attribute": "Unknown"
+  },
+  {
+    "slug": "etemon",
+    "name_en": "Etemon",
+    "name_ja": "エテモン",
+    "name_en_lower": "etemon",
+    "name_ja_lower": "エテモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "minotarumon",
+    "name_en": "Minotarumon",
+    "name_ja": "ミノタルモン",
+    "name_en_lower": "minotarumon",
+    "name_ja_lower": "ミノタルモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "taomon",
+    "name_en": "Taomon",
+    "name_ja": "タオモン",
+    "name_en_lower": "taomon",
+    "name_ja_lower": "タオモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "nanimon",
+    "name_en": "Nanimon",
+    "name_ja": "ナニモン",
+    "name_en_lower": "nanimon",
+    "name_ja_lower": "ナニモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "kokuwamon",
+    "name_en": "Kokuwamon",
+    "name_ja": "コクワモン",
+    "name_en_lower": "kokuwamon",
+    "name_ja_lower": "コクワモン",
+    "stage": "Rookie",
+    "attribute": "データ"
+  },
+  {
+    "slug": "mekanorimon",
+    "name_en": "Mekanorimon",
+    "name_ja": "メカノリモン",
+    "name_en_lower": "mekanorimon",
+    "name_ja_lower": "メカノリモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "tokomon",
+    "name_en": "Tokomon",
+    "name_ja": "トコモン",
+    "name_en_lower": "tokomon",
+    "name_ja_lower": "トコモン",
+    "stage": "In-Training II",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "kurisarimon",
+    "name_en": "Kurisarimon",
+    "name_ja": "クリサリモン",
+    "name_en_lower": "kurisarimon",
+    "name_ja_lower": "クリサリモン",
+    "stage": "Champion",
+    "attribute": "Unknown"
+  },
+  {
+    "slug": "numemon",
+    "name_en": "Numemon",
+    "name_ja": "ヌメモン",
+    "name_en_lower": "numemon",
+    "name_ja_lower": "ヌメモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "meramon",
+    "name_en": "Meramon",
+    "name_ja": "メラモン",
+    "name_en_lower": "meramon",
+    "name_ja_lower": "メラモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "gracenovamon",
+    "name_en": "GraceNovamon",
+    "name_ja": "グレイスノヴァモン",
+    "name_en_lower": "gracenovamon",
+    "name_ja_lower": "グレイスノヴァモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "blackgatomon",
+    "name_en": "BlackGatomon",
+    "name_ja": "ブラックテイルモン",
+    "name_en_lower": "blackgatomon",
+    "name_ja_lower": "ブラックテイルモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "megagargomon",
+    "name_en": "MegaGargomon",
+    "name_ja": "セントガルゴモン",
+    "name_en_lower": "megagargomon",
+    "name_ja_lower": "セントガルゴモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "valkyrimon",
+    "name_en": "Valkyrimon",
+    "name_ja": "ヴァルキリモン",
+    "name_en_lower": "valkyrimon",
+    "name_ja_lower": "ヴァルキリモン",
+    "stage": "Mega",
+    "attribute": "Free"
+  },
+  {
+    "slug": "lillymon",
+    "name_en": "Lillymon",
+    "name_ja": "リリモン",
+    "name_en_lower": "lillymon",
+    "name_ja_lower": "リリモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "metalseadramon",
+    "name_en": "MetalSeadramon",
+    "name_ja": "メタルシードラモン",
+    "name_en_lower": "metalseadramon",
+    "name_ja_lower": "メタルシードラモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "apollomon",
+    "name_en": "Apollomon",
+    "name_ja": "アポロモン",
+    "name_en_lower": "apollomon",
+    "name_ja_lower": "アポロモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "piximon",
+    "name_en": "Piximon",
+    "name_ja": "ピッコロモン",
+    "name_en_lower": "piximon",
+    "name_ja_lower": "ピッコロモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "emperorgreymon",
+    "name_en": "EmperorGreymon",
+    "name_ja": "カイゼルグレイモン",
+    "name_en_lower": "emperorgreymon",
+    "name_ja_lower": "カイゼルグレイモン",
+    "stage": "Hybrid",
+    "attribute": "Variable"
+  },
+  {
+    "slug": "coredramon-blue",
+    "name_en": "Coredramon (Blue)",
+    "name_ja": "エアドラモン",
+    "name_en_lower": "coredramon (blue)",
+    "name_ja_lower": "エアドラモン",
+    "stage": "Champion",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "growlmon",
+    "name_en": "Growlmon",
+    "name_ja": "ガルルモン(黒)",
+    "name_en_lower": "growlmon",
+    "name_ja_lower": "ガルルモン(黒)",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "greymon-blue",
+    "name_en": "Greymon (Blue)",
+    "name_ja": "グレイモン(青)",
+    "name_en_lower": "greymon (blue)",
+    "name_ja_lower": "グレイモン(青)",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "gallantmon-cm",
+    "name_en": "Gallantmon CM",
+    "name_ja": "デュークモン：クリムゾンモード",
+    "name_en_lower": "gallantmon cm",
+    "name_ja_lower": "デュークモン：クリムゾンモード",
+    "stage": "Mega+",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "baohuckmon",
+    "name_en": "BaoHuckmon",
+    "name_ja": "バオハックモン",
+    "name_en_lower": "baohuckmon",
+    "name_ja_lower": "バオハックモン",
+    "stage": "Champion",
+    "attribute": "Data"
+  },
+  {
+    "slug": "cherubimon-good",
+    "name_en": "Cherubimon (Good)",
+    "name_ja": "ケルビモン(悪)",
+    "name_en_lower": "cherubimon (good)",
+    "name_ja_lower": "ケルビモン(悪)",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "muchomon",
+    "name_en": "Muchomon",
+    "name_ja": "ムーチョモン",
+    "name_en_lower": "muchomon",
+    "name_ja_lower": "ムーチョモン",
+    "stage": "Rookie",
+    "attribute": "Data"
+  },
+  {
+    "slug": "aegiochusmon-green",
+    "name_en": "Aegiochusmon Green",
+    "name_ja": "アイギオテュースモン：グリーン",
+    "name_en_lower": "aegiochusmon green",
+    "name_ja_lower": "アイギオテュースモン：グリーン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "wargrowlmon",
+    "name_en": "WarGrowlmon",
+    "name_ja": "ワーガルルモン(黒)",
+    "name_en_lower": "wargrowlmon",
+    "name_ja_lower": "ワーガルルモン(黒)",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "greatgrizzlymon",
+    "name_en": "GreatGrizzlymon",
+    "name_ja": "グレートグリズモン",
+    "name_en_lower": "greatgrizzlymon",
+    "name_ja_lower": "グレートグリズモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "zombieplutomon",
+    "name_en": "ZombiePlutomon",
+    "name_ja": "ゾンビプルートモン",
+    "name_en_lower": "zombieplutomon",
+    "name_ja_lower": "ゾンビプルートモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "gabumon-black",
+    "name_en": "Gabumon (Black)",
+    "name_ja": "ガブモン(黒)",
+    "name_en_lower": "gabumon (black)",
+    "name_ja_lower": "ガブモン(黒)",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "bacchusmon-dm",
+    "name_en": "Bacchusmon DM",
+    "name_ja": "バッカスモン：デストロイモード",
+    "name_en_lower": "bacchusmon dm",
+    "name_ja_lower": "バッカスモン：デストロイモード",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "skullseadramon",
+    "name_en": "SkullSeadramon",
+    "name_ja": "スカルシードラモン",
+    "name_en_lower": "skullseadramon",
+    "name_ja_lower": "スカルシードラモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "dobermon",
+    "name_en": "Dobermon",
+    "name_ja": "ドーベルモン",
+    "name_en_lower": "dobermon",
+    "name_ja_lower": "ドーベルモン",
+    "stage": "Champion",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "wingdramon",
+    "name_en": "Wingdramon",
+    "name_ja": "ウイングドラモン",
+    "name_en_lower": "wingdramon",
+    "name_ja_lower": "ウイングドラモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "wizardmon",
+    "name_en": "Wizardmon",
+    "name_ja": "ウィザーモン",
+    "name_en_lower": "wizardmon",
+    "name_ja_lower": "ウィザーモン",
+    "stage": "Champion",
+    "attribute": "Data"
+  },
+  {
+    "slug": "bancholeomon",
+    "name_en": "BanchoLeomon",
+    "name_ja": "バンチョーレオモン",
+    "name_en_lower": "bancholeomon",
+    "name_ja_lower": "バンチョーレオモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "lalamon",
+    "name_en": "Lalamon",
+    "name_ja": "ララモン",
+    "name_en_lower": "lalamon",
+    "name_ja_lower": "ララモン",
+    "stage": "Rookie",
+    "attribute": "Data"
+  },
+  {
+    "slug": "shinegreymon-bm",
+    "name_en": "ShineGreymon BM",
+    "name_ja": "シャイングレイモン",
+    "name_en_lower": "shinegreymon bm",
+    "name_ja_lower": "シャイングレイモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "flymon",
+    "name_en": "Flymon",
+    "name_ja": "フライモン",
+    "name_en_lower": "flymon",
+    "name_ja_lower": "フライモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "skullbaluchimon",
+    "name_en": "SkullBaluchimon",
+    "name_ja": "スカルバルキモン",
+    "name_en_lower": "skullbaluchimon",
+    "name_ja_lower": "スカルバルキモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "megaseadramon",
+    "name_en": "MegaSeadramon",
+    "name_ja": "メガドラモン",
+    "name_en_lower": "megaseadramon",
+    "name_ja_lower": "メガドラモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "medievalgallantmon",
+    "name_en": "MedievalGallantmon",
+    "name_ja": "メタルガルルモン",
+    "name_en_lower": "medievalgallantmon",
+    "name_ja_lower": "メタルガルルモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "gigadramon",
+    "name_en": "Gigadramon",
+    "name_ja": "ギガドラモン",
+    "name_en_lower": "gigadramon",
+    "name_ja_lower": "ギガドラモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "aegiochusmon-dark",
+    "name_en": "Aegiochusmon Dark",
+    "name_ja": "アイギオテュースモン：ダーク",
+    "name_en_lower": "aegiochusmon dark",
+    "name_ja_lower": "アイギオテュースモン：ダーク",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "flamedramon",
+    "name_en": "Flamedramon",
+    "name_ja": "フレイドラモン",
+    "name_en_lower": "flamedramon",
+    "name_ja_lower": "フレイドラモン",
+    "stage": "Armor",
+    "attribute": "Free"
+  },
+  {
+    "slug": "gawappamon",
+    "name_en": "Gawappamon",
+    "name_ja": "ガワッパモン",
+    "name_en_lower": "gawappamon",
+    "name_ja_lower": "ガワッパモン",
+    "stage": "Champion",
+    "attribute": "Data"
+  },
+  {
+    "slug": "wormmon",
+    "name_en": "Wormmon",
+    "name_ja": "ワームモン",
+    "name_en_lower": "wormmon",
+    "name_ja_lower": "ワームモン",
+    "stage": "Rookie",
+    "attribute": "Free"
+  },
+  {
+    "slug": "lilithmon",
+    "name_en": "Lilithmon",
+    "name_ja": "リリスモン",
+    "name_en_lower": "lilithmon",
+    "name_ja_lower": "リリスモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "aegiochusmon-blue",
+    "name_en": "Aegiochusmon Blue",
+    "name_ja": "アイギオテュースモン：ブルー",
+    "name_en_lower": "aegiochusmon blue",
+    "name_ja_lower": "アイギオテュースモン：ブルー",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "ladydevimon",
+    "name_en": "LadyDevimon",
+    "name_ja": "レディーデビモン",
+    "name_en_lower": "ladydevimon",
+    "name_ja_lower": "レディーデビモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "darkdramon",
+    "name_en": "Darkdramon",
+    "name_ja": "ダークドラモン",
+    "name_en_lower": "darkdramon",
+    "name_ja_lower": "ダークドラモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "witchmon",
+    "name_en": "Witchmon",
+    "name_ja": "ウィッチモン",
+    "name_en_lower": "witchmon",
+    "name_ja_lower": "ウィッチモン",
+    "stage": "Champion",
+    "attribute": "Data"
+  },
+  {
+    "slug": "zubaeagermon",
+    "name_en": "ZubaEagermon",
+    "name_ja": "ズバイガーモン",
+    "name_en_lower": "zubaeagermon",
+    "name_ja_lower": "ズバイガーモン",
+    "stage": "Champion",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "lopmon",
+    "name_en": "Lopmon",
+    "name_ja": "ロップモン",
+    "name_en_lower": "lopmon",
+    "name_ja_lower": "ロップモン",
+    "stage": "Rookie",
+    "attribute": "Data"
+  },
+  {
+    "slug": "vulcanusmon",
+    "name_en": "Vulcanusmon",
+    "name_ja": "ウルカヌスモン",
+    "name_en_lower": "vulcanusmon",
+    "name_ja_lower": "ウルカヌスモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "chaosgallantmon",
+    "name_en": "ChaosGallantmon",
+    "name_ja": "カオスデュークモン",
+    "name_en_lower": "chaosgallantmon",
+    "name_ja_lower": "カオスデュークモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "miragegaogamon-bm",
+    "name_en": "MirageGaogamon BM",
+    "name_ja": "ミラージュガオガモンBM",
+    "name_en_lower": "miragegaogamon bm",
+    "name_ja_lower": "ミラージュガオガモンbm",
+    "stage": "Mega+",
+    "attribute": "Data"
+  },
+  {
+    "slug": "digitamamon",
+    "name_en": "Digitamamon",
+    "name_ja": "デジタマモン",
+    "name_en_lower": "digitamamon",
+    "name_ja_lower": "デジタマモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "venommyotismon",
+    "name_en": "VenomMyotismon",
+    "name_ja": "ヴェノムヴァンデモン",
+    "name_en_lower": "venommyotismon",
+    "name_ja_lower": "ヴェノムヴァンデモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "hippogryphonmon",
+    "name_en": "HippoGryphonmon",
+    "name_ja": "ヒポグリフォモン",
+    "name_en_lower": "hippogryphonmon",
+    "name_ja_lower": "ヒポグリフォモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "darksuperstarmon",
+    "name_en": "DarkSuperStarmon",
+    "name_ja": "ダークスーパースターモン",
+    "name_en_lower": "darksuperstarmon",
+    "name_ja_lower": "ダークスーパースターモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "bigmamemon",
+    "name_en": "BigMamemon",
+    "name_ja": "ビッグマメモン",
+    "name_en_lower": "bigmamemon",
+    "name_ja_lower": "ビッグマメモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "burninggreymon",
+    "name_en": "BurningGreymon",
+    "name_ja": "ヴリトラモン",
+    "name_en_lower": "burninggreymon",
+    "name_ja_lower": "ヴリトラモン",
+    "stage": "Hybrid",
+    "attribute": "Variable"
+  },
+  {
+    "slug": "guardromon",
+    "name_en": "Guardromon",
+    "name_ja": "ガードロモン",
+    "name_en_lower": "guardromon",
+    "name_ja_lower": "ガードロモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "slashangemon",
+    "name_en": "SlashAngemon",
+    "name_ja": "スラッシュエンジェモン",
+    "name_en_lower": "slashangemon",
+    "name_ja_lower": "スラッシュエンジェモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "miragegaogamon",
+    "name_en": "MirageGaogamon",
+    "name_ja": "ミラージュガオガモン",
+    "name_en_lower": "miragegaogamon",
+    "name_ja_lower": "ミラージュガオガモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "malomyotismon",
+    "name_en": "MaloMyotismon",
+    "name_ja": "マロウマイオティスモン",
+    "name_en_lower": "malomyotismon",
+    "name_ja_lower": "マロウマイオティスモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "digmon",
+    "name_en": "Digmon",
+    "name_ja": "ディグモン",
+    "name_en_lower": "digmon",
+    "name_ja_lower": "ディグモン",
+    "stage": "Armor",
+    "attribute": "Free"
+  },
+  {
+    "slug": "garbagemon",
+    "name_en": "Garbagemon",
+    "name_ja": "ガーベモン",
+    "name_en_lower": "garbagemon",
+    "name_ja_lower": "ガーベモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "grademon",
+    "name_en": "Grademon",
+    "name_ja": "グレイドモン",
+    "name_en_lower": "grademon",
+    "name_ja_lower": "グレイドモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "peckmon",
+    "name_en": "Peckmon",
+    "name_ja": "ペックモン",
+    "name_en_lower": "peckmon",
+    "name_ja_lower": "ペックモン",
+    "stage": "Champion",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "goldnumemon",
+    "name_en": "GoldNumemon",
+    "name_ja": "ゴールドヌメモン",
+    "name_en_lower": "goldnumemon",
+    "name_ja_lower": "ゴールドヌメモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "magnakidmon",
+    "name_en": "MagnaKidmon",
+    "name_ja": "マグナキッドモン",
+    "name_en_lower": "magnakidmon",
+    "name_ja_lower": "マグナキッドモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "sangloupmon",
+    "name_en": "Sangloupmon",
+    "name_ja": "サングルゥモン",
+    "name_en_lower": "sangloupmon",
+    "name_ja_lower": "サングルゥモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "wendigomon",
+    "name_en": "Wendigomon",
+    "name_ja": "ウェンディモン",
+    "name_en_lower": "wendigomon",
+    "name_ja_lower": "ウェンディモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "vademon",
+    "name_en": "Vademon",
+    "name_ja": "ヴァンデモン",
+    "name_en_lower": "vademon",
+    "name_ja_lower": "ヴァンデモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "flaremon",
+    "name_en": "Flaremon",
+    "name_ja": "フレアモン",
+    "name_en_lower": "flaremon",
+    "name_ja_lower": "フレアモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "omnishoutmon",
+    "name_en": "OmniShoutmon",
+    "name_ja": "ミスティモン",
+    "name_en_lower": "omnishoutmon",
+    "name_ja_lower": "ミスティモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "aegiochusmon-holy",
+    "name_en": "Aegiochusmon Holy",
+    "name_ja": "アイギオテュースモン：ホーリー",
+    "name_en_lower": "aegiochusmon holy",
+    "name_ja_lower": "アイギオテュースモン：ホーリー",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "boltmon",
+    "name_en": "Boltmon",
+    "name_ja": "ボルトモン",
+    "name_en_lower": "boltmon",
+    "name_ja_lower": "ボルトモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "tigervespamon",
+    "name_en": "TigerVespamon",
+    "name_ja": "タイガーヴェスパモン",
+    "name_en_lower": "tigervespamon",
+    "name_ja_lower": "タイガーヴェスパモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "ancientwisemon",
+    "name_en": "AncientWisemon",
+    "name_ja": "エンシェントワイズモン",
+    "name_en_lower": "ancientwisemon",
+    "name_ja_lower": "エンシェントワイズモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "clockmon",
+    "name_en": "Clockmon",
+    "name_ja": "クロックモン",
+    "name_en_lower": "clockmon",
+    "name_ja_lower": "クロックモン",
+    "stage": "Champion",
+    "attribute": "Data"
+  },
+  {
+    "slug": "pumpkinmon",
+    "name_en": "Pumpkinmon",
+    "name_ja": "パンプモン",
+    "name_en_lower": "pumpkinmon",
+    "name_ja_lower": "パンプモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "cyberdramon",
+    "name_en": "Cyberdramon",
+    "name_ja": "サイバードラモン",
+    "name_en_lower": "cyberdramon",
+    "name_ja_lower": "サイバードラモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "armadillomon",
+    "name_en": "Armadillomon",
+    "name_ja": "アルマジモン",
+    "name_en_lower": "armadillomon",
+    "name_ja_lower": "アルマジモン",
+    "stage": "Rookie",
+    "attribute": "Free"
+  },
+  {
+    "slug": "herculeskabuterimon",
+    "name_en": "HerculesKabuterimon",
+    "name_ja": "ヘラクルカブテリモン",
+    "name_en_lower": "herculeskabuterimon",
+    "name_ja_lower": "ヘラクルカブテリモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "alphamon-ouryuken",
+    "name_en": "Alphamon Ouryuken",
+    "name_ja": "アルファモン：王竜剣",
+    "name_en_lower": "alphamon ouryuken",
+    "name_ja_lower": "アルファモン：王竜剣",
+    "stage": "Mega+",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "shellmon",
+    "name_en": "Shellmon",
+    "name_ja": "シェルモン",
+    "name_en_lower": "shellmon",
+    "name_ja_lower": "シェルモン",
+    "stage": "Champion",
+    "attribute": "Data"
+  },
+  {
+    "slug": "weregarurumon-black",
+    "name_en": "WereGarurumon (Black)",
+    "name_ja": "ワーガルルモン(黒)",
+    "name_en_lower": "weregarurumon (black)",
+    "name_ja_lower": "ワーガルルモン(黒)",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "impmon",
+    "name_en": "Impmon",
+    "name_ja": "インプモン",
+    "name_en_lower": "impmon",
+    "name_ja_lower": "インプモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "craniamon-enbarrmon",
+    "name_en": "Craniamon + Enbarrmon",
+    "name_ja": "クレニアムモン+アンヴァルモン",
+    "name_en_lower": "craniamon + enbarrmon",
+    "name_ja_lower": "クレニアムモン+アンヴァルモン",
+    "stage": "Mega+",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "titamon-skullbaluchimon",
+    "name_en": "Titamon + SkullBaluchimon",
+    "name_ja": "タイタモン+スカルバルキモン",
+    "name_en_lower": "titamon + skullbaluchimon",
+    "name_ja_lower": "タイタモン+スカルバルキモン",
+    "stage": "Mega+",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "aldamon",
+    "name_en": "Aldamon",
+    "name_ja": "アルダモン",
+    "name_en_lower": "aldamon",
+    "name_ja_lower": "アルダモン",
+    "stage": "Hybrid",
+    "attribute": "Variable"
+  },
+  {
+    "slug": "shinegreymon",
+    "name_en": "ShineGreymon",
+    "name_ja": "シャイングレイモン",
+    "name_en_lower": "shinegreymon",
+    "name_ja_lower": "シャイングレイモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "dracomon",
+    "name_en": "Dracomon",
+    "name_ja": "ドラコモン",
+    "name_en_lower": "dracomon",
+    "name_ja_lower": "ドラコモン",
+    "stage": "Rookie",
+    "attribute": "Data"
+  },
+  {
+    "slug": "lucemon-cm",
+    "name_en": "Lucemon CM",
+    "name_ja": "ルーチェモン：カオスモード",
+    "name_en_lower": "lucemon cm",
+    "name_ja_lower": "ルーチェモン：カオスモード",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "mummymon",
+    "name_en": "Mummymon",
+    "name_ja": "マミーモン",
+    "name_en_lower": "mummymon",
+    "name_ja_lower": "マミーモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "beelzemon",
+    "name_en": "Beelzemon",
+    "name_ja": "ベルゼブモン",
+    "name_en_lower": "beelzemon",
+    "name_ja_lower": "ベルゼブモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "pegasusmon",
+    "name_en": "Pegasusmon",
+    "name_ja": "ペガスモン",
+    "name_en_lower": "pegasusmon",
+    "name_ja_lower": "ペガスモン",
+    "stage": "Armor",
+    "attribute": "Free"
+  },
+  {
+    "slug": "princemamemon",
+    "name_en": "PrinceMamemon",
+    "name_ja": "プリンスマメモン",
+    "name_en_lower": "princemamemon",
+    "name_ja_lower": "プリンスマメモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "imperialdramon-fm",
+    "name_en": "Imperialdramon FM",
+    "name_ja": "インペリアルドラモンDM",
+    "name_en_lower": "imperialdramon fm",
+    "name_ja_lower": "インペリアルドラモンdm",
+    "stage": "Mega",
+    "attribute": "Free"
+  },
+  {
+    "slug": "cerberusmon-wm",
+    "name_en": "Cerberusmon WM",
+    "name_ja": "ケルベロスモン：ウェアモード",
+    "name_en_lower": "cerberusmon wm",
+    "name_ja_lower": "ケルベロスモン：ウェアモード",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "groundlocomon",
+    "name_en": "GroundLocomon",
+    "name_ja": "グランドロコモン",
+    "name_en_lower": "groundlocomon",
+    "name_ja_lower": "グランドロコモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "shogungekomon",
+    "name_en": "ShogunGekomon",
+    "name_ja": "ショーグンゲコモン",
+    "name_en_lower": "shogungekomon",
+    "name_ja_lower": "ショーグンゲコモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "woodmon",
+    "name_en": "Woodmon",
+    "name_ja": "ウェンディモン",
+    "name_en_lower": "woodmon",
+    "name_ja_lower": "ウェンディモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "cherubimon-black",
+    "name_en": "Cherubimon (Black)",
+    "name_ja": "ケルビモン(悪)",
+    "name_en_lower": "cherubimon (black)",
+    "name_ja_lower": "ケルビモン(悪)",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "geogreymon",
+    "name_en": "GeoGreymon",
+    "name_ja": "グレイモン",
+    "name_en_lower": "geogreymon",
+    "name_ja_lower": "グレイモン",
+    "stage": "Champion",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "gallantmon",
+    "name_en": "Gallantmon",
+    "name_ja": "デュークモン",
+    "name_en_lower": "gallantmon",
+    "name_ja_lower": "デュークモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "garurumon-black",
+    "name_en": "Garurumon (Black)",
+    "name_ja": "ガルルモン(黒)",
+    "name_en_lower": "garurumon (black)",
+    "name_ja_lower": "ガルルモン(黒)",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "sunflowmon",
+    "name_en": "Sunflowmon",
+    "name_ja": "サンフラウモン",
+    "name_en_lower": "sunflowmon",
+    "name_ja_lower": "サンフラウモン",
+    "stage": "Champion",
+    "attribute": "Data"
+  },
+  {
+    "slug": "beelzemon-bm",
+    "name_en": "Beelzemon BM",
+    "name_ja": "ベルゼブモンBM",
+    "name_en_lower": "beelzemon bm",
+    "name_ja_lower": "ベルゼブモンbm",
+    "stage": "Mega+",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "machgaogamon",
+    "name_en": "MachGaogamon",
+    "name_ja": "マッハガオガモン",
+    "name_en_lower": "machgaogamon",
+    "name_ja_lower": "マッハガオガモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "aegiochusmon",
+    "name_en": "Aegiochusmon",
+    "name_ja": "アイギオテュースモン",
+    "name_en_lower": "aegiochusmon",
+    "name_ja_lower": "アイギオテュースモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "scorpiomon",
+    "name_en": "Scorpiomon",
+    "name_ja": "スコピオモン",
+    "name_en_lower": "scorpiomon",
+    "name_ja_lower": "スコピオモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "skullgreymon",
+    "name_en": "SkullGreymon",
+    "name_ja": "スカルグレイモン",
+    "name_en_lower": "skullgreymon",
+    "name_ja_lower": "スカルグレイモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "clavisangemon",
+    "name_en": "ClavisAngemon",
+    "name_ja": "クラヴィスエンジェモン",
+    "name_en_lower": "clavisangemon",
+    "name_ja_lower": "クラヴィスエンジェモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "creepymon",
+    "name_en": "Creepymon",
+    "name_ja": "デーモン",
+    "name_en_lower": "creepymon",
+    "name_ja_lower": "デーモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "elecmon",
+    "name_en": "Elecmon",
+    "name_ja": "エレキモン",
+    "name_en_lower": "elecmon",
+    "name_ja_lower": "エレキモン",
+    "stage": "Rookie",
+    "attribute": "Data"
+  },
+  {
+    "slug": "coredramon-green",
+    "name_en": "Coredramon (Green)",
+    "name_ja": "エアドラモン",
+    "name_en_lower": "coredramon (green)",
+    "name_ja_lower": "エアドラモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "apocalymon",
+    "name_en": "Apocalymon",
+    "name_ja": "アポカリモン",
+    "name_en_lower": "apocalymon",
+    "name_ja_lower": "アポカリモン",
+    "stage": "Mega+",
+    "attribute": "Unknown"
+  },
+  {
+    "slug": "locomon",
+    "name_en": "Locomon",
+    "name_ja": "ロコモン",
+    "name_en_lower": "locomon",
+    "name_ja_lower": "ロコモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "gabumon-bond-of-friendship",
+    "name_en": "Gabumon (Bond of Friendship)",
+    "name_ja": "ガブモン-友情の絆-",
+    "name_en_lower": "gabumon (bond of friendship)",
+    "name_ja_lower": "ガブモン-友情の絆-",
+    "stage": "Mega+",
+    "attribute": "Unknown"
+  },
+  {
+    "slug": "metalgarurumon-black",
+    "name_en": "MetalGarurumon (Black)",
+    "name_ja": "メタルガルルモン(黒)",
+    "name_en_lower": "metalgarurumon (black)",
+    "name_ja_lower": "メタルガルルモン(黒)",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "goblimon",
+    "name_en": "Goblimon",
+    "name_ja": "ゴブリモン",
+    "name_en_lower": "goblimon",
+    "name_ja_lower": "ゴブリモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "jumbogamemon",
+    "name_en": "JumboGamemon",
+    "name_ja": "ジャンボガメモン",
+    "name_en_lower": "jumbogamemon",
+    "name_ja_lower": "ジャンボガメモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "funbeemon",
+    "name_en": "FunBeemon",
+    "name_ja": "ファンビーモン",
+    "name_en_lower": "funbeemon",
+    "name_ja_lower": "ファンビーモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "jewelbeemon",
+    "name_en": "Jewelbeemon",
+    "name_ja": "ジュエルビーモン",
+    "name_en_lower": "jewelbeemon",
+    "name_ja_lower": "ジュエルビーモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "gryphonmon",
+    "name_en": "Gryphonmon",
+    "name_ja": "グリフォモン",
+    "name_en_lower": "gryphonmon",
+    "name_ja_lower": "グリフォモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "saviorhuckmon",
+    "name_en": "SaviorHuckmon",
+    "name_ja": "セイヴァーハックモン",
+    "name_en_lower": "saviorhuckmon",
+    "name_ja_lower": "セイヴァーハックモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "belphemon-sm",
+    "name_en": "Belphemon SM",
+    "name_ja": "ベルフェモンSM",
+    "name_en_lower": "belphemon sm",
+    "name_ja_lower": "ベルフェモンsm",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "agumon-bond-of-bravery",
+    "name_en": "Agumon (Bond of Bravery)",
+    "name_ja": "アグモン-勇気の絆-",
+    "name_en_lower": "agumon (bond of bravery)",
+    "name_ja_lower": "アグモン-勇気の絆-",
+    "stage": "Mega+",
+    "attribute": "Unknown"
+  },
+  {
+    "slug": "stingmon",
+    "name_en": "Stingmon",
+    "name_ja": "スティングモン",
+    "name_en_lower": "stingmon",
+    "name_ja_lower": "スティングモン",
+    "stage": "Champion",
+    "attribute": "Free"
+  },
+  {
+    "slug": "cannonbeemon",
+    "name_en": "CannonBeemon",
+    "name_ja": "カノンビーモン",
+    "name_en_lower": "cannonbeemon",
+    "name_ja_lower": "カノンビーモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "iceleomon",
+    "name_en": "IceLeomon",
+    "name_ja": "アイスレオモン",
+    "name_en_lower": "iceleomon",
+    "name_ja_lower": "アイスレオモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "falcomon",
+    "name_en": "Falcomon",
+    "name_ja": "ファルコモン",
+    "name_en_lower": "falcomon",
+    "name_ja_lower": "ファルコモン",
+    "stage": "Rookie",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "magnagarurumon-detached",
+    "name_en": "MagnaGarurumon (Detached)",
+    "name_ja": "マグナガルルモン",
+    "name_en_lower": "magnagarurumon (detached)",
+    "name_ja_lower": "マグナガルルモン",
+    "stage": "Hybrid",
+    "attribute": "Variable"
+  },
+  {
+    "slug": "bacchusmon",
+    "name_en": "Bacchusmon",
+    "name_ja": "バッカスモン",
+    "name_en_lower": "bacchusmon",
+    "name_ja_lower": "バッカスモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "volcanomon",
+    "name_en": "Volcanomon",
+    "name_ja": "ボルカノモン",
+    "name_en_lower": "volcanomon",
+    "name_ja_lower": "ボルカノモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "fugamon",
+    "name_en": "Fugamon",
+    "name_ja": "フーガモン",
+    "name_en_lower": "fugamon",
+    "name_ja_lower": "フーガモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "chaosmon-valdur-arm",
+    "name_en": "Chaosmon Valdur Arm",
+    "name_ja": "カオスモン：ヴァルドゥールアーム",
+    "name_en_lower": "chaosmon valdur arm",
+    "name_ja_lower": "カオスモン：ヴァルドゥールアーム",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "platinumsukamon",
+    "name_en": "PlatinumSukamon",
+    "name_ja": "プラチナスカモン",
+    "name_en_lower": "platinumsukamon",
+    "name_ja_lower": "プラチナスカモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "blackwargreymon",
+    "name_en": "BlackWarGreymon",
+    "name_ja": "ブラックウォーグレイモン",
+    "name_en_lower": "blackwargreymon",
+    "name_ja_lower": "ブラックウォーグレイモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "catchmamemon",
+    "name_en": "CatchMamemon",
+    "name_ja": "キャッチマメモン",
+    "name_en_lower": "catchmamemon",
+    "name_ja_lower": "キャッチマメモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "myotismon",
+    "name_en": "Myotismon",
+    "name_ja": "ミスティモン",
+    "name_en_lower": "myotismon",
+    "name_ja_lower": "ミスティモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "wargreymon",
+    "name_en": "WarGreymon",
+    "name_ja": "ウォーグレイモン",
+    "name_en_lower": "wargreymon",
+    "name_ja_lower": "ウォーグレイモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "leopardmon",
+    "name_en": "Leopardmon",
+    "name_ja": "ドゥフトモン",
+    "name_en_lower": "leopardmon",
+    "name_ja_lower": "ドゥフトモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "deputymon",
+    "name_en": "Deputymon",
+    "name_ja": "デルタモン",
+    "name_en_lower": "deputymon",
+    "name_ja_lower": "デルタモン",
+    "stage": "Champion",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "bluemeramon",
+    "name_en": "BlueMeramon",
+    "name_ja": "ブルーメラモン",
+    "name_en_lower": "bluemeramon",
+    "name_ja_lower": "ブルーメラモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "ravemon-bm",
+    "name_en": "Ravemon BM",
+    "name_ja": "レイヴモン：バーストモード",
+    "name_en_lower": "ravemon bm",
+    "name_ja_lower": "レイヴモン：バーストモード",
+    "stage": "Mega+",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "lucemon",
+    "name_en": "Lucemon",
+    "name_ja": "ギルモン",
+    "name_en_lower": "lucemon",
+    "name_ja_lower": "ギルモン",
+    "stage": "Rookie",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "rapidmon-armor",
+    "name_en": "Rapidmon (Armor)",
+    "name_ja": "ラピッドモン（アーマー体）",
+    "name_en_lower": "rapidmon (armor)",
+    "name_ja_lower": "ラピッドモン（アーマー体）",
+    "stage": "Armor",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "palmon",
+    "name_en": "Palmon",
+    "name_ja": "パルモン",
+    "name_en_lower": "palmon",
+    "name_ja_lower": "パルモン",
+    "stage": "Rookie",
+    "attribute": "Data"
+  },
+  {
+    "slug": "enbarrmon",
+    "name_en": "Enbarrmon",
+    "name_ja": "アンヴァルモン",
+    "name_en_lower": "enbarrmon",
+    "name_ja_lower": "アンヴァルモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "beelstarmon",
+    "name_en": "BeelStarmon",
+    "name_ja": "ベルスターモン",
+    "name_en_lower": "beelstarmon",
+    "name_ja_lower": "ベルスターモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "lordknightmon",
+    "name_en": "LordKnightmon",
+    "name_ja": "ロードナイトモン",
+    "name_en_lower": "lordknightmon",
+    "name_ja_lower": "ロードナイトモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "blackkingnumemon",
+    "name_en": "BlackKingNumemon",
+    "name_ja": "ブラックキングヌメモン",
+    "name_en_lower": "blackkingnumemon",
+    "name_ja_lower": "ブラックキングヌメモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "icedevimon",
+    "name_en": "IceDevimon",
+    "name_ja": "アイスデビモン",
+    "name_en_lower": "icedevimon",
+    "name_ja_lower": "アイスデビモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "cherrymon",
+    "name_en": "Cherrymon",
+    "name_ja": "ケラモン",
+    "name_en_lower": "cherrymon",
+    "name_ja_lower": "ケラモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "mammothmon",
+    "name_en": "Mammothmon",
+    "name_ja": "マンモスモン",
+    "name_en_lower": "mammothmon",
+    "name_ja_lower": "マンモスモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "ultimatebrachiomon",
+    "name_en": "UltimateBrachiomon",
+    "name_ja": "アルティメットブラキモン",
+    "name_en_lower": "ultimatebrachiomon",
+    "name_ja_lower": "アルティメットブラキモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "pilevolcanomon",
+    "name_en": "PileVolcanomon",
+    "name_ja": "パイルボルカノモン",
+    "name_en_lower": "pilevolcanomon",
+    "name_ja_lower": "パイルボルカノモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "imperialdramon-dm",
+    "name_en": "Imperialdramon DM",
+    "name_ja": "インペリアルドラモンDM",
+    "name_en_lower": "imperialdramon dm",
+    "name_ja_lower": "インペリアルドラモンdm",
+    "stage": "Mega",
+    "attribute": "Free"
+  },
+  {
+    "slug": "agumon-black",
+    "name_en": "Agumon (Black)",
+    "name_ja": "アグモン(黒)",
+    "name_en_lower": "agumon (black)",
+    "name_ja_lower": "アグモン(黒)",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "metalgreymon-blue",
+    "name_en": "MetalGreymon (Blue)",
+    "name_ja": "メタルグレイモン(青)",
+    "name_en_lower": "metalgreymon (blue)",
+    "name_ja_lower": "メタルグレイモン(青)",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "beowolfmon",
+    "name_en": "Beowolfmon",
+    "name_ja": "ベオウルフモン",
+    "name_en_lower": "beowolfmon",
+    "name_ja_lower": "ベオウルフモン",
+    "stage": "Hybrid",
+    "attribute": "Variable"
+  },
+  {
+    "slug": "magnaangemon",
+    "name_en": "MagnaAngemon",
+    "name_ja": "ホーリーエンジェモン",
+    "name_en_lower": "magnaangemon",
+    "name_ja_lower": "ホーリーエンジェモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "cyclonemon",
+    "name_en": "Cyclonemon",
+    "name_ja": "サイクロモン",
+    "name_en_lower": "cyclonemon",
+    "name_ja_lower": "サイクロモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "shellnumemon",
+    "name_en": "ShellNumemon",
+    "name_ja": "シェルヌメモン",
+    "name_en_lower": "shellnumemon",
+    "name_ja_lower": "シェルヌメモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "zudomon",
+    "name_en": "Zudomon",
+    "name_ja": "ズドモン",
+    "name_en_lower": "zudomon",
+    "name_ja_lower": "ズドモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "silphymon",
+    "name_en": "Silphymon",
+    "name_ja": "シルフィーモン",
+    "name_en_lower": "silphymon",
+    "name_ja_lower": "シルフィーモン",
+    "stage": "Ultimate",
+    "attribute": "Free"
+  },
+  {
+    "slug": "rusttyrannomon",
+    "name_en": "RustTyrannomon",
+    "name_ja": "ラストティラノモン",
+    "name_en_lower": "rusttyrannomon",
+    "name_ja_lower": "ラストティラノモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "dodomon",
+    "name_en": "Dodomon",
+    "name_ja": "ドドモン",
+    "name_en_lower": "dodomon",
+    "name_ja_lower": "ドドモン",
+    "stage": "In-Training I",
+    "attribute": "No Data"
+  },
+  {
+    "slug": "lucemon-sm",
+    "name_en": "Lucemon SM",
+    "name_ja": "ルーチェモン：サタンモード",
+    "name_en_lower": "lucemon sm",
+    "name_ja_lower": "ルーチェモン：サタンモード",
+    "stage": "Mega+",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "dinobeemon",
+    "name_en": "Dinobeemon",
+    "name_ja": "ディノビーモン",
+    "name_en_lower": "dinobeemon",
+    "name_ja_lower": "ディノビーモン",
+    "stage": "Ultimate",
+    "attribute": "Free"
+  },
+  {
+    "slug": "devimon",
+    "name_en": "Devimon",
+    "name_ja": "デビモン",
+    "name_en_lower": "devimon",
+    "name_ja_lower": "デビモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "dorugreymon",
+    "name_en": "DoruGreymon",
+    "name_ja": "ドルグレモン",
+    "name_en_lower": "dorugreymon",
+    "name_ja_lower": "ドルグレモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "demidevimon",
+    "name_en": "DemiDevimon",
+    "name_ja": "ピコデビモン",
+    "name_en_lower": "demidevimon",
+    "name_ja_lower": "ピコデビモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "aeroveedramon",
+    "name_en": "AeroVeedramon",
+    "name_ja": "エアロブイドラモン",
+    "name_en_lower": "aeroveedramon",
+    "name_ja_lower": "エアロブイドラモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "eaglemon",
+    "name_en": "Eaglemon",
+    "name_ja": "イーグルモン",
+    "name_en_lower": "eaglemon",
+    "name_ja_lower": "イーグルモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "skullmammothmon",
+    "name_en": "SkullMammothmon",
+    "name_ja": "スカルマンモン",
+    "name_en_lower": "skullmammothmon",
+    "name_ja_lower": "スカルマンモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "slayerdramon",
+    "name_en": "Slayerdramon",
+    "name_ja": "スレイヤードラモン",
+    "name_en_lower": "slayerdramon",
+    "name_ja_lower": "スレイヤードラモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "parrotmon",
+    "name_en": "Parrotmon",
+    "name_ja": "パロットモン",
+    "name_en_lower": "parrotmon",
+    "name_ja_lower": "パロットモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "puppetmon",
+    "name_en": "Puppetmon",
+    "name_ja": "ピノキモン",
+    "name_en_lower": "puppetmon",
+    "name_ja_lower": "ピノキモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "leopardmon-lm",
+    "name_en": "Leopardmon LM",
+    "name_ja": "ドゥフトモン：レオパルドモード",
+    "name_en_lower": "leopardmon lm",
+    "name_ja_lower": "ドゥフトモン：レオパルドモード",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "avengekidmon",
+    "name_en": "AvengeKidmon",
+    "name_ja": "アヴェンジキッドモン",
+    "name_en_lower": "avengekidmon",
+    "name_ja_lower": "アヴェンジキッドモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "dynasmon",
+    "name_en": "Dynasmon",
+    "name_ja": "デュナスモン",
+    "name_en_lower": "dynasmon",
+    "name_ja_lower": "デュナスモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "loaderleomon",
+    "name_en": "LoaderLeomon",
+    "name_ja": "ローダーレオモン",
+    "name_en_lower": "loaderleomon",
+    "name_ja_lower": "ローダーレオモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "crescemon",
+    "name_en": "Crescemon",
+    "name_ja": "クレシェモン",
+    "name_en_lower": "crescemon",
+    "name_ja_lower": "クレシェモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "exveemon",
+    "name_en": "ExVeemon",
+    "name_ja": "エクスブイモン",
+    "name_en_lower": "exveemon",
+    "name_ja_lower": "エクスブイモン",
+    "stage": "Champion",
+    "attribute": "Free"
+  },
+  {
+    "slug": "guardromon-gold",
+    "name_en": "Guardromon (Gold)",
+    "name_ja": "ガードロモン",
+    "name_en_lower": "guardromon (gold)",
+    "name_ja_lower": "ガードロモン",
+    "stage": "Champion",
+    "attribute": "Free"
+  },
+  {
+    "slug": "mudfrigimon",
+    "name_en": "MudFrigimon",
+    "name_ja": "マッドフリジモン",
+    "name_en_lower": "mudfrigimon",
+    "name_ja_lower": "マッドフリジモン",
+    "stage": "Champion",
+    "attribute": "Data"
+  },
+  {
+    "slug": "ulforceveedramon",
+    "name_en": "UlforceVeedramon",
+    "name_ja": "アルフォースブイドラモン",
+    "name_en_lower": "ulforceveedramon",
+    "name_ja_lower": "アルフォースブイドラモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "superstarmon",
+    "name_en": "SuperStarmon",
+    "name_ja": "スーパースターモン",
+    "name_en_lower": "superstarmon",
+    "name_ja_lower": "スーパースターモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "imperialdramon-pm",
+    "name_en": "Imperialdramon PM",
+    "name_ja": "インペリアルドラモンPM",
+    "name_en_lower": "imperialdramon pm",
+    "name_ja_lower": "インペリアルドラモンpm",
+    "stage": "Mega+",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "omnimon-zwart",
+    "name_en": "Omnimon Zwart",
+    "name_ja": "オメガモン ズワルト",
+    "name_en_lower": "omnimon zwart",
+    "name_ja_lower": "オメガモン ズワルト",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "grizzlymon",
+    "name_en": "Grizzlymon",
+    "name_ja": "グリズモン",
+    "name_en_lower": "grizzlymon",
+    "name_ja_lower": "グリズモン",
+    "stage": "Champion",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "belphemon-rm",
+    "name_en": "Belphemon RM",
+    "name_ja": "ベルフェモンRM",
+    "name_en_lower": "belphemon rm",
+    "name_ja_lower": "ベルフェモンrm",
+    "stage": "Mega+",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "armageddemon",
+    "name_en": "Armageddemon",
+    "name_ja": "アーマゲモン",
+    "name_en_lower": "armageddemon",
+    "name_ja_lower": "アーマゲモン",
+    "stage": "Mega+",
+    "attribute": "Unknown"
+  },
+  {
+    "slug": "magnadramon",
+    "name_en": "Magnadramon",
+    "name_ja": "ムゲンドラモン",
+    "name_en_lower": "magnadramon",
+    "name_ja_lower": "ムゲンドラモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "gazimon",
+    "name_en": "Gazimon",
+    "name_ja": "ギザモン",
+    "name_en_lower": "gazimon",
+    "name_ja_lower": "ギザモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "mushroomon",
+    "name_en": "Mushroomon",
+    "name_ja": "マッシュモン",
+    "name_en_lower": "mushroomon",
+    "name_ja_lower": "マッシュモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "zubamon",
+    "name_en": "Zubamon",
+    "name_ja": "ズバモン",
+    "name_en_lower": "zubamon",
+    "name_ja_lower": "ズバモン",
+    "stage": "Rookie",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "platinumnumemon",
+    "name_en": "PlatinumNumemon",
+    "name_ja": "プラチナヌメモン",
+    "name_en_lower": "platinumnumemon",
+    "name_ja_lower": "プラチナヌメモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "blimpmon",
+    "name_en": "Blimpmon",
+    "name_ja": "ブリンプモン",
+    "name_en_lower": "blimpmon",
+    "name_ja_lower": "ブリンプモン",
+    "stage": "Champion",
+    "attribute": "Data"
+  },
+  {
+    "slug": "cerberusmon",
+    "name_en": "Cerberusmon",
+    "name_ja": "ケルベロモン",
+    "name_en_lower": "cerberusmon",
+    "name_ja_lower": "ケルベロモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "lobomon",
+    "name_en": "Lobomon",
+    "name_ja": "ヴォルフモン",
+    "name_en_lower": "lobomon",
+    "name_ja_lower": "ヴォルフモン",
+    "stage": "Hybrid",
+    "attribute": "Variable"
+  },
+  {
+    "slug": "rizegreymon",
+    "name_en": "RizeGreymon",
+    "name_ja": "ライズグレイモン",
+    "name_en_lower": "rizegreymon",
+    "name_ja_lower": "ライズグレイモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "extyrannomon",
+    "name_en": "ExTyrannomon",
+    "name_ja": "エクスティラノモン",
+    "name_en_lower": "extyrannomon",
+    "name_ja_lower": "エクスティラノモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "snowgoblimon",
+    "name_en": "SnowGoblimon",
+    "name_ja": "スノーゴブリモン",
+    "name_en_lower": "snowgoblimon",
+    "name_ja_lower": "スノーゴブリモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "dragomon",
+    "name_en": "Dragomon",
+    "name_ja": "ダゴモン",
+    "name_en_lower": "dragomon",
+    "name_ja_lower": "ダゴモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "millenniummon",
+    "name_en": "Millenniummon",
+    "name_ja": "ミレニアモン",
+    "name_en_lower": "millenniummon",
+    "name_ja_lower": "ミレニアモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "kisamon",
+    "name_en": "Gizamon",
+    "name_ja": "ギザモン",
+    "name_en_lower": "gizamon",
+    "name_ja_lower": "ギザモン",
+    "stage": "成長期",
+    "attribute": null
+  },
+  {
+    "slug": "rasutoteiranomon",
+    "name_en": "Rasutoteiranomon",
+    "name_ja": "ラストティラノモン",
+    "name_en_lower": "rasutoteiranomon",
+    "name_ja_lower": "ラストティラノモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "harotutomon",
+    "name_en": "Harotutomon",
+    "name_ja": "パロットモン",
+    "name_en_lower": "harotutomon",
+    "name_ja_lower": "パロットモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "hououmon",
+    "name_en": "Hououmon",
+    "name_ja": "ホウオウモン",
+    "name_en_lower": "hououmon",
+    "name_ja_lower": "ホウオウモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "harumon",
+    "name_en": "Harumon",
+    "name_ja": "パルモン",
+    "name_en_lower": "harumon",
+    "name_ja_lower": "パルモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kuresiemon",
+    "name_en": "Kuresiemon",
+    "name_ja": "クレシェモン",
+    "name_en_lower": "kuresiemon",
+    "name_ja_lower": "クレシェモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "touruiemon",
+    "name_en": "Touruiemon",
+    "name_ja": "トゥルイエモン",
+    "name_en_lower": "touruiemon",
+    "name_ja_lower": "トゥルイエモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "metarusitoramon",
+    "name_en": "Metarusitoramon",
+    "name_ja": "メタルシードラモン",
+    "name_en_lower": "metarusitoramon",
+    "name_ja_lower": "メタルシードラモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "sureiyatoramon",
+    "name_en": "Sureiyatoramon",
+    "name_ja": "スレイヤードラモン",
+    "name_en_lower": "sureiyatoramon",
+    "name_ja_lower": "スレイヤードラモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "riuaiamon",
+    "name_en": "Riuaiamon",
+    "name_ja": "リヴァイアモン",
+    "name_en_lower": "riuaiamon",
+    "name_ja_lower": "リヴァイアモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "kureitomon",
+    "name_en": "Kureitomon",
+    "name_ja": "グレイドモン",
+    "name_en_lower": "kureitomon",
+    "name_ja_lower": "グレイドモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "uisamon",
+    "name_en": "Uisamon",
+    "name_ja": "ウィザーモン",
+    "name_en_lower": "uisamon",
+    "name_ja_lower": "ウィザーモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "uitutimon",
+    "name_en": "Uitutimon",
+    "name_ja": "ウィッチモン",
+    "name_en_lower": "uitutimon",
+    "name_ja_lower": "ウィッチモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "siyurimon",
+    "name_en": "Shurimon",
+    "name_ja": "シュリモン",
+    "name_en_lower": "shurimon",
+    "name_ja_lower": "シュリモン",
+    "stage": "アーマー体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "akumon-yong-qi-noban",
+    "name_en": "Agumon (Black)",
+    "name_ja": "アグモン-勇気の絆-",
+    "name_en_lower": "agumon (black)",
+    "name_ja_lower": "アグモン-勇気の絆-",
+    "stage": "超究極体",
+    "attribute": null
+  },
+  {
+    "slug": "uenteimon",
+    "name_en": "Wendigomon",
+    "name_ja": "ウェンディモン",
+    "name_en_lower": "wendigomon",
+    "name_ja_lower": "ウェンディモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "akumon-hei",
+    "name_en": "Agumon (Black)",
+    "name_ja": "アグモン(黒)",
+    "name_en_lower": "agumon (black)",
+    "name_ja_lower": "アグモン(黒)",
+    "stage": "成長期",
+    "attribute": null
+  },
+  {
+    "slug": "ahokarimon",
+    "name_en": "Ahokarimon",
+    "name_ja": "アポカリモン",
+    "name_en_lower": "ahokarimon",
+    "name_ja_lower": "アポカリモン",
+    "stage": "超究極体",
+    "attribute": null
+  },
+  {
+    "slug": "heouruhumon",
+    "name_en": "Heouruhumon",
+    "name_ja": "ベオウルフモン",
+    "name_en_lower": "heouruhumon",
+    "name_ja_lower": "ベオウルフモン",
+    "stage": null,
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "hanhumon",
+    "name_en": "Hanhumon",
+    "name_ja": "パンプモン",
+    "name_en_lower": "hanhumon",
+    "name_ja_lower": "パンプモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "hureikutoramon",
+    "name_en": "Hureikutoramon",
+    "name_ja": "ブレイクドラモン",
+    "name_en_lower": "hureikutoramon",
+    "name_ja_lower": "ブレイクドラモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "hurakimon",
+    "name_en": "Buraimon",
+    "name_ja": "ブラキモン",
+    "name_en_lower": "buraimon",
+    "name_ja_lower": "ブラキモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "rihorumon",
+    "name_en": "Rihorumon",
+    "name_ja": "リボルモン",
+    "name_en_lower": "rihorumon",
+    "name_ja_lower": "リボルモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "wakarurumon-hei",
+    "name_en": "Wakarurumon Hei",
+    "name_ja": "ワーガルルモン(黒)",
+    "name_en_lower": "wakarurumon hei",
+    "name_ja_lower": "ワーガルルモン(黒)",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "omekamonsuwaruto",
+    "name_en": "Omekamonsuwaruto",
+    "name_ja": "オメガモンズワルト",
+    "name_en_lower": "omekamonsuwaruto",
+    "name_ja_lower": "オメガモンズワルト",
+    "stage": "超究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "aruhuamonwang-long-jian",
+    "name_en": "Aruhuamonwang Long Jian",
+    "name_ja": "アルファモン王竜剣",
+    "name_en_lower": "aruhuamonwang long jian",
+    "name_ja_lower": "アルファモン王竜剣",
+    "stage": "超究極体",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "amakemon",
+    "name_en": "Amakemon",
+    "name_ja": "アーマゲモン",
+    "name_en_lower": "amakemon",
+    "name_ja_lower": "アーマゲモン",
+    "stage": "超究極体",
+    "attribute": null
+  },
+  {
+    "slug": "rutiemonfm",
+    "name_en": "Rutiemonfm",
+    "name_ja": "ルーチェモンFM",
+    "name_en_lower": "rutiemonfm",
+    "name_ja_lower": "ルーチェモンfm",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "huratinasukamon",
+    "name_en": "Huratinasukamon",
+    "name_ja": "プラチナスカモン",
+    "name_en_lower": "huratinasukamon",
+    "name_ja_lower": "プラチナスカモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "kawatuhamon",
+    "name_en": "Gawappamon",
+    "name_ja": "ガワッパモン",
+    "name_en_lower": "gawappamon",
+    "name_ja_lower": "ガワッパモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "huratukukinkunumemon",
+    "name_en": "Huratukukinkunumemon",
+    "name_ja": "ブラックキングヌメモン",
+    "name_en_lower": "huratukukinkunumemon",
+    "name_ja_lower": "ブラックキングヌメモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "huitoramon",
+    "name_en": "Huitoramon",
+    "name_ja": "ブイドラモン",
+    "name_en_lower": "huitoramon",
+    "name_ja_lower": "ブイドラモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kotumon",
+    "name_en": "Gotsumon",
+    "name_ja": "ゴツモン",
+    "name_en_lower": "gotsumon",
+    "name_ja_lower": "ゴツモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "karutamon",
+    "name_en": "Garudamon",
+    "name_ja": "ガルダモン",
+    "name_en_lower": "garudamon",
+    "name_ja_lower": "ガルダモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "taikauesuhamon",
+    "name_en": "Taikauesuhamon",
+    "name_ja": "タイガーヴェスパモン",
+    "name_en_lower": "taikauesuhamon",
+    "name_ja_lower": "タイガーヴェスパモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "makunakitutomon",
+    "name_en": "MagnaKidmon",
+    "name_ja": "マグナキッドモン",
+    "name_en_lower": "magnakidmon",
+    "name_ja_lower": "マグナキッドモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "hurinhumon",
+    "name_en": "Hurinhumon",
+    "name_ja": "ブリンプモン",
+    "name_en_lower": "hurinhumon",
+    "name_ja_lower": "ブリンプモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "hurotutomon",
+    "name_en": "Hurotutomon",
+    "name_ja": "プロットモン",
+    "name_en_lower": "hurotutomon",
+    "name_ja_lower": "プロットモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "ekusuteiranomon",
+    "name_en": "Ekusuteiranomon",
+    "name_ja": "エクスティラノモン",
+    "name_en_lower": "ekusuteiranomon",
+    "name_ja_lower": "エクスティラノモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kiyuuhimon",
+    "name_en": "Kyubimon",
+    "name_ja": "キュウビモン",
+    "name_en_lower": "kyubimon",
+    "name_ja_lower": "キュウビモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "hureitoramon",
+    "name_en": "Hureitoramon",
+    "name_ja": "フレイドラモン",
+    "name_en_lower": "hureitoramon",
+    "name_ja_lower": "フレイドラモン",
+    "stage": "アーマー体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "siokureimon",
+    "name_en": "Siokureimon",
+    "name_ja": "ジオグレイモン",
+    "name_en_lower": "siokureimon",
+    "name_ja_lower": "ジオグレイモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "uinkutoramon",
+    "name_en": "Uinkutoramon",
+    "name_ja": "ウイングドラモン",
+    "name_en_lower": "uinkutoramon",
+    "name_ja_lower": "ウイングドラモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "rotonaitomon",
+    "name_en": "Rotonaitomon",
+    "name_ja": "ロードナイトモン",
+    "name_en_lower": "rotonaitomon",
+    "name_ja_lower": "ロードナイトモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "herusehumonbm",
+    "name_en": "Herusehumonbm",
+    "name_ja": "ベルゼブモンBM",
+    "name_en_lower": "herusehumonbm",
+    "name_ja_lower": "ベルゼブモンbm",
+    "stage": "超究極体",
+    "attribute": null
+  },
+  {
+    "slug": "retuhamon",
+    "name_en": "Reppamon",
+    "name_ja": "レッパモン",
+    "name_en_lower": "reppamon",
+    "name_ja_lower": "レッパモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "herusehumon",
+    "name_en": "Herusehumon",
+    "name_ja": "ベルゼブモン",
+    "name_en_lower": "herusehumon",
+    "name_ja_lower": "ベルゼブモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "teikumon",
+    "name_en": "Digmon",
+    "name_ja": "ディグモン",
+    "name_en_lower": "digmon",
+    "name_ja_lower": "ディグモン",
+    "stage": "アーマー体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "sukarukureimon",
+    "name_en": "Sukarukureimon",
+    "name_ja": "スカルグレイモン",
+    "name_en_lower": "sukarukureimon",
+    "name_ja_lower": "スカルグレイモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "reiumonbm",
+    "name_en": "Reiumonbm",
+    "name_ja": "レイヴモンBM",
+    "name_en_lower": "reiumonbm",
+    "name_ja_lower": "レイヴモンbm",
+    "stage": "超究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "temon",
+    "name_en": "Temon",
+    "name_ja": "デーモン",
+    "name_en_lower": "temon",
+    "name_ja_lower": "デーモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "kureniamumon-anuarumon",
+    "name_en": "Kureniamumon Anuarumon",
+    "name_ja": "クレニアムモン+アンヴァルモン",
+    "name_en_lower": "kureniamumon anuarumon",
+    "name_ja_lower": "クレニアムモン+アンヴァルモン",
+    "stage": "超究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "uenomuuantemon",
+    "name_en": "Uenomuuantemon",
+    "name_ja": "ヴェノムヴァンデモン",
+    "name_en_lower": "uenomuuantemon",
+    "name_ja_lower": "ヴェノムヴァンデモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "katoromon",
+    "name_en": "Katoromon",
+    "name_ja": "ガードロモン",
+    "name_en_lower": "katoromon",
+    "name_ja_lower": "ガードロモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "kurauntoramon",
+    "name_en": "Kurauntoramon",
+    "name_ja": "グラウンドラモン",
+    "name_en_lower": "kurauntoramon",
+    "name_ja_lower": "グラウンドラモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "arumasimon",
+    "name_en": "Arumasimon",
+    "name_ja": "アルマジモン",
+    "name_en_lower": "arumasimon",
+    "name_ja_lower": "アルマジモン",
+    "stage": "成長期",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "hairutoramon",
+    "name_en": "Hairutoramon",
+    "name_ja": "パイルドラモン",
+    "name_en_lower": "hairutoramon",
+    "name_ja_lower": "パイルドラモン",
+    "stage": "完全体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "suhaikamon",
+    "name_en": "Suhaikamon",
+    "name_ja": "ズバイガーモン",
+    "name_en_lower": "suhaikamon",
+    "name_ja_lower": "ズバイガーモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "rotuhumon",
+    "name_en": "Rotuhumon",
+    "name_ja": "ロップモン",
+    "name_en_lower": "rotuhumon",
+    "name_ja_lower": "ロップモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "wasuhumon",
+    "name_en": "Wasuhumon",
+    "name_ja": "ワスプモン",
+    "name_en_lower": "wasuhumon",
+    "name_ja_lower": "ワスプモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "kurosumon",
+    "name_en": "Kurosumon",
+    "name_ja": "クロスモン",
+    "name_en_lower": "kurosumon",
+    "name_ja_lower": "クロスモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "hatukasumon",
+    "name_en": "Hatukasumon",
+    "name_ja": "バッカスモン",
+    "name_en_lower": "hatukasumon",
+    "name_ja_lower": "バッカスモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "reiumon",
+    "name_en": "Reiumon",
+    "name_ja": "レイヴモン",
+    "name_en_lower": "reiumon",
+    "name_ja_lower": "レイヴモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "teyunasumon",
+    "name_en": "Dynasmon",
+    "name_ja": "デュナスモン",
+    "name_en_lower": "dynasmon",
+    "name_ja_lower": "デュナスモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kantoramon",
+    "name_en": "Kantoramon",
+    "name_ja": "ガンドラモン",
+    "name_en_lower": "kantoramon",
+    "name_ja_lower": "ガンドラモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "sutoraikutoramon",
+    "name_en": "Sutoraikutoramon",
+    "name_ja": "ストライクドラモン",
+    "name_en_lower": "sutoraikutoramon",
+    "name_ja_lower": "ストライクドラモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "mirasiyukaokamon",
+    "name_en": "Mirasiyukaokamon",
+    "name_ja": "ミラージュガオガモン",
+    "name_en_lower": "mirasiyukaokamon",
+    "name_ja_lower": "ミラージュガオガモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "mireniamon",
+    "name_en": "Mireniamon",
+    "name_ja": "ミレニアモン",
+    "name_en_lower": "mireniamon",
+    "name_ja_lower": "ミレニアモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "haohatukumon",
+    "name_en": "Haohatukumon",
+    "name_ja": "バオハックモン",
+    "name_en_lower": "haohatukumon",
+    "name_ja_lower": "バオハックモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "tonosamakekomon",
+    "name_en": "Tonosamakekomon",
+    "name_ja": "トノサマゲコモン",
+    "name_en_lower": "tonosamakekomon",
+    "name_ja_lower": "トノサマゲコモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "matusiyumon",
+    "name_en": "Matusiyumon",
+    "name_ja": "マッシュモン",
+    "name_en_lower": "matusiyumon",
+    "name_ja_lower": "マッシュモン",
+    "stage": "成長期",
+    "attribute": null
+  },
+  {
+    "slug": "sentokarukomon",
+    "name_en": "Sentokarukomon",
+    "name_ja": "セントガルゴモン",
+    "name_en_lower": "sentokarukomon",
+    "name_ja_lower": "セントガルゴモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "sureihumon",
+    "name_en": "Sureihumon",
+    "name_ja": "スレイプモン",
+    "name_en_lower": "sureihumon",
+    "name_ja_lower": "スレイプモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "huairamon",
+    "name_en": "Firamon",
+    "name_ja": "ファイラモン",
+    "name_en_lower": "firamon",
+    "name_ja_lower": "ファイラモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "huratukuteirumon",
+    "name_en": "Huratukuteirumon",
+    "name_ja": "ブラックテイルモン",
+    "name_en_lower": "huratukuteirumon",
+    "name_ja_lower": "ブラックテイルモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "matuhakaokamon",
+    "name_en": "MachGaogamon",
+    "name_ja": "マッハガオガモン",
+    "name_en_lower": "machgaogamon",
+    "name_ja_lower": "マッハガオガモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "siyatukoumon",
+    "name_en": "Shakkoumon",
+    "name_ja": "シャッコウモン",
+    "name_en_lower": "shakkoumon",
+    "name_ja_lower": "シャッコウモン",
+    "stage": "完全体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "metarukureimon",
+    "name_en": "Metarukureimon",
+    "name_ja": "メタルグレイモン",
+    "name_en_lower": "metarukureimon",
+    "name_ja_lower": "メタルグレイモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "hitukoromon",
+    "name_en": "Hitukoromon",
+    "name_ja": "ピッコロモン",
+    "name_en_lower": "hitukoromon",
+    "name_ja_lower": "ピッコロモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "terutamon",
+    "name_en": "Terutamon",
+    "name_ja": "デルタモン",
+    "name_en_lower": "terutamon",
+    "name_ja_lower": "デルタモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "hurumeramon",
+    "name_en": "Hurumeramon",
+    "name_ja": "ブルーメラモン",
+    "name_en_lower": "hurumeramon",
+    "name_ja_lower": "ブルーメラモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "uarotourumon",
+    "name_en": "Varodurumon",
+    "name_ja": "ヴァロドゥルモン",
+    "name_en_lower": "varodurumon",
+    "name_ja_lower": "ヴァロドゥルモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "seihahatukumon",
+    "name_en": "Seihahatukumon",
+    "name_ja": "セイバーハックモン",
+    "name_en_lower": "seihahatukumon",
+    "name_ja_lower": "セイバーハックモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "mamimon",
+    "name_en": "Mamimon",
+    "name_ja": "マミーモン",
+    "name_en_lower": "mamimon",
+    "name_ja_lower": "マミーモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "uokureimon",
+    "name_en": "Uokureimon",
+    "name_ja": "ウォーグレイモン",
+    "name_en_lower": "uokureimon",
+    "name_ja_lower": "ウォーグレイモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "teiahoromon",
+    "name_en": "Diaboromon",
+    "name_ja": "ディアボロモン",
+    "name_en_lower": "diaboromon",
+    "name_ja_lower": "ディアボロモン",
+    "stage": "究極体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "mukentoramon",
+    "name_en": "Mukentoramon",
+    "name_ja": "ムゲンドラモン",
+    "name_en_lower": "mukentoramon",
+    "name_ja_lower": "ムゲンドラモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "metarukureimon-qing",
+    "name_en": "Metarukureimon Qing",
+    "name_ja": "メタルグレイモン(青)",
+    "name_en_lower": "metarukureimon qing",
+    "name_ja_lower": "メタルグレイモン(青)",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "makunakarurumon-fen-li",
+    "name_en": "MagnaGarurumon (Detached)",
+    "name_ja": "マグナガルルモン(分離)",
+    "name_en_lower": "magnagarurumon (detached)",
+    "name_ja_lower": "マグナガルルモン(分離)",
+    "stage": null,
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "siyasuteimon",
+    "name_en": "Siyasuteimon",
+    "name_ja": "ジャスティモン",
+    "name_en_lower": "siyasuteimon",
+    "name_ja_lower": "ジャスティモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "keruhimon-e",
+    "name_en": "Keruhimon E",
+    "name_ja": "ケルビモン(悪)",
+    "name_en_lower": "keruhimon e",
+    "name_ja_lower": "ケルビモン(悪)",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "huratinanumemon",
+    "name_en": "Huratinanumemon",
+    "name_ja": "プラチナヌメモン",
+    "name_en_lower": "huratinanumemon",
+    "name_ja_lower": "プラチナヌメモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "kaosuteyukumon",
+    "name_en": "Kaosuteyukumon",
+    "name_ja": "カオスデュークモン",
+    "name_en_lower": "kaosuteyukumon",
+    "name_ja_lower": "カオスデュークモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "kurisumon",
+    "name_en": "Kurisumon",
+    "name_ja": "グリズモン",
+    "name_en_lower": "kurisumon",
+    "name_ja_lower": "グリズモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "rokomon",
+    "name_en": "Rokomon",
+    "name_ja": "ロコモン",
+    "name_en_lower": "rokomon",
+    "name_ja_lower": "ロコモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kureimon-qing",
+    "name_en": "Kureimon Qing",
+    "name_ja": "グレイモン(青)",
+    "name_en_lower": "kureimon qing",
+    "name_ja_lower": "グレイモン(青)",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "torakomon",
+    "name_en": "Torakomon",
+    "name_ja": "ドラコモン",
+    "name_en_lower": "torakomon",
+    "name_ja_lower": "ドラコモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "takomon",
+    "name_en": "Dragomon",
+    "name_ja": "ダゴモン",
+    "name_en_lower": "dragomon",
+    "name_ja_lower": "ダゴモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "mekarokuraumon",
+    "name_en": "Mekarokuraumon",
+    "name_ja": "メガログラウモン",
+    "name_en_lower": "mekarokuraumon",
+    "name_ja_lower": "メガログラウモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "wamumon",
+    "name_en": "Wamumon",
+    "name_ja": "ワームモン",
+    "name_en_lower": "wamumon",
+    "name_ja_lower": "ワームモン",
+    "stage": "成長期",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "hihokurihuomon",
+    "name_en": "Hihokurihuomon",
+    "name_ja": "ヒポグリフォモン",
+    "name_en_lower": "hihokurihuomon",
+    "name_ja_lower": "ヒポグリフォモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "huratukuuokureimon",
+    "name_en": "Huratukuuokureimon",
+    "name_ja": "ブラックウォーグレイモン",
+    "name_en_lower": "huratukuuokureimon",
+    "name_ja_lower": "ブラックウォーグレイモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "karatukinumemon",
+    "name_en": "Karatukinumemon",
+    "name_ja": "カラツキヌメモン",
+    "name_en_lower": "karatukinumemon",
+    "name_ja_lower": "カラツキヌメモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "kikatoramon",
+    "name_en": "Gigadramon",
+    "name_ja": "ギガドラモン",
+    "name_en_lower": "gigadramon",
+    "name_ja_lower": "ギガドラモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "kuretokurisumon",
+    "name_en": "Kuretokurisumon",
+    "name_ja": "グレートグリズモン",
+    "name_en_lower": "kuretokurisumon",
+    "name_ja_lower": "グレートグリズモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "okamon",
+    "name_en": "Okamon",
+    "name_ja": "オーガモン",
+    "name_en_lower": "okamon",
+    "name_ja_lower": "オーガモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "aikioteyusumon-kurin",
+    "name_en": "Aikioteyusumon Kurin",
+    "name_ja": "アイギオテュースモン：グリーン",
+    "name_en_lower": "aikioteyusumon kurin",
+    "name_ja_lower": "アイギオテュースモン：グリーン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "aikiomon",
+    "name_en": "Aikiomon",
+    "name_ja": "アイギオモン",
+    "name_en_lower": "aikiomon",
+    "name_ja_lower": "アイギオモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "sukaruharukimon",
+    "name_en": "Sukaruharukimon",
+    "name_ja": "スカルバルキモン",
+    "name_en_lower": "sukaruharukimon",
+    "name_ja_lower": "スカルバルキモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "keruhimon-shan",
+    "name_en": "Keruhimon Shan",
+    "name_ja": "ケルビモン(善)",
+    "name_en_lower": "keruhimon shan",
+    "name_ja_lower": "ケルビモン(善)",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "karumumon",
+    "name_en": "Garurumon (Black)",
+    "name_ja": "ガルムモン",
+    "name_en_lower": "garurumon (black)",
+    "name_ja_lower": "ガルムモン",
+    "stage": null,
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "ekusamon",
+    "name_en": "Ekusamon",
+    "name_ja": "エグザモン",
+    "name_en_lower": "ekusamon",
+    "name_ja_lower": "エグザモン",
+    "stage": "超究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kahemon",
+    "name_en": "Kahemon",
+    "name_ja": "ガーべモン",
+    "name_en_lower": "kahemon",
+    "name_ja_lower": "ガーべモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "ankiromon",
+    "name_en": "Ankiromon",
+    "name_ja": "アンキロモン",
+    "name_en_lower": "ankiromon",
+    "name_ja_lower": "アンキロモン",
+    "stage": "成熟期",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "aikioteyusumon-hori",
+    "name_en": "Aikioteyusumon Hori",
+    "name_ja": "アイギオテュースモン：ホーリー",
+    "name_en_lower": "aikioteyusumon hori",
+    "name_ja_lower": "アイギオテュースモン：ホーリー",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "hantiyoreomon",
+    "name_en": "BanchoLeomon",
+    "name_ja": "バンチョーレオモン",
+    "name_en_lower": "bancholeomon",
+    "name_ja_lower": "バンチョーレオモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kuratuhureomon",
+    "name_en": "Kuratuhureomon",
+    "name_ja": "グラップレオモン",
+    "name_en_lower": "kuratuhureomon",
+    "name_ja_lower": "グラップレオモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "karisumon",
+    "name_en": "Karisumon",
+    "name_ja": "カリスモン",
+    "name_en_lower": "karisumon",
+    "name_ja_lower": "カリスモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "ekusuhuimon",
+    "name_en": "Ekusuhuimon",
+    "name_ja": "エクスブイモン",
+    "name_en_lower": "ekusuhuimon",
+    "name_ja_lower": "エクスブイモン",
+    "stage": "成熟期",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "hatukumon",
+    "name_en": "Shakkoumon",
+    "name_ja": "ハックモン",
+    "name_en_lower": "shakkoumon",
+    "name_ja_lower": "ハックモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "uritoramon",
+    "name_en": "Uritoramon",
+    "name_ja": "ヴリトラモン",
+    "name_en_lower": "uritoramon",
+    "name_ja_lower": "ヴリトラモン",
+    "stage": null,
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "saihatoramon",
+    "name_en": "Saihatoramon",
+    "name_ja": "サイバードラモン",
+    "name_en_lower": "saihatoramon",
+    "name_ja_lower": "サイバードラモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "ensieumon",
+    "name_en": "Ensieumon",
+    "name_ja": "エンジェウーモン",
+    "name_en_lower": "ensieumon",
+    "name_ja_lower": "エンジェウーモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "huarukomon",
+    "name_en": "Huarukomon",
+    "name_ja": "ファルコモン",
+    "name_en_lower": "huarukomon",
+    "name_ja_lower": "ファルコモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "aruhuosuhuitoramon",
+    "name_en": "Aruhuosuhuitoramon",
+    "name_ja": "アルフォースブイドラモン",
+    "name_en_lower": "aruhuosuhuitoramon",
+    "name_ja_lower": "アルフォースブイドラモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "yunomon",
+    "name_en": "Yunomon",
+    "name_ja": "ユノモン",
+    "name_en_lower": "yunomon",
+    "name_ja_lower": "ユノモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "karukomon",
+    "name_en": "Gargomon",
+    "name_ja": "ガルゴモン",
+    "name_en_lower": "gargomon",
+    "name_ja_lower": "ガルゴモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kankuumon",
+    "name_en": "Kankuumon",
+    "name_ja": "ガンクゥモン",
+    "name_en_lower": "kankuumon",
+    "name_ja_lower": "ガンクゥモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "takusuhasutamon",
+    "name_en": "Takusuhasutamon",
+    "name_ja": "ダークスーパースターモン",
+    "name_en_lower": "takusuhasutamon",
+    "name_ja_lower": "ダークスーパースターモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "siyainkureimonbm",
+    "name_en": "Siyainkureimonbm",
+    "name_ja": "シャイングレイモンBM",
+    "name_en_lower": "siyainkureimonbm",
+    "name_ja_lower": "シャイングレイモンbm",
+    "stage": "超究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "heruhuemonrm",
+    "name_en": "Heruhuemonrm",
+    "name_ja": "ベルフェモンRM",
+    "name_en_lower": "heruhuemonrm",
+    "name_ja_lower": "ベルフェモンrm",
+    "stage": "超究極体",
+    "attribute": null
+  },
+  {
+    "slug": "kiyatutimamemon",
+    "name_en": "Kiyatutimamemon",
+    "name_ja": "キャッチマメモン",
+    "name_en_lower": "kiyatutimamemon",
+    "name_ja_lower": "キャッチマメモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kirumon",
+    "name_en": "Kirumon",
+    "name_ja": "ギルモン",
+    "name_en_lower": "kirumon",
+    "name_ja_lower": "ギルモン",
+    "stage": "成長期",
+    "attribute": null
+  },
+  {
+    "slug": "kureniamumon",
+    "name_en": "Kureniamumon",
+    "name_ja": "クレニアムモン",
+    "name_en_lower": "kureniamumon",
+    "name_ja_lower": "クレニアムモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "uoruhumon",
+    "name_en": "Uoruhumon",
+    "name_ja": "ヴォルフモン",
+    "name_en_lower": "uoruhumon",
+    "name_ja_lower": "ヴォルフモン",
+    "stage": null,
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "hurinsumamemon",
+    "name_en": "Hurinsumamemon",
+    "name_ja": "プリンスマメモン",
+    "name_en_lower": "hurinsumamemon",
+    "name_ja_lower": "プリンスマメモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "hurutomon",
+    "name_en": "Hurutomon",
+    "name_ja": "プルートモン",
+    "name_en_lower": "hurutomon",
+    "name_ja_lower": "プルートモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "hairuhorukemon",
+    "name_en": "Hairuhorukemon",
+    "name_ja": "パイルボルケーモン",
+    "name_en_lower": "hairuhorukemon",
+    "name_ja_lower": "パイルボルケーモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "heruhuemonsm",
+    "name_en": "Heruhuemonsm",
+    "name_ja": "ベルフェモンSM",
+    "name_en_lower": "heruhuemonsm",
+    "name_ja_lower": "ベルフェモンsm",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "huanhimon",
+    "name_en": "Huanhimon",
+    "name_ja": "ファンビーモン",
+    "name_en_lower": "huanhimon",
+    "name_ja_lower": "ファンビーモン",
+    "stage": "成長期",
+    "attribute": null
+  },
+  {
+    "slug": "herakurukahuterimon",
+    "name_en": "Herakurukahuterimon",
+    "name_ja": "ヘラクルカブテリモン",
+    "name_en_lower": "herakurukahuterimon",
+    "name_ja_lower": "ヘラクルカブテリモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "sonhihurutomon",
+    "name_en": "Sonhihurutomon",
+    "name_ja": "ゾンビプルートモン",
+    "name_en_lower": "sonhihurutomon",
+    "name_ja_lower": "ゾンビプルートモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "hahumon",
+    "name_en": "Hahumon",
+    "name_ja": "バブモン",
+    "name_en_lower": "hahumon",
+    "name_ja_lower": "バブモン",
+    "stage": "幼年期1",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "keruheromon",
+    "name_en": "Keruheromon",
+    "name_ja": "ケルベロモン",
+    "name_en_lower": "keruheromon",
+    "name_ja_lower": "ケルベロモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "hunimon",
+    "name_en": "Punimon",
+    "name_ja": "プニモン",
+    "name_en_lower": "punimon",
+    "name_ja_lower": "プニモン",
+    "stage": "幼年期1",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "erekimon",
+    "name_en": "Erekimon",
+    "name_ja": "エレキモン",
+    "name_en_lower": "erekimon",
+    "name_ja_lower": "エレキモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "touhutomonlm",
+    "name_en": "Touhutomonlm",
+    "name_ja": "ドゥフトモンLM",
+    "name_en_lower": "touhutomonlm",
+    "name_ja_lower": "ドゥフトモンlm",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "hetukumon",
+    "name_en": "Hetukumon",
+    "name_ja": "ペックモン",
+    "name_en_lower": "hetukumon",
+    "name_ja_lower": "ペックモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "hansiyamon",
+    "name_en": "Hansiyamon",
+    "name_ja": "パンジャモン",
+    "name_en_lower": "hansiyamon",
+    "name_ja_lower": "パンジャモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kahumon",
+    "name_en": "Gabumon",
+    "name_ja": "ガブモン",
+    "name_en_lower": "gabumon",
+    "name_ja_lower": "ガブモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "rahitutomon-amati",
+    "name_en": "Rahitutomon Amati",
+    "name_ja": "ラピッドモン(アーマー体)",
+    "name_en_lower": "rahitutomon amati",
+    "name_ja_lower": "ラピッドモン(アーマー体)",
+    "stage": "アーマー体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "omekasiyautomon",
+    "name_en": "Omekasiyautomon",
+    "name_ja": "オメガシャウトモン",
+    "name_en_lower": "omekasiyautomon",
+    "name_ja_lower": "オメガシャウトモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "aruteimetutohurakimon",
+    "name_en": "Aruteimetutohurakimon",
+    "name_ja": "アルティメットブラキモン",
+    "name_en_lower": "aruteimetutohurakimon",
+    "name_ja_lower": "アルティメットブラキモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "teyukumon",
+    "name_en": "Teyukumon",
+    "name_ja": "デュークモン",
+    "name_en_lower": "teyukumon",
+    "name_ja_lower": "デュークモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "kuraumon",
+    "name_en": "Kuraumon",
+    "name_ja": "グラウモン",
+    "name_en_lower": "kuraumon",
+    "name_ja_lower": "グラウモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "sitoramon",
+    "name_en": "Sitoramon",
+    "name_ja": "シードラモン",
+    "name_en_lower": "sitoramon",
+    "name_ja_lower": "シードラモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "siruhuimon",
+    "name_en": "Siruhuimon",
+    "name_ja": "シルフィーモン",
+    "name_en_lower": "siruhuimon",
+    "name_ja_lower": "シルフィーモン",
+    "stage": "完全体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "korutonumemon",
+    "name_en": "Korutonumemon",
+    "name_ja": "ゴールドヌメモン",
+    "name_en_lower": "korutonumemon",
+    "name_ja_lower": "ゴールドヌメモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "horukemon",
+    "name_en": "Horukemon",
+    "name_ja": "ボルケーモン",
+    "name_en_lower": "horukemon",
+    "name_ja_lower": "ボルケーモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "masutahurinhumon",
+    "name_en": "Masutahurinhumon",
+    "name_ja": "マスターブリンプモン",
+    "name_en_lower": "masutahurinhumon",
+    "name_ja_lower": "マスターブリンプモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "uaikumon",
+    "name_en": "Uaikumon",
+    "name_ja": "ヴァイクモン",
+    "name_en_lower": "uaikumon",
+    "name_ja_lower": "ヴァイクモン",
+    "stage": "究極体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "kurantorokomon",
+    "name_en": "Kurantorokomon",
+    "name_ja": "グランドロコモン",
+    "name_en_lower": "kurantorokomon",
+    "name_ja_lower": "グランドロコモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "siyueruhimon",
+    "name_en": "Siyueruhimon",
+    "name_ja": "ジュエルビーモン",
+    "name_en_lower": "siyueruhimon",
+    "name_ja_lower": "ジュエルビーモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "sunokohurimon",
+    "name_en": "Sunokohurimon",
+    "name_ja": "スノーゴブリモン",
+    "name_en_lower": "sunokohurimon",
+    "name_ja_lower": "スノーゴブリモン",
+    "stage": "成長期",
+    "attribute": null
+  },
+  {
+    "slug": "hokumon",
+    "name_en": "Hokumon",
+    "name_ja": "ホークモン",
+    "name_en_lower": "hokumon",
+    "name_ja_lower": "ホークモン",
+    "stage": "成長期",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "koatoramon-qing",
+    "name_en": "Koatoramon Qing",
+    "name_ja": "コアドラモン(青)",
+    "name_en_lower": "koatoramon qing",
+    "name_ja_lower": "コアドラモン(青)",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kaosutoramon",
+    "name_en": "Kaosutoramon",
+    "name_ja": "カオスドラモン",
+    "name_en_lower": "kaosutoramon",
+    "name_ja_lower": "カオスドラモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "siyakumon",
+    "name_en": "Siyakumon",
+    "name_ja": "シャークモン",
+    "name_en_lower": "siyakumon",
+    "name_ja_lower": "シャークモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "teyukumoncm",
+    "name_en": "Teyukumoncm",
+    "name_ja": "デュークモンCM",
+    "name_en_lower": "teyukumoncm",
+    "name_ja_lower": "デュークモンcm",
+    "stage": "超究極体",
+    "attribute": null
+  },
+  {
+    "slug": "teinohimon",
+    "name_en": "Teinohimon",
+    "name_ja": "ディノビーモン",
+    "name_en_lower": "teinohimon",
+    "name_ja_lower": "ディノビーモン",
+    "stage": "完全体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "rotareomon",
+    "name_en": "Rotareomon",
+    "name_ja": "ローダーレオモン",
+    "name_en_lower": "rotareomon",
+    "name_ja_lower": "ローダーレオモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "suratusiyuensiemon",
+    "name_en": "Suratusiyuensiemon",
+    "name_ja": "スラッシュエンジェモン",
+    "name_en_lower": "suratusiyuensiemon",
+    "name_ja_lower": "スラッシュエンジェモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kurantorakumon",
+    "name_en": "Kurantorakumon",
+    "name_ja": "グランドラクモン",
+    "name_en_lower": "kurantorakumon",
+    "name_ja_lower": "グランドラクモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "suhamon",
+    "name_en": "Zubamon",
+    "name_ja": "ズバモン",
+    "name_en_lower": "zubamon",
+    "name_ja_lower": "ズバモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "tehimon",
+    "name_en": "Tehimon",
+    "name_ja": "デビモン",
+    "name_en_lower": "tehimon",
+    "name_ja_lower": "デビモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "inheriarutoramonpm",
+    "name_en": "Inheriarutoramonpm",
+    "name_ja": "インペリアルドラモンPM",
+    "name_en_lower": "inheriarutoramonpm",
+    "name_ja_lower": "インペリアルドラモンpm",
+    "stage": "超究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "teinohiyumon",
+    "name_en": "Dinohyumon",
+    "name_ja": "ディノヒューモン",
+    "name_en_lower": "dinohyumon",
+    "name_ja_lower": "ディノヒューモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "aikioteyusumon",
+    "name_en": "Aikioteyusumon",
+    "name_ja": "アイギオテュースモン",
+    "name_en_lower": "aikioteyusumon",
+    "name_ja_lower": "アイギオテュースモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "teyuramon",
+    "name_en": "Duramon",
+    "name_ja": "デュラモン",
+    "name_en_lower": "duramon",
+    "name_ja_lower": "デュラモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kiyanonhimon",
+    "name_en": "Kiyanonhimon",
+    "name_ja": "キャノンビーモン",
+    "name_en_lower": "kiyanonhimon",
+    "name_ja_lower": "キャノンビーモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "insekimon",
+    "name_en": "Insekimon",
+    "name_ja": "インセキモン",
+    "name_en_lower": "insekimon",
+    "name_ja_lower": "インセキモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "toiakumon",
+    "name_en": "ToyAgumon",
+    "name_ja": "トイアグモン",
+    "name_en_lower": "toyagumon",
+    "name_ja_lower": "トイアグモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "anteiramon",
+    "name_en": "Anteiramon",
+    "name_ja": "アンティラモン",
+    "name_en_lower": "anteiramon",
+    "name_ja_lower": "アンティラモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "mirasiyukaokamonbm",
+    "name_en": "Mirasiyukaokamonbm",
+    "name_ja": "ミラージュガオガモンBM",
+    "name_en_lower": "mirasiyukaokamonbm",
+    "name_ja_lower": "ミラージュガオガモンbm",
+    "stage": "超究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "suteinkumon",
+    "name_en": "Stingmon",
+    "name_ja": "スティングモン",
+    "name_en_lower": "stingmon",
+    "name_ja_lower": "スティングモン",
+    "stage": "成熟期",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "yatakaramon",
+    "name_en": "Yatakaramon",
+    "name_ja": "ヤタガラモン",
+    "name_en_lower": "yatakaramon",
+    "name_ja_lower": "ヤタガラモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "anuarumon",
+    "name_en": "Anuarumon",
+    "name_ja": "アンヴァルモン",
+    "name_en_lower": "anuarumon",
+    "name_ja_lower": "アンヴァルモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "horiensiemon",
+    "name_en": "Horiensiemon",
+    "name_ja": "ホーリーエンジェモン",
+    "name_en_lower": "horiensiemon",
+    "name_ja_lower": "ホーリーエンジェモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "yukitarumon",
+    "name_en": "Yukitarumon",
+    "name_ja": "ユキダルモン",
+    "name_en_lower": "yukitarumon",
+    "name_ja_lower": "ユキダルモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "aikioteyusumon-huru",
+    "name_en": "Aikioteyusumon Huru",
+    "name_ja": "アイギオテュースモン：ブルー",
+    "name_en_lower": "aikioteyusumon huru",
+    "name_ja_lower": "アイギオテュースモン：ブルー",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "aisutehimon",
+    "name_en": "Aisutehimon",
+    "name_ja": "アイスデビモン",
+    "name_en_lower": "aisutehimon",
+    "name_ja_lower": "アイスデビモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "okutamon",
+    "name_en": "Okutamon",
+    "name_ja": "オクタモン",
+    "name_en_lower": "okutamon",
+    "name_ja_lower": "オクタモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "anomarokarimon",
+    "name_en": "Anomarokarimon",
+    "name_ja": "アノマロカリモン",
+    "name_en_lower": "anomarokarimon",
+    "name_ja_lower": "アノマロカリモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "ututomon",
+    "name_en": "Ututomon",
+    "name_ja": "ウッドモン",
+    "name_en_lower": "ututomon",
+    "name_ja_lower": "ウッドモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "meteiharuteyukumon",
+    "name_en": "Meteiharuteyukumon",
+    "name_ja": "メディーバルデュークモン",
+    "name_en_lower": "meteiharuteyukumon",
+    "name_ja_lower": "メディーバルデュークモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kaiserukureimon",
+    "name_en": "Kaiserukureimon",
+    "name_ja": "カイゼルグレイモン",
+    "name_en_lower": "kaiserukureimon",
+    "name_ja_lower": "カイゼルグレイモン",
+    "stage": null,
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "earohuitoramon",
+    "name_en": "Earohuitoramon",
+    "name_ja": "エアロブイドラモン",
+    "name_en_lower": "earohuitoramon",
+    "name_ja_lower": "エアロブイドラモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "ririsumon",
+    "name_en": "Ririsumon",
+    "name_ja": "リリスモン",
+    "name_en_lower": "ririsumon",
+    "name_ja_lower": "リリスモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "kahumon-you-qing-noban",
+    "name_en": "Gabumon",
+    "name_ja": "ガブモン-友情の絆-",
+    "name_en_lower": "gabumon",
+    "name_ja_lower": "ガブモン-友情の絆-",
+    "stage": "超究極体",
+    "attribute": null
+  },
+  {
+    "slug": "kasimon",
+    "name_en": "Kasimon",
+    "name_ja": "ガジモン",
+    "name_en_lower": "kasimon",
+    "name_ja_lower": "ガジモン",
+    "stage": "成長期",
+    "attribute": null
+  },
+  {
+    "slug": "touhutomon",
+    "name_en": "Touhutomon",
+    "name_ja": "ドゥフトモン",
+    "name_en_lower": "touhutomon",
+    "name_ja_lower": "ドゥフトモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "teyurantamon",
+    "name_en": "Durandamon",
+    "name_ja": "デュランダモン",
+    "name_en_lower": "durandamon",
+    "name_ja_lower": "デュランダモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "katoromon-jin",
+    "name_en": "Katoromon Jin",
+    "name_ja": "ガードロモン(金)",
+    "name_en_lower": "katoromon jin",
+    "name_ja_lower": "ガードロモン(金)",
+    "stage": "成熟期",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "huresiomon",
+    "name_en": "Huresiomon",
+    "name_ja": "プレシオモン",
+    "name_en_lower": "huresiomon",
+    "name_ja_lower": "プレシオモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "siyanhokamemon",
+    "name_en": "Siyanhokamemon",
+    "name_ja": "ジャンボガメモン",
+    "name_en_lower": "siyanhokamemon",
+    "name_ja_lower": "ジャンボガメモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "hekasumon",
+    "name_en": "Pegasusmon",
+    "name_ja": "ペガスモン",
+    "name_en_lower": "pegasusmon",
+    "name_ja_lower": "ペガスモン",
+    "stage": "アーマー体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "rahutatoramon",
+    "name_en": "Rahutatoramon",
+    "name_ja": "ラプタードラモン",
+    "name_en_lower": "rahutatoramon",
+    "name_ja_lower": "ラプタードラモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "metarukarurumon-hei",
+    "name_en": "MetalGarurumon",
+    "name_ja": "メタルガルルモン(黒)",
+    "name_en_lower": "metalgarurumon",
+    "name_ja_lower": "メタルガルルモン(黒)",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "koatoramon-lu",
+    "name_en": "Koatoramon Lu",
+    "name_ja": "コアドラモン(緑)",
+    "name_en_lower": "koatoramon lu",
+    "name_ja_lower": "コアドラモン(緑)",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "mutiyomon",
+    "name_en": "Muchomon",
+    "name_ja": "ムーチョモン",
+    "name_en_lower": "muchomon",
+    "name_ja_lower": "ムーチョモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "raisukureimon",
+    "name_en": "Raisukureimon",
+    "name_ja": "ライズグレイモン",
+    "name_en_lower": "raisukureimon",
+    "name_ja_lower": "ライズグレイモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "inheriarutoramondm",
+    "name_en": "Inheriarutoramondm",
+    "name_ja": "インペリアルドラモンDM",
+    "name_en_lower": "inheriarutoramondm",
+    "name_ja_lower": "インペリアルドラモンdm",
+    "stage": "究極体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "kurauisuensiemon",
+    "name_en": "Kurauisuensiemon",
+    "name_ja": "クラヴィスエンジェモン",
+    "name_en_lower": "kurauisuensiemon",
+    "name_ja_lower": "クラヴィスエンジェモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "siesumon",
+    "name_en": "Siesumon",
+    "name_ja": "ジエスモン",
+    "name_en_lower": "siesumon",
+    "name_ja_lower": "ジエスモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kahumon-hei",
+    "name_en": "Gabumon",
+    "name_ja": "ガブモン(黒)",
+    "name_en_lower": "gabumon",
+    "name_ja_lower": "ガブモン(黒)",
+    "stage": "成長期",
+    "attribute": null
+  },
+  {
+    "slug": "hatukasumondm",
+    "name_en": "Hatukasumondm",
+    "name_ja": "バッカスモンDM",
+    "name_en_lower": "hatukasumondm",
+    "name_ja_lower": "バッカスモンdm",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "kureimon",
+    "name_en": "Kureimon",
+    "name_ja": "グレイモン",
+    "name_en_lower": "kureimon",
+    "name_ja_lower": "グレイモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "horitoramon",
+    "name_en": "Horitoramon",
+    "name_ja": "ホーリードラモン",
+    "name_en_lower": "horitoramon",
+    "name_ja_lower": "ホーリードラモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "horusumon",
+    "name_en": "Horusumon",
+    "name_ja": "ホルスモン",
+    "name_en_lower": "horusumon",
+    "name_ja_lower": "ホルスモン",
+    "stage": "アーマー体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "kaosumon-uarotouruamu",
+    "name_en": "Kaosumon Uarotouruamu",
+    "name_ja": "カオスモン：ヴァロドゥルアーム",
+    "name_en_lower": "kaosumon uarotouruamu",
+    "name_ja_lower": "カオスモン：ヴァロドゥルアーム",
+    "stage": "超究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "riyuutamon",
+    "name_en": "Ryudamon",
+    "name_ja": "リュウダモン",
+    "name_en_lower": "ryudamon",
+    "name_ja_lower": "リュウダモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "inheriarutoramonfm",
+    "name_en": "Inheriarutoramonfm",
+    "name_ja": "インペリアルドラモンFM",
+    "name_en_lower": "inheriarutoramonfm",
+    "name_ja_lower": "インペリアルドラモンfm",
+    "stage": "究極体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "heriaruuantemon",
+    "name_en": "Heriaruuantemon",
+    "name_ja": "べリアルヴァンデモン",
+    "name_en_lower": "heriaruuantemon",
+    "name_ja_lower": "べリアルヴァンデモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "kaioumon",
+    "name_en": "Gaiomon",
+    "name_ja": "ガイオウモン",
+    "name_en_lower": "gaiomon",
+    "name_ja_lower": "ガイオウモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "siyureimon",
+    "name_en": "Siyureimon",
+    "name_ja": "ジュレイモン",
+    "name_en_lower": "siyureimon",
+    "name_ja_lower": "ジュレイモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "huroramon",
+    "name_en": "Huroramon",
+    "name_ja": "フローラモン",
+    "name_en_lower": "huroramon",
+    "name_ja_lower": "フローラモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "sukarusitoramon",
+    "name_en": "Sukarusitoramon",
+    "name_ja": "スカルシードラモン",
+    "name_en_lower": "sukarusitoramon",
+    "name_ja_lower": "スカルシードラモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "hureamon",
+    "name_en": "Hureamon",
+    "name_ja": "フレアモン",
+    "name_en_lower": "hureamon",
+    "name_ja_lower": "フレアモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "suhasutamon",
+    "name_en": "Suhasutamon",
+    "name_ja": "スーパースターモン",
+    "name_en_lower": "suhasutamon",
+    "name_ja_lower": "スーパースターモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "hinotukimon",
+    "name_en": "Hinotukimon",
+    "name_ja": "ピノッキモン",
+    "name_en_lower": "hinotukimon",
+    "name_ja_lower": "ピノッキモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "keruheromonjm",
+    "name_en": "Keruheromonjm",
+    "name_ja": "ケルベロモンJM",
+    "name_en_lower": "keruheromonjm",
+    "name_ja_lower": "ケルベロモンjm",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "saikuromon",
+    "name_en": "Saikuromon",
+    "name_ja": "サイクロモン",
+    "name_en_lower": "saikuromon",
+    "name_ja_lower": "サイクロモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "herusutamon",
+    "name_en": "Herusutamon",
+    "name_ja": "ベルスターモン",
+    "name_en_lower": "herusutamon",
+    "name_ja_lower": "ベルスターモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "siyainkureimon",
+    "name_en": "Siyainkureimon",
+    "name_ja": "シャイングレイモン",
+    "name_en_lower": "siyainkureimon",
+    "name_ja_lower": "シャイングレイモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kurotukumon",
+    "name_en": "Kurotukumon",
+    "name_ja": "クロックモン",
+    "name_en_lower": "kurotukumon",
+    "name_ja_lower": "クロックモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "siyautomon",
+    "name_en": "Siyautomon",
+    "name_ja": "シャウトモン",
+    "name_en_lower": "siyautomon",
+    "name_ja_lower": "シャウトモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "tutitarumon",
+    "name_en": "Tutitarumon",
+    "name_ja": "ツチダルモン",
+    "name_en_lower": "tutitarumon",
+    "name_ja_lower": "ツチダルモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "tesitamamon",
+    "name_en": "Tesitamamon",
+    "name_ja": "デジタマモン",
+    "name_en_lower": "tesitamamon",
+    "name_ja_lower": "デジタマモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "taitamon-sukaruharukimon",
+    "name_en": "Taitamon Sukaruharukimon",
+    "name_ja": "タイタモン+スカルバルキモン",
+    "name_en_lower": "taitamon sukaruharukimon",
+    "name_ja_lower": "タイタモン+スカルバルキモン",
+    "stage": "超究極体",
+    "attribute": null
+  },
+  {
+    "slug": "urukanusumon",
+    "name_en": "Urukanusumon",
+    "name_ja": "ウルカヌスモン",
+    "name_en_lower": "urukanusumon",
+    "name_ja_lower": "ウルカヌスモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "tiyoromon",
+    "name_en": "Choromon",
+    "name_ja": "チョロモン",
+    "name_en_lower": "choromon",
+    "name_ja_lower": "チョロモン",
+    "stage": "幼年期1",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "atorakahuterimon",
+    "name_en": "Atorakahuterimon",
+    "name_ja": "アトラーカブテリモン",
+    "name_en_lower": "atorakahuterimon",
+    "name_ja_lower": "アトラーカブテリモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "sankuruumon",
+    "name_en": "Sankuruumon",
+    "name_ja": "サングルゥモン",
+    "name_en_lower": "sankuruumon",
+    "name_ja_lower": "サングルゥモン",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "karurumon-hei",
+    "name_en": "Garurumon (Black)",
+    "name_ja": "ガルルモン(黒)",
+    "name_en_lower": "garurumon (black)",
+    "name_ja_lower": "ガルルモン(黒)",
+    "stage": "成熟期",
+    "attribute": null
+  },
+  {
+    "slug": "teirumon",
+    "name_en": "Teirumon",
+    "name_ja": "テイルモン",
+    "name_en_lower": "teirumon",
+    "name_ja_lower": "テイルモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "sanhuraumon",
+    "name_en": "Sanhuraumon",
+    "name_ja": "サンフラウモン",
+    "name_en_lower": "sanhuraumon",
+    "name_ja_lower": "サンフラウモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kureisunouamon",
+    "name_en": "Kureisunouamon",
+    "name_ja": "グレイスノヴァモン",
+    "name_en_lower": "kureisunouamon",
+    "name_ja_lower": "グレイスノヴァモン",
+    "stage": "超究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "toherumon",
+    "name_en": "Dobermon",
+    "name_ja": "ドーベルモン",
+    "name_en_lower": "dobermon",
+    "name_ja_lower": "ドーベルモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "hitukumamemon",
+    "name_en": "BigMamemon",
+    "name_ja": "ビッグマメモン",
+    "name_en_lower": "bigmamemon",
+    "name_ja_lower": "ビッグマメモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "aruhuamon",
+    "name_en": "Aruhuamon",
+    "name_ja": "アルファモン",
+    "name_en_lower": "aruhuamon",
+    "name_ja_lower": "アルファモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "mekasitoramon",
+    "name_en": "Mekasitoramon",
+    "name_ja": "メガシードラモン",
+    "name_en_lower": "mekasitoramon",
+    "name_ja_lower": "メガシードラモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "haruhamon",
+    "name_en": "Barbamon",
+    "name_ja": "バルバモン",
+    "name_en_lower": "barbamon",
+    "name_ja_lower": "バルバモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "makunamon",
+    "name_en": "Magnamon",
+    "name_ja": "マグナモン",
+    "name_en_lower": "magnamon",
+    "name_ja_lower": "マグナモン",
+    "stage": "アーマー体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "sukarumanmon",
+    "name_en": "Sukarumanmon",
+    "name_ja": "スカルマンモン",
+    "name_en_lower": "sukarumanmon",
+    "name_ja_lower": "スカルマンモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "tiyumon",
+    "name_en": "Chuumon",
+    "name_ja": "チューモン",
+    "name_en_lower": "chuumon",
+    "name_ja_lower": "チューモン",
+    "stage": "成長期",
+    "attribute": null
+  },
+  {
+    "slug": "kohurimon",
+    "name_en": "Kohurimon",
+    "name_ja": "ゴブリモン",
+    "name_en_lower": "kohurimon",
+    "name_ja_lower": "ゴブリモン",
+    "stage": "成長期",
+    "attribute": null
+  },
+  {
+    "slug": "hikotehimon",
+    "name_en": "Hikotehimon",
+    "name_ja": "ピコデビモン",
+    "name_en_lower": "hikotehimon",
+    "name_ja_lower": "ピコデビモン",
+    "stage": "成長期",
+    "attribute": null
+  },
+  {
+    "slug": "kurihuomon",
+    "name_en": "Kurihuomon",
+    "name_ja": "グリフォモン",
+    "name_en_lower": "kurihuomon",
+    "name_ja_lower": "グリフォモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "torukuremon",
+    "name_en": "DoruGreymon",
+    "name_ja": "ドルグレモン",
+    "name_en_lower": "dorugreymon",
+    "name_ja_lower": "ドルグレモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kutamon",
+    "name_en": "Kudamon",
+    "name_ja": "クダモン",
+    "name_en_lower": "kudamon",
+    "name_ja_lower": "クダモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "ensientowaisumon",
+    "name_en": "Ensientowaisumon",
+    "name_ja": "エンシェントワイズモン",
+    "name_en_lower": "ensientowaisumon",
+    "name_ja_lower": "エンシェントワイズモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "uarukirimon",
+    "name_en": "Uarukirimon",
+    "name_ja": "ヴァルキリモン",
+    "name_en_lower": "uarukirimon",
+    "name_ja_lower": "ヴァルキリモン",
+    "stage": "究極体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "kotutotoramon",
+    "name_en": "Kotutotoramon",
+    "name_ja": "ゴッドドラモン",
+    "name_en_lower": "kotutotoramon",
+    "name_ja_lower": "ゴッドドラモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "aikioteyusumon-taku",
+    "name_en": "Aikioteyusumon Taku",
+    "name_ja": "アイギオテュースモン：ダーク",
+    "name_en_lower": "aikioteyusumon taku",
+    "name_ja_lower": "アイギオテュースモン：ダーク",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "reteitehimon",
+    "name_en": "Reteitehimon",
+    "name_ja": "レディーデビモン",
+    "name_en_lower": "reteitehimon",
+    "name_ja_lower": "レディーデビモン",
+    "stage": "完全体",
+    "attribute": null
+  },
+  {
+    "slug": "auensikitutomon",
+    "name_en": "Auensikitutomon",
+    "name_ja": "アヴェンジキッドモン",
+    "name_en_lower": "auensikitutomon",
+    "name_ja_lower": "アヴェンジキッドモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "rutiemonsm",
+    "name_en": "Rutiemonsm",
+    "name_ja": "ルーチェモンSM",
+    "name_en_lower": "rutiemonsm",
+    "name_ja_lower": "ルーチェモンsm",
+    "stage": "超究極体",
+    "attribute": null
+  },
+  {
+    "slug": "takutoramon",
+    "name_en": "Takutoramon",
+    "name_ja": "ダークドラモン",
+    "name_en_lower": "takutoramon",
+    "name_ja_lower": "ダークドラモン",
+    "stage": "究極体",
+    "attribute": null
+  },
+  {
+    "slug": "diaboromon",
+    "name_en": "Diaboromon",
+    "name_ja": "ディアボロモン",
+    "name_en_lower": "diaboromon",
+    "name_ja_lower": "ディアボロモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "diaboromon_jp",
+    "name_en": "Diaboromon Jp",
+    "name_ja": "アポロモン",
+    "name_en_lower": "diaboromon jp",
+    "name_ja_lower": "アポロモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "callismon",
+    "name_en": "Callismon",
+    "name_ja": "リリスモン",
+    "name_en_lower": "callismon",
+    "name_ja_lower": "リリスモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "callismon_jp",
+    "name_en": "Callismon Jp",
+    "name_ja": "アイスモン",
+    "name_en_lower": "callismon jp",
+    "name_ja_lower": "アイスモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "mervamon",
+    "name_en": "Mervamon",
+    "name_ja": "メルヴァモン",
+    "name_en_lower": "mervamon",
+    "name_ja_lower": "メルヴァモン",
+    "stage": "Mega+",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "penmon",
+    "name_en": "Penmon",
+    "name_ja": "ペンモン",
+    "name_en_lower": "penmon",
+    "name_ja_lower": "ペンモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "megadramon",
+    "name_en": "Megadramon",
+    "name_ja": "メガドラモン",
+    "name_en_lower": "megadramon",
+    "name_ja_lower": "メガドラモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "megadramon_jp",
+    "name_en": "Megadramon",
+    "name_ja": "メガドラモン",
+    "name_en_lower": "megadramon",
+    "name_ja_lower": "メガドラモン",
+    "stage": "完全体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "chuumon",
+    "name_en": "Chuumon",
+    "name_ja": "プクモン",
+    "name_en_lower": "chuumon",
+    "name_ja_lower": "プクモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "gekomon",
+    "name_en": "Gekomon",
+    "name_ja": "ゲコモン",
+    "name_en_lower": "gekomon",
+    "name_ja_lower": "ゲコモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "pukumon",
+    "name_en": "Pukumon",
+    "name_ja": "プクモン",
+    "name_en_lower": "pukumon",
+    "name_ja_lower": "プクモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "chronomon-hm",
+    "name_en": "Chronomon HM",
+    "name_ja": "クロノモン：ホーリーモード",
+    "name_en_lower": "chronomon hm",
+    "name_ja_lower": "クロノモン：ホーリーモード",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "chronomon-hm_jp",
+    "name_en": "Chronomon Hm Jp",
+    "name_ja": "クロノモンHM",
+    "name_en_lower": "chronomon hm jp",
+    "name_ja_lower": "クロノモンhm",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "varodurumon",
+    "name_en": "Varodurumon",
+    "name_ja": "ヴァロドゥルモン",
+    "name_en_lower": "varodurumon",
+    "name_ja_lower": "ヴァロドゥルモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "varodurumon_jp",
+    "name_en": "Garurumon (Black)",
+    "name_ja": "ガルルモン",
+    "name_en_lower": "garurumon (black)",
+    "name_ja_lower": "ガルルモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "mistymon",
+    "name_en": "Mistymon",
+    "name_ja": "ミスティモン",
+    "name_en_lower": "mistymon",
+    "name_ja_lower": "ミスティモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "mistymon_jp",
+    "name_en": "Mistymon Jp",
+    "name_ja": "ミスティモン",
+    "name_en_lower": "mistymon jp",
+    "name_ja_lower": "ミスティモン",
+    "stage": "完全体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "pagumon",
+    "name_en": "Pagumon",
+    "name_ja": "パグモン",
+    "name_en_lower": "pagumon",
+    "name_ja_lower": "パグモン",
+    "stage": "In-Training II",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "pagumon_jp",
+    "name_en": "Agumon (Black)",
+    "name_ja": "アグモン",
+    "name_en_lower": "agumon (black)",
+    "name_ja_lower": "アグモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "angewomon",
+    "name_en": "Angewomon",
+    "name_ja": "エンジェウーモン",
+    "name_en_lower": "angewomon",
+    "name_ja_lower": "エンジェウーモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "angewomon_jp",
+    "name_en": "Angewomon Jp",
+    "name_ja": "ナノモン",
+    "name_en_lower": "angewomon jp",
+    "name_ja_lower": "ナノモン",
+    "stage": "完全体",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "titamon",
+    "name_en": "Titamon",
+    "name_ja": "タイタモン",
+    "name_en_lower": "titamon",
+    "name_ja_lower": "タイタモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "angemon",
+    "name_en": "Angemon",
+    "name_ja": "エンジェモン",
+    "name_en_lower": "angemon",
+    "name_ja_lower": "エンジェモン",
+    "stage": "Champion",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "angemon_jp",
+    "name_en": "Vademon",
+    "name_ja": "ヴァンデモン",
+    "name_en_lower": "vademon",
+    "name_ja_lower": "ヴァンデモン",
+    "stage": "完全体",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "saberleomon",
+    "name_en": "SaberLeomon",
+    "name_ja": "サーベルレオモン",
+    "name_en_lower": "saberleomon",
+    "name_ja_lower": "サーベルレオモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "saberleomon_jp",
+    "name_en": "Saberleomon Jp",
+    "name_ja": "サーベルレオモン",
+    "name_en_lower": "saberleomon jp",
+    "name_ja_lower": "サーベルレオモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "pabumon",
+    "name_en": "Pabumon",
+    "name_ja": "バブモン",
+    "name_en_lower": "pabumon",
+    "name_ja_lower": "バブモン",
+    "stage": "In-Training I",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "pabumon_jp",
+    "name_en": "Agumon (Black)",
+    "name_ja": "アグモン",
+    "name_en_lower": "agumon (black)",
+    "name_ja_lower": "アグモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "buraimon",
+    "name_en": "Buraimon",
+    "name_ja": "フライモン",
+    "name_en_lower": "buraimon",
+    "name_ja_lower": "フライモン",
+    "stage": "Champion",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "leviamon",
+    "name_en": "Leviamon",
+    "name_ja": "リヴァイアモン",
+    "name_en_lower": "leviamon",
+    "name_ja_lower": "リヴァイアモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "leviamon_jp",
+    "name_en": "Leviamon Jp",
+    "name_ja": "テリアモン",
+    "name_en_lower": "leviamon jp",
+    "name_ja_lower": "テリアモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "ryudamon",
+    "name_en": "Ryudamon",
+    "name_ja": "リュウダモン",
+    "name_en_lower": "ryudamon",
+    "name_ja_lower": "リュウダモン",
+    "stage": "Rookie",
+    "attribute": "データ"
+  },
+  {
+    "slug": "ryudamon_jp",
+    "name_en": "Ryudamon Jp",
+    "name_ja": "ルナモン",
+    "name_en_lower": "ryudamon jp",
+    "name_ja_lower": "ルナモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "megidramon",
+    "name_en": "Megidramon",
+    "name_ja": "メギドラモン",
+    "name_en_lower": "megidramon",
+    "name_ja_lower": "メギドラモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "megidramon_jp",
+    "name_en": "Megidramon",
+    "name_ja": "メギドラモン",
+    "name_en_lower": "megidramon",
+    "name_ja_lower": "メギドラモン",
+    "stage": "究極体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "monochromon",
+    "name_en": "Monochromon",
+    "name_ja": "モノクロモン",
+    "name_en_lower": "monochromon",
+    "name_ja_lower": "モノクロモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "monochromon_jp",
+    "name_en": "Monochromon Jp",
+    "name_ja": "モノクロモン",
+    "name_en_lower": "monochromon jp",
+    "name_ja_lower": "モノクロモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "machinedramon",
+    "name_en": "Machinedramon",
+    "name_ja": "ムゲンドラモン",
+    "name_en_lower": "machinedramon",
+    "name_ja_lower": "ムゲンドラモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "machinedramon_jp",
+    "name_en": "Minervamon",
+    "name_ja": "ミネルヴァモン",
+    "name_en_lower": "minervamon",
+    "name_ja_lower": "ミネルヴァモン",
+    "stage": "究極体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "salamon",
+    "name_en": "Salamon",
+    "name_ja": "ソーラーモン",
+    "name_en_lower": "salamon",
+    "name_ja_lower": "ソーラーモン",
+    "stage": "Rookie",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "salamon_jp",
+    "name_en": "Zanbamon",
+    "name_ja": "ザンバモン",
+    "name_en_lower": "zanbamon",
+    "name_ja_lower": "ザンバモン",
+    "stage": "究極体",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "shakkoumon",
+    "name_en": "Shakkoumon",
+    "name_ja": "バクモン",
+    "name_en_lower": "shakkoumon",
+    "name_ja_lower": "バクモン",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "tsunomon",
+    "name_en": "Tsunomon",
+    "name_ja": "ツノモン",
+    "name_en_lower": "tsunomon",
+    "name_ja_lower": "ツノモン",
+    "stage": "In-Training II",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "musyamon",
+    "name_en": "Musyamon",
+    "name_ja": "ムシャモン",
+    "name_en_lower": "musyamon",
+    "name_ja_lower": "ムシャモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "raremon",
+    "name_en": "Raremon",
+    "name_ja": "ララモン",
+    "name_en_lower": "raremon",
+    "name_ja_lower": "ララモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "antylamon",
+    "name_en": "Antylamon",
+    "name_ja": "パンダモン",
+    "name_en_lower": "antylamon",
+    "name_ja_lower": "パンダモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "ouryumon",
+    "name_en": "Ouryumon",
+    "name_ja": "オウリュウモン",
+    "name_en_lower": "ouryumon",
+    "name_ja_lower": "オウリュウモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "hisyaryumon",
+    "name_en": "Hisyaryumon",
+    "name_ja": "ヒシャリュウモン",
+    "name_en_lower": "hisyaryumon",
+    "name_ja_lower": "ヒシャリュウモン",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "garudamon",
+    "name_en": "Garudamon",
+    "name_ja": "アルダモン",
+    "name_en_lower": "garudamon",
+    "name_ja_lower": "アルダモン",
+    "stage": "Ultimate",
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "monodramon",
+    "name_en": "Monodramon",
+    "name_ja": "モノドラモン",
+    "name_en_lower": "monodramon",
+    "name_ja_lower": "モノドラモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "ravemon",
+    "name_en": "Ravemon",
+    "name_ja": "リヴァイアモン",
+    "name_en_lower": "ravemon",
+    "name_ja_lower": "リヴァイアモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "ravemon_jp",
+    "name_en": "Ravemon Jp",
+    "name_ja": "レオモン",
+    "name_en_lower": "ravemon jp",
+    "name_ja_lower": "レオモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "metaletemon",
+    "name_en": "MetalEtemon",
+    "name_ja": "メタルエテモン",
+    "name_en_lower": "metaletemon",
+    "name_ja_lower": "メタルエテモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "weregarurumon",
+    "name_en": "WereGarurumon",
+    "name_ja": "ワーガルルモン(黒)",
+    "name_en_lower": "weregarurumon",
+    "name_ja_lower": "ワーガルルモン(黒)",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "weregarurumon_jp",
+    "name_en": "Weregarurumon Jp",
+    "name_ja": "ワーガルルモン",
+    "name_en_lower": "weregarurumon jp",
+    "name_ja_lower": "ワーガルルモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "bakemon",
+    "name_en": "Bakemon",
+    "name_ja": "バケモン",
+    "name_en_lower": "bakemon",
+    "name_ja_lower": "バケモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "waspmon",
+    "name_en": "Waspmon",
+    "name_ja": "ワスプモン",
+    "name_en_lower": "waspmon",
+    "name_ja_lower": "ワスプモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "waspmon_jp",
+    "name_en": "Waspmon Jp",
+    "name_ja": "ワイズモン",
+    "name_en_lower": "waspmon jp",
+    "name_ja_lower": "ワイズモン",
+    "stage": "完全体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "aquilamon",
+    "name_en": "Aquilamon",
+    "name_ja": "アクィラモン",
+    "name_en_lower": "aquilamon",
+    "name_ja_lower": "アクィラモン",
+    "stage": "Champion",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "aquilamon_jp",
+    "name_en": "Aquilamon Jp",
+    "name_ja": "アクィラモン",
+    "name_en_lower": "aquilamon jp",
+    "name_ja_lower": "アクィラモン",
+    "stage": "成熟期",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "garurumon",
+    "name_en": "Garurumon",
+    "name_ja": "ガルルモン",
+    "name_en_lower": "garurumon",
+    "name_ja_lower": "ガルルモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "mojyamon",
+    "name_en": "Mojyamon",
+    "name_ja": "モジャモン",
+    "name_en_lower": "mojyamon",
+    "name_ja_lower": "モジャモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "betamon",
+    "name_en": "Betamon",
+    "name_ja": "ベーダモン",
+    "name_en_lower": "betamon",
+    "name_ja_lower": "ベーダモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "floramon",
+    "name_en": "Floramon",
+    "name_ja": "フローラモン",
+    "name_en_lower": "floramon",
+    "name_ja_lower": "フローラモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "floramon_jp",
+    "name_en": "Floramon Jp",
+    "name_ja": "ソーラーモン",
+    "name_en_lower": "floramon jp",
+    "name_ja_lower": "ソーラーモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "solarmon",
+    "name_en": "Solarmon",
+    "name_ja": "ソーサリモン",
+    "name_en_lower": "solarmon",
+    "name_ja_lower": "ソーサリモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "minervamon",
+    "name_en": "Minervamon",
+    "name_ja": "ミネルヴァモン",
+    "name_en_lower": "minervamon",
+    "name_ja_lower": "ミネルヴァモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "knightmon",
+    "name_en": "Knightmon",
+    "name_ja": "ナイトモン",
+    "name_en_lower": "knightmon",
+    "name_ja_lower": "ナイトモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "knightmon_jp",
+    "name_en": "Knightmon Jp",
+    "name_ja": "ガニモン",
+    "name_en_lower": "knightmon jp",
+    "name_ja_lower": "ガニモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "metalgreymon",
+    "name_en": "MetalGreymon",
+    "name_ja": "メタルグレイモン",
+    "name_en_lower": "metalgreymon",
+    "name_ja_lower": "メタルグレイモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "metalgreymon_jp",
+    "name_en": "Metalgreymon Jp",
+    "name_ja": "メタルエテモン",
+    "name_en_lower": "metalgreymon jp",
+    "name_ja_lower": "メタルエテモン",
+    "stage": "究極体",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "merukimon",
+    "name_en": "Merukimon",
+    "name_ja": "メルクリモン",
+    "name_en_lower": "merukimon",
+    "name_ja_lower": "メルクリモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "datamon",
+    "name_en": "Datamon",
+    "name_ja": "パタモン",
+    "name_en_lower": "datamon",
+    "name_ja_lower": "パタモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "meteormon",
+    "name_en": "Meteormon",
+    "name_ja": "マタドゥルモン",
+    "name_en_lower": "meteormon",
+    "name_ja_lower": "マタドゥルモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "meteormon_jp",
+    "name_en": "Megidramon",
+    "name_ja": "メギドラモン",
+    "name_en_lower": "megidramon",
+    "name_ja_lower": "メギドラモン",
+    "stage": "究極体",
+    "attribute": "Data"
+  },
+  {
+    "slug": "gaogamon",
+    "name_en": "Gaogamon",
+    "name_ja": "ガオガモン",
+    "name_en_lower": "gaogamon",
+    "name_ja_lower": "ガオガモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "gaogamon_jp",
+    "name_en": "Gaogamon",
+    "name_ja": "ガオガモン",
+    "name_en_lower": "gaogamon",
+    "name_ja_lower": "ガオガモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "dorimon",
+    "name_en": "Dorimon",
+    "name_ja": "ドリモン",
+    "name_en_lower": "dorimon",
+    "name_ja_lower": "ドリモン",
+    "stage": "In-Training II",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "wisemon",
+    "name_en": "Wisemon",
+    "name_ja": "ワイズモン",
+    "name_en_lower": "wisemon",
+    "name_ja_lower": "ワイズモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "wisemon_jp",
+    "name_en": "Wisemon Jp",
+    "name_ja": "ワイズモン",
+    "name_en_lower": "wisemon jp",
+    "name_ja_lower": "ワイズモン",
+    "stage": "完全体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "shamamon",
+    "name_en": "Shamamon",
+    "name_ja": "シャーマモン",
+    "name_en_lower": "shamamon",
+    "name_ja_lower": "シャーマモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "choromon",
+    "name_en": "Choromon",
+    "name_ja": "アポロモン",
+    "name_en_lower": "choromon",
+    "name_ja_lower": "アポロモン",
+    "stage": "In-Training I",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "tsumemon",
+    "name_en": "Tsumemon",
+    "name_ja": "ツメモン",
+    "name_en_lower": "tsumemon",
+    "name_ja_lower": "ツメモン",
+    "stage": "In-Training II",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "infermon",
+    "name_en": "Infermon",
+    "name_ja": "インフェルモン",
+    "name_en_lower": "infermon",
+    "name_ja_lower": "インフェルモン",
+    "stage": "Ultimate",
+    "attribute": "Unknown"
+  },
+  {
+    "slug": "infermon_jp",
+    "name_en": "Infermon",
+    "name_ja": "インフェルモン",
+    "name_en_lower": "infermon",
+    "name_ja_lower": "インフェルモン",
+    "stage": "完全体",
+    "attribute": "Unknown"
+  },
+  {
+    "slug": "raptordramon",
+    "name_en": "Raptordramon",
+    "name_ja": "ラプタードラモン",
+    "name_en_lower": "raptordramon",
+    "name_ja_lower": "ラプタードラモン",
+    "stage": "Champion",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "raptordramon_jp",
+    "name_en": "Raptordramon Jp",
+    "name_ja": "ライドラモン",
+    "name_en_lower": "raptordramon jp",
+    "name_ja_lower": "ライドラモン",
+    "stage": "アーマー体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "justimon",
+    "name_en": "Justimon",
+    "name_ja": "ジャスティモン",
+    "name_en_lower": "justimon",
+    "name_ja_lower": "ジャスティモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "justimon_jp",
+    "name_en": "Justimon Jp",
+    "name_ja": "ルーチェモン",
+    "name_en_lower": "justimon jp",
+    "name_ja_lower": "ルーチェモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "botamon",
+    "name_en": "Botamon",
+    "name_ja": "ボタモン",
+    "name_en_lower": "botamon",
+    "name_ja_lower": "ボタモン",
+    "stage": "In-Training I",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "coelamon",
+    "name_en": "Coelamon",
+    "name_ja": "レアモン",
+    "name_en_lower": "coelamon",
+    "name_ja_lower": "レアモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "coelamon_jp",
+    "name_en": "Coelamon Jp",
+    "name_ja": "オメガモン",
+    "name_en_lower": "coelamon jp",
+    "name_ja_lower": "オメガモン",
+    "stage": "超究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "dokugumon",
+    "name_en": "Dokugumon",
+    "name_ja": "ドクグモン",
+    "name_en_lower": "dokugumon",
+    "name_ja_lower": "ドクグモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "dokugumon_jp",
+    "name_en": "Dokugumon",
+    "name_ja": "ドクグモン",
+    "name_en_lower": "dokugumon",
+    "name_ja_lower": "ドクグモン",
+    "stage": "成熟期",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "veemon",
+    "name_en": "Veemon",
+    "name_ja": "ブイモン",
+    "name_en_lower": "veemon",
+    "name_ja_lower": "ブイモン",
+    "stage": "Rookie",
+    "attribute": "Free"
+  },
+  {
+    "slug": "veemon_jp",
+    "name_en": "Geremon",
+    "name_ja": "ゲレモン",
+    "name_en_lower": "geremon",
+    "name_ja_lower": "ゲレモン",
+    "stage": "成熟期",
+    "attribute": "Free"
+  },
+  {
+    "slug": "chirinmon",
+    "name_en": "Chirinmon",
+    "name_ja": "チィリンモン",
+    "name_en_lower": "chirinmon",
+    "name_ja_lower": "チィリンモン",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "chirinmon_jp",
+    "name_en": "Chirinmon",
+    "name_ja": "チィリンモン",
+    "name_en_lower": "chirinmon",
+    "name_ja_lower": "チィリンモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "andromon",
+    "name_en": "Andromon",
+    "name_ja": "アンドロモン",
+    "name_en_lower": "andromon",
+    "name_ja_lower": "アンドロモン",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "gankoomon",
+    "name_en": "Gankoomon",
+    "name_ja": "ガンクゥモン",
+    "name_en_lower": "gankoomon",
+    "name_ja_lower": "ガンクゥモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "gankoomon_jp",
+    "name_en": "Andromon",
+    "name_ja": "アンドロモン",
+    "name_en_lower": "andromon",
+    "name_ja_lower": "アンドロモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kendogarurumon",
+    "name_en": "KendoGarurumon",
+    "name_ja": "ケンドガルルモン",
+    "name_en_lower": "kendogarurumon",
+    "name_ja_lower": "ケンドガルルモン",
+    "stage": "Hybrid",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kendogarurumon_jp",
+    "name_en": "Garurumon (Black)",
+    "name_ja": "ガルルモン",
+    "name_en_lower": "garurumon (black)",
+    "name_ja_lower": "ガルルモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "butenmon",
+    "name_en": "Butenmon",
+    "name_ja": "ブテンモン",
+    "name_en_lower": "butenmon",
+    "name_ja_lower": "ブテンモン",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "marsmon",
+    "name_en": "Marsmon",
+    "name_ja": "マルスモン",
+    "name_en_lower": "marsmon",
+    "name_ja_lower": "マルスモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "dorumon",
+    "name_en": "Dorumon",
+    "name_ja": "ドルモン",
+    "name_en_lower": "dorumon",
+    "name_ja_lower": "ドルモン",
+    "stage": "Rookie",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kuzuhamon",
+    "name_en": "Kuzuhamon",
+    "name_ja": "クズハモン",
+    "name_en_lower": "kuzuhamon",
+    "name_ja_lower": "クズハモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "plutomon",
+    "name_en": "Plutomon",
+    "name_ja": "プルートモン",
+    "name_en_lower": "plutomon",
+    "name_ja_lower": "プルートモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "plutomon_jp",
+    "name_en": "Zudomon",
+    "name_ja": "ズドモン",
+    "name_en_lower": "zudomon",
+    "name_ja_lower": "ズドモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "lanamon",
+    "name_en": "Lanamon",
+    "name_ja": "ラーナモン",
+    "name_en_lower": "lanamon",
+    "name_ja_lower": "ラーナモン",
+    "stage": "Hybrid",
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "deramon",
+    "name_en": "Deramon",
+    "name_ja": "デラモン",
+    "name_en_lower": "deramon",
+    "name_ja_lower": "デラモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "piedmon",
+    "name_en": "Piedmon",
+    "name_ja": "ピエモン",
+    "name_en_lower": "piedmon",
+    "name_ja_lower": "ピエモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "piedmon_jp",
+    "name_en": "Piedmon",
+    "name_ja": "ピエモン",
+    "name_en_lower": "piedmon",
+    "name_ja_lower": "ピエモン",
+    "stage": "究極体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "metalmamemon",
+    "name_en": "MetalMamemon",
+    "name_ja": "メタルマメモン",
+    "name_en_lower": "metalmamemon",
+    "name_ja_lower": "メタルマメモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "omnimon",
+    "name_en": "Omnimon",
+    "name_ja": "オメガモン",
+    "name_en_lower": "omnimon",
+    "name_ja_lower": "オメガモン",
+    "stage": "Mega+",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "omnimon_jp",
+    "name_en": "Omnimon Jp",
+    "name_ja": "マンモン",
+    "name_en_lower": "omnimon jp",
+    "name_ja_lower": "マンモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "gaomon",
+    "name_en": "Gaomon",
+    "name_ja": "ガオモン",
+    "name_en_lower": "gaomon",
+    "name_ja_lower": "ガオモン",
+    "stage": "Rookie",
+    "attribute": "データ"
+  },
+  {
+    "slug": "goldramon",
+    "name_en": "Goldramon",
+    "name_ja": "ガンドラモン",
+    "name_en_lower": "goldramon",
+    "name_ja_lower": "ガンドラモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "goldramon_jp",
+    "name_en": "Goldramon Jp",
+    "name_ja": "ソーラーモン",
+    "name_en_lower": "goldramon jp",
+    "name_ja_lower": "ソーラーモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "okuwamon",
+    "name_en": "Okuwamon",
+    "name_ja": "オオクワモン",
+    "name_en_lower": "okuwamon",
+    "name_ja_lower": "オオクワモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "breakdramon",
+    "name_en": "Breakdramon",
+    "name_ja": "ブレイクドラモン",
+    "name_en_lower": "breakdramon",
+    "name_ja_lower": "ブレイクドラモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "breakdramon_jp",
+    "name_en": "Breakdramon Jp",
+    "name_ja": "ララモン",
+    "name_en_lower": "breakdramon jp",
+    "name_ja_lower": "ララモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "guilmon",
+    "name_en": "Guilmon",
+    "name_ja": "ギルモン",
+    "name_en_lower": "guilmon",
+    "name_ja_lower": "ギルモン",
+    "stage": "Rookie",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "guilmon_jp",
+    "name_en": "Guilmon Jp",
+    "name_ja": "ブイモン",
+    "name_en_lower": "guilmon jp",
+    "name_ja_lower": "ブイモン",
+    "stage": "成長期",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "golemon",
+    "name_en": "Golemon",
+    "name_ja": "ゴーレモン",
+    "name_en_lower": "golemon",
+    "name_ja_lower": "ゴーレモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "golemon_jp",
+    "name_en": "Golemon Jp",
+    "name_ja": "ホエーモン",
+    "name_en_lower": "golemon jp",
+    "name_ja_lower": "ホエーモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "jupitermon",
+    "name_en": "Jupitermon",
+    "name_ja": "ユピテルモン",
+    "name_en_lower": "jupitermon",
+    "name_ja_lower": "ユピテルモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "jupitermon_jp",
+    "name_en": "Jupitermon Jp",
+    "name_ja": "ユピテルモン",
+    "name_en_lower": "jupitermon jp",
+    "name_ja_lower": "ユピテルモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "agumon",
+    "name_en": "Agumon",
+    "name_ja": "アグモン",
+    "name_en_lower": "agumon",
+    "name_ja_lower": "アグモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "dinohyumon",
+    "name_en": "Dinohyumon",
+    "name_ja": "インプモン",
+    "name_en_lower": "dinohyumon",
+    "name_ja_lower": "インプモン",
+    "stage": "Champion",
+    "attribute": "Data"
+  },
+  {
+    "slug": "paildramon",
+    "name_en": "Paildramon",
+    "name_ja": "パイルドラモン",
+    "name_en_lower": "paildramon",
+    "name_ja_lower": "パイルドラモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "paildramon_jp",
+    "name_en": "Paildramon Jp",
+    "name_ja": "ライラモン",
+    "name_en_lower": "paildramon jp",
+    "name_ja_lower": "ライラモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "syakomon",
+    "name_en": "Syakomon",
+    "name_ja": "シャコモン",
+    "name_en_lower": "syakomon",
+    "name_ja_lower": "シャコモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "terriermon",
+    "name_en": "Terriermon",
+    "name_ja": "テリアモン",
+    "name_en_lower": "terriermon",
+    "name_ja_lower": "テリアモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "terriermon_jp",
+    "name_en": "Terriermon Jp",
+    "name_ja": "テリアモン",
+    "name_en_lower": "terriermon jp",
+    "name_ja_lower": "テリアモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "leomon",
+    "name_en": "Leomon",
+    "name_ja": "レオモン",
+    "name_en_lower": "leomon",
+    "name_ja_lower": "レオモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "grapleomon",
+    "name_en": "GrapLeomon",
+    "name_ja": "グラップレオモン",
+    "name_en_lower": "grapleomon",
+    "name_ja_lower": "グラップレオモン",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "grapleomon_jp",
+    "name_en": "Grapleomon Jp",
+    "name_ja": "レオモン",
+    "name_en_lower": "grapleomon jp",
+    "name_ja_lower": "レオモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "sharkmon",
+    "name_en": "Sharkmon",
+    "name_ja": "シャークモン",
+    "name_en_lower": "sharkmon",
+    "name_ja_lower": "シャークモン",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "sharkmon_jp",
+    "name_en": "Sharkmon Jp",
+    "name_ja": "バクモン",
+    "name_en_lower": "sharkmon jp",
+    "name_ja_lower": "バクモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "pharaohmon",
+    "name_en": "Pharaohmon",
+    "name_ja": "ファラオモン",
+    "name_en_lower": "pharaohmon",
+    "name_ja_lower": "ファラオモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "brachiomon",
+    "name_en": "Brachiomon",
+    "name_ja": "オロチモン",
+    "name_en_lower": "brachiomon",
+    "name_ja_lower": "オロチモン",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "brachiomon_jp",
+    "name_en": "Rapidmon (Armor)",
+    "name_ja": "ラピッドモン",
+    "name_en_lower": "rapidmon (armor)",
+    "name_ja_lower": "ラピッドモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "huckmon",
+    "name_en": "Huckmon",
+    "name_ja": "フーガモン",
+    "name_en_lower": "huckmon",
+    "name_ja_lower": "フーガモン",
+    "stage": "Rookie",
+    "attribute": "Data"
+  },
+  {
+    "slug": "ebemon",
+    "name_en": "Ebemon",
+    "name_ja": "EBEモン",
+    "name_en_lower": "ebemon",
+    "name_ja_lower": "ebeモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "ebemon_jp",
+    "name_en": "Geremon",
+    "name_ja": "ゲレモン",
+    "name_en_lower": "geremon",
+    "name_ja_lower": "ゲレモン",
+    "stage": "成熟期",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "deltamon",
+    "name_en": "Deltamon",
+    "name_ja": "デルタモン",
+    "name_en_lower": "deltamon",
+    "name_ja_lower": "デルタモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "deltamon_jp",
+    "name_en": "Deltamon Jp",
+    "name_ja": "ベーダモン",
+    "name_en_lower": "deltamon jp",
+    "name_ja_lower": "ベーダモン",
+    "stage": "完全体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "tapirmon",
+    "name_en": "Tapirmon",
+    "name_ja": "タップモン",
+    "name_en_lower": "tapirmon",
+    "name_ja_lower": "タップモン",
+    "stage": "Rookie",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "tapirmon_jp",
+    "name_en": "Titamon",
+    "name_ja": "タイタモン",
+    "name_en_lower": "titamon",
+    "name_ja_lower": "タイタモン",
+    "stage": "究極体",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "chaosmon",
+    "name_en": "Chaosmon",
+    "name_ja": "カオスモン",
+    "name_en_lower": "chaosmon",
+    "name_ja_lower": "カオスモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "chaosmon_jp",
+    "name_en": "Chaosmon Jp",
+    "name_ja": "カオスモン",
+    "name_en_lower": "chaosmon jp",
+    "name_ja_lower": "カオスモン",
+    "stage": "超究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "firamon",
+    "name_en": "Firamon",
+    "name_ja": "シーラモン",
+    "name_en_lower": "firamon",
+    "name_ja_lower": "シーラモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "divermon",
+    "name_en": "Divermon",
+    "name_ja": "デラモン",
+    "name_en_lower": "divermon",
+    "name_ja_lower": "デラモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "divermon_jp",
+    "name_en": "Divermon Jp",
+    "name_ja": "シェルモン",
+    "name_en_lower": "divermon jp",
+    "name_ja_lower": "シェルモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "groundramon",
+    "name_en": "Groundramon",
+    "name_ja": "グラウンドラモン",
+    "name_en_lower": "groundramon",
+    "name_ja_lower": "グラウンドラモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "groundramon_jp",
+    "name_en": "Groundramon Jp",
+    "name_ja": "ルナモン",
+    "name_en_lower": "groundramon jp",
+    "name_ja_lower": "ルナモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "shaujinmon",
+    "name_en": "Shaujinmon",
+    "name_ja": "シャウジンモン",
+    "name_en_lower": "shaujinmon",
+    "name_ja_lower": "シャウジンモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "shaujinmon_jp",
+    "name_en": "Shaujinmon",
+    "name_ja": "シャウジンモン",
+    "name_en_lower": "shaujinmon",
+    "name_ja_lower": "シャウジンモン",
+    "stage": "完全体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "tuskmon",
+    "name_en": "Tuskmon",
+    "name_ja": "タスクモン",
+    "name_en_lower": "tuskmon",
+    "name_ja_lower": "タスクモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "tuskmon_jp",
+    "name_en": "Tuskmon Jp",
+    "name_ja": "タスクモン",
+    "name_en_lower": "tuskmon jp",
+    "name_ja_lower": "タスクモン",
+    "stage": "成熟期",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "kingetemon",
+    "name_en": "KingEtemon",
+    "name_ja": "キングエテモン",
+    "name_en_lower": "kingetemon",
+    "name_ja_lower": "キングエテモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "astamon",
+    "name_en": "Astamon",
+    "name_ja": "アスタモン",
+    "name_en_lower": "astamon",
+    "name_ja_lower": "アスタモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "megakabuterimon",
+    "name_en": "MegaKabuterimon",
+    "name_ja": "メガカブテリモン",
+    "name_en_lower": "megakabuterimon",
+    "name_ja_lower": "メガカブテリモン",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "megakabuterimon_jp",
+    "name_en": "Kabuterimon",
+    "name_ja": "カブテリモン",
+    "name_en_lower": "kabuterimon",
+    "name_ja_lower": "カブテリモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kiwimon",
+    "name_en": "Kiwimon",
+    "name_ja": "キウイモン",
+    "name_en_lower": "kiwimon",
+    "name_ja_lower": "キウイモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "aegiomon",
+    "name_en": "Aegiomon",
+    "name_ja": "アイギオモン",
+    "name_en_lower": "aegiomon",
+    "name_ja_lower": "アイギオモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "aegiomon_jp",
+    "name_en": "Aegiomon Jp",
+    "name_ja": "ナイトモン",
+    "name_en_lower": "aegiomon jp",
+    "name_ja_lower": "ナイトモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "togemon",
+    "name_en": "Togemon",
+    "name_ja": "トゲモン",
+    "name_en_lower": "togemon",
+    "name_ja_lower": "トゲモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "lighdramon",
+    "name_en": "Lighdramon",
+    "name_ja": "ライドラモン",
+    "name_en_lower": "lighdramon",
+    "name_ja_lower": "ライドラモン",
+    "stage": "Armor",
+    "attribute": "Free"
+  },
+  {
+    "slug": "lighdramon_jp",
+    "name_en": "Lighdramon Jp",
+    "name_ja": "イーバモン",
+    "name_en_lower": "lighdramon jp",
+    "name_ja_lower": "イーバモン",
+    "stage": "究極体",
+    "attribute": "Free"
+  },
+  {
+    "slug": "greymon",
+    "name_en": "Greymon",
+    "name_ja": "グレイモン(青)",
+    "name_en_lower": "greymon",
+    "name_ja_lower": "グレイモン(青)",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "greymon_jp",
+    "name_en": "Greymon Jp",
+    "name_ja": "レオモン",
+    "name_en_lower": "greymon jp",
+    "name_ja_lower": "レオモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "ikkakumon",
+    "name_en": "Ikkakumon",
+    "name_ja": "イッカクモン",
+    "name_en_lower": "ikkakumon",
+    "name_ja_lower": "イッカクモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "metaltyrannomon",
+    "name_en": "MetalTyrannomon",
+    "name_ja": "メタルティラノモン",
+    "name_en_lower": "metaltyrannomon",
+    "name_ja_lower": "メタルティラノモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "metaltyrannomon_jp",
+    "name_en": "Metaltyrannomon Jp",
+    "name_ja": "メタルティラノモン",
+    "name_en_lower": "metaltyrannomon jp",
+    "name_ja_lower": "メタルティラノモン",
+    "stage": "完全体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "gatomon",
+    "name_en": "Gatomon",
+    "name_ja": "オーガモン",
+    "name_en_lower": "gatomon",
+    "name_ja_lower": "オーガモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "gatomon_jp",
+    "name_en": "Gatomon Jp",
+    "name_ja": "ナイトモン",
+    "name_en_lower": "gatomon jp",
+    "name_ja_lower": "ナイトモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "venusmon",
+    "name_en": "Venusmon",
+    "name_ja": "ウェヌスモン",
+    "name_en_lower": "venusmon",
+    "name_ja_lower": "ウェヌスモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "jesmon",
+    "name_en": "Jesmon",
+    "name_ja": "ジエスモン",
+    "name_en_lower": "jesmon",
+    "name_ja_lower": "ジエスモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "jesmon_jp",
+    "name_en": "Jesmon Jp",
+    "name_ja": "ベジーモン",
+    "name_en_lower": "jesmon jp",
+    "name_ja_lower": "ベジーモン",
+    "stage": "成熟期",
+    "attribute": "Data"
+  },
+  {
+    "slug": "calmaramon",
+    "name_en": "Calmaramon",
+    "name_ja": "カルマーラモン",
+    "name_en_lower": "calmaramon",
+    "name_ja_lower": "カルマーラモン",
+    "stage": "Hybrid",
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "calmaramon_jp",
+    "name_en": "Calmaramon Jp",
+    "name_ja": "カルマーラモン",
+    "name_en_lower": "calmaramon jp",
+    "name_ja_lower": "カルマーラモン",
+    "stage": null,
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "unimon",
+    "name_en": "Unimon",
+    "name_ja": "ユニモン",
+    "name_en_lower": "unimon",
+    "name_ja_lower": "ユニモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "submarimon",
+    "name_en": "Submarimon",
+    "name_ja": "サブマリモン",
+    "name_en_lower": "submarimon",
+    "name_ja_lower": "サブマリモン",
+    "stage": "Armor",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "junomon",
+    "name_en": "Junomon",
+    "name_ja": "ツノモン",
+    "name_en_lower": "junomon",
+    "name_ja_lower": "ツノモン",
+    "stage": "Mega",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "ceresmon",
+    "name_en": "Ceresmon",
+    "name_ja": "ケレスモン",
+    "name_en_lower": "ceresmon",
+    "name_ja_lower": "ケレスモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "halsemon",
+    "name_en": "Halsemon",
+    "name_ja": "ホルスモン",
+    "name_en_lower": "halsemon",
+    "name_ja_lower": "ホルスモン",
+    "stage": "Armor",
+    "attribute": "Free"
+  },
+  {
+    "slug": "halsemon_jp",
+    "name_en": "Bakemon",
+    "name_ja": "バケモン",
+    "name_en_lower": "bakemon",
+    "name_ja_lower": "バケモン",
+    "stage": "成熟期",
+    "attribute": "Free"
+  },
+  {
+    "slug": "shoutmon",
+    "name_en": "Shoutmon",
+    "name_ja": "ボルトモン",
+    "name_en_lower": "shoutmon",
+    "name_ja_lower": "ボルトモン",
+    "stage": "Rookie",
+    "attribute": "データ"
+  },
+  {
+    "slug": "centarumon",
+    "name_en": "Centarumon",
+    "name_ja": "ケンタルモン",
+    "name_en_lower": "centarumon",
+    "name_ja_lower": "ケンタルモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "craniamon",
+    "name_en": "Craniamon",
+    "name_ja": "ラーナモン",
+    "name_en_lower": "craniamon",
+    "name_ja_lower": "ラーナモン",
+    "stage": "Mega",
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "gomamon",
+    "name_en": "Gomamon",
+    "name_ja": "ゴマモン",
+    "name_en_lower": "gomamon",
+    "name_ja_lower": "ゴマモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kudamon",
+    "name_en": "Kudamon",
+    "name_ja": "クラモン",
+    "name_en_lower": "kudamon",
+    "name_ja_lower": "クラモン",
+    "stage": "Rookie",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "waruseadramon",
+    "name_en": "WaruSeadramon",
+    "name_ja": "ワルシードラモン",
+    "name_en_lower": "waruseadramon",
+    "name_ja_lower": "ワルシードラモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "waruseadramon_jp",
+    "name_en": "Waruseadramon Jp",
+    "name_ja": "ワルシードラモン",
+    "name_en_lower": "waruseadramon jp",
+    "name_ja_lower": "ワルシードラモン",
+    "stage": "完全体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "plesiomon",
+    "name_en": "Plesiomon",
+    "name_ja": "プレシオモン",
+    "name_en_lower": "plesiomon",
+    "name_ja_lower": "プレシオモン",
+    "stage": "Mega",
+    "attribute": "Data"
+  },
+  {
+    "slug": "plesiomon_jp",
+    "name_en": "Plesiomon Jp",
+    "name_ja": "ベジーモン",
+    "name_en_lower": "plesiomon jp",
+    "name_ja_lower": "ベジーモン",
+    "stage": "成熟期",
+    "attribute": "Data"
+  },
+  {
+    "slug": "drimogemon",
+    "name_en": "Drimogemon",
+    "name_ja": "ドリモゲモン",
+    "name_en_lower": "drimogemon",
+    "name_ja_lower": "ドリモゲモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "drimogemon_jp",
+    "name_en": "Drimogemon",
+    "name_ja": "ドリモゲモン",
+    "name_en_lower": "drimogemon",
+    "name_ja_lower": "ドリモゲモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "ginryumon",
+    "name_en": "Ginryumon",
+    "name_ja": "ギンリュウモン",
+    "name_en_lower": "ginryumon",
+    "name_ja_lower": "ギンリュウモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "ginryumon_jp",
+    "name_en": "Ginryumon",
+    "name_ja": "ギンリュウモン",
+    "name_en_lower": "ginryumon",
+    "name_ja_lower": "ギンリュウモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "gundramon",
+    "name_en": "Gundramon",
+    "name_ja": "ガンドラモン",
+    "name_en_lower": "gundramon",
+    "name_ja_lower": "ガンドラモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "gundramon_jp",
+    "name_en": "Gundramon Jp",
+    "name_ja": "ルナモン",
+    "name_en_lower": "gundramon jp",
+    "name_ja_lower": "ルナモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "patamon",
+    "name_en": "Patamon",
+    "name_ja": "パタモン",
+    "name_en_lower": "patamon",
+    "name_ja_lower": "パタモン",
+    "stage": "Rookie",
+    "attribute": "データ"
+  },
+  {
+    "slug": "sorcermon",
+    "name_en": "Sorcermon",
+    "name_ja": "ガルルモン",
+    "name_en_lower": "sorcermon",
+    "name_ja_lower": "ガルルモン",
+    "stage": "Champion",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "sorcermon_jp",
+    "name_en": "Sorcermon Jp",
+    "name_ja": "ゴーレモン",
+    "name_en_lower": "sorcermon jp",
+    "name_ja_lower": "ゴーレモン",
+    "stage": "成熟期",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "mastemon",
+    "name_en": "Mastemon",
+    "name_ja": "マスティモン",
+    "name_en_lower": "mastemon",
+    "name_ja_lower": "マスティモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "barbamon",
+    "name_en": "Barbamon",
+    "name_ja": "バルバモン",
+    "name_en_lower": "barbamon",
+    "name_ja_lower": "バルバモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "barbamon_jp",
+    "name_en": "Barbamon Jp",
+    "name_ja": "ララモン",
+    "name_en_lower": "barbamon jp",
+    "name_ja_lower": "ララモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "starmon",
+    "name_en": "Starmon",
+    "name_ja": "スターモン",
+    "name_en_lower": "starmon",
+    "name_ja_lower": "スターモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "rosemon-bm",
+    "name_en": "Rosemon BM",
+    "name_ja": "ロゼモンBM",
+    "name_en_lower": "rosemon bm",
+    "name_ja_lower": "ロゼモンbm",
+    "stage": "Mega+",
+    "attribute": "データ"
+  },
+  {
+    "slug": "tankmon",
+    "name_en": "Tankmon",
+    "name_ja": "タンクモン",
+    "name_en_lower": "tankmon",
+    "name_ja_lower": "タンクモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "toyagumon",
+    "name_en": "ToyAgumon",
+    "name_ja": "トイアグモン",
+    "name_en_lower": "toyagumon",
+    "name_ja_lower": "トイアグモン",
+    "stage": "Rookie",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "toyagumon_jp",
+    "name_en": "Toyagumon Jp",
+    "name_ja": "ドラクモン",
+    "name_en_lower": "toyagumon jp",
+    "name_ja_lower": "ドラクモン",
+    "stage": "成長期",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "triceramon",
+    "name_en": "Triceramon",
+    "name_ja": "トリケラモン",
+    "name_en_lower": "triceramon",
+    "name_ja_lower": "トリケラモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "durandamon",
+    "name_en": "Durandamon",
+    "name_ja": "ラーナモン",
+    "name_en_lower": "durandamon",
+    "name_ja_lower": "ラーナモン",
+    "stage": "Mega",
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "veedramon",
+    "name_en": "Veedramon",
+    "name_ja": "エアドラモン",
+    "name_en_lower": "veedramon",
+    "name_ja_lower": "エアドラモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "veedramon_jp",
+    "name_en": "Deramon",
+    "name_ja": "デラモン",
+    "name_en_lower": "deramon",
+    "name_ja_lower": "デラモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "magnagarurumon",
+    "name_en": "MagnaGarurumon",
+    "name_ja": "マグナガルルモン",
+    "name_en_lower": "magnagarurumon",
+    "name_ja_lower": "マグナガルルモン",
+    "stage": "Hybrid",
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "pandamon",
+    "name_en": "Pandamon",
+    "name_ja": "パンダモン",
+    "name_en_lower": "pandamon",
+    "name_ja_lower": "パンダモン",
+    "stage": "Ultimate",
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "pandamon_jp",
+    "name_en": "Pandamon Jp",
+    "name_ja": "ラーナモン",
+    "name_en_lower": "pandamon jp",
+    "name_ja_lower": "ラーナモン",
+    "stage": null,
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "punimon",
+    "name_en": "Punimon",
+    "name_ja": "ユニモン",
+    "name_en_lower": "punimon",
+    "name_ja_lower": "ユニモン",
+    "stage": "In-Training I",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kabuterimon",
+    "name_en": "Kabuterimon",
+    "name_ja": "カブテリモン",
+    "name_en_lower": "kabuterimon",
+    "name_ja_lower": "カブテリモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "whamon",
+    "name_en": "Whamon",
+    "name_ja": "イーバモン",
+    "name_en_lower": "whamon",
+    "name_ja_lower": "イーバモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "tankdramon",
+    "name_en": "Tankdramon",
+    "name_ja": "タンクドラモン",
+    "name_en_lower": "tankdramon",
+    "name_ja_lower": "タンクドラモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "tankdramon_jp",
+    "name_en": "Tankdramon",
+    "name_ja": "タンクドラモン",
+    "name_en_lower": "tankdramon",
+    "name_ja_lower": "タンクドラモン",
+    "stage": "完全体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "phoenixmon",
+    "name_en": "Phoenixmon",
+    "name_ja": "ホウオウモン",
+    "name_en_lower": "phoenixmon",
+    "name_ja_lower": "ホウオウモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "phoenixmon_jp",
+    "name_en": "Phoenixmon Jp",
+    "name_ja": "ホエーモン",
+    "name_en_lower": "phoenixmon jp",
+    "name_ja_lower": "ホエーモン",
+    "stage": "完全体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "skullmeramon",
+    "name_en": "SkullMeramon",
+    "name_ja": "ブルーメラモン",
+    "name_en_lower": "skullmeramon",
+    "name_ja_lower": "ブルーメラモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "skullmeramon_jp",
+    "name_en": "Skullmeramon Jp",
+    "name_ja": "デスメラモン",
+    "name_en_lower": "skullmeramon jp",
+    "name_ja_lower": "デスメラモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "grandracmon",
+    "name_en": "GranDracmon",
+    "name_ja": "グランドラクモン",
+    "name_en_lower": "grandracmon",
+    "name_ja_lower": "グランドラクモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "grandracmon_jp",
+    "name_en": "Grandracmon Jp",
+    "name_ja": "ララモン",
+    "name_en_lower": "grandracmon jp",
+    "name_ja_lower": "ララモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "masterblimpmon",
+    "name_en": "MasterBlimpmon",
+    "name_ja": "マスターブリンプモン",
+    "name_en_lower": "masterblimpmon",
+    "name_ja_lower": "マスターブリンプモン",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "masterblimpmon_jp",
+    "name_en": "Masterblimpmon Jp",
+    "name_ja": "マスティモン",
+    "name_en_lower": "masterblimpmon jp",
+    "name_ja_lower": "マスティモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "hagurumon",
+    "name_en": "Hagurumon",
+    "name_ja": "ハグルモン",
+    "name_en_lower": "hagurumon",
+    "name_ja_lower": "ハグルモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "reppamon",
+    "name_en": "Reppamon",
+    "name_ja": "レアモン",
+    "name_en_lower": "reppamon",
+    "name_ja_lower": "レアモン",
+    "stage": "Champion",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "phantomon",
+    "name_en": "Phantomon",
+    "name_ja": "ファントモン",
+    "name_en_lower": "phantomon",
+    "name_ja_lower": "ファントモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "yokomon",
+    "name_en": "Yokomon",
+    "name_ja": "ヒョコモン",
+    "name_en_lower": "yokomon",
+    "name_ja_lower": "ヒョコモン",
+    "stage": "In-Training II",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "poyomon",
+    "name_en": "Poyomon",
+    "name_ja": "ポヨモン",
+    "name_en_lower": "poyomon",
+    "name_ja_lower": "ポヨモン",
+    "stage": "In-Training I",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "tyrantkabuterimon",
+    "name_en": "TyrantKabuterimon",
+    "name_ja": "タイラントカブテリモン",
+    "name_en_lower": "tyrantkabuterimon",
+    "name_ja_lower": "タイラントカブテリモン",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "rapidmon",
+    "name_en": "Rapidmon",
+    "name_ja": "ラピッドモン",
+    "name_en_lower": "rapidmon",
+    "name_ja_lower": "ラピッドモン",
+    "stage": "Ultimate",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "rapidmon_jp",
+    "name_en": "Rapidmon Jp",
+    "name_ja": "フライモン",
+    "name_en_lower": "rapidmon jp",
+    "name_ja_lower": "フライモン",
+    "stage": "成熟期",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "icemon",
+    "name_en": "Icemon",
+    "name_ja": "ピエモン",
+    "name_en_lower": "icemon",
+    "name_ja_lower": "ピエモン",
+    "stage": "Champion",
+    "attribute": "Data"
+  },
+  {
+    "slug": "ankylomon",
+    "name_en": "Ankylomon",
+    "name_ja": "ハンギョモン",
+    "name_en_lower": "ankylomon",
+    "name_ja_lower": "ハンギョモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "dracmon",
+    "name_en": "Dracmon",
+    "name_ja": "ドラクモン",
+    "name_en_lower": "dracmon",
+    "name_ja_lower": "ドラクモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "dracmon_jp",
+    "name_en": "Renamon",
+    "name_ja": "レアモン",
+    "name_en_lower": "renamon",
+    "name_ja_lower": "レアモン",
+    "stage": "成熟期",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "hyokomon",
+    "name_en": "Hyokomon",
+    "name_ja": "ヒョコモン",
+    "name_en_lower": "hyokomon",
+    "name_ja_lower": "ヒョコモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "crowmon",
+    "name_en": "Crowmon",
+    "name_ja": "クロウモン",
+    "name_en_lower": "crowmon",
+    "name_ja_lower": "クロウモン",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "crowmon_jp",
+    "name_en": "Crowmon Jp",
+    "name_ja": "レオモン",
+    "name_en_lower": "crowmon jp",
+    "name_ja_lower": "レオモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "tyrannomon",
+    "name_en": "Tyrannomon",
+    "name_ja": "ティラノモン",
+    "name_en_lower": "tyrannomon",
+    "name_ja_lower": "ティラノモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "tyrannomon_jp",
+    "name_en": "Tyrannomon Jp",
+    "name_ja": "ティラノモン",
+    "name_en_lower": "tyrannomon jp",
+    "name_ja_lower": "ティラノモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "crabmon",
+    "name_en": "Crabmon",
+    "name_ja": "ガブモン",
+    "name_en_lower": "crabmon",
+    "name_ja_lower": "ガブモン",
+    "stage": "Rookie",
+    "attribute": "Data"
+  },
+  {
+    "slug": "crabmon_jp",
+    "name_en": "Renamon",
+    "name_ja": "レアモン",
+    "name_en_lower": "renamon",
+    "name_ja_lower": "レアモン",
+    "stage": "成熟期",
+    "attribute": "Data"
+  },
+  {
+    "slug": "examon",
+    "name_en": "Examon",
+    "name_ja": "カオスモン",
+    "name_en_lower": "examon",
+    "name_ja_lower": "カオスモン",
+    "stage": "Mega+",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "examon_jp",
+    "name_en": "Betamon",
+    "name_ja": "ベアモン",
+    "name_en_lower": "betamon",
+    "name_ja_lower": "ベアモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "chaosdramon",
+    "name_en": "Chaosdramon",
+    "name_ja": "カオスドラモン",
+    "name_en_lower": "chaosdramon",
+    "name_ja_lower": "カオスドラモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "chaosdramon_jp",
+    "name_en": "Chaosdramon Jp",
+    "name_ja": "バードラモン",
+    "name_en_lower": "chaosdramon jp",
+    "name_ja_lower": "バードラモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "agunimon",
+    "name_en": "Agunimon",
+    "name_ja": "アグニモン",
+    "name_en_lower": "agunimon",
+    "name_ja_lower": "アグニモン",
+    "stage": "Hybrid",
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "grankuwagamon",
+    "name_en": "GranKuwagamon",
+    "name_ja": "グランクワガーモン",
+    "name_en_lower": "grankuwagamon",
+    "name_ja_lower": "グランクワガーモン",
+    "stage": "Mega",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "grankuwagamon_jp",
+    "name_en": "GranKuwagamon",
+    "name_ja": "グランクワガーモン",
+    "name_en_lower": "grankuwagamon",
+    "name_ja_lower": "グランクワガーモン",
+    "stage": "究極体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "magnamon",
+    "name_en": "Magnamon",
+    "name_ja": "マンモン",
+    "name_en_lower": "magnamon",
+    "name_ja_lower": "マンモン",
+    "stage": "Armor",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "geremon",
+    "name_en": "Geremon",
+    "name_ja": "ゲレモン",
+    "name_en_lower": "geremon",
+    "name_ja_lower": "ゲレモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "sirenmon",
+    "name_en": "Sirenmon",
+    "name_ja": "セイレーンモン",
+    "name_en_lower": "sirenmon",
+    "name_ja_lower": "セイレーンモン",
+    "stage": "Ultimate",
+    "attribute": "データ"
+  },
+  {
+    "slug": "hiandromon",
+    "name_en": "HiAndromon",
+    "name_ja": "ハイアンドロモン",
+    "name_en_lower": "hiandromon",
+    "name_ja_lower": "ハイアンドロモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "hiandromon_jp",
+    "name_en": "HiAndromon",
+    "name_ja": "ハイアンドロモン",
+    "name_en_lower": "hiandromon",
+    "name_ja_lower": "ハイアンドロモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "lunamon",
+    "name_en": "Lunamon",
+    "name_ja": "ルナモン",
+    "name_en_lower": "lunamon",
+    "name_ja_lower": "ルナモン",
+    "stage": "Rookie",
+    "attribute": "データ"
+  },
+  {
+    "slug": "skullsatamon",
+    "name_en": "SkullSatamon",
+    "name_ja": "スカルサタモン",
+    "name_en_lower": "skullsatamon",
+    "name_ja_lower": "スカルサタモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "skullsatamon_jp",
+    "name_en": "Skullsatamon Jp",
+    "name_ja": "スカルサタモン",
+    "name_en_lower": "skullsatamon jp",
+    "name_ja_lower": "スカルサタモン",
+    "stage": "完全体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "biyomon",
+    "name_en": "Biyomon",
+    "name_ja": "ピヨモン",
+    "name_en_lower": "biyomon",
+    "name_ja_lower": "ピヨモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "neptunemon",
+    "name_en": "Neptunemon",
+    "name_ja": "ネプトゥーンモン",
+    "name_en_lower": "neptunemon",
+    "name_ja_lower": "ネプトゥーンモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "neptunemon_jp",
+    "name_en": "Neptunemon Jp",
+    "name_ja": "ネプトゥーンモン",
+    "name_en_lower": "neptunemon jp",
+    "name_ja_lower": "ネプトゥーンモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "orochimon",
+    "name_en": "Orochimon",
+    "name_ja": "オロチモン",
+    "name_en_lower": "orochimon",
+    "name_ja_lower": "オロチモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "ogremon",
+    "name_en": "Ogremon",
+    "name_ja": "ゴーレモン",
+    "name_en_lower": "ogremon",
+    "name_ja_lower": "ゴーレモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "seadramon",
+    "name_en": "Seadramon",
+    "name_ja": "エアドラモン",
+    "name_en_lower": "seadramon",
+    "name_ja_lower": "エアドラモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "seadramon_jp",
+    "name_en": "Seadramon",
+    "name_ja": "エアドラモン",
+    "name_en_lower": "seadramon",
+    "name_ja_lower": "エアドラモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "lilamon",
+    "name_en": "Lilamon",
+    "name_ja": "ライラモン",
+    "name_en_lower": "lilamon",
+    "name_ja_lower": "ライラモン",
+    "stage": "Ultimate",
+    "attribute": "Data"
+  },
+  {
+    "slug": "lilamon_jp",
+    "name_en": "Lilamon Jp",
+    "name_ja": "イーバモン",
+    "name_en_lower": "lilamon jp",
+    "name_ja_lower": "イーバモン",
+    "stage": "究極体",
+    "attribute": "Data"
+  },
+  {
+    "slug": "kyubimon",
+    "name_en": "Kyubimon",
+    "name_ja": "キュウビモン",
+    "name_en_lower": "kyubimon",
+    "name_ja_lower": "キュウビモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kyubimon_jp",
+    "name_en": "Unimon",
+    "name_ja": "ユニモン",
+    "name_en_lower": "unimon",
+    "name_ja_lower": "ユニモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "matadormon",
+    "name_en": "Matadormon",
+    "name_ja": "マタドゥルモン",
+    "name_en_lower": "matadormon",
+    "name_ja_lower": "マタドゥルモン",
+    "stage": "Ultimate",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "matadormon_jp",
+    "name_en": "Matadormon",
+    "name_ja": "マタドゥルモン",
+    "name_en_lower": "matadormon",
+    "name_ja_lower": "マタドゥルモン",
+    "stage": "完全体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "metalgarurumon",
+    "name_en": "MetalGarurumon",
+    "name_ja": "メタルガルルモン",
+    "name_en_lower": "metalgarurumon",
+    "name_ja_lower": "メタルガルルモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "lotosmon",
+    "name_en": "Lotosmon",
+    "name_ja": "ロトスモン",
+    "name_en_lower": "lotosmon",
+    "name_ja_lower": "ロトスモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "lekismon",
+    "name_en": "Lekismon",
+    "name_ja": "レキスモン",
+    "name_en_lower": "lekismon",
+    "name_ja_lower": "レキスモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "gargomon",
+    "name_en": "Gargomon",
+    "name_ja": "ガルゴモン",
+    "name_en_lower": "gargomon",
+    "name_ja_lower": "ガルゴモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "gargomon_jp",
+    "name_en": "Gargomon Jp",
+    "name_ja": "アポロモン",
+    "name_en_lower": "gargomon jp",
+    "name_ja_lower": "アポロモン",
+    "stage": "究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "marineangemon",
+    "name_en": "MarineAngemon",
+    "name_ja": "マリンエンジェモン",
+    "name_en_lower": "marineangemon",
+    "name_ja_lower": "マリンエンジェモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "duramon",
+    "name_en": "Duramon",
+    "name_ja": "クラモン",
+    "name_en_lower": "duramon",
+    "name_ja_lower": "クラモン",
+    "stage": "Ultimate",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "dorugamon",
+    "name_en": "Dorugamon",
+    "name_ja": "ドルガモン",
+    "name_en_lower": "dorugamon",
+    "name_ja_lower": "ドルガモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "dorugamon_jp",
+    "name_en": "Dorugamon",
+    "name_ja": "ドルガモン",
+    "name_en_lower": "dorugamon",
+    "name_ja_lower": "ドルガモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "wanyamon",
+    "name_en": "Wanyamon",
+    "name_ja": "ワニャモン",
+    "name_en_lower": "wanyamon",
+    "name_ja_lower": "ワニャモン",
+    "stage": "In-Training II",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "coronamon",
+    "name_en": "Coronamon",
+    "name_ja": "コロナモン",
+    "name_en_lower": "coronamon",
+    "name_ja_lower": "コロナモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "junomon-hm",
+    "name_en": "Junomon HM",
+    "name_ja": "ユノモンHM",
+    "name_en_lower": "junomon hm",
+    "name_ja_lower": "ユノモンhm",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "birdramon",
+    "name_en": "Birdramon",
+    "name_ja": "ブイドラモン",
+    "name_en_lower": "birdramon",
+    "name_ja_lower": "ブイドラモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "birdramon_jp",
+    "name_en": "Birdramon Jp",
+    "name_ja": "ララモン",
+    "name_en_lower": "birdramon jp",
+    "name_ja_lower": "ララモン",
+    "stage": "成長期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "chronomon-dm",
+    "name_en": "Chronomon DM",
+    "name_ja": "クロノモン：デストロイモード",
+    "name_en_lower": "chronomon dm",
+    "name_ja_lower": "クロノモン：デストロイモード",
+    "stage": "Mega",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "chronomon-dm_jp",
+    "name_en": "Chronomon Dm Jp",
+    "name_ja": "クロノモンDM",
+    "name_en_lower": "chronomon dm jp",
+    "name_ja_lower": "クロノモンdm",
+    "stage": "究極体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "ceresmon-medium",
+    "name_en": "Ceresmon Medium",
+    "name_ja": "ケレスモンメディウム",
+    "name_en_lower": "ceresmon medium",
+    "name_ja_lower": "ケレスモンメディウム",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "ceresmon-medium_jp",
+    "name_en": "Ceresmon Medium Jp",
+    "name_ja": "ケレスモンメディウム",
+    "name_en_lower": "ceresmon medium jp",
+    "name_ja_lower": "ケレスモンメディウム",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "gaiomon",
+    "name_en": "Gaiomon",
+    "name_ja": "ガイオウモン",
+    "name_en_lower": "gaiomon",
+    "name_ja_lower": "ガイオウモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "gaiomon_jp",
+    "name_en": "Gaiomon Jp",
+    "name_ja": "ナイトモン",
+    "name_en_lower": "gaiomon jp",
+    "name_ja_lower": "ナイトモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "dianamon",
+    "name_en": "Dianamon",
+    "name_ja": "ディアナモン",
+    "name_en_lower": "dianamon",
+    "name_ja_lower": "ディアナモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "vegiemon",
+    "name_en": "Vegiemon",
+    "name_ja": "ゲレモン",
+    "name_en_lower": "vegiemon",
+    "name_ja_lower": "ゲレモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "vegiemon_jp",
+    "name_en": "Vegiemon Jp",
+    "name_ja": "エンジェモン",
+    "name_en_lower": "vegiemon jp",
+    "name_ja_lower": "エンジェモン",
+    "stage": "成熟期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "dorugoramon",
+    "name_en": "Dorugoramon",
+    "name_ja": "ドルゴラモン",
+    "name_en_lower": "dorugoramon",
+    "name_ja_lower": "ドルゴラモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "dorugoramon_jp",
+    "name_en": "Dorugoramon",
+    "name_ja": "ドルゴラモン",
+    "name_en_lower": "dorugoramon",
+    "name_ja_lower": "ドルゴラモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "gotsumon",
+    "name_en": "Gotsumon",
+    "name_ja": "ゴツモン",
+    "name_en_lower": "gotsumon",
+    "name_ja_lower": "ゴツモン",
+    "stage": "Rookie",
+    "attribute": "データ"
+  },
+  {
+    "slug": "gotsumon_jp",
+    "name_en": "Gotsumon Jp",
+    "name_ja": "ロトスモン",
+    "name_en_lower": "gotsumon jp",
+    "name_ja_lower": "ロトスモン",
+    "stage": "究極体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "hyogamon",
+    "name_en": "Hyogamon",
+    "name_ja": "ヒョーガモン",
+    "name_en_lower": "hyogamon",
+    "name_ja_lower": "ヒョーガモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "shurimon",
+    "name_en": "Shurimon",
+    "name_ja": "フライモン",
+    "name_en_lower": "shurimon",
+    "name_ja_lower": "フライモン",
+    "stage": "Armor",
+    "attribute": "Free"
+  },
+  {
+    "slug": "gizamon",
+    "name_en": "Gizamon",
+    "name_ja": "ギザモン",
+    "name_en_lower": "gizamon",
+    "name_ja_lower": "ギザモン",
+    "stage": "Rookie",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "gizamon_jp",
+    "name_en": "Gizamon Jp",
+    "name_ja": "イーバモン",
+    "name_en_lower": "gizamon jp",
+    "name_ja_lower": "イーバモン",
+    "stage": "究極体",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "bukamon",
+    "name_en": "Bukamon",
+    "name_ja": "フーガモン",
+    "name_en_lower": "bukamon",
+    "name_ja_lower": "フーガモン",
+    "stage": "In-Training II",
+    "attribute": "No Data"
+  },
+  {
+    "slug": "seraphimon",
+    "name_en": "Seraphimon",
+    "name_ja": "セラフィモン",
+    "name_en_lower": "seraphimon",
+    "name_ja_lower": "セラフィモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "susanomon",
+    "name_en": "Susanomon",
+    "name_ja": "スサノオモン",
+    "name_en_lower": "susanomon",
+    "name_ja_lower": "スサノオモン",
+    "stage": "Mega+",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "nyaromon",
+    "name_en": "Nyaromon",
+    "name_ja": "ニャロモン",
+    "name_en_lower": "nyaromon",
+    "name_ja_lower": "ニャロモン",
+    "stage": "In-Training II",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "hawkmon",
+    "name_en": "Hawkmon",
+    "name_ja": "バクモン",
+    "name_en_lower": "hawkmon",
+    "name_ja_lower": "バクモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "vikemon",
+    "name_en": "Vikemon",
+    "name_ja": "ヴァイクモン",
+    "name_en_lower": "vikemon",
+    "name_ja_lower": "ヴァイクモン",
+    "stage": "Mega",
+    "attribute": "Free"
+  },
+  {
+    "slug": "vikemon_jp",
+    "name_en": "Piedmon",
+    "name_ja": "ピエモン",
+    "name_en_lower": "piedmon",
+    "name_ja_lower": "ピエモン",
+    "stage": "究極体",
+    "attribute": "Free"
+  },
+  {
+    "slug": "alphamon",
+    "name_en": "Alphamon",
+    "name_ja": "アルファモン",
+    "name_en_lower": "alphamon",
+    "name_ja_lower": "アルファモン",
+    "stage": "Mega",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "alphamon_jp",
+    "name_en": "Zanbamon",
+    "name_ja": "ザンバモン",
+    "name_en_lower": "zanbamon",
+    "name_ja_lower": "ザンバモン",
+    "stage": "究極体",
+    "attribute": "Vaccine"
+  },
+  {
+    "slug": "frigimon",
+    "name_en": "Frigimon",
+    "name_ja": "フライモン",
+    "name_en_lower": "frigimon",
+    "name_ja_lower": "フライモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "frigimon_jp",
+    "name_en": "Frigimon Jp",
+    "name_ja": "リリモン",
+    "name_en_lower": "frigimon jp",
+    "name_ja_lower": "リリモン",
+    "stage": "完全体",
+    "attribute": "データ"
+  },
+  {
+    "slug": "gabumon",
+    "name_en": "Gabumon",
+    "name_ja": "ガブモン(黒)",
+    "name_en_lower": "gabumon",
+    "name_ja_lower": "ガブモン(黒)",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "gabumon_jp",
+    "name_en": "Agumon (Black)",
+    "name_ja": "アグモン",
+    "name_en_lower": "agumon (black)",
+    "name_ja_lower": "アグモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kuwagamon",
+    "name_en": "Kuwagamon",
+    "name_ja": "クワガーモン",
+    "name_en_lower": "kuwagamon",
+    "name_ja_lower": "クワガーモン",
+    "stage": "Champion",
+    "attribute": "Virus"
+  },
+  {
+    "slug": "zanbamon",
+    "name_en": "Zanbamon",
+    "name_ja": "ザンバモン",
+    "name_en_lower": "zanbamon",
+    "name_ja_lower": "ザンバモン",
+    "stage": "Mega",
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "zanbamon_jp",
+    "name_en": "Zanbamon Jp",
+    "name_ja": "ラーナモン",
+    "name_en_lower": "zanbamon jp",
+    "name_ja_lower": "ラーナモン",
+    "stage": null,
+    "attribute": "ヴァリアブル"
+  },
+  {
+    "slug": "jupitermon-wm",
+    "name_en": "Jupitermon WM",
+    "name_ja": "ユピテルモン：ワースモード",
+    "name_en_lower": "jupitermon wm",
+    "name_ja_lower": "ユピテルモン：ワースモード",
+    "stage": "Mega+",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "jupitermon-wm_jp",
+    "name_en": "Jupitermon Wm Jp",
+    "name_ja": "ユピテルモンWM",
+    "name_en_lower": "jupitermon wm jp",
+    "name_ja_lower": "ユピテルモンwm",
+    "stage": "超究極体",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "bearmon",
+    "name_en": "Bearmon",
+    "name_ja": "ベアモン",
+    "name_en_lower": "bearmon",
+    "name_ja_lower": "ベアモン",
+    "stage": "Rookie",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "bearmon_jp",
+    "name_en": "Betamon",
+    "name_ja": "ベアモン",
+    "name_en_lower": "betamon",
+    "name_ja_lower": "ベアモン",
+    "stage": "成長期",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "kentaurosmon",
+    "name_en": "Kentaurosmon",
+    "name_ja": "クロスモン",
+    "name_en_lower": "kentaurosmon",
+    "name_ja_lower": "クロスモン",
+    "stage": "Mega",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kentaurosmon_jp",
+    "name_en": "Centarumon",
+    "name_ja": "ケンタルモン",
+    "name_en_lower": "centarumon",
+    "name_ja_lower": "ケンタルモン",
+    "stage": "成熟期",
+    "attribute": "データ"
+  },
+  {
+    "slug": "kapurimon",
+    "name_en": "Kapurimon",
+    "name_ja": "カプリモン",
+    "name_en_lower": "kapurimon",
+    "name_ja_lower": "カプリモン",
+    "stage": "In-Training II",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "airdramon",
+    "name_en": "Airdramon",
+    "name_ja": "ライラモン",
+    "name_en_lower": "airdramon",
+    "name_ja_lower": "ライラモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "strikedramon",
+    "name_en": "Strikedramon",
+    "name_ja": "トリケラモン",
+    "name_en_lower": "strikedramon",
+    "name_ja_lower": "トリケラモン",
+    "stage": "Champion",
+    "attribute": "データ"
+  },
+  {
+    "slug": "ophanimon",
+    "name_en": "Ophanimon",
+    "name_ja": "オファニモン",
+    "name_en_lower": "ophanimon",
+    "name_ja_lower": "オファニモン",
+    "stage": "Mega",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "octomon",
+    "name_en": "Octomon",
+    "name_ja": "ドドモン",
+    "name_en_lower": "octomon",
+    "name_ja_lower": "ドドモン",
+    "stage": "Champion",
+    "attribute": "NO DATA"
+  },
+  {
+    "slug": "monzaemon",
+    "name_en": "Monzaemon",
+    "name_ja": "もんざえモン",
+    "name_en_lower": "monzaemon",
+    "name_ja_lower": "もんざえモン",
+    "stage": "Ultimate",
+    "attribute": "ワクチン"
+  },
+  {
+    "slug": "nefertimon",
+    "name_en": "Nefertimon",
+    "name_ja": "ネフェルティモン",
+    "name_en_lower": "nefertimon",
+    "name_ja_lower": "ネフェルティモン",
+    "stage": "Armor",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "nefertimon_jp",
+    "name_en": "Nefertimon",
+    "name_ja": "ネフェルティモン",
+    "name_en_lower": "nefertimon",
+    "name_ja_lower": "ネフェルティモン",
+    "stage": "アーマー体",
+    "attribute": "フリー"
+  },
+  {
+    "slug": "snimon",
+    "name_en": "Snimon",
+    "name_ja": "スナイモン",
+    "name_en_lower": "snimon",
+    "name_ja_lower": "スナイモン",
+    "stage": "Champion",
+    "attribute": "ワクチン"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "slug": "salamon",
+  "name": "Salamon",
+  "name_en": "Salamon",
+  "name_ja": "ソーラーモン",
+  "stage_en": "Rookie",
+  "stage_ja": null,
+  "attribute": "Vaccine",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2380以上◆攻撃力1960以上◆素早さ1060以上",
+  "evolves_from": [
+    "ミスティモン",
+    "ナイトモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4295330/dd8b1f973f1afdc722dfcf011974f0b8.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555197",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Rookie"
+}

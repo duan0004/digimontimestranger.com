@@ -1,0 +1,23 @@
+{
+  "slug": "horitoramon",
+  "name_ja": "ホーリードラモン",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "包容力所持特攻魔",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2740以上◆最大SP1100以上◆知力1370以上",
+  "evolves_from": [
+    "エンジェウーモン",
+    "シャッコウモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_336.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355072",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ホーリードラモン",
+  "stage": "究極体",
+  "name_en": "Horitoramon"
+}

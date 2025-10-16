@@ -1,0 +1,31 @@
+{
+  "slug": "numemon",
+  "name_en": "Numemon",
+  "name_ja": "ヌメモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大SP330以上",
+  "evolves_from": [
+    "アグモン",
+    "ベタモン",
+    "オタマモン"
+  ],
+  "evolves_to": [
+    "もんざえモン",
+    "ダークスーパースターモン",
+    "エテモン"
+  ],
+  "main_image": "https://img.game8.co/4295850/19a19a9c407cc7cea0f3a411dcd1e493.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555141",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298459",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Numemon",
+  "stage": "Champion"
+}

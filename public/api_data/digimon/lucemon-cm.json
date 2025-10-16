@@ -1,0 +1,17 @@
+{
+  "slug": "lucemon-cm",
+  "name_en": "Lucemon CM",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11835933/8af1c5d1e2e48c9fcbb3f7554f3beddd.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555801",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Lucemon CM",
+  "stage": "Ultimate",
+  "name_ja": "ルーチェモン：カオスモード"
+}

@@ -1,0 +1,8346 @@
+[
+  {
+    "from_slug": "hahumon",
+    "to_slug": "tanemon"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "huanhimon"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "birdramon_jp"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "harumon"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "matusiyumon"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "huroramon"
+  },
+  {
+    "from_slug": "starmon",
+    "to_slug": "mamemon"
+  },
+  {
+    "from_slug": "sukamon",
+    "to_slug": "mamemon"
+  },
+  {
+    "from_slug": "nanimon",
+    "to_slug": "mamemon"
+  },
+  {
+    "from_slug": "huratinasukamon",
+    "to_slug": "mamemon"
+  },
+  {
+    "from_slug": "mamemon",
+    "to_slug": "pukumon"
+  },
+  {
+    "from_slug": "mamemon",
+    "to_slug": "hurinsumamemon"
+  },
+  {
+    "from_slug": "motimon",
+    "to_slug": "tentomon"
+  },
+  {
+    "from_slug": "tentomon",
+    "to_slug": "kabuterimon"
+  },
+  {
+    "from_slug": "tentomon",
+    "to_slug": "sanhuraumon"
+  },
+  {
+    "from_slug": "tentomon",
+    "to_slug": "kuwagamon"
+  },
+  {
+    "from_slug": "tentomon",
+    "to_slug": "wasuhumon"
+  },
+  {
+    "from_slug": "tentomon",
+    "to_slug": "snimon"
+  },
+  {
+    "from_slug": "botamon",
+    "to_slug": "koromon"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "agumon"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "kirumon"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "torakomon"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "kotemon"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "betamon"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "siyautomon"
+  },
+  {
+    "from_slug": "uenteimon",
+    "to_slug": "arukenimon"
+  },
+  {
+    "from_slug": "dokugumon_jp",
+    "to_slug": "arukenimon"
+  },
+  {
+    "from_slug": "snimon",
+    "to_slug": "arukenimon"
+  },
+  {
+    "from_slug": "kurisarimon",
+    "to_slug": "arukenimon"
+  },
+  {
+    "from_slug": "arukenimon",
+    "to_slug": "gotsumon_jp"
+  },
+  {
+    "from_slug": "arukenimon",
+    "to_slug": "tyrantkabuterimon"
+  },
+  {
+    "from_slug": "tiyumon",
+    "to_slug": "sukamon"
+  },
+  {
+    "from_slug": "toyagumon_jp",
+    "to_slug": "sukamon"
+  },
+  {
+    "from_slug": "matusiyumon",
+    "to_slug": "sukamon"
+  },
+  {
+    "from_slug": "sukamon",
+    "to_slug": "monzaemon"
+  },
+  {
+    "from_slug": "sukamon",
+    "to_slug": "etemon"
+  },
+  {
+    "from_slug": "sukamon",
+    "to_slug": "kahemon"
+  },
+  {
+    "from_slug": "kendogarurumon_jp",
+    "to_slug": "kimeramon"
+  },
+  {
+    "from_slug": "terutamon",
+    "to_slug": "kimeramon"
+  },
+  {
+    "from_slug": "kabuterimon",
+    "to_slug": "kimeramon"
+  },
+  {
+    "from_slug": "kureimon",
+    "to_slug": "kimeramon"
+  },
+  {
+    "from_slug": "kuwagamon",
+    "to_slug": "kimeramon"
+  },
+  {
+    "from_slug": "kimeramon",
+    "to_slug": "kurantorakumon"
+  },
+  {
+    "from_slug": "kimeramon",
+    "to_slug": "mireniamon"
+  },
+  {
+    "from_slug": "kimeramon",
+    "to_slug": "mukentoramon"
+  },
+  {
+    "from_slug": "hahumon",
+    "to_slug": "motimon"
+  },
+  {
+    "from_slug": "motimon",
+    "to_slug": "tiyumon"
+  },
+  {
+    "from_slug": "motimon",
+    "to_slug": "wamumon"
+  },
+  {
+    "from_slug": "motimon",
+    "to_slug": "kotumon"
+  },
+  {
+    "from_slug": "bukamon",
+    "to_slug": "kamemon"
+  },
+  {
+    "from_slug": "kamemon",
+    "to_slug": "kawatuhamon"
+  },
+  {
+    "from_slug": "kamemon",
+    "to_slug": "okutamon"
+  },
+  {
+    "from_slug": "kamemon",
+    "to_slug": "divermon_jp"
+  },
+  {
+    "from_slug": "kamemon",
+    "to_slug": "karatukinumemon"
+  },
+  {
+    "from_slug": "kamemon",
+    "to_slug": "teinohiyumon"
+  },
+  {
+    "from_slug": "kamemon",
+    "to_slug": "solarmon"
+  },
+  {
+    "from_slug": "wanyamon",
+    "to_slug": "renamon"
+  },
+  {
+    "from_slug": "renamon",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "renamon",
+    "to_slug": "sanhuraumon"
+  },
+  {
+    "from_slug": "renamon",
+    "to_slug": "retuhamon"
+  },
+  {
+    "from_slug": "renamon",
+    "to_slug": "kiyuuhimon"
+  },
+  {
+    "from_slug": "renamon",
+    "to_slug": "karurumon-hei"
+  },
+  {
+    "from_slug": "pagumon",
+    "to_slug": "otamamon"
+  },
+  {
+    "from_slug": "otamamon",
+    "to_slug": "sitoramon"
+  },
+  {
+    "from_slug": "otamamon",
+    "to_slug": "numemon"
+  },
+  {
+    "from_slug": "otamamon",
+    "to_slug": "gekomon"
+  },
+  {
+    "from_slug": "otamamon",
+    "to_slug": "karatukinumemon"
+  },
+  {
+    "from_slug": "otamamon",
+    "to_slug": "huratinasukamon"
+  },
+  {
+    "from_slug": "taomon",
+    "to_slug": "sakuyamon"
+  },
+  {
+    "from_slug": "phantomon",
+    "to_slug": "sakuyamon"
+  },
+  {
+    "from_slug": "tentomon",
+    "to_slug": "sakuyamon"
+  },
+  {
+    "from_slug": "airdramon",
+    "to_slug": "rosemon"
+  },
+  {
+    "from_slug": "frigimon_jp",
+    "to_slug": "rosemon"
+  },
+  {
+    "from_slug": "siyureimon",
+    "to_slug": "rosemon"
+  },
+  {
+    "from_slug": "hanhumon",
+    "to_slug": "rosemon"
+  },
+  {
+    "from_slug": "rosemon",
+    "to_slug": "rosemon-bm"
+  },
+  {
+    "from_slug": "kotemon",
+    "to_slug": "touruiemon"
+  },
+  {
+    "from_slug": "kotemon",
+    "to_slug": "musyamon"
+  },
+  {
+    "from_slug": "kotemon",
+    "to_slug": "rihorumon"
+  },
+  {
+    "from_slug": "kotemon",
+    "to_slug": "teinohiyumon"
+  },
+  {
+    "from_slug": "kotemon",
+    "to_slug": "koatoramon-qing"
+  },
+  {
+    "from_slug": "tsumemon",
+    "to_slug": "keramon"
+  },
+  {
+    "from_slug": "keramon",
+    "to_slug": "dokugumon_jp"
+  },
+  {
+    "from_slug": "keramon",
+    "to_slug": "uenteimon"
+  },
+  {
+    "from_slug": "keramon",
+    "to_slug": "okutamon"
+  },
+  {
+    "from_slug": "keramon",
+    "to_slug": "mekanorimon"
+  },
+  {
+    "from_slug": "keramon",
+    "to_slug": "kurisarimon"
+  },
+  {
+    "from_slug": "minotarumon",
+    "to_slug": "etemon"
+  },
+  {
+    "from_slug": "numemon",
+    "to_slug": "etemon"
+  },
+  {
+    "from_slug": "nanimon",
+    "to_slug": "etemon"
+  },
+  {
+    "from_slug": "etemon",
+    "to_slug": "hairuhorukemon"
+  },
+  {
+    "from_slug": "etemon",
+    "to_slug": "kingetemon"
+  },
+  {
+    "from_slug": "etemon",
+    "to_slug": "metalgreymon_jp"
+  },
+  {
+    "from_slug": "shamamon",
+    "to_slug": "minotarumon"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "minotarumon"
+  },
+  {
+    "from_slug": "kahumon-hei",
+    "to_slug": "minotarumon"
+  },
+  {
+    "from_slug": "minotarumon",
+    "to_slug": "strikedramon"
+  },
+  {
+    "from_slug": "minotarumon",
+    "to_slug": "kuratuhureomon"
+  },
+  {
+    "from_slug": "kendogarurumon_jp",
+    "to_slug": "taomon"
+  },
+  {
+    "from_slug": "ututomon",
+    "to_slug": "taomon"
+  },
+  {
+    "from_slug": "kiyuuhimon",
+    "to_slug": "taomon"
+  },
+  {
+    "from_slug": "taomon",
+    "to_slug": "venusmon"
+  },
+  {
+    "from_slug": "taomon",
+    "to_slug": "kuzuhamon"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "nanimon"
+  },
+  {
+    "from_slug": "matusiyumon",
+    "to_slug": "nanimon"
+  },
+  {
+    "from_slug": "siyurimon",
+    "to_slug": "nanimon"
+  },
+  {
+    "from_slug": "nanimon",
+    "to_slug": "horukemon"
+  },
+  {
+    "from_slug": "nanimon",
+    "to_slug": "suhasutamon"
+  },
+  {
+    "from_slug": "kapurimon",
+    "to_slug": "kokuwamon"
+  },
+  {
+    "from_slug": "kokuwamon",
+    "to_slug": "kentaurosmon_jp"
+  },
+  {
+    "from_slug": "kokuwamon",
+    "to_slug": "kuwagamon"
+  },
+  {
+    "from_slug": "kokuwamon",
+    "to_slug": "kurotukumon"
+  },
+  {
+    "from_slug": "kokuwamon",
+    "to_slug": "wasuhumon"
+  },
+  {
+    "from_slug": "kokuwamon",
+    "to_slug": "mekanorimon"
+  },
+  {
+    "from_slug": "hagurumon",
+    "to_slug": "mekanorimon"
+  },
+  {
+    "from_slug": "mekanorimon",
+    "to_slug": "hitukumamemon"
+  },
+  {
+    "from_slug": "mekanorimon",
+    "to_slug": "megadramon_jp"
+  },
+  {
+    "from_slug": "mekanorimon",
+    "to_slug": "angewomon_jp"
+  },
+  {
+    "from_slug": "poyomon",
+    "to_slug": "tokomon"
+  },
+  {
+    "from_slug": "tokomon",
+    "to_slug": "patamon"
+  },
+  {
+    "from_slug": "tokomon",
+    "to_slug": "coronamon"
+  },
+  {
+    "from_slug": "tokomon",
+    "to_slug": "terriermon_jp"
+  },
+  {
+    "from_slug": "tokomon",
+    "to_slug": "arumasimon"
+  },
+  {
+    "from_slug": "tokomon",
+    "to_slug": "justimon_jp"
+  },
+  {
+    "from_slug": "harumon",
+    "to_slug": "kurisarimon"
+  },
+  {
+    "from_slug": "monodramon",
+    "to_slug": "kurisarimon"
+  },
+  {
+    "from_slug": "kurisarimon",
+    "to_slug": "takomon"
+  },
+  {
+    "from_slug": "kurisarimon",
+    "to_slug": "orochimon"
+  },
+  {
+    "from_slug": "kurisarimon",
+    "to_slug": "infermon_jp"
+  },
+  {
+    "from_slug": "agumon",
+    "to_slug": "numemon"
+  },
+  {
+    "from_slug": "betamon",
+    "to_slug": "numemon"
+  },
+  {
+    "from_slug": "numemon",
+    "to_slug": "monzaemon"
+  },
+  {
+    "from_slug": "numemon",
+    "to_slug": "takusuhasutamon"
+  },
+  {
+    "from_slug": "coronamon",
+    "to_slug": "meramon"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "meramon"
+  },
+  {
+    "from_slug": "goldramon_jp",
+    "to_slug": "meramon"
+  },
+  {
+    "from_slug": "meramon",
+    "to_slug": "hitukumamemon"
+  },
+  {
+    "from_slug": "meramon",
+    "to_slug": "hurumeramon"
+  },
+  {
+    "from_slug": "meramon",
+    "to_slug": "skullmeramon_jp"
+  },
+  {
+    "from_slug": "bukamon",
+    "to_slug": "kisamon"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "saikuromon"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "shurimon"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "suhaikamon"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "ankiromon"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "geremon"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "zanbamon_jp"
+  },
+  {
+    "from_slug": "ekusuteiranomon",
+    "to_slug": "rasutoteiranomon"
+  },
+  {
+    "from_slug": "metaltyrannomon_jp",
+    "to_slug": "rasutoteiranomon"
+  },
+  {
+    "from_slug": "hurakimon",
+    "to_slug": "rasutoteiranomon"
+  },
+  {
+    "from_slug": "aquilamon_jp",
+    "to_slug": "harotutomon"
+  },
+  {
+    "from_slug": "chaosdramon_jp",
+    "to_slug": "harotutomon"
+  },
+  {
+    "from_slug": "harotutomon",
+    "to_slug": "kurosumon"
+  },
+  {
+    "from_slug": "harotutomon",
+    "to_slug": "hououmon"
+  },
+  {
+    "from_slug": "karutamon",
+    "to_slug": "hououmon"
+  },
+  {
+    "from_slug": "harumon",
+    "to_slug": "mojyamon"
+  },
+  {
+    "from_slug": "harumon",
+    "to_slug": "vegiemon"
+  },
+  {
+    "from_slug": "harumon",
+    "to_slug": "togemon"
+  },
+  {
+    "from_slug": "harumon",
+    "to_slug": "ututomon"
+  },
+  {
+    "from_slug": "harumon",
+    "to_slug": "huratinasukamon"
+  },
+  {
+    "from_slug": "lekismon",
+    "to_slug": "kuresiemon"
+  },
+  {
+    "from_slug": "yukitarumon",
+    "to_slug": "kuresiemon"
+  },
+  {
+    "from_slug": "aisutehimon",
+    "to_slug": "kuresiemon"
+  },
+  {
+    "from_slug": "callismon_jp",
+    "to_slug": "kuresiemon"
+  },
+  {
+    "from_slug": "kuresiemon",
+    "to_slug": "dianamon"
+  },
+  {
+    "from_slug": "kuresiemon",
+    "to_slug": "keruhimon-shan"
+  },
+  {
+    "from_slug": "kuresiemon",
+    "to_slug": "rotonaitomon"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "touruiemon"
+  },
+  {
+    "from_slug": "birdramon_jp",
+    "to_slug": "touruiemon"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "touruiemon"
+  },
+  {
+    "from_slug": "touruiemon",
+    "to_slug": "matadormon_jp"
+  },
+  {
+    "from_slug": "touruiemon",
+    "to_slug": "matuhakaokamon"
+  },
+  {
+    "from_slug": "touruiemon",
+    "to_slug": "anteiramon"
+  },
+  {
+    "from_slug": "mekasitoramon",
+    "to_slug": "metarusitoramon"
+  },
+  {
+    "from_slug": "waruseadramon_jp",
+    "to_slug": "metarusitoramon"
+  },
+  {
+    "from_slug": "siyakumon",
+    "to_slug": "metarusitoramon"
+  },
+  {
+    "from_slug": "sukarusitoramon",
+    "to_slug": "metarusitoramon"
+  },
+  {
+    "from_slug": "uinkutoramon",
+    "to_slug": "sureiyatoramon"
+  },
+  {
+    "from_slug": "earohuitoramon",
+    "to_slug": "sureiyatoramon"
+  },
+  {
+    "from_slug": "sureiyatoramon",
+    "to_slug": "ekusamon"
+  },
+  {
+    "from_slug": "phoenixmon_jp",
+    "to_slug": "riuaiamon"
+  },
+  {
+    "from_slug": "waruseadramon_jp",
+    "to_slug": "riuaiamon"
+  },
+  {
+    "from_slug": "sukarusitoramon",
+    "to_slug": "riuaiamon"
+  },
+  {
+    "from_slug": "rahutatoramon",
+    "to_slug": "kureitomon"
+  },
+  {
+    "from_slug": "musyamon",
+    "to_slug": "kureitomon"
+  },
+  {
+    "from_slug": "saikuromon",
+    "to_slug": "kureitomon"
+  },
+  {
+    "from_slug": "teinohiyumon",
+    "to_slug": "kureitomon"
+  },
+  {
+    "from_slug": "suhaikamon",
+    "to_slug": "kureitomon"
+  },
+  {
+    "from_slug": "kureitomon",
+    "to_slug": "aruhuamon"
+  },
+  {
+    "from_slug": "kureitomon",
+    "to_slug": "teyurantamon"
+  },
+  {
+    "from_slug": "kureitomon",
+    "to_slug": "teyunasumon"
+  },
+  {
+    "from_slug": "dinohyumon",
+    "to_slug": "uisamon"
+  },
+  {
+    "from_slug": "biyomon",
+    "to_slug": "uisamon"
+  },
+  {
+    "from_slug": "toyagumon_jp",
+    "to_slug": "uisamon"
+  },
+  {
+    "from_slug": "uisamon",
+    "to_slug": "angewomon_jp"
+  },
+  {
+    "from_slug": "uisamon",
+    "to_slug": "mistymon_jp"
+  },
+  {
+    "from_slug": "uisamon",
+    "to_slug": "wisemon_jp"
+  },
+  {
+    "from_slug": "dinohyumon",
+    "to_slug": "uitutimon"
+  },
+  {
+    "from_slug": "shamamon",
+    "to_slug": "uitutimon"
+  },
+  {
+    "from_slug": "uitutimon",
+    "to_slug": "reteitehimon"
+  },
+  {
+    "from_slug": "uitutimon",
+    "to_slug": "ensieumon"
+  },
+  {
+    "from_slug": "uitutimon",
+    "to_slug": "frigimon_jp"
+  },
+  {
+    "from_slug": "hokumon",
+    "to_slug": "siyurimon"
+  },
+  {
+    "from_slug": "agumon",
+    "to_slug": "akumon-yong-qi-noban"
+  },
+  {
+    "from_slug": "kohurimon",
+    "to_slug": "uenteimon"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "uenteimon"
+  },
+  {
+    "from_slug": "uenteimon",
+    "to_slug": "skullmeramon_jp"
+  },
+  {
+    "from_slug": "uenteimon",
+    "to_slug": "anteiramon"
+  },
+  {
+    "from_slug": "tsumemon",
+    "to_slug": "akumon-hei"
+  },
+  {
+    "from_slug": "akumon-hei",
+    "to_slug": "sutoraikutoramon"
+  },
+  {
+    "from_slug": "akumon-hei",
+    "to_slug": "tuskmon_jp"
+  },
+  {
+    "from_slug": "akumon-hei",
+    "to_slug": "tehimon"
+  },
+  {
+    "from_slug": "akumon-hei",
+    "to_slug": "koatoramon-qing"
+  },
+  {
+    "from_slug": "akumon-hei",
+    "to_slug": "kureimon-qing"
+  },
+  {
+    "from_slug": "vikemon_jp",
+    "to_slug": "ahokarimon"
+  },
+  {
+    "from_slug": "uoruhumon",
+    "to_slug": "heouruhumon"
+  },
+  {
+    "from_slug": "karumumon",
+    "to_slug": "heouruhumon"
+  },
+  {
+    "from_slug": "heouruhumon",
+    "to_slug": "magnagarurumon"
+  },
+  {
+    "from_slug": "sanhuraumon",
+    "to_slug": "hanhumon"
+  },
+  {
+    "from_slug": "togemon",
+    "to_slug": "hanhumon"
+  },
+  {
+    "from_slug": "ututomon",
+    "to_slug": "hanhumon"
+  },
+  {
+    "from_slug": "hanhumon",
+    "to_slug": "gotsumon_jp"
+  },
+  {
+    "from_slug": "hanhumon",
+    "to_slug": "sukamon"
+  },
+  {
+    "from_slug": "strikedramon",
+    "to_slug": "hureikutoramon"
+  },
+  {
+    "from_slug": "kurauntoramon",
+    "to_slug": "hureikutoramon"
+  },
+  {
+    "from_slug": "hureikutoramon",
+    "to_slug": "ekusamon"
+  },
+  {
+    "from_slug": "drimogemon_jp",
+    "to_slug": "hurakimon"
+  },
+  {
+    "from_slug": "saikuromon",
+    "to_slug": "hurakimon"
+  },
+  {
+    "from_slug": "ankiromon",
+    "to_slug": "hurakimon"
+  },
+  {
+    "from_slug": "hurakimon",
+    "to_slug": "ouryumon"
+  },
+  {
+    "from_slug": "hurakimon",
+    "to_slug": "aruteimetutohurakimon"
+  },
+  {
+    "from_slug": "birdramon_jp",
+    "to_slug": "rihorumon"
+  },
+  {
+    "from_slug": "toiakumon",
+    "to_slug": "rihorumon"
+  },
+  {
+    "from_slug": "rihorumon",
+    "to_slug": "antylamon"
+  },
+  {
+    "from_slug": "rihorumon",
+    "to_slug": "suhasutamon"
+  },
+  {
+    "from_slug": "rihorumon",
+    "to_slug": "wisemon_jp"
+  },
+  {
+    "from_slug": "karurumon-hei",
+    "to_slug": "wakarurumon-hei"
+  },
+  {
+    "from_slug": "sankuruumon",
+    "to_slug": "wakarurumon-hei"
+  },
+  {
+    "from_slug": "huratukuteirumon",
+    "to_slug": "wakarurumon-hei"
+  },
+  {
+    "from_slug": "wakarurumon-hei",
+    "to_slug": "hairuhorukemon"
+  },
+  {
+    "from_slug": "wakarurumon-hei",
+    "to_slug": "metarukarurumon-hei"
+  },
+  {
+    "from_slug": "huratukuuokureimon",
+    "to_slug": "omekamonsuwaruto"
+  },
+  {
+    "from_slug": "metarukarurumon-hei",
+    "to_slug": "omekamonsuwaruto"
+  },
+  {
+    "from_slug": "omekamonsuwaruto",
+    "to_slug": "coelamon_jp"
+  },
+  {
+    "from_slug": "ouryumon",
+    "to_slug": "aruhuamonwang-long-jian"
+  },
+  {
+    "from_slug": "aruhuamon",
+    "to_slug": "aruhuamonwang-long-jian"
+  },
+  {
+    "from_slug": "teiahoromon",
+    "to_slug": "amakemon"
+  },
+  {
+    "from_slug": "justimon_jp",
+    "to_slug": "rutiemonfm"
+  },
+  {
+    "from_slug": "rutiemonfm",
+    "to_slug": "rutiemonsm"
+  },
+  {
+    "from_slug": "tiyumon",
+    "to_slug": "huratinasukamon"
+  },
+  {
+    "from_slug": "huratinasukamon",
+    "to_slug": "deltamon_jp"
+  },
+  {
+    "from_slug": "huratinasukamon",
+    "to_slug": "metalmamemon"
+  },
+  {
+    "from_slug": "knightmon_jp",
+    "to_slug": "kawatuhamon"
+  },
+  {
+    "from_slug": "terriermon_jp",
+    "to_slug": "kawatuhamon"
+  },
+  {
+    "from_slug": "kawatuhamon",
+    "to_slug": "shaujinmon_jp"
+  },
+  {
+    "from_slug": "kawatuhamon",
+    "to_slug": "ankylomon"
+  },
+  {
+    "from_slug": "kawatuhamon",
+    "to_slug": "tonosamakekomon"
+  },
+  {
+    "from_slug": "korutonumemon",
+    "to_slug": "huratukukinkunumemon"
+  },
+  {
+    "from_slug": "karatukinumemon",
+    "to_slug": "huratukukinkunumemon"
+  },
+  {
+    "from_slug": "crabmon_jp",
+    "to_slug": "huratukukinkunumemon"
+  },
+  {
+    "from_slug": "huratukukinkunumemon",
+    "to_slug": "huratinanumemon"
+  },
+  {
+    "from_slug": "huratukukinkunumemon",
+    "to_slug": "metalgreymon_jp"
+  },
+  {
+    "from_slug": "guilmon_jp",
+    "to_slug": "huitoramon"
+  },
+  {
+    "from_slug": "torakomon",
+    "to_slug": "huitoramon"
+  },
+  {
+    "from_slug": "hurotutomon",
+    "to_slug": "huitoramon"
+  },
+  {
+    "from_slug": "huitoramon",
+    "to_slug": "uinkutoramon"
+  },
+  {
+    "from_slug": "huitoramon",
+    "to_slug": "earohuitoramon"
+  },
+  {
+    "from_slug": "huitoramon",
+    "to_slug": "saihatoramon"
+  },
+  {
+    "from_slug": "huitoramon",
+    "to_slug": "metarukureimon-qing"
+  },
+  {
+    "from_slug": "kotumon",
+    "to_slug": "starmon"
+  },
+  {
+    "from_slug": "kotumon",
+    "to_slug": "katoromon"
+  },
+  {
+    "from_slug": "kotumon",
+    "to_slug": "ogremon"
+  },
+  {
+    "from_slug": "kotumon",
+    "to_slug": "monochromon_jp"
+  },
+  {
+    "from_slug": "kotumon",
+    "to_slug": "callismon_jp"
+  },
+  {
+    "from_slug": "kotumon",
+    "to_slug": "tutitarumon"
+  },
+  {
+    "from_slug": "aquilamon_jp",
+    "to_slug": "karutamon"
+  },
+  {
+    "from_slug": "chaosdramon_jp",
+    "to_slug": "karutamon"
+  },
+  {
+    "from_slug": "buraimon",
+    "to_slug": "karutamon"
+  },
+  {
+    "from_slug": "bukamon",
+    "to_slug": "karutamon"
+  },
+  {
+    "from_slug": "karutamon",
+    "to_slug": "kurihuomon"
+  },
+  {
+    "from_slug": "karutamon",
+    "to_slug": "siesumon"
+  },
+  {
+    "from_slug": "teinohimon",
+    "to_slug": "taikauesuhamon"
+  },
+  {
+    "from_slug": "seihahatukumon",
+    "to_slug": "taikauesuhamon"
+  },
+  {
+    "from_slug": "siyueruhimon",
+    "to_slug": "taikauesuhamon"
+  },
+  {
+    "from_slug": "kiyanonhimon",
+    "to_slug": "taikauesuhamon"
+  },
+  {
+    "from_slug": "raisukureimon",
+    "to_slug": "makunakitutomon"
+  },
+  {
+    "from_slug": "metalmamemon",
+    "to_slug": "makunakitutomon"
+  },
+  {
+    "from_slug": "omekasiyautomon",
+    "to_slug": "makunakitutomon"
+  },
+  {
+    "from_slug": "hagurumon",
+    "to_slug": "hurinhumon"
+  },
+  {
+    "from_slug": "toiakumon",
+    "to_slug": "hurinhumon"
+  },
+  {
+    "from_slug": "hurinhumon",
+    "to_slug": "rokomon"
+  },
+  {
+    "from_slug": "hurinhumon",
+    "to_slug": "metalmamemon"
+  },
+  {
+    "from_slug": "hurinhumon",
+    "to_slug": "masutahurinhumon"
+  },
+  {
+    "from_slug": "nyaromon",
+    "to_slug": "hurotutomon"
+  },
+  {
+    "from_slug": "hurotutomon",
+    "to_slug": "teirumon"
+  },
+  {
+    "from_slug": "hurotutomon",
+    "to_slug": "sankuruumon"
+  },
+  {
+    "from_slug": "hurotutomon",
+    "to_slug": "toherumon"
+  },
+  {
+    "from_slug": "hurotutomon",
+    "to_slug": "ikkakumon"
+  },
+  {
+    "from_slug": "hurotutomon",
+    "to_slug": "drimogemon_jp"
+  },
+  {
+    "from_slug": "tyrannomon_jp",
+    "to_slug": "ekusuteiranomon"
+  },
+  {
+    "from_slug": "kurotukumon",
+    "to_slug": "ekusuteiranomon"
+  },
+  {
+    "from_slug": "crabmon_jp",
+    "to_slug": "ekusuteiranomon"
+  },
+  {
+    "from_slug": "ekusuteiranomon",
+    "to_slug": "heruhuemonsm"
+  },
+  {
+    "from_slug": "ekusuteiranomon",
+    "to_slug": "keruhimon-shan"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "kiyuuhimon"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "kiyuuhimon"
+  },
+  {
+    "from_slug": "kiyuuhimon",
+    "to_slug": "hurumeramon"
+  },
+  {
+    "from_slug": "kiyuuhimon",
+    "to_slug": "keruheromon"
+  },
+  {
+    "from_slug": "kiyuuhimon",
+    "to_slug": "anuarumon"
+  },
+  {
+    "from_slug": "guilmon_jp",
+    "to_slug": "hureitoramon"
+  },
+  {
+    "from_slug": "agumon",
+    "to_slug": "siokureimon"
+  },
+  {
+    "from_slug": "kirumon",
+    "to_slug": "siokureimon"
+  },
+  {
+    "from_slug": "hatukumon",
+    "to_slug": "siokureimon"
+  },
+  {
+    "from_slug": "siokureimon",
+    "to_slug": "raisukureimon"
+  },
+  {
+    "from_slug": "siokureimon",
+    "to_slug": "metaltyrannomon_jp"
+  },
+  {
+    "from_slug": "siokureimon",
+    "to_slug": "saihatoramon"
+  },
+  {
+    "from_slug": "koatoramon-qing",
+    "to_slug": "uinkutoramon"
+  },
+  {
+    "from_slug": "kureimon-qing",
+    "to_slug": "uinkutoramon"
+  },
+  {
+    "from_slug": "uinkutoramon",
+    "to_slug": "siyainkureimon"
+  },
+  {
+    "from_slug": "uinkutoramon",
+    "to_slug": "uarotourumon"
+  },
+  {
+    "from_slug": "gaiomon_jp",
+    "to_slug": "rotonaitomon"
+  },
+  {
+    "from_slug": "herusehumon",
+    "to_slug": "herusehumonbm"
+  },
+  {
+    "from_slug": "kutamon",
+    "to_slug": "retuhamon"
+  },
+  {
+    "from_slug": "riyuutamon",
+    "to_slug": "retuhamon"
+  },
+  {
+    "from_slug": "retuhamon",
+    "to_slug": "chirinmon_jp"
+  },
+  {
+    "from_slug": "retuhamon",
+    "to_slug": "mekasitoramon"
+  },
+  {
+    "from_slug": "retuhamon",
+    "to_slug": "ensieumon"
+  },
+  {
+    "from_slug": "retuhamon",
+    "to_slug": "torukuremon"
+  },
+  {
+    "from_slug": "astamon",
+    "to_slug": "herusehumon"
+  },
+  {
+    "from_slug": "skullmeramon_jp",
+    "to_slug": "herusehumon"
+  },
+  {
+    "from_slug": "arumasimon",
+    "to_slug": "teikumon"
+  },
+  {
+    "from_slug": "ginryumon_jp",
+    "to_slug": "sukarukureimon"
+  },
+  {
+    "from_slug": "koatoramon-lu",
+    "to_slug": "sukarukureimon"
+  },
+  {
+    "from_slug": "kureimon",
+    "to_slug": "sukarukureimon"
+  },
+  {
+    "from_slug": "sukarukureimon",
+    "to_slug": "tapirmon_jp"
+  },
+  {
+    "from_slug": "sukarukureimon",
+    "to_slug": "sukarumanmon"
+  },
+  {
+    "from_slug": "reiumon",
+    "to_slug": "reiumonbm"
+  },
+  {
+    "from_slug": "angemon_jp",
+    "to_slug": "temon"
+  },
+  {
+    "from_slug": "wisemon_jp",
+    "to_slug": "temon"
+  },
+  {
+    "from_slug": "kureniamumon",
+    "to_slug": "kureniamumon-anuarumon"
+  },
+  {
+    "from_slug": "anuarumon",
+    "to_slug": "kureniamumon-anuarumon"
+  },
+  {
+    "from_slug": "angemon_jp",
+    "to_slug": "uenomuuantemon"
+  },
+  {
+    "from_slug": "astamon",
+    "to_slug": "uenomuuantemon"
+  },
+  {
+    "from_slug": "hagurumon",
+    "to_slug": "katoromon"
+  },
+  {
+    "from_slug": "tsumemon",
+    "to_slug": "katoromon"
+  },
+  {
+    "from_slug": "katoromon",
+    "to_slug": "kiyatutimamemon"
+  },
+  {
+    "from_slug": "katoromon",
+    "to_slug": "rokomon"
+  },
+  {
+    "from_slug": "katoromon",
+    "to_slug": "gankoomon_jp"
+  },
+  {
+    "from_slug": "kuraumon",
+    "to_slug": "kurauntoramon"
+  },
+  {
+    "from_slug": "koatoramon-lu",
+    "to_slug": "kurauntoramon"
+  },
+  {
+    "from_slug": "tyrannomon_jp",
+    "to_slug": "kurauntoramon"
+  },
+  {
+    "from_slug": "tuskmon_jp",
+    "to_slug": "kurauntoramon"
+  },
+  {
+    "from_slug": "kurauntoramon",
+    "to_slug": "meteormon_jp"
+  },
+  {
+    "from_slug": "arumasimon",
+    "to_slug": "submarimon"
+  },
+  {
+    "from_slug": "arumasimon",
+    "to_slug": "ogremon"
+  },
+  {
+    "from_slug": "arumasimon",
+    "to_slug": "ankiromon"
+  },
+  {
+    "from_slug": "suteinkumon",
+    "to_slug": "hairutoramon"
+  },
+  {
+    "from_slug": "ekusuhuimon",
+    "to_slug": "hairutoramon"
+  },
+  {
+    "from_slug": "hairutoramon",
+    "to_slug": "dorugoramon_jp"
+  },
+  {
+    "from_slug": "hairutoramon",
+    "to_slug": "takutoramon"
+  },
+  {
+    "from_slug": "hairutoramon",
+    "to_slug": "inheriarutoramondm"
+  },
+  {
+    "from_slug": "siyautomon",
+    "to_slug": "suhaikamon"
+  },
+  {
+    "from_slug": "suhamon",
+    "to_slug": "suhaikamon"
+  },
+  {
+    "from_slug": "suhaikamon",
+    "to_slug": "mekarokuraumon"
+  },
+  {
+    "from_slug": "suhaikamon",
+    "to_slug": "teyuramon"
+  },
+  {
+    "from_slug": "suhaikamon",
+    "to_slug": "gaiomon_jp"
+  },
+  {
+    "from_slug": "dorimon",
+    "to_slug": "rotuhumon"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "kurisumon"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "crowmon_jp"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "tutitarumon"
+  },
+  {
+    "from_slug": "huanhimon",
+    "to_slug": "wasuhumon"
+  },
+  {
+    "from_slug": "wasuhumon",
+    "to_slug": "brachiomon_jp"
+  },
+  {
+    "from_slug": "wasuhumon",
+    "to_slug": "kiyanonhimon"
+  },
+  {
+    "from_slug": "wasuhumon",
+    "to_slug": "tankdramon_jp"
+  },
+  {
+    "from_slug": "hihokurihuomon",
+    "to_slug": "kurosumon"
+  },
+  {
+    "from_slug": "chirinmon_jp",
+    "to_slug": "kurosumon"
+  },
+  {
+    "from_slug": "orochimon",
+    "to_slug": "hatukasumon"
+  },
+  {
+    "from_slug": "tesitamamon",
+    "to_slug": "hatukasumon"
+  },
+  {
+    "from_slug": "tonosamakekomon",
+    "to_slug": "hatukasumon"
+  },
+  {
+    "from_slug": "hatukasumon",
+    "to_slug": "hatukasumondm"
+  },
+  {
+    "from_slug": "takusuhasutamon",
+    "to_slug": "reiumon"
+  },
+  {
+    "from_slug": "phantomon",
+    "to_slug": "reiumon"
+  },
+  {
+    "from_slug": "yatakaramon",
+    "to_slug": "reiumon"
+  },
+  {
+    "from_slug": "hihokurihuomon",
+    "to_slug": "teyunasumon"
+  },
+  {
+    "from_slug": "mistymon_jp",
+    "to_slug": "teyunasumon"
+  },
+  {
+    "from_slug": "orochimon",
+    "to_slug": "kantoramon"
+  },
+  {
+    "from_slug": "kikatoramon",
+    "to_slug": "kantoramon"
+  },
+  {
+    "from_slug": "masutahurinhumon",
+    "to_slug": "kantoramon"
+  },
+  {
+    "from_slug": "tankdramon_jp",
+    "to_slug": "kantoramon"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "sutoraikutoramon"
+  },
+  {
+    "from_slug": "monodramon",
+    "to_slug": "sutoraikutoramon"
+  },
+  {
+    "from_slug": "sutoraikutoramon",
+    "to_slug": "saihatoramon"
+  },
+  {
+    "from_slug": "sutoraikutoramon",
+    "to_slug": "seihahatukumon"
+  },
+  {
+    "from_slug": "sutoraikutoramon",
+    "to_slug": "rokomon"
+  },
+  {
+    "from_slug": "antylamon",
+    "to_slug": "mirasiyukaokamon"
+  },
+  {
+    "from_slug": "matuhakaokamon",
+    "to_slug": "mirasiyukaokamon"
+  },
+  {
+    "from_slug": "hansiyamon",
+    "to_slug": "mirasiyukaokamon"
+  },
+  {
+    "from_slug": "mirasiyukaokamon",
+    "to_slug": "mirasiyukaokamonbm"
+  },
+  {
+    "from_slug": "mukentoramon",
+    "to_slug": "mireniamon"
+  },
+  {
+    "from_slug": "coronamon",
+    "to_slug": "haohatukumon"
+  },
+  {
+    "from_slug": "kasimon",
+    "to_slug": "haohatukumon"
+  },
+  {
+    "from_slug": "hatukumon",
+    "to_slug": "haohatukumon"
+  },
+  {
+    "from_slug": "haohatukumon",
+    "to_slug": "raisukureimon"
+  },
+  {
+    "from_slug": "haohatukumon",
+    "to_slug": "seihahatukumon"
+  },
+  {
+    "from_slug": "haohatukumon",
+    "to_slug": "rotareomon"
+  },
+  {
+    "from_slug": "vegiemon",
+    "to_slug": "tonosamakekomon"
+  },
+  {
+    "from_slug": "gekomon",
+    "to_slug": "tonosamakekomon"
+  },
+  {
+    "from_slug": "crabmon_jp",
+    "to_slug": "tonosamakekomon"
+  },
+  {
+    "from_slug": "tonosamakekomon",
+    "to_slug": "kingetemon"
+  },
+  {
+    "from_slug": "tonosamakekomon",
+    "to_slug": "pukumon"
+  },
+  {
+    "from_slug": "matusiyumon",
+    "to_slug": "ututomon"
+  },
+  {
+    "from_slug": "matusiyumon",
+    "to_slug": "shurimon"
+  },
+  {
+    "from_slug": "matuhakaokamon",
+    "to_slug": "sentokarukomon"
+  },
+  {
+    "from_slug": "brachiomon_jp",
+    "to_slug": "sentokarukomon"
+  },
+  {
+    "from_slug": "kiyanonhimon",
+    "to_slug": "sentokarukomon"
+  },
+  {
+    "from_slug": "raisukureimon",
+    "to_slug": "sureihumon"
+  },
+  {
+    "from_slug": "chirinmon_jp",
+    "to_slug": "sureihumon"
+  },
+  {
+    "from_slug": "anuarumon",
+    "to_slug": "sureihumon"
+  },
+  {
+    "from_slug": "coronamon",
+    "to_slug": "huairamon"
+  },
+  {
+    "from_slug": "hokumon",
+    "to_slug": "huairamon"
+  },
+  {
+    "from_slug": "pukumon",
+    "to_slug": "huairamon"
+  },
+  {
+    "from_slug": "huairamon",
+    "to_slug": "hureamon"
+  },
+  {
+    "from_slug": "huairamon",
+    "to_slug": "seihahatukumon"
+  },
+  {
+    "from_slug": "huairamon",
+    "to_slug": "mistymon_jp"
+  },
+  {
+    "from_slug": "tiyumon",
+    "to_slug": "huratukuteirumon"
+  },
+  {
+    "from_slug": "kasimon",
+    "to_slug": "huratukuteirumon"
+  },
+  {
+    "from_slug": "kahumon-hei",
+    "to_slug": "huratukuteirumon"
+  },
+  {
+    "from_slug": "huratukuteirumon",
+    "to_slug": "antylamon"
+  },
+  {
+    "from_slug": "huratukuteirumon",
+    "to_slug": "reteitehimon"
+  },
+  {
+    "from_slug": "huratukuteirumon",
+    "to_slug": "sukaruharukimon"
+  },
+  {
+    "from_slug": "gaogamon_jp",
+    "to_slug": "matuhakaokamon"
+  },
+  {
+    "from_slug": "karukomon",
+    "to_slug": "matuhakaokamon"
+  },
+  {
+    "from_slug": "vegiemon_jp",
+    "to_slug": "siyatukoumon"
+  },
+  {
+    "from_slug": "ankiromon",
+    "to_slug": "siyatukoumon"
+  },
+  {
+    "from_slug": "siyatukoumon",
+    "to_slug": "kotutotoramon"
+  },
+  {
+    "from_slug": "siyatukoumon",
+    "to_slug": "yunomon"
+  },
+  {
+    "from_slug": "siyatukoumon",
+    "to_slug": "uaikumon"
+  },
+  {
+    "from_slug": "siyatukoumon",
+    "to_slug": "horitoramon"
+  },
+  {
+    "from_slug": "terutamon",
+    "to_slug": "metarukureimon"
+  },
+  {
+    "from_slug": "kureimon",
+    "to_slug": "metarukureimon"
+  },
+  {
+    "from_slug": "tyrannomon_jp",
+    "to_slug": "metarukureimon"
+  },
+  {
+    "from_slug": "metarukureimon",
+    "to_slug": "uokureimon"
+  },
+  {
+    "from_slug": "metarukureimon",
+    "to_slug": "kaioumon"
+  },
+  {
+    "from_slug": "divermon_jp",
+    "to_slug": "hitukoromon"
+  },
+  {
+    "from_slug": "mojyamon",
+    "to_slug": "hitukoromon"
+  },
+  {
+    "from_slug": "solarmon",
+    "to_slug": "hitukoromon"
+  },
+  {
+    "from_slug": "hitukoromon",
+    "to_slug": "venusmon"
+  },
+  {
+    "from_slug": "hitukoromon",
+    "to_slug": "ophanimon"
+  },
+  {
+    "from_slug": "hitukoromon",
+    "to_slug": "kurauisuensiemon"
+  },
+  {
+    "from_slug": "kohurimon",
+    "to_slug": "terutamon"
+  },
+  {
+    "from_slug": "torakomon",
+    "to_slug": "terutamon"
+  },
+  {
+    "from_slug": "monodramon",
+    "to_slug": "terutamon"
+  },
+  {
+    "from_slug": "terutamon",
+    "to_slug": "orochimon"
+  },
+  {
+    "from_slug": "terutamon",
+    "to_slug": "sukaruharukimon"
+  },
+  {
+    "from_slug": "terutamon",
+    "to_slug": "siyakumon"
+  },
+  {
+    "from_slug": "kendogarurumon_jp",
+    "to_slug": "hurumeramon"
+  },
+  {
+    "from_slug": "halsemon_jp",
+    "to_slug": "hurumeramon"
+  },
+  {
+    "from_slug": "hurumeramon",
+    "to_slug": "marsmon"
+  },
+  {
+    "from_slug": "hurumeramon",
+    "to_slug": "pharaohmon"
+  },
+  {
+    "from_slug": "veedramon_jp",
+    "to_slug": "uarotourumon"
+  },
+  {
+    "from_slug": "yatakaramon",
+    "to_slug": "uarotourumon"
+  },
+  {
+    "from_slug": "uarotourumon",
+    "to_slug": "kaosumon-uarotouruamu"
+  },
+  {
+    "from_slug": "gaogamon_jp",
+    "to_slug": "seihahatukumon"
+  },
+  {
+    "from_slug": "seihahatukumon",
+    "to_slug": "kankuumon"
+  },
+  {
+    "from_slug": "seihahatukumon",
+    "to_slug": "siesumon"
+  },
+  {
+    "from_slug": "toherumon",
+    "to_slug": "mamimon"
+  },
+  {
+    "from_slug": "okamon",
+    "to_slug": "mamimon"
+  },
+  {
+    "from_slug": "dokugumon_jp",
+    "to_slug": "mamimon"
+  },
+  {
+    "from_slug": "mamimon",
+    "to_slug": "pharaohmon"
+  },
+  {
+    "from_slug": "mamimon",
+    "to_slug": "hiandromon_jp"
+  },
+  {
+    "from_slug": "mamimon",
+    "to_slug": "auensikitutomon"
+  },
+  {
+    "from_slug": "teyuramon",
+    "to_slug": "uokureimon"
+  },
+  {
+    "from_slug": "uokureimon",
+    "to_slug": "coelamon_jp"
+  },
+  {
+    "from_slug": "angewomon_jp",
+    "to_slug": "teiahoromon"
+  },
+  {
+    "from_slug": "infermon_jp",
+    "to_slug": "teiahoromon"
+  },
+  {
+    "from_slug": "megadramon_jp",
+    "to_slug": "mukentoramon"
+  },
+  {
+    "from_slug": "metaltyrannomon_jp",
+    "to_slug": "mukentoramon"
+  },
+  {
+    "from_slug": "kureimon-qing",
+    "to_slug": "metarukureimon-qing"
+  },
+  {
+    "from_slug": "dorugamon_jp",
+    "to_slug": "metarukureimon-qing"
+  },
+  {
+    "from_slug": "metarukureimon-qing",
+    "to_slug": "huratukuuokureimon"
+  },
+  {
+    "from_slug": "metarukureimon-qing",
+    "to_slug": "takutoramon"
+  },
+  {
+    "from_slug": "metarukureimon-qing",
+    "to_slug": "keruhimon-e"
+  },
+  {
+    "from_slug": "magnagarurumon",
+    "to_slug": "makunakarurumon-fen-li"
+  },
+  {
+    "from_slug": "antylamon",
+    "to_slug": "siyasuteimon"
+  },
+  {
+    "from_slug": "suhasutamon",
+    "to_slug": "siyasuteimon"
+  },
+  {
+    "from_slug": "saihatoramon",
+    "to_slug": "siyasuteimon"
+  },
+  {
+    "from_slug": "kuretokurisumon",
+    "to_slug": "keruhimon-e"
+  },
+  {
+    "from_slug": "infermon_jp",
+    "to_slug": "keruhimon-e"
+  },
+  {
+    "from_slug": "anteiramon",
+    "to_slug": "keruhimon-e"
+  },
+  {
+    "from_slug": "hitukumamemon",
+    "to_slug": "huratinanumemon"
+  },
+  {
+    "from_slug": "kiyatutimamemon",
+    "to_slug": "huratinanumemon"
+  },
+  {
+    "from_slug": "veedramon_jp",
+    "to_slug": "huratinanumemon"
+  },
+  {
+    "from_slug": "mekarokuraumon",
+    "to_slug": "kaosuteyukumon"
+  },
+  {
+    "from_slug": "mistymon_jp",
+    "to_slug": "kaosuteyukumon"
+  },
+  {
+    "from_slug": "wisemon_jp",
+    "to_slug": "kaosuteyukumon"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "kurisumon"
+  },
+  {
+    "from_slug": "hunimon",
+    "to_slug": "kurisumon"
+  },
+  {
+    "from_slug": "kurisumon",
+    "to_slug": "weregarurumon_jp"
+  },
+  {
+    "from_slug": "kurisumon",
+    "to_slug": "kuratuhureomon"
+  },
+  {
+    "from_slug": "kurisumon",
+    "to_slug": "kuretokurisumon"
+  },
+  {
+    "from_slug": "tankmon",
+    "to_slug": "rokomon"
+  },
+  {
+    "from_slug": "rokomon",
+    "to_slug": "kurantorokomon"
+  },
+  {
+    "from_slug": "rokomon",
+    "to_slug": "hiandromon_jp"
+  },
+  {
+    "from_slug": "kirumon",
+    "to_slug": "kureimon-qing"
+  },
+  {
+    "from_slug": "hikotehimon",
+    "to_slug": "kureimon-qing"
+  },
+  {
+    "from_slug": "kureimon-qing",
+    "to_slug": "sukaruharukimon"
+  },
+  {
+    "from_slug": "torakomon",
+    "to_slug": "koatoramon-lu"
+  },
+  {
+    "from_slug": "torakomon",
+    "to_slug": "koatoramon-qing"
+  },
+  {
+    "from_slug": "torakomon",
+    "to_slug": "sitoramon"
+  },
+  {
+    "from_slug": "torakomon",
+    "to_slug": "tyrannomon_jp"
+  },
+  {
+    "from_slug": "okutamon",
+    "to_slug": "takomon"
+  },
+  {
+    "from_slug": "crabmon_jp",
+    "to_slug": "takomon"
+  },
+  {
+    "from_slug": "takomon",
+    "to_slug": "urukanusumon"
+  },
+  {
+    "from_slug": "takomon",
+    "to_slug": "gizamon_jp"
+  },
+  {
+    "from_slug": "kuraumon",
+    "to_slug": "mekarokuraumon"
+  },
+  {
+    "from_slug": "koatoramon-lu",
+    "to_slug": "mekarokuraumon"
+  },
+  {
+    "from_slug": "mekarokuraumon",
+    "to_slug": "meteormon_jp"
+  },
+  {
+    "from_slug": "mekarokuraumon",
+    "to_slug": "teyukumon"
+  },
+  {
+    "from_slug": "mekarokuraumon",
+    "to_slug": "kaosutoramon"
+  },
+  {
+    "from_slug": "wamumon",
+    "to_slug": "suteinkumon"
+  },
+  {
+    "from_slug": "wamumon",
+    "to_slug": "dokugumon_jp"
+  },
+  {
+    "from_slug": "wamumon",
+    "to_slug": "snimon"
+  },
+  {
+    "from_slug": "vegiemon_jp",
+    "to_slug": "hihokurihuomon"
+  },
+  {
+    "from_slug": "kyubimon_jp",
+    "to_slug": "hihokurihuomon"
+  },
+  {
+    "from_slug": "hihokurihuomon",
+    "to_slug": "kurihuomon"
+  },
+  {
+    "from_slug": "hureamon",
+    "to_slug": "huratukuuokureimon"
+  },
+  {
+    "from_slug": "syakomon",
+    "to_slug": "karatukinumemon"
+  },
+  {
+    "from_slug": "karatukinumemon",
+    "to_slug": "orochimon"
+  },
+  {
+    "from_slug": "karatukinumemon",
+    "to_slug": "waruseadramon_jp"
+  },
+  {
+    "from_slug": "karatukinumemon",
+    "to_slug": "antylamon"
+  },
+  {
+    "from_slug": "seadramon_jp",
+    "to_slug": "kikatoramon"
+  },
+  {
+    "from_slug": "rahutatoramon",
+    "to_slug": "kikatoramon"
+  },
+  {
+    "from_slug": "koatoramon-qing",
+    "to_slug": "kikatoramon"
+  },
+  {
+    "from_slug": "kikatoramon",
+    "to_slug": "kaosutoramon"
+  },
+  {
+    "from_slug": "dorugamon_jp",
+    "to_slug": "kuretokurisumon"
+  },
+  {
+    "from_slug": "kahumon",
+    "to_slug": "kuretokurisumon"
+  },
+  {
+    "from_slug": "kuretokurisumon",
+    "to_slug": "karisumon"
+  },
+  {
+    "from_slug": "hikotehimon",
+    "to_slug": "okamon"
+  },
+  {
+    "from_slug": "kohurimon",
+    "to_slug": "okamon"
+  },
+  {
+    "from_slug": "okamon",
+    "to_slug": "skullsatamon_jp"
+  },
+  {
+    "from_slug": "okamon",
+    "to_slug": "tesitamamon"
+  },
+  {
+    "from_slug": "aikiomon",
+    "to_slug": "aikioteyusumon-kurin"
+  },
+  {
+    "from_slug": "aikioteyusumon-kurin",
+    "to_slug": "jupitermon_jp"
+  },
+  {
+    "from_slug": "erekimon",
+    "to_slug": "aikiomon"
+  },
+  {
+    "from_slug": "aikiomon",
+    "to_slug": "aikioteyusumon"
+  },
+  {
+    "from_slug": "aikiomon",
+    "to_slug": "aikioteyusumon-taku"
+  },
+  {
+    "from_slug": "aikiomon",
+    "to_slug": "aikioteyusumon-hori"
+  },
+  {
+    "from_slug": "aikiomon",
+    "to_slug": "aikioteyusumon-huru"
+  },
+  {
+    "from_slug": "crabmon_jp",
+    "to_slug": "sukaruharukimon"
+  },
+  {
+    "from_slug": "sukaruharukimon",
+    "to_slug": "sukarumanmon"
+  },
+  {
+    "from_slug": "sukaruharukimon",
+    "to_slug": "taitamon-sukaruharukimon"
+  },
+  {
+    "from_slug": "anteiramon",
+    "to_slug": "keruhimon-shan"
+  },
+  {
+    "from_slug": "karumumon",
+    "to_slug": "uoruhumon"
+  },
+  {
+    "from_slug": "vegiemon",
+    "to_slug": "kahemon"
+  },
+  {
+    "from_slug": "tutitarumon",
+    "to_slug": "kahemon"
+  },
+  {
+    "from_slug": "kahemon",
+    "to_slug": "siyanhokamemon"
+  },
+  {
+    "from_slug": "kahemon",
+    "to_slug": "metalgreymon_jp"
+  },
+  {
+    "from_slug": "suhamon",
+    "to_slug": "ankiromon"
+  },
+  {
+    "from_slug": "ankiromon",
+    "to_slug": "insekimon"
+  },
+  {
+    "from_slug": "aikioteyusumon-hori",
+    "to_slug": "jupitermon_jp"
+  },
+  {
+    "from_slug": "horukemon",
+    "to_slug": "hantiyoreomon"
+  },
+  {
+    "from_slug": "kuratuhureomon",
+    "to_slug": "hantiyoreomon"
+  },
+  {
+    "from_slug": "rotareomon",
+    "to_slug": "hantiyoreomon"
+  },
+  {
+    "from_slug": "hantiyoreomon",
+    "to_slug": "chaosmon_jp"
+  },
+  {
+    "from_slug": "hantiyoreomon",
+    "to_slug": "kaosumon-uarotouruamu"
+  },
+  {
+    "from_slug": "lekismon",
+    "to_slug": "kuratuhureomon"
+  },
+  {
+    "from_slug": "crowmon_jp",
+    "to_slug": "kuratuhureomon"
+  },
+  {
+    "from_slug": "kuratuhureomon",
+    "to_slug": "marsmon"
+  },
+  {
+    "from_slug": "kuratuhureomon",
+    "to_slug": "saberleomon_jp"
+  },
+  {
+    "from_slug": "kuratuhureomon",
+    "to_slug": "touhutomon"
+  },
+  {
+    "from_slug": "monzaemon",
+    "to_slug": "karisumon"
+  },
+  {
+    "from_slug": "kirumon",
+    "to_slug": "ekusuhuimon"
+  },
+  {
+    "from_slug": "dorumon",
+    "to_slug": "ekusuhuimon"
+  },
+  {
+    "from_slug": "guilmon_jp",
+    "to_slug": "ekusuhuimon"
+  },
+  {
+    "from_slug": "ekusuhuimon",
+    "to_slug": "teinohimon"
+  },
+  {
+    "from_slug": "ekusuhuimon",
+    "to_slug": "raisukureimon"
+  },
+  {
+    "from_slug": "nyaromon",
+    "to_slug": "hatukumon"
+  },
+  {
+    "from_slug": "hatukumon",
+    "to_slug": "teirumon"
+  },
+  {
+    "from_slug": "hatukumon",
+    "to_slug": "kuraumon"
+  },
+  {
+    "from_slug": "hatukumon",
+    "to_slug": "kureimon"
+  },
+  {
+    "from_slug": "uritoramon",
+    "to_slug": "garudamon"
+  },
+  {
+    "from_slug": "uritoramon",
+    "to_slug": "agunimon"
+  },
+  {
+    "from_slug": "uritoramon",
+    "to_slug": "kyubimon_jp"
+  },
+  {
+    "from_slug": "saikuromon",
+    "to_slug": "saihatoramon"
+  },
+  {
+    "from_slug": "saihatoramon",
+    "to_slug": "aruhuosuhuitoramon"
+  },
+  {
+    "from_slug": "teirumon",
+    "to_slug": "ensieumon"
+  },
+  {
+    "from_slug": "yukitarumon",
+    "to_slug": "ensieumon"
+  },
+  {
+    "from_slug": "ensieumon",
+    "to_slug": "yunomon"
+  },
+  {
+    "from_slug": "ensieumon",
+    "to_slug": "ophanimon"
+  },
+  {
+    "from_slug": "ensieumon",
+    "to_slug": "horitoramon"
+  },
+  {
+    "from_slug": "ensieumon",
+    "to_slug": "masterblimpmon_jp"
+  },
+  {
+    "from_slug": "hyokomon",
+    "to_slug": "huarukomon"
+  },
+  {
+    "from_slug": "huarukomon",
+    "to_slug": "hetukumon"
+  },
+  {
+    "from_slug": "huarukomon",
+    "to_slug": "ginryumon_jp"
+  },
+  {
+    "from_slug": "huarukomon",
+    "to_slug": "kiwimon"
+  },
+  {
+    "from_slug": "earohuitoramon",
+    "to_slug": "aruhuosuhuitoramon"
+  },
+  {
+    "from_slug": "yunomon",
+    "to_slug": "junomon-hm"
+  },
+  {
+    "from_slug": "siyautomon",
+    "to_slug": "karukomon"
+  },
+  {
+    "from_slug": "terriermon_jp",
+    "to_slug": "karukomon"
+  },
+  {
+    "from_slug": "toiakumon",
+    "to_slug": "karukomon"
+  },
+  {
+    "from_slug": "karukomon",
+    "to_slug": "kiyatutimamemon"
+  },
+  {
+    "from_slug": "karukomon",
+    "to_slug": "brachiomon_jp"
+  },
+  {
+    "from_slug": "horukemon",
+    "to_slug": "kankuumon"
+  },
+  {
+    "from_slug": "starmon",
+    "to_slug": "takusuhasutamon"
+  },
+  {
+    "from_slug": "gaogamon_jp",
+    "to_slug": "takusuhasutamon"
+  },
+  {
+    "from_slug": "toherumon",
+    "to_slug": "takusuhasutamon"
+  },
+  {
+    "from_slug": "takusuhasutamon",
+    "to_slug": "herusutamon"
+  },
+  {
+    "from_slug": "takusuhasutamon",
+    "to_slug": "tapirmon_jp"
+  },
+  {
+    "from_slug": "siyainkureimon",
+    "to_slug": "siyainkureimonbm"
+  },
+  {
+    "from_slug": "heruhuemonsm",
+    "to_slug": "heruhuemonrm"
+  },
+  {
+    "from_slug": "geremon",
+    "to_slug": "kiyatutimamemon"
+  },
+  {
+    "from_slug": "kiyatutimamemon",
+    "to_slug": "hurinsumamemon"
+  },
+  {
+    "from_slug": "kiyatutimamemon",
+    "to_slug": "metarukarurumon-hei"
+  },
+  {
+    "from_slug": "kirumon",
+    "to_slug": "kuraumon"
+  },
+  {
+    "from_slug": "kirumon",
+    "to_slug": "tyrannomon_jp"
+  },
+  {
+    "from_slug": "gankoomon_jp",
+    "to_slug": "kureniamumon"
+  },
+  {
+    "from_slug": "kutamon",
+    "to_slug": "uoruhumon"
+  },
+  {
+    "from_slug": "uoruhumon",
+    "to_slug": "karumumon"
+  },
+  {
+    "from_slug": "hitukumamemon",
+    "to_slug": "hurinsumamemon"
+  },
+  {
+    "from_slug": "suhasutamon",
+    "to_slug": "hurinsumamemon"
+  },
+  {
+    "from_slug": "keruheromon",
+    "to_slug": "hurutomon"
+  },
+  {
+    "from_slug": "keruheromonjm",
+    "to_slug": "hurutomon"
+  },
+  {
+    "from_slug": "astamon",
+    "to_slug": "hurutomon"
+  },
+  {
+    "from_slug": "hurutomon",
+    "to_slug": "sonhihurutomon"
+  },
+  {
+    "from_slug": "horukemon",
+    "to_slug": "hairuhorukemon"
+  },
+  {
+    "from_slug": "omekasiyautomon",
+    "to_slug": "hairuhorukemon"
+  },
+  {
+    "from_slug": "astamon",
+    "to_slug": "heruhuemonsm"
+  },
+  {
+    "from_slug": "phantomon",
+    "to_slug": "heruhuemonsm"
+  },
+  {
+    "from_slug": "huanhimon",
+    "to_slug": "shurimon"
+  },
+  {
+    "from_slug": "huanhimon",
+    "to_slug": "dokugumon_jp"
+  },
+  {
+    "from_slug": "huanhimon",
+    "to_slug": "suteinkumon"
+  },
+  {
+    "from_slug": "huanhimon",
+    "to_slug": "korutonumemon"
+  },
+  {
+    "from_slug": "huanhimon",
+    "to_slug": "kabuterimon"
+  },
+  {
+    "from_slug": "atorakahuterimon",
+    "to_slug": "herakurukahuterimon"
+  },
+  {
+    "from_slug": "okuwamon",
+    "to_slug": "herakurukahuterimon"
+  },
+  {
+    "from_slug": "siyueruhimon",
+    "to_slug": "herakurukahuterimon"
+  },
+  {
+    "from_slug": "hahumon",
+    "to_slug": "hyokomon"
+  },
+  {
+    "from_slug": "toherumon",
+    "to_slug": "keruheromon"
+  },
+  {
+    "from_slug": "monochromon_jp",
+    "to_slug": "keruheromon"
+  },
+  {
+    "from_slug": "keruheromon",
+    "to_slug": "keruheromonjm"
+  },
+  {
+    "from_slug": "keruheromon",
+    "to_slug": "metarukarurumon-hei"
+  },
+  {
+    "from_slug": "hunimon",
+    "to_slug": "junomon"
+  },
+  {
+    "from_slug": "hunimon",
+    "to_slug": "nyaromon"
+  },
+  {
+    "from_slug": "hunimon",
+    "to_slug": "rosemon"
+  },
+  {
+    "from_slug": "tsunomon",
+    "to_slug": "erekimon"
+  },
+  {
+    "from_slug": "erekimon",
+    "to_slug": "sitoramon"
+  },
+  {
+    "from_slug": "erekimon",
+    "to_slug": "kyubimon_jp"
+  },
+  {
+    "from_slug": "erekimon",
+    "to_slug": "kuwagamon"
+  },
+  {
+    "from_slug": "erekimon",
+    "to_slug": "gekomon"
+  },
+  {
+    "from_slug": "touhutomonlm",
+    "to_slug": "touhutomon"
+  },
+  {
+    "from_slug": "hyokomon",
+    "to_slug": "hetukumon"
+  },
+  {
+    "from_slug": "penmon",
+    "to_slug": "hetukumon"
+  },
+  {
+    "from_slug": "mutiyomon",
+    "to_slug": "hetukumon"
+  },
+  {
+    "from_slug": "hetukumon",
+    "to_slug": "chirinmon_jp"
+  },
+  {
+    "from_slug": "hetukumon",
+    "to_slug": "angemon_jp"
+  },
+  {
+    "from_slug": "hetukumon",
+    "to_slug": "yatakaramon"
+  },
+  {
+    "from_slug": "crowmon_jp",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "yukitarumon",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "hyogamon",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "aisutehimon",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "callismon_jp",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "hansiyamon",
+    "to_slug": "saberleomon_jp"
+  },
+  {
+    "from_slug": "tsunomon",
+    "to_slug": "kahumon"
+  },
+  {
+    "from_slug": "kahumon",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "kahumon",
+    "to_slug": "ikkakumon"
+  },
+  {
+    "from_slug": "kahumon",
+    "to_slug": "drimogemon_jp"
+  },
+  {
+    "from_slug": "kahumon",
+    "to_slug": "kiyuuhimon"
+  },
+  {
+    "from_slug": "kahumon",
+    "to_slug": "geremon"
+  },
+  {
+    "from_slug": "kahumon",
+    "to_slug": "kahumon-you-qing-noban"
+  },
+  {
+    "from_slug": "terriermon_jp",
+    "to_slug": "rahitutomon-amati"
+  },
+  {
+    "from_slug": "siyautomon",
+    "to_slug": "omekasiyautomon"
+  },
+  {
+    "from_slug": "omekasiyautomon",
+    "to_slug": "hihokurihuomon"
+  },
+  {
+    "from_slug": "strikedramon",
+    "to_slug": "aruteimetutohurakimon"
+  },
+  {
+    "from_slug": "metaltyrannomon_jp",
+    "to_slug": "aruteimetutohurakimon"
+  },
+  {
+    "from_slug": "teyuramon",
+    "to_slug": "teyukumon"
+  },
+  {
+    "from_slug": "teyukumon",
+    "to_slug": "teyukumoncm"
+  },
+  {
+    "from_slug": "coronamon",
+    "to_slug": "kuraumon"
+  },
+  {
+    "from_slug": "kuraumon",
+    "to_slug": "torukuremon"
+  },
+  {
+    "from_slug": "betamon",
+    "to_slug": "sitoramon"
+  },
+  {
+    "from_slug": "sitoramon",
+    "to_slug": "phoenixmon_jp"
+  },
+  {
+    "from_slug": "sitoramon",
+    "to_slug": "mekasitoramon"
+  },
+  {
+    "from_slug": "sitoramon",
+    "to_slug": "waruseadramon_jp"
+  },
+  {
+    "from_slug": "sitoramon",
+    "to_slug": "hisyaryumon"
+  },
+  {
+    "from_slug": "sitoramon",
+    "to_slug": "siyakumon"
+  },
+  {
+    "from_slug": "sitoramon",
+    "to_slug": "sukarusitoramon"
+  },
+  {
+    "from_slug": "aquilamon_jp",
+    "to_slug": "siruhuimon"
+  },
+  {
+    "from_slug": "teirumon",
+    "to_slug": "siruhuimon"
+  },
+  {
+    "from_slug": "siruhuimon",
+    "to_slug": "herusutamon"
+  },
+  {
+    "from_slug": "siruhuimon",
+    "to_slug": "minervamon"
+  },
+  {
+    "from_slug": "siruhuimon",
+    "to_slug": "uarukirimon"
+  },
+  {
+    "from_slug": "goldramon_jp",
+    "to_slug": "korutonumemon"
+  },
+  {
+    "from_slug": "korutonumemon",
+    "to_slug": "waruseadramon_jp"
+  },
+  {
+    "from_slug": "korutonumemon",
+    "to_slug": "deltamon_jp"
+  },
+  {
+    "from_slug": "ogremon",
+    "to_slug": "horukemon"
+  },
+  {
+    "from_slug": "starmon",
+    "to_slug": "horukemon"
+  },
+  {
+    "from_slug": "bukamon",
+    "to_slug": "horukemon"
+  },
+  {
+    "from_slug": "horukemon",
+    "to_slug": "gargomon_jp"
+  },
+  {
+    "from_slug": "katoromon-jin",
+    "to_slug": "masutahurinhumon"
+  },
+  {
+    "from_slug": "masutahurinhumon",
+    "to_slug": "kurantorokomon"
+  },
+  {
+    "from_slug": "plutomon_jp",
+    "to_slug": "uaikumon"
+  },
+  {
+    "from_slug": "magnamon",
+    "to_slug": "uaikumon"
+  },
+  {
+    "from_slug": "hitukumamemon",
+    "to_slug": "kurantorokomon"
+  },
+  {
+    "from_slug": "suteinkumon",
+    "to_slug": "siyueruhimon"
+  },
+  {
+    "from_slug": "shurimon",
+    "to_slug": "siyueruhimon"
+  },
+  {
+    "from_slug": "snimon",
+    "to_slug": "siyueruhimon"
+  },
+  {
+    "from_slug": "dorimon",
+    "to_slug": "sunokohurimon"
+  },
+  {
+    "from_slug": "sunokohurimon",
+    "to_slug": "teirumon"
+  },
+  {
+    "from_slug": "sunokohurimon",
+    "to_slug": "monochromon_jp"
+  },
+  {
+    "from_slug": "sunokohurimon",
+    "to_slug": "yukitarumon"
+  },
+  {
+    "from_slug": "sunokohurimon",
+    "to_slug": "hyogamon"
+  },
+  {
+    "from_slug": "sunokohurimon",
+    "to_slug": "aisutehimon"
+  },
+  {
+    "from_slug": "sunokohurimon",
+    "to_slug": "callismon_jp"
+  },
+  {
+    "from_slug": "hyokomon",
+    "to_slug": "hokumon"
+  },
+  {
+    "from_slug": "hokumon",
+    "to_slug": "horusumon"
+  },
+  {
+    "from_slug": "hokumon",
+    "to_slug": "aquilamon_jp"
+  },
+  {
+    "from_slug": "koatoramon-qing",
+    "to_slug": "earohuitoramon"
+  },
+  {
+    "from_slug": "rotareomon",
+    "to_slug": "kaosutoramon"
+  },
+  {
+    "from_slug": "siyakumon",
+    "to_slug": "neptunemon_jp"
+  },
+  {
+    "from_slug": "suteinkumon",
+    "to_slug": "teinohimon"
+  },
+  {
+    "from_slug": "teinohimon",
+    "to_slug": "grankuwagamon_jp"
+  },
+  {
+    "from_slug": "crowmon_jp",
+    "to_slug": "rotareomon"
+  },
+  {
+    "from_slug": "drimogemon_jp",
+    "to_slug": "rotareomon"
+  },
+  {
+    "from_slug": "rotareomon",
+    "to_slug": "metalgarurumon"
+  },
+  {
+    "from_slug": "matadormon_jp",
+    "to_slug": "suratusiyuensiemon"
+  },
+  {
+    "from_slug": "horiensiemon",
+    "to_slug": "suratusiyuensiemon"
+  },
+  {
+    "from_slug": "gaiomon_jp",
+    "to_slug": "suratusiyuensiemon"
+  },
+  {
+    "from_slug": "matadormon_jp",
+    "to_slug": "kurantorakumon"
+  },
+  {
+    "from_slug": "tsunomon",
+    "to_slug": "suhamon"
+  },
+  {
+    "from_slug": "suhamon",
+    "to_slug": "musyamon"
+  },
+  {
+    "from_slug": "suhamon",
+    "to_slug": "buraimon"
+  },
+  {
+    "from_slug": "suhamon",
+    "to_slug": "tankmon"
+  },
+  {
+    "from_slug": "suhamon",
+    "to_slug": "katoromon-jin"
+  },
+  {
+    "from_slug": "dinohyumon",
+    "to_slug": "tehimon"
+  },
+  {
+    "from_slug": "hikotehimon",
+    "to_slug": "tehimon"
+  },
+  {
+    "from_slug": "betamon",
+    "to_slug": "tehimon"
+  },
+  {
+    "from_slug": "tehimon",
+    "to_slug": "angemon_jp"
+  },
+  {
+    "from_slug": "tehimon",
+    "to_slug": "reteitehimon"
+  },
+  {
+    "from_slug": "tehimon",
+    "to_slug": "infermon_jp"
+  },
+  {
+    "from_slug": "tehimon",
+    "to_slug": "skullsatamon_jp"
+  },
+  {
+    "from_slug": "tehimon",
+    "to_slug": "astamon"
+  },
+  {
+    "from_slug": "inheriarutoramondm",
+    "to_slug": "inheriarutoramonpm"
+  },
+  {
+    "from_slug": "inheriarutoramonfm",
+    "to_slug": "inheriarutoramonpm"
+  },
+  {
+    "from_slug": "hyokomon",
+    "to_slug": "teinohiyumon"
+  },
+  {
+    "from_slug": "teinohiyumon",
+    "to_slug": "shaujinmon_jp"
+  },
+  {
+    "from_slug": "teinohiyumon",
+    "to_slug": "gaiomon_jp"
+  },
+  {
+    "from_slug": "aikioteyusumon",
+    "to_slug": "jupitermon_jp"
+  },
+  {
+    "from_slug": "buraimon",
+    "to_slug": "teyuramon"
+  },
+  {
+    "from_slug": "katoromon-jin",
+    "to_slug": "teyuramon"
+  },
+  {
+    "from_slug": "teyuramon",
+    "to_slug": "teyurantamon"
+  },
+  {
+    "from_slug": "kabuterimon",
+    "to_slug": "kiyanonhimon"
+  },
+  {
+    "from_slug": "katoromon-jin",
+    "to_slug": "kiyanonhimon"
+  },
+  {
+    "from_slug": "ogremon",
+    "to_slug": "insekimon"
+  },
+  {
+    "from_slug": "yukitarumon",
+    "to_slug": "insekimon"
+  },
+  {
+    "from_slug": "callismon_jp",
+    "to_slug": "insekimon"
+  },
+  {
+    "from_slug": "insekimon",
+    "to_slug": "metalgreymon_jp"
+  },
+  {
+    "from_slug": "insekimon",
+    "to_slug": "shoutmon"
+  },
+  {
+    "from_slug": "kapurimon",
+    "to_slug": "toiakumon"
+  },
+  {
+    "from_slug": "toiakumon",
+    "to_slug": "crabmon_jp"
+  },
+  {
+    "from_slug": "toiakumon",
+    "to_slug": "tankmon"
+  },
+  {
+    "from_slug": "tutitarumon",
+    "to_slug": "anteiramon"
+  },
+  {
+    "from_slug": "anteiramon",
+    "to_slug": "dianamon"
+  },
+  {
+    "from_slug": "suteinkumon",
+    "to_slug": "okuwamon"
+  },
+  {
+    "from_slug": "aquilamon_jp",
+    "to_slug": "yatakaramon"
+  },
+  {
+    "from_slug": "yatakaramon",
+    "to_slug": "kuzuhamon"
+  },
+  {
+    "from_slug": "halsemon_jp",
+    "to_slug": "anuarumon"
+  },
+  {
+    "from_slug": "aisutehimon",
+    "to_slug": "anuarumon"
+  },
+  {
+    "from_slug": "anuarumon",
+    "to_slug": "sukarumanmon"
+  },
+  {
+    "from_slug": "vegiemon_jp",
+    "to_slug": "horiensiemon"
+  },
+  {
+    "from_slug": "kyubimon_jp",
+    "to_slug": "horiensiemon"
+  },
+  {
+    "from_slug": "solarmon",
+    "to_slug": "horiensiemon"
+  },
+  {
+    "from_slug": "horiensiemon",
+    "to_slug": "kotutotoramon"
+  },
+  {
+    "from_slug": "horiensiemon",
+    "to_slug": "seraphimon"
+  },
+  {
+    "from_slug": "horiensiemon",
+    "to_slug": "kurauisuensiemon"
+  },
+  {
+    "from_slug": "lunamon",
+    "to_slug": "yukitarumon"
+  },
+  {
+    "from_slug": "gomamon",
+    "to_slug": "yukitarumon"
+  },
+  {
+    "from_slug": "yukitarumon",
+    "to_slug": "magnamon"
+  },
+  {
+    "from_slug": "aikioteyusumon-huru",
+    "to_slug": "jupitermon_jp"
+  },
+  {
+    "from_slug": "hikotehimon",
+    "to_slug": "aisutehimon"
+  },
+  {
+    "from_slug": "gomamon",
+    "to_slug": "aisutehimon"
+  },
+  {
+    "from_slug": "aisutehimon",
+    "to_slug": "reteitehimon"
+  },
+  {
+    "from_slug": "knightmon_jp",
+    "to_slug": "okutamon"
+  },
+  {
+    "from_slug": "syakomon",
+    "to_slug": "okutamon"
+  },
+  {
+    "from_slug": "okutamon",
+    "to_slug": "tesitamamon"
+  },
+  {
+    "from_slug": "okutamon",
+    "to_slug": "ankylomon"
+  },
+  {
+    "from_slug": "firamon",
+    "to_slug": "anomarokarimon"
+  },
+  {
+    "from_slug": "kuwagamon",
+    "to_slug": "anomarokarimon"
+  },
+  {
+    "from_slug": "divermon_jp",
+    "to_slug": "anomarokarimon"
+  },
+  {
+    "from_slug": "anomarokarimon",
+    "to_slug": "urukanusumon"
+  },
+  {
+    "from_slug": "anomarokarimon",
+    "to_slug": "pukumon"
+  },
+  {
+    "from_slug": "huroramon",
+    "to_slug": "ututomon"
+  },
+  {
+    "from_slug": "ututomon",
+    "to_slug": "siyureimon"
+  },
+  {
+    "from_slug": "mistymon_jp",
+    "to_slug": "meteiharuteyukumon"
+  },
+  {
+    "from_slug": "garudamon",
+    "to_slug": "kaiserukureimon"
+  },
+  {
+    "from_slug": "kaiserukureimon",
+    "to_slug": "susanomon"
+  },
+  {
+    "from_slug": "seadramon_jp",
+    "to_slug": "earohuitoramon"
+  },
+  {
+    "from_slug": "earohuitoramon",
+    "to_slug": "kotutotoramon"
+  },
+  {
+    "from_slug": "airdramon",
+    "to_slug": "ririsumon"
+  },
+  {
+    "from_slug": "reteitehimon",
+    "to_slug": "ririsumon"
+  },
+  {
+    "from_slug": "arukenimon",
+    "to_slug": "ririsumon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "kahumon-you-qing-noban"
+  },
+  {
+    "from_slug": "pagumon",
+    "to_slug": "kasimon"
+  },
+  {
+    "from_slug": "kasimon",
+    "to_slug": "sankuruumon"
+  },
+  {
+    "from_slug": "kasimon",
+    "to_slug": "gaogamon_jp"
+  },
+  {
+    "from_slug": "kasimon",
+    "to_slug": "toherumon"
+  },
+  {
+    "from_slug": "kasimon",
+    "to_slug": "dorugamon_jp"
+  },
+  {
+    "from_slug": "gaiomon_jp",
+    "to_slug": "touhutomon"
+  },
+  {
+    "from_slug": "touhutomon",
+    "to_slug": "touhutomonlm"
+  },
+  {
+    "from_slug": "omekasiyautomon",
+    "to_slug": "teyurantamon"
+  },
+  {
+    "from_slug": "siyautomon",
+    "to_slug": "katoromon-jin"
+  },
+  {
+    "from_slug": "goldramon_jp",
+    "to_slug": "katoromon-jin"
+  },
+  {
+    "from_slug": "phoenixmon_jp",
+    "to_slug": "huresiomon"
+  },
+  {
+    "from_slug": "plutomon_jp",
+    "to_slug": "huresiomon"
+  },
+  {
+    "from_slug": "ankylomon",
+    "to_slug": "huresiomon"
+  },
+  {
+    "from_slug": "shaujinmon_jp",
+    "to_slug": "siyanhokamemon"
+  },
+  {
+    "from_slug": "mekasitoramon",
+    "to_slug": "siyanhokamemon"
+  },
+  {
+    "from_slug": "patamon",
+    "to_slug": "hekasumon"
+  },
+  {
+    "from_slug": "agumon",
+    "to_slug": "rahutatoramon"
+  },
+  {
+    "from_slug": "dorumon",
+    "to_slug": "rahutatoramon"
+  },
+  {
+    "from_slug": "monodramon",
+    "to_slug": "rahutatoramon"
+  },
+  {
+    "from_slug": "rahutatoramon",
+    "to_slug": "tankdramon_jp"
+  },
+  {
+    "from_slug": "keruheromonjm",
+    "to_slug": "metarukarurumon-hei"
+  },
+  {
+    "from_slug": "gabumon_jp",
+    "to_slug": "koatoramon-lu"
+  },
+  {
+    "from_slug": "rokomon",
+    "to_slug": "koatoramon-lu"
+  },
+  {
+    "from_slug": "hyokomon",
+    "to_slug": "mutiyomon"
+  },
+  {
+    "from_slug": "mutiyomon",
+    "to_slug": "seadramon_jp"
+  },
+  {
+    "from_slug": "mutiyomon",
+    "to_slug": "chaosdramon_jp"
+  },
+  {
+    "from_slug": "mutiyomon",
+    "to_slug": "bukamon"
+  },
+  {
+    "from_slug": "dorugamon_jp",
+    "to_slug": "raisukureimon"
+  },
+  {
+    "from_slug": "raisukureimon",
+    "to_slug": "siyainkureimon"
+  },
+  {
+    "from_slug": "inheriarutoramondm",
+    "to_slug": "inheriarutoramonfm"
+  },
+  {
+    "from_slug": "tsumemon",
+    "to_slug": "kahumon-hei"
+  },
+  {
+    "from_slug": "kahumon-hei",
+    "to_slug": "toherumon"
+  },
+  {
+    "from_slug": "kahumon-hei",
+    "to_slug": "dorugamon_jp"
+  },
+  {
+    "from_slug": "kahumon-hei",
+    "to_slug": "bukamon"
+  },
+  {
+    "from_slug": "kahumon-hei",
+    "to_slug": "karurumon-hei"
+  },
+  {
+    "from_slug": "agumon",
+    "to_slug": "kureimon"
+  },
+  {
+    "from_slug": "riyuutamon",
+    "to_slug": "kureimon"
+  },
+  {
+    "from_slug": "kureimon",
+    "to_slug": "megadramon_jp"
+  },
+  {
+    "from_slug": "tsunomon",
+    "to_slug": "riyuutamon"
+  },
+  {
+    "from_slug": "riyuutamon",
+    "to_slug": "firamon"
+  },
+  {
+    "from_slug": "riyuutamon",
+    "to_slug": "ginryumon_jp"
+  },
+  {
+    "from_slug": "riyuutamon",
+    "to_slug": "monochromon_jp"
+  },
+  {
+    "from_slug": "inheriarutoramonfm",
+    "to_slug": "inheriarutoramondm"
+  },
+  {
+    "from_slug": "angemon_jp",
+    "to_slug": "heriaruuantemon"
+  },
+  {
+    "from_slug": "infermon_jp",
+    "to_slug": "heriaruuantemon"
+  },
+  {
+    "from_slug": "hisyaryumon",
+    "to_slug": "kaioumon"
+  },
+  {
+    "from_slug": "butenmon",
+    "to_slug": "kaioumon"
+  },
+  {
+    "from_slug": "togemon",
+    "to_slug": "siyureimon"
+  },
+  {
+    "from_slug": "kuwagamon",
+    "to_slug": "siyureimon"
+  },
+  {
+    "from_slug": "kiwimon",
+    "to_slug": "siyureimon"
+  },
+  {
+    "from_slug": "siyureimon",
+    "to_slug": "hinotukimon"
+  },
+  {
+    "from_slug": "siyureimon",
+    "to_slug": "grankuwagamon_jp"
+  },
+  {
+    "from_slug": "huroramon",
+    "to_slug": "vegiemon"
+  },
+  {
+    "from_slug": "huroramon",
+    "to_slug": "togemon"
+  },
+  {
+    "from_slug": "huroramon",
+    "to_slug": "sanhuraumon"
+  },
+  {
+    "from_slug": "huroramon",
+    "to_slug": "kiwimon"
+  },
+  {
+    "from_slug": "firamon",
+    "to_slug": "sukarusitoramon"
+  },
+  {
+    "from_slug": "ikkakumon",
+    "to_slug": "sukarusitoramon"
+  },
+  {
+    "from_slug": "crowmon_jp",
+    "to_slug": "hureamon"
+  },
+  {
+    "from_slug": "chaosdramon_jp",
+    "to_slug": "hureamon"
+  },
+  {
+    "from_slug": "hureamon",
+    "to_slug": "gargomon_jp"
+  },
+  {
+    "from_slug": "hureamon",
+    "to_slug": "seraphimon"
+  },
+  {
+    "from_slug": "starmon",
+    "to_slug": "suhasutamon"
+  },
+  {
+    "from_slug": "geremon",
+    "to_slug": "suhasutamon"
+  },
+  {
+    "from_slug": "suhasutamon",
+    "to_slug": "kotutotoramon"
+  },
+  {
+    "from_slug": "airdramon",
+    "to_slug": "hinotukimon"
+  },
+  {
+    "from_slug": "shaujinmon_jp",
+    "to_slug": "hinotukimon"
+  },
+  {
+    "from_slug": "keruheromonjm",
+    "to_slug": "keruheromon"
+  },
+  {
+    "from_slug": "monodramon",
+    "to_slug": "saikuromon"
+  },
+  {
+    "from_slug": "reteitehimon",
+    "to_slug": "herusutamon"
+  },
+  {
+    "from_slug": "hagurumon",
+    "to_slug": "kurotukumon"
+  },
+  {
+    "from_slug": "dinohyumon",
+    "to_slug": "kurotukumon"
+  },
+  {
+    "from_slug": "kurotukumon",
+    "to_slug": "gankoomon_jp"
+  },
+  {
+    "from_slug": "kurotukumon",
+    "to_slug": "plutomon_jp"
+  },
+  {
+    "from_slug": "kurotukumon",
+    "to_slug": "gaiomon_jp"
+  },
+  {
+    "from_slug": "birdramon_jp",
+    "to_slug": "tutitarumon"
+  },
+  {
+    "from_slug": "tutitarumon",
+    "to_slug": "veedramon_jp"
+  },
+  {
+    "from_slug": "tuskmon_jp",
+    "to_slug": "tesitamamon"
+  },
+  {
+    "from_slug": "tesitamamon",
+    "to_slug": "tapirmon_jp"
+  },
+  {
+    "from_slug": "tapirmon_jp",
+    "to_slug": "taitamon-sukaruharukimon"
+  },
+  {
+    "from_slug": "tiyoromon",
+    "to_slug": "kapurimon"
+  },
+  {
+    "from_slug": "kabuterimon",
+    "to_slug": "atorakahuterimon"
+  },
+  {
+    "from_slug": "shurimon",
+    "to_slug": "atorakahuterimon"
+  },
+  {
+    "from_slug": "dokugumon_jp",
+    "to_slug": "atorakahuterimon"
+  },
+  {
+    "from_slug": "atorakahuterimon",
+    "to_slug": "tyrantkabuterimon"
+  },
+  {
+    "from_slug": "dinohyumon",
+    "to_slug": "sankuruumon"
+  },
+  {
+    "from_slug": "dorumon",
+    "to_slug": "sankuruumon"
+  },
+  {
+    "from_slug": "toyagumon_jp",
+    "to_slug": "sankuruumon"
+  },
+  {
+    "from_slug": "sankuruumon",
+    "to_slug": "matadormon_jp"
+  },
+  {
+    "from_slug": "sankuruumon",
+    "to_slug": "angemon_jp"
+  },
+  {
+    "from_slug": "sankuruumon",
+    "to_slug": "astamon"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "karurumon-hei"
+  },
+  {
+    "from_slug": "karurumon-hei",
+    "to_slug": "skullsatamon_jp"
+  },
+  {
+    "from_slug": "karurumon-hei",
+    "to_slug": "antylamon"
+  },
+  {
+    "from_slug": "tiyumon",
+    "to_slug": "teirumon"
+  },
+  {
+    "from_slug": "teirumon",
+    "to_slug": "nefertimon_jp"
+  },
+  {
+    "from_slug": "birdramon_jp",
+    "to_slug": "sanhuraumon"
+  },
+  {
+    "from_slug": "sanhuraumon",
+    "to_slug": "airdramon"
+  },
+  {
+    "from_slug": "sanhuraumon",
+    "to_slug": "frigimon_jp"
+  },
+  {
+    "from_slug": "sanhuraumon",
+    "to_slug": "veedramon_jp"
+  },
+  {
+    "from_slug": "gargomon_jp",
+    "to_slug": "kureisunouamon"
+  },
+  {
+    "from_slug": "dianamon",
+    "to_slug": "kureisunouamon"
+  },
+  {
+    "from_slug": "toherumon",
+    "to_slug": "matadormon_jp"
+  },
+  {
+    "from_slug": "tankmon",
+    "to_slug": "hitukumamemon"
+  },
+  {
+    "from_slug": "torukuremon",
+    "to_slug": "aruhuamon"
+  },
+  {
+    "from_slug": "ikkakumon",
+    "to_slug": "mekasitoramon"
+  },
+  {
+    "from_slug": "mekasitoramon",
+    "to_slug": "ouryumon"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "haruhamon"
+  },
+  {
+    "from_slug": "shaujinmon_jp",
+    "to_slug": "haruhamon"
+  },
+  {
+    "from_slug": "guilmon_jp",
+    "to_slug": "makunamon"
+  },
+  {
+    "from_slug": "magnamon",
+    "to_slug": "sukarumanmon"
+  },
+  {
+    "from_slug": "tiyumon",
+    "to_slug": "gekomon"
+  },
+  {
+    "from_slug": "tiyumon",
+    "to_slug": "geremon"
+  },
+  {
+    "from_slug": "tsunomon",
+    "to_slug": "kohurimon"
+  },
+  {
+    "from_slug": "kohurimon",
+    "to_slug": "ogremon"
+  },
+  {
+    "from_slug": "kohurimon",
+    "to_slug": "tuskmon_jp"
+  },
+  {
+    "from_slug": "pagumon",
+    "to_slug": "hikotehimon"
+  },
+  {
+    "from_slug": "hikotehimon",
+    "to_slug": "halsemon_jp"
+  },
+  {
+    "from_slug": "butenmon",
+    "to_slug": "kurihuomon"
+  },
+  {
+    "from_slug": "dorugamon_jp",
+    "to_slug": "torukuremon"
+  },
+  {
+    "from_slug": "torukuremon",
+    "to_slug": "dorugoramon_jp"
+  },
+  {
+    "from_slug": "nyaromon",
+    "to_slug": "kutamon"
+  },
+  {
+    "from_slug": "kutamon",
+    "to_slug": "seadramon_jp"
+  },
+  {
+    "from_slug": "kutamon",
+    "to_slug": "vegiemon_jp"
+  },
+  {
+    "from_slug": "kutamon",
+    "to_slug": "ginryumon_jp"
+  },
+  {
+    "from_slug": "kutamon",
+    "to_slug": "solarmon"
+  },
+  {
+    "from_slug": "wisemon_jp",
+    "to_slug": "ensientowaisumon"
+  },
+  {
+    "from_slug": "chirinmon_jp",
+    "to_slug": "uarukirimon"
+  },
+  {
+    "from_slug": "aikioteyusumon-taku",
+    "to_slug": "chronomon-dm_jp"
+  },
+  {
+    "from_slug": "reteitehimon",
+    "to_slug": "masterblimpmon_jp"
+  },
+  {
+    "from_slug": "skullmeramon_jp",
+    "to_slug": "auensikitutomon"
+  },
+  {
+    "from_slug": "deltamon_jp",
+    "to_slug": "auensikitutomon"
+  },
+  {
+    "from_slug": "tankdramon_jp",
+    "to_slug": "takutoramon"
+  },
+  {
+    "from_slug": "takutoramon",
+    "to_slug": "chaosmon_jp"
+  },
+  {
+    "from_slug": "horukemon",
+    "to_slug": "diaboromon"
+  },
+  {
+    "from_slug": "hureamon",
+    "to_slug": "diaboromon"
+  },
+  {
+    "from_slug": "diaboromon",
+    "to_slug": "kureisunouamon"
+  },
+  {
+    "from_slug": "horukemon",
+    "to_slug": "diaboromon_jp"
+  },
+  {
+    "from_slug": "hureamon",
+    "to_slug": "diaboromon_jp"
+  },
+  {
+    "from_slug": "diaboromon_jp",
+    "to_slug": "kureisunouamon"
+  },
+  {
+    "from_slug": "lunamon",
+    "to_slug": "callismon"
+  },
+  {
+    "from_slug": "sunokohurimon",
+    "to_slug": "callismon"
+  },
+  {
+    "from_slug": "kotumon",
+    "to_slug": "callismon"
+  },
+  {
+    "from_slug": "callismon",
+    "to_slug": "kuresiemon"
+  },
+  {
+    "from_slug": "callismon",
+    "to_slug": "insekimon"
+  },
+  {
+    "from_slug": "callismon",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "lunamon",
+    "to_slug": "callismon_jp"
+  },
+  {
+    "from_slug": "minervamon",
+    "to_slug": "mervamon"
+  },
+  {
+    "from_slug": "hyokomon",
+    "to_slug": "penmon"
+  },
+  {
+    "from_slug": "penmon",
+    "to_slug": "buraimon"
+  },
+  {
+    "from_slug": "penmon",
+    "to_slug": "kiwimon"
+  },
+  {
+    "from_slug": "penmon",
+    "to_slug": "aquilamon_jp"
+  },
+  {
+    "from_slug": "seadramon_jp",
+    "to_slug": "megadramon"
+  },
+  {
+    "from_slug": "kureimon",
+    "to_slug": "megadramon"
+  },
+  {
+    "from_slug": "shurimon",
+    "to_slug": "megadramon"
+  },
+  {
+    "from_slug": "mekanorimon",
+    "to_slug": "megadramon"
+  },
+  {
+    "from_slug": "megadramon",
+    "to_slug": "meteormon_jp"
+  },
+  {
+    "from_slug": "megadramon",
+    "to_slug": "mukentoramon"
+  },
+  {
+    "from_slug": "seadramon_jp",
+    "to_slug": "megadramon_jp"
+  },
+  {
+    "from_slug": "shurimon",
+    "to_slug": "megadramon_jp"
+  },
+  {
+    "from_slug": "megadramon_jp",
+    "to_slug": "meteormon_jp"
+  },
+  {
+    "from_slug": "tonosamakekomon",
+    "to_slug": "chuumon"
+  },
+  {
+    "from_slug": "mamemon",
+    "to_slug": "chuumon"
+  },
+  {
+    "from_slug": "anomarokarimon",
+    "to_slug": "chuumon"
+  },
+  {
+    "from_slug": "gekomon",
+    "to_slug": "sirenmon"
+  },
+  {
+    "from_slug": "gekomon",
+    "to_slug": "ankylomon"
+  },
+  {
+    "from_slug": "butenmon",
+    "to_slug": "chronomon-hm"
+  },
+  {
+    "from_slug": "butenmon",
+    "to_slug": "chronomon-hm_jp"
+  },
+  {
+    "from_slug": "lunamon",
+    "to_slug": "varodurumon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "varodurumon"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "varodurumon"
+  },
+  {
+    "from_slug": "varodurumon",
+    "to_slug": "weregarurumon_jp"
+  },
+  {
+    "from_slug": "varodurumon",
+    "to_slug": "hurumeramon"
+  },
+  {
+    "from_slug": "varodurumon",
+    "to_slug": "taomon"
+  },
+  {
+    "from_slug": "varodurumon",
+    "to_slug": "kimeramon"
+  },
+  {
+    "from_slug": "lunamon",
+    "to_slug": "varodurumon_jp"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "varodurumon_jp"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "varodurumon_jp"
+  },
+  {
+    "from_slug": "varodurumon_jp",
+    "to_slug": "weregarurumon_jp"
+  },
+  {
+    "from_slug": "varodurumon_jp",
+    "to_slug": "hurumeramon"
+  },
+  {
+    "from_slug": "varodurumon_jp",
+    "to_slug": "taomon"
+  },
+  {
+    "from_slug": "varodurumon_jp",
+    "to_slug": "kimeramon"
+  },
+  {
+    "from_slug": "huairamon",
+    "to_slug": "mistymon"
+  },
+  {
+    "from_slug": "mojyamon",
+    "to_slug": "mistymon"
+  },
+  {
+    "from_slug": "uisamon",
+    "to_slug": "mistymon"
+  },
+  {
+    "from_slug": "mistymon",
+    "to_slug": "kaosuteyukumon"
+  },
+  {
+    "from_slug": "mistymon",
+    "to_slug": "alphamon_jp"
+  },
+  {
+    "from_slug": "mistymon",
+    "to_slug": "meteiharuteyukumon"
+  },
+  {
+    "from_slug": "mistymon",
+    "to_slug": "teyunasumon"
+  },
+  {
+    "from_slug": "mojyamon",
+    "to_slug": "mistymon_jp"
+  },
+  {
+    "from_slug": "mistymon_jp",
+    "to_slug": "alphamon_jp"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "pagumon"
+  },
+  {
+    "from_slug": "pagumon",
+    "to_slug": "rahutatoramon"
+  },
+  {
+    "from_slug": "pagumon",
+    "to_slug": "siokureimon"
+  },
+  {
+    "from_slug": "pagumon",
+    "to_slug": "numemon"
+  },
+  {
+    "from_slug": "pagumon",
+    "to_slug": "kureimon"
+  },
+  {
+    "from_slug": "pagumon",
+    "to_slug": "koatoramon-lu"
+  },
+  {
+    "from_slug": "pagumon",
+    "to_slug": "akumon-yong-qi-noban"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "pagumon_jp"
+  },
+  {
+    "from_slug": "pagumon_jp",
+    "to_slug": "rahutatoramon"
+  },
+  {
+    "from_slug": "pagumon_jp",
+    "to_slug": "siokureimon"
+  },
+  {
+    "from_slug": "pagumon_jp",
+    "to_slug": "numemon"
+  },
+  {
+    "from_slug": "pagumon_jp",
+    "to_slug": "kureimon"
+  },
+  {
+    "from_slug": "pagumon_jp",
+    "to_slug": "koatoramon-lu"
+  },
+  {
+    "from_slug": "pagumon_jp",
+    "to_slug": "akumon-yong-qi-noban"
+  },
+  {
+    "from_slug": "kentaurosmon_jp",
+    "to_slug": "angewomon"
+  },
+  {
+    "from_slug": "uisamon",
+    "to_slug": "angewomon"
+  },
+  {
+    "from_slug": "mekanorimon",
+    "to_slug": "angewomon"
+  },
+  {
+    "from_slug": "angewomon",
+    "to_slug": "pharaohmon"
+  },
+  {
+    "from_slug": "angewomon",
+    "to_slug": "teiahoromon"
+  },
+  {
+    "from_slug": "kentaurosmon_jp",
+    "to_slug": "angewomon_jp"
+  },
+  {
+    "from_slug": "angewomon_jp",
+    "to_slug": "pharaohmon"
+  },
+  {
+    "from_slug": "takusuhasutamon",
+    "to_slug": "titamon"
+  },
+  {
+    "from_slug": "tesitamamon",
+    "to_slug": "titamon"
+  },
+  {
+    "from_slug": "sukarukureimon",
+    "to_slug": "titamon"
+  },
+  {
+    "from_slug": "titamon",
+    "to_slug": "taitamon-sukaruharukimon"
+  },
+  {
+    "from_slug": "halsemon_jp",
+    "to_slug": "angemon"
+  },
+  {
+    "from_slug": "sankuruumon",
+    "to_slug": "angemon"
+  },
+  {
+    "from_slug": "tehimon",
+    "to_slug": "angemon"
+  },
+  {
+    "from_slug": "hetukumon",
+    "to_slug": "angemon"
+  },
+  {
+    "from_slug": "angemon",
+    "to_slug": "temon"
+  },
+  {
+    "from_slug": "angemon",
+    "to_slug": "heriaruuantemon"
+  },
+  {
+    "from_slug": "angemon",
+    "to_slug": "uenomuuantemon"
+  },
+  {
+    "from_slug": "halsemon_jp",
+    "to_slug": "angemon_jp"
+  },
+  {
+    "from_slug": "keruheromon",
+    "to_slug": "saberleomon"
+  },
+  {
+    "from_slug": "keruheromonjm",
+    "to_slug": "saberleomon"
+  },
+  {
+    "from_slug": "kuratuhureomon",
+    "to_slug": "saberleomon"
+  },
+  {
+    "from_slug": "hansiyamon",
+    "to_slug": "saberleomon"
+  },
+  {
+    "from_slug": "keruheromon",
+    "to_slug": "saberleomon_jp"
+  },
+  {
+    "from_slug": "keruheromonjm",
+    "to_slug": "saberleomon_jp"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "pabumon"
+  },
+  {
+    "from_slug": "pabumon",
+    "to_slug": "rahutatoramon"
+  },
+  {
+    "from_slug": "pabumon",
+    "to_slug": "siokureimon"
+  },
+  {
+    "from_slug": "pabumon",
+    "to_slug": "numemon"
+  },
+  {
+    "from_slug": "pabumon",
+    "to_slug": "kureimon"
+  },
+  {
+    "from_slug": "pabumon",
+    "to_slug": "koatoramon-lu"
+  },
+  {
+    "from_slug": "pabumon",
+    "to_slug": "akumon-yong-qi-noban"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "pabumon_jp"
+  },
+  {
+    "from_slug": "pabumon_jp",
+    "to_slug": "rahutatoramon"
+  },
+  {
+    "from_slug": "pabumon_jp",
+    "to_slug": "siokureimon"
+  },
+  {
+    "from_slug": "pabumon_jp",
+    "to_slug": "numemon"
+  },
+  {
+    "from_slug": "pabumon_jp",
+    "to_slug": "kureimon"
+  },
+  {
+    "from_slug": "pabumon_jp",
+    "to_slug": "koatoramon-lu"
+  },
+  {
+    "from_slug": "pabumon_jp",
+    "to_slug": "akumon-yong-qi-noban"
+  },
+  {
+    "from_slug": "huanhimon",
+    "to_slug": "buraimon"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "buraimon"
+  },
+  {
+    "from_slug": "matusiyumon",
+    "to_slug": "buraimon"
+  },
+  {
+    "from_slug": "buraimon",
+    "to_slug": "megadramon_jp"
+  },
+  {
+    "from_slug": "buraimon",
+    "to_slug": "atorakahuterimon"
+  },
+  {
+    "from_slug": "buraimon",
+    "to_slug": "okuwamon"
+  },
+  {
+    "from_slug": "buraimon",
+    "to_slug": "siyueruhimon"
+  },
+  {
+    "from_slug": "tokomon",
+    "to_slug": "leviamon"
+  },
+  {
+    "from_slug": "leviamon",
+    "to_slug": "mojyamon"
+  },
+  {
+    "from_slug": "leviamon",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "leviamon",
+    "to_slug": "kawatuhamon"
+  },
+  {
+    "from_slug": "leviamon",
+    "to_slug": "karukomon"
+  },
+  {
+    "from_slug": "tokomon",
+    "to_slug": "leviamon_jp"
+  },
+  {
+    "from_slug": "leviamon_jp",
+    "to_slug": "mojyamon"
+  },
+  {
+    "from_slug": "leviamon_jp",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "leviamon_jp",
+    "to_slug": "kawatuhamon"
+  },
+  {
+    "from_slug": "leviamon_jp",
+    "to_slug": "karukomon"
+  },
+  {
+    "from_slug": "nyaromon",
+    "to_slug": "ryudamon"
+  },
+  {
+    "from_slug": "ryudamon",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "ryudamon",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "ryudamon",
+    "to_slug": "yukitarumon"
+  },
+  {
+    "from_slug": "ryudamon",
+    "to_slug": "hyogamon"
+  },
+  {
+    "from_slug": "ryudamon",
+    "to_slug": "solarmon"
+  },
+  {
+    "from_slug": "ryudamon",
+    "to_slug": "callismon_jp"
+  },
+  {
+    "from_slug": "nyaromon",
+    "to_slug": "ryudamon_jp"
+  },
+  {
+    "from_slug": "ryudamon_jp",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "ryudamon_jp",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "ryudamon_jp",
+    "to_slug": "yukitarumon"
+  },
+  {
+    "from_slug": "ryudamon_jp",
+    "to_slug": "hyogamon"
+  },
+  {
+    "from_slug": "ryudamon_jp",
+    "to_slug": "solarmon"
+  },
+  {
+    "from_slug": "ryudamon_jp",
+    "to_slug": "callismon_jp"
+  },
+  {
+    "from_slug": "waruseadramon_jp",
+    "to_slug": "megidramon"
+  },
+  {
+    "from_slug": "mekarokuraumon",
+    "to_slug": "megidramon"
+  },
+  {
+    "from_slug": "kurauntoramon",
+    "to_slug": "megidramon"
+  },
+  {
+    "from_slug": "megadramon_jp",
+    "to_slug": "megidramon"
+  },
+  {
+    "from_slug": "waruseadramon_jp",
+    "to_slug": "megidramon_jp"
+  },
+  {
+    "from_slug": "mekarokuraumon",
+    "to_slug": "megidramon_jp"
+  },
+  {
+    "from_slug": "kurauntoramon",
+    "to_slug": "megidramon_jp"
+  },
+  {
+    "from_slug": "megadramon_jp",
+    "to_slug": "megidramon_jp"
+  },
+  {
+    "from_slug": "riyuutamon",
+    "to_slug": "monochromon"
+  },
+  {
+    "from_slug": "sunokohurimon",
+    "to_slug": "monochromon"
+  },
+  {
+    "from_slug": "kotumon",
+    "to_slug": "monochromon"
+  },
+  {
+    "from_slug": "monochromon",
+    "to_slug": "strikedramon"
+  },
+  {
+    "from_slug": "monochromon",
+    "to_slug": "keruheromon"
+  },
+  {
+    "from_slug": "monochromon",
+    "to_slug": "magnamon"
+  },
+  {
+    "from_slug": "monochromon_jp",
+    "to_slug": "strikedramon"
+  },
+  {
+    "from_slug": "monochromon_jp",
+    "to_slug": "magnamon"
+  },
+  {
+    "from_slug": "orochimon",
+    "to_slug": "machinedramon"
+  },
+  {
+    "from_slug": "siruhuimon",
+    "to_slug": "machinedramon"
+  },
+  {
+    "from_slug": "machinedramon",
+    "to_slug": "mervamon"
+  },
+  {
+    "from_slug": "orochimon",
+    "to_slug": "machinedramon_jp"
+  },
+  {
+    "from_slug": "siruhuimon",
+    "to_slug": "machinedramon_jp"
+  },
+  {
+    "from_slug": "machinedramon_jp",
+    "to_slug": "mervamon"
+  },
+  {
+    "from_slug": "mistymon_jp",
+    "to_slug": "salamon"
+  },
+  {
+    "from_slug": "gaiomon_jp",
+    "to_slug": "salamon"
+  },
+  {
+    "from_slug": "mistymon_jp",
+    "to_slug": "salamon_jp"
+  },
+  {
+    "from_slug": "gaiomon_jp",
+    "to_slug": "salamon_jp"
+  },
+  {
+    "from_slug": "wanyamon",
+    "to_slug": "shakkoumon"
+  },
+  {
+    "from_slug": "shakkoumon",
+    "to_slug": "meramon"
+  },
+  {
+    "from_slug": "shakkoumon",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "shakkoumon",
+    "to_slug": "halsemon_jp"
+  },
+  {
+    "from_slug": "shakkoumon",
+    "to_slug": "kyubimon_jp"
+  },
+  {
+    "from_slug": "shakkoumon",
+    "to_slug": "kiyuuhimon"
+  },
+  {
+    "from_slug": "punimon",
+    "to_slug": "tsunomon"
+  },
+  {
+    "from_slug": "tsunomon",
+    "to_slug": "guilmon_jp"
+  },
+  {
+    "from_slug": "tsunomon",
+    "to_slug": "gabumon"
+  },
+  {
+    "from_slug": "shamamon",
+    "to_slug": "musyamon"
+  },
+  {
+    "from_slug": "musyamon",
+    "to_slug": "butenmon"
+  },
+  {
+    "from_slug": "musyamon",
+    "to_slug": "hisyaryumon"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "raremon"
+  },
+  {
+    "from_slug": "raremon",
+    "to_slug": "sanhuraumon"
+  },
+  {
+    "from_slug": "raremon",
+    "to_slug": "togemon"
+  },
+  {
+    "from_slug": "raremon",
+    "to_slug": "rihorumon"
+  },
+  {
+    "from_slug": "raremon",
+    "to_slug": "tutitarumon"
+  },
+  {
+    "from_slug": "raremon",
+    "to_slug": "touruiemon"
+  },
+  {
+    "from_slug": "antylamon",
+    "to_slug": "merukimon"
+  },
+  {
+    "from_slug": "hisyaryumon",
+    "to_slug": "ouryumon"
+  },
+  {
+    "from_slug": "seadramon_jp",
+    "to_slug": "hisyaryumon"
+  },
+  {
+    "from_slug": "ginryumon_jp",
+    "to_slug": "hisyaryumon"
+  },
+  {
+    "from_slug": "agunimon",
+    "to_slug": "garudamon"
+  },
+  {
+    "from_slug": "dorimon",
+    "to_slug": "monodramon"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "ravemon"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "ravemon"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "ravemon"
+  },
+  {
+    "from_slug": "ravemon",
+    "to_slug": "hureamon"
+  },
+  {
+    "from_slug": "ravemon",
+    "to_slug": "kuratuhureomon"
+  },
+  {
+    "from_slug": "ravemon",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "ravemon",
+    "to_slug": "rotareomon"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "ravemon_jp"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "ravemon_jp"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "ravemon_jp"
+  },
+  {
+    "from_slug": "ravemon_jp",
+    "to_slug": "hureamon"
+  },
+  {
+    "from_slug": "ravemon_jp",
+    "to_slug": "kuratuhureomon"
+  },
+  {
+    "from_slug": "ravemon_jp",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "ravemon_jp",
+    "to_slug": "rotareomon"
+  },
+  {
+    "from_slug": "etemon",
+    "to_slug": "metaletemon"
+  },
+  {
+    "from_slug": "kahemon",
+    "to_slug": "metaletemon"
+  },
+  {
+    "from_slug": "huratukukinkunumemon",
+    "to_slug": "metaletemon"
+  },
+  {
+    "from_slug": "insekimon",
+    "to_slug": "metaletemon"
+  },
+  {
+    "from_slug": "lekismon",
+    "to_slug": "weregarurumon"
+  },
+  {
+    "from_slug": "kendogarurumon_jp",
+    "to_slug": "weregarurumon"
+  },
+  {
+    "from_slug": "kurisumon",
+    "to_slug": "weregarurumon"
+  },
+  {
+    "from_slug": "weregarurumon",
+    "to_slug": "merukimon"
+  },
+  {
+    "from_slug": "weregarurumon",
+    "to_slug": "metalgarurumon"
+  },
+  {
+    "from_slug": "lekismon",
+    "to_slug": "weregarurumon_jp"
+  },
+  {
+    "from_slug": "kendogarurumon_jp",
+    "to_slug": "weregarurumon_jp"
+  },
+  {
+    "from_slug": "weregarurumon_jp",
+    "to_slug": "merukimon"
+  },
+  {
+    "from_slug": "weregarurumon_jp",
+    "to_slug": "metalgarurumon"
+  },
+  {
+    "from_slug": "dinohyumon",
+    "to_slug": "bakemon"
+  },
+  {
+    "from_slug": "hikotehimon",
+    "to_slug": "bakemon"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "bakemon"
+  },
+  {
+    "from_slug": "bakemon",
+    "to_slug": "angemon_jp"
+  },
+  {
+    "from_slug": "bakemon",
+    "to_slug": "hurumeramon"
+  },
+  {
+    "from_slug": "bakemon",
+    "to_slug": "phantomon"
+  },
+  {
+    "from_slug": "bakemon",
+    "to_slug": "anuarumon"
+  },
+  {
+    "from_slug": "uitutimon",
+    "to_slug": "waspmon"
+  },
+  {
+    "from_slug": "rihorumon",
+    "to_slug": "waspmon"
+  },
+  {
+    "from_slug": "solarmon",
+    "to_slug": "waspmon"
+  },
+  {
+    "from_slug": "waspmon",
+    "to_slug": "temon"
+  },
+  {
+    "from_slug": "waspmon",
+    "to_slug": "kaosuteyukumon"
+  },
+  {
+    "from_slug": "waspmon",
+    "to_slug": "ensientowaisumon"
+  },
+  {
+    "from_slug": "uitutimon",
+    "to_slug": "waspmon_jp"
+  },
+  {
+    "from_slug": "rihorumon",
+    "to_slug": "waspmon_jp"
+  },
+  {
+    "from_slug": "solarmon",
+    "to_slug": "waspmon_jp"
+  },
+  {
+    "from_slug": "waspmon_jp",
+    "to_slug": "temon"
+  },
+  {
+    "from_slug": "waspmon_jp",
+    "to_slug": "kaosuteyukumon"
+  },
+  {
+    "from_slug": "waspmon_jp",
+    "to_slug": "ensientowaisumon"
+  },
+  {
+    "from_slug": "biyomon",
+    "to_slug": "aquilamon"
+  },
+  {
+    "from_slug": "penmon",
+    "to_slug": "aquilamon"
+  },
+  {
+    "from_slug": "hokumon",
+    "to_slug": "aquilamon"
+  },
+  {
+    "from_slug": "aquilamon",
+    "to_slug": "karutamon"
+  },
+  {
+    "from_slug": "aquilamon",
+    "to_slug": "harotutomon"
+  },
+  {
+    "from_slug": "aquilamon",
+    "to_slug": "siruhuimon"
+  },
+  {
+    "from_slug": "aquilamon",
+    "to_slug": "yatakaramon"
+  },
+  {
+    "from_slug": "biyomon",
+    "to_slug": "aquilamon_jp"
+  },
+  {
+    "from_slug": "lunamon",
+    "to_slug": "garurumon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "garurumon"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "garurumon"
+  },
+  {
+    "from_slug": "garurumon",
+    "to_slug": "weregarurumon_jp"
+  },
+  {
+    "from_slug": "garurumon",
+    "to_slug": "hurumeramon"
+  },
+  {
+    "from_slug": "garurumon",
+    "to_slug": "taomon"
+  },
+  {
+    "from_slug": "garurumon",
+    "to_slug": "kimeramon"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "mojyamon"
+  },
+  {
+    "from_slug": "gomamon",
+    "to_slug": "mojyamon"
+  },
+  {
+    "from_slug": "terriermon_jp",
+    "to_slug": "mojyamon"
+  },
+  {
+    "from_slug": "mojyamon",
+    "to_slug": "plutomon_jp"
+  },
+  {
+    "from_slug": "mojyamon",
+    "to_slug": "magnamon"
+  },
+  {
+    "from_slug": "korutonumemon",
+    "to_slug": "betamon"
+  },
+  {
+    "from_slug": "vegiemon",
+    "to_slug": "betamon"
+  },
+  {
+    "from_slug": "huratinasukamon",
+    "to_slug": "betamon"
+  },
+  {
+    "from_slug": "betamon",
+    "to_slug": "gizamon_jp"
+  },
+  {
+    "from_slug": "betamon",
+    "to_slug": "auensikitutomon"
+  },
+  {
+    "from_slug": "kapurimon",
+    "to_slug": "floramon"
+  },
+  {
+    "from_slug": "floramon",
+    "to_slug": "starmon"
+  },
+  {
+    "from_slug": "floramon",
+    "to_slug": "korutonumemon"
+  },
+  {
+    "from_slug": "floramon",
+    "to_slug": "meramon"
+  },
+  {
+    "from_slug": "floramon",
+    "to_slug": "katoromon-jin"
+  },
+  {
+    "from_slug": "kapurimon",
+    "to_slug": "floramon_jp"
+  },
+  {
+    "from_slug": "floramon_jp",
+    "to_slug": "starmon"
+  },
+  {
+    "from_slug": "floramon_jp",
+    "to_slug": "korutonumemon"
+  },
+  {
+    "from_slug": "floramon_jp",
+    "to_slug": "meramon"
+  },
+  {
+    "from_slug": "floramon_jp",
+    "to_slug": "katoromon-jin"
+  },
+  {
+    "from_slug": "lunamon",
+    "to_slug": "solarmon"
+  },
+  {
+    "from_slug": "solarmon",
+    "to_slug": "wisemon_jp"
+  },
+  {
+    "from_slug": "orochimon",
+    "to_slug": "minervamon"
+  },
+  {
+    "from_slug": "bukamon",
+    "to_slug": "knightmon"
+  },
+  {
+    "from_slug": "knightmon",
+    "to_slug": "kawatuhamon"
+  },
+  {
+    "from_slug": "knightmon",
+    "to_slug": "okutamon"
+  },
+  {
+    "from_slug": "knightmon",
+    "to_slug": "divermon_jp"
+  },
+  {
+    "from_slug": "knightmon",
+    "to_slug": "crabmon_jp"
+  },
+  {
+    "from_slug": "knightmon",
+    "to_slug": "snimon"
+  },
+  {
+    "from_slug": "knightmon",
+    "to_slug": "firamon"
+  },
+  {
+    "from_slug": "bukamon",
+    "to_slug": "knightmon_jp"
+  },
+  {
+    "from_slug": "knightmon_jp",
+    "to_slug": "divermon_jp"
+  },
+  {
+    "from_slug": "knightmon_jp",
+    "to_slug": "crabmon_jp"
+  },
+  {
+    "from_slug": "knightmon_jp",
+    "to_slug": "snimon"
+  },
+  {
+    "from_slug": "knightmon_jp",
+    "to_slug": "firamon"
+  },
+  {
+    "from_slug": "etemon",
+    "to_slug": "metalgreymon"
+  },
+  {
+    "from_slug": "kahemon",
+    "to_slug": "metalgreymon"
+  },
+  {
+    "from_slug": "huratukukinkunumemon",
+    "to_slug": "metalgreymon"
+  },
+  {
+    "from_slug": "insekimon",
+    "to_slug": "metalgreymon"
+  },
+  {
+    "from_slug": "tokomon",
+    "to_slug": "datamon"
+  },
+  {
+    "from_slug": "datamon",
+    "to_slug": "vegiemon_jp"
+  },
+  {
+    "from_slug": "datamon",
+    "to_slug": "hekasumon"
+  },
+  {
+    "from_slug": "datamon",
+    "to_slug": "kyubimon_jp"
+  },
+  {
+    "from_slug": "datamon",
+    "to_slug": "kentaurosmon_jp"
+  },
+  {
+    "from_slug": "waruseadramon_jp",
+    "to_slug": "meteormon"
+  },
+  {
+    "from_slug": "mekarokuraumon",
+    "to_slug": "meteormon"
+  },
+  {
+    "from_slug": "kurauntoramon",
+    "to_slug": "meteormon"
+  },
+  {
+    "from_slug": "megadramon_jp",
+    "to_slug": "meteormon"
+  },
+  {
+    "from_slug": "waruseadramon_jp",
+    "to_slug": "meteormon_jp"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "gaogamon"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "gaogamon"
+  },
+  {
+    "from_slug": "kasimon",
+    "to_slug": "gaogamon"
+  },
+  {
+    "from_slug": "gaogamon",
+    "to_slug": "matuhakaokamon"
+  },
+  {
+    "from_slug": "gaogamon",
+    "to_slug": "seihahatukumon"
+  },
+  {
+    "from_slug": "gaogamon",
+    "to_slug": "takusuhasutamon"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "gaogamon_jp"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "gaogamon_jp"
+  },
+  {
+    "from_slug": "octomon",
+    "to_slug": "dorimon"
+  },
+  {
+    "from_slug": "dorimon",
+    "to_slug": "dorumon"
+  },
+  {
+    "from_slug": "uitutimon",
+    "to_slug": "wisemon"
+  },
+  {
+    "from_slug": "rihorumon",
+    "to_slug": "wisemon"
+  },
+  {
+    "from_slug": "solarmon",
+    "to_slug": "wisemon"
+  },
+  {
+    "from_slug": "wisemon",
+    "to_slug": "temon"
+  },
+  {
+    "from_slug": "wisemon",
+    "to_slug": "kaosuteyukumon"
+  },
+  {
+    "from_slug": "wisemon",
+    "to_slug": "ensientowaisumon"
+  },
+  {
+    "from_slug": "uitutimon",
+    "to_slug": "wisemon_jp"
+  },
+  {
+    "from_slug": "tsumemon",
+    "to_slug": "shamamon"
+  },
+  {
+    "from_slug": "shamamon",
+    "to_slug": "bukamon"
+  },
+  {
+    "from_slug": "horukemon",
+    "to_slug": "choromon"
+  },
+  {
+    "from_slug": "hureamon",
+    "to_slug": "choromon"
+  },
+  {
+    "from_slug": "choromon",
+    "to_slug": "kureisunouamon"
+  },
+  {
+    "from_slug": "duramon",
+    "to_slug": "tsumemon"
+  },
+  {
+    "from_slug": "tsumemon",
+    "to_slug": "toyagumon_jp"
+  },
+  {
+    "from_slug": "tehimon",
+    "to_slug": "infermon"
+  },
+  {
+    "from_slug": "dokugumon_jp",
+    "to_slug": "infermon"
+  },
+  {
+    "from_slug": "kurisarimon",
+    "to_slug": "infermon"
+  },
+  {
+    "from_slug": "infermon",
+    "to_slug": "heriaruuantemon"
+  },
+  {
+    "from_slug": "infermon",
+    "to_slug": "teiahoromon"
+  },
+  {
+    "from_slug": "infermon",
+    "to_slug": "keruhimon-e"
+  },
+  {
+    "from_slug": "dokugumon_jp",
+    "to_slug": "infermon_jp"
+  },
+  {
+    "from_slug": "guilmon_jp",
+    "to_slug": "raptordramon"
+  },
+  {
+    "from_slug": "guilmon_jp",
+    "to_slug": "raptordramon_jp"
+  },
+  {
+    "from_slug": "tokomon",
+    "to_slug": "justimon"
+  },
+  {
+    "from_slug": "justimon",
+    "to_slug": "rutiemonfm"
+  },
+  {
+    "from_slug": "uokureimon",
+    "to_slug": "coelamon"
+  },
+  {
+    "from_slug": "metalgarurumon",
+    "to_slug": "coelamon"
+  },
+  {
+    "from_slug": "coelamon",
+    "to_slug": "omekamonsuwaruto"
+  },
+  {
+    "from_slug": "metalgarurumon",
+    "to_slug": "coelamon_jp"
+  },
+  {
+    "from_slug": "coelamon_jp",
+    "to_slug": "omekamonsuwaruto"
+  },
+  {
+    "from_slug": "huanhimon",
+    "to_slug": "dokugumon"
+  },
+  {
+    "from_slug": "wamumon",
+    "to_slug": "dokugumon"
+  },
+  {
+    "from_slug": "keramon",
+    "to_slug": "dokugumon"
+  },
+  {
+    "from_slug": "dokugumon",
+    "to_slug": "arukenimon"
+  },
+  {
+    "from_slug": "dokugumon",
+    "to_slug": "mamimon"
+  },
+  {
+    "from_slug": "dokugumon",
+    "to_slug": "atorakahuterimon"
+  },
+  {
+    "from_slug": "dokugumon",
+    "to_slug": "infermon_jp"
+  },
+  {
+    "from_slug": "tiyumon",
+    "to_slug": "veemon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "veemon"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "veemon"
+  },
+  {
+    "from_slug": "veemon",
+    "to_slug": "kiyatutimamemon"
+  },
+  {
+    "from_slug": "veemon",
+    "to_slug": "suhasutamon"
+  },
+  {
+    "from_slug": "veemon",
+    "to_slug": "monzaemon"
+  },
+  {
+    "from_slug": "tiyumon",
+    "to_slug": "veemon_jp"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "veemon_jp"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "veemon_jp"
+  },
+  {
+    "from_slug": "veemon_jp",
+    "to_slug": "kiyatutimamemon"
+  },
+  {
+    "from_slug": "veemon_jp",
+    "to_slug": "suhasutamon"
+  },
+  {
+    "from_slug": "veemon_jp",
+    "to_slug": "monzaemon"
+  },
+  {
+    "from_slug": "retuhamon",
+    "to_slug": "chirinmon"
+  },
+  {
+    "from_slug": "kyubimon_jp",
+    "to_slug": "chirinmon"
+  },
+  {
+    "from_slug": "hetukumon",
+    "to_slug": "chirinmon"
+  },
+  {
+    "from_slug": "chirinmon",
+    "to_slug": "sureihumon"
+  },
+  {
+    "from_slug": "chirinmon",
+    "to_slug": "kurosumon"
+  },
+  {
+    "from_slug": "chirinmon",
+    "to_slug": "uarukirimon"
+  },
+  {
+    "from_slug": "kyubimon_jp",
+    "to_slug": "chirinmon_jp"
+  },
+  {
+    "from_slug": "katoromon",
+    "to_slug": "andromon"
+  },
+  {
+    "from_slug": "kentaurosmon_jp",
+    "to_slug": "andromon"
+  },
+  {
+    "from_slug": "kurotukumon",
+    "to_slug": "andromon"
+  },
+  {
+    "from_slug": "andromon",
+    "to_slug": "hiandromon_jp"
+  },
+  {
+    "from_slug": "andromon",
+    "to_slug": "shoutmon"
+  },
+  {
+    "from_slug": "andromon",
+    "to_slug": "kureniamumon"
+  },
+  {
+    "from_slug": "katoromon",
+    "to_slug": "gankoomon"
+  },
+  {
+    "from_slug": "kentaurosmon_jp",
+    "to_slug": "gankoomon"
+  },
+  {
+    "from_slug": "kurotukumon",
+    "to_slug": "gankoomon"
+  },
+  {
+    "from_slug": "gankoomon",
+    "to_slug": "hiandromon_jp"
+  },
+  {
+    "from_slug": "gankoomon",
+    "to_slug": "shoutmon"
+  },
+  {
+    "from_slug": "gankoomon",
+    "to_slug": "kureniamumon"
+  },
+  {
+    "from_slug": "kentaurosmon_jp",
+    "to_slug": "gankoomon_jp"
+  },
+  {
+    "from_slug": "gankoomon_jp",
+    "to_slug": "hiandromon_jp"
+  },
+  {
+    "from_slug": "gankoomon_jp",
+    "to_slug": "shoutmon"
+  },
+  {
+    "from_slug": "lunamon",
+    "to_slug": "kendogarurumon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "kendogarurumon"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "kendogarurumon"
+  },
+  {
+    "from_slug": "kendogarurumon",
+    "to_slug": "weregarurumon_jp"
+  },
+  {
+    "from_slug": "kendogarurumon",
+    "to_slug": "hurumeramon"
+  },
+  {
+    "from_slug": "kendogarurumon",
+    "to_slug": "taomon"
+  },
+  {
+    "from_slug": "kendogarurumon",
+    "to_slug": "kimeramon"
+  },
+  {
+    "from_slug": "lunamon",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "ginryumon_jp",
+    "to_slug": "butenmon"
+  },
+  {
+    "from_slug": "buraimon",
+    "to_slug": "butenmon"
+  },
+  {
+    "from_slug": "butenmon",
+    "to_slug": "chronomon-dm_jp"
+  },
+  {
+    "from_slug": "dorumon",
+    "to_slug": "seadramon_jp"
+  },
+  {
+    "from_slug": "dorumon",
+    "to_slug": "drimogemon_jp"
+  },
+  {
+    "from_slug": "dorumon",
+    "to_slug": "dorugamon_jp"
+  },
+  {
+    "from_slug": "matadormon_jp",
+    "to_slug": "kuzuhamon"
+  },
+  {
+    "from_slug": "ikkakumon",
+    "to_slug": "plutomon"
+  },
+  {
+    "from_slug": "mojyamon",
+    "to_slug": "plutomon"
+  },
+  {
+    "from_slug": "kurotukumon",
+    "to_slug": "plutomon"
+  },
+  {
+    "from_slug": "hyogamon",
+    "to_slug": "plutomon"
+  },
+  {
+    "from_slug": "plutomon",
+    "to_slug": "uaikumon"
+  },
+  {
+    "from_slug": "plutomon",
+    "to_slug": "huresiomon"
+  },
+  {
+    "from_slug": "ikkakumon",
+    "to_slug": "plutomon_jp"
+  },
+  {
+    "from_slug": "hyogamon",
+    "to_slug": "plutomon_jp"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "lanamon"
+  },
+  {
+    "from_slug": "lanamon",
+    "to_slug": "calmaramon_jp"
+  },
+  {
+    "from_slug": "sanhuraumon",
+    "to_slug": "deramon"
+  },
+  {
+    "from_slug": "kiwimon",
+    "to_slug": "deramon"
+  },
+  {
+    "from_slug": "tutitarumon",
+    "to_slug": "deramon"
+  },
+  {
+    "from_slug": "deramon",
+    "to_slug": "uarotourumon"
+  },
+  {
+    "from_slug": "deramon",
+    "to_slug": "ceresmon"
+  },
+  {
+    "from_slug": "deramon",
+    "to_slug": "huratinanumemon"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "piedmon"
+  },
+  {
+    "from_slug": "phantomon",
+    "to_slug": "piedmon"
+  },
+  {
+    "from_slug": "piedmon",
+    "to_slug": "ahokarimon"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "piedmon_jp"
+  },
+  {
+    "from_slug": "phantomon",
+    "to_slug": "piedmon_jp"
+  },
+  {
+    "from_slug": "piedmon_jp",
+    "to_slug": "ahokarimon"
+  },
+  {
+    "from_slug": "metalmamemon",
+    "to_slug": "metalgarurumon"
+  },
+  {
+    "from_slug": "ogremon",
+    "to_slug": "omnimon"
+  },
+  {
+    "from_slug": "monochromon_jp",
+    "to_slug": "omnimon"
+  },
+  {
+    "from_slug": "yukitarumon",
+    "to_slug": "omnimon"
+  },
+  {
+    "from_slug": "mojyamon",
+    "to_slug": "omnimon"
+  },
+  {
+    "from_slug": "omnimon",
+    "to_slug": "uaikumon"
+  },
+  {
+    "from_slug": "omnimon",
+    "to_slug": "sukarumanmon"
+  },
+  {
+    "from_slug": "ogremon",
+    "to_slug": "omnimon_jp"
+  },
+  {
+    "from_slug": "monochromon_jp",
+    "to_slug": "omnimon_jp"
+  },
+  {
+    "from_slug": "yukitarumon",
+    "to_slug": "omnimon_jp"
+  },
+  {
+    "from_slug": "mojyamon",
+    "to_slug": "omnimon_jp"
+  },
+  {
+    "from_slug": "omnimon_jp",
+    "to_slug": "uaikumon"
+  },
+  {
+    "from_slug": "omnimon_jp",
+    "to_slug": "sukarumanmon"
+  },
+  {
+    "from_slug": "wanyamon",
+    "to_slug": "gaomon"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "crowmon_jp"
+  },
+  {
+    "from_slug": "kapurimon",
+    "to_slug": "goldramon"
+  },
+  {
+    "from_slug": "goldramon",
+    "to_slug": "starmon"
+  },
+  {
+    "from_slug": "goldramon",
+    "to_slug": "korutonumemon"
+  },
+  {
+    "from_slug": "goldramon",
+    "to_slug": "meramon"
+  },
+  {
+    "from_slug": "goldramon",
+    "to_slug": "katoromon-jin"
+  },
+  {
+    "from_slug": "kapurimon",
+    "to_slug": "goldramon_jp"
+  },
+  {
+    "from_slug": "goldramon_jp",
+    "to_slug": "starmon"
+  },
+  {
+    "from_slug": "kuwagamon",
+    "to_slug": "okuwamon"
+  },
+  {
+    "from_slug": "shurimon",
+    "to_slug": "okuwamon"
+  },
+  {
+    "from_slug": "snimon",
+    "to_slug": "okuwamon"
+  },
+  {
+    "from_slug": "okuwamon",
+    "to_slug": "tyrantkabuterimon"
+  },
+  {
+    "from_slug": "okuwamon",
+    "to_slug": "grankuwagamon_jp"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "breakdramon"
+  },
+  {
+    "from_slug": "breakdramon",
+    "to_slug": "sanhuraumon"
+  },
+  {
+    "from_slug": "breakdramon",
+    "to_slug": "togemon"
+  },
+  {
+    "from_slug": "breakdramon",
+    "to_slug": "rihorumon"
+  },
+  {
+    "from_slug": "breakdramon",
+    "to_slug": "tutitarumon"
+  },
+  {
+    "from_slug": "breakdramon",
+    "to_slug": "touruiemon"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "breakdramon_jp"
+  },
+  {
+    "from_slug": "breakdramon_jp",
+    "to_slug": "sanhuraumon"
+  },
+  {
+    "from_slug": "breakdramon_jp",
+    "to_slug": "togemon"
+  },
+  {
+    "from_slug": "breakdramon_jp",
+    "to_slug": "rihorumon"
+  },
+  {
+    "from_slug": "breakdramon_jp",
+    "to_slug": "tutitarumon"
+  },
+  {
+    "from_slug": "breakdramon_jp",
+    "to_slug": "touruiemon"
+  },
+  {
+    "from_slug": "tsunomon",
+    "to_slug": "guilmon"
+  },
+  {
+    "from_slug": "guilmon",
+    "to_slug": "ekusuhuimon"
+  },
+  {
+    "from_slug": "guilmon",
+    "to_slug": "huitoramon"
+  },
+  {
+    "from_slug": "guilmon",
+    "to_slug": "raptordramon_jp"
+  },
+  {
+    "from_slug": "guilmon",
+    "to_slug": "makunamon"
+  },
+  {
+    "from_slug": "guilmon",
+    "to_slug": "hureitoramon"
+  },
+  {
+    "from_slug": "ikkakumon",
+    "to_slug": "golemon"
+  },
+  {
+    "from_slug": "sitoramon",
+    "to_slug": "golemon"
+  },
+  {
+    "from_slug": "divermon_jp",
+    "to_slug": "golemon"
+  },
+  {
+    "from_slug": "golemon",
+    "to_slug": "riuaiamon"
+  },
+  {
+    "from_slug": "golemon",
+    "to_slug": "neptunemon_jp"
+  },
+  {
+    "from_slug": "golemon",
+    "to_slug": "huresiomon"
+  },
+  {
+    "from_slug": "golemon",
+    "to_slug": "marineangemon"
+  },
+  {
+    "from_slug": "ikkakumon",
+    "to_slug": "golemon_jp"
+  },
+  {
+    "from_slug": "sitoramon",
+    "to_slug": "golemon_jp"
+  },
+  {
+    "from_slug": "divermon_jp",
+    "to_slug": "golemon_jp"
+  },
+  {
+    "from_slug": "golemon_jp",
+    "to_slug": "riuaiamon"
+  },
+  {
+    "from_slug": "golemon_jp",
+    "to_slug": "neptunemon_jp"
+  },
+  {
+    "from_slug": "golemon_jp",
+    "to_slug": "huresiomon"
+  },
+  {
+    "from_slug": "golemon_jp",
+    "to_slug": "marineangemon"
+  },
+  {
+    "from_slug": "aikioteyusumon",
+    "to_slug": "jupitermon"
+  },
+  {
+    "from_slug": "aikioteyusumon-hori",
+    "to_slug": "jupitermon"
+  },
+  {
+    "from_slug": "aikioteyusumon-huru",
+    "to_slug": "jupitermon"
+  },
+  {
+    "from_slug": "aikioteyusumon-kurin",
+    "to_slug": "jupitermon"
+  },
+  {
+    "from_slug": "jupitermon",
+    "to_slug": "jupitermon-wm_jp"
+  },
+  {
+    "from_slug": "jupitermon_jp",
+    "to_slug": "jupitermon-wm_jp"
+  },
+  {
+    "from_slug": "agumon",
+    "to_slug": "koatoramon-lu"
+  },
+  {
+    "from_slug": "pagumon",
+    "to_slug": "dinohyumon"
+  },
+  {
+    "from_slug": "dinohyumon",
+    "to_slug": "halsemon_jp"
+  },
+  {
+    "from_slug": "sanhuraumon",
+    "to_slug": "paildramon"
+  },
+  {
+    "from_slug": "kabuterimon",
+    "to_slug": "paildramon"
+  },
+  {
+    "from_slug": "kiwimon",
+    "to_slug": "paildramon"
+  },
+  {
+    "from_slug": "paildramon",
+    "to_slug": "ririsumon"
+  },
+  {
+    "from_slug": "paildramon",
+    "to_slug": "rosemon"
+  },
+  {
+    "from_slug": "paildramon",
+    "to_slug": "hinotukimon"
+  },
+  {
+    "from_slug": "sanhuraumon",
+    "to_slug": "paildramon_jp"
+  },
+  {
+    "from_slug": "kabuterimon",
+    "to_slug": "paildramon_jp"
+  },
+  {
+    "from_slug": "kiwimon",
+    "to_slug": "paildramon_jp"
+  },
+  {
+    "from_slug": "paildramon_jp",
+    "to_slug": "ririsumon"
+  },
+  {
+    "from_slug": "paildramon_jp",
+    "to_slug": "rosemon"
+  },
+  {
+    "from_slug": "paildramon_jp",
+    "to_slug": "hinotukimon"
+  },
+  {
+    "from_slug": "bukamon",
+    "to_slug": "syakomon"
+  },
+  {
+    "from_slug": "syakomon",
+    "to_slug": "firamon"
+  },
+  {
+    "from_slug": "syakomon",
+    "to_slug": "divermon_jp"
+  },
+  {
+    "from_slug": "syakomon",
+    "to_slug": "crabmon_jp"
+  },
+  {
+    "from_slug": "tokomon",
+    "to_slug": "terriermon"
+  },
+  {
+    "from_slug": "terriermon",
+    "to_slug": "mojyamon"
+  },
+  {
+    "from_slug": "terriermon",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "terriermon",
+    "to_slug": "kawatuhamon"
+  },
+  {
+    "from_slug": "terriermon",
+    "to_slug": "karukomon"
+  },
+  {
+    "from_slug": "terriermon_jp",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "leomon"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "leomon"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "leomon"
+  },
+  {
+    "from_slug": "leomon",
+    "to_slug": "hureamon"
+  },
+  {
+    "from_slug": "leomon",
+    "to_slug": "kuratuhureomon"
+  },
+  {
+    "from_slug": "leomon",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "leomon",
+    "to_slug": "rotareomon"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "grapleomon"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "grapleomon"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "grapleomon"
+  },
+  {
+    "from_slug": "grapleomon",
+    "to_slug": "hureamon"
+  },
+  {
+    "from_slug": "grapleomon",
+    "to_slug": "kuratuhureomon"
+  },
+  {
+    "from_slug": "grapleomon",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "grapleomon",
+    "to_slug": "rotareomon"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "grapleomon_jp"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "grapleomon_jp"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "grapleomon_jp"
+  },
+  {
+    "from_slug": "grapleomon_jp",
+    "to_slug": "hureamon"
+  },
+  {
+    "from_slug": "grapleomon_jp",
+    "to_slug": "kuratuhureomon"
+  },
+  {
+    "from_slug": "grapleomon_jp",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "grapleomon_jp",
+    "to_slug": "rotareomon"
+  },
+  {
+    "from_slug": "wanyamon",
+    "to_slug": "sharkmon"
+  },
+  {
+    "from_slug": "sharkmon",
+    "to_slug": "meramon"
+  },
+  {
+    "from_slug": "sharkmon",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "sharkmon",
+    "to_slug": "halsemon_jp"
+  },
+  {
+    "from_slug": "sharkmon",
+    "to_slug": "kyubimon_jp"
+  },
+  {
+    "from_slug": "sharkmon",
+    "to_slug": "kiyuuhimon"
+  },
+  {
+    "from_slug": "wanyamon",
+    "to_slug": "sharkmon_jp"
+  },
+  {
+    "from_slug": "sharkmon_jp",
+    "to_slug": "meramon"
+  },
+  {
+    "from_slug": "sharkmon_jp",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "sharkmon_jp",
+    "to_slug": "halsemon_jp"
+  },
+  {
+    "from_slug": "sharkmon_jp",
+    "to_slug": "kyubimon_jp"
+  },
+  {
+    "from_slug": "sharkmon_jp",
+    "to_slug": "kiyuuhimon"
+  },
+  {
+    "from_slug": "kentaurosmon_jp",
+    "to_slug": "brachiomon"
+  },
+  {
+    "from_slug": "wasuhumon",
+    "to_slug": "brachiomon"
+  },
+  {
+    "from_slug": "karukomon",
+    "to_slug": "brachiomon"
+  },
+  {
+    "from_slug": "brachiomon",
+    "to_slug": "sentokarukomon"
+  },
+  {
+    "from_slug": "brachiomon",
+    "to_slug": "hiandromon_jp"
+  },
+  {
+    "from_slug": "kentaurosmon_jp",
+    "to_slug": "brachiomon_jp"
+  },
+  {
+    "from_slug": "brachiomon_jp",
+    "to_slug": "hiandromon_jp"
+  },
+  {
+    "from_slug": "shamamon",
+    "to_slug": "huckmon"
+  },
+  {
+    "from_slug": "mutiyomon",
+    "to_slug": "huckmon"
+  },
+  {
+    "from_slug": "kahumon-hei",
+    "to_slug": "huckmon"
+  },
+  {
+    "from_slug": "huckmon",
+    "to_slug": "horukemon"
+  },
+  {
+    "from_slug": "huckmon",
+    "to_slug": "skullsatamon_jp"
+  },
+  {
+    "from_slug": "huckmon",
+    "to_slug": "karutamon"
+  },
+  {
+    "from_slug": "tiyumon",
+    "to_slug": "ebemon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "ebemon"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "ebemon"
+  },
+  {
+    "from_slug": "ebemon",
+    "to_slug": "kiyatutimamemon"
+  },
+  {
+    "from_slug": "ebemon",
+    "to_slug": "suhasutamon"
+  },
+  {
+    "from_slug": "ebemon",
+    "to_slug": "monzaemon"
+  },
+  {
+    "from_slug": "tiyumon",
+    "to_slug": "ebemon_jp"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "ebemon_jp"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "ebemon_jp"
+  },
+  {
+    "from_slug": "ebemon_jp",
+    "to_slug": "kiyatutimamemon"
+  },
+  {
+    "from_slug": "ebemon_jp",
+    "to_slug": "suhasutamon"
+  },
+  {
+    "from_slug": "ebemon_jp",
+    "to_slug": "monzaemon"
+  },
+  {
+    "from_slug": "korutonumemon",
+    "to_slug": "deltamon"
+  },
+  {
+    "from_slug": "vegiemon",
+    "to_slug": "deltamon"
+  },
+  {
+    "from_slug": "huratinasukamon",
+    "to_slug": "deltamon"
+  },
+  {
+    "from_slug": "deltamon",
+    "to_slug": "gizamon_jp"
+  },
+  {
+    "from_slug": "deltamon",
+    "to_slug": "auensikitutomon"
+  },
+  {
+    "from_slug": "vegiemon",
+    "to_slug": "deltamon_jp"
+  },
+  {
+    "from_slug": "deltamon_jp",
+    "to_slug": "gizamon_jp"
+  },
+  {
+    "from_slug": "takusuhasutamon",
+    "to_slug": "tapirmon"
+  },
+  {
+    "from_slug": "tesitamamon",
+    "to_slug": "tapirmon"
+  },
+  {
+    "from_slug": "sukarukureimon",
+    "to_slug": "tapirmon"
+  },
+  {
+    "from_slug": "tapirmon",
+    "to_slug": "taitamon-sukaruharukimon"
+  },
+  {
+    "from_slug": "hantiyoreomon",
+    "to_slug": "chaosmon"
+  },
+  {
+    "from_slug": "takutoramon",
+    "to_slug": "chaosmon"
+  },
+  {
+    "from_slug": "betamon",
+    "to_slug": "firamon"
+  },
+  {
+    "from_slug": "firamon",
+    "to_slug": "waruseadramon_jp"
+  },
+  {
+    "from_slug": "firamon",
+    "to_slug": "metaltyrannomon_jp"
+  },
+  {
+    "from_slug": "firamon",
+    "to_slug": "ankylomon"
+  },
+  {
+    "from_slug": "kamemon",
+    "to_slug": "divermon"
+  },
+  {
+    "from_slug": "knightmon_jp",
+    "to_slug": "divermon"
+  },
+  {
+    "from_slug": "syakomon",
+    "to_slug": "divermon"
+  },
+  {
+    "from_slug": "divermon",
+    "to_slug": "phoenixmon_jp"
+  },
+  {
+    "from_slug": "divermon",
+    "to_slug": "hitukoromon"
+  },
+  {
+    "from_slug": "divermon",
+    "to_slug": "anomarokarimon"
+  },
+  {
+    "from_slug": "divermon_jp",
+    "to_slug": "phoenixmon_jp"
+  },
+  {
+    "from_slug": "nyaromon",
+    "to_slug": "groundramon"
+  },
+  {
+    "from_slug": "groundramon",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "groundramon",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "groundramon",
+    "to_slug": "yukitarumon"
+  },
+  {
+    "from_slug": "groundramon",
+    "to_slug": "hyogamon"
+  },
+  {
+    "from_slug": "groundramon",
+    "to_slug": "solarmon"
+  },
+  {
+    "from_slug": "groundramon",
+    "to_slug": "callismon_jp"
+  },
+  {
+    "from_slug": "nyaromon",
+    "to_slug": "groundramon_jp"
+  },
+  {
+    "from_slug": "groundramon_jp",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "groundramon_jp",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "groundramon_jp",
+    "to_slug": "yukitarumon"
+  },
+  {
+    "from_slug": "groundramon_jp",
+    "to_slug": "hyogamon"
+  },
+  {
+    "from_slug": "groundramon_jp",
+    "to_slug": "solarmon"
+  },
+  {
+    "from_slug": "groundramon_jp",
+    "to_slug": "callismon_jp"
+  },
+  {
+    "from_slug": "kawatuhamon",
+    "to_slug": "shaujinmon"
+  },
+  {
+    "from_slug": "teinohiyumon",
+    "to_slug": "shaujinmon"
+  },
+  {
+    "from_slug": "shaujinmon",
+    "to_slug": "haruhamon"
+  },
+  {
+    "from_slug": "shaujinmon",
+    "to_slug": "siyanhokamemon"
+  },
+  {
+    "from_slug": "shaujinmon",
+    "to_slug": "hinotukimon"
+  },
+  {
+    "from_slug": "kohurimon",
+    "to_slug": "tuskmon"
+  },
+  {
+    "from_slug": "betamon",
+    "to_slug": "tuskmon"
+  },
+  {
+    "from_slug": "akumon-hei",
+    "to_slug": "tuskmon"
+  },
+  {
+    "from_slug": "tuskmon",
+    "to_slug": "strikedramon"
+  },
+  {
+    "from_slug": "tuskmon",
+    "to_slug": "kurauntoramon"
+  },
+  {
+    "from_slug": "tuskmon",
+    "to_slug": "tesitamamon"
+  },
+  {
+    "from_slug": "betamon",
+    "to_slug": "tuskmon_jp"
+  },
+  {
+    "from_slug": "tuskmon_jp",
+    "to_slug": "strikedramon"
+  },
+  {
+    "from_slug": "monzaemon",
+    "to_slug": "kingetemon"
+  },
+  {
+    "from_slug": "huanhimon",
+    "to_slug": "megakabuterimon"
+  },
+  {
+    "from_slug": "tentomon",
+    "to_slug": "megakabuterimon"
+  },
+  {
+    "from_slug": "megakabuterimon",
+    "to_slug": "airdramon"
+  },
+  {
+    "from_slug": "megakabuterimon",
+    "to_slug": "atorakahuterimon"
+  },
+  {
+    "from_slug": "megakabuterimon",
+    "to_slug": "kiyanonhimon"
+  },
+  {
+    "from_slug": "megakabuterimon",
+    "to_slug": "kimeramon"
+  },
+  {
+    "from_slug": "huanhimon",
+    "to_slug": "megakabuterimon_jp"
+  },
+  {
+    "from_slug": "tentomon",
+    "to_slug": "megakabuterimon_jp"
+  },
+  {
+    "from_slug": "megakabuterimon_jp",
+    "to_slug": "airdramon"
+  },
+  {
+    "from_slug": "megakabuterimon_jp",
+    "to_slug": "atorakahuterimon"
+  },
+  {
+    "from_slug": "megakabuterimon_jp",
+    "to_slug": "kiyanonhimon"
+  },
+  {
+    "from_slug": "megakabuterimon_jp",
+    "to_slug": "kimeramon"
+  },
+  {
+    "from_slug": "kiwimon",
+    "to_slug": "airdramon"
+  },
+  {
+    "from_slug": "kiwimon",
+    "to_slug": "sirenmon"
+  },
+  {
+    "from_slug": "kiwimon",
+    "to_slug": "veedramon_jp"
+  },
+  {
+    "from_slug": "kurotukumon",
+    "to_slug": "aegiomon"
+  },
+  {
+    "from_slug": "teinohiyumon",
+    "to_slug": "aegiomon"
+  },
+  {
+    "from_slug": "suhaikamon",
+    "to_slug": "aegiomon"
+  },
+  {
+    "from_slug": "aegiomon",
+    "to_slug": "alphamon_jp"
+  },
+  {
+    "from_slug": "aegiomon",
+    "to_slug": "suratusiyuensiemon"
+  },
+  {
+    "from_slug": "aegiomon",
+    "to_slug": "rotonaitomon"
+  },
+  {
+    "from_slug": "aegiomon",
+    "to_slug": "touhutomon"
+  },
+  {
+    "from_slug": "kurotukumon",
+    "to_slug": "aegiomon_jp"
+  },
+  {
+    "from_slug": "teinohiyumon",
+    "to_slug": "aegiomon_jp"
+  },
+  {
+    "from_slug": "suhaikamon",
+    "to_slug": "aegiomon_jp"
+  },
+  {
+    "from_slug": "aegiomon_jp",
+    "to_slug": "alphamon_jp"
+  },
+  {
+    "from_slug": "aegiomon_jp",
+    "to_slug": "suratusiyuensiemon"
+  },
+  {
+    "from_slug": "aegiomon_jp",
+    "to_slug": "rotonaitomon"
+  },
+  {
+    "from_slug": "aegiomon_jp",
+    "to_slug": "touhutomon"
+  },
+  {
+    "from_slug": "birdramon_jp",
+    "to_slug": "togemon"
+  },
+  {
+    "from_slug": "togemon",
+    "to_slug": "frigimon_jp"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "lighdramon"
+  },
+  {
+    "from_slug": "takomon",
+    "to_slug": "lighdramon"
+  },
+  {
+    "from_slug": "deltamon_jp",
+    "to_slug": "lighdramon"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "lighdramon_jp"
+  },
+  {
+    "from_slug": "takomon",
+    "to_slug": "lighdramon_jp"
+  },
+  {
+    "from_slug": "deltamon_jp",
+    "to_slug": "lighdramon_jp"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "greymon"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "greymon"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "greymon"
+  },
+  {
+    "from_slug": "greymon",
+    "to_slug": "hureamon"
+  },
+  {
+    "from_slug": "greymon",
+    "to_slug": "kuratuhureomon"
+  },
+  {
+    "from_slug": "greymon",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "greymon",
+    "to_slug": "rotareomon"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "greymon_jp"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "greymon_jp"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "greymon_jp"
+  },
+  {
+    "from_slug": "greymon_jp",
+    "to_slug": "hureamon"
+  },
+  {
+    "from_slug": "greymon_jp",
+    "to_slug": "kuratuhureomon"
+  },
+  {
+    "from_slug": "greymon_jp",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "greymon_jp",
+    "to_slug": "rotareomon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "ikkakumon"
+  },
+  {
+    "from_slug": "gomamon",
+    "to_slug": "ikkakumon"
+  },
+  {
+    "from_slug": "ikkakumon",
+    "to_slug": "phoenixmon_jp"
+  },
+  {
+    "from_slug": "siokureimon",
+    "to_slug": "metaltyrannomon"
+  },
+  {
+    "from_slug": "firamon",
+    "to_slug": "metaltyrannomon"
+  },
+  {
+    "from_slug": "tyrannomon_jp",
+    "to_slug": "metaltyrannomon"
+  },
+  {
+    "from_slug": "metaltyrannomon",
+    "to_slug": "aruteimetutohurakimon"
+  },
+  {
+    "from_slug": "metaltyrannomon",
+    "to_slug": "mukentoramon"
+  },
+  {
+    "from_slug": "tyrannomon_jp",
+    "to_slug": "metaltyrannomon_jp"
+  },
+  {
+    "from_slug": "kurotukumon",
+    "to_slug": "gatomon"
+  },
+  {
+    "from_slug": "teinohiyumon",
+    "to_slug": "gatomon"
+  },
+  {
+    "from_slug": "suhaikamon",
+    "to_slug": "gatomon"
+  },
+  {
+    "from_slug": "gatomon",
+    "to_slug": "alphamon_jp"
+  },
+  {
+    "from_slug": "gatomon",
+    "to_slug": "suratusiyuensiemon"
+  },
+  {
+    "from_slug": "gatomon",
+    "to_slug": "rotonaitomon"
+  },
+  {
+    "from_slug": "gatomon",
+    "to_slug": "touhutomon"
+  },
+  {
+    "from_slug": "kurotukumon",
+    "to_slug": "gatomon_jp"
+  },
+  {
+    "from_slug": "teinohiyumon",
+    "to_slug": "gatomon_jp"
+  },
+  {
+    "from_slug": "suhaikamon",
+    "to_slug": "gatomon_jp"
+  },
+  {
+    "from_slug": "gatomon_jp",
+    "to_slug": "alphamon_jp"
+  },
+  {
+    "from_slug": "gatomon_jp",
+    "to_slug": "suratusiyuensiemon"
+  },
+  {
+    "from_slug": "gatomon_jp",
+    "to_slug": "rotonaitomon"
+  },
+  {
+    "from_slug": "gatomon_jp",
+    "to_slug": "touhutomon"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "venusmon"
+  },
+  {
+    "from_slug": "harumon",
+    "to_slug": "jesmon"
+  },
+  {
+    "from_slug": "betamon",
+    "to_slug": "jesmon"
+  },
+  {
+    "from_slug": "huroramon",
+    "to_slug": "jesmon"
+  },
+  {
+    "from_slug": "jesmon",
+    "to_slug": "tonosamakekomon"
+  },
+  {
+    "from_slug": "jesmon",
+    "to_slug": "kahemon"
+  },
+  {
+    "from_slug": "jesmon",
+    "to_slug": "deltamon_jp"
+  },
+  {
+    "from_slug": "harumon",
+    "to_slug": "jesmon_jp"
+  },
+  {
+    "from_slug": "betamon",
+    "to_slug": "jesmon_jp"
+  },
+  {
+    "from_slug": "huroramon",
+    "to_slug": "jesmon_jp"
+  },
+  {
+    "from_slug": "jesmon_jp",
+    "to_slug": "tonosamakekomon"
+  },
+  {
+    "from_slug": "jesmon_jp",
+    "to_slug": "kahemon"
+  },
+  {
+    "from_slug": "jesmon_jp",
+    "to_slug": "deltamon_jp"
+  },
+  {
+    "from_slug": "calmaramon",
+    "to_slug": "zanbamon_jp"
+  },
+  {
+    "from_slug": "calmaramon_jp",
+    "to_slug": "zanbamon_jp"
+  },
+  {
+    "from_slug": "patamon",
+    "to_slug": "unimon"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "unimon"
+  },
+  {
+    "from_slug": "biyomon",
+    "to_slug": "unimon"
+  },
+  {
+    "from_slug": "erekimon",
+    "to_slug": "unimon"
+  },
+  {
+    "from_slug": "unimon",
+    "to_slug": "hihokurihuomon"
+  },
+  {
+    "from_slug": "unimon",
+    "to_slug": "horiensiemon"
+  },
+  {
+    "from_slug": "unimon",
+    "to_slug": "chirinmon_jp"
+  },
+  {
+    "from_slug": "punimon",
+    "to_slug": "junomon"
+  },
+  {
+    "from_slug": "junomon",
+    "to_slug": "kohurimon"
+  },
+  {
+    "from_slug": "junomon",
+    "to_slug": "guilmon_jp"
+  },
+  {
+    "from_slug": "junomon",
+    "to_slug": "gabumon"
+  },
+  {
+    "from_slug": "junomon",
+    "to_slug": "riyuutamon"
+  },
+  {
+    "from_slug": "junomon",
+    "to_slug": "erekimon"
+  },
+  {
+    "from_slug": "junomon",
+    "to_slug": "suhamon"
+  },
+  {
+    "from_slug": "sirenmon",
+    "to_slug": "ceresmon"
+  },
+  {
+    "from_slug": "frigimon_jp",
+    "to_slug": "ceresmon"
+  },
+  {
+    "from_slug": "veedramon_jp",
+    "to_slug": "ceresmon"
+  },
+  {
+    "from_slug": "ceresmon",
+    "to_slug": "ceresmon-medium_jp"
+  },
+  {
+    "from_slug": "dinohyumon",
+    "to_slug": "halsemon"
+  },
+  {
+    "from_slug": "hikotehimon",
+    "to_slug": "halsemon"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "halsemon"
+  },
+  {
+    "from_slug": "halsemon",
+    "to_slug": "angemon_jp"
+  },
+  {
+    "from_slug": "halsemon",
+    "to_slug": "hurumeramon"
+  },
+  {
+    "from_slug": "halsemon",
+    "to_slug": "phantomon"
+  },
+  {
+    "from_slug": "halsemon",
+    "to_slug": "anuarumon"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "halsemon_jp"
+  },
+  {
+    "from_slug": "halsemon_jp",
+    "to_slug": "phantomon"
+  },
+  {
+    "from_slug": "skullmeramon_jp",
+    "to_slug": "shoutmon"
+  },
+  {
+    "from_slug": "patamon",
+    "to_slug": "centarumon"
+  },
+  {
+    "from_slug": "kokuwamon",
+    "to_slug": "centarumon"
+  },
+  {
+    "from_slug": "centarumon",
+    "to_slug": "gankoomon_jp"
+  },
+  {
+    "from_slug": "centarumon",
+    "to_slug": "angewomon_jp"
+  },
+  {
+    "from_slug": "centarumon",
+    "to_slug": "brachiomon_jp"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "craniamon"
+  },
+  {
+    "from_slug": "craniamon",
+    "to_slug": "calmaramon_jp"
+  },
+  {
+    "from_slug": "bukamon",
+    "to_slug": "gomamon"
+  },
+  {
+    "from_slug": "gomamon",
+    "to_slug": "hyogamon"
+  },
+  {
+    "from_slug": "kudamon",
+    "to_slug": "pagumon"
+  },
+  {
+    "from_slug": "kudamon",
+    "to_slug": "tsumemon"
+  },
+  {
+    "from_slug": "korutonumemon",
+    "to_slug": "waruseadramon"
+  },
+  {
+    "from_slug": "firamon",
+    "to_slug": "waruseadramon"
+  },
+  {
+    "from_slug": "sitoramon",
+    "to_slug": "waruseadramon"
+  },
+  {
+    "from_slug": "karatukinumemon",
+    "to_slug": "waruseadramon"
+  },
+  {
+    "from_slug": "waruseadramon",
+    "to_slug": "riuaiamon"
+  },
+  {
+    "from_slug": "waruseadramon",
+    "to_slug": "meteormon_jp"
+  },
+  {
+    "from_slug": "waruseadramon",
+    "to_slug": "metarusitoramon"
+  },
+  {
+    "from_slug": "harumon",
+    "to_slug": "plesiomon"
+  },
+  {
+    "from_slug": "betamon",
+    "to_slug": "plesiomon"
+  },
+  {
+    "from_slug": "huroramon",
+    "to_slug": "plesiomon"
+  },
+  {
+    "from_slug": "plesiomon",
+    "to_slug": "tonosamakekomon"
+  },
+  {
+    "from_slug": "plesiomon",
+    "to_slug": "kahemon"
+  },
+  {
+    "from_slug": "plesiomon",
+    "to_slug": "deltamon_jp"
+  },
+  {
+    "from_slug": "harumon",
+    "to_slug": "plesiomon_jp"
+  },
+  {
+    "from_slug": "betamon",
+    "to_slug": "plesiomon_jp"
+  },
+  {
+    "from_slug": "huroramon",
+    "to_slug": "plesiomon_jp"
+  },
+  {
+    "from_slug": "plesiomon_jp",
+    "to_slug": "tonosamakekomon"
+  },
+  {
+    "from_slug": "plesiomon_jp",
+    "to_slug": "kahemon"
+  },
+  {
+    "from_slug": "plesiomon_jp",
+    "to_slug": "deltamon_jp"
+  },
+  {
+    "from_slug": "dorumon",
+    "to_slug": "drimogemon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "drimogemon"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "drimogemon"
+  },
+  {
+    "from_slug": "drimogemon",
+    "to_slug": "strikedramon"
+  },
+  {
+    "from_slug": "drimogemon",
+    "to_slug": "rotareomon"
+  },
+  {
+    "from_slug": "drimogemon",
+    "to_slug": "hurakimon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "drimogemon_jp"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "drimogemon_jp"
+  },
+  {
+    "from_slug": "drimogemon_jp",
+    "to_slug": "strikedramon"
+  },
+  {
+    "from_slug": "kutamon",
+    "to_slug": "ginryumon"
+  },
+  {
+    "from_slug": "riyuutamon",
+    "to_slug": "ginryumon"
+  },
+  {
+    "from_slug": "huarukomon",
+    "to_slug": "ginryumon"
+  },
+  {
+    "from_slug": "ginryumon",
+    "to_slug": "hisyaryumon"
+  },
+  {
+    "from_slug": "ginryumon",
+    "to_slug": "sukarukureimon"
+  },
+  {
+    "from_slug": "ginryumon",
+    "to_slug": "butenmon"
+  },
+  {
+    "from_slug": "nyaromon",
+    "to_slug": "gundramon"
+  },
+  {
+    "from_slug": "gundramon",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "gundramon",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "gundramon",
+    "to_slug": "yukitarumon"
+  },
+  {
+    "from_slug": "gundramon",
+    "to_slug": "hyogamon"
+  },
+  {
+    "from_slug": "gundramon",
+    "to_slug": "solarmon"
+  },
+  {
+    "from_slug": "gundramon",
+    "to_slug": "callismon_jp"
+  },
+  {
+    "from_slug": "nyaromon",
+    "to_slug": "gundramon_jp"
+  },
+  {
+    "from_slug": "gundramon_jp",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "gundramon_jp",
+    "to_slug": "kendogarurumon_jp"
+  },
+  {
+    "from_slug": "gundramon_jp",
+    "to_slug": "yukitarumon"
+  },
+  {
+    "from_slug": "gundramon_jp",
+    "to_slug": "hyogamon"
+  },
+  {
+    "from_slug": "gundramon_jp",
+    "to_slug": "solarmon"
+  },
+  {
+    "from_slug": "gundramon_jp",
+    "to_slug": "callismon_jp"
+  },
+  {
+    "from_slug": "patamon",
+    "to_slug": "vegiemon_jp"
+  },
+  {
+    "from_slug": "patamon",
+    "to_slug": "kyubimon_jp"
+  },
+  {
+    "from_slug": "patamon",
+    "to_slug": "kentaurosmon_jp"
+  },
+  {
+    "from_slug": "kohurimon",
+    "to_slug": "sorcermon"
+  },
+  {
+    "from_slug": "kotumon",
+    "to_slug": "sorcermon"
+  },
+  {
+    "from_slug": "arumasimon",
+    "to_slug": "sorcermon"
+  },
+  {
+    "from_slug": "sorcermon",
+    "to_slug": "horukemon"
+  },
+  {
+    "from_slug": "sorcermon",
+    "to_slug": "magnamon"
+  },
+  {
+    "from_slug": "sorcermon",
+    "to_slug": "insekimon"
+  },
+  {
+    "from_slug": "kohurimon",
+    "to_slug": "sorcermon_jp"
+  },
+  {
+    "from_slug": "kotumon",
+    "to_slug": "sorcermon_jp"
+  },
+  {
+    "from_slug": "arumasimon",
+    "to_slug": "sorcermon_jp"
+  },
+  {
+    "from_slug": "sorcermon_jp",
+    "to_slug": "horukemon"
+  },
+  {
+    "from_slug": "sorcermon_jp",
+    "to_slug": "magnamon"
+  },
+  {
+    "from_slug": "sorcermon_jp",
+    "to_slug": "insekimon"
+  },
+  {
+    "from_slug": "reteitehimon",
+    "to_slug": "mastemon"
+  },
+  {
+    "from_slug": "ensieumon",
+    "to_slug": "mastemon"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "barbamon"
+  },
+  {
+    "from_slug": "barbamon",
+    "to_slug": "sanhuraumon"
+  },
+  {
+    "from_slug": "barbamon",
+    "to_slug": "togemon"
+  },
+  {
+    "from_slug": "barbamon",
+    "to_slug": "rihorumon"
+  },
+  {
+    "from_slug": "barbamon",
+    "to_slug": "tutitarumon"
+  },
+  {
+    "from_slug": "barbamon",
+    "to_slug": "touruiemon"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "barbamon_jp"
+  },
+  {
+    "from_slug": "barbamon_jp",
+    "to_slug": "sanhuraumon"
+  },
+  {
+    "from_slug": "barbamon_jp",
+    "to_slug": "togemon"
+  },
+  {
+    "from_slug": "barbamon_jp",
+    "to_slug": "rihorumon"
+  },
+  {
+    "from_slug": "barbamon_jp",
+    "to_slug": "tutitarumon"
+  },
+  {
+    "from_slug": "barbamon_jp",
+    "to_slug": "touruiemon"
+  },
+  {
+    "from_slug": "toyagumon_jp",
+    "to_slug": "starmon"
+  },
+  {
+    "from_slug": "hagurumon",
+    "to_slug": "tankmon"
+  },
+  {
+    "from_slug": "tankmon",
+    "to_slug": "tankdramon_jp"
+  },
+  {
+    "from_slug": "tsumemon",
+    "to_slug": "toyagumon"
+  },
+  {
+    "from_slug": "toyagumon",
+    "to_slug": "sankuruumon"
+  },
+  {
+    "from_slug": "toyagumon",
+    "to_slug": "sukamon"
+  },
+  {
+    "from_slug": "toyagumon",
+    "to_slug": "uisamon"
+  },
+  {
+    "from_slug": "toyagumon",
+    "to_slug": "starmon"
+  },
+  {
+    "from_slug": "minotarumon",
+    "to_slug": "triceramon"
+  },
+  {
+    "from_slug": "monochromon_jp",
+    "to_slug": "triceramon"
+  },
+  {
+    "from_slug": "drimogemon_jp",
+    "to_slug": "triceramon"
+  },
+  {
+    "from_slug": "tuskmon_jp",
+    "to_slug": "triceramon"
+  },
+  {
+    "from_slug": "triceramon",
+    "to_slug": "hureikutoramon"
+  },
+  {
+    "from_slug": "triceramon",
+    "to_slug": "aruteimetutohurakimon"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "durandamon"
+  },
+  {
+    "from_slug": "durandamon",
+    "to_slug": "calmaramon_jp"
+  },
+  {
+    "from_slug": "sanhuraumon",
+    "to_slug": "veedramon"
+  },
+  {
+    "from_slug": "kiwimon",
+    "to_slug": "veedramon"
+  },
+  {
+    "from_slug": "tutitarumon",
+    "to_slug": "veedramon"
+  },
+  {
+    "from_slug": "veedramon",
+    "to_slug": "uarotourumon"
+  },
+  {
+    "from_slug": "veedramon",
+    "to_slug": "ceresmon"
+  },
+  {
+    "from_slug": "veedramon",
+    "to_slug": "huratinanumemon"
+  },
+  {
+    "from_slug": "magnagarurumon",
+    "to_slug": "susanomon"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "pandamon"
+  },
+  {
+    "from_slug": "pandamon",
+    "to_slug": "calmaramon_jp"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "pandamon_jp"
+  },
+  {
+    "from_slug": "pandamon_jp",
+    "to_slug": "calmaramon_jp"
+  },
+  {
+    "from_slug": "patamon",
+    "to_slug": "punimon"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "punimon"
+  },
+  {
+    "from_slug": "biyomon",
+    "to_slug": "punimon"
+  },
+  {
+    "from_slug": "erekimon",
+    "to_slug": "punimon"
+  },
+  {
+    "from_slug": "punimon",
+    "to_slug": "hihokurihuomon"
+  },
+  {
+    "from_slug": "punimon",
+    "to_slug": "horiensiemon"
+  },
+  {
+    "from_slug": "punimon",
+    "to_slug": "chirinmon_jp"
+  },
+  {
+    "from_slug": "kabuterimon",
+    "to_slug": "airdramon"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "whamon"
+  },
+  {
+    "from_slug": "takomon",
+    "to_slug": "whamon"
+  },
+  {
+    "from_slug": "deltamon_jp",
+    "to_slug": "whamon"
+  },
+  {
+    "from_slug": "rahutatoramon",
+    "to_slug": "tankdramon"
+  },
+  {
+    "from_slug": "wasuhumon",
+    "to_slug": "tankdramon"
+  },
+  {
+    "from_slug": "tankmon",
+    "to_slug": "tankdramon"
+  },
+  {
+    "from_slug": "tankdramon",
+    "to_slug": "kantoramon"
+  },
+  {
+    "from_slug": "tankdramon",
+    "to_slug": "takutoramon"
+  },
+  {
+    "from_slug": "ikkakumon",
+    "to_slug": "phoenixmon"
+  },
+  {
+    "from_slug": "sitoramon",
+    "to_slug": "phoenixmon"
+  },
+  {
+    "from_slug": "divermon_jp",
+    "to_slug": "phoenixmon"
+  },
+  {
+    "from_slug": "phoenixmon",
+    "to_slug": "riuaiamon"
+  },
+  {
+    "from_slug": "phoenixmon",
+    "to_slug": "neptunemon_jp"
+  },
+  {
+    "from_slug": "phoenixmon",
+    "to_slug": "huresiomon"
+  },
+  {
+    "from_slug": "phoenixmon",
+    "to_slug": "marineangemon"
+  },
+  {
+    "from_slug": "phoenixmon_jp",
+    "to_slug": "neptunemon_jp"
+  },
+  {
+    "from_slug": "phoenixmon_jp",
+    "to_slug": "marineangemon"
+  },
+  {
+    "from_slug": "meramon",
+    "to_slug": "skullmeramon"
+  },
+  {
+    "from_slug": "uenteimon",
+    "to_slug": "skullmeramon"
+  },
+  {
+    "from_slug": "chaosdramon_jp",
+    "to_slug": "skullmeramon"
+  },
+  {
+    "from_slug": "skullmeramon",
+    "to_slug": "herusehumon"
+  },
+  {
+    "from_slug": "skullmeramon",
+    "to_slug": "shoutmon"
+  },
+  {
+    "from_slug": "skullmeramon",
+    "to_slug": "auensikitutomon"
+  },
+  {
+    "from_slug": "chaosdramon_jp",
+    "to_slug": "skullmeramon_jp"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "grandracmon"
+  },
+  {
+    "from_slug": "grandracmon",
+    "to_slug": "sanhuraumon"
+  },
+  {
+    "from_slug": "grandracmon",
+    "to_slug": "togemon"
+  },
+  {
+    "from_slug": "grandracmon",
+    "to_slug": "rihorumon"
+  },
+  {
+    "from_slug": "grandracmon",
+    "to_slug": "tutitarumon"
+  },
+  {
+    "from_slug": "grandracmon",
+    "to_slug": "touruiemon"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "grandracmon_jp"
+  },
+  {
+    "from_slug": "grandracmon_jp",
+    "to_slug": "sanhuraumon"
+  },
+  {
+    "from_slug": "grandracmon_jp",
+    "to_slug": "togemon"
+  },
+  {
+    "from_slug": "grandracmon_jp",
+    "to_slug": "rihorumon"
+  },
+  {
+    "from_slug": "grandracmon_jp",
+    "to_slug": "tutitarumon"
+  },
+  {
+    "from_slug": "grandracmon_jp",
+    "to_slug": "touruiemon"
+  },
+  {
+    "from_slug": "reteitehimon",
+    "to_slug": "masterblimpmon"
+  },
+  {
+    "from_slug": "ensieumon",
+    "to_slug": "masterblimpmon"
+  },
+  {
+    "from_slug": "kapurimon",
+    "to_slug": "hagurumon"
+  },
+  {
+    "from_slug": "knightmon_jp",
+    "to_slug": "reppamon"
+  },
+  {
+    "from_slug": "toiakumon",
+    "to_slug": "reppamon"
+  },
+  {
+    "from_slug": "syakomon",
+    "to_slug": "reppamon"
+  },
+  {
+    "from_slug": "reppamon",
+    "to_slug": "takomon"
+  },
+  {
+    "from_slug": "reppamon",
+    "to_slug": "huratukukinkunumemon"
+  },
+  {
+    "from_slug": "reppamon",
+    "to_slug": "tonosamakekomon"
+  },
+  {
+    "from_slug": "reppamon",
+    "to_slug": "ekusuteiranomon"
+  },
+  {
+    "from_slug": "reppamon",
+    "to_slug": "sukaruharukimon"
+  },
+  {
+    "from_slug": "hyogamon",
+    "to_slug": "phantomon"
+  },
+  {
+    "from_slug": "snimon",
+    "to_slug": "phantomon"
+  },
+  {
+    "from_slug": "phantomon",
+    "to_slug": "vikemon_jp"
+  },
+  {
+    "from_slug": "hyokomon",
+    "to_slug": "yokomon"
+  },
+  {
+    "from_slug": "yokomon",
+    "to_slug": "hetukumon"
+  },
+  {
+    "from_slug": "yokomon",
+    "to_slug": "chaosdramon_jp"
+  },
+  {
+    "from_slug": "yokomon",
+    "to_slug": "teinohiyumon"
+  },
+  {
+    "from_slug": "yokomon",
+    "to_slug": "buraimon"
+  },
+  {
+    "from_slug": "poyomon",
+    "to_slug": "bukamon"
+  },
+  {
+    "from_slug": "huanhimon",
+    "to_slug": "rapidmon"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "rapidmon"
+  },
+  {
+    "from_slug": "matusiyumon",
+    "to_slug": "rapidmon"
+  },
+  {
+    "from_slug": "rapidmon",
+    "to_slug": "megadramon_jp"
+  },
+  {
+    "from_slug": "rapidmon",
+    "to_slug": "atorakahuterimon"
+  },
+  {
+    "from_slug": "rapidmon",
+    "to_slug": "okuwamon"
+  },
+  {
+    "from_slug": "rapidmon",
+    "to_slug": "siyueruhimon"
+  },
+  {
+    "from_slug": "huanhimon",
+    "to_slug": "rapidmon_jp"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "rapidmon_jp"
+  },
+  {
+    "from_slug": "matusiyumon",
+    "to_slug": "rapidmon_jp"
+  },
+  {
+    "from_slug": "rapidmon_jp",
+    "to_slug": "megadramon_jp"
+  },
+  {
+    "from_slug": "rapidmon_jp",
+    "to_slug": "atorakahuterimon"
+  },
+  {
+    "from_slug": "rapidmon_jp",
+    "to_slug": "okuwamon"
+  },
+  {
+    "from_slug": "rapidmon_jp",
+    "to_slug": "siyueruhimon"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "icemon"
+  },
+  {
+    "from_slug": "phantomon",
+    "to_slug": "icemon"
+  },
+  {
+    "from_slug": "icemon",
+    "to_slug": "ahokarimon"
+  },
+  {
+    "from_slug": "ankylomon",
+    "to_slug": "neptunemon_jp"
+  },
+  {
+    "from_slug": "knightmon_jp",
+    "to_slug": "dracmon"
+  },
+  {
+    "from_slug": "toiakumon",
+    "to_slug": "dracmon"
+  },
+  {
+    "from_slug": "syakomon",
+    "to_slug": "dracmon"
+  },
+  {
+    "from_slug": "dracmon",
+    "to_slug": "takomon"
+  },
+  {
+    "from_slug": "dracmon",
+    "to_slug": "huratukukinkunumemon"
+  },
+  {
+    "from_slug": "dracmon",
+    "to_slug": "tonosamakekomon"
+  },
+  {
+    "from_slug": "dracmon",
+    "to_slug": "ekusuteiranomon"
+  },
+  {
+    "from_slug": "dracmon",
+    "to_slug": "sukaruharukimon"
+  },
+  {
+    "from_slug": "knightmon_jp",
+    "to_slug": "dracmon_jp"
+  },
+  {
+    "from_slug": "toiakumon",
+    "to_slug": "dracmon_jp"
+  },
+  {
+    "from_slug": "syakomon",
+    "to_slug": "dracmon_jp"
+  },
+  {
+    "from_slug": "dracmon_jp",
+    "to_slug": "takomon"
+  },
+  {
+    "from_slug": "dracmon_jp",
+    "to_slug": "huratukukinkunumemon"
+  },
+  {
+    "from_slug": "dracmon_jp",
+    "to_slug": "tonosamakekomon"
+  },
+  {
+    "from_slug": "dracmon_jp",
+    "to_slug": "ekusuteiranomon"
+  },
+  {
+    "from_slug": "dracmon_jp",
+    "to_slug": "sukaruharukimon"
+  },
+  {
+    "from_slug": "hyokomon",
+    "to_slug": "chaosdramon_jp"
+  },
+  {
+    "from_slug": "hyokomon",
+    "to_slug": "buraimon"
+  },
+  {
+    "from_slug": "gaomon",
+    "to_slug": "crowmon"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "crowmon"
+  },
+  {
+    "from_slug": "rotuhumon",
+    "to_slug": "crowmon"
+  },
+  {
+    "from_slug": "crowmon",
+    "to_slug": "hureamon"
+  },
+  {
+    "from_slug": "crowmon",
+    "to_slug": "kuratuhureomon"
+  },
+  {
+    "from_slug": "crowmon",
+    "to_slug": "hansiyamon"
+  },
+  {
+    "from_slug": "crowmon",
+    "to_slug": "rotareomon"
+  },
+  {
+    "from_slug": "bearmon_jp",
+    "to_slug": "crowmon_jp"
+  },
+  {
+    "from_slug": "kirumon",
+    "to_slug": "tyrannomon"
+  },
+  {
+    "from_slug": "torakomon",
+    "to_slug": "tyrannomon"
+  },
+  {
+    "from_slug": "rokomon",
+    "to_slug": "tyrannomon"
+  },
+  {
+    "from_slug": "tyrannomon",
+    "to_slug": "ekusuteiranomon"
+  },
+  {
+    "from_slug": "tyrannomon",
+    "to_slug": "kurauntoramon"
+  },
+  {
+    "from_slug": "tyrannomon",
+    "to_slug": "metarukureimon"
+  },
+  {
+    "from_slug": "tyrannomon",
+    "to_slug": "metaltyrannomon_jp"
+  },
+  {
+    "from_slug": "rokomon",
+    "to_slug": "tyrannomon_jp"
+  },
+  {
+    "from_slug": "knightmon_jp",
+    "to_slug": "crabmon"
+  },
+  {
+    "from_slug": "toiakumon",
+    "to_slug": "crabmon"
+  },
+  {
+    "from_slug": "syakomon",
+    "to_slug": "crabmon"
+  },
+  {
+    "from_slug": "crabmon",
+    "to_slug": "takomon"
+  },
+  {
+    "from_slug": "crabmon",
+    "to_slug": "huratukukinkunumemon"
+  },
+  {
+    "from_slug": "crabmon",
+    "to_slug": "tonosamakekomon"
+  },
+  {
+    "from_slug": "crabmon",
+    "to_slug": "ekusuteiranomon"
+  },
+  {
+    "from_slug": "crabmon",
+    "to_slug": "sukaruharukimon"
+  },
+  {
+    "from_slug": "wanyamon",
+    "to_slug": "examon"
+  },
+  {
+    "from_slug": "examon",
+    "to_slug": "kurisumon"
+  },
+  {
+    "from_slug": "examon",
+    "to_slug": "gaogamon_jp"
+  },
+  {
+    "from_slug": "examon",
+    "to_slug": "mojyamon"
+  },
+  {
+    "from_slug": "examon",
+    "to_slug": "crowmon_jp"
+  },
+  {
+    "from_slug": "examon",
+    "to_slug": "karurumon-hei"
+  },
+  {
+    "from_slug": "wanyamon",
+    "to_slug": "examon_jp"
+  },
+  {
+    "from_slug": "examon_jp",
+    "to_slug": "kurisumon"
+  },
+  {
+    "from_slug": "examon_jp",
+    "to_slug": "gaogamon_jp"
+  },
+  {
+    "from_slug": "examon_jp",
+    "to_slug": "mojyamon"
+  },
+  {
+    "from_slug": "examon_jp",
+    "to_slug": "crowmon_jp"
+  },
+  {
+    "from_slug": "examon_jp",
+    "to_slug": "karurumon-hei"
+  },
+  {
+    "from_slug": "coronamon",
+    "to_slug": "chaosdramon"
+  },
+  {
+    "from_slug": "biyomon",
+    "to_slug": "chaosdramon"
+  },
+  {
+    "from_slug": "hyokomon",
+    "to_slug": "chaosdramon"
+  },
+  {
+    "from_slug": "mutiyomon",
+    "to_slug": "chaosdramon"
+  },
+  {
+    "from_slug": "chaosdramon",
+    "to_slug": "hureamon"
+  },
+  {
+    "from_slug": "chaosdramon",
+    "to_slug": "karutamon"
+  },
+  {
+    "from_slug": "chaosdramon",
+    "to_slug": "skullmeramon_jp"
+  },
+  {
+    "from_slug": "chaosdramon",
+    "to_slug": "harotutomon"
+  },
+  {
+    "from_slug": "coronamon",
+    "to_slug": "chaosdramon_jp"
+  },
+  {
+    "from_slug": "biyomon",
+    "to_slug": "chaosdramon_jp"
+  },
+  {
+    "from_slug": "coronamon",
+    "to_slug": "agunimon"
+  },
+  {
+    "from_slug": "agunimon",
+    "to_slug": "uritoramon"
+  },
+  {
+    "from_slug": "teinohimon",
+    "to_slug": "grankuwagamon"
+  },
+  {
+    "from_slug": "siyureimon",
+    "to_slug": "grankuwagamon"
+  },
+  {
+    "from_slug": "okuwamon",
+    "to_slug": "grankuwagamon"
+  },
+  {
+    "from_slug": "ogremon",
+    "to_slug": "magnamon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "geremon"
+  },
+  {
+    "from_slug": "geremon",
+    "to_slug": "monzaemon"
+  },
+  {
+    "from_slug": "vegiemon_jp",
+    "to_slug": "sirenmon"
+  },
+  {
+    "from_slug": "sirenmon",
+    "to_slug": "marineangemon"
+  },
+  {
+    "from_slug": "rokomon",
+    "to_slug": "hiandromon"
+  },
+  {
+    "from_slug": "mamimon",
+    "to_slug": "hiandromon"
+  },
+  {
+    "from_slug": "gankoomon_jp",
+    "to_slug": "hiandromon"
+  },
+  {
+    "from_slug": "brachiomon_jp",
+    "to_slug": "hiandromon"
+  },
+  {
+    "from_slug": "nyaromon",
+    "to_slug": "lunamon"
+  },
+  {
+    "from_slug": "lunamon",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "lunamon",
+    "to_slug": "hyogamon"
+  },
+  {
+    "from_slug": "tehimon",
+    "to_slug": "skullsatamon"
+  },
+  {
+    "from_slug": "okamon",
+    "to_slug": "skullsatamon"
+  },
+  {
+    "from_slug": "bukamon",
+    "to_slug": "skullsatamon"
+  },
+  {
+    "from_slug": "karurumon-hei",
+    "to_slug": "skullsatamon"
+  },
+  {
+    "from_slug": "skullsatamon",
+    "to_slug": "haruhamon"
+  },
+  {
+    "from_slug": "skullsatamon",
+    "to_slug": "vikemon_jp"
+  },
+  {
+    "from_slug": "skullsatamon",
+    "to_slug": "gizamon_jp"
+  },
+  {
+    "from_slug": "bukamon",
+    "to_slug": "skullsatamon_jp"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "vikemon_jp"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "gizamon_jp"
+  },
+  {
+    "from_slug": "hyokomon",
+    "to_slug": "biyomon"
+  },
+  {
+    "from_slug": "biyomon",
+    "to_slug": "kyubimon_jp"
+  },
+  {
+    "from_slug": "phoenixmon_jp",
+    "to_slug": "neptunemon"
+  },
+  {
+    "from_slug": "ankylomon",
+    "to_slug": "neptunemon"
+  },
+  {
+    "from_slug": "siyakumon",
+    "to_slug": "neptunemon"
+  },
+  {
+    "from_slug": "kutamon",
+    "to_slug": "seadramon"
+  },
+  {
+    "from_slug": "dorumon",
+    "to_slug": "seadramon"
+  },
+  {
+    "from_slug": "mutiyomon",
+    "to_slug": "seadramon"
+  },
+  {
+    "from_slug": "seadramon",
+    "to_slug": "hisyaryumon"
+  },
+  {
+    "from_slug": "seadramon",
+    "to_slug": "megadramon_jp"
+  },
+  {
+    "from_slug": "seadramon",
+    "to_slug": "earohuitoramon"
+  },
+  {
+    "from_slug": "seadramon",
+    "to_slug": "kikatoramon"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "lilamon"
+  },
+  {
+    "from_slug": "takomon",
+    "to_slug": "lilamon"
+  },
+  {
+    "from_slug": "deltamon_jp",
+    "to_slug": "lilamon"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "lilamon_jp"
+  },
+  {
+    "from_slug": "takomon",
+    "to_slug": "lilamon_jp"
+  },
+  {
+    "from_slug": "deltamon_jp",
+    "to_slug": "lilamon_jp"
+  },
+  {
+    "from_slug": "patamon",
+    "to_slug": "kyubimon"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "kyubimon"
+  },
+  {
+    "from_slug": "biyomon",
+    "to_slug": "kyubimon"
+  },
+  {
+    "from_slug": "erekimon",
+    "to_slug": "kyubimon"
+  },
+  {
+    "from_slug": "kyubimon",
+    "to_slug": "hihokurihuomon"
+  },
+  {
+    "from_slug": "kyubimon",
+    "to_slug": "horiensiemon"
+  },
+  {
+    "from_slug": "kyubimon",
+    "to_slug": "chirinmon_jp"
+  },
+  {
+    "from_slug": "hawkmon",
+    "to_slug": "kyubimon_jp"
+  },
+  {
+    "from_slug": "sankuruumon",
+    "to_slug": "matadormon"
+  },
+  {
+    "from_slug": "touruiemon",
+    "to_slug": "matadormon"
+  },
+  {
+    "from_slug": "toherumon",
+    "to_slug": "matadormon"
+  },
+  {
+    "from_slug": "matadormon",
+    "to_slug": "kurantorakumon"
+  },
+  {
+    "from_slug": "matadormon",
+    "to_slug": "suratusiyuensiemon"
+  },
+  {
+    "from_slug": "matadormon",
+    "to_slug": "kuzuhamon"
+  },
+  {
+    "from_slug": "arukenimon",
+    "to_slug": "lotosmon"
+  },
+  {
+    "from_slug": "hanhumon",
+    "to_slug": "lotosmon"
+  },
+  {
+    "from_slug": "horukemon",
+    "to_slug": "gargomon"
+  },
+  {
+    "from_slug": "hureamon",
+    "to_slug": "gargomon"
+  },
+  {
+    "from_slug": "gargomon",
+    "to_slug": "kureisunouamon"
+  },
+  {
+    "from_slug": "duramon",
+    "to_slug": "pagumon"
+  },
+  {
+    "from_slug": "dorumon",
+    "to_slug": "dorugamon"
+  },
+  {
+    "from_slug": "kasimon",
+    "to_slug": "dorugamon"
+  },
+  {
+    "from_slug": "kahumon-hei",
+    "to_slug": "dorugamon"
+  },
+  {
+    "from_slug": "dorugamon",
+    "to_slug": "raisukureimon"
+  },
+  {
+    "from_slug": "dorugamon",
+    "to_slug": "torukuremon"
+  },
+  {
+    "from_slug": "dorugamon",
+    "to_slug": "kuretokurisumon"
+  },
+  {
+    "from_slug": "dorugamon",
+    "to_slug": "metarukureimon-qing"
+  },
+  {
+    "from_slug": "octomon",
+    "to_slug": "wanyamon"
+  },
+  {
+    "from_slug": "wanyamon",
+    "to_slug": "hawkmon"
+  },
+  {
+    "from_slug": "wanyamon",
+    "to_slug": "bearmon_jp"
+  },
+  {
+    "from_slug": "junomon-hm",
+    "to_slug": "yunomon"
+  },
+  {
+    "from_slug": "tanemon",
+    "to_slug": "birdramon"
+  },
+  {
+    "from_slug": "birdramon",
+    "to_slug": "sanhuraumon"
+  },
+  {
+    "from_slug": "birdramon",
+    "to_slug": "togemon"
+  },
+  {
+    "from_slug": "birdramon",
+    "to_slug": "rihorumon"
+  },
+  {
+    "from_slug": "birdramon",
+    "to_slug": "tutitarumon"
+  },
+  {
+    "from_slug": "birdramon",
+    "to_slug": "touruiemon"
+  },
+  {
+    "from_slug": "aikioteyusumon-taku",
+    "to_slug": "chronomon-dm"
+  },
+  {
+    "from_slug": "butenmon",
+    "to_slug": "chronomon-dm"
+  },
+  {
+    "from_slug": "ceresmon-medium",
+    "to_slug": "ceresmon"
+  },
+  {
+    "from_slug": "ceresmon-medium_jp",
+    "to_slug": "ceresmon"
+  },
+  {
+    "from_slug": "kurotukumon",
+    "to_slug": "gaiomon"
+  },
+  {
+    "from_slug": "teinohiyumon",
+    "to_slug": "gaiomon"
+  },
+  {
+    "from_slug": "suhaikamon",
+    "to_slug": "gaiomon"
+  },
+  {
+    "from_slug": "gaiomon",
+    "to_slug": "alphamon_jp"
+  },
+  {
+    "from_slug": "gaiomon",
+    "to_slug": "suratusiyuensiemon"
+  },
+  {
+    "from_slug": "gaiomon",
+    "to_slug": "rotonaitomon"
+  },
+  {
+    "from_slug": "gaiomon",
+    "to_slug": "touhutomon"
+  },
+  {
+    "from_slug": "gaiomon_jp",
+    "to_slug": "alphamon_jp"
+  },
+  {
+    "from_slug": "kutamon",
+    "to_slug": "vegiemon"
+  },
+  {
+    "from_slug": "patamon",
+    "to_slug": "vegiemon"
+  },
+  {
+    "from_slug": "botamon",
+    "to_slug": "vegiemon"
+  },
+  {
+    "from_slug": "vegiemon",
+    "to_slug": "hihokurihuomon"
+  },
+  {
+    "from_slug": "vegiemon",
+    "to_slug": "horiensiemon"
+  },
+  {
+    "from_slug": "vegiemon",
+    "to_slug": "sirenmon"
+  },
+  {
+    "from_slug": "vegiemon",
+    "to_slug": "siyatukoumon"
+  },
+  {
+    "from_slug": "botamon",
+    "to_slug": "vegiemon_jp"
+  },
+  {
+    "from_slug": "torukuremon",
+    "to_slug": "dorugoramon"
+  },
+  {
+    "from_slug": "hairutoramon",
+    "to_slug": "dorugoramon"
+  },
+  {
+    "from_slug": "arukenimon",
+    "to_slug": "gotsumon"
+  },
+  {
+    "from_slug": "hanhumon",
+    "to_slug": "gotsumon"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "gizamon"
+  },
+  {
+    "from_slug": "takomon",
+    "to_slug": "gizamon"
+  },
+  {
+    "from_slug": "deltamon_jp",
+    "to_slug": "gizamon"
+  },
+  {
+    "from_slug": "punimon",
+    "to_slug": "nyaromon"
+  },
+  {
+    "from_slug": "skullsatamon_jp",
+    "to_slug": "vikemon"
+  },
+  {
+    "from_slug": "phantomon",
+    "to_slug": "vikemon"
+  },
+  {
+    "from_slug": "vikemon",
+    "to_slug": "ahokarimon"
+  },
+  {
+    "from_slug": "mistymon_jp",
+    "to_slug": "alphamon"
+  },
+  {
+    "from_slug": "gaiomon_jp",
+    "to_slug": "alphamon"
+  },
+  {
+    "from_slug": "sanhuraumon",
+    "to_slug": "frigimon"
+  },
+  {
+    "from_slug": "togemon",
+    "to_slug": "frigimon"
+  },
+  {
+    "from_slug": "uitutimon",
+    "to_slug": "frigimon"
+  },
+  {
+    "from_slug": "frigimon",
+    "to_slug": "rosemon"
+  },
+  {
+    "from_slug": "frigimon",
+    "to_slug": "ceresmon"
+  },
+  {
+    "from_slug": "frigimon",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "frigimon",
+    "to_slug": "sukamon"
+  },
+  {
+    "from_slug": "frigimon_jp",
+    "to_slug": "lekismon"
+  },
+  {
+    "from_slug": "frigimon_jp",
+    "to_slug": "sukamon"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "gabumon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "rahutatoramon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "siokureimon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "numemon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "kureimon"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "koatoramon-lu"
+  },
+  {
+    "from_slug": "gabumon",
+    "to_slug": "akumon-yong-qi-noban"
+  },
+  {
+    "from_slug": "koromon",
+    "to_slug": "gabumon_jp"
+  },
+  {
+    "from_slug": "gabumon_jp",
+    "to_slug": "rahutatoramon"
+  },
+  {
+    "from_slug": "gabumon_jp",
+    "to_slug": "siokureimon"
+  },
+  {
+    "from_slug": "gabumon_jp",
+    "to_slug": "numemon"
+  },
+  {
+    "from_slug": "gabumon_jp",
+    "to_slug": "kureimon"
+  },
+  {
+    "from_slug": "gabumon_jp",
+    "to_slug": "akumon-yong-qi-noban"
+  },
+  {
+    "from_slug": "kisamon",
+    "to_slug": "zanbamon"
+  },
+  {
+    "from_slug": "zanbamon",
+    "to_slug": "calmaramon_jp"
+  },
+  {
+    "from_slug": "zanbamon_jp",
+    "to_slug": "calmaramon_jp"
+  },
+  {
+    "from_slug": "jupitermon_jp",
+    "to_slug": "jupitermon-wm"
+  },
+  {
+    "from_slug": "wanyamon",
+    "to_slug": "bearmon"
+  },
+  {
+    "from_slug": "bearmon",
+    "to_slug": "kurisumon"
+  },
+  {
+    "from_slug": "bearmon",
+    "to_slug": "gaogamon_jp"
+  },
+  {
+    "from_slug": "bearmon",
+    "to_slug": "mojyamon"
+  },
+  {
+    "from_slug": "bearmon",
+    "to_slug": "crowmon_jp"
+  },
+  {
+    "from_slug": "bearmon",
+    "to_slug": "karurumon-hei"
+  },
+  {
+    "from_slug": "patamon",
+    "to_slug": "kentaurosmon"
+  },
+  {
+    "from_slug": "kokuwamon",
+    "to_slug": "kentaurosmon"
+  },
+  {
+    "from_slug": "kentaurosmon",
+    "to_slug": "gankoomon_jp"
+  },
+  {
+    "from_slug": "kentaurosmon",
+    "to_slug": "angewomon_jp"
+  },
+  {
+    "from_slug": "kentaurosmon",
+    "to_slug": "brachiomon_jp"
+  },
+  {
+    "from_slug": "octomon",
+    "to_slug": "frigimon_jp"
+  },
+  {
+    "from_slug": "teirumon",
+    "to_slug": "nefertimon"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "slug": "ankylomon",
+  "slug_ja": "hankiyomon",
+  "name_en": "Ankylomon",
+  "name_ja": "ハンギョモン",
+  "stage_en": "Champion",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "豪胆所持特攻水",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1610以上◆攻撃力860以上◆素早さ830以上",
+  "evolves_from": [
+    "ガワッパモン",
+    "シーラモン",
+    "オクタモン",
+    "ゲコモン"
+  ],
+  "evolves_to": [
+    "ネプトゥーンモン",
+    "プレシオモン"
+  ],
+  "main_image": "https://img.game8.co/4295819/b7269ab211179b23b292f3ff2c96c473.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555371",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354814",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8421052631578947,
+  "name": "Ankylomon",
+  "stage": "Champion"
+}

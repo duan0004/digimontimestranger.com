@@ -1,0 +1,28 @@
+{
+  "slug": "hitukoromon",
+  "name_ja": "ピッコロモン",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "包容力所持特攻魔法",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1600以上◆知力980以上◆精神930",
+  "evolves_from": [
+    "シェルモン",
+    "モジャモン",
+    "ソーサリモン"
+  ],
+  "evolves_to": [
+    "ウェヌスモン",
+    "オファニモン",
+    "クラヴィスエンジェモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_253.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354826",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ピッコロモン",
+  "stage": "完全体",
+  "name_en": "Hitukoromon"
+}

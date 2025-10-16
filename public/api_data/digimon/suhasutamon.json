@@ -1,0 +1,29 @@
+{
+  "slug": "suhasutamon",
+  "name_ja": "スーパースターモン",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "社交的所持特攻鉱",
+  "evolution_conditions": "エージェントランク5以上◆防御力1100以上◆素早さ740以上",
+  "evolves_from": [
+    "スターモン",
+    "ナニモン",
+    "リボルモン",
+    "ゲレモン"
+  ],
+  "evolves_to": [
+    "ゴッドドラモン",
+    "プリンスマメモン",
+    "ジャスティモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_238.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354781",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "スーパースターモン",
+  "stage": "完全体",
+  "name_en": "Suhasutamon"
+}

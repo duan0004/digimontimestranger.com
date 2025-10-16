@@ -1,0 +1,28 @@
+{
+  "slug": "gizamon",
+  "name": "Gizamon",
+  "name_en": "Gizamon",
+  "name_ja": "ギザモン",
+  "stage_en": "Rookie",
+  "stage_ja": null,
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大SP1500◆知力2420以上◆精神1570以上",
+  "evolves_from": [
+    "スカルサタモン",
+    "ダゴモン",
+    "ベーダモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4294407/b70260d69c602a5aaaf379dce96e3c56.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555105",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "Rookie"
+}

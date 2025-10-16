@@ -1,0 +1,26 @@
+{
+  "slug": "takutoramon",
+  "name_ja": "ダークドラモン",
+  "stage_ja": "究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2400以上◆攻撃力2220以上",
+  "evolves_from": [
+    "パイルドラモン",
+    "タンクドラモン",
+    "メタルグレイモン(青)"
+  ],
+  "evolves_to": [
+    "カオスモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_383.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355207",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ダークドラモン",
+  "stage": "究極体",
+  "name_en": "Takutoramon"
+}

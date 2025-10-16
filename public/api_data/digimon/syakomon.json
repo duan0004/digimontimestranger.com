@@ -1,0 +1,32 @@
+{
+  "slug": "syakomon",
+  "slug_ja": "siyakomon",
+  "name_en": "Syakomon",
+  "name_ja": "シャコモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク1以上◆最大HP440以上◆防御力180以上",
+  "evolves_from": [
+    "プカモン"
+  ],
+  "evolves_to": [
+    "シーラモン",
+    "シェルモン",
+    "カラツキヌメモン",
+    "オクタモン",
+    "レアモン"
+  ],
+  "main_image": "https://img.game8.co/4294397/be16b82df3d66d6b809719f1c2c6f8c7.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555114",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350041",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9411764705882353,
+  "name": "Syakomon",
+  "stage": "Rookie"
+}

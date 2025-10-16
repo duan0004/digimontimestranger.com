@@ -1,0 +1,33 @@
+{
+  "slug": "leomon",
+  "slug_ja": "reomon",
+  "name_en": "Leomon",
+  "name_ja": "レオモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク3以上◆攻撃力510以上",
+  "evolves_from": [
+    "ガオモン",
+    "ベアモン",
+    "ロップモン"
+  ],
+  "evolves_to": [
+    "フレアモン",
+    "グラップレオモン",
+    "パンジャモン",
+    "ローダーレオモン"
+  ],
+  "main_image": "https://img.game8.co/4295777/a8f1a8061b37241b8cee7ca8c0d1998d.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555246",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350086",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8333333333333334,
+  "name": "Leomon",
+  "stage": "Champion"
+}

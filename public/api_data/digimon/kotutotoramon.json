@@ -1,0 +1,25 @@
+{
+  "slug": "kotutotoramon",
+  "name_ja": "ゴッドドラモン",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "天啓所持特攻霊",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2690以上◆知力1660以上◆精神1380以上",
+  "evolves_from": [
+    "スーパースターモン",
+    "ホーリーエンジェモン",
+    "エアロブイドラモン",
+    "シャッコウモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_321.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355027",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ゴッドドラモン",
+  "stage": "究極体",
+  "name_en": "Kotutotoramon"
+}

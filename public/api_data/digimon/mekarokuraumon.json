@@ -1,0 +1,29 @@
+{
+  "slug": "mekarokuraumon",
+  "name_ja": "メガログラウモン",
+  "stage_ja": "完全体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大HP1730以上◆防御力1060以上",
+  "evolves_from": [
+    "グラウモン",
+    "コアドラモン(緑)",
+    "ズバイガーモン"
+  ],
+  "evolves_to": [
+    "メギドラモン",
+    "デュークモン",
+    "カオスデュークモン",
+    "カオスドラモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_294.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354949",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "メガログラウモン",
+  "stage": "完全体",
+  "name_en": "Mekarokuraumon"
+}

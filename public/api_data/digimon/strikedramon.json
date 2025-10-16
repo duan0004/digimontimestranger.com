@@ -1,0 +1,32 @@
+{
+  "slug": "strikedramon",
+  "slug_ja": "torikeramon",
+  "name_en": "Strikedramon",
+  "name_ja": "トリケラモン",
+  "stage_en": "Champion",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "熱血所持特攻硬体",
+  "evolution_conditions": "エージェントランク5以上◆攻撃力970以上◆防御力1060以上",
+  "evolves_from": [
+    "ミノタルモン",
+    "モノクロモン",
+    "ドリモゲモン",
+    "タスクモン"
+  ],
+  "evolves_to": [
+    "ブレイクドラモン",
+    "アルティメットブラキモン"
+  ],
+  "main_image": "https://img.game8.co/4295753/5c2fc11ae8440f2b8dced56297c1b508.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555232",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354805",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8695652173913043,
+  "name": "Strikedramon",
+  "stage": "Champion"
+}

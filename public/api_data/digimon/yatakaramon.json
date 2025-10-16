@@ -1,0 +1,27 @@
+{
+  "slug": "yatakaramon",
+  "name_ja": "ヤタガラモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク5以上◆知力1020以上◆素早さ1050以上",
+  "evolves_from": [
+    "アクィラモン",
+    "ペックモン"
+  ],
+  "evolves_to": [
+    "ヴァロドゥルモン",
+    "レイヴモン",
+    "クズハモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_225.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354742",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ヤタガラモン",
+  "stage": "完全体",
+  "name_en": "Yatakaramon"
+}

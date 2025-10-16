@@ -1,0 +1,28 @@
+{
+  "slug": "kuzuhamon",
+  "slug_ja": "kusuhamon",
+  "name_en": "Kuzuhamon",
+  "name_ja": "クズハモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "天啓所持特攻不死草",
+  "evolution_conditions": "エージェントランク7以上◆最大SP1290以上◆知力1860以上◆精神1290以上",
+  "evolves_from": [
+    "マタドゥルモン",
+    "タオモン",
+    "ヤタガラモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833341/32a2595710191dca3292b80b03014b9a.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555782",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355096",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8888888888888888,
+  "name": "Kuzuhamon",
+  "stage": "Mega"
+}

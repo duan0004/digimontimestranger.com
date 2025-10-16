@@ -1,0 +1,17 @@
+{
+  "slug": "zombieplutomon",
+  "name_en": "ZombiePlutomon",
+  "stage_en": "Mega",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11833376/a6b41206ef36b64f01d41ab2949957c9.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555803",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ZombiePlutomon",
+  "stage": "Mega",
+  "name_ja": "ゾンビプルートモン"
+}

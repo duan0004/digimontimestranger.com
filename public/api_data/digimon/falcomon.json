@@ -1,0 +1,17 @@
+{
+  "slug": "falcomon",
+  "name_en": "Falcomon",
+  "stage_en": "Rookie",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4294381/90d877a136e6d10a5c4f2313324f4ad5.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555198",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Falcomon",
+  "stage": "Rookie",
+  "name_ja": "ファルコモン"
+}

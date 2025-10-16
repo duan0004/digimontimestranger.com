@@ -1,0 +1,28 @@
+{
+  "slug": "ekusuteiranomon",
+  "name_ja": "エクスティラノモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "豪胆",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1610以上◆精神1010以上",
+  "evolves_from": [
+    "ティラノモン",
+    "クロックモン",
+    "レアモン"
+  ],
+  "evolves_to": [
+    "ラストティラノモン",
+    "ベルフェモンSM",
+    "ケルビモン(善)"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_202.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354673",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "エクスティラノモン",
+  "stage": "完全体",
+  "name_en": "Ekusuteiranomon"
+}

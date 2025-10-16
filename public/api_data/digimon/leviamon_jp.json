@@ -1,0 +1,31 @@
+{
+  "slug": "leviamon_jp",
+  "name": "テリアモン",
+  "name_en": "Leviamon Jp",
+  "name_ja": "テリアモン",
+  "stage_en": null,
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "包容力",
+  "evolution_conditions": "エージェントランク1以上◆最大HP380以上◆攻撃力180以上",
+  "evolves_from": [
+    "トコモン"
+  ],
+  "evolves_to": [
+    "モジャモン",
+    "レキスモン",
+    "ガワッパモン",
+    "ガルゴモン",
+    "調査中"
+  ],
+  "main_image": "https://j-img.game8.co/11833334/0b5382a3efe81c26fa0cecf931aa1cfe.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298279",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "成長期"
+}

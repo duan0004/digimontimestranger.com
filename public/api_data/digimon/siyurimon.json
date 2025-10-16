@@ -1,0 +1,22 @@
+{
+  "slug": "siyurimon",
+  "name_ja": "シュリモン",
+  "stage_ja": "アーマー体",
+  "attribute": "フリー",
+  "personality": "社交的所持特攻竜",
+  "evolution_conditions": "エージェントランク3以上◆純真のデジメンタル所持",
+  "evolves_from": [
+    "ホークモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_180.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350245",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "シュリモン",
+  "stage": "アーマー体",
+  "name_en": "Shurimon"
+}

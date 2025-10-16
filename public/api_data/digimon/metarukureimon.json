@@ -1,0 +1,27 @@
+{
+  "slug": "metarukureimon",
+  "name_ja": "メタルグレイモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "豪胆",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1480以上◆攻撃力1300以上",
+  "evolves_from": [
+    "デルタモン",
+    "グレイモン",
+    "ティラノモン"
+  ],
+  "evolves_to": [
+    "ウォーグレイモン",
+    "ガイオウモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_223.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354736",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "メタルグレイモン",
+  "stage": "完全体",
+  "name_en": "Metarukureimon"
+}

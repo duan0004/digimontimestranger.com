@@ -1,0 +1,29 @@
+{
+  "slug": "huitoramon",
+  "name_ja": "ブイドラモン",
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク3以上◆最大SP380以上◆攻撃力480以上◆精神390以上",
+  "evolves_from": [
+    "ブイモン",
+    "ドラコモン",
+    "プロットモン"
+  ],
+  "evolves_to": [
+    "ウイングドラモン",
+    "エアロブイドラモン",
+    "サイバードラモン",
+    "メタルグレイモン(青)"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_101.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350077",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ブイドラモン",
+  "stage": "成熟期",
+  "name_en": "Huitoramon"
+}

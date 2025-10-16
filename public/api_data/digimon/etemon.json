@@ -1,0 +1,32 @@
+{
+  "slug": "etemon",
+  "name_en": "Etemon",
+  "name_ja": "エテモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大HP1730以上◆精神940以上◆素早さ860以上",
+  "evolves_from": [
+    "ミノタルモン",
+    "ヌメモン",
+    "スカモン",
+    "ナニモン"
+  ],
+  "evolves_to": [
+    "パイルボルケーモン",
+    "キングエテモン",
+    "メタルエテモン"
+  ],
+  "main_image": "https://img.game8.co/4296787/18f59a715d614ae8cbfcae5e483e1b86.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555656",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354871",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Etemon",
+  "stage": "Ultimate"
+}

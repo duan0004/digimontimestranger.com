@@ -1,0 +1,26 @@
+{
+  "slug": "jupitermon-wm",
+  "name": "Jupitermon WM",
+  "name_en": "Jupitermon WM",
+  "name_ja": "ユピテルモン：ワースモード",
+  "stage_en": "Mega+",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "気さく所持特攻魔聖",
+  "evolution_conditions": "エージェントランク9以上◆最大HPが4020以上◆攻撃力が3200以上",
+  "evolves_from": [
+    "ユピテルモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11835902/e120dcd8be87572f40bc65e2591d93c2.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555876",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "Mega+"
+}

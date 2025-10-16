@@ -1,0 +1,25 @@
+{
+  "slug": "nefertimon_jp",
+  "name": "ネフェルティモン",
+  "name_en": "Nefertimon",
+  "name_ja": "ネフェルティモン",
+  "stage_en": null,
+  "stage_ja": "アーマー体",
+  "attribute": "フリー",
+  "personality": "天啓",
+  "evolution_conditions": "エージェントランク3以上◆光のデジメンタル所持",
+  "evolves_from": [
+    "テイルモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4296800/aa6867e23a886da3e38fc23291734b5c.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350248",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "アーマー体"
+}

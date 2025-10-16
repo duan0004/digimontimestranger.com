@@ -1,0 +1,31 @@
+{
+  "slug": "shamamon",
+  "slug_ja": "siyamamon",
+  "name_en": "Shamamon",
+  "name_ja": "シャーマモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク1以上◆最大SP230以上◆素早さ230以上",
+  "evolves_from": [
+    "ツメモン"
+  ],
+  "evolves_to": [
+    "ミノタルモン",
+    "ムシャモン",
+    "フーガモン",
+    "ウィッチモン"
+  ],
+  "main_image": "https://img.game8.co/4295516/f67c82be5cfabe0dde89cc7d73c06719.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555115",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298351",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Shamamon",
+  "stage": "Rookie"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "durandamon",
+  "slug_ja": "ranamon",
+  "name_en": "Durandamon",
+  "name_ja": "ラーナモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "ヴァリアブル",
+  "personality": "天啓",
+  "evolution_conditions": "エージェントランク3以上◆最大SP1580以上◆知力1130以上",
+  "evolves_from": [
+    "ギザモン"
+  ],
+  "evolves_to": [
+    "カルマーラモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833351/dc1d36d4c27b987dceb90ddf8604afb9.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555729",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354637",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Durandamon",
+  "stage": "Mega"
+}

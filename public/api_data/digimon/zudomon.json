@@ -1,0 +1,17 @@
+{
+  "slug": "zudomon",
+  "name_en": "Zudomon",
+  "stage_en": "Ultimate",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4296832/61db7c56fb1352654173785f737e9943.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555587",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Zudomon",
+  "stage": "Ultimate",
+  "name_ja": "ズドモン"
+}

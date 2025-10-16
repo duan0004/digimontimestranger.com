@@ -1,0 +1,22 @@
+{
+  "slug": "meteiharuteyukumon",
+  "name_ja": "メディーバルデュークモン",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "天啓所持特攻魔法",
+  "evolution_conditions": "エージェントランク7以上◆知力2050以上◆精神1790以上",
+  "evolves_from": [
+    "ミスティモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_366.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355159",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "メディーバルデュークモン",
+  "stage": "究極体",
+  "name_en": "Meteiharuteyukumon"
+}

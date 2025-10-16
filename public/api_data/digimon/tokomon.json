@@ -1,0 +1,31 @@
+{
+  "slug": "tokomon",
+  "name_en": "Tokomon",
+  "name_ja": "トコモン",
+  "stage_en": "In-Training II",
+  "stage_ja": "幼年期2",
+  "attribute": "NO DATA",
+  "personality": "天啓",
+  "evolution_conditions": "エージェントランク1以上◆最大SP400以上◆素早さ150以上",
+  "evolves_from": [
+    "ポヨモン"
+  ],
+  "evolves_to": [
+    "パタモン",
+    "コロナモン",
+    "テリアモン",
+    "アルマジモン",
+    "ルーチェモン"
+  ],
+  "main_image": "https://img.game8.co/4291850/44ee9969bccdf891a353d5380d1f14df.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555156",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350020",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Tokomon",
+  "stage": "In-Training II"
+}

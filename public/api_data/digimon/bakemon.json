@@ -1,0 +1,33 @@
+{
+  "slug": "bakemon",
+  "slug_ja": "hakemon",
+  "name_en": "Bakemon",
+  "name_ja": "バケモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆精神400以上",
+  "evolves_from": [
+    "インプモン",
+    "ピコデビモン",
+    "バクモン"
+  ],
+  "evolves_to": [
+    "ヴァンデモン",
+    "ブルーメラモン",
+    "ファントモン",
+    "アンヴァルモン"
+  ],
+  "main_image": "https://img.game8.co/4295817/a1d913b262086a7dd177dd7e42f07d06.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555360",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350200",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Bakemon",
+  "stage": "Champion"
+}

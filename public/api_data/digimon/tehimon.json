@@ -1,0 +1,31 @@
+{
+  "slug": "tehimon",
+  "name_ja": "デビモン",
+  "stage_ja": "成熟期",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大SP640以上◆素早さ430以上",
+  "evolves_from": [
+    "インプモン",
+    "ピコデビモン",
+    "ベタモン",
+    "アグモン(黒)"
+  ],
+  "evolves_to": [
+    "ヴァンデモン",
+    "レディーデビモン",
+    "インフェルモン",
+    "スカルサタモン",
+    "アスタモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_156.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298453",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "デビモン",
+  "stage": "成熟期",
+  "name_en": "Tehimon"
+}

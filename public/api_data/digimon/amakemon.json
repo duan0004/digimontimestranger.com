@@ -1,0 +1,22 @@
+{
+  "slug": "amakemon",
+  "name_ja": "アーマゲモン",
+  "stage_ja": "超究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク8以上◆最大HP4450以上◆攻撃力3980以上",
+  "evolves_from": [
+    "ディアボロモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_448.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355396",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アーマゲモン",
+  "stage": "超究極体",
+  "name_en": "Amakemon"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "vegiemon_jp",
+  "name": "エンジェモン",
+  "name_en": "Vegiemon Jp",
+  "name_ja": "エンジェモン",
+  "stage_en": null,
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "天啓所持特攻魔",
+  "evolution_conditions": "エージェントランク3以上◆最大SP730以上◆知力540以上",
+  "evolves_from": [
+    "クダモンパタモン"
+  ],
+  "evolves_to": [
+    "ヒポグリフォモン",
+    "ホーリーエンジェモン",
+    "セイレーンモン",
+    "シャッコウモン"
+  ],
+  "main_image": "https://img.game8.co/4295789/37763a0501bf956bf1516ef96f297bfb.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298387",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "成熟期"
+}

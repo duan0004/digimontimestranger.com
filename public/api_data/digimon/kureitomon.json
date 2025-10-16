@@ -1,0 +1,30 @@
+{
+  "slug": "kureitomon",
+  "name_ja": "グレイドモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク5以上◆攻撃力960以上◆素早さ960以上",
+  "evolves_from": [
+    "ラプタードラモン",
+    "ムシャモン",
+    "サイクロモン",
+    "ディノヒューモン",
+    "ズバイガーモン"
+  ],
+  "evolves_to": [
+    "アルファモン",
+    "デュランダモン",
+    "デュナスモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_206.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354685",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "グレイドモン",
+  "stage": "完全体",
+  "name_en": "Kureitomon"
+}

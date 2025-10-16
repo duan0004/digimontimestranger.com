@@ -1,0 +1,26 @@
+{
+  "slug": "uarotourumon",
+  "name_ja": "ヴァロドゥルモン",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "社交的所持特攻魔",
+  "evolution_conditions": "エージェントランク7以上◆知力1800以上◆精神1750以上◆素早さ1640以上",
+  "evolves_from": [
+    "ウイングドラモン",
+    "デラモン",
+    "ヤタガラモン"
+  ],
+  "evolves_to": [
+    "カオスモン：ヴァロドゥルアーム"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_310.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354997",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ヴァロドゥルモン",
+  "stage": "究極体",
+  "name_en": "Varodurumon"
+}

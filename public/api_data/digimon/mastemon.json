@@ -1,0 +1,27 @@
+{
+  "slug": "mastemon",
+  "slug_ja": "masuteimon",
+  "name_en": "Mastemon",
+  "name_ja": "マスティモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "包容力所持特攻聖魔",
+  "evolution_conditions": "<<ジョグレス進化>>◆エージェントランク7以上◆エンジェウーモンの性格が包容力◆レディーデビモンの性格が天啓",
+  "evolves_from": [
+    "レディーデビモン",
+    "エンジェウーモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11835924/3574d6532f4ef3b86f40c6ffaefc5d30.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555736",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355075",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8888888888888888,
+  "name": "Mastemon",
+  "stage": "Mega"
+}

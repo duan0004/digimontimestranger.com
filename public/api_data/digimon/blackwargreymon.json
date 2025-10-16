@@ -1,0 +1,17 @@
+{
+  "slug": "blackwargreymon",
+  "name_en": "BlackWarGreymon",
+  "stage_en": "Mega",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11835910/a367b811c073a0d1623d3eb73fa21382.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555843",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "BlackWarGreymon",
+  "stage": "Mega",
+  "name_ja": "ブラックウォーグレイモン"
+}

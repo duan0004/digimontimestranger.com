@@ -1,0 +1,17 @@
+{
+  "slug": "greatgrizzlymon",
+  "name_en": "GreatGrizzlymon",
+  "stage_en": "Ultimate",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4296752/c4f7413c07e8459e2b1fa86f1e2ddf2a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555582",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "GreatGrizzlymon",
+  "stage": "Ultimate",
+  "name_ja": "グレートグリズモン"
+}

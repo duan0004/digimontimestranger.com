@@ -1,0 +1,33 @@
+{
+  "slug": "greymon",
+  "name": "Greymon",
+  "name_en": "Greymon",
+  "name_ja": "グレイモン(青)",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク3以上◆攻撃力510以上",
+  "evolves_from": [
+    "ガオモン",
+    "ベアモン",
+    "ロップモン"
+  ],
+  "evolves_to": [
+    "フレアモン",
+    "グラップレオモン",
+    "パンジャモン",
+    "ローダーレオモン"
+  ],
+  "main_image": "https://img.game8.co/4295760/99b7b0bb8b7895aec8ab82f2ca760778.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555229",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "Champion"
+}

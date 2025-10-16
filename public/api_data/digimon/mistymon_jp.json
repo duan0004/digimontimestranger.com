@@ -1,0 +1,32 @@
+{
+  "slug": "mistymon_jp",
+  "name": "ミスティモン",
+  "name_en": "Mistymon Jp",
+  "name_ja": "ミスティモン",
+  "stage_en": null,
+  "stage_ja": "完全体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大SP550以上◆知力900以上◆精神890以上",
+  "evolves_from": [
+    "ファイラモン",
+    "モジャモン",
+    "ウィザーモン"
+  ],
+  "evolves_to": [
+    "カオスデュークモン",
+    "ザンバモン",
+    "メディーバルデュークモン",
+    "デュナスモン"
+  ],
+  "main_image": "https://img.game8.co/4296769/7ff53174a292b9e3c6a459fb35c434ef.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354943",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "完全体"
+}

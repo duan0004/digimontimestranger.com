@@ -1,0 +1,26 @@
+{
+  "slug": "ceresmon-medium",
+  "name": "Ceresmon Medium",
+  "name_en": "Ceresmon Medium",
+  "name_ja": "ケレスモンメディウム",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "戦略家所持特攻虫草獣",
+  "evolution_conditions": "ケレスモンをモードチェンジ",
+  "evolves_from": [],
+  "evolves_to": [
+    "ケレスモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833390/5d3060b35240524ef6c2622a2b7ec72e.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555778",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Mega"
+}

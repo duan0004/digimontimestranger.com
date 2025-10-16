@@ -1,0 +1,22 @@
+{
+  "slug": "rutiemonsm",
+  "name_ja": "ルーチェモンSM",
+  "stage_ja": "超究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク8以上◆最大HP2350以上◆知力3090以上◆素早さ1880以上",
+  "evolves_from": [
+    "ルーチェモンFM"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_447.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355393",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ルーチェモンSM",
+  "stage": "超究極体",
+  "name_en": "Rutiemonsm"
+}

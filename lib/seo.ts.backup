@@ -1,0 +1,75 @@
+import { Metadata } from 'next'
+
+export interface DigimonSEO {
+  slug: string
+  name_en?: string
+  name_ja?: string
+  stage?: string
+  stage_en?: string
+  attribute?: string
+  main_image?: string
+  evolves_from?: string[]
+  evolves_to?: string[]
+}
+
+export function generateDigimonMetadata(digimon: DigimonSEO): Metadata {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+  const name = digimon.name_en || digimon.name_ja || digimon.slug
+  const displayName = digimon.name_ja
+    ? `${digimon.name_en || digimon.slug} (${digimon.name_ja})`
+    : (digimon.name_en || digimon.slug)
+
+  const title = `${displayName} - Time Stranger Dex`
+  const stage = digimon.stage_en || digimon.stage || '未知'
+  const attribute = digimon.attribute || '未知'
+
+  const evolutions = []
+  if (digimon.evolves_from && digimon.evolves_from.length > 0) {
+    evolutions.push(`可从${digimon.evolves_from.slice(0, 3).join('、')}等进化而来`)
+  }
+  if (digimon.evolves_to && digimon.evolves_to.length > 0) {
+    evolutions.push(`可进化为${digimon.evolves_to.slice(0, 3).join('、')}等`)
+  }
+
+  const evolutionText = evolutions.length > 0 ? evolutions.join('，') : '暂无进化数据'
+  const description = `${displayName}的详细信息、进化路线与数据来源。阶段：${stage}，属性：${attribute}。${evolutionText}。`
+
+  return {
+    title,
+    description,
+    keywords: [name, digimon.name_en, digimon.name_ja, 'Digimon', 'Time Stranger', '数码兽', stage, attribute].filter(Boolean) as string[],
+    openGraph: {
+      title,
+      description,
+      type: 'article',
+      url: `${baseUrl}/dex/${digimon.slug}`,
+      siteName: 'Time Stranger Dex',
+      images: digimon.main_image ? [{
+        url: digimon.main_image,
+        width: 384,
+        height: 384,
+        alt: displayName,
+      }] : [],
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+      images: digimon.main_image ? [digimon.main_image] : [],
+    },
+  }
+}
+
+export function generateListMetadata(): Metadata {
+  return {
+    title: 'Time Stranger 数码兽图鉴 - 完整数据库',
+    description: '数码兽时空变量（Digimon Time Stranger）完整图鉴数据库，包含840+只数码兽的详细信息、进化路线、属性数据与出现位置。支持搜索、筛选与进化路径规划。',
+    keywords: ['Digimon', 'Time Stranger', '数码兽', '图鉴', '进化路线', '数据库', '攻略'],
+    openGraph: {
+      title: 'Time Stranger 数码兽图鉴',
+      description: '840+只数码兽完整数据，进化路线，属性查询',
+      type: 'website',
+      siteName: 'Time Stranger Dex',
+    },
+  }
+}

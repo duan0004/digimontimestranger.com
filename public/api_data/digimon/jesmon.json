@@ -1,0 +1,32 @@
+{
+  "slug": "jesmon",
+  "name": "Jesmon",
+  "name_en": "Jesmon",
+  "name_ja": "ジエスモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "Data",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大HP800以上",
+  "evolves_from": [
+    "パルモン",
+    "ベタモン",
+    "フローラモン"
+  ],
+  "evolves_to": [
+    "トノサマゲコモン",
+    "ガーべモン",
+    "ベーダモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833370/0aed24b00b30e972bc215e39a665b24d.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555775",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "Mega"
+}

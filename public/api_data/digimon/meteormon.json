@@ -1,0 +1,29 @@
+{
+  "slug": "meteormon",
+  "name": "Meteormon",
+  "name_en": "Meteormon",
+  "name_ja": "マタドゥルモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "Data",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2960以上◆攻撃力2290以上",
+  "evolves_from": [
+    "ワルシードラモン",
+    "メガログラウモン",
+    "グラウンドラモン",
+    "メガドラモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4296777/a3698dc35969e24ff4709b528e365a0f.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555612",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Ultimate"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "woodmon",
+  "name_en": "Woodmon",
+  "stage_en": "Champion",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295826/09db6ca522f77c91057efbfae0fde0be.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555342",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Woodmon",
+  "stage": "Champion",
+  "name_ja": "ウェンディモン"
+}

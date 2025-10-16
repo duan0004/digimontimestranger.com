@@ -1,0 +1,27 @@
+{
+  "slug": "dorugoramon",
+  "name": "Dorugoramon",
+  "name_en": "Dorugoramon",
+  "name_ja": "ドルゴラモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "蛮勇所持特攻竜",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2700以上◆攻撃力2220以上",
+  "evolves_from": [
+    "ドルグレモン",
+    "パイルドラモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11835935/a89605e327f4e83d4cdffdaff6c0ff1e.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555769",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.82)",
+  "stage": "Mega"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "kohurimon",
+  "name_ja": "ゴブリモン",
+  "stage_ja": "成長期",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク1以上◆最大HP500以上◆防御力200以上",
+  "evolves_from": [
+    "ツノモン"
+  ],
+  "evolves_to": [
+    "ゴーレモン",
+    "ウェンディモン",
+    "デルタモン",
+    "タスクモン",
+    "オーガモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_65.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298348",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ゴブリモン",
+  "stage": "成長期",
+  "name_en": "Kohurimon"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "seadramon",
+  "name": "Seadramon",
+  "name_en": "Seadramon",
+  "name_ja": "エアドラモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "蛮勇",
+  "evolution_conditions": "エージェントランク3以上◆素早さ380以上",
+  "evolves_from": [
+    "クダモン",
+    "ドルモン",
+    "ムーチョモン"
+  ],
+  "evolves_to": [
+    "ヒシャリュウモン",
+    "メガドラモン",
+    "エアロブイドラモン",
+    "ギガドラモン"
+  ],
+  "main_image": "https://img.game8.co/4295793/5650fda05724c0ff9e58a83bcf44d435.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555323",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "Champion"
+}

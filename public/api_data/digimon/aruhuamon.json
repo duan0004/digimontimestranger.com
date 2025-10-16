@@ -1,0 +1,25 @@
+{
+  "slug": "aruhuamon",
+  "name_ja": "アルファモン",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "気さく所持特攻騎士不明",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2200以上◆防御力1580以上◆精神1580以上",
+  "evolves_from": [
+    "グレイドモン",
+    "ドルグレモン"
+  ],
+  "evolves_to": [
+    "アルファモン王竜剣"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_308.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354991",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アルファモン",
+  "stage": "究極体",
+  "name_en": "Aruhuamon"
+}

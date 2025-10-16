@@ -1,0 +1,27 @@
+{
+  "slug": "mutiyomon",
+  "name_ja": "ムーチョモン",
+  "stage_ja": "成長期",
+  "attribute": "データ",
+  "personality": "献身的",
+  "evolution_conditions": "エージェントランク1以上◆最大HP500以上◆最大SP270以上",
+  "evolves_from": [
+    "ピョコモン"
+  ],
+  "evolves_to": [
+    "エアドラモン",
+    "ペックモン",
+    "バードラモン",
+    "フーガモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_55.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305236",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ムーチョモン",
+  "stage": "成長期",
+  "name_en": "Muchomon"
+}

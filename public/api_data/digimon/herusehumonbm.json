@@ -1,0 +1,22 @@
+{
+  "slug": "herusehumonbm",
+  "name_ja": "ベルゼブモンBM",
+  "stage_ja": "超究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク8以上◆ 攻撃力3760以上◆素早さ2960以上",
+  "evolves_from": [
+    "ベルゼブモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_444.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355384",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ベルゼブモンBM",
+  "stage": "超究極体",
+  "name_en": "Herusehumonbm"
+}

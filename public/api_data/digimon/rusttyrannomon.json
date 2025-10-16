@@ -1,0 +1,17 @@
+{
+  "slug": "rusttyrannomon",
+  "name_en": "RustTyrannomon",
+  "stage_en": "Mega",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11833346/80c93d4f1b42443b72690dd017dfcf78.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555854",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "RustTyrannomon",
+  "stage": "Mega",
+  "name_ja": "ラストティラノモン"
+}

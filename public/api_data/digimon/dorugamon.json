@@ -1,0 +1,33 @@
+{
+  "slug": "dorugamon",
+  "name": "Dorugamon",
+  "name_en": "Dorugamon",
+  "name_ja": "ドルガモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "蛮勇",
+  "evolution_conditions": "エージェントランク3以上◆最大HP1060以上",
+  "evolves_from": [
+    "ドルモン",
+    "ガジモン",
+    "ガブモン(黒)"
+  ],
+  "evolves_to": [
+    "ライズグレイモン",
+    "ドルグレモン",
+    "グレートグリズモン",
+    "メタルグレイモン(青)"
+  ],
+  "main_image": "https://img.game8.co/4295835/ab0133c2bed07b76eb98b14bf9bbb906.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555334",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "Champion"
+}

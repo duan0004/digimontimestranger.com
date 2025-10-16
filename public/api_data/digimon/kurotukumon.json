@@ -1,0 +1,29 @@
+{
+  "slug": "kurotukumon",
+  "name_ja": "クロックモン",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク3以上◆最大SP450以上",
+  "evolves_from": [
+    "ハグルモン",
+    "インプモン",
+    "コクワモン"
+  ],
+  "evolves_to": [
+    "エクスティラノモン",
+    "アンドロモン",
+    "ズドモン",
+    "ナイトモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_118.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298429",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "クロックモン",
+  "stage": "成熟期",
+  "name_en": "Kurotukumon"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "sangloupmon",
+  "name_en": "Sangloupmon",
+  "stage_en": "Champion",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295797/f8461e55d056b3781bbf83b30beae335.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555353",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Sangloupmon",
+  "stage": "Champion",
+  "name_ja": "サングルゥモン"
+}

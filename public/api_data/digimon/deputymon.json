@@ -1,0 +1,17 @@
+{
+  "slug": "deputymon",
+  "name_en": "Deputymon",
+  "stage_en": "Champion",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4295758/821e0f696f532b72c8aa030c0d2a3517.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555148",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Deputymon",
+  "stage": "Champion",
+  "name_ja": "デルタモン"
+}

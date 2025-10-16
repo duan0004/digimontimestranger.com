@@ -1,0 +1,33 @@
+{
+  "slug": "gundramon",
+  "name": "Gundramon",
+  "name_en": "Gundramon",
+  "name_ja": "ガンドラモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "天啓",
+  "evolution_conditions": "エージェントランク1以上◆精神240以上",
+  "evolves_from": [
+    "ニャロモン"
+  ],
+  "evolves_to": [
+    "レキスモン",
+    "ガルルモン",
+    "ユキダルモン",
+    "ヒョーガモン",
+    "ソーサリモン",
+    "アイスモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833375/e41224c913400b6465c6bbefd67befdd.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555808",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Mega"
+}

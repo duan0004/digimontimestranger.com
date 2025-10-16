@@ -1,0 +1,17 @@
+{
+  "slug": "avengekidmon",
+  "name_en": "AvengeKidmon",
+  "stage_en": "Mega",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11833428/9c1d51a12045c626e53f09cb80d8bc14.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555816",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "AvengeKidmon",
+  "stage": "Mega",
+  "name_ja": "アヴェンジキッドモン"
+}

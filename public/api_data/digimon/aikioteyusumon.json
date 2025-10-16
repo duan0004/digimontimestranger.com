@@ -1,0 +1,24 @@
+{
+  "slug": "aikioteyusumon",
+  "name_ja": "アイギオテュースモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "気さく所持特攻神水",
+  "evolution_conditions": "エージェントランク9以上◆攻撃力1100以上◆素早さ1090以上◆エージェントスキル「勇壮の絆」習得数が46以上◆エージェントスキル「博愛の絆」習得数が46以上",
+  "evolves_from": [
+    "アイギオモン"
+  ],
+  "evolves_to": [
+    "ユピテルモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_193.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354649",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アイギオテュースモン",
+  "stage": "完全体",
+  "name_en": "Aikioteyusumon"
+}

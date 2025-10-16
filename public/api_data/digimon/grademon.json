@@ -1,0 +1,17 @@
+{
+  "slug": "grademon",
+  "name_en": "Grademon",
+  "stage_en": "Ultimate",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4296814/0e7e977682af065b756882b030f4d07e.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555581",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Grademon",
+  "stage": "Ultimate",
+  "name_ja": "グレイドモン"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "kurantorokomon",
+  "name_ja": "グランドロコモン",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "社交的所持特攻不明",
+  "evolution_conditions": "エージェントランク7以上◆防御力2250以上◆精神1850以上",
+  "evolves_from": [
+    "ビッグマメモン",
+    "ロコモン",
+    "マスターブリンプモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_346.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355099",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "グランドロコモン",
+  "stage": "究極体",
+  "name_en": "Kurantorokomon"
+}

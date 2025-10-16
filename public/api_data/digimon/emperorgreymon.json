@@ -1,0 +1,17 @@
+{
+  "slug": "emperorgreymon",
+  "name_en": "EmperorGreymon",
+  "stage_en": "Hybrid",
+  "attribute": "Variable",
+  "main_image": "https://j-img.game8.co/11835897/52403346ab6a80a49b128535d21ce6c8.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555890",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "EmperorGreymon",
+  "stage": "Hybrid",
+  "name_ja": "カイゼルグレイモン"
+}

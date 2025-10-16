@@ -1,0 +1,33 @@
+{
+  "slug": "skullsatamon",
+  "name": "SkullSatamon",
+  "name_en": "SkullSatamon",
+  "name_ja": "スカルサタモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆知力870以上◆精神960以上",
+  "evolves_from": [
+    "デビモン",
+    "オーガモン",
+    "フーガモン",
+    "ガルルモン(黒)"
+  ],
+  "evolves_to": [
+    "バルバモン",
+    "ピエモン",
+    "イーバモン"
+  ],
+  "main_image": "https://img.game8.co/4296831/3a0cda966ccdc02e05899870d1189b3d.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555667",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Ultimate"
+}

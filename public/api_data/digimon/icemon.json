@@ -1,0 +1,29 @@
+{
+  "slug": "icemon",
+  "slug_ja": "hiemon",
+  "name_en": "Icemon",
+  "name_ja": "ピエモン",
+  "stage_en": "Champion",
+  "stage_ja": "究極体",
+  "attribute": "Data",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大SP1190以上◆知力1860以上",
+  "evolves_from": [
+    "スカルサタモン",
+    "ファントモン"
+  ],
+  "evolves_to": [
+    "アポカリモン"
+  ],
+  "main_image": "https://img.game8.co/4295805/db6512dae1357dbd0bf4b838154b901d.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555315",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355234",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8333333333333334,
+  "name": "Icemon",
+  "stage": "Champion"
+}

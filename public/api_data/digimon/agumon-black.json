@@ -1,0 +1,17 @@
+{
+  "slug": "agumon-black",
+  "name_en": "Agumon (Black)",
+  "stage_en": "Rookie",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295814/1a8f16fd2c4e793489ec4e1cb555bf34.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555375",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Agumon (Black)",
+  "stage": "Rookie",
+  "name_ja": "アグモン(黒)"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "chaosmon",
+  "name": "Chaosmon",
+  "name_en": "Chaosmon",
+  "name_ja": "カオスモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "豪胆所持特攻鬼不明",
+  "evolution_conditions": "<<ジョグレス進化>>◆エージェントランク8以上◆ダークドラモンの性格が熱血◆バンチョーレオモンの性格が豪胆",
+  "evolves_from": [
+    "バンチョーレオモン",
+    "ダークドラモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11835922/a84c5dec628d11e762fc8d2c91f006d5.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555871",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Mega"
+}

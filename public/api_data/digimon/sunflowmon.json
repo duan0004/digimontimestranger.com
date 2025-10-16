@@ -1,0 +1,17 @@
+{
+  "slug": "sunflowmon",
+  "name_en": "Sunflowmon",
+  "stage_en": "Champion",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4295804/57f93ff87043e73a5e4c1a0c29cf4ae5.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555322",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Sunflowmon",
+  "stage": "Champion",
+  "name_ja": "サンフラウモン"
+}

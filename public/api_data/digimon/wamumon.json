@@ -1,0 +1,26 @@
+{
+  "slug": "wamumon",
+  "name_ja": "ワームモン",
+  "stage_ja": "成長期",
+  "attribute": "フリー",
+  "personality": "包容力",
+  "evolution_conditions": "エージェントランク1以上◆攻撃力190以上◆精神190以上",
+  "evolves_from": [
+    "モチモン"
+  ],
+  "evolves_to": [
+    "スティングモン",
+    "ドクグモン",
+    "スナイモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_79.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298375",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ワームモン",
+  "stage": "成長期",
+  "name_en": "Wamumon"
+}

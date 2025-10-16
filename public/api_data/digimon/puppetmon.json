@@ -1,0 +1,17 @@
+{
+  "slug": "puppetmon",
+  "name_en": "Puppetmon",
+  "stage_en": "Mega",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11833369/f4dc54f913cd3a07e10550b8e843bbbf.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555793",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Puppetmon",
+  "stage": "Mega",
+  "name_ja": "ピノキモン"
+}

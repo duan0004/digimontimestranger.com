@@ -1,0 +1,28 @@
+{
+  "slug": "mamimon",
+  "name_ja": "マミーモン",
+  "stage_ja": "完全体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大SPP530以上◆防御力920以上◆精神870以上",
+  "evolves_from": [
+    "ドーベルモン",
+    "オーガモン",
+    "ドクグモン"
+  ],
+  "evolves_to": [
+    "ファラオモン",
+    "ハイアンドロモン",
+    "アヴェンジキッドモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_291.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354940",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "マミーモン",
+  "stage": "完全体",
+  "name_en": "Mamimon"
+}

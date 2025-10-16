@@ -1,0 +1,17 @@
+{
+  "slug": "fugamon",
+  "name_en": "Fugamon",
+  "stage_en": "Champion",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295838/4056985526ef5f0c35911f5d3769c410.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555362",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Fugamon",
+  "stage": "Champion",
+  "name_ja": "フーガモン"
+}

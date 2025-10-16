@@ -1,0 +1,28 @@
+{
+  "slug": "machinedramon_jp",
+  "name": "ミネルヴァモン",
+  "name_en": "Minervamon",
+  "name_ja": "ミネルヴァモン",
+  "stage_en": null,
+  "stage_ja": "究極体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2360以上◆攻撃力1940以上",
+  "evolves_from": [
+    "オロチモン",
+    "シルフィーモン"
+  ],
+  "evolves_to": [
+    "メルヴァモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833345/07de9d613877ead43f3551654d6c9c4d.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355270",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "究極体"
+}

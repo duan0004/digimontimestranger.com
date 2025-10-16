@@ -1,0 +1,31 @@
+{
+  "slug": "veedramon_jp",
+  "name": "デラモン",
+  "name_en": "Deramon",
+  "name_ja": "デラモン",
+  "stage_en": null,
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "戦略家所持特攻虫",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1700以上◆最大SP650以上",
+  "evolves_from": [
+    "サンフラウモン",
+    "キウイモン",
+    "ツチダルモン"
+  ],
+  "evolves_to": [
+    "ヴァロドゥルモン",
+    "ケレスモン",
+    "プラチナヌメモン"
+  ],
+  "main_image": "https://img.game8.co/4295769/57c292e528e51fbf29460cfa908f7538.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354802",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "完全体"
+}

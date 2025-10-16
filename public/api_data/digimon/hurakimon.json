@@ -1,0 +1,28 @@
+{
+  "slug": "hurakimon",
+  "name_ja": "ブラキモン",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "献身的",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1650以上◆精神1010以上",
+  "evolves_from": [
+    "ドリモゲモン",
+    "サイクロモン",
+    "アンキロモン"
+  ],
+  "evolves_to": [
+    "オウリュウモン",
+    "ラストティラノモン",
+    "アルティメットブラキモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_255.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354832",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ブラキモン",
+  "stage": "完全体",
+  "name_en": "Buraimon"
+}

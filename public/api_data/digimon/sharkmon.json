@@ -1,0 +1,32 @@
+{
+  "slug": "sharkmon",
+  "name": "Sharkmon",
+  "name_en": "Sharkmon",
+  "name_ja": "シャークモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "包容力",
+  "evolution_conditions": "エージェントランク1以上◆最大SP360以上◆知力220以上",
+  "evolves_from": [
+    "ワニャモン"
+  ],
+  "evolves_to": [
+    "メラモン",
+    "ガルルモン",
+    "バケモン",
+    "ユニモン",
+    "キュウビモン"
+  ],
+  "main_image": "https://img.game8.co/4296841/13e27cd95c28e942e05111798eae69ad.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555663",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Ultimate"
+}

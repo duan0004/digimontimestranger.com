@@ -1,0 +1,32 @@
+{
+  "slug": "angemon_jp",
+  "name": "ヴァンデモン",
+  "name_en": "Vademon",
+  "name_ja": "ヴァンデモン",
+  "stage_en": null,
+  "stage_ja": "完全体",
+  "attribute": "Vaccine",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大HP1650以上◆知力950以上",
+  "evolves_from": [
+    "バケモン",
+    "サングルゥモン",
+    "デビモン",
+    "ペックモン"
+  ],
+  "evolves_to": [
+    "デーモン",
+    "べリアルヴァンデモン",
+    "ヴェノムヴァンデモン"
+  ],
+  "main_image": "https://img.game8.co/4295749/f6aed5452de079ebbd39b13e8fdd011d.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354868",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "完全体"
+}

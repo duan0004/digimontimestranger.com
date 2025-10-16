@@ -1,0 +1,26 @@
+{
+  "slug": "kudamon",
+  "slug_ja": "kuramon",
+  "name_en": "Kudamon",
+  "name_ja": "クラモン",
+  "stage_en": "Rookie",
+  "stage_ja": "幼年期1",
+  "attribute": "NO DATA",
+  "personality": "悪知恵",
+  "evolution_conditions": "なし",
+  "evolves_from": [],
+  "evolves_to": [
+    "パグモンツメモン"
+  ],
+  "main_image": "https://img.game8.co/4295341/5ea0fe14f36b7e850ee08917582aa53a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555160",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298240",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Kudamon",
+  "stage": "Rookie"
+}

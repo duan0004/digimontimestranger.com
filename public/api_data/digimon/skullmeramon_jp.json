@@ -1,0 +1,31 @@
+{
+  "slug": "skullmeramon_jp",
+  "name": "デスメラモン",
+  "name_en": "Skullmeramon Jp",
+  "name_ja": "デスメラモン",
+  "stage_en": null,
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "熱血所持特攻鋼",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1720以上◆攻撃力1020以上◆防御力820以上",
+  "evolves_from": [
+    "メラモン",
+    "ウェンディモン",
+    "バードラモン"
+  ],
+  "evolves_to": [
+    "ベルゼブモン",
+    "ボルトモン",
+    "アヴェンジキッドモン"
+  ],
+  "main_image": "https://img.game8.co/4296844/77856fef1f4e83f89f5eb71e31c3b181.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354799",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "完全体"
+}

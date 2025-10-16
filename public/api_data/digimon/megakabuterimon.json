@@ -1,0 +1,32 @@
+{
+  "slug": "megakabuterimon",
+  "name": "MegaKabuterimon",
+  "name_en": "MegaKabuterimon",
+  "name_ja": "メガカブテリモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "悪知恵所持特攻虫",
+  "evolution_conditions": "エージェントランク3以上◆最大SP380以上",
+  "evolves_from": [
+    "ファンビーモン",
+    "テントモン"
+  ],
+  "evolves_to": [
+    "ライラモン",
+    "アトラーカブテリモン",
+    "キャノンビーモン",
+    "キメラモン"
+  ],
+  "main_image": "https://img.game8.co/4296819/394f704887a9474a1b8efdbb5abd5c0a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555573",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "Ultimate"
+}

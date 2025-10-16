@@ -1,0 +1,17 @@
+{
+  "slug": "greymon-blue",
+  "name_en": "Greymon (Blue)",
+  "stage_en": "Champion",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295857/568430ad151b866e07e2af520a8ae33e.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555133",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Greymon (Blue)",
+  "stage": "Champion",
+  "name_ja": "グレイモン(青)"
+}

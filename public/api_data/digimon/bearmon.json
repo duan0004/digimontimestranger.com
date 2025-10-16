@@ -1,0 +1,32 @@
+{
+  "slug": "bearmon",
+  "name": "Bearmon",
+  "name_en": "Bearmon",
+  "name_ja": "ベアモン",
+  "stage_en": "Rookie",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "蛮勇",
+  "evolution_conditions": "エージェントランク1以上◆攻撃力220以上",
+  "evolves_from": [
+    "ワニャモン"
+  ],
+  "evolves_to": [
+    "グリズモン",
+    "ガオガモン",
+    "モジャモン",
+    "レオモン",
+    "ガルルモン(黒)"
+  ],
+  "main_image": "https://img.game8.co/4295515/bc64835771adecb259950724466487f1.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555196",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "Rookie"
+}

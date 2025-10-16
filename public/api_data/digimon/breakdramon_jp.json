@@ -1,0 +1,31 @@
+{
+  "slug": "breakdramon_jp",
+  "name": "ララモン",
+  "name_en": "Breakdramon Jp",
+  "name_ja": "ララモン",
+  "stage_en": null,
+  "stage_ja": "成長期",
+  "attribute": "データ",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク1以上◆最大HP500以上◆精神160以上",
+  "evolves_from": [
+    "タネモン"
+  ],
+  "evolves_to": [
+    "サンフラウモン",
+    "トゲモン",
+    "リボルモン",
+    "ツチダルモン",
+    "トゥルイエモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833381/76cd219677c6a88ebee557eb67cf9e27.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305239",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "成長期"
+}

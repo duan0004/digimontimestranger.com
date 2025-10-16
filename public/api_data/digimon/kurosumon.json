@@ -1,0 +1,24 @@
+{
+  "slug": "kurosumon",
+  "name_ja": "クロスモン",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "天啓所持特攻鳥",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2260以上◆防御力1720以上◆精神2060以上",
+  "evolves_from": [
+    "ヒポグリフォモン",
+    "チィリンモン",
+    "パロットモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_317.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355018",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "クロスモン",
+  "stage": "究極体",
+  "name_en": "Kurosumon"
+}

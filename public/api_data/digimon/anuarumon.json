@@ -1,0 +1,28 @@
+{
+  "slug": "anuarumon",
+  "name_ja": "アンヴァルモン",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "悪知恵所持特攻聖",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1140以上◆防御力820以上◆素早さ840以上",
+  "evolves_from": [
+    "バケモン",
+    "キュウビモン",
+    "アイスデビモン"
+  ],
+  "evolves_to": [
+    "スレイプモン",
+    "スカルマンモン",
+    "クレニアムモン+アンヴァルモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_231.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354760",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アンヴァルモン",
+  "stage": "完全体",
+  "name_en": "Anuarumon"
+}

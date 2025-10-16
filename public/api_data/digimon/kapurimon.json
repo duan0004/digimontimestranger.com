@@ -1,0 +1,31 @@
+{
+  "slug": "kapurimon",
+  "slug_ja": "kahurimon",
+  "name_en": "Kapurimon",
+  "name_ja": "カプリモン",
+  "stage_en": "In-Training II",
+  "stage_ja": "幼年期2",
+  "attribute": "NO DATA",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク1以上◆精神140以上",
+  "evolves_from": [
+    "チョロモン"
+  ],
+  "evolves_to": [
+    "ハグルモン",
+    "コクワモン",
+    "トイアグモン",
+    "ソーラーモン"
+  ],
+  "main_image": "https://img.game8.co/4295512/dfcd4fc5b77ecf660de63d933752112d.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555174",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305197",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8888888888888888,
+  "name": "Kapurimon",
+  "stage": "In-Training II"
+}

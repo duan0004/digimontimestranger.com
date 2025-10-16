@@ -1,0 +1,27 @@
+{
+  "slug": "marsmon",
+  "slug_ja": "marusumon",
+  "name_en": "Marsmon",
+  "name_ja": "マルスモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "熱血所持特攻獣軟体",
+  "evolution_conditions": "エージェントランク7以上◆最大SP960以上◆攻撃力2220以上",
+  "evolves_from": [
+    "ブルーメラモン",
+    "グラップレオモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833339/3342bae42f75a610efc1b87f161b1dbd.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555738",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355081",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.875,
+  "name": "Marsmon",
+  "stage": "Mega"
+}

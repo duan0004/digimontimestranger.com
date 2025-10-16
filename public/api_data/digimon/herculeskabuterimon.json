@@ -1,0 +1,17 @@
+{
+  "slug": "herculeskabuterimon",
+  "name_en": "HerculesKabuterimon",
+  "stage_en": "Mega",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11833373/2d07ba63ac880b80306c349ae7c24409.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555733",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "HerculesKabuterimon",
+  "stage": "Mega",
+  "name_ja": "ヘラクルカブテリモン"
+}

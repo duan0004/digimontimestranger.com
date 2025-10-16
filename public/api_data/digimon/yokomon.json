@@ -1,0 +1,31 @@
+{
+  "slug": "yokomon",
+  "slug_ja": "hiyokomon",
+  "name_en": "Yokomon",
+  "name_ja": "ヒョコモン",
+  "stage_en": "In-Training II",
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "蛮勇",
+  "evolution_conditions": "エージェントランク1以上◆攻撃力200以上◆素早さ170以上",
+  "evolves_from": [
+    "ピョコモン"
+  ],
+  "evolves_to": [
+    "ペックモン",
+    "バードラモン",
+    "ディノヒューモン",
+    "ブライモン"
+  ],
+  "main_image": "https://img.game8.co/4294387/070fd79c5faadba8467956a3528ef46d.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555165",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305215",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.875,
+  "name": "Yokomon",
+  "stage": "In-Training II"
+}

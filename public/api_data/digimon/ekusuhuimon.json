@@ -1,0 +1,28 @@
+{
+  "slug": "ekusuhuimon",
+  "name_ja": "エクスブイモン",
+  "stage_ja": "成熟期",
+  "attribute": "フリー",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク3以上◆素早さ610以上",
+  "evolves_from": [
+    "ギルモン",
+    "ドルモン",
+    "ブイモン"
+  ],
+  "evolves_to": [
+    "ディノビーモン",
+    "ライズグレイモン",
+    "パイルドラモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_175.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298465",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "エクスブイモン",
+  "stage": "成熟期",
+  "name_en": "Ekusuhuimon"
+}

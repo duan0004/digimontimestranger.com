@@ -1,0 +1,27 @@
+{
+  "slug": "sukarukureimon",
+  "name_ja": "スカルグレイモン",
+  "stage_ja": "完全体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆攻撃力1250以上◆防御力1060以上",
+  "evolves_from": [
+    "ギンリュウモン",
+    "コアドラモン(緑)",
+    "グレイモン"
+  ],
+  "evolves_to": [
+    "タイタモン",
+    "スカルマンモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_278.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354901",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "スカルグレイモン",
+  "stage": "完全体",
+  "name_en": "Sukarukureimon"
+}

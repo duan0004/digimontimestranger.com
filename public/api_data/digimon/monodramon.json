@@ -1,0 +1,32 @@
+{
+  "slug": "monodramon",
+  "slug_ja": "monotoramon",
+  "name_en": "Monodramon",
+  "name_ja": "モノドラモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "蛮勇",
+  "evolution_conditions": "エージェントランク1以上◆最大HP530以上◆攻撃力240以上",
+  "evolves_from": [
+    "ドリモン"
+  ],
+  "evolves_to": [
+    "ストライクドラモン",
+    "ラプタードラモン",
+    "デルタモン",
+    "クリサリモン",
+    "サイクロモン"
+  ],
+  "main_image": "https://img.game8.co/4295337/caa628383b32d78b0b9b554caffdf06a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555194",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298297",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Monodramon",
+  "stage": "Rookie"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "muchomon",
+  "name_en": "Muchomon",
+  "stage_en": "Rookie",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4294390/b36a55dbccd4a5f227475bc4492833e5.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555127",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Muchomon",
+  "stage": "Rookie",
+  "name_ja": "ムーチョモン"
+}

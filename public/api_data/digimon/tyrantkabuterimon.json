@@ -1,0 +1,28 @@
+{
+  "slug": "tyrantkabuterimon",
+  "slug_ja": "tairantokahuterimon",
+  "name_en": "TyrantKabuterimon",
+  "name_ja": "タイラントカブテリモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2500以上◆攻撃力1490以上◆素早さ1620以上",
+  "evolves_from": [
+    "アルケニモン",
+    "アトラーカブテリモン",
+    "オオクワモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833383/f03aca1fd9cca1d864601b15ceb4a927.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555800",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355216",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8333333333333334,
+  "name": "TyrantKabuterimon",
+  "stage": "Mega"
+}

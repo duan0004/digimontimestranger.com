@@ -1,0 +1,32 @@
+{
+  "slug": "magnamon",
+  "slug_ja": "manmon",
+  "name_en": "Magnamon",
+  "name_ja": "マンモン",
+  "stage_en": "Armor",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1940以上◆攻撃力820以上",
+  "evolves_from": [
+    "ゴーレモン",
+    "モノクロモン",
+    "ユキダルモン",
+    "モジャモン"
+  ],
+  "evolves_to": [
+    "ヴァイクモン",
+    "スカルマンモン"
+  ],
+  "main_image": "https://j-img.game8.co/11835934/07eec8fb3641cf998c7b955889ac7055.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555889",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354733",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Magnamon",
+  "stage": "Armor"
+}

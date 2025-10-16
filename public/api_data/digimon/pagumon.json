@@ -1,0 +1,33 @@
+{
+  "slug": "pagumon",
+  "name": "Pagumon",
+  "name_en": "Pagumon",
+  "name_ja": "パグモン",
+  "stage_en": "In-Training II",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "豪胆",
+  "evolution_conditions": "エージェントランク1以上◆最大HP530以上",
+  "evolves_from": [
+    "コロモン"
+  ],
+  "evolves_to": [
+    "ラプタードラモン",
+    "ジオグレイモン",
+    "ヌメモン",
+    "グレイモン",
+    "コアドラモン(緑)",
+    "アグモン-勇気の絆-"
+  ],
+  "main_image": "https://img.game8.co/4294378/73378767324a7bff5d9d9d9475e2b83d.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555166",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "In-Training II"
+}

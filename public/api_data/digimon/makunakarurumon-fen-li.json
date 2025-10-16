@@ -1,0 +1,22 @@
+{
+  "slug": "makunakarurumon-fen-li",
+  "name_ja": "マグナガルルモン(分離)",
+  "stage_ja": null,
+  "attribute": "ヴァリアブル",
+  "personality": "気さく所持特攻古代",
+  "evolution_conditions": "マグナガルルモンをモードチェンジ",
+  "evolves_from": [
+    "マグナガルルモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_426.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355333",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "マグナガルルモン(分離)",
+  "stage": null,
+  "name_en": "MagnaGarurumon (Detached)"
+}

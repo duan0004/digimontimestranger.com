@@ -1,0 +1,30 @@
+{
+  "slug": "tapirmon",
+  "name": "Tapirmon",
+  "name_en": "Tapirmon",
+  "name_ja": "タップモン",
+  "stage_en": "Rookie",
+  "stage_ja": null,
+  "attribute": "Vaccine",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP3220以上◆攻撃力1680以上",
+  "evolves_from": [
+    "ダークスーパースターモン",
+    "デジタマモン",
+    "スカルグレイモン"
+  ],
+  "evolves_to": [
+    "タイタモン+スカルバルキモン"
+  ],
+  "main_image": "https://img.game8.co/4295129/456f0560dd5dd04f4eb8903947f24d68.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555201",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Rookie"
+}

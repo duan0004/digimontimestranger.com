@@ -1,0 +1,17 @@
+{
+  "slug": "shellmon",
+  "name_en": "Shellmon",
+  "stage_en": "Champion",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4295807/4fb3b3686eab6558b316e12708baceff.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555325",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Shellmon",
+  "stage": "Champion",
+  "name_ja": "シェルモン"
+}

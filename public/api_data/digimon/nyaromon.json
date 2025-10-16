@@ -1,0 +1,31 @@
+{
+  "slug": "nyaromon",
+  "slug_ja": "niyaromon",
+  "name_en": "Nyaromon",
+  "name_ja": "ニャロモン",
+  "stage_en": "In-Training II",
+  "stage_ja": "幼年期2",
+  "attribute": "NO DATA",
+  "personality": "献身的",
+  "evolution_conditions": "エージェントランク1以上◆最大SP160以上◆素早さ150以上",
+  "evolves_from": [
+    "プニモン"
+  ],
+  "evolves_to": [
+    "ルナモン",
+    "クダモン",
+    "プロットモン",
+    "ハックモン"
+  ],
+  "main_image": "https://img.game8.co/4295339/b6e3ad1763411157f01ccaff6005769c.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555167",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305203",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9411764705882353,
+  "name": "Nyaromon",
+  "stage": "In-Training II"
+}

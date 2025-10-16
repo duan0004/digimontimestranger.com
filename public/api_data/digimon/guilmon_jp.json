@@ -1,0 +1,31 @@
+{
+  "slug": "guilmon_jp",
+  "name": "ブイモン",
+  "name_en": "Guilmon Jp",
+  "name_ja": "ブイモン",
+  "stage_en": null,
+  "stage_ja": "成長期",
+  "attribute": "フリー",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク1以上◆攻撃力280以上◆素早さ170以上",
+  "evolves_from": [
+    "ツノモン"
+  ],
+  "evolves_to": [
+    "エクスブイモン",
+    "ブイドラモン",
+    "ライドラモン",
+    "マグナモン",
+    "フレイドラモン"
+  ],
+  "main_image": "https://img.game8.co/4294404/b18e55673e7ebddc6ffd37a32f4f0a10.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298372",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "成長期"
+}

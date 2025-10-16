@@ -1,0 +1,25 @@
+{
+  "slug": "ceresmon-medium_jp",
+  "name": "ケレスモンメディウム",
+  "name_en": "Ceresmon Medium Jp",
+  "name_ja": "ケレスモンメディウム",
+  "stage_en": null,
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "戦略家所持特攻虫草獣",
+  "evolution_conditions": "ケレスモンをモードチェンジ",
+  "evolves_from": [],
+  "evolves_to": [
+    "ケレスモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833390/5d3060b35240524ef6c2622a2b7ec72e.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355108",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "究極体"
+}

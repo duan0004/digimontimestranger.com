@@ -1,0 +1,17 @@
+{
+  "slug": "magnagarurumon-detached",
+  "name_en": "MagnaGarurumon (Detached)",
+  "stage_en": "Hybrid",
+  "attribute": "Variable",
+  "main_image": "https://j-img.game8.co/11835937/c16d510980f039aa1ffc8d65a37d50a6.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555892",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "MagnaGarurumon (Detached)",
+  "stage": "Hybrid",
+  "name_ja": "マグナガルルモン"
+}

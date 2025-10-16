@@ -1,0 +1,30 @@
+{
+  "slug": "kentaurosmon",
+  "name": "Kentaurosmon",
+  "name_en": "Kentaurosmon",
+  "name_ja": "クロスモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク3以上◆攻撃力550以上◆素早さ330以上",
+  "evolves_from": [
+    "パタモンコクワモン"
+  ],
+  "evolves_to": [
+    "アンドロモン",
+    "ナノモン",
+    "ラピッドモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833359/0bcf546922609746d4d75e0dab1e1b37.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555725",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.82)",
+  "stage": "Mega"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "cyberdramon",
+  "name_en": "Cyberdramon",
+  "stage_en": "Ultimate",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4296786/e89c5fc02dc63a38660d54f239b56866.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555585",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Cyberdramon",
+  "stage": "Ultimate",
+  "name_ja": "サイバードラモン"
+}

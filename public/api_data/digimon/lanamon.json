@@ -1,0 +1,28 @@
+{
+  "slug": "lanamon",
+  "slug_ja": "ranamon",
+  "name_en": "Lanamon",
+  "name_ja": "ラーナモン",
+  "stage_en": "Hybrid",
+  "stage_ja": null,
+  "attribute": "ヴァリアブル",
+  "personality": "天啓",
+  "evolution_conditions": "エージェントランク3以上◆最大SP1580以上◆知力1130以上",
+  "evolves_from": [
+    "ギザモン"
+  ],
+  "evolves_to": [
+    "カルマーラモン"
+  ],
+  "main_image": "https://j-img.game8.co/11831601/b812b3e7c89f93b7de866cc862313cb3.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555713",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354637",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Lanamon",
+  "stage": "Hybrid"
+}

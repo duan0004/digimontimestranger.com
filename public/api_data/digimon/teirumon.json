@@ -1,0 +1,29 @@
+{
+  "slug": "teirumon",
+  "name_ja": "テイルモン",
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "包容力",
+  "evolution_conditions": "エージェントランク3以上◆最大HP820以上◆精神540以上",
+  "evolves_from": [
+    "チューモン",
+    "プロットモン",
+    "スノーゴブリモン",
+    "ハックモン"
+  ],
+  "evolves_to": [
+    "ネフェルティモン",
+    "エンジェウーモン",
+    "シルフィーモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_97.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350068",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "テイルモン",
+  "stage": "成熟期",
+  "name_en": "Teirumon"
+}

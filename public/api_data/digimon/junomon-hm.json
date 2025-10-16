@@ -1,0 +1,26 @@
+{
+  "slug": "junomon-hm",
+  "slug_ja": "yunomonhm",
+  "name_en": "Junomon HM",
+  "name_ja": "ユノモンHM",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "ユノモンをモードチェンジ",
+  "evolves_from": [],
+  "evolves_to": [
+    "ユノモン"
+  ],
+  "main_image": "https://j-img.game8.co/11835901/13e4f687b813638b29fae4d91077e726.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555856",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355291",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8421052631578947,
+  "name": "Junomon HM",
+  "stage": "Mega"
+}

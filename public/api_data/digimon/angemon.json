@@ -1,0 +1,33 @@
+{
+  "slug": "angemon",
+  "name": "Angemon",
+  "name_en": "Angemon",
+  "name_ja": "エンジェモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "Vaccine",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大HP1650以上◆知力950以上",
+  "evolves_from": [
+    "バケモン",
+    "サングルゥモン",
+    "デビモン",
+    "ペックモン"
+  ],
+  "evolves_to": [
+    "デーモン",
+    "べリアルヴァンデモン",
+    "ヴェノムヴァンデモン"
+  ],
+  "main_image": "https://img.game8.co/4295749/f6aed5452de079ebbd39b13e8fdd011d.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555224",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Champion"
+}

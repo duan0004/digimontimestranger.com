@@ -1,0 +1,17 @@
+{
+  "slug": "shellnumemon",
+  "name_en": "ShellNumemon",
+  "stage_en": "Champion",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295800/09b2e07c254b700e2fdfe538dabbfd44.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555345",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ShellNumemon",
+  "stage": "Champion",
+  "name_ja": "シェルヌメモン"
+}

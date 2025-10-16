@@ -1,0 +1,31 @@
+{
+  "slug": "biyomon",
+  "slug_ja": "hiyomon",
+  "name_en": "Biyomon",
+  "name_ja": "ピヨモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "包容力",
+  "evolution_conditions": "エージェントランク1以上◆最大SP270以上◆知力240以上",
+  "evolves_from": [
+    "ピョコモン"
+  ],
+  "evolves_to": [
+    "アクィラモン",
+    "バードラモン",
+    "ユニモン",
+    "ウィザーモン"
+  ],
+  "main_image": "https://img.game8.co/4294391/df23149f85981f5cbb8c65ff6264366a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555199",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305218",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Biyomon",
+  "stage": "Rookie"
+}

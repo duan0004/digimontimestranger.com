@@ -1,0 +1,33 @@
+{
+  "slug": "ravemon",
+  "name": "Ravemon",
+  "name_en": "Ravemon",
+  "name_ja": "リヴァイアモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク3以上◆攻撃力510以上",
+  "evolves_from": [
+    "ガオモン",
+    "ベアモン",
+    "ロップモン"
+  ],
+  "evolves_to": [
+    "フレアモン",
+    "グラップレオモン",
+    "パンジャモン",
+    "ローダーレオモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833333/af80681e5fc8bcf2a317bead849a9122.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555740",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "Mega"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "pabumon",
+  "name": "Pabumon",
+  "name_en": "Pabumon",
+  "name_ja": "バブモン",
+  "stage_en": "In-Training I",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "豪胆",
+  "evolution_conditions": "エージェントランク1以上◆最大HP530以上",
+  "evolves_from": [
+    "コロモン"
+  ],
+  "evolves_to": [
+    "ラプタードラモン",
+    "ジオグレイモン",
+    "ヌメモン",
+    "グレイモン",
+    "コアドラモン(緑)",
+    "アグモン-勇気の絆-"
+  ],
+  "main_image": "https://img.game8.co/4291854/ab980cb3a587310eafdcb33d1a3059a8.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555178",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "In-Training I"
+}

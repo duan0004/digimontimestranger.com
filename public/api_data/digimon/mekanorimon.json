@@ -1,0 +1,31 @@
+{
+  "slug": "mekanorimon",
+  "name_en": "Mekanorimon",
+  "name_ja": "メカノリモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大HP870以上◆防御力430以上",
+  "evolves_from": [
+    "ハグルモン",
+    "コクワモン",
+    "ケラモン"
+  ],
+  "evolves_to": [
+    "ビッグマメモン",
+    "メガドラモン",
+    "ナノモン"
+  ],
+  "main_image": "https://img.game8.co/4295809/3e9dfddbb5cb828429c1c6c4fe86de50.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555368",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350224",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Mekanorimon",
+  "stage": "Champion"
+}

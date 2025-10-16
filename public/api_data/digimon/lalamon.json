@@ -1,0 +1,17 @@
+{
+  "slug": "lalamon",
+  "name_en": "Lalamon",
+  "stage_en": "Rookie",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4294396/7f4b9b05e88b50ac34873ec8bc363b8f.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555126",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Lalamon",
+  "stage": "Rookie",
+  "name_ja": "ララモン"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "skullgreymon",
+  "name_en": "SkullGreymon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296842/eb41b0901c0b2a6721f43135d8620201.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555666",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "SkullGreymon",
+  "stage": "Ultimate",
+  "name_ja": "スカルグレイモン"
+}

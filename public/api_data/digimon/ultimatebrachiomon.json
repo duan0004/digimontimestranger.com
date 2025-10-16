@@ -1,0 +1,17 @@
+{
+  "slug": "ultimatebrachiomon",
+  "name_en": "UltimateBrachiomon",
+  "stage_en": "Mega",
+  "attribute": "Data",
+  "main_image": "https://j-img.game8.co/11833386/9e985b501a7d411eeb75d7bd243746ba.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555772",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "UltimateBrachiomon",
+  "stage": "Mega",
+  "name_ja": "アルティメットブラキモン"
+}

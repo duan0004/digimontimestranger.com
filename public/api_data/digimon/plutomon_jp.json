@@ -1,0 +1,31 @@
+{
+  "slug": "plutomon_jp",
+  "name": "ズドモン",
+  "name_en": "Zudomon",
+  "name_ja": "ズドモン",
+  "stage_en": null,
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "蛮勇所持特攻武装",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1730以上◆攻撃力930以上◆防御力940以上",
+  "evolves_from": [
+    "イッカクモン",
+    "モジャモン",
+    "クロックモン",
+    "ヒョーガモン"
+  ],
+  "evolves_to": [
+    "ヴァイクモン",
+    "プレシオモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833328/12c027927d21e1f58d8260db84c99e5c.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354703",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "完全体"
+}

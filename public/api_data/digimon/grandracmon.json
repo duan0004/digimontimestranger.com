@@ -1,0 +1,32 @@
+{
+  "slug": "grandracmon",
+  "name": "GranDracmon",
+  "name_en": "GranDracmon",
+  "name_ja": "グランドラクモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク1以上◆最大HP500以上◆精神160以上",
+  "evolves_from": [
+    "タネモン"
+  ],
+  "evolves_to": [
+    "サンフラウモン",
+    "トゲモン",
+    "リボルモン",
+    "ツチダルモン",
+    "トゥルイエモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833380/c7865b0c1cc4cdab3802a29a86692131.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555806",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "Mega"
+}

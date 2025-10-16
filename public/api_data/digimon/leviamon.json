@@ -1,0 +1,32 @@
+{
+  "slug": "leviamon",
+  "name": "Leviamon",
+  "name_en": "Leviamon",
+  "name_ja": "リヴァイアモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "包容力",
+  "evolution_conditions": "エージェントランク1以上◆最大HP380以上◆攻撃力180以上",
+  "evolves_from": [
+    "トコモン"
+  ],
+  "evolves_to": [
+    "モジャモン",
+    "レキスモン",
+    "ガワッパモン",
+    "ガルゴモン",
+    "調査中"
+  ],
+  "main_image": "https://j-img.game8.co/11833334/0b5382a3efe81c26fa0cecf931aa1cfe.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555857",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Mega"
+}

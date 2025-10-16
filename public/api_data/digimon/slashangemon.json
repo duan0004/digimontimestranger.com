@@ -1,0 +1,17 @@
+{
+  "slug": "slashangemon",
+  "name_en": "SlashAngemon",
+  "stage_en": "Mega",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11833417/fe6c7ce276c20f0eeb3021a20f9553d3.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555724",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "SlashAngemon",
+  "stage": "Mega",
+  "name_ja": "スラッシュエンジェモン"
+}

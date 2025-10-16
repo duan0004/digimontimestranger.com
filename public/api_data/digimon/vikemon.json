@@ -1,0 +1,29 @@
+{
+  "slug": "vikemon",
+  "name": "Vikemon",
+  "name_en": "Vikemon",
+  "name_ja": "ヴァイクモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "Free",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大SP1190以上◆知力1860以上",
+  "evolves_from": [
+    "スカルサタモン",
+    "ファントモン"
+  ],
+  "evolves_to": [
+    "アポカリモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833318/a30be4473a554b6365170b960ae011b7.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555886",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "Mega"
+}

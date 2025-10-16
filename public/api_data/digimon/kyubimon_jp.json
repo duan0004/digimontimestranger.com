@@ -1,0 +1,32 @@
+{
+  "slug": "kyubimon_jp",
+  "name": "ユニモン",
+  "name_en": "Unimon",
+  "name_ja": "ユニモン",
+  "stage_en": null,
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "戦略家所持特攻幻",
+  "evolution_conditions": "エージェントランク3以上◆精神250以上◆素早さ300以上",
+  "evolves_from": [
+    "パタモン",
+    "バクモン",
+    "ピヨモン",
+    "エレキモン"
+  ],
+  "evolves_to": [
+    "ヒポグリフォモン",
+    "ホーリーエンジェモン",
+    "チィリンモン"
+  ],
+  "main_image": "https://img.game8.co/4295806/8e88f20da8d0c115c5339aa25ba593c9.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298417",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "成熟期"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "sukamon",
+  "name_en": "Sukamon",
+  "name_ja": "スカモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆防御力300以上",
+  "evolves_from": [
+    "チューモン",
+    "ドラクモン",
+    "マッシュモン"
+  ],
+  "evolves_to": [
+    "もんざえモン",
+    "エテモン",
+    "ガーべモン",
+    "マメモン"
+  ],
+  "main_image": "https://img.game8.co/4295798/4cd2aec71102492a16d54983275be7e6.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555354",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350188",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Sukamon",
+  "stage": "Champion"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "darkdramon",
+  "name_en": "Darkdramon",
+  "stage_en": "Mega",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11833358/79eb4ae835e99aa4c7709b9d8d7ce104.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555802",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Darkdramon",
+  "stage": "Mega",
+  "name_ja": "ダークドラモン"
+}

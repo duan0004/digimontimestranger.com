@@ -12,6 +12,14 @@ export default function HomePage() {
 
   const featuredCards = [
     {
+      title: 'Complete Dex Database',
+      description: '#1 Most comprehensive Digimon Story Time Stranger database with 400+ Digimon, evolution paths, stats & more',
+      icon: BookOpen,
+      href: `/${locale}/dex`,
+      color: 'from-red-500 to-pink-600',
+      badge: '#1',
+    },
+    {
       title: t('features.digidex.title'),
       description: t('features.digidex.description'),
       icon: Target,
@@ -66,11 +74,12 @@ export default function HomePage() {
         </div>
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
-              <Zap className="w-4 h-4 text-accent-500" />
-              <span className="text-sm font-medium">
-                80k+ Peak Players • 92% Positive Reviews
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-gradient-to-r from-yellow-400/90 via-orange-400/90 to-red-400/90 backdrop-blur-sm rounded-full border border-yellow-300/40 shadow-lg">
+              <span className="text-2xl animate-pulse">🎉</span>
+              <span className="text-sm font-bold text-white drop-shadow-md">
+                SYSTEM UPDATE: #1 Most Complete Time Stranger Database!
               </span>
+              <span className="text-xs px-2 py-0.5 bg-white/30 rounded-full font-bold text-white">NEW</span>
             </div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6">
@@ -144,7 +153,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             {featuredCards.map((card) => {
               const Icon = card.icon;
               return (
@@ -158,10 +167,17 @@ export default function HomePage() {
                   ></div>
 
                   <div className="relative z-10">
-                    <div
-                      className={`inline-flex items-center justify-center w-12 h-12 rounded-lg bg-gradient-to-br ${card.color} text-white mb-4`}
-                    >
-                      <Icon className="w-6 h-6" />
+                    <div className="flex items-center justify-between mb-4">
+                      <div
+                        className={`inline-flex items-center justify-center w-12 h-12 rounded-lg bg-gradient-to-br ${card.color} text-white`}
+                      >
+                        <Icon className="w-6 h-6" />
+                      </div>
+                      {card.badge && (
+                        <span className="px-2 py-1 text-xs font-bold bg-gradient-to-r from-yellow-400 to-orange-500 text-white rounded-full shadow-md">
+                          {card.badge}
+                        </span>
+                      )}
                     </div>
 
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">

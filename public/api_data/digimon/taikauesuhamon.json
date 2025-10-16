@@ -1,0 +1,25 @@
+{
+  "slug": "taikauesuhamon",
+  "name_ja": "タイガーヴェスパモン",
+  "stage_ja": "究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2820以上◆攻撃力1900以上◆素早さ1600以上",
+  "evolves_from": [
+    "ディノビーモン",
+    "セイバーハックモン",
+    "ジュエルビーモン",
+    "キャノンビーモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_384.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355210",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "タイガーヴェスパモン",
+  "stage": "究極体",
+  "name_en": "Taikauesuhamon"
+}

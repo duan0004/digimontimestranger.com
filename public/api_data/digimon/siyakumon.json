@@ -1,0 +1,26 @@
+{
+  "slug": "siyakumon",
+  "name_ja": "シャークモン",
+  "stage_ja": "完全体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大HP1690以上◆最大SP960以上◆攻撃力1100以上",
+  "evolves_from": [
+    "デルタモン",
+    "シードラモン"
+  ],
+  "evolves_to": [
+    "ネプトゥーンモン",
+    "メタルシードラモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_275.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354892",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "シャークモン",
+  "stage": "完全体",
+  "name_en": "Siyakumon"
+}

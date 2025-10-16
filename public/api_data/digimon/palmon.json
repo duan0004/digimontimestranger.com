@@ -1,0 +1,17 @@
+{
+  "slug": "palmon",
+  "name_en": "Palmon",
+  "stage_en": "Rookie",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4295508/62440b87085a635ff16d2f2bab316eee.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555129",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Palmon",
+  "stage": "Rookie",
+  "name_ja": "パルモン"
+}

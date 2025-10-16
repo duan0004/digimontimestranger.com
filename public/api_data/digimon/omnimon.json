@@ -1,0 +1,32 @@
+{
+  "slug": "omnimon",
+  "name": "Omnimon",
+  "name_en": "Omnimon",
+  "name_ja": "オメガモン",
+  "stage_en": "Mega+",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1940以上◆攻撃力820以上",
+  "evolves_from": [
+    "ゴーレモン",
+    "モノクロモン",
+    "ユキダルモン",
+    "モジャモン"
+  ],
+  "evolves_to": [
+    "ヴァイクモン",
+    "スカルマンモン"
+  ],
+  "main_image": "https://j-img.game8.co/11835885/ce13f516407aa868296d8e38e1b60d2f.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555134",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "Mega+"
+}

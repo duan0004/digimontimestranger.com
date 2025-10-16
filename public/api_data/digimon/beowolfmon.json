@@ -1,0 +1,17 @@
+{
+  "slug": "beowolfmon",
+  "name_en": "Beowolfmon",
+  "stage_en": "Hybrid",
+  "attribute": "Variable",
+  "main_image": "https://j-img.game8.co/11835941/223ab4457ec07f28146183b5a1993680.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555721",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Beowolfmon",
+  "stage": "Hybrid",
+  "name_ja": "ベオウルフモン"
+}

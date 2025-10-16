@@ -1,0 +1,17 @@
+{
+  "slug": "alphamon-ouryuken",
+  "name_en": "Alphamon Ouryuken",
+  "stage_en": "Mega+",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11835919/dab9571cc71543c4576abc06093e94e9.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555867",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Alphamon Ouryuken",
+  "stage": "Mega+",
+  "name_ja": "アルファモン：王竜剣"
+}

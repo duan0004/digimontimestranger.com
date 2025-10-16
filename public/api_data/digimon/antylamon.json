@@ -1,0 +1,33 @@
+{
+  "slug": "antylamon",
+  "slug_ja": "hantamon",
+  "name_en": "Antylamon",
+  "name_ja": "パンダモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "社交的所持特攻草",
+  "evolution_conditions": "エージェントランク5以上◆防御力860以上◆知力850以上◆精神900以上",
+  "evolves_from": [
+    "ブラックテイルモン",
+    "カラツキヌメモン",
+    "リボルモン",
+    "ガルルモン(黒)"
+  ],
+  "evolves_to": [
+    "メルクリモン",
+    "ミラージュガオガモン",
+    "ジャスティモン"
+  ],
+  "main_image": "https://img.game8.co/4296740/cb9d713d6d70f613f8c94b34c9186841.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555611",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354817",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Antylamon",
+  "stage": "Ultimate"
+}

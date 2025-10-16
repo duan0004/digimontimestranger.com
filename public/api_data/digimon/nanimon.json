@@ -1,0 +1,30 @@
+{
+  "slug": "nanimon",
+  "name_en": "Nanimon",
+  "name_ja": "ナニモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大HP840以上◆防御力280以上",
+  "evolves_from": [
+    "ガオモンマッシュモン"
+  ],
+  "evolves_to": [
+    "ボルケーモン",
+    "スーパースターモン",
+    "エテモン",
+    "マメモン"
+  ],
+  "main_image": "https://img.game8.co/4295853/20f8eb708f0e7f6dfeeb3cc4e7098b13.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555359",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350197",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Nanimon",
+  "stage": "Champion"
+}

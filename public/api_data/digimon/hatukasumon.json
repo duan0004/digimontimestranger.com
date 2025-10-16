@@ -1,0 +1,26 @@
+{
+  "slug": "hatukasumon",
+  "name_ja": "バッカスモン",
+  "stage_ja": "究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2880以上◆攻撃力1790以上◆知力1510以上",
+  "evolves_from": [
+    "オロチモン",
+    "デジタマモン",
+    "トノサマゲコモン"
+  ],
+  "evolves_to": [
+    "バッカスモンDM"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_389.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355225",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "バッカスモン",
+  "stage": "究極体",
+  "name_en": "Hatukasumon"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "garudamon",
+  "slug_ja": "arutamon",
+  "name_en": "Garudamon",
+  "name_ja": "アルダモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "ヴァリアブル",
+  "personality": "熱血所持特攻草",
+  "evolution_conditions": "エージェントランク5以上◆炎のビーストスピリットを所持",
+  "evolves_from": [
+    "アグニモン",
+    "ヴリトラモン"
+  ],
+  "evolves_to": [
+    "カイゼルグレイモン"
+  ],
+  "main_image": "https://img.game8.co/4296793/114b072121c553708eb3e327db78943f.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555579",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354982",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Garudamon",
+  "stage": "Ultimate"
+}

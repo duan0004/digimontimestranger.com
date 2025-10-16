@@ -1,0 +1,35 @@
+{
+  "slug": "firamon",
+  "slug_ja": "siramon",
+  "name_en": "Firamon",
+  "name_ja": "シーラモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "日和見",
+  "evolution_conditions": "エージェントランク3以上◆最大HP1060以上",
+  "evolves_from": [
+    "ガニモン",
+    "リュウダモン",
+    "ベタモン",
+    "シャコモン"
+  ],
+  "evolves_to": [
+    "ワルシードラモン",
+    "メタルティラノモン",
+    "アノマロカリモン",
+    "ハンギョモン",
+    "スカルシードラモン"
+  ],
+  "main_image": "https://img.game8.co/4295763/73b49d1167cfcad5b0c67c7b827846da.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555238",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350116",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Firamon",
+  "stage": "Champion"
+}

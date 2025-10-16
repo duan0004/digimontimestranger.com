@@ -1,0 +1,33 @@
+{
+  "slug": "ikkakumon",
+  "slug_ja": "itukakumon",
+  "name_en": "Ikkakumon",
+  "name_ja": "イッカクモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "蛮勇",
+  "evolution_conditions": "エージェントランク3以上◆最大HP1120以上◆攻撃力440以上",
+  "evolves_from": [
+    "ガブモン",
+    "ゴマモン",
+    "プロットモン"
+  ],
+  "evolves_to": [
+    "ホエーモン",
+    "メガシードラモン",
+    "ズドモン",
+    "スカルシードラモン"
+  ],
+  "main_image": "https://img.game8.co/4295778/9afc3ad92eb7f27231f94c3e5e371883.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555222",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298384",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8421052631578947,
+  "name": "Ikkakumon",
+  "stage": "Champion"
+}

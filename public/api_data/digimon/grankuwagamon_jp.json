@@ -1,0 +1,27 @@
+{
+  "slug": "grankuwagamon_jp",
+  "name": "グランクワガーモン",
+  "name_en": "GranKuwagamon",
+  "name_ja": "グランクワガーモン",
+  "stage_en": null,
+  "stage_ja": "究極体",
+  "attribute": "フリー",
+  "personality": "熱血所持特攻虫",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2770以上◆防御力2290以上",
+  "evolves_from": [
+    "ディノビーモン",
+    "ジュレイモン",
+    "オオクワモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833319/3a07fd05966f1b057191b2820f8afb4c.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355318",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.81)",
+  "stage": "究極体"
+}

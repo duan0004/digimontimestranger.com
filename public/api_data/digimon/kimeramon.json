@@ -1,0 +1,33 @@
+{
+  "slug": "kimeramon",
+  "name_en": "Kimeramon",
+  "name_ja": "キメラモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "気さく所持特攻氷",
+  "evolution_conditions": "エージェントランク5以上◆最大HP2030以上◆攻撃力1350以上",
+  "evolves_from": [
+    "ガルルモン",
+    "デルタモン",
+    "カブテリモン",
+    "グレイモン",
+    "クワガーモン"
+  ],
+  "evolves_to": [
+    "グランドラクモン",
+    "ミレニアモン",
+    "ムゲンドラモン"
+  ],
+  "main_image": "https://img.game8.co/4296763/12b392349841a0ed709d4b25f69c6ec3.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555614",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354772",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Kimeramon",
+  "stage": "Ultimate"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "toiakumon",
+  "name_ja": "トイアグモン",
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク1以上◆最大HP460以上",
+  "evolves_from": [
+    "カプリモン"
+  ],
+  "evolves_to": [
+    "ブリンプモン",
+    "リボルモン",
+    "レアモン",
+    "タンクモン",
+    "ガルゴモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_29.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298285",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "トイアグモン",
+  "stage": "成長期",
+  "name_en": "ToyAgumon"
+}

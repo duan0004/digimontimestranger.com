@@ -1,0 +1,27 @@
+{
+  "slug": "siyueruhimon",
+  "name_ja": "ジュエルビーモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "熱血所持特攻虫",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1200以上◆攻撃力1020以上",
+  "evolves_from": [
+    "スティングモン",
+    "フライモン",
+    "スナイモン"
+  ],
+  "evolves_to": [
+    "ヘラクルカブテリモン",
+    "タイガーヴェスパモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_211.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354700",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ジュエルビーモン",
+  "stage": "完全体",
+  "name_en": "Siyueruhimon"
+}

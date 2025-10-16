@@ -1,0 +1,31 @@
+{
+  "slug": "goldramon",
+  "name": "Goldramon",
+  "name_en": "Goldramon",
+  "name_ja": "ガンドラモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク1以上◆最大SP290以上◆精神200以上",
+  "evolves_from": [
+    "カプリモン"
+  ],
+  "evolves_to": [
+    "スターモン",
+    "ゴールドヌメモン",
+    "メラモン",
+    "ガードロモン(金)"
+  ],
+  "main_image": "https://j-img.game8.co/11833393/7dadd0978c572ebeaac6873c81b18614.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555755",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Mega"
+}

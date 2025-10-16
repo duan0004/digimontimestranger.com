@@ -1,0 +1,29 @@
+{
+  "slug": "tapirmon_jp",
+  "name": "タイタモン",
+  "name_en": "Titamon",
+  "name_ja": "タイタモン",
+  "stage_en": null,
+  "stage_ja": "究極体",
+  "attribute": "Vaccine",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP3220以上◆攻撃力1680以上",
+  "evolves_from": [
+    "ダークスーパースターモン",
+    "デジタマモン",
+    "スカルグレイモン"
+  ],
+  "evolves_to": [
+    "タイタモン+スカルバルキモン"
+  ],
+  "main_image": "https://img.game8.co/4295129/456f0560dd5dd04f4eb8903947f24d68.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355213",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "究極体"
+}

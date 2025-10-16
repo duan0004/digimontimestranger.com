@@ -1,0 +1,28 @@
+{
+  "slug": "chuumon",
+  "slug_ja": "hukumon",
+  "name_en": "Chuumon",
+  "name_ja": "プクモン",
+  "stage_en": "Rookie",
+  "stage_ja": "究極体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2690以上◆攻撃力1790以上",
+  "evolves_from": [
+    "トノサマゲコモン",
+    "マメモン",
+    "アノマロカリモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4295340/4a5072b41ccb1076ed4c85f4df8749e3.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555112",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355243",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Chuumon",
+  "stage": "Rookie"
+}

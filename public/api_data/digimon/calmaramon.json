@@ -1,0 +1,26 @@
+{
+  "slug": "calmaramon",
+  "name": "Calmaramon",
+  "name_en": "Calmaramon",
+  "name_ja": "カルマーラモン",
+  "stage_en": "Hybrid",
+  "stage_ja": null,
+  "attribute": "ヴァリアブル",
+  "personality": "天啓",
+  "evolution_conditions": "ラーナモンをモードチェンジする",
+  "evolves_from": [],
+  "evolves_to": [
+    "ラーナモン"
+  ],
+  "main_image": "https://j-img.game8.co/11831538/c59b8852e9e2403e194002209ce9d469.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555711",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.76)",
+  "stage": "Hybrid"
+}

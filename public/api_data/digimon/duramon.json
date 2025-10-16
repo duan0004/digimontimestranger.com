@@ -1,0 +1,26 @@
+{
+  "slug": "duramon",
+  "slug_ja": "kuramon",
+  "name_en": "Duramon",
+  "name_ja": "クラモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "幼年期1",
+  "attribute": "NO DATA",
+  "personality": "悪知恵",
+  "evolution_conditions": "なし",
+  "evolves_from": [],
+  "evolves_to": [
+    "パグモンツメモン"
+  ],
+  "main_image": "https://img.game8.co/4296788/104df70c5f2d58a9315be418fb20f744.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555589",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298240",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Duramon",
+  "stage": "Ultimate"
+}

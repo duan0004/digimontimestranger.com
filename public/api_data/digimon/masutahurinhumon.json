@@ -1,0 +1,26 @@
+{
+  "slug": "masutahurinhumon",
+  "name_ja": "マスターブリンプモン",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "社交的所持特攻鳥",
+  "evolution_conditions": "エージェントランク5以上◆最大HP2000以上◆精神920以上",
+  "evolves_from": [
+    "ブリンプモン",
+    "ガードロモン(金)"
+  ],
+  "evolves_to": [
+    "グランドロコモン",
+    "ガンドラモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_257.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354838",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "マスターブリンプモン",
+  "stage": "完全体",
+  "name_en": "Masutahurinhumon"
+}

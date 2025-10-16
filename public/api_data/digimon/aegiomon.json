@@ -1,0 +1,33 @@
+{
+  "slug": "aegiomon",
+  "name": "Aegiomon",
+  "name_en": "Aegiomon",
+  "name_ja": "アイギオモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "熱血所持特攻騎士",
+  "evolution_conditions": "エージェントランク5以上◆防御力1040以上◆精神950以上",
+  "evolves_from": [
+    "クロックモン",
+    "ディノヒューモン",
+    "ズバイガーモン"
+  ],
+  "evolves_to": [
+    "ザンバモン",
+    "スラッシュエンジェモン",
+    "ロードナイトモン",
+    "ドゥフトモン"
+  ],
+  "main_image": "https://img.game8.co/4295776/366042ca46e9db32776ccea736a4caee.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555151",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Champion"
+}

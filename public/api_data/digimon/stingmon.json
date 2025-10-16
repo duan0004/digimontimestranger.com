@@ -1,0 +1,17 @@
+{
+  "slug": "stingmon",
+  "name_en": "Stingmon",
+  "stage_en": "Champion",
+  "attribute": "Free",
+  "main_image": "https://img.game8.co/4295799/c1424dbbbf77424fd2ffd775636d7ffc.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555374",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Stingmon",
+  "stage": "Champion",
+  "name_ja": "スティングモン"
+}

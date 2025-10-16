@@ -1,0 +1,31 @@
+{
+  "slug": "gaogamon_jp",
+  "name": "ガオガモン",
+  "name_en": "Gaogamon",
+  "name_ja": "ガオガモン",
+  "stage_en": null,
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク3以上◆精神470以上",
+  "evolves_from": [
+    "ガオモン",
+    "ベアモン",
+    "ガジモン"
+  ],
+  "evolves_to": [
+    "マッハガオガモン",
+    "セイバーハックモン",
+    "ダークスーパースターモン"
+  ],
+  "main_image": "https://img.game8.co/4295842/4efabfcba6e1248e71afee5ad4c05298.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350098",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "成熟期"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "monzaemon",
+  "slug_ja": "monsaemon",
+  "name_en": "Monzaemon",
+  "name_ja": "もんざえモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "豪胆",
+  "evolution_conditions": "エージェントランク5以上◆最大HP2080以上◆精神1140以上",
+  "evolves_from": [
+    "ヌメモン",
+    "スカモン",
+    "ゲレモン"
+  ],
+  "evolves_to": [
+    "キングエテモン",
+    "カリスモン"
+  ],
+  "main_image": "https://img.game8.co/4296802/fc7186a60927d603c89db56be5b201ab.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555601",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354739",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8888888888888888,
+  "name": "Monzaemon",
+  "stage": "Ultimate"
+}

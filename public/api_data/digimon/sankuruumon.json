@@ -1,0 +1,31 @@
+{
+  "slug": "sankuruumon",
+  "name_ja": "サングルゥモン",
+  "stage_ja": "成熟期",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆素早さ620以上",
+  "evolves_from": [
+    "インプモン",
+    "ドルモン",
+    "プロットモン",
+    "ドラクモン",
+    "ガジモン"
+  ],
+  "evolves_to": [
+    "マタドゥルモン",
+    "ヴァンデモン",
+    "アスタモン",
+    "ワーガルルモン(黒)"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_153.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350185",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "サングルゥモン",
+  "stage": "成熟期",
+  "name_en": "Sankuruumon"
+}

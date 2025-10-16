@@ -1,0 +1,29 @@
+{
+  "slug": "kuresiemon",
+  "name_ja": "クレシェモン",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "天啓所持特攻獣",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1530以上◆精神1000以上◆素早さ890以上",
+  "evolves_from": [
+    "レキスモン",
+    "ユキダルモン",
+    "アイスデビモン",
+    "アイスモン"
+  ],
+  "evolves_to": [
+    "ディアナモン",
+    "ケルビモン(善)",
+    "ロードナイトモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_237.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354778",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "クレシェモン",
+  "stage": "完全体",
+  "name_en": "Kuresiemon"
+}

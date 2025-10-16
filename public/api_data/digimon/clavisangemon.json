@@ -1,0 +1,17 @@
+{
+  "slug": "clavisangemon",
+  "name_en": "ClavisAngemon",
+  "stage_en": "Mega",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11833356/6f8d3b472961eaf961513fa0bf2745bf.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555749",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ClavisAngemon",
+  "stage": "Mega",
+  "name_ja": "クラヴィスエンジェモン"
+}

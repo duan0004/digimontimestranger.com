@@ -1,0 +1,17 @@
+{
+  "slug": "enbarrmon",
+  "name_en": "Enbarrmon",
+  "stage_en": "Ultimate",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4296797/a46784129f0d5f11551c8a1c10917c81.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555610",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Enbarrmon",
+  "stage": "Ultimate",
+  "name_ja": "アンヴァルモン"
+}

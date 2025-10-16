@@ -1,0 +1,17 @@
+{
+  "slug": "growlmon",
+  "name_en": "Growlmon",
+  "stage_en": "Champion",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295846/b6623d798e587ba1d8f28e64d8567f34.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555347",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Growlmon",
+  "stage": "Champion",
+  "name_ja": "ガルルモン(黒)"
+}

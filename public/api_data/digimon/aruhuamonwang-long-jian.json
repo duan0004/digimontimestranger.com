@@ -1,0 +1,23 @@
+{
+  "slug": "aruhuamonwang-long-jian",
+  "name_ja": "アルファモン王竜剣",
+  "stage_ja": "超究極体",
+  "attribute": "NO DATA",
+  "personality": "ワクチン気さく所持特攻竜不明",
+  "evolution_conditions": "<<ジョグレス進化>>◆エージェントランク8以上◆アルファモンの性格が気さく◆オウリュウモンの性格が熱血",
+  "evolves_from": [
+    "オウリュウモン",
+    "アルファモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_427.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355336",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アルファモン王竜剣",
+  "stage": "超究極体",
+  "name_en": "Aruhuamonwang Long Jian"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "vademon",
+  "name_en": "Vademon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296946/64877732fa408ac7afc502d8cb54eac6.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555137",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Vademon",
+  "stage": "Ultimate",
+  "name_ja": "ヴァンデモン"
+}

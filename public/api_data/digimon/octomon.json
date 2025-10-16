@@ -1,0 +1,26 @@
+{
+  "slug": "octomon",
+  "slug_ja": "totomon",
+  "name_en": "Octomon",
+  "name_ja": "ドドモン",
+  "stage_en": "Champion",
+  "stage_ja": "幼年期1",
+  "attribute": "NO DATA",
+  "personality": "蛮勇",
+  "evolution_conditions": "なし",
+  "evolves_from": [],
+  "evolves_to": [
+    "ワニャモンドリモン"
+  ],
+  "main_image": "https://img.game8.co/4295790/b45b81f760203913629ea43693fcf828.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555343",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305191",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Octomon",
+  "stage": "Champion"
+}

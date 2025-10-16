@@ -1,0 +1,28 @@
+{
+  "slug": "neptunemon",
+  "name": "Neptunemon",
+  "name_en": "Neptunemon",
+  "name_ja": "ネプトゥーンモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "豪胆所持特攻水火",
+  "evolution_conditions": "エージェントランク7以上◆最大SP1190以上◆攻撃力1940以上◆精神1710以上",
+  "evolves_from": [
+    "ホエーモン",
+    "ハンギョモン",
+    "シャークモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833415/4e9c6c88a3d90a1de7b771f240d66d33.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555730",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.76)",
+  "stage": "Mega"
+}

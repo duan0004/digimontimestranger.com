@@ -1,0 +1,26 @@
+{
+  "slug": "mervamon",
+  "slug_ja": "meruuamon",
+  "name_en": "Mervamon",
+  "name_ja": "メルヴァモン",
+  "stage_en": "Mega+",
+  "stage_ja": "超究極体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク8以上◆攻撃力3470以上◆素早さ2960以上",
+  "evolves_from": [
+    "ミネルヴァモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11835882/570c643456ad186553768ebcdbaa5800.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555864",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355390",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Mervamon",
+  "stage": "Mega+"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "divermon_jp",
+  "name": "シェルモン",
+  "name_en": "Divermon Jp",
+  "name_ja": "シェルモン",
+  "stage_en": null,
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "豪胆",
+  "evolution_conditions": "エージェントランク3以上◆最大SP460以上◆防御力430以上",
+  "evolves_from": [
+    "カメモン",
+    "ガニモン",
+    "シャコモン"
+  ],
+  "evolves_to": [
+    "ホエーモン",
+    "ピッコロモン",
+    "アノマロカリモン"
+  ],
+  "main_image": "https://img.game8.co/4296755/accd6a2e3fa06d5e1af907454559b321.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350119",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "成熟期"
+}

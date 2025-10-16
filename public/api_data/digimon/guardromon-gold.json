@@ -1,0 +1,17 @@
+{
+  "slug": "guardromon-gold",
+  "name_en": "Guardromon (Gold)",
+  "stage_en": "Champion",
+  "attribute": "Free",
+  "main_image": "https://img.game8.co/4295852/0abf55707066f5eeea4c346d136c3045.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555373",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Guardromon (Gold)",
+  "stage": "Champion",
+  "name_ja": "ガードロモン"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "sitoramon",
+  "name_ja": "シードラモン",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "戦略家所持特攻水",
+  "evolution_conditions": "エージェントランク3以上◆最大HP890以上◆知力420以上",
+  "evolves_from": [
+    "ドラコモン",
+    "ベタモン",
+    "エレキモン",
+    "オタマモン"
+  ],
+  "evolves_to": [
+    "ホエーモン",
+    "メガシードラモン",
+    "ワルシードラモン",
+    "ヒシャリュウモン",
+    "シャークモン",
+    "スカルシードラモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_121.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350113",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "シードラモン",
+  "stage": "成熟期",
+  "name_en": "Sitoramon"
+}

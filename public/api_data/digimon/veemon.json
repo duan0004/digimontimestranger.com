@@ -1,0 +1,32 @@
+{
+  "slug": "veemon",
+  "name": "Veemon",
+  "name_en": "Veemon",
+  "name_ja": "ブイモン",
+  "stage_en": "Rookie",
+  "stage_ja": null,
+  "attribute": "Free",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大HP750以上",
+  "evolves_from": [
+    "チューモン",
+    "ガブモン",
+    "ギザモン"
+  ],
+  "evolves_to": [
+    "キャッチマメモン",
+    "スーパースターモン",
+    "もんざえモン"
+  ],
+  "main_image": "https://img.game8.co/4294413/6be505eb8e5e37e42e9cf987d8d6cfe9.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555155",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "Rookie"
+}

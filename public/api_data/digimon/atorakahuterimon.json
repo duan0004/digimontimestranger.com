@@ -1,0 +1,27 @@
+{
+  "slug": "atorakahuterimon",
+  "name_ja": "アトラーカブテリモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "悪知恵",
+  "evolution_conditions": "エージェントランク5以上◆最大SP620以上◆防御力1020以上",
+  "evolves_from": [
+    "カブテリモン",
+    "フライモン",
+    "ドクグモン"
+  ],
+  "evolves_to": [
+    "タイラントカブテリモン",
+    "ヘラクルカブテリモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_198.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354661",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アトラーカブテリモン",
+  "stage": "完全体",
+  "name_en": "Atorakahuterimon"
+}

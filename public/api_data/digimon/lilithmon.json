@@ -1,0 +1,17 @@
+{
+  "slug": "lilithmon",
+  "name_en": "Lilithmon",
+  "stage_en": "Mega",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11833343/109aa77f21dc5b6d8ee4cae7918d1a61.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555858",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Lilithmon",
+  "stage": "Mega",
+  "name_ja": "リリスモン"
+}

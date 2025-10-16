@@ -1,0 +1,26 @@
+{
+  "slug": "harotutomon",
+  "name_ja": "パロットモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "蛮勇所持特攻機械",
+  "evolution_conditions": "エージェントランク5以上◆知力980以上◆素早さ1060以上",
+  "evolves_from": [
+    "アクィラモン",
+    "バードラモン"
+  ],
+  "evolves_to": [
+    "クロスモン",
+    "ホウオウモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_215.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354712",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "パロットモン",
+  "stage": "完全体",
+  "name_en": "Harotutomon"
+}

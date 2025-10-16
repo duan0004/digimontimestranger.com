@@ -1,0 +1,30 @@
+{
+  "slug": "metalgarurumon",
+  "slug_ja": "metarukarurumon",
+  "name_en": "MetalGarurumon",
+  "name_ja": "メタルガルルモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "気さく所持特攻火爬虫類",
+  "evolution_conditions": "エージェントランク7以上◆最大SP1700以上◆攻撃力960以上◆素早さ1850以上",
+  "evolves_from": [
+    "ワーガルルモン",
+    "メタルマメモン",
+    "ローダーレオモン"
+  ],
+  "evolves_to": [
+    "オメガモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833392/872ee3ece63105a9ae02e857df42509d.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555763",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355153",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8275862068965517,
+  "name": "MetalGarurumon",
+  "stage": "Mega"
+}

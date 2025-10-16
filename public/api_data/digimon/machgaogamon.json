@@ -1,0 +1,17 @@
+{
+  "slug": "machgaogamon",
+  "name_en": "MachGaogamon",
+  "stage_en": "Ultimate",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4296822/ddbcc9f7094ebb2cac889934831b2396.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555637",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "MachGaogamon",
+  "stage": "Ultimate",
+  "name_ja": "マッハガオガモン"
+}

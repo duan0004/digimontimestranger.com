@@ -1,0 +1,17 @@
+{
+  "slug": "skullseadramon",
+  "name_en": "SkullSeadramon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296809/3fc95098031938a873221ef249bfe3db.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555668",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "SkullSeadramon",
+  "stage": "Ultimate",
+  "name_ja": "スカルシードラモン"
+}

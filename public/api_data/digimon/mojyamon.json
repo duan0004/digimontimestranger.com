@@ -1,0 +1,34 @@
+{
+  "slug": "mojyamon",
+  "slug_ja": "mosiyamon",
+  "name_en": "Mojyamon",
+  "name_ja": "モジャモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "包容力",
+  "evolution_conditions": "エージェントランク3以上◆最大HP1200以上",
+  "evolves_from": [
+    "ベアモン",
+    "ゴマモン",
+    "パルモン",
+    "テリアモン"
+  ],
+  "evolves_to": [
+    "ズドモン",
+    "ピッコロモン",
+    "ミスティモン",
+    "マンモン"
+  ],
+  "main_image": "https://img.game8.co/4295765/fddc5a1382fe707344707c75fb0c7e8f.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555242",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298411",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Mojyamon",
+  "stage": "Champion"
+}

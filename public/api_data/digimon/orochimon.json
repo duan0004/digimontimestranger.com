@@ -1,0 +1,32 @@
+{
+  "slug": "orochimon",
+  "slug_ja": "orotimon",
+  "name_en": "Orochimon",
+  "name_ja": "オロチモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大HP1960以上◆攻撃力780以上",
+  "evolves_from": [
+    "デルタモン",
+    "カラツキヌメモン",
+    "クリサリモン"
+  ],
+  "evolves_to": [
+    "バッカスモン",
+    "ガンドラモン",
+    "ミネルヴァモン"
+  ],
+  "main_image": "https://img.game8.co/4296803/21c3eb71dd5a097e1c441e89f33d376c.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555658",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354877",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Orochimon",
+  "stage": "Ultimate"
+}

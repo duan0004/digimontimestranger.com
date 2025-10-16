@@ -1,0 +1,33 @@
+{
+  "slug": "buraimon",
+  "slug_ja": "huraimon",
+  "name_en": "Buraimon",
+  "name_ja": "フライモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Vaccine",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆攻撃力620以上",
+  "evolves_from": [
+    "ファンビーモン",
+    "ギザモン",
+    "マッシュモン"
+  ],
+  "evolves_to": [
+    "メガドラモン",
+    "アトラーカブテリモン",
+    "オオクワモン",
+    "ジュエルビーモン"
+  ],
+  "main_image": "https://img.game8.co/4295750/478cdf0213cc3f78739e3c454c7c5828.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555240",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350206",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.875,
+  "name": "Buraimon",
+  "stage": "Champion"
+}

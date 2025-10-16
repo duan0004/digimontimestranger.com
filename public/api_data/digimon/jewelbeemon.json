@@ -1,0 +1,17 @@
+{
+  "slug": "jewelbeemon",
+  "name_en": "Jewelbeemon",
+  "stage_en": "Ultimate",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4296808/65b0628e5d11f48692e5d60fe00c795a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555586",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Jewelbeemon",
+  "stage": "Ultimate",
+  "name_ja": "ジュエルビーモン"
+}

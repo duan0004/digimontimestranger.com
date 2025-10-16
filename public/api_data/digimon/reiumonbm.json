@@ -1,0 +1,22 @@
+{
+  "slug": "reiumonbm",
+  "name_ja": "レイヴモンBM",
+  "stage_ja": "超究極体",
+  "attribute": "ワクチン",
+  "personality": "社交的所持特攻聖",
+  "evolution_conditions": "エージェントランク8以上◆最大SP1710以上◆素早さ3390以上",
+  "evolves_from": [
+    "レイヴモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_438.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355366",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "レイヴモンBM",
+  "stage": "超究極体",
+  "name_en": "Reiumonbm"
+}

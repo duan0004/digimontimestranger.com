@@ -1,0 +1,33 @@
+{
+  "slug": "tsunomon",
+  "slug_ja": "tunomon",
+  "name_en": "Tsunomon",
+  "name_ja": "ツノモン",
+  "stage_en": "In-Training II",
+  "stage_ja": "幼年期2",
+  "attribute": "NO DATA",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク1以上◆攻撃力200以上",
+  "evolves_from": [
+    "プニモン"
+  ],
+  "evolves_to": [
+    "ゴブリモン",
+    "ブイモン",
+    "ガブモン",
+    "リュウダモン",
+    "エレキモン",
+    "ズバモン"
+  ],
+  "main_image": "https://img.game8.co/4295329/1b97e3dc6eaa7bf394a0e2ccf42bdae9.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555171",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298252",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9333333333333333,
+  "name": "Tsunomon",
+  "stage": "In-Training II"
+}

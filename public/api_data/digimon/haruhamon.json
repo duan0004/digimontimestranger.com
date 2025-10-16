@@ -1,0 +1,23 @@
+{
+  "slug": "haruhamon",
+  "name_ja": "バルバモン",
+  "stage_ja": "究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大SPが1060以上◆知力2290以上",
+  "evolves_from": [
+    "スカルサタモン",
+    "シャウジンモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_391.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355231",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "バルバモン",
+  "stage": "究極体",
+  "name_en": "Barbamon"
+}

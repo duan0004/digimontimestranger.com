@@ -20,6 +20,7 @@ export default function Header() {
 
   const navigation = [
     { name: t('home'), href: '/' },
+    { name: 'Dex', href: '/dex' },
     { name: t('walkthrough'), href: '/walkthrough' },
     { name: t('digidex'), href: '/digidex' },
     { name: t('database'), href: '/database' },

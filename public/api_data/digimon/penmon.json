@@ -1,0 +1,31 @@
+{
+  "slug": "penmon",
+  "slug_ja": "henmon",
+  "name_en": "Penmon",
+  "name_ja": "ペンモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "豪胆",
+  "evolution_conditions": "エージェントランク1以上◆知力260以上",
+  "evolves_from": [
+    "ピョコモン"
+  ],
+  "evolves_to": [
+    "ペックモン",
+    "ブライモン",
+    "キウイモン",
+    "アクィラモン"
+  ],
+  "main_image": "https://img.game8.co/4294385/84cbcd13d17d197d0e94593f7738b8a1.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555195",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298294",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8333333333333334,
+  "name": "Penmon",
+  "stage": "Rookie"
+}

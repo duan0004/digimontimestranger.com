@@ -1,0 +1,29 @@
+{
+  "slug": "hiandromon",
+  "name": "HiAndromon",
+  "name_en": "HiAndromon",
+  "name_ja": "ハイアンドロモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "献身的所持特攻機械",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2500以上◆精神1780以上",
+  "evolves_from": [
+    "ロコモン",
+    "マミーモン",
+    "アンドロモン",
+    "ラピッドモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833394/5abd0ca14deba0b1db6ab9c13d9d1725.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555731",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.82)",
+  "stage": "Mega"
+}

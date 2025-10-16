@@ -1,0 +1,26 @@
+{
+  "slug": "chronomon-dm_jp",
+  "name": "クロノモンDM",
+  "name_en": "Chronomon Dm Jp",
+  "name_ja": "クロノモンDM",
+  "stage_en": null,
+  "stage_ja": "究極体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク10以上◆エージェントスキル「勇壮の絆」習得数が46以上◆エージェントスキル「博愛の絆」習得数が46以上◆エージェントスキル「友好の絆」習得数が46以上◆エージェントスキル「知啓の絆」習得数が46以上",
+  "evolves_from": [
+    "アイギオテュースモン：ダーク",
+    "ブテンモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11835960/37ea14c3dfb3f7816b6065186a96cd1d.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79360316",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "究極体"
+}

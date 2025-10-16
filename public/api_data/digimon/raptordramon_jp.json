@@ -1,0 +1,25 @@
+{
+  "slug": "raptordramon_jp",
+  "name": "ライドラモン",
+  "name_en": "Raptordramon Jp",
+  "name_ja": "ライドラモン",
+  "stage_en": null,
+  "stage_ja": "アーマー体",
+  "attribute": "フリー",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク3以上◆友情のデジメンタル所持",
+  "evolves_from": [
+    "ブイモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4295764/3265bb4c5be037ecb94c4505238456c7.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350260",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.82)",
+  "stage": "アーマー体"
+}

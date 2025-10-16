@@ -1,0 +1,31 @@
+{
+  "slug": "sharkmon_jp",
+  "name": "バクモン",
+  "name_en": "Sharkmon Jp",
+  "name_ja": "バクモン",
+  "stage_en": null,
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "包容力",
+  "evolution_conditions": "エージェントランク1以上◆最大SP360以上◆知力220以上",
+  "evolves_from": [
+    "ワニャモン"
+  ],
+  "evolves_to": [
+    "メラモン",
+    "ガルルモン",
+    "バケモン",
+    "ユニモン",
+    "キュウビモン"
+  ],
+  "main_image": "https://img.game8.co/4296841/13e27cd95c28e942e05111798eae69ad.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298288",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "成長期"
+}

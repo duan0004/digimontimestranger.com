@@ -1,0 +1,26 @@
+{
+  "slug": "submarimon",
+  "slug_ja": "sahumarimon",
+  "name_en": "Submarimon",
+  "name_ja": "サブマリモン",
+  "stage_en": "Armor",
+  "stage_ja": "アーマー体",
+  "attribute": "フリー",
+  "personality": "過保護",
+  "evolution_conditions": "エージェントランク3以上◆誠実のデジメンタル所持",
+  "evolves_from": [
+    "アルマジモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11835932/a52fd444aa572c222ca0253320debd5b.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555709",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350242",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Submarimon",
+  "stage": "Armor"
+}

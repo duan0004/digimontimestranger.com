@@ -1,0 +1,34 @@
+{
+  "slug": "reppamon",
+  "slug_ja": "reamon",
+  "name_en": "Reppamon",
+  "name_ja": "レアモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Vaccine",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大HP900以上",
+  "evolves_from": [
+    "ガニモン",
+    "トイアグモン",
+    "シャコモン"
+  ],
+  "evolves_to": [
+    "ダゴモン",
+    "ブラックキングヌメモン",
+    "トノサマゲコモン",
+    "エクスティラノモン",
+    "スカルバルキモン"
+  ],
+  "main_image": "https://img.game8.co/4295768/b8ae023e73e8804fb828e6ed20720255.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555247",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350227",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Reppamon",
+  "stage": "Champion"
+}

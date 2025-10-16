@@ -1,0 +1,32 @@
+{
+  "slug": "gekomon",
+  "slug_ja": "kekomon",
+  "name_en": "Gekomon",
+  "name_ja": "ゲコモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆知力490以上",
+  "evolves_from": [
+    "チューモン",
+    "エレキモン",
+    "オタマモン"
+  ],
+  "evolves_to": [
+    "セイレーンモン",
+    "トノサマゲコモン",
+    "ハンギョモン"
+  ],
+  "main_image": "https://img.game8.co/4295825/dde6764827b357dc75f7fef394989ab3.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555348",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298447",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Gekomon",
+  "stage": "Champion"
+}

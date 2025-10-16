@@ -1,0 +1,28 @@
+{
+  "slug": "vikemon_jp",
+  "name": "ピエモン",
+  "name_en": "Piedmon",
+  "name_ja": "ピエモン",
+  "stage_en": null,
+  "stage_ja": "究極体",
+  "attribute": "Free",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大SP1190以上◆知力1860以上",
+  "evolves_from": [
+    "スカルサタモン",
+    "ファントモン"
+  ],
+  "evolves_to": [
+    "アポカリモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833318/a30be4473a554b6365170b960ae011b7.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355234",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "究極体"
+}

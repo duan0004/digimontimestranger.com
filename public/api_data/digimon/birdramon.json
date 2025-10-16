@@ -1,0 +1,32 @@
+{
+  "slug": "birdramon",
+  "name": "Birdramon",
+  "name_en": "Birdramon",
+  "name_ja": "ブイドラモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク1以上◆最大HP500以上◆精神160以上",
+  "evolves_from": [
+    "タネモン"
+  ],
+  "evolves_to": [
+    "サンフラウモン",
+    "トゲモン",
+    "リボルモン",
+    "ツチダルモン",
+    "トゥルイエモン"
+  ],
+  "main_image": "https://img.game8.co/4295751/9aa32ff1a63a2b8c9fad08b8affe6b36.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555237",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Champion"
+}

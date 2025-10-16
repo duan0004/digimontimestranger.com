@@ -1,0 +1,17 @@
+{
+  "slug": "scorpiomon",
+  "name_en": "Scorpiomon",
+  "stage_en": "Ultimate",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4296845/4f2c03f9d21ab752eeb5a720ade16c1f.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555609",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Scorpiomon",
+  "stage": "Ultimate",
+  "name_ja": "スコピオモン"
+}

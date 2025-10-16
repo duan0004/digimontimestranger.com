@@ -1,0 +1,33 @@
+{
+  "slug": "lunamon",
+  "slug_ja": "runamon",
+  "name_en": "Lunamon",
+  "name_ja": "ルナモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "データ",
+  "personality": "天啓",
+  "evolution_conditions": "エージェントランク1以上◆精神240以上",
+  "evolves_from": [
+    "ニャロモン"
+  ],
+  "evolves_to": [
+    "レキスモン",
+    "ガルルモン",
+    "ユキダルモン",
+    "ヒョーガモン",
+    "ソーサリモン",
+    "アイスモン"
+  ],
+  "main_image": "https://img.game8.co/4295338/22f303f74f72fa70d1aedf56cb82159e.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555125",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305242",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Lunamon",
+  "stage": "Rookie"
+}

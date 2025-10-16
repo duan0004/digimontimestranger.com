@@ -1,0 +1,30 @@
+{
+  "slug": "ceresmon",
+  "slug_ja": "keresumon",
+  "name_en": "Ceresmon",
+  "name_ja": "ケレスモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "戦略家所持特攻虫草獣",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2470以上◆精神2190以上",
+  "evolves_from": [
+    "セイレーンモン",
+    "リリモン",
+    "デラモン"
+  ],
+  "evolves_to": [
+    "ケレスモンメディウム"
+  ],
+  "main_image": "https://j-img.game8.co/11833423/f551652e3b66264eedb6265252ece4f3.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555779",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355105",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Ceresmon",
+  "stage": "Mega"
+}

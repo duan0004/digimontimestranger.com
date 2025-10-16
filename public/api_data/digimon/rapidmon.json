@@ -1,0 +1,33 @@
+{
+  "slug": "rapidmon",
+  "name": "Rapidmon",
+  "name_en": "Rapidmon",
+  "name_ja": "ラピッドモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "Vaccine",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆攻撃力620以上",
+  "evolves_from": [
+    "ファンビーモン",
+    "ギザモン",
+    "マッシュモン"
+  ],
+  "evolves_to": [
+    "メガドラモン",
+    "アトラーカブテリモン",
+    "オオクワモン",
+    "ジュエルビーモン"
+  ],
+  "main_image": "https://img.game8.co/4296821/5f5e087d8108a4bed030f0675c4cd204.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555604",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Ultimate"
+}

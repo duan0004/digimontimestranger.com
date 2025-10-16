@@ -1,0 +1,23 @@
+{
+  "slug": "kurauisuensiemon",
+  "name_ja": "クラヴィスエンジェモン",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "献身的所持特攻不明",
+  "evolution_conditions": "エージェントランク7以上◆最大SP1540以上◆知力2450以上",
+  "evolves_from": [
+    "ホーリーエンジェモン",
+    "ピッコロモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_315.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355012",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "クラヴィスエンジェモン",
+  "stage": "究極体",
+  "name_en": "Kurauisuensiemon"
+}

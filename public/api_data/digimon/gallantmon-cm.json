@@ -1,0 +1,17 @@
+{
+  "slug": "gallantmon-cm",
+  "name_en": "Gallantmon CM",
+  "stage_en": "Mega+",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11835886/286b080abc7de3aa5c7128b18d377444.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555861",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Gallantmon CM",
+  "stage": "Mega+",
+  "name_ja": "デュークモン：クリムゾンモード"
+}

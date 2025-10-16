@@ -1,0 +1,22 @@
+{
+  "slug": "uritoramon",
+  "name_ja": "ヴリトラモン",
+  "stage_ja": null,
+  "attribute": "ヴァリアブル",
+  "personality": "熱血所持特攻不死",
+  "evolution_conditions": "炎のビーストスピリットを所持しているとアグニモンからモードチェンジ可能",
+  "evolves_from": [],
+  "evolves_to": [
+    "アルダモンアグニモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_190.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354640",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ヴリトラモン",
+  "stage": null,
+  "name_en": "Uritoramon"
+}

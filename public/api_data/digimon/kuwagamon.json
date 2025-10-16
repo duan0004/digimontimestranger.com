@@ -1,0 +1,33 @@
+{
+  "slug": "kuwagamon",
+  "slug_ja": "kuwakamon",
+  "name_en": "Kuwagamon",
+  "name_ja": "クワガーモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆攻撃力550以上",
+  "evolves_from": [
+    "テントモン",
+    "エレキモン",
+    "コクワモン"
+  ],
+  "evolves_to": [
+    "ジュレイモン",
+    "オオクワモン",
+    "アノマロカリモン",
+    "キメラモン"
+  ],
+  "main_image": "https://img.game8.co/4295836/c0f62ae410a1666399940947d3f44e3b.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555131",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350170",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8888888888888888,
+  "name": "Kuwagamon",
+  "stage": "Champion"
+}

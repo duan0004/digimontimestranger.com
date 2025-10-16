@@ -1,0 +1,32 @@
+{
+  "slug": "kurisarimon",
+  "name_en": "Kurisarimon",
+  "name_ja": "クリサリモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Unknown",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大HP1170以上",
+  "evolves_from": [
+    "パルモン",
+    "モノドラモン",
+    "ケラモン"
+  ],
+  "evolves_to": [
+    "ダゴモン",
+    "オロチモン",
+    "アルケニモン",
+    "インフェルモン"
+  ],
+  "main_image": "https://img.game8.co/4295856/76d00edabf62e5de655d4f0aab43c96d.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555138",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298471",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Kurisarimon",
+  "stage": "Champion"
+}

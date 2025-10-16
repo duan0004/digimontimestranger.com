@@ -1,0 +1,29 @@
+{
+  "slug": "karatukinumemon",
+  "name_ja": "カラツキヌメモン",
+  "stage_ja": "成熟期",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大SP390以上◆防御力300以上",
+  "evolves_from": [
+    "カメモン",
+    "オタマモン",
+    "シャコモン"
+  ],
+  "evolves_to": [
+    "オロチモン",
+    "ワルシードラモン",
+    "ブラックキングヌメモン",
+    "パンダモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_144.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350167",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "カラツキヌメモン",
+  "stage": "成熟期",
+  "name_en": "Karatukinumemon"
+}

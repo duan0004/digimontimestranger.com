@@ -1,0 +1,32 @@
+{
+  "slug": "musyamon",
+  "slug_ja": "musiyamon",
+  "name_en": "Musyamon",
+  "name_ja": "ムシャモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆精神560以上",
+  "evolves_from": [
+    "コテモン",
+    "シャーマモン",
+    "ズバモン"
+  ],
+  "evolves_to": [
+    "グレイドモン",
+    "ブテンモン",
+    "ヒシャリュウモン"
+  ],
+  "main_image": "https://img.game8.co/4295840/b98183f7500c0945228fb59286802bb8.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555367",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350221",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9411764705882353,
+  "name": "Musyamon",
+  "stage": "Champion"
+}

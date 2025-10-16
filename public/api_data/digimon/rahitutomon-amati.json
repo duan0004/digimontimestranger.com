@@ -1,0 +1,22 @@
+{
+  "slug": "rahitutomon-amati",
+  "name_ja": "ラピッドモン(アーマー体)",
+  "stage_ja": "アーマー体",
+  "attribute": "フリー",
+  "personality": "社交的所持特攻機械",
+  "evolution_conditions": "エージェントランク7以上◆運命のデジメンタルを所持",
+  "evolves_from": [
+    "テリアモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_422.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355324",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ラピッドモン(アーマー体)",
+  "stage": "アーマー体",
+  "name_en": "Rahitutomon Amati"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "chaosdramon_jp",
+  "name": "バードラモン",
+  "name_en": "Chaosdramon Jp",
+  "name_ja": "バードラモン",
+  "stage_en": null,
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "包容力",
+  "evolution_conditions": "エージェントランク3以上◆最大SP540以上◆知力540以上",
+  "evolves_from": [
+    "コロナモン",
+    "ピヨモン",
+    "ヒョコモン",
+    "ムーチョモン"
+  ],
+  "evolves_to": [
+    "フレアモン",
+    "ガルダモン",
+    "デスメラモン",
+    "パロットモン"
+  ],
+  "main_image": "https://img.game8.co/4294671/fbc1908b19ab9713e8056dbfa846a1c9.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350071",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "成熟期"
+}

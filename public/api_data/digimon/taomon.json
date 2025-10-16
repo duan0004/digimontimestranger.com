@@ -1,0 +1,31 @@
+{
+  "slug": "taomon",
+  "name_en": "Taomon",
+  "name_ja": "タオモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "天啓所持特攻霊",
+  "evolution_conditions": "エージェントランク5以上◆最大SP860以上◆知力1020以上",
+  "evolves_from": [
+    "ガルルモン",
+    "ウッドモン",
+    "キュウビモン"
+  ],
+  "evolves_to": [
+    "ウェヌスモン",
+    "サクヤモン",
+    "クズハモン"
+  ],
+  "main_image": "https://img.game8.co/4296825/7f96a99990883eb83cf4e84568f3e481.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555621",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354793",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Taomon",
+  "stage": "Ultimate"
+}

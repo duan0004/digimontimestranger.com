@@ -1,0 +1,25 @@
+{
+  "slug": "heouruhumon",
+  "name_ja": "ベオウルフモン",
+  "stage_ja": null,
+  "attribute": "ヴァリアブル",
+  "personality": "気さく所持特攻魔",
+  "evolution_conditions": "エージェントランク5以上◆光のビーストスピリットを所持",
+  "evolves_from": [
+    "ヴォルフモン",
+    "ガルムモン"
+  ],
+  "evolves_to": [
+    "マグナガルルモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_306.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354985",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ベオウルフモン",
+  "stage": null,
+  "name_en": "Heouruhumon"
+}

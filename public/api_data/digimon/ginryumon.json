@@ -1,0 +1,32 @@
+{
+  "slug": "ginryumon",
+  "name": "Ginryumon",
+  "name_en": "Ginryumon",
+  "name_ja": "ギンリュウモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク3以上◆防御力460以上",
+  "evolves_from": [
+    "クダモン",
+    "リュウダモン",
+    "ファルコモン"
+  ],
+  "evolves_to": [
+    "ヒシャリュウモン",
+    "スカルグレイモン",
+    "ブテンモン"
+  ],
+  "main_image": "https://img.game8.co/4295755/1679f8e1b8f26113b8c6d5f682270404.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555227",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Champion"
+}

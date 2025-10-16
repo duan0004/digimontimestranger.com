@@ -1,0 +1,28 @@
+{
+  "slug": "akumon-hei",
+  "name_ja": "アグモン(黒)",
+  "stage_ja": "成長期",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク1以上◆攻撃力490以上◆※早期購入特典orDLCプレオーダーパックが必要",
+  "evolves_from": [
+    "ツメモン"
+  ],
+  "evolves_to": [
+    "ストライクドラモン",
+    "タスクモン",
+    "デビモン",
+    "コアドラモン(青)",
+    "グレイモン(青)"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_468.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79362401",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アグモン(黒)",
+  "stage": "成長期",
+  "name_en": "Agumon (Black)"
+}

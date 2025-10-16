@@ -1,0 +1,31 @@
+{
+  "slug": "tentomon",
+  "name_en": "Tentomon",
+  "name_ja": "テントモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "悪知恵",
+  "evolution_conditions": "エージェントランク1以上◆防御力170以上◆知力250以上",
+  "evolves_from": [
+    "モチモン"
+  ],
+  "evolves_to": [
+    "カブテリモン",
+    "サンフラウモン",
+    "クワガーモン",
+    "ワスプモン",
+    "スナイモン"
+  ],
+  "main_image": "https://img.game8.co/4294680/62747af3d05fd777296ca58a5227ebab.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555203",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298282",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Tentomon",
+  "stage": "Rookie"
+}

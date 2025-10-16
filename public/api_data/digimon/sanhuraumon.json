@@ -1,0 +1,30 @@
+{
+  "slug": "sanhuraumon",
+  "name_ja": "サンフラウモン",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク3以上◆最大SP360以上◆知力630以上◆精神480以上",
+  "evolves_from": [
+    "ララモン",
+    "テントモン",
+    "レナモン",
+    "フローラモン"
+  ],
+  "evolves_to": [
+    "ライラモン",
+    "リリモン",
+    "デラモン",
+    "パンプモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_120.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350110",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "サンフラウモン",
+  "stage": "成熟期",
+  "name_en": "Sanhuraumon"
+}

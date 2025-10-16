@@ -1,0 +1,29 @@
+{
+  "slug": "retuhamon",
+  "name_ja": "レッパモン",
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "戦略家所持特攻草",
+  "evolution_conditions": "エージェントランク3以上◆最大HP820以上◆精神540以上",
+  "evolves_from": [
+    "クダモン",
+    "リュウダモン",
+    "レナモン"
+  ],
+  "evolves_to": [
+    "チィリンモン",
+    "メガシードラモン",
+    "エンジェウーモン",
+    "ドルグレモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_110.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350089",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "レッパモン",
+  "stage": "成熟期",
+  "name_en": "Reppamon"
+}

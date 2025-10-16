@@ -1,0 +1,17 @@
+{
+  "slug": "mushroomon",
+  "name_en": "Mushroomon",
+  "stage_en": "Rookie",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4294405/af506bd334d0b92c0bf4f50186d53c37.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555106",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Mushroomon",
+  "stage": "Rookie",
+  "name_ja": "マッシュモン"
+}

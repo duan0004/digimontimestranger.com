@@ -1,0 +1,17 @@
+{
+  "slug": "aldamon",
+  "name_en": "Aldamon",
+  "stage_en": "Hybrid",
+  "attribute": "Variable",
+  "main_image": "https://j-img.game8.co/11835947/a3bfaa2c63560b4d62628ba3e66a91c2.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555722",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Aldamon",
+  "stage": "Hybrid",
+  "name_ja": "アルダモン"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "bancholeomon",
+  "name_en": "BanchoLeomon",
+  "stage_en": "Mega",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11833425/397dacb9f9426ed6ddf9be80c5d1b758.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555723",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "BanchoLeomon",
+  "stage": "Mega",
+  "name_ja": "バンチョーレオモン"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "saberleomon",
+  "name": "SaberLeomon",
+  "name_en": "SaberLeomon",
+  "name_ja": "サーベルレオモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "熱血所持特攻獣鳥",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2400以上◆攻撃力1930以上◆素早さ1860以上",
+  "evolves_from": [
+    "ケルベロモン",
+    "ケルベロモンJM",
+    "グラップレオモン",
+    "パンジャモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833331/890b24f9ef89367cb3e47fc70a70524d.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555777",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "Mega"
+}

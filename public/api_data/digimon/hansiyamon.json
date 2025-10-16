@@ -1,0 +1,29 @@
+{
+  "slug": "hansiyamon",
+  "name_ja": "パンジャモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "献身的",
+  "evolution_conditions": "エージェントランク5以上◆最大SP540以上◆精神940以上◆素早さ890以上",
+  "evolves_from": [
+    "レオモン",
+    "ユキダルモン",
+    "ヒョーガモン",
+    "アイスデビモン",
+    "アイスモン"
+  ],
+  "evolves_to": [
+    "ミラージュガオガモン",
+    "サーベルレオモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_216.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354715",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "パンジャモン",
+  "stage": "完全体",
+  "name_en": "Hansiyamon"
+}

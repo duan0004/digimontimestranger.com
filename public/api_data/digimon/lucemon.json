@@ -1,0 +1,17 @@
+{
+  "slug": "lucemon",
+  "name_en": "Lucemon",
+  "stage_en": "Rookie",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4296775/d1b469689fbc92a7b77aea2d053138c1.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555572",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Lucemon",
+  "stage": "Rookie",
+  "name_ja": "ギルモン"
+}

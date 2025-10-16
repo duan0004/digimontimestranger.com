@@ -1,0 +1,31 @@
+{
+  "slug": "sirenmon",
+  "slug_ja": "seirenmon",
+  "name_en": "Sirenmon",
+  "name_ja": "セイレーンモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "戦略家所持特攻人",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1530以上◆精神1020以上◆素早さ910以上",
+  "evolves_from": [
+    "エンジェモン",
+    "ゲコモン",
+    "キウイモン"
+  ],
+  "evolves_to": [
+    "マリンエンジェモン",
+    "ケレスモン"
+  ],
+  "main_image": "https://img.game8.co/4296813/022c54ada5fc03291485e2b65bfe69fa.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555620",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354790",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9411764705882353,
+  "name": "Sirenmon",
+  "stage": "Ultimate"
+}

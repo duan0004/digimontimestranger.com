@@ -1,0 +1,23 @@
+{
+  "slug": "taitamon-sukaruharukimon",
+  "name_ja": "タイタモン+スカルバルキモン",
+  "stage_ja": "超究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "<<ジョグレス進化>>◆エージェントランク8以上◆タイタモンの性格が蛮勇◆スカルバルキモンの性格が社交的",
+  "evolves_from": [
+    "スカルバルキモン",
+    "タイタモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_442.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355378",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "タイタモン+スカルバルキモン",
+  "stage": "超究極体",
+  "name_en": "Taitamon Sukaruharukimon"
+}

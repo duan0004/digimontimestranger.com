@@ -1,0 +1,29 @@
+{
+  "slug": "minervamon",
+  "slug_ja": "mineruuamon",
+  "name_en": "Minervamon",
+  "name_ja": "ミネルヴァモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2360以上◆攻撃力1940以上",
+  "evolves_from": [
+    "オロチモン",
+    "シルフィーモン"
+  ],
+  "evolves_to": [
+    "メルヴァモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833322/ac6e2df7f3596d95da1fd6106b7aa9df.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555135",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355270",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Minervamon",
+  "stage": "Mega"
+}

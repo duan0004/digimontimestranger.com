@@ -1,0 +1,31 @@
+{
+  "slug": "wanyamon",
+  "slug_ja": "waniyamon",
+  "name_en": "Wanyamon",
+  "name_ja": "ワニャモン",
+  "stage_en": "In-Training II",
+  "stage_ja": "幼年期2",
+  "attribute": "NO DATA",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク1以上◆最大SP250以上",
+  "evolves_from": [
+    "ドドモン"
+  ],
+  "evolves_to": [
+    "ガオモン",
+    "バクモン",
+    "ベアモン",
+    "レナモン"
+  ],
+  "main_image": "https://img.game8.co/4294682/e26d73b5ef7ef8d92b4a60eecb739cff.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555162",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298267",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9411764705882353,
+  "name": "Wanyamon",
+  "stage": "In-Training II"
+}

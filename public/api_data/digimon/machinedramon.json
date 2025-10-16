@@ -1,0 +1,29 @@
+{
+  "slug": "machinedramon",
+  "name": "Machinedramon",
+  "name_en": "Machinedramon",
+  "name_ja": "ムゲンドラモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2360以上◆攻撃力1940以上",
+  "evolves_from": [
+    "オロチモン",
+    "シルフィーモン"
+  ],
+  "evolves_to": [
+    "メルヴァモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833345/07de9d613877ead43f3551654d6c9c4d.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555849",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Mega"
+}

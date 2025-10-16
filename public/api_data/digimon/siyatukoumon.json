@@ -1,0 +1,28 @@
+{
+  "slug": "siyatukoumon",
+  "name_ja": "シャッコウモン",
+  "stage_ja": "完全体",
+  "attribute": "フリー",
+  "personality": "過保護所持特攻水",
+  "evolution_conditions": "<<ジョグレス進化>>◆エージェントランク5以上◆アンキロモンの性格が過保護◆エンジェモンの性格が天啓",
+  "evolves_from": [
+    "エンジェモン",
+    "アンキロモン"
+  ],
+  "evolves_to": [
+    "ゴッドドラモン",
+    "ユノモン",
+    "ヴァイクモン",
+    "ホーリードラモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_300.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354967",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "シャッコウモン",
+  "stage": "完全体",
+  "name_en": "Shakkoumon"
+}

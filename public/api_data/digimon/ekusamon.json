@@ -1,0 +1,23 @@
+{
+  "slug": "ekusamon",
+  "name_ja": "エグザモン",
+  "stage_ja": "超究極体",
+  "attribute": "データ",
+  "personality": "蛮勇所持特攻古代竜",
+  "evolution_conditions": "<<ジョグレス進化>>◆エージェントランク8以上◆スレイヤードラモンの性格が豪胆◆ブレイクドラモンの性格が蛮勇",
+  "evolves_from": [
+    "スレイヤードラモン",
+    "ブレイクドラモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_439.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355369",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "エグザモン",
+  "stage": "超究極体",
+  "name_en": "Ekusamon"
+}

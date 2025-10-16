@@ -1,0 +1,17 @@
+{
+  "slug": "omnishoutmon",
+  "name_en": "OmniShoutmon",
+  "stage_en": "Ultimate",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4296820/979c5444c787d047ace04320a5a7ba84.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555613",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "OmniShoutmon",
+  "stage": "Ultimate",
+  "name_ja": "ミスティモン"
+}

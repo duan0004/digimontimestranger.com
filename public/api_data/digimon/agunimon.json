@@ -1,0 +1,29 @@
+{
+  "slug": "agunimon",
+  "slug_ja": "akunimon",
+  "name_en": "Agunimon",
+  "name_ja": "アグニモン",
+  "stage_en": "Hybrid",
+  "stage_ja": null,
+  "attribute": "ヴァリアブル",
+  "personality": "熱血所持特攻不死",
+  "evolution_conditions": "エージェントランク3以上◆炎のヒューマンスピリット所持",
+  "evolves_from": [
+    "コロナモン"
+  ],
+  "evolves_to": [
+    "アルダモン",
+    "ヴリトラモン"
+  ],
+  "main_image": "https://j-img.game8.co/11835945/dd46c68b4caa155d357a664f30c12cf3.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555715",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354631",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.875,
+  "name": "Agunimon",
+  "stage": "Hybrid"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "arumasimon",
+  "name_ja": "アルマジモン",
+  "stage_ja": "成長期",
+  "attribute": "フリー",
+  "personality": "過保護",
+  "evolution_conditions": "エージェントランク1以上◆最大SP400以上◆素早さ250以上",
+  "evolves_from": [
+    "トコモン"
+  ],
+  "evolves_to": [
+    "ディグモン",
+    "サブマリモン",
+    "ゴーレモン",
+    "アンキロモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_76.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350044",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アルマジモン",
+  "stage": "成長期",
+  "name_en": "Arumasimon"
+}

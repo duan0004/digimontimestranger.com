@@ -1,0 +1,17 @@
+{
+  "slug": "wizardmon",
+  "name_en": "Wizardmon",
+  "stage_en": "Champion",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4295828/2a044304cbdf6a324c102d6654e24eaa.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555316",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Wizardmon",
+  "stage": "Champion",
+  "name_ja": "ウィザーモン"
+}

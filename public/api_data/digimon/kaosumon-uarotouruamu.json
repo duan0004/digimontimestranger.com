@@ -1,0 +1,23 @@
+{
+  "slug": "kaosumon-uarotouruamu",
+  "name_ja": "カオスモン：ヴァロドゥルアーム",
+  "stage_ja": "超究極体",
+  "attribute": "ワクチン",
+  "personality": "豪胆所持特攻獣不明",
+  "evolution_conditions": "<<ジョグレス進化>>◆エージェントランク8以上◆バンチョーレオモンの性格が豪胆◆ヴァロドゥルモンの性格が社交的",
+  "evolves_from": [
+    "バンチョーレオモン",
+    "ヴァロドゥルモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_433.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355354",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "カオスモン：ヴァロドゥルアーム",
+  "stage": "超究極体",
+  "name_en": "Kaosumon Uarotouruamu"
+}

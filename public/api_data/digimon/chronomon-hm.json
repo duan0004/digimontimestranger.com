@@ -1,0 +1,26 @@
+{
+  "slug": "chronomon-hm",
+  "name": "Chronomon HM",
+  "name_en": "Chronomon HM",
+  "name_ja": "クロノモン：ホーリーモード",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "包容力所持特攻魔",
+  "evolution_conditions": "エージェントランク10以上◆エージェントスキル「勇壮の絆」習得数が46以上◆エージェントスキル「博愛の絆」習得数が46以上◆エージェントスキル「友好の絆」習得数が46以上◆エージェントスキル「知啓の絆」習得数が46以上",
+  "evolves_from": [
+    "ブテンモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11835925/1fb729d389053b090d6527380e4bfe09.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555752",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "Mega"
+}

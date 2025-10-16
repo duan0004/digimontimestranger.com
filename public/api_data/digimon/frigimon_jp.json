@@ -1,0 +1,29 @@
+{
+  "slug": "frigimon_jp",
+  "name": "リリモン",
+  "name_en": "Frigimon Jp",
+  "name_ja": "リリモン",
+  "stage_en": null,
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク5以上◆最大SP960以上◆精神830以上",
+  "evolves_from": [
+    "サンフラウモン",
+    "トゲモン",
+    "ウィッチモン"
+  ],
+  "evolves_to": [
+    "ロゼモンケレスモン"
+  ],
+  "main_image": "https://img.game8.co/4295744/5d5978e9a6296f74f5be301c44664754.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354856",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "完全体"
+}

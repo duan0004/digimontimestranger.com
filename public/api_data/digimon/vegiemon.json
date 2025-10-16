@@ -1,0 +1,31 @@
+{
+  "slug": "vegiemon",
+  "name": "Vegiemon",
+  "name_en": "Vegiemon",
+  "name_ja": "ゲレモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "天啓所持特攻魔",
+  "evolution_conditions": "エージェントランク3以上◆最大SP730以上◆知力540以上",
+  "evolves_from": [
+    "クダモンパタモン"
+  ],
+  "evolves_to": [
+    "ヒポグリフォモン",
+    "ホーリーエンジェモン",
+    "セイレーンモン",
+    "シャッコウモン"
+  ],
+  "main_image": "https://img.game8.co/4295789/37763a0501bf956bf1516ef96f297bfb.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555365",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Champion"
+}

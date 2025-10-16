@@ -1,0 +1,28 @@
+{
+  "slug": "siokureimon",
+  "name_ja": "ジオグレイモン",
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク3以上◆最大HP1100以上",
+  "evolves_from": [
+    "アグモン",
+    "ギルモン",
+    "ハックモン"
+  ],
+  "evolves_to": [
+    "ライズグレイモン",
+    "メタルティラノモン",
+    "サイバードラモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_92.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298402",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ジオグレイモン",
+  "stage": "成熟期",
+  "name_en": "Siokureimon"
+}

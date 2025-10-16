@@ -1,0 +1,32 @@
+{
+  "slug": "shakkoumon",
+  "slug_ja": "hakumon",
+  "name_en": "Shakkoumon",
+  "name_ja": "バクモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "包容力",
+  "evolution_conditions": "エージェントランク1以上◆最大SP360以上◆知力220以上",
+  "evolves_from": [
+    "ワニャモン"
+  ],
+  "evolves_to": [
+    "メラモン",
+    "ガルルモン",
+    "バケモン",
+    "ユニモン",
+    "キュウビモン"
+  ],
+  "main_image": "https://img.game8.co/4296792/3d7e042be3347534821848d361a52c76.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555647",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298288",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Shakkoumon",
+  "stage": "Ultimate"
+}

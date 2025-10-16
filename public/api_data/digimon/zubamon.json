@@ -1,0 +1,17 @@
+{
+  "slug": "zubamon",
+  "name_en": "Zubamon",
+  "stage_en": "Rookie",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4295344/4a0976af5c09d86973890e3b817ddbee.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555157",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Zubamon",
+  "stage": "Rookie",
+  "name_ja": "ズバモン"
+}

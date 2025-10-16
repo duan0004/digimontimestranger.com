@@ -1,0 +1,29 @@
+{
+  "slug": "horiensiemon",
+  "name_ja": "ホーリーエンジェモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "天啓所持特攻魔",
+  "evolution_conditions": "エージェントランク5以上◆最大SP910以上◆知力1270以上",
+  "evolves_from": [
+    "エンジェモン",
+    "ユニモン",
+    "ソーサリモン"
+  ],
+  "evolves_to": [
+    "ゴッドドラモン",
+    "セラフィモン",
+    "クラヴィスエンジェモン",
+    "スラッシュエンジェモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_221.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354730",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ホーリーエンジェモン",
+  "stage": "完全体",
+  "name_en": "Horiensiemon"
+}

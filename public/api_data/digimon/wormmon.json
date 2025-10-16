@@ -1,0 +1,17 @@
+{
+  "slug": "wormmon",
+  "name_en": "Wormmon",
+  "stage_en": "Rookie",
+  "attribute": "Free",
+  "main_image": "https://img.game8.co/4294408/15781551f4a164628cb39fb6157b16e7.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555153",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Wormmon",
+  "stage": "Rookie",
+  "name_ja": "ワームモン"
+}

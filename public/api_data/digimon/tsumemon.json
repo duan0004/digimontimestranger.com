@@ -1,0 +1,32 @@
+{
+  "slug": "tsumemon",
+  "slug_ja": "tumemon",
+  "name_en": "Tsumemon",
+  "name_ja": "ツメモン",
+  "stage_en": "In-Training II",
+  "stage_ja": "幼年期2",
+  "attribute": "NO DATA",
+  "personality": "悪知恵",
+  "evolution_conditions": "エージェントランク1以上◆最大SP260以上◆攻撃力170以上",
+  "evolves_from": [
+    "クラモン"
+  ],
+  "evolves_to": [
+    "ドラクモン",
+    "シャーマモン",
+    "ケラモン",
+    "アグモン(黒)",
+    "ガブモン(黒)"
+  ],
+  "main_image": "https://img.game8.co/4295518/e6c2909b3f97a54ac0e01ff5de00f4ec.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555170",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298255",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9333333333333333,
+  "name": "Tsumemon",
+  "stage": "In-Training II"
+}

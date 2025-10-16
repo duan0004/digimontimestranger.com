@@ -1,0 +1,25 @@
+{
+  "slug": "teiahoromon",
+  "name_ja": "ディアボロモン",
+  "stage_ja": "究極体",
+  "attribute": "フリー",
+  "personality": "悪知恵所持特攻不明",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2690以上◆攻撃力2250以上",
+  "evolves_from": [
+    "ナノモン",
+    "インフェルモン"
+  ],
+  "evolves_to": [
+    "アーマゲモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_421.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355321",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ディアボロモン",
+  "stage": "究極体",
+  "name_en": "Diaboromon"
+}

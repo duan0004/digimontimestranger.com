@@ -1,0 +1,26 @@
+{
+  "slug": "hanhumon",
+  "name_ja": "パンプモン",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "悪知恵",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1610以上◆知力1060以上",
+  "evolves_from": [
+    "サンフラウモン",
+    "トゲモン",
+    "ウッドモン"
+  ],
+  "evolves_to": [
+    "ロゼモンロトスモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_251.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354820",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "パンプモン",
+  "stage": "完全体",
+  "name_en": "Hanhumon"
+}

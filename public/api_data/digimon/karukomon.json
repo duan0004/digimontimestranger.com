@@ -1,0 +1,28 @@
+{
+  "slug": "karukomon",
+  "name_ja": "ガルゴモン",
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "包容力所持特攻戦士",
+  "evolution_conditions": "エージェントランク3以上◆最大SP530以上",
+  "evolves_from": [
+    "シャウトモン",
+    "テリアモン",
+    "トイアグモン"
+  ],
+  "evolves_to": [
+    "キャッチマメモン",
+    "マッハガオガモン",
+    "ラピッドモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_86.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298390",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ガルゴモン",
+  "stage": "成熟期",
+  "name_en": "Gargomon"
+}

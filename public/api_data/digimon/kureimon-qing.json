@@ -1,0 +1,28 @@
+{
+  "slug": "kureimon-qing",
+  "name_ja": "グレイモン(青)",
+  "stage_ja": "成熟期",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆攻撃力660以上◆精神420以上◆素早さ540以上◆※早期購入特典orDLCプレオーダーパックが必要",
+  "evolves_from": [
+    "アグモン(黒)",
+    "ギルモン",
+    "ピコデビモン"
+  ],
+  "evolves_to": [
+    "ウイングドラモン",
+    "スカルバルキモン",
+    "メタルグレイモン(青)"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/images/icon/icon_digimon_ts.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79362410",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "グレイモン(青)",
+  "stage": "成熟期",
+  "name_en": "Kureimon Qing"
+}

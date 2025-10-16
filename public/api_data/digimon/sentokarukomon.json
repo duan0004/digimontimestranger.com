@@ -1,0 +1,24 @@
+{
+  "slug": "sentokarukomon",
+  "name_ja": "セントガルゴモン",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "包容力所持特攻草鉱",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2500以上◆最大SP1070以上◆攻撃力1780以上",
+  "evolves_from": [
+    "マッハガオガモン",
+    "ラピッドモン",
+    "キャノンビーモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_329.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355051",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "セントガルゴモン",
+  "stage": "究極体",
+  "name_en": "Sentokarukomon"
+}

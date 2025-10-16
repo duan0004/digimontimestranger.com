@@ -1,0 +1,17 @@
+{
+  "slug": "ravemon-bm",
+  "name_en": "Ravemon BM",
+  "stage_en": "Mega+",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11835926/0d9bff47d964ae3624c6e39939e5016e.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555877",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Ravemon BM",
+  "stage": "Mega+",
+  "name_ja": "レイヴモン：バーストモード"
+}

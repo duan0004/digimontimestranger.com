@@ -1,0 +1,28 @@
+{
+  "slug": "teinohiyumon",
+  "name_ja": "ディノヒューモン",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "蛮勇",
+  "evolution_conditions": "エージェントランク3以上◆最大HP1740以上◆攻撃力530以上",
+  "evolves_from": [
+    "カメモン",
+    "コテモン",
+    "ヒョコモン"
+  ],
+  "evolves_to": [
+    "シャウジンモン",
+    "グレイドモン",
+    "ナイトモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_127.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350131",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ディノヒューモン",
+  "stage": "成熟期",
+  "name_en": "Dinohyumon"
+}

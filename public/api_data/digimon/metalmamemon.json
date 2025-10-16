@@ -1,0 +1,30 @@
+{
+  "slug": "metalmamemon",
+  "slug_ja": "metarumamemon",
+  "name_en": "MetalMamemon",
+  "name_ja": "メタルマメモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "豪胆",
+  "evolution_conditions": "エージェントランク5以上◆攻撃力820以上◆知力630以上",
+  "evolves_from": [
+    "ブリンプモン",
+    "プラチナスカモン"
+  ],
+  "evolves_to": [
+    "メタルガルルモン",
+    "マグナキッドモン"
+  ],
+  "main_image": "https://img.game8.co/4296751/6e0a9e8e76b2450f5087e98aae5d02b6.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555640",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354850",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.88,
+  "name": "MetalMamemon",
+  "stage": "Ultimate"
+}

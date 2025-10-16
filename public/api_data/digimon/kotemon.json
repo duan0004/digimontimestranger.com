@@ -1,0 +1,31 @@
+{
+  "slug": "kotemon",
+  "name_en": "Kotemon",
+  "name_ja": "コテモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "データ",
+  "personality": "日和見",
+  "evolution_conditions": "エージェントランク1以上◆防御力220以上◆精神140以上",
+  "evolves_from": [
+    "コロモン"
+  ],
+  "evolves_to": [
+    "トゥルイエモン",
+    "ムシャモン",
+    "リボルモン",
+    "ディノヒューモン",
+    "コアドラモン(青)"
+  ],
+  "main_image": "https://img.game8.co/4294389/d1540a72ee818bc76e7d408a2d2ed5de.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555185",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298315",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Kotemon",
+  "stage": "Rookie"
+}

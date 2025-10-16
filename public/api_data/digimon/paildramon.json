@@ -1,0 +1,32 @@
+{
+  "slug": "paildramon",
+  "name": "Paildramon",
+  "name_en": "Paildramon",
+  "name_ja": "パイルドラモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "社交的所持特攻虫",
+  "evolution_conditions": "エージェントランク5以上◆最大SP880以上◆知力1260以上",
+  "evolves_from": [
+    "サンフラウモン",
+    "カブテリモン",
+    "キウイモン"
+  ],
+  "evolves_to": [
+    "リリスモン",
+    "ロゼモン",
+    "ピノッキモン"
+  ],
+  "main_image": "https://img.game8.co/4296812/2237e392c4643bdc789cabec74be8a50.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555650",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "Ultimate"
+}

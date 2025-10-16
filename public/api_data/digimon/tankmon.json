@@ -1,0 +1,32 @@
+{
+  "slug": "tankmon",
+  "slug_ja": "tankumon",
+  "name_en": "Tankmon",
+  "name_ja": "タンクモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク3以上◆防御力430以上◆精神300以上",
+  "evolves_from": [
+    "ハグルモン",
+    "ズバモン",
+    "トイアグモン"
+  ],
+  "evolves_to": [
+    "ビッグマメモン",
+    "ロコモン",
+    "タンクドラモン"
+  ],
+  "main_image": "https://img.game8.co/4295801/0cdb09391ba3e42d307d4c98cb37489f.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555327",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350125",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9333333333333333,
+  "name": "Tankmon",
+  "stage": "Champion"
+}

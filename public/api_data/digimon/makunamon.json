@@ -1,0 +1,22 @@
+{
+  "slug": "makunamon",
+  "name_ja": "マグナモン",
+  "stage_ja": "アーマー体",
+  "attribute": "フリー",
+  "personality": "熱血所持特攻魔機械",
+  "evolution_conditions": "エージェントランク7以上◆奇跡のデジメンタルを所持",
+  "evolves_from": [
+    "ブイモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_423.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79360337",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "マグナモン",
+  "stage": "アーマー体",
+  "name_en": "Magnamon"
+}

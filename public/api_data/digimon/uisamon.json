@@ -1,0 +1,28 @@
+{
+  "slug": "uisamon",
+  "name_ja": "ウィザーモン",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "天啓所持特攻魔法",
+  "evolution_conditions": "エージェントランク3以上◆最大SP500以上◆知力630以上",
+  "evolves_from": [
+    "インプモン",
+    "ピヨモン",
+    "ドラクモン"
+  ],
+  "evolves_to": [
+    "ナノモン",
+    "ミスティモン",
+    "ワイズモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_112.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298423",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ウィザーモン",
+  "stage": "成熟期",
+  "name_en": "Uisamon"
+}

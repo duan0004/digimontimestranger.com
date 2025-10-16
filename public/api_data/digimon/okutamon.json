@@ -1,0 +1,29 @@
+{
+  "slug": "okutamon",
+  "name_ja": "オクタモン",
+  "stage_ja": "成熟期",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大HP1010以上◆防御力430以上",
+  "evolves_from": [
+    "カメモン",
+    "ガニモン",
+    "ケラモン",
+    "シャコモン"
+  ],
+  "evolves_to": [
+    "ダゴモン",
+    "デジタマモン",
+    "ハンギョモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_142.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350161",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "オクタモン",
+  "stage": "成熟期",
+  "name_en": "Okutamon"
+}

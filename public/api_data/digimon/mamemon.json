@@ -1,0 +1,31 @@
+{
+  "slug": "mamemon",
+  "name_en": "Mamemon",
+  "name_ja": "マメモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "豪胆",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1720以上◆最大SP580以上◆防御力1020以上",
+  "evolves_from": [
+    "スターモン",
+    "スカモン",
+    "ナニモン",
+    "プラチナスカモン"
+  ],
+  "evolves_to": [
+    "プクモン",
+    "プリンスマメモン"
+  ],
+  "main_image": "https://img.game8.co/4296817/ab3e999253eafbbd0dbfe8a3aa7c8d25.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555638",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354844",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Mamemon",
+  "stage": "Ultimate"
+}

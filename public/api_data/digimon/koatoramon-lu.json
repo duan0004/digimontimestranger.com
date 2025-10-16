@@ -1,0 +1,26 @@
+{
+  "slug": "koatoramon-lu",
+  "name_ja": "コアドラモン(緑)",
+  "stage_ja": "成熟期",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆攻撃力830以上",
+  "evolves_from": [
+    "アグモンドラコモン"
+  ],
+  "evolves_to": [
+    "メガログラウモン",
+    "グラウンドラモン",
+    "スカルグレイモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_149.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298450",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "コアドラモン(緑)",
+  "stage": "成熟期",
+  "name_en": "Koatoramon Lu"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "megadramon_jp",
+  "name": "メガドラモン",
+  "name_en": "Megadramon",
+  "name_ja": "メガドラモン",
+  "stage_en": null,
+  "stage_ja": "完全体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆攻撃力1050以上◆精神940以上",
+  "evolves_from": [
+    "エアドラモン",
+    "グレイモン",
+    "フライモン",
+    "メカノリモン"
+  ],
+  "evolves_to": [
+    "メギドラモン",
+    "ムゲンドラモン"
+  ],
+  "main_image": "https://img.game8.co/4296771/6fc1d73b6630af68cbd9fac7bbec9882.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354946",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.76)",
+  "stage": "完全体"
+}

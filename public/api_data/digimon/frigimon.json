@@ -1,0 +1,30 @@
+{
+  "slug": "frigimon",
+  "name": "Frigimon",
+  "name_en": "Frigimon",
+  "name_ja": "フライモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク5以上◆最大SP960以上◆精神830以上",
+  "evolves_from": [
+    "サンフラウモン",
+    "トゲモン",
+    "ウィッチモン"
+  ],
+  "evolves_to": [
+    "ロゼモンケレスモン"
+  ],
+  "main_image": "https://img.game8.co/4295744/5d5978e9a6296f74f5be301c44664754.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555243",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Champion"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "masterblimpmon",
+  "name": "MasterBlimpmon",
+  "name_en": "MasterBlimpmon",
+  "name_ja": "マスターブリンプモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "包容力所持特攻聖魔",
+  "evolution_conditions": "<<ジョグレス進化>>◆エージェントランク7以上◆エンジェウーモンの性格が包容力◆レディーデビモンの性格が天啓",
+  "evolves_from": [
+    "レディーデビモン",
+    "エンジェウーモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4296744/37f6d97cf583b2f4a4261483ecb3b0a0.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555636",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Ultimate"
+}

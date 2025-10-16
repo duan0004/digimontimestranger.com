@@ -1,0 +1,32 @@
+{
+  "slug": "drimogemon",
+  "name": "Drimogemon",
+  "name_en": "Drimogemon",
+  "name_ja": "ドリモゲモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "熱血所持特攻鉱",
+  "evolution_conditions": "エージェントランク3以上◆最大SP450以上◆防御力300以上",
+  "evolves_from": [
+    "ドルモン",
+    "ガブモン",
+    "ロップモン"
+  ],
+  "evolves_to": [
+    "トリケラモン",
+    "ローダーレオモン",
+    "ブラキモン"
+  ],
+  "main_image": "https://img.game8.co/4295844/3625ad8c3d57074fc035e196629b93c1.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555333",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.76)",
+  "stage": "Champion"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "saikuromon",
+  "name_ja": "サイクロモン",
+  "stage_ja": "成熟期",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大HP1020以上◆精神460以上",
+  "evolves_from": [
+    "モノドラモンギザモン"
+  ],
+  "evolves_to": [
+    "グレイドモン",
+    "サイバードラモン",
+    "ブラキモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_152.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350182",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "サイクロモン",
+  "stage": "成熟期",
+  "name_en": "Saikuromon"
+}

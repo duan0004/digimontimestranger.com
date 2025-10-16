@@ -1,0 +1,17 @@
+{
+  "slug": "ladydevimon",
+  "name_en": "LadyDevimon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296770/7a766cd55cece362053c76be7729e37b.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555683",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "LadyDevimon",
+  "stage": "Ultimate",
+  "name_ja": "レディーデビモン"
+}

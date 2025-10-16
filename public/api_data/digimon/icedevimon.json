@@ -1,0 +1,17 @@
+{
+  "slug": "icedevimon",
+  "name_en": "IceDevimon",
+  "stage_en": "Champion",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295791/2c7c374d7d07f3de33eb51fea8df1534.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555340",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "IceDevimon",
+  "stage": "Champion",
+  "name_ja": "アイスデビモン"
+}

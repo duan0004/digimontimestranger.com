@@ -1,0 +1,27 @@
+{
+  "slug": "wakarurumon-hei",
+  "name_ja": "ワーガルルモン(黒)",
+  "stage_ja": "完全体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大SP620以上◆攻撃力980以上◆精神920以上◆素早さ1020以上◆※早期購入特典orDLCプレオーダーパックが必要",
+  "evolves_from": [
+    "ガルルモン(黒)",
+    "サングルゥモン",
+    "ブラックテイルモン"
+  ],
+  "evolves_to": [
+    "パイルボルケーモン",
+    "メタルガルルモン(黒)"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_473.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79362416",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ワーガルルモン(黒)",
+  "stage": "完全体",
+  "name_en": "Wakarurumon Hei"
+}

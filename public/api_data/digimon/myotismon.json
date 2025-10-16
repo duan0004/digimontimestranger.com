@@ -1,0 +1,17 @@
+{
+  "slug": "myotismon",
+  "name_en": "Myotismon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296761/f6b141de8a6b1be8a57c49276df623fc.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555655",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Myotismon",
+  "stage": "Ultimate",
+  "name_ja": "ミスティモン"
+}

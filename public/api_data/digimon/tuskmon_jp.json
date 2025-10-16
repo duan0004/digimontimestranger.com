@@ -1,0 +1,31 @@
+{
+  "slug": "tuskmon_jp",
+  "name": "タスクモン",
+  "name_en": "Tuskmon Jp",
+  "name_ja": "タスクモン",
+  "stage_en": null,
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆攻撃力540以上",
+  "evolves_from": [
+    "ゴブリモン",
+    "ベタモン",
+    "アグモン(黒)"
+  ],
+  "evolves_to": [
+    "トリケラモン",
+    "グラウンドラモン",
+    "デジタマモン"
+  ],
+  "main_image": "https://img.game8.co/4295796/a073ace97d1ce1315e3c373ada37b8f3.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350191",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "成熟期"
+}

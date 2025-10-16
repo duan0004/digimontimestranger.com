@@ -1,0 +1,17 @@
+{
+  "slug": "skullmammothmon",
+  "name_en": "SkullMammothmon",
+  "stage_en": "Mega",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11833344/217bc741f7ef33b0c7804b434f75aa25.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555732",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "SkullMammothmon",
+  "stage": "Mega",
+  "name_ja": "スカルマンモン"
+}

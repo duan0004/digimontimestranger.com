@@ -1,0 +1,17 @@
+{
+  "slug": "bacchusmon",
+  "name_en": "Bacchusmon",
+  "stage_en": "Mega",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11833321/c6f6aebe1e3630e3843a0b546a75e7dc.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555797",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Bacchusmon",
+  "stage": "Mega",
+  "name_ja": "バッカスモン"
+}

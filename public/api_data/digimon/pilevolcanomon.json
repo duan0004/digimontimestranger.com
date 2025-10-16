@@ -1,0 +1,17 @@
+{
+  "slug": "pilevolcanomon",
+  "name_en": "PileVolcanomon",
+  "stage_en": "Mega",
+  "attribute": "Data",
+  "main_image": "https://j-img.game8.co/11833371/5ad8b6d3e75ed55d0fb85127fbaac0b9.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555768",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "PileVolcanomon",
+  "stage": "Mega",
+  "name_ja": "パイルボルカノモン"
+}

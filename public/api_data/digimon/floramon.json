@@ -1,0 +1,31 @@
+{
+  "slug": "floramon",
+  "name": "Floramon",
+  "name_en": "Floramon",
+  "name_ja": "フローラモン",
+  "stage_en": "Rookie",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク1以上◆最大SP290以上◆精神200以上",
+  "evolves_from": [
+    "カプリモン"
+  ],
+  "evolves_to": [
+    "スターモン",
+    "ゴールドヌメモン",
+    "メラモン",
+    "ガードロモン(金)"
+  ],
+  "main_image": "https://img.game8.co/4294383/247400163e7109006e2b59efaea0779a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555128",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Rookie"
+}

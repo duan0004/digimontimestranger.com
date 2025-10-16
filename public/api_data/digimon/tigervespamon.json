@@ -1,0 +1,17 @@
+{
+  "slug": "tigervespamon",
+  "name_en": "TigerVespamon",
+  "stage_en": "Mega",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11833335/7d7558219584eabdbbb0017c8832bf8f.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555785",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "TigerVespamon",
+  "stage": "Mega",
+  "name_ja": "タイガーヴェスパモン"
+}

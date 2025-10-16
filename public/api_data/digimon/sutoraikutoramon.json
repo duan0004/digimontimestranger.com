@@ -1,0 +1,28 @@
+{
+  "slug": "sutoraikutoramon",
+  "name_ja": "ストライクドラモン",
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "蛮勇",
+  "evolution_conditions": "エージェントランク3以上◆最大HP1090以上",
+  "evolves_from": [
+    "ガオモン",
+    "モノドラモン",
+    "アグモン(黒)"
+  ],
+  "evolves_to": [
+    "サイバードラモン",
+    "セイバーハックモン",
+    "ロコモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_93.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350059",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ストライクドラモン",
+  "stage": "成熟期",
+  "name_en": "Sutoraikutoramon"
+}

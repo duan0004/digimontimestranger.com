@@ -1,0 +1,27 @@
+{
+  "slug": "hokumon",
+  "name_ja": "ホークモン",
+  "stage_ja": "成長期",
+  "attribute": "フリー",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク1以上◆攻撃力180以上◆素早さ180以上",
+  "evolves_from": [
+    "ピョコモン"
+  ],
+  "evolves_to": [
+    "ファイラモン",
+    "ホルスモン",
+    "シュリモン",
+    "アクィラモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_78.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305254",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ホークモン",
+  "stage": "成長期",
+  "name_en": "Hokumon"
+}

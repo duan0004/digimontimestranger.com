@@ -1,0 +1,17 @@
+{
+  "slug": "devimon",
+  "name_en": "Devimon",
+  "stage_en": "Champion",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295830/1d72a4a8718b15a8eec3711d31f42244.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555356",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Devimon",
+  "stage": "Champion",
+  "name_ja": "デビモン"
+}

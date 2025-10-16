@@ -1,0 +1,33 @@
+{
+  "slug": "phantomon",
+  "slug_ja": "huantomon",
+  "name_en": "Phantomon",
+  "name_ja": "ファントモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大HP1530以上◆精神940以上◆素早さ1010以上",
+  "evolves_from": [
+    "バケモン",
+    "ヒョーガモン",
+    "スナイモン"
+  ],
+  "evolves_to": [
+    "サクヤモン",
+    "ピエモン",
+    "ベルフェモンSM",
+    "レイヴモン"
+  ],
+  "main_image": "https://img.game8.co/4296767/3bedbd68e849772771aa6c2040d83c59.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555674",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354925",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8888888888888888,
+  "name": "Phantomon",
+  "stage": "Ultimate"
+}

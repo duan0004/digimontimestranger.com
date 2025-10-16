@@ -1,0 +1,17 @@
+{
+  "slug": "metalgarurumon-black",
+  "name_en": "MetalGarurumon (Black)",
+  "stage_en": "Mega",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11835895/d3f6f8583156de73d3c6a4e66fcc29fa.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555844",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "MetalGarurumon (Black)",
+  "stage": "Mega",
+  "name_ja": "メタルガルルモン(黒)"
+}

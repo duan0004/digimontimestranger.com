@@ -1,0 +1,17 @@
+{
+  "slug": "funbeemon",
+  "name_en": "FunBeemon",
+  "stage_en": "Rookie",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4294409/0a9f479326deb6ba65e21bad3b3df0c1.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555108",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "FunBeemon",
+  "stage": "Rookie",
+  "name_ja": "ファンビーモン"
+}

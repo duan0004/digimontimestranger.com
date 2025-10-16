@@ -1,0 +1,25 @@
+{
+  "slug": "keruhimon-e",
+  "name_ja": "ケルビモン(悪)",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "戦略家所持特攻聖不死",
+  "evolution_conditions": "エージェントランク7以上◆最大SP960以上◆知力2280以上◆精神1600以上",
+  "evolves_from": [
+    "グレートグリズモン",
+    "インフェルモン",
+    "アンティラモン",
+    "メタルグレイモン(青)"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_319.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355021",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ケルビモン(悪)",
+  "stage": "究極体",
+  "name_en": "Keruhimon E"
+}

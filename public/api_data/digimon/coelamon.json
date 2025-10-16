@@ -1,0 +1,29 @@
+{
+  "slug": "coelamon",
+  "name": "Coelamon",
+  "name_en": "Coelamon",
+  "name_ja": "レアモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "豪胆所持特攻竜火",
+  "evolution_conditions": "<<ジョグレス進化>>◆エージェントランク8以上◆ウォーグレイモンの性格が豪胆◆メタルガルルモンの性格が気さく◆orオメガモンズワルトをモードチェンジ",
+  "evolves_from": [
+    "ウォーグレイモン",
+    "メタルガルルモン"
+  ],
+  "evolves_to": [
+    "オメガモンズワルト"
+  ],
+  "main_image": "https://img.game8.co/4295843/cc4b6286be39e3c6a3aa884aa1934257.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555324",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Champion"
+}

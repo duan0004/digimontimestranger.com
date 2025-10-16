@@ -1,0 +1,22 @@
+{
+  "slug": "teikumon",
+  "name_ja": "ディグモン",
+  "stage_ja": "アーマー体",
+  "attribute": "フリー",
+  "personality": "日和見",
+  "evolution_conditions": "エージェントランク3以上◆知識のデジメンタル所持",
+  "evolves_from": [
+    "アルマジモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_181.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354628",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ディグモン",
+  "stage": "アーマー体",
+  "name_en": "Digmon"
+}

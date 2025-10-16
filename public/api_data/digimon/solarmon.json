@@ -1,0 +1,32 @@
+{
+  "slug": "solarmon",
+  "slug_ja": "sosarimon",
+  "name_en": "Solarmon",
+  "name_ja": "ソーサリモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "戦略家",
+  "evolution_conditions": "エージェントランク3以上◆知力640以上◆精神480以上",
+  "evolves_from": [
+    "ルナモン",
+    "カメモン",
+    "クダモン"
+  ],
+  "evolves_to": [
+    "ホーリーエンジェモン",
+    "ピッコロモン",
+    "ワイズモン"
+  ],
+  "main_image": "https://img.game8.co/4295514/d9973fe78c9cf66a8c89365278780d23.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555169",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350065",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Solarmon",
+  "stage": "Rookie"
+}

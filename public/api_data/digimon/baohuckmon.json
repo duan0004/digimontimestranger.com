@@ -1,0 +1,17 @@
+{
+  "slug": "baohuckmon",
+  "name_en": "BaoHuckmon",
+  "stage_en": "Champion",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4295821/15c4440001dfe4609e74f77b9f58410a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555335",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "BaoHuckmon",
+  "stage": "Champion",
+  "name_ja": "バオハックモン"
+}

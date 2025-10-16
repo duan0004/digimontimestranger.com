@@ -1,0 +1,31 @@
+{
+  "slug": "meramon",
+  "name_en": "Meramon",
+  "name_ja": "メラモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "熱血所持特攻氷",
+  "evolution_conditions": "エージェントランク3以上◆攻撃力530以上◆精神450以上",
+  "evolves_from": [
+    "コロナモン",
+    "バクモン",
+    "ソーラーモン"
+  ],
+  "evolves_to": [
+    "ビッグマメモン",
+    "ブルーメラモン",
+    "デスメラモン"
+  ],
+  "main_image": "https://img.game8.co/4295803/2914442d491619bac79d61798de78558.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555337",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350149",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Meramon",
+  "stage": "Champion"
+}

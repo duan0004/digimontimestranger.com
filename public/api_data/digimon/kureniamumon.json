@@ -1,0 +1,24 @@
+{
+  "slug": "kureniamumon",
+  "name_ja": "クレニアムモン",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "献身的所持特攻魔",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2380以上◆防御力1850以上◆精神1540以上",
+  "evolves_from": [
+    "アンドロモン"
+  ],
+  "evolves_to": [
+    "クレニアムモン+アンヴァルモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_316.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355015",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "クレニアムモン",
+  "stage": "究極体",
+  "name_en": "Kureniamumon"
+}

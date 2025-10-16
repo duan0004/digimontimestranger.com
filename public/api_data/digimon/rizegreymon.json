@@ -1,0 +1,17 @@
+{
+  "slug": "rizegreymon",
+  "name_en": "RizeGreymon",
+  "stage_en": "Ultimate",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4296773/780feec52917e13b25d05d02f835c43a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555603",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "RizeGreymon",
+  "stage": "Ultimate",
+  "name_ja": "ライズグレイモン"
+}

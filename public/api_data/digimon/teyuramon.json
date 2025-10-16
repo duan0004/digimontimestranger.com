@@ -1,0 +1,28 @@
+{
+  "slug": "teyuramon",
+  "name_ja": "デュラモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1900以上◆攻撃力1060以上◆防御力960以上",
+  "evolves_from": [
+    "ブライモン",
+    "ズバイガーモン",
+    "ガードロモン(金)"
+  ],
+  "evolves_to": [
+    "ウォーグレイモン",
+    "デュークモン",
+    "デュランダモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_214.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354709",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "デュラモン",
+  "stage": "完全体",
+  "name_en": "Duramon"
+}

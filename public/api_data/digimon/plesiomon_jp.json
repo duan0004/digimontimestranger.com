@@ -1,0 +1,31 @@
+{
+  "slug": "plesiomon_jp",
+  "name": "ベジーモン",
+  "name_en": "Plesiomon Jp",
+  "name_ja": "ベジーモン",
+  "stage_en": null,
+  "stage_ja": "成熟期",
+  "attribute": "Data",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大HP800以上",
+  "evolves_from": [
+    "パルモン",
+    "ベタモン",
+    "フローラモン"
+  ],
+  "evolves_to": [
+    "トノサマゲコモン",
+    "ガーべモン",
+    "ベーダモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833347/112b210b4ec198652f9a4326b78d00ca.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350215",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "成熟期"
+}

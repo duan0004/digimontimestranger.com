@@ -1,0 +1,31 @@
+{
+  "slug": "kokuwamon",
+  "name_en": "Kokuwamon",
+  "name_ja": "コクワモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "データ",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク1以上◆最大HP420以上◆攻撃力160以上",
+  "evolves_from": [
+    "カプリモン"
+  ],
+  "evolves_to": [
+    "ケンタルモン",
+    "クワガーモン",
+    "クロックモン",
+    "ワスプモン",
+    "メカノリモン"
+  ],
+  "main_image": "https://img.game8.co/4295511/3a8994d85ed35a08a7504f01b518602f.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555187",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305227",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Kokuwamon",
+  "stage": "Rookie"
+}

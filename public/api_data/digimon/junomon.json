@@ -1,0 +1,33 @@
+{
+  "slug": "junomon",
+  "slug_ja": "tunomon",
+  "name_en": "Junomon",
+  "name_ja": "ツノモン",
+  "stage_en": "Mega",
+  "stage_ja": "幼年期2",
+  "attribute": "NO DATA",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク1以上◆攻撃力200以上",
+  "evolves_from": [
+    "プニモン"
+  ],
+  "evolves_to": [
+    "ゴブリモン",
+    "ブイモン",
+    "ガブモン",
+    "リュウダモン",
+    "エレキモン",
+    "ズバモン"
+  ],
+  "main_image": "https://j-img.game8.co/11835943/166b757f5caf62a031bcb32234df57b0.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555853",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298252",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Junomon",
+  "stage": "Mega"
+}

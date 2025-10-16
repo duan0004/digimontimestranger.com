@@ -1,0 +1,33 @@
+{
+  "slug": "kyubimon",
+  "name": "Kyubimon",
+  "name_en": "Kyubimon",
+  "name_ja": "キュウビモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "戦略家所持特攻幻",
+  "evolution_conditions": "エージェントランク3以上◆精神250以上◆素早さ300以上",
+  "evolves_from": [
+    "パタモン",
+    "バクモン",
+    "ピヨモン",
+    "エレキモン"
+  ],
+  "evolves_to": [
+    "ヒポグリフォモン",
+    "ホーリーエンジェモン",
+    "チィリンモン"
+  ],
+  "main_image": "https://img.game8.co/4295806/8e88f20da8d0c115c5339aa25ba593c9.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555147",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Champion"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "gotsumon",
+  "name": "Gotsumon",
+  "name_en": "Gotsumon",
+  "name_ja": "ゴツモン",
+  "stage_en": "Rookie",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "天啓所持特攻妖精",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2380以上◆最大SP1100以上◆知力1980以上",
+  "evolves_from": [
+    "アルケニモン",
+    "パンプモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4294392/7efbefdf8b3d5af1055ed466999f6178.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555186",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "已知错误匹配: Gotsumon ≠ ロトスモン",
+  "stage": "Rookie"
+}

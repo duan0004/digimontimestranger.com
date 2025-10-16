@@ -1,0 +1,17 @@
+{
+  "slug": "bigmamemon",
+  "name_en": "BigMamemon",
+  "stage_en": "Ultimate",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4296743/fa2a8e35d72cc2fd7794b2f93b00c551.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555631",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "BigMamemon",
+  "stage": "Ultimate",
+  "name_ja": "ビッグマメモン"
+}

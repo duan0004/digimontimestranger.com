@@ -1,0 +1,17 @@
+{
+  "slug": "lordknightmon",
+  "name_en": "LordKnightmon",
+  "stage_en": "Mega",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11833337/519946f6354baec459449b2b052e7437.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555859",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "LordKnightmon",
+  "stage": "Mega",
+  "name_ja": "ロードナイトモン"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "divermon",
+  "name": "Divermon",
+  "name_en": "Divermon",
+  "name_ja": "デラモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "豪胆",
+  "evolution_conditions": "エージェントランク3以上◆最大SP460以上◆防御力430以上",
+  "evolves_from": [
+    "カメモン",
+    "ガニモン",
+    "シャコモン"
+  ],
+  "evolves_to": [
+    "ホエーモン",
+    "ピッコロモン",
+    "アノマロカリモン"
+  ],
+  "main_image": "https://img.game8.co/4296755/accd6a2e3fa06d5e1af907454559b321.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555628",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Ultimate"
+}

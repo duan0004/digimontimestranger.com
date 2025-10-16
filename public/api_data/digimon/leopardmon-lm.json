@@ -1,0 +1,17 @@
+{
+  "slug": "leopardmon-lm",
+  "name_en": "Leopardmon LM",
+  "stage_en": "Mega",
+  "attribute": "Data",
+  "main_image": "https://j-img.game8.co/11833352/226ea3c296d1baba5f1a9c12c1151d30.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555770",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Leopardmon LM",
+  "stage": "Mega",
+  "name_ja": "ドゥフトモン：レオパルドモード"
+}

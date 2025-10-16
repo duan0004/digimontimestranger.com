@@ -1,0 +1,25 @@
+{
+  "slug": "sakuyamon",
+  "name_en": "Sakuyamon",
+  "name_ja": "サクヤモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "天啓所持特攻霊草",
+  "evolution_conditions": "エージェントランク7以上◆知力2710以上◆素早さ1990以上",
+  "evolves_from": [
+    "タオモンファントモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833354/8385531f7da043ec7cc3048e7e1a29d6.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555776",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355114",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Sakuyamon",
+  "stage": "Mega"
+}

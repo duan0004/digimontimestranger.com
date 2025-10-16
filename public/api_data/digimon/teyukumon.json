@@ -1,0 +1,25 @@
+{
+  "slug": "teyukumon",
+  "name_ja": "デュークモン",
+  "stage_ja": "究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆攻撃力1800以上◆精神2240以上",
+  "evolves_from": [
+    "メガログラウモン",
+    "デュラモン"
+  ],
+  "evolves_to": [
+    "デュークモンCM"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_388.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355222",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "デュークモン",
+  "stage": "究極体",
+  "name_en": "Teyukumon"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "ahokarimon",
+  "name_ja": "アポカリモン",
+  "stage_ja": "超究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク8以上◆最大SP2660以上◆知力3100以上",
+  "evolves_from": [
+    "ピエモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_450.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355402",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アポカリモン",
+  "stage": "超究極体",
+  "name_en": "Ahokarimon"
+}

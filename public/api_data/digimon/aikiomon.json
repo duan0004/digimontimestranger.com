@@ -1,0 +1,28 @@
+{
+  "slug": "aikiomon",
+  "name_ja": "アイギオモン",
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "気さく所持特攻タイタン族",
+  "evolution_conditions": "エージェントランク9以上◆最大SP470以上◆エージェントスキル「勇壮の絆」習得数が46以上",
+  "evolves_from": [
+    "エレキモン"
+  ],
+  "evolves_to": [
+    "アイギオテュースモン",
+    "アイギオテュースモン：ダーク",
+    "アイギオテュースモン：ホーリー",
+    "アイギオテュースモン：ブルー",
+    "アイギオテュースモン：グリーン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_81.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298381",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アイギオモン",
+  "stage": "成熟期",
+  "name_en": "Aikiomon"
+}

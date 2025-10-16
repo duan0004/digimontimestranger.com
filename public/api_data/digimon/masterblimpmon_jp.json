@@ -1,0 +1,26 @@
+{
+  "slug": "masterblimpmon_jp",
+  "name": "マスティモン",
+  "name_en": "Masterblimpmon Jp",
+  "name_ja": "マスティモン",
+  "stage_en": null,
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "包容力所持特攻聖魔",
+  "evolution_conditions": "<<ジョグレス進化>>◆エージェントランク7以上◆エンジェウーモンの性格が包容力◆レディーデビモンの性格が天啓",
+  "evolves_from": [
+    "レディーデビモン",
+    "エンジェウーモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4296744/37f6d97cf583b2f4a4261483ecb3b0a0.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355075",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "究極体"
+}

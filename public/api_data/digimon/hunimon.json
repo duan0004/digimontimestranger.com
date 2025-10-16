@@ -1,0 +1,22 @@
+{
+  "slug": "hunimon",
+  "name_ja": "プニモン",
+  "stage_ja": "幼年期1",
+  "attribute": "NO DATA",
+  "personality": "気さく",
+  "evolution_conditions": "なし",
+  "evolves_from": [],
+  "evolves_to": [
+    "ツノモンニャロモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_5.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298243",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "プニモン",
+  "stage": "幼年期1",
+  "name_en": "Punimon"
+}

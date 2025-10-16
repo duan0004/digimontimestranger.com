@@ -1,0 +1,17 @@
+{
+  "slug": "cherrymon",
+  "name_en": "Cherrymon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296757/b3b96645879a39b02ef3b5efe3e96933.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555665",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Cherrymon",
+  "stage": "Ultimate",
+  "name_ja": "ケラモン"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "wingdramon",
+  "name_en": "Wingdramon",
+  "stage_en": "Ultimate",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4296839/01e484f203358216f2e155be4c032f06.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555575",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Wingdramon",
+  "stage": "Ultimate",
+  "name_ja": "ウイングドラモン"
+}

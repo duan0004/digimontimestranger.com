@@ -1,0 +1,33 @@
+{
+  "slug": "gaiomon",
+  "name": "Gaiomon",
+  "name_en": "Gaiomon",
+  "name_ja": "ガイオウモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "熱血所持特攻騎士",
+  "evolution_conditions": "エージェントランク5以上◆防御力1040以上◆精神950以上",
+  "evolves_from": [
+    "クロックモン",
+    "ディノヒューモン",
+    "ズバイガーモン"
+  ],
+  "evolves_to": [
+    "ザンバモン",
+    "スラッシュエンジェモン",
+    "ロードナイトモン",
+    "ドゥフトモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833355/ca4030668853a4f62d9a484407e8a44f.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555812",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Mega"
+}

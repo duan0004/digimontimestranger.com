@@ -1,0 +1,32 @@
+{
+  "slug": "monochromon",
+  "name": "Monochromon",
+  "name_en": "Monochromon",
+  "name_ja": "モノクロモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク3以上◆攻撃力510以上",
+  "evolves_from": [
+    "リュウダモン",
+    "スノーゴブリモン",
+    "ゴツモン"
+  ],
+  "evolves_to": [
+    "トリケラモン",
+    "ケルベロモン",
+    "マンモン"
+  ],
+  "main_image": "https://img.game8.co/4295792/2dc926a0604dd6e8443abbcb4a31464b.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555338",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.82)",
+  "stage": "Champion"
+}

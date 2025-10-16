@@ -1,0 +1,28 @@
+{
+  "slug": "pharaohmon",
+  "slug_ja": "huaraomon",
+  "name_en": "Pharaohmon",
+  "name_ja": "ファラオモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2460以上◆知力1360以上◆精神1820以上",
+  "evolves_from": [
+    "ブルーメラモン",
+    "マミーモン",
+    "ナノモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833368/ef592faed7b4e055088744aa430a6b0d.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555792",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355240",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8421052631578947,
+  "name": "Pharaohmon",
+  "stage": "Mega"
+}

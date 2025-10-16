@@ -1,0 +1,32 @@
+{
+  "slug": "dokugumon_jp",
+  "name": "ドクグモン",
+  "name_en": "Dokugumon",
+  "name_ja": "ドクグモン",
+  "stage_en": null,
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大SP460以上◆攻撃力380以上",
+  "evolves_from": [
+    "ファンビーモン",
+    "ワームモン",
+    "ケラモン"
+  ],
+  "evolves_to": [
+    "アルケニモン",
+    "マミーモン",
+    "アトラーカブテリモン",
+    "インフェルモン"
+  ],
+  "main_image": "https://img.game8.co/4295823/44840f3e2be4ca65adc70402ab0b1e0f.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298456",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "成熟期"
+}

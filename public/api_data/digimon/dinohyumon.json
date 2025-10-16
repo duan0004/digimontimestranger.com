@@ -1,0 +1,33 @@
+{
+  "slug": "dinohyumon",
+  "slug_ja": "inhumon",
+  "name_en": "Dinohyumon",
+  "name_ja": "インプモン",
+  "stage_en": "Champion",
+  "stage_ja": "成長期",
+  "attribute": "Data",
+  "personality": null,
+  "evolution_conditions": "エージェントランク1以上◆最大SP400以上◆知力270以上",
+  "evolves_from": [
+    "パグモン"
+  ],
+  "evolves_to": [
+    "バケモン",
+    "ウィザーモン",
+    "クロックモン",
+    "サングルゥモン",
+    "デビモン",
+    "ウィッチモン"
+  ],
+  "main_image": "https://img.game8.co/4295815/c13bc2fc11c2deef7afad510735d0d0a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555329",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298336",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Dinohyumon",
+  "stage": "Champion"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "callismon",
+  "name": "Callismon",
+  "name_en": "Callismon",
+  "name_ja": "リリスモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク3以上◆攻撃力460以上◆精神620以上",
+  "evolves_from": [
+    "ルナモン",
+    "スノーゴブリモン",
+    "ゴツモン"
+  ],
+  "evolves_to": [
+    "クレシェモン",
+    "インセキモン",
+    "パンジャモン"
+  ],
+  "main_image": "https://j-img.game8.co/11835938/a416406cb069aece4acb4d11208f1db8.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555809",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Mega"
+}

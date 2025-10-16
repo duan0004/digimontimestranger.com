@@ -1,0 +1,17 @@
+{
+  "slug": "groundlocomon",
+  "name_en": "GroundLocomon",
+  "stage_en": "Mega",
+  "attribute": "Data",
+  "main_image": "https://j-img.game8.co/11833350/3eeadce9a690e8e8e45f26f356fe8a30.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555781",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "GroundLocomon",
+  "stage": "Mega",
+  "name_ja": "グランドロコモン"
+}

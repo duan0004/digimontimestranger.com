@@ -1,0 +1,28 @@
+{
+  "slug": "wasuhumon",
+  "name_ja": "ワスプモン",
+  "stage_ja": "成熟期",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大HP800以上◆攻撃力520以上",
+  "evolves_from": [
+    "ファンビーモン",
+    "テントモン",
+    "コクワモン"
+  ],
+  "evolves_to": [
+    "ラピッドモン",
+    "キャノンビーモン",
+    "タンクドラモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_172.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350230",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ワスプモン",
+  "stage": "成熟期",
+  "name_en": "Wasuhumon"
+}

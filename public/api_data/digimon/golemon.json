@@ -1,0 +1,33 @@
+{
+  "slug": "golemon",
+  "name": "Golemon",
+  "name_en": "Golemon",
+  "name_ja": "ゴーレモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "戦略家所持特攻火",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1800以上◆知力990以上◆精神960以上",
+  "evolves_from": [
+    "イッカクモン",
+    "シードラモン",
+    "シェルモン"
+  ],
+  "evolves_to": [
+    "リヴァイアモン",
+    "ネプトゥーンモン",
+    "プレシオモン",
+    "マリンエンジェモン"
+  ],
+  "main_image": "https://img.game8.co/4295851/23be73614609baad83f12fd7d084c7ff.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555352",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "Champion"
+}

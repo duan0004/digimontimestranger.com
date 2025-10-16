@@ -1,0 +1,17 @@
+{
+  "slug": "burninggreymon",
+  "name_en": "BurningGreymon",
+  "stage_en": "Hybrid",
+  "attribute": "Variable",
+  "main_image": "https://j-img.game8.co/11835961/1334b077f85785f7a967af0da3c1bea9.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555712",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "BurningGreymon",
+  "stage": "Hybrid",
+  "name_ja": "ヴリトラモン"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "siyainkureimonbm",
+  "name_ja": "シャイングレイモンBM",
+  "stage_ja": "超究極体",
+  "attribute": "ワクチン",
+  "personality": "気さく所持特攻草氷",
+  "evolution_conditions": "エージェントランク8以上◆最大HP4900以上◆素早さ2810以上",
+  "evolves_from": [
+    "シャイングレイモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_435.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355360",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "シャイングレイモンBM",
+  "stage": "超究極体",
+  "name_en": "Siyainkureimonbm"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "rotareomon",
+  "name_ja": "ローダーレオモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "豪胆所持特攻鉱",
+  "evolution_conditions": "エージェントランク5以上◆攻撃力840以上◆素早さ1010以上",
+  "evolves_from": [
+    "レオモン",
+    "バオハックモン",
+    "ドリモゲモン"
+  ],
+  "evolves_to": [
+    "バンチョーレオモン",
+    "メタルガルルモン",
+    "カオスドラモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_228.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354751",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ローダーレオモン",
+  "stage": "完全体",
+  "name_en": "Rotareomon"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "lilamon",
+  "name": "Lilamon",
+  "name_en": "Lilamon",
+  "name_ja": "ライラモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "Data",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大SP1500◆知力2420以上◆精神1570以上",
+  "evolves_from": [
+    "スカルサタモン",
+    "ダゴモン",
+    "ベーダモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4296747/007175d143f1acbfa27cc86956632afd.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555641",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "Ultimate"
+}

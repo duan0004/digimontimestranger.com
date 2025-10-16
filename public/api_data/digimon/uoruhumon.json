@@ -1,0 +1,25 @@
+{
+  "slug": "uoruhumon",
+  "name_ja": "ヴォルフモン",
+  "stage_ja": null,
+  "attribute": "ヴァリアブル",
+  "personality": "気さく所持特攻魔獣",
+  "evolution_conditions": "エージェントランク5以上◆光のビーストスピリットを持っている",
+  "evolves_from": [
+    "クダモン"
+  ],
+  "evolves_to": [
+    "ベオウルフモン",
+    "ガルムモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_188.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354634",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ヴォルフモン",
+  "stage": null,
+  "name_en": "Uoruhumon"
+}

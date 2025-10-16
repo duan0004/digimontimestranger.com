@@ -1,0 +1,27 @@
+{
+  "slug": "uitutimon",
+  "name_ja": "ウィッチモン",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "悪知恵所持特攻魔法",
+  "evolution_conditions": "エージェントランク3以上◆知力500以上◆精神490以上",
+  "evolves_from": [
+    "インプモン",
+    "シャーマモン"
+  ],
+  "evolves_to": [
+    "レディーデビモン",
+    "エンジェウーモン",
+    "リリモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_113.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350095",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ウィッチモン",
+  "stage": "成熟期",
+  "name_en": "Uitutimon"
+}

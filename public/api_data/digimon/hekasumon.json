@@ -1,0 +1,22 @@
+{
+  "slug": "hekasumon",
+  "name_ja": "ペガスモン",
+  "stage_ja": "アーマー体",
+  "attribute": "フリー",
+  "personality": "天啓",
+  "evolution_conditions": "エージェントランク3以上◆希望のデジメンタル所持",
+  "evolves_from": [
+    "パタモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_184.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350254",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ペガスモン",
+  "stage": "アーマー体",
+  "name_en": "Pegasusmon"
+}

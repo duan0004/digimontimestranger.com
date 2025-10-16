@@ -1,0 +1,17 @@
+{
+  "slug": "clockmon",
+  "name_en": "Clockmon",
+  "stage_en": "Champion",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4295818/61c1e6f1450c7cd6bdabf50b36ba7137.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555146",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Clockmon",
+  "stage": "Champion",
+  "name_ja": "クロックモン"
+}

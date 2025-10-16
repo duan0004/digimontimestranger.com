@@ -1,0 +1,17 @@
+{
+  "slug": "dragomon",
+  "name_en": "Dragomon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296784/95440156cfaa03e0bb9cec9d9b9e8aa3.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555670",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Dragomon",
+  "stage": "Ultimate",
+  "name_ja": "ダゴモン"
+}

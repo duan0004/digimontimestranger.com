@@ -1,0 +1,25 @@
+{
+  "slug": "metarusitoramon",
+  "name_ja": "メタルシードラモン",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "戦略家所持特攻魚",
+  "evolution_conditions": "エージェントランク7以上◆最大SP1430以上◆知力1530以上",
+  "evolves_from": [
+    "メガシードラモン",
+    "ワルシードラモン",
+    "シャークモン",
+    "スカルシードラモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_365.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355156",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "メタルシードラモン",
+  "stage": "究極体",
+  "name_en": "Metarusitoramon"
+}

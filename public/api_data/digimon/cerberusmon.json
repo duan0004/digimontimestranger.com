@@ -1,0 +1,17 @@
+{
+  "slug": "cerberusmon",
+  "name_en": "Cerberusmon",
+  "stage_en": "Ultimate",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4296778/6d1115b407b45af216ae7c7867d81e61.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555583",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Cerberusmon",
+  "stage": "Ultimate",
+  "name_ja": "ケルベロモン"
+}

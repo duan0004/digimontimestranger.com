@@ -1,0 +1,17 @@
+{
+  "slug": "pegasusmon",
+  "name_en": "Pegasusmon",
+  "stage_en": "Armor",
+  "attribute": "Free",
+  "main_image": "https://j-img.game8.co/11835930/2480f8389d9a3896f179acdf9c3ab3d1.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555706",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Pegasusmon",
+  "stage": "Armor",
+  "name_ja": "ペガスモン"
+}

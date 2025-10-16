@@ -1,0 +1,22 @@
+{
+  "slug": "mirasiyukaokamonbm",
+  "name_ja": "ミラージュガオガモンBM",
+  "stage_ja": "超究極体",
+  "attribute": "データ",
+  "personality": "熱血所持特攻霊不死",
+  "evolution_conditions": "エージェントランク8以上◆攻撃力3100以上◆素早さ3100以上",
+  "evolves_from": [
+    "ミラージュガオガモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_440.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355372",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ミラージュガオガモンBM",
+  "stage": "超究極体",
+  "name_en": "Mirasiyukaokamonbm"
+}

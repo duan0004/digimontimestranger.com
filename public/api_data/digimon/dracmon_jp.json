@@ -1,0 +1,33 @@
+{
+  "slug": "dracmon_jp",
+  "name": "レアモン",
+  "name_en": "Renamon",
+  "name_ja": "レアモン",
+  "stage_en": null,
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大HP900以上",
+  "evolves_from": [
+    "ガニモン",
+    "トイアグモン",
+    "シャコモン"
+  ],
+  "evolves_to": [
+    "ダゴモン",
+    "ブラックキングヌメモン",
+    "トノサマゲコモン",
+    "エクスティラノモン",
+    "スカルバルキモン"
+  ],
+  "main_image": "https://img.game8.co/4295509/58f13c6e8cc6c27a6571e5869e8a40a3.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350227",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.77)",
+  "stage": "成熟期"
+}

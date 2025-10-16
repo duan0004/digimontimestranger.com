@@ -1,0 +1,17 @@
+{
+  "slug": "imperialdramon-fm",
+  "name_en": "Imperialdramon FM",
+  "stage_en": "Mega",
+  "attribute": "Free",
+  "main_image": "https://j-img.game8.co/11835920/932c45219c9f365a3459a9eceb0a91f3.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555885",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Imperialdramon FM",
+  "stage": "Mega",
+  "name_ja": "インペリアルドラモンDM"
+}

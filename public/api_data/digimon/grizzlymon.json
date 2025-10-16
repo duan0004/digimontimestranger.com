@@ -1,0 +1,17 @@
+{
+  "slug": "grizzlymon",
+  "name_en": "Grizzlymon",
+  "stage_en": "Champion",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4295767/c9688ae345134d863b8f1201f322bbfb.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555228",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Grizzlymon",
+  "stage": "Champion",
+  "name_ja": "グリズモン"
+}

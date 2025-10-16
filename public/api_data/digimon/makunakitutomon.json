@@ -1,0 +1,24 @@
+{
+  "slug": "makunakitutomon",
+  "name_ja": "マグナキッドモン",
+  "stage_ja": "究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大SP1200以上◆攻撃力1940以上",
+  "evolves_from": [
+    "ライズグレイモン",
+    "メタルマメモン",
+    "オメガシャウトモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_403.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355267",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "マグナキッドモン",
+  "stage": "究極体",
+  "name_en": "MagnaKidmon"
+}

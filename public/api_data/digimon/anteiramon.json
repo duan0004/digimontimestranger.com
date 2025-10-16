@@ -1,0 +1,28 @@
+{
+  "slug": "anteiramon",
+  "name_ja": "アンティラモン",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "戦略家所持特攻人",
+  "evolution_conditions": "エージェントランク5以上◆最大SP920以上◆素早さ990以上",
+  "evolves_from": [
+    "ウェンディモン",
+    "トゥルイエモン",
+    "ツチダルモン"
+  ],
+  "evolves_to": [
+    "ディアナモン",
+    "ケルビモン(善)",
+    "ケルビモン(悪)"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_232.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354763",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アンティラモン",
+  "stage": "完全体",
+  "name_en": "Anteiramon"
+}

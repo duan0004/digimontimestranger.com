@@ -1,0 +1,31 @@
+{
+  "slug": "betamon",
+  "slug_ja": "hetamon",
+  "name_en": "Betamon",
+  "name_ja": "ベーダモン",
+  "stage_en": "Rookie",
+  "stage_ja": "完全体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大SP580以上◆知力860以上◆精神700以上",
+  "evolves_from": [
+    "ゴールドヌメモン",
+    "ベジーモン",
+    "プラチナスカモン"
+  ],
+  "evolves_to": [
+    "イーバモン",
+    "アヴェンジキッドモン"
+  ],
+  "main_image": "https://img.game8.co/4294403/42aca444b7c5a75d9d331474c89fe03c.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555107",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354934",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Betamon",
+  "stage": "Rookie"
+}

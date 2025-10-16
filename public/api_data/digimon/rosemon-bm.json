@@ -1,0 +1,26 @@
+{
+  "slug": "rosemon-bm",
+  "slug_ja": "rosemonbm",
+  "name_en": "Rosemon BM",
+  "name_ja": "ロゼモンBM",
+  "stage_en": "Mega+",
+  "stage_ja": "超究極体",
+  "attribute": "データ",
+  "personality": "社交的所持特攻虫人",
+  "evolution_conditions": "エージェントランク8以上◆知力3170以上◆精神2700以上",
+  "evolves_from": [
+    "ロゼモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11835899/32f9ef38954d2f13618e541c71362888.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555842",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355375",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9473684210526315,
+  "name": "Rosemon BM",
+  "stage": "Mega+"
+}

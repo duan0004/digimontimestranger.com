@@ -1,0 +1,17 @@
+{
+  "slug": "dynasmon",
+  "name_en": "Dynasmon",
+  "stage_en": "Mega",
+  "attribute": "Data",
+  "main_image": "https://j-img.game8.co/11833329/217e0807476d1315cd9e9f1bc5a6121d.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555758",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Dynasmon",
+  "stage": "Mega",
+  "name_ja": "デュナスモン"
+}

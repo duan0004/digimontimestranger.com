@@ -1,0 +1,17 @@
+{
+  "slug": "coredramon-green",
+  "name_en": "Coredramon (Green)",
+  "stage_en": "Champion",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295827/1b9507050285582f49c9ccf43656b127.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555350",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Coredramon (Green)",
+  "stage": "Champion",
+  "name_ja": "エアドラモン"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "halsemon",
+  "name": "Halsemon",
+  "name_en": "Halsemon",
+  "name_ja": "ホルスモン",
+  "stage_en": "Armor",
+  "stage_ja": null,
+  "attribute": "Free",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆精神400以上",
+  "evolves_from": [
+    "インプモン",
+    "ピコデビモン",
+    "バクモン"
+  ],
+  "evolves_to": [
+    "ヴァンデモン",
+    "ブルーメラモン",
+    "ファントモン",
+    "アンヴァルモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833424/43bd89f1c39cd34daae3ba2eae28c085.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555705",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Armor"
+}

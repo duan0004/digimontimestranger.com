@@ -1,0 +1,28 @@
+{
+  "slug": "diaboromon_jp",
+  "name": "アポロモン",
+  "name_en": "Diaboromon Jp",
+  "name_ja": "アポロモン",
+  "stage_en": null,
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "豪胆所持特攻不死水",
+  "evolution_conditions": "エージェントランク7以上◆攻撃力2220以上◆精神1810以上",
+  "evolves_from": [
+    "ボルケーモン",
+    "フレアモン"
+  ],
+  "evolves_to": [
+    "グレイスノヴァモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833384/c51079bcfd5b93729927df24c2045d7b.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354988",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "究極体"
+}

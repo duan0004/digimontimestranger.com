@@ -1,0 +1,26 @@
+{
+  "slug": "katoromon",
+  "name_ja": "ガードロモン",
+  "stage_ja": "成熟期",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆防御力440以上",
+  "evolves_from": [
+    "ハグルモンゴツモン"
+  ],
+  "evolves_to": [
+    "キャッチマメモン",
+    "ロコモン",
+    "アンドロモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_143.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350164",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ガードロモン",
+  "stage": "成熟期",
+  "name_en": "Katoromon"
+}

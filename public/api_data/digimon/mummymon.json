@@ -1,0 +1,17 @@
+{
+  "slug": "mummymon",
+  "name_en": "Mummymon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296768/4693d271c7dba3482743de3dc0c0d324.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555678",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Mummymon",
+  "stage": "Ultimate",
+  "name_ja": "マミーモン"
+}

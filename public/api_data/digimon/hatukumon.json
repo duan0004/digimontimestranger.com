@@ -1,0 +1,28 @@
+{
+  "slug": "hatukumon",
+  "name_ja": "ハックモン",
+  "stage_ja": "成長期",
+  "attribute": "データ",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク1以上◆最大HP420以上",
+  "evolves_from": [
+    "ニャロモン"
+  ],
+  "evolves_to": [
+    "テイルモン",
+    "ジオグレイモン",
+    "グラウモン",
+    "バオハックモン",
+    "グレイモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_52.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298330",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ハックモン",
+  "stage": "成長期",
+  "name_en": "Shakkoumon"
+}

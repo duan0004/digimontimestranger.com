@@ -1,0 +1,17 @@
+{
+  "slug": "metalseadramon",
+  "name_en": "MetalSeadramon",
+  "stage_en": "Mega",
+  "attribute": "Data",
+  "main_image": "https://j-img.game8.co/11835917/33390764722415d3e267184a721933d0.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555762",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "MetalSeadramon",
+  "stage": "Mega",
+  "name_ja": "メタルシードラモン"
+}

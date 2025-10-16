@@ -1,0 +1,29 @@
+{
+  "slug": "magnagarurumon",
+  "slug_ja": "makunakarurumon",
+  "name_en": "MagnaGarurumon",
+  "name_ja": "マグナガルルモン",
+  "stage_en": "Hybrid",
+  "stage_ja": null,
+  "attribute": "ヴァリアブル",
+  "personality": "気さく所持特攻機械",
+  "evolution_conditions": "エージェントランク7以上",
+  "evolves_from": [
+    "ベオウルフモン"
+  ],
+  "evolves_to": [
+    "スサノオモン",
+    "マグナガルルモン(分離)"
+  ],
+  "main_image": "https://j-img.game8.co/11835887/567c4b770fbbd7fc96f45439ac1b83a3.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555891",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355330",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8275862068965517,
+  "name": "MagnaGarurumon",
+  "stage": "Hybrid"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "hatukasumondm",
+  "name_ja": "バッカスモンDM",
+  "stage_ja": "究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "バッカスモンをモードチェンジ",
+  "evolves_from": [
+    "バッカスモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_390.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355228",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "バッカスモンDM",
+  "stage": "究極体",
+  "name_en": "Hatukasumondm"
+}

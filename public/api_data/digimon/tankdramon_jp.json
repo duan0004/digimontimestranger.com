@@ -1,0 +1,30 @@
+{
+  "slug": "tankdramon_jp",
+  "name": "タンクドラモン",
+  "name_en": "Tankdramon",
+  "name_ja": "タンクドラモン",
+  "stage_en": null,
+  "stage_ja": "完全体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆攻撃力1150以上◆防御力900以上",
+  "evolves_from": [
+    "ラプタードラモン",
+    "ワスプモン",
+    "タンクモン"
+  ],
+  "evolves_to": [
+    "ガンドラモン",
+    "ダークドラモン"
+  ],
+  "main_image": "https://img.game8.co/4296833/9cbb37a6bef83a4feff7cc963e081746.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354916",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.82)",
+  "stage": "完全体"
+}

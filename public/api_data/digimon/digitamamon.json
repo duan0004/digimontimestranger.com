@@ -1,0 +1,17 @@
+{
+  "slug": "digitamamon",
+  "name_en": "Digitamamon",
+  "stage_en": "Ultimate",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4296781/c7a0277e556cc787922691d31b9b8cd5.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555622",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Digitamamon",
+  "stage": "Ultimate",
+  "name_ja": "デジタマモン"
+}

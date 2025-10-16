@@ -1,0 +1,29 @@
+{
+  "slug": "harumon",
+  "name_ja": "パルモン",
+  "stage_ja": "成長期",
+  "attribute": "データ",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク1以上◆攻撃力220以上◆知力220以上",
+  "evolves_from": [
+    "タネモン"
+  ],
+  "evolves_to": [
+    "モジャモン",
+    "ベジーモン",
+    "トゲモン",
+    "ウッドモン",
+    "クリサリモン",
+    "プラチナスカモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_53.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305230",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "パルモン",
+  "stage": "成長期",
+  "name_en": "Harumon"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "cannonbeemon",
+  "name_en": "CannonBeemon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296758/a5760dc93679407a5bf5d7508e7f7c13.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555661",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "CannonBeemon",
+  "stage": "Ultimate",
+  "name_ja": "カノンビーモン"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "keruheromon",
+  "name_ja": "ケルベロモン",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "社交的所持特攻獣",
+  "evolution_conditions": "エージェントランク5以上◆最大SP620以上◆攻撃力940以上◆素早さ890以上",
+  "evolves_from": [
+    "ドーベルモン",
+    "モノクロモン",
+    "キュウビモン"
+  ],
+  "evolves_to": [
+    "プルートモン",
+    "ケルベロモンJM",
+    "プルートモン",
+    "メタルガルルモン(黒)"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_208.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354691",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ケルベロモン",
+  "stage": "完全体",
+  "name_en": "Keruheromon"
+}

@@ -1,0 +1,45 @@
+{
+  "total": 840,
+  "with_en_name": 457,
+  "with_ja_name": 522,
+  "with_both_names": 139,
+  "with_evolution_data": 637,
+  "by_stage": {
+    "In-Training II": 13,
+    "Ultimate": 114,
+    "Rookie": 62,
+    "Champion": 99,
+    "Mega": 122,
+    "Hybrid": 11,
+    "Mega+": 20,
+    "Armor": 10,
+    "In-Training I": 6,
+    "成長期": 51,
+    "究極体": 104,
+    "完全体": 101,
+    "成熟期": 84,
+    "アーマー体": 9,
+    "超究極体": 22,
+    "Unknown": 9,
+    "幼年期1": 3
+  },
+  "by_attribute": {
+    "NO DATA": 20,
+    "データ": 152,
+    "ワクチン": 198,
+    "Virus": 148,
+    "Unknown": 101,
+    "Vaccine": 77,
+    "Free": 22,
+    "Data": 62,
+    "Variable": 6,
+    "No Data": 2,
+    "フリー": 34,
+    "ヴァリアブル": 18
+  },
+  "by_source": {
+    "game8_en": 457,
+    "appmedia_jp": 522,
+    "both": 139
+  }
+}

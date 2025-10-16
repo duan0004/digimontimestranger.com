@@ -1,0 +1,27 @@
+{
+  "slug": "merukimon",
+  "slug_ja": "merukurimon",
+  "name_en": "Merukimon",
+  "name_ja": "メルクリモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆攻撃力1150以上◆素早さ2100以上",
+  "evolves_from": [
+    "パンダモン",
+    "ワーガルルモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833342/724760d8f5b66eeae53b6d3d800a9c4c.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555852",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355285",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9,
+  "name": "Merukimon",
+  "stage": "Mega"
+}

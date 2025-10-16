@@ -1,0 +1,17 @@
+{
+  "slug": "shogungekomon",
+  "name_en": "ShogunGekomon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296815/649c7fe1c48e1c9e5bfc13affcbb5a40.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555672",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ShogunGekomon",
+  "stage": "Ultimate",
+  "name_ja": "ショーグンゲコモン"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "titamon",
+  "slug_ja": "taitamon",
+  "name_en": "Titamon",
+  "name_ja": "タイタモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP3220以上◆攻撃力1680以上",
+  "evolves_from": [
+    "ダークスーパースターモン",
+    "デジタマモン",
+    "スカルグレイモン"
+  ],
+  "evolves_to": [
+    "タイタモン+スカルバルキモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833338/f7f1d651f6eb172608c3bd6ded4b11ef.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555136",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355213",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9333333333333333,
+  "name": "Titamon",
+  "stage": "Mega"
+}

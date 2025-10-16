@@ -1,0 +1,32 @@
+{
+  "slug": "gaiomon_jp",
+  "name": "ナイトモン",
+  "name_en": "Gaiomon Jp",
+  "name_ja": "ナイトモン",
+  "stage_en": null,
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "熱血所持特攻騎士",
+  "evolution_conditions": "エージェントランク5以上◆防御力1040以上◆精神950以上",
+  "evolves_from": [
+    "クロックモン",
+    "ディノヒューモン",
+    "ズバイガーモン"
+  ],
+  "evolves_to": [
+    "ザンバモン",
+    "スラッシュエンジェモン",
+    "ロードナイトモン",
+    "ドゥフトモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833355/ca4030668853a4f62d9a484407e8a44f.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354811",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "完全体"
+}

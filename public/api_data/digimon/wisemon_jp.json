@@ -1,0 +1,31 @@
+{
+  "slug": "wisemon_jp",
+  "name": "ワイズモン",
+  "name_en": "Wisemon Jp",
+  "name_ja": "ワイズモン",
+  "stage_en": null,
+  "stage_ja": "完全体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大SP1100以上◆知力1650以上",
+  "evolves_from": [
+    "ウィッチモン",
+    "リボルモン",
+    "ソーサリモン"
+  ],
+  "evolves_to": [
+    "デーモン",
+    "カオスデュークモン",
+    "エンシェントワイズモン"
+  ],
+  "main_image": "https://img.game8.co/4296816/dbb9bba6b92e6d1964919b7728347f80.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354961",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "完全体"
+}

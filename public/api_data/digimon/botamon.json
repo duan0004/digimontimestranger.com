@@ -1,0 +1,26 @@
+{
+  "slug": "botamon",
+  "slug_ja": "hotamon",
+  "name_en": "Botamon",
+  "name_ja": "ボタモン",
+  "stage_en": "In-Training I",
+  "stage_ja": "幼年期1",
+  "attribute": "NO DATA",
+  "personality": "豪胆",
+  "evolution_conditions": "なし",
+  "evolves_from": [],
+  "evolves_to": [
+    "コロモン"
+  ],
+  "main_image": "https://img.game8.co/4291851/c4162687748a649cd531daae19c7557e.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555176",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298246",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Botamon",
+  "stage": "In-Training I"
+}

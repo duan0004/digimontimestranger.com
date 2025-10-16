@@ -1,0 +1,31 @@
+{
+  "slug": "examon_jp",
+  "name": "ベアモン",
+  "name_en": "Betamon",
+  "name_ja": "ベアモン",
+  "stage_en": null,
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "蛮勇",
+  "evolution_conditions": "エージェントランク1以上◆攻撃力220以上",
+  "evolves_from": [
+    "ワニャモン"
+  ],
+  "evolves_to": [
+    "グリズモン",
+    "ガオガモン",
+    "モジャモン",
+    "レオモン",
+    "ガルルモン(黒)"
+  ],
+  "main_image": "https://j-img.game8.co/11835923/f514a47f91111f77f96c72e1af6f9fb6.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298291",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "已知错误匹配: Examon ≠ ベアモン",
+  "stage": "成長期"
+}

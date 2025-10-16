@@ -1,0 +1,27 @@
+{
+  "slug": "kikatoramon",
+  "name_ja": "ギガドラモン",
+  "stage_ja": "完全体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆攻撃力1130以上◆防御力990以上◆精神860以上",
+  "evolves_from": [
+    "エアドラモン",
+    "ラプタードラモン",
+    "コアドラモン(青)"
+  ],
+  "evolves_to": [
+    "ガンドラモン",
+    "カオスドラモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_272.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354883",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ギガドラモン",
+  "stage": "完全体",
+  "name_en": "Gigadramon"
+}

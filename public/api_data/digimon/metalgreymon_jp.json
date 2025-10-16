@@ -1,0 +1,28 @@
+{
+  "slug": "metalgreymon_jp",
+  "name": "メタルエテモン",
+  "name_en": "Metalgreymon Jp",
+  "name_ja": "メタルエテモン",
+  "stage_en": null,
+  "stage_ja": "究極体",
+  "attribute": "Vaccine",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2470以上◆防御力2010以上",
+  "evolves_from": [
+    "エテモン",
+    "ガーべモン",
+    "ブラックキングヌメモン",
+    "インセキモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4296790/d0b3de70e6e0ab9ce7c18e6acae5836b.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355282",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "究極体"
+}

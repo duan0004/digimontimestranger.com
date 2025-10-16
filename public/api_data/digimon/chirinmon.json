@@ -1,0 +1,32 @@
+{
+  "slug": "chirinmon",
+  "name": "Chirinmon",
+  "name_en": "Chirinmon",
+  "name_ja": "チィリンモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "戦略家",
+  "evolution_conditions": "エージェントランク5以上◆攻撃力900以上◆知力900以上◆素早さ1100以上",
+  "evolves_from": [
+    "レッパモン",
+    "ユニモン",
+    "ペックモン"
+  ],
+  "evolves_to": [
+    "スレイプモン",
+    "クロスモン",
+    "ヴァルキリモン"
+  ],
+  "main_image": "https://img.game8.co/4296785/827dcb6fbac7485166e402d4be3807a5.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555588",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "Ultimate"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "chaosmon-valdur-arm",
+  "name_en": "Chaosmon Valdur Arm",
+  "stage_en": "Mega",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11835927/a25c7b98b2922ca0d02465f6ff933db8.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555872",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Chaosmon Valdur Arm",
+  "stage": "Mega",
+  "name_ja": "カオスモン：ヴァルドゥールアーム"
+}

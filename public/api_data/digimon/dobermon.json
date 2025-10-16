@@ -1,0 +1,17 @@
+{
+  "slug": "dobermon",
+  "name_en": "Dobermon",
+  "stage_en": "Champion",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4295746/73937d2e4929ee1f56a59b4498cdb9fd.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555236",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Dobermon",
+  "stage": "Champion",
+  "name_ja": "ドーベルモン"
+}

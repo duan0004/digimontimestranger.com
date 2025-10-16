@@ -1,0 +1,32 @@
+{
+  "slug": "rapidmon_jp",
+  "name": "フライモン",
+  "name_en": "Rapidmon Jp",
+  "name_ja": "フライモン",
+  "stage_en": null,
+  "stage_ja": "成熟期",
+  "attribute": "Vaccine",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆攻撃力620以上",
+  "evolves_from": [
+    "ファンビーモン",
+    "ギザモン",
+    "マッシュモン"
+  ],
+  "evolves_to": [
+    "メガドラモン",
+    "アトラーカブテリモン",
+    "オオクワモン",
+    "ジュエルビーモン"
+  ],
+  "main_image": "https://img.game8.co/4296821/5f5e087d8108a4bed030f0675c4cd204.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350206",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "成熟期"
+}

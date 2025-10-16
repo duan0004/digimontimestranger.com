@@ -1,0 +1,32 @@
+{
+  "slug": "triceramon",
+  "slug_ja": "torikeramon",
+  "name_en": "Triceramon",
+  "name_ja": "トリケラモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "熱血所持特攻硬体",
+  "evolution_conditions": "エージェントランク5以上◆攻撃力970以上◆防御力1060以上",
+  "evolves_from": [
+    "ミノタルモン",
+    "モノクロモン",
+    "ドリモゲモン",
+    "タスクモン"
+  ],
+  "evolves_to": [
+    "ブレイクドラモン",
+    "アルティメットブラキモン"
+  ],
+  "main_image": "https://img.game8.co/4296840/8cea068a176dda258cffbf4f4dd6af06.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555625",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354805",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Triceramon",
+  "stage": "Ultimate"
+}

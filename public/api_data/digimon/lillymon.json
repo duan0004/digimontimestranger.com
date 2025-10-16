@@ -1,0 +1,17 @@
+{
+  "slug": "lillymon",
+  "name_en": "Lillymon",
+  "stage_en": "Ultimate",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4296829/9736edd0ff3f513fbb70708ea6948741.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555642",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Lillymon",
+  "stage": "Ultimate",
+  "name_ja": "リリモン"
+}

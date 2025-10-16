@@ -1,0 +1,32 @@
+{
+  "slug": "gomamon",
+  "slug_ja": "komamon",
+  "name_en": "Gomamon",
+  "name_ja": "ゴマモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "蛮勇",
+  "evolution_conditions": "エージェントランク1以上◆最大HP750以上",
+  "evolves_from": [
+    "プカモン"
+  ],
+  "evolves_to": [
+    "モジャモン",
+    "イッカクモン",
+    "ユキダルモン",
+    "ヒョーガモン",
+    "アイスデビモン"
+  ],
+  "main_image": "https://img.game8.co/4294379/e8756600966dc2883e146202361e5001.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555159",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298273",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Gomamon",
+  "stage": "Rookie"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "karumumon",
+  "name_ja": "ガルムモン",
+  "stage_ja": null,
+  "attribute": "ヴァリアブル",
+  "personality": "気さく所持特攻魔獣",
+  "evolution_conditions": "ヴォルフモンをモードチェンジする",
+  "evolves_from": [],
+  "evolves_to": [
+    "ベオウルフモン",
+    "ヴォルフモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_192.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354646",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ガルムモン",
+  "stage": null,
+  "name_en": "Garurumon (Black)"
+}

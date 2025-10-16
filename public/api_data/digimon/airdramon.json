@@ -1,0 +1,32 @@
+{
+  "slug": "airdramon",
+  "slug_ja": "rairamon",
+  "name_en": "Airdramon",
+  "name_ja": "ライラモン",
+  "stage_en": "Champion",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "社交的所持特攻虫",
+  "evolution_conditions": "エージェントランク5以上◆最大SP880以上◆知力1260以上",
+  "evolves_from": [
+    "サンフラウモン",
+    "カブテリモン",
+    "キウイモン"
+  ],
+  "evolves_to": [
+    "リリスモン",
+    "ロゼモン",
+    "ピノッキモン"
+  ],
+  "main_image": "https://img.game8.co/4295745/a04775edb60cf39d846ff130fd5e9011.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555223",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354853",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Airdramon",
+  "stage": "Champion"
+}

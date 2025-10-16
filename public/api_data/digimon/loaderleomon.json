@@ -1,0 +1,17 @@
+{
+  "slug": "loaderleomon",
+  "name_en": "LoaderLeomon",
+  "stage_en": "Ultimate",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4296807/ee9882c11965629f4406c8afa6b085be.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555605",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "LoaderLeomon",
+  "stage": "Ultimate",
+  "name_ja": "ローダーレオモン"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "hisyaryumon",
+  "slug_ja": "hisiyariyuumon",
+  "name_en": "Hisyaryumon",
+  "name_ja": "ヒシャリュウモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク5以上◆攻撃力900以上◆防御力960以上",
+  "evolves_from": [
+    "エアドラモン",
+    "ギンリュウモン",
+    "ムシャモン",
+    "シードラモン"
+  ],
+  "evolves_to": [
+    "オウリュウモン",
+    "ガイオウモン"
+  ],
+  "main_image": "https://img.game8.co/4296795/abf13629223196e8a53f66b1ae4142fa.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555594",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354718",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.88,
+  "name": "Hisyaryumon",
+  "stage": "Ultimate"
+}

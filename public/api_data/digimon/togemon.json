@@ -1,0 +1,32 @@
+{
+  "slug": "togemon",
+  "slug_ja": "tokemon",
+  "name_en": "Togemon",
+  "name_ja": "トゲモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク3以上◆最大HP840以上◆防御力410以上",
+  "evolves_from": [
+    "ララモン",
+    "パルモン",
+    "フローラモン"
+  ],
+  "evolves_to": [
+    "リリモン",
+    "ジュレイモン",
+    "パンプモン"
+  ],
+  "main_image": "https://img.game8.co/4295854/b6b0446d77190022e0d9a95f5ddaa1bf.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555332",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350137",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Togemon",
+  "stage": "Champion"
+}

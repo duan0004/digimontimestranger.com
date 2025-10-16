@@ -1,0 +1,24 @@
+{
+  "slug": "suratusiyuensiemon",
+  "name_ja": "スラッシュエンジェモン",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "蛮勇所持特攻不死魔",
+  "evolution_conditions": "エージェントランク7以上◆攻撃力2050以上◆素早さ1060以上",
+  "evolves_from": [
+    "マタドゥルモン",
+    "ホーリーエンジェモン",
+    "ナイトモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_325.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355039",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "スラッシュエンジェモン",
+  "stage": "究極体",
+  "name_en": "Suratusiyuensiemon"
+}

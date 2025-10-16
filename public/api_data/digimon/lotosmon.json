@@ -1,0 +1,27 @@
+{
+  "slug": "lotosmon",
+  "slug_ja": "rotosumon",
+  "name_en": "Lotosmon",
+  "name_ja": "ロトスモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "天啓所持特攻妖精",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2380以上◆最大SP1100以上◆知力1980以上",
+  "evolves_from": [
+    "アルケニモン",
+    "パンプモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833388/0c96583b1c28fd9298bd51fff8452d07.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555759",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355165",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Lotosmon",
+  "stage": "Mega"
+}

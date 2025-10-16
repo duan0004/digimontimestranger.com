@@ -1,0 +1,17 @@
+{
+  "slug": "bluemeramon",
+  "name_en": "BlueMeramon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296745/56f65c44fc22382015071c94271dfdaf.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555676",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "BlueMeramon",
+  "stage": "Ultimate",
+  "name_ja": "ブルーメラモン"
+}

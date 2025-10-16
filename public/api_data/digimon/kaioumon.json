@@ -1,0 +1,24 @@
+{
+  "slug": "kaioumon",
+  "name_ja": "ガイオウモン",
+  "stage_ja": "究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大HP2820以上◆攻撃力2430以上",
+  "evolves_from": [
+    "ヒシャリュウモン",
+    "メタルグレイモン",
+    "ブテンモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_373.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355180",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ガイオウモン",
+  "stage": "究極体",
+  "name_en": "Gaiomon"
+}

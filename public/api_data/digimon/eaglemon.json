@@ -1,0 +1,17 @@
+{
+  "slug": "eaglemon",
+  "name_en": "Eaglemon",
+  "stage_en": "Mega",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11833418/7d6bf8c7a12062d576cc20848cc5024c.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555751",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Eaglemon",
+  "stage": "Mega",
+  "name_ja": "イーグルモン"
+}

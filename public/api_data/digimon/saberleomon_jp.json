@@ -1,0 +1,28 @@
+{
+  "slug": "saberleomon_jp",
+  "name": "サーベルレオモン",
+  "name_en": "Saberleomon Jp",
+  "name_ja": "サーベルレオモン",
+  "stage_en": null,
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "熱血所持特攻獣鳥",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2400以上◆攻撃力1930以上◆素早さ1860以上",
+  "evolves_from": [
+    "ケルベロモン",
+    "ケルベロモンJM",
+    "グラップレオモン",
+    "パンジャモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833331/890b24f9ef89367cb3e47fc70a70524d.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355111",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "究極体"
+}

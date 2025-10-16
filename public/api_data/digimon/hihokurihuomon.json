@@ -1,0 +1,26 @@
+{
+  "slug": "hihokurihuomon",
+  "name_ja": "ヒポグリフォモン",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "戦略家所持特攻氷",
+  "evolution_conditions": "エージェントランク5以上◆知力1050以上◆素早さ1020以上",
+  "evolves_from": [
+    "エンジェモンユニモン"
+  ],
+  "evolves_to": [
+    "グリフォモン",
+    "クロスモン",
+    "デュナスモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_254.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354829",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ヒポグリフォモン",
+  "stage": "完全体",
+  "name_en": "Hihokurihuomon"
+}

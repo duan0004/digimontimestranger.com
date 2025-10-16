@@ -1,0 +1,24 @@
+{
+  "slug": "siyanhokamemon",
+  "name_ja": "ジャンボガメモン",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "気さく所持特攻機械軟体",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2010以上◆防御力1740以上◆精神1870以上",
+  "evolves_from": [
+    "シャウジンモン",
+    "メガシードラモン",
+    "ガーべモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_353.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355120",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ジャンボガメモン",
+  "stage": "究極体",
+  "name_en": "Siyanhokamemon"
+}

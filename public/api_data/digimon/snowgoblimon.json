@@ -1,0 +1,17 @@
+{
+  "slug": "snowgoblimon",
+  "name_en": "SnowGoblimon",
+  "stage_en": "Rookie",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295352/5f3a48d618614a2bde7c3023b91e3392.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555113",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "SnowGoblimon",
+  "stage": "Rookie",
+  "name_ja": "スノーゴブリモン"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "lighdramon_jp",
+  "name": "イーバモン",
+  "name_en": "Lighdramon Jp",
+  "name_ja": "イーバモン",
+  "stage_en": null,
+  "stage_ja": "究極体",
+  "attribute": "Free",
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大SP1500◆知力2420以上◆精神1570以上",
+  "evolves_from": [
+    "スカルサタモン",
+    "ダゴモン",
+    "ベーダモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4296801/32d904a555b237504f78e19de5c0cb8a.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355171",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "究極体"
+}

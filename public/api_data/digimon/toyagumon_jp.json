@@ -1,0 +1,30 @@
+{
+  "slug": "toyagumon_jp",
+  "name": "ドラクモン",
+  "name_en": "Toyagumon Jp",
+  "name_ja": "ドラクモン",
+  "stage_en": null,
+  "stage_ja": "成長期",
+  "attribute": "Vaccine",
+  "personality": null,
+  "evolution_conditions": "エージェントランク1以上◆最大SP230以上◆攻撃力270以上",
+  "evolves_from": [
+    "ツメモン"
+  ],
+  "evolves_to": [
+    "サングルゥモン",
+    "スカモン",
+    "ウィザーモン",
+    "スターモン"
+  ],
+  "main_image": "https://img.game8.co/4294681/f2c7020e8b7d766fc44273c2839dc163.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298360",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "成長期"
+}

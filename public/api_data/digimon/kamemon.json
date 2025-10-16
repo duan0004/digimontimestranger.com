@@ -1,0 +1,32 @@
+{
+  "slug": "kamemon",
+  "name_en": "Kamemon",
+  "name_ja": "カメモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "データ",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク1以上◆最大HP400以上◆防御力180以上",
+  "evolves_from": [
+    "プカモン"
+  ],
+  "evolves_to": [
+    "ガワッパモン",
+    "オクタモン",
+    "シェルモン",
+    "カラツキヌメモン",
+    "ディノヒューモン",
+    "ソーサリモン"
+  ],
+  "main_image": "https://img.game8.co/4294382/1ccf7b629136f2a58cf81614f9e90c18.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555188",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350035",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Kamemon",
+  "stage": "Rookie"
+}

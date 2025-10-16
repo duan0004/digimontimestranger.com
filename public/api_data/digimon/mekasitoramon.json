@@ -1,0 +1,28 @@
+{
+  "slug": "mekasitoramon",
+  "name_ja": "メガシードラモン",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "戦略家所持特攻水",
+  "evolution_conditions": "エージェントランク5以上◆最大SP900以上◆知力1040以上",
+  "evolves_from": [
+    "レッパモン",
+    "イッカクモン",
+    "シードラモン"
+  ],
+  "evolves_to": [
+    "ジャンボガメモン",
+    "オウリュウモン",
+    "メタルシードラモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_260.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354847",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "メガシードラモン",
+  "stage": "完全体",
+  "name_en": "Mekasitoramon"
+}

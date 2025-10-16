@@ -1,0 +1,17 @@
+{
+  "slug": "dracomon",
+  "name_en": "Dracomon",
+  "stage_en": "Rookie",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4294393/966a52dfbc088f3f0ae72ffe1089b325.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555183",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Dracomon",
+  "stage": "Rookie",
+  "name_ja": "ドラコモン"
+}

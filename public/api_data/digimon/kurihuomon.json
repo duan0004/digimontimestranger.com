@@ -1,0 +1,24 @@
+{
+  "slug": "kurihuomon",
+  "name_ja": "グリフォモン",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "戦略家所持特攻鳥",
+  "evolution_conditions": "エージェントランク7以上◆最大SP1160以上◆素早さ1750以上",
+  "evolves_from": [
+    "ヒポグリフォモン",
+    "ガルダモン",
+    "ブテンモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_347.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355102",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "グリフォモン",
+  "stage": "究極体",
+  "name_en": "Kurihuomon"
+}

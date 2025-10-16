@@ -1,0 +1,26 @@
+{
+  "slug": "omekasiyautomon",
+  "name_ja": "オメガシャウトモン",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "豪胆",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1070以上◆最大SP320以上",
+  "evolves_from": [
+    "シャウトモン"
+  ],
+  "evolves_to": [
+    "パイルボルケーモン",
+    "マグナキッドモン",
+    "ヒポグリフォモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_234.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354769",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "オメガシャウトモン",
+  "stage": "完全体",
+  "name_en": "Omekasiyautomon"
+}

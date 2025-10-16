@@ -1,0 +1,31 @@
+{
+  "slug": "minotarumon",
+  "name_en": "Minotarumon",
+  "name_ja": "ミノタルモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆攻撃力660以上",
+  "evolves_from": [
+    "シャーマモン",
+    "ロップモン",
+    "ガブモン(黒)"
+  ],
+  "evolves_to": [
+    "トリケラモン",
+    "エテモン",
+    "グラップレオモン"
+  ],
+  "main_image": "https://img.game8.co/4295795/57f6c75e76ccb627efd8c6e437533a69.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555366",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350218",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Minotarumon",
+  "stage": "Champion"
+}

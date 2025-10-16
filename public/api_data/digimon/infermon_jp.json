@@ -1,0 +1,31 @@
+{
+  "slug": "infermon_jp",
+  "name": "インフェルモン",
+  "name_en": "Infermon",
+  "name_ja": "インフェルモン",
+  "stage_en": null,
+  "stage_ja": "完全体",
+  "attribute": "Unknown",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大SP660以上◆攻撃力1110以上◆素早さ930以上",
+  "evolves_from": [
+    "デビモン",
+    "ドクグモン",
+    "クリサリモン"
+  ],
+  "evolves_to": [
+    "べリアルヴァンデモン",
+    "ディアボロモン",
+    "ケルビモン(悪)"
+  ],
+  "main_image": "https://img.game8.co/4296776/af7a75fd732d71080718dd96cfc92980.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354979",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "完全体"
+}

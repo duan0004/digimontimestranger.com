@@ -1,0 +1,33 @@
+{
+  "slug": "agumon",
+  "slug_ja": "akumon",
+  "name_en": "Agumon",
+  "name_ja": "アグモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "豪胆",
+  "evolution_conditions": "エージェントランク1以上◆最大HP530以上",
+  "evolves_from": [
+    "コロモン"
+  ],
+  "evolves_to": [
+    "ラプタードラモン",
+    "ジオグレイモン",
+    "ヌメモン",
+    "グレイモン",
+    "コアドラモン(緑)",
+    "アグモン-勇気の絆-"
+  ],
+  "main_image": "https://img.game8.co/4294384/594b563b0d06347e199b7ea6bac9b8b9.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555161",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298270",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8333333333333334,
+  "name": "Agumon",
+  "stage": "Rookie"
+}

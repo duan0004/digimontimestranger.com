@@ -1,0 +1,17 @@
+{
+  "slug": "aegiochusmon-blue",
+  "name_en": "Aegiochusmon Blue",
+  "stage_en": "Ultimate",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11831543/e98f7e23e520b9e88bdc1ecd1c613bc7.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555718",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Aegiochusmon Blue",
+  "stage": "Ultimate",
+  "name_ja": "アイギオテュースモン：ブルー"
+}

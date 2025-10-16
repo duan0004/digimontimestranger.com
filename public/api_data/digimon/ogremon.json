@@ -1,0 +1,32 @@
+{
+  "slug": "ogremon",
+  "slug_ja": "koremon",
+  "name_en": "Ogremon",
+  "name_ja": "ゴーレモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆防御力480以上",
+  "evolves_from": [
+    "ゴブリモン",
+    "ゴツモン",
+    "アルマジモン"
+  ],
+  "evolves_to": [
+    "ボルケーモン",
+    "マンモン",
+    "インセキモン"
+  ],
+  "main_image": "https://img.game8.co/4295788/cc22af2a58112f4c326bb8ac3748bb3f.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555145",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350179",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Ogremon",
+  "stage": "Champion"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "raremon",
+  "slug_ja": "raramon",
+  "name_en": "Raremon",
+  "name_ja": "ララモン",
+  "stage_en": "Champion",
+  "stage_ja": "成長期",
+  "attribute": "データ",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク1以上◆最大HP500以上◆精神160以上",
+  "evolves_from": [
+    "タネモン"
+  ],
+  "evolves_to": [
+    "サンフラウモン",
+    "トゲモン",
+    "リボルモン",
+    "ツチダルモン",
+    "トゥルイエモン"
+  ],
+  "main_image": "https://img.game8.co/4295787/d6156510581acc89a5eda0c5d302e949.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555139",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305239",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Raremon",
+  "stage": "Champion"
+}

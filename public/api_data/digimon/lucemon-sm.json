@@ -1,0 +1,17 @@
+{
+  "slug": "lucemon-sm",
+  "name_en": "Lucemon SM",
+  "stage_en": "Mega+",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11835913/41ec376a13cc3612de446c451559bd1e.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555865",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Lucemon SM",
+  "stage": "Mega+",
+  "name_ja": "ルーチェモン：サタンモード"
+}

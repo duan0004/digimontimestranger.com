@@ -1,0 +1,33 @@
+{
+  "slug": "varodurumon",
+  "name": "Varodurumon",
+  "name_en": "Varodurumon",
+  "name_ja": "ヴァロドゥルモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク3以上◆防御力300以上◆素早さ400以上",
+  "evolves_from": [
+    "ルナモン",
+    "ガブモン",
+    "バクモン"
+  ],
+  "evolves_to": [
+    "ワーガルルモン",
+    "ブルーメラモン",
+    "タオモン",
+    "キメラモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833395/6e240c07a4a4c3a35132134dd7bf6661.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555744",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Mega"
+}

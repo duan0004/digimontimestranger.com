@@ -1,0 +1,25 @@
+{
+  "slug": "hurinsumamemon",
+  "name_ja": "プリンスマメモン",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "悪知恵所持特攻鋼",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2140以上◆防御力1530以上",
+  "evolves_from": [
+    "ビッグマメモン",
+    "キャッチマメモン",
+    "スーパースターモン",
+    "マメモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_360.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355141",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "プリンスマメモン",
+  "stage": "究極体",
+  "name_en": "Hurinsumamemon"
+}

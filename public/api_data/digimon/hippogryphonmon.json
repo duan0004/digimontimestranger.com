@@ -1,0 +1,17 @@
+{
+  "slug": "hippogryphonmon",
+  "name_en": "HippoGryphonmon",
+  "stage_en": "Ultimate",
+  "attribute": "Data",
+  "main_image": "https://img.game8.co/4296765/051df6ecef5ccbaf1e4692341d413e4f.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555633",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "HippoGryphonmon",
+  "stage": "Ultimate",
+  "name_ja": "ヒポグリフォモン"
+}

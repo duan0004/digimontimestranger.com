@@ -1,0 +1,31 @@
+{
+  "slug": "otamamon",
+  "name_en": "Otamamon",
+  "name_ja": "オタマモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク1以上◆攻撃力150以上◆防御力140以上",
+  "evolves_from": [
+    "パグモン"
+  ],
+  "evolves_to": [
+    "シードラモン",
+    "ヌメモン",
+    "ゲコモン",
+    "カラツキヌメモン",
+    "プラチナスカモン"
+  ],
+  "main_image": "https://img.game8.co/4294400/9ceb2388009fc51d27c3d6c7036a30ec.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555120",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298339",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Otamamon",
+  "stage": "Rookie"
+}

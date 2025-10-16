@@ -1,0 +1,17 @@
+{
+  "slug": "digmon",
+  "name_en": "Digmon",
+  "stage_en": "Armor",
+  "attribute": "Free",
+  "main_image": "https://j-img.game8.co/11833414/7ccc150098c0d0182ab22eb7dda39530.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555707",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Digmon",
+  "stage": "Armor",
+  "name_ja": "ディグモン"
+}

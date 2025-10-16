@@ -1,0 +1,24 @@
+{
+  "slug": "aikioteyusumon-taku",
+  "name_ja": "アイギオテュースモン：ダーク",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "蛮勇所持特攻神天使",
+  "evolution_conditions": "エージェントランク9以上◆攻撃力3070以上◆知力2980以上◆エージェントスキル「勇壮の絆」習得数が46以上◆エージェントスキル「友好の絆」習得数が46以上◆エージェントスキル「知啓の絆」習得数が46以上",
+  "evolves_from": [
+    "アイギオモン"
+  ],
+  "evolves_to": [
+    "クロノモンDM"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_195.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79360268",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アイギオテュースモン：ダーク",
+  "stage": "完全体",
+  "name_en": "Aikioteyusumon Taku"
+}

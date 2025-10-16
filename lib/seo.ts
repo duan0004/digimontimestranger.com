@@ -1,112 +1,123 @@
 import { Metadata } from 'next';
 
-const SITE_URL = 'https://digimontimestranger.com';
-const SITE_NAME = 'Digimon Time Stranger Guide';
-const SITE_DESCRIPTION =
-  'Complete strategies, evolution guides, team building tools, and Digidex database for Digimon Story: Time Stranger. Master every evolution path and build the perfect team.';
-
-export interface SEOConfig {
-  title?: string;
-  description?: string;
+export interface GenerateMetadataOptions {
+  title: string;
+  description: string;
   keywords?: string[];
-  image?: string;
-  url?: string;
-  type?: 'website' | 'article';
-  publishedTime?: string;
-  modifiedTime?: string;
-  noindex?: boolean;
+  ogImage?: string;
+  path?: string;
 }
 
-/**
- * Generate Next.js metadata for pages
- */
-export function generateMetadata(config: SEOConfig = {}): Metadata {
-  const title = config.title
-    ? `${config.title} | ${SITE_NAME}`
-    : SITE_NAME;
+export function generateMetadata(options: GenerateMetadataOptions): Metadata {
+  const { title, description, keywords = [], ogImage, path = '' } = options;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://digimontimestranger.com';
+  const url = `${baseUrl}${path}`;
 
-  const description = config.description || SITE_DESCRIPTION;
-  const url = config.url ? `${SITE_URL}${config.url}` : SITE_URL;
-  const image = config.image || `${SITE_URL}/logo.png`;
-
-  const metadata: Metadata = {
+  return {
     title,
     description,
-    keywords: config.keywords,
-    authors: [{ name: 'Digimon Time Stranger Guide Team' }],
-    creator: 'Digimon Time Stranger Guide',
-    publisher: 'Digimon Time Stranger Guide',
-    robots: config.noindex
-      ? 'noindex, nofollow'
-      : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+    keywords,
     openGraph: {
       title,
       description,
       url,
-      siteName: SITE_NAME,
-      images: [
-        {
-          url: image,
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
-      locale: 'en_US',
-      type: config.type || 'website',
-      ...(config.publishedTime && { publishedTime: config.publishedTime }),
-      ...(config.modifiedTime && { modifiedTime: config.modifiedTime }),
+      siteName: 'Digimon Time Stranger Guide',
+      type: 'website',
+      ...(ogImage && {
+        images: [
+          {
+            url: ogImage,
+            width: 1200,
+            height: 630,
+            alt: title,
+          },
+        ],
+      }),
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: [image],
-      creator: '@DigimonGuides',
-    },
-    alternates: {
-      canonical: url,
+      ...(ogImage && { images: [ogImage] }),
     },
   };
-
-  return metadata;
 }
 
-/**
- * Generate JSON-LD structured data for VideoGame schema
- */
-export function generateGameSchema() {
+export interface DigimonSEO {
+  slug: string;
+  name_en?: string;
+  name_ja?: string;
+  stage?: string;
+  stage_en?: string;
+  attribute?: string;
+  main_image?: string;
+  evolves_from?: string[];
+  evolves_to?: string[];
+}
+
+export function generateDigimonMetadata(digimon: DigimonSEO): Metadata {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://digimontimestranger.com';
+  const name = digimon.name_en || digimon.name_ja || digimon.slug;
+  const displayName = digimon.name_ja
+    ? `${digimon.name_en || digimon.slug} (${digimon.name_ja})`
+    : (digimon.name_en || digimon.slug);
+
+  const title = `${displayName} - Time Stranger Dex`;
+  const stage = digimon.stage_en || digimon.stage || 'Unknown';
+  const attribute = digimon.attribute || 'Unknown';
+
+  const evolutions = [];
+  if (digimon.evolves_from && digimon.evolves_from.length > 0) {
+    evolutions.push(`Evolves from ${digimon.evolves_from.slice(0, 3).join(', ')}`);
+  }
+  if (digimon.evolves_to && digimon.evolves_to.length > 0) {
+    evolutions.push(`Evolves to ${digimon.evolves_to.slice(0, 3).join(', ')}`);
+  }
+
+  const evolutionText = evolutions.length > 0 ? evolutions.join('. ') : 'No evolution data available';
+  const description = `${displayName} details, evolution paths and data. Stage: ${stage}, Attribute: ${attribute}. ${evolutionText}.`;
+
   return {
-    '@context': 'https://schema.org',
-    '@type': 'VideoGame',
-    name: 'Digimon Story: Time Stranger',
-    description: 'JRPG featuring Digimon collecting, evolution, and strategy battles',
-    genre: ['JRPG', 'Role-Playing Game', 'Monster Collecting'],
-    gamePlatform: ['PC', 'PlayStation', 'Nintendo Switch', 'Xbox'],
-    operatingSystem: 'Windows, PlayStation 5, Nintendo Switch, Xbox Series X|S',
-    applicationCategory: 'Game',
-    offers: {
-      '@type': 'Offer',
-      availability: 'https://schema.org/InStock',
-      price: '59.99',
-      priceCurrency: 'USD',
+    title,
+    description,
+    keywords: [name, digimon.name_en, digimon.name_ja, 'Digimon', 'Time Stranger', stage, attribute].filter(Boolean) as string[],
+    openGraph: {
+      title,
+      description,
+      type: 'article',
+      url: `${baseUrl}/dex/${digimon.slug}`,
+      siteName: 'Time Stranger Dex',
+      images: digimon.main_image ? [{
+        url: digimon.main_image,
+        width: 384,
+        height: 384,
+        alt: displayName,
+      }] : [],
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.6',
-      ratingCount: '2500',
-      bestRating: '5',
-      worstRating: '1',
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+      images: digimon.main_image ? [digimon.main_image] : [],
     },
   };
 }
 
-/**
- * Generate JSON-LD structured data for BreadcrumbList
- */
-export function generateBreadcrumbSchema(
-  items: { name: string; url: string }[]
-) {
+export function generateListMetadata(): Metadata {
+  return {
+    title: 'Time Stranger Digimon Dex - Complete Database',
+    description: 'Complete Digimon Time Stranger database with 840+ Digimon, detailed information, evolution paths, attributes and locations. Search, filter and plan evolution paths.',
+    keywords: ['Digimon', 'Time Stranger', 'Dex', 'Evolution', 'Database', 'Guide'],
+    openGraph: {
+      title: 'Time Stranger Digimon Dex',
+      description: '840+ Complete Digimon data, evolution paths, attribute search',
+      type: 'website',
+      siteName: 'Time Stranger Dex',
+    },
+  };
+}
+
+export function generateBreadcrumbSchema(items: Array<{ name: string; url: string }>) {
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -114,15 +125,12 @@ export function generateBreadcrumbSchema(
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `${SITE_URL}${item.url}`,
+      item: item.url,
     })),
   };
 }
 
-/**
- * Generate JSON-LD structured data for FAQPage
- */
-export function generateFAQSchema(faqs: { question: string; answer: string }[]) {
+export function generateFAQSchema(faqs: Array<{ question: string; answer: string }>) {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -137,70 +145,19 @@ export function generateFAQSchema(faqs: { question: string; answer: string }[]) 
   };
 }
 
-/**
- * Generate JSON-LD structured data for ItemList (Digidex)
- */
-export function generateItemListSchema(
-  items: { name: string; url: string; description?: string }[]
-) {
+export function generateItemListSchema(items: Array<{ name: string; url: string; image?: string }>) {
   return {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    numberOfItems: items.length,
     itemListElement: items.map((item, index) => ({
       '@type': 'ListItem',
       position: index + 1,
-      name: item.name,
-      url: `${SITE_URL}${item.url}`,
-      description: item.description,
+      item: {
+        '@type': 'Thing',
+        name: item.name,
+        url: item.url,
+        ...(item.image && { image: item.image }),
+      },
     })),
   };
-}
-
-/**
- * Generate JSON-LD structured data for Article (guides)
- */
-export function generateArticleSchema(article: {
-  title: string;
-  description: string;
-  image: string;
-  publishedDate: string;
-  modifiedDate?: string;
-  author?: string;
-}) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: article.title,
-    description: article.description,
-    image: `${SITE_URL}${article.image}`,
-    datePublished: article.publishedDate,
-    dateModified: article.modifiedDate || article.publishedDate,
-    author: {
-      '@type': 'Organization',
-      name: article.author || SITE_NAME,
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: SITE_NAME,
-      logo: {
-        '@type': 'ImageObject',
-        url: `${SITE_URL}/logo.png`,
-      },
-    },
-  };
-}
-
-/**
- * Get the site URL
- */
-export function getSiteUrl(): string {
-  return SITE_URL;
-}
-
-/**
- * Get the site name
- */
-export function getSiteName(): string {
-  return SITE_NAME;
 }

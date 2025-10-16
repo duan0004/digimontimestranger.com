@@ -1,0 +1,30 @@
+{
+  "slug": "motimon",
+  "name_en": "Motimon",
+  "name_ja": "モチモン",
+  "stage_en": "In-Training II",
+  "stage_ja": "幼年期2",
+  "attribute": "NO DATA",
+  "personality": "包容力",
+  "evolution_conditions": "エージェントランク1以上◆最大HP400以上",
+  "evolves_from": [
+    "バブモン"
+  ],
+  "evolves_to": [
+    "チューモン",
+    "テントモン",
+    "ワームモン",
+    "ゴツモン"
+  ],
+  "main_image": "https://img.game8.co/4291848/de7606ed5b6c08360256ae0a607c7de5.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555163",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298264",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Motimon",
+  "stage": "In-Training II"
+}

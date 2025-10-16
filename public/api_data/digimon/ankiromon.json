@@ -1,0 +1,28 @@
+{
+  "slug": "ankiromon",
+  "name_ja": "アンキロモン",
+  "stage_ja": "成熟期",
+  "attribute": "フリー",
+  "personality": "過保護",
+  "evolution_conditions": "エージェントランク3以上◆防御力450以上◆精神420以上",
+  "evolves_from": [
+    "ギザモン",
+    "ズバモン",
+    "アルマジモン"
+  ],
+  "evolves_to": [
+    "シャッコウモン",
+    "インセキモン",
+    "ブラキモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_174.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350236",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "アンキロモン",
+  "stage": "成熟期",
+  "name_en": "Ankiromon"
+}

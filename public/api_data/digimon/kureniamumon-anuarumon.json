@@ -1,0 +1,23 @@
+{
+  "slug": "kureniamumon-anuarumon",
+  "name_ja": "クレニアムモン+アンヴァルモン",
+  "stage_ja": "超究極体",
+  "attribute": "ワクチン",
+  "personality": "献身的所持特攻竜",
+  "evolution_conditions": "<<ジョグレス進化>>◆エージェントランク8以上◆クレニアモンの性格が献身的◆アンヴァルモンの性格が悪知恵",
+  "evolves_from": [
+    "クレニアムモン",
+    "アンヴァルモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_428.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355339",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "クレニアムモン+アンヴァルモン",
+  "stage": "超究極体",
+  "name_en": "Kureniamumon Anuarumon"
+}

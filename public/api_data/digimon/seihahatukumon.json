@@ -1,0 +1,29 @@
+{
+  "slug": "seihahatukumon",
+  "name_ja": "セイバーハックモン",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク5以上◆攻撃力1020以上◆精神890以上◆素早さ1060以上",
+  "evolves_from": [
+    "ストライクドラモン",
+    "ガオガモン",
+    "バオハックモン",
+    "ファイラモン"
+  ],
+  "evolves_to": [
+    "ガンクゥモン",
+    "タイガーヴェスパモン",
+    "ジエスモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_240.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354787",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "セイバーハックモン",
+  "stage": "完全体",
+  "name_en": "Seihahatukumon"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "gracenovamon",
+  "name_en": "GraceNovamon",
+  "stage_en": "Mega",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11835942/5b5c4c8dc48c5399465b23129e3ebc96.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555873",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "GraceNovamon",
+  "stage": "Mega",
+  "name_ja": "グレイスノヴァモン"
+}

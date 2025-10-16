@@ -1,0 +1,32 @@
+{
+  "slug": "breakdramon",
+  "name": "Breakdramon",
+  "name_en": "Breakdramon",
+  "name_ja": "ブレイクドラモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク1以上◆最大HP500以上◆精神160以上",
+  "evolves_from": [
+    "タネモン"
+  ],
+  "evolves_to": [
+    "サンフラウモン",
+    "トゲモン",
+    "リボルモン",
+    "ツチダルモン",
+    "トゥルイエモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833381/76cd219677c6a88ebee557eb67cf9e27.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555788",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "Mega"
+}

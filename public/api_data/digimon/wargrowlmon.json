@@ -1,0 +1,17 @@
+{
+  "slug": "wargrowlmon",
+  "name_en": "WarGrowlmon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296827/eaac6d5cc6f976630310e1a3b4503f6d.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555681",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "WarGrowlmon",
+  "stage": "Ultimate",
+  "name_ja": "ワーガルルモン(黒)"
+}

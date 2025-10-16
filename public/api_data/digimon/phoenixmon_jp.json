@@ -1,0 +1,32 @@
+{
+  "slug": "phoenixmon_jp",
+  "name": "ホエーモン",
+  "name_en": "Phoenixmon Jp",
+  "name_ja": "ホエーモン",
+  "stage_en": null,
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "戦略家所持特攻火",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1800以上◆知力990以上◆精神960以上",
+  "evolves_from": [
+    "イッカクモン",
+    "シードラモン",
+    "シェルモン"
+  ],
+  "evolves_to": [
+    "リヴァイアモン",
+    "ネプトゥーンモン",
+    "プレシオモン",
+    "マリンエンジェモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833411/9de164ad742f65f96d2f9a3ba0cdd0e5.webp/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354727",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "完全体"
+}

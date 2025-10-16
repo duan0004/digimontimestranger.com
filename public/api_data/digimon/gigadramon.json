@@ -1,0 +1,17 @@
+{
+  "slug": "gigadramon",
+  "name_en": "Gigadramon",
+  "stage_en": "Ultimate",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4296826/0719a0bba74ff3385bed84ee5871f7c7.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555660",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Gigadramon",
+  "stage": "Ultimate",
+  "name_ja": "ギガドラモン"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "rotuhumon",
+  "name_ja": "ロップモン",
+  "stage_ja": "成長期",
+  "attribute": "データ",
+  "personality": "戦略家",
+  "evolution_conditions": "エージェントランク1以上◆最大SP280以上◆防御力170以上",
+  "evolves_from": [
+    "ドリモン"
+  ],
+  "evolves_to": [
+    "グリズモン",
+    "ミノタルモン",
+    "レオモン",
+    "トゥルイエモン",
+    "ウェンディモン",
+    "ツチダルモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_59.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305245",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ロップモン",
+  "stage": "成長期",
+  "name_en": "Rotuhumon"
+}

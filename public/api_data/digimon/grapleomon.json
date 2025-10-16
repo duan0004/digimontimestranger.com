@@ -1,0 +1,33 @@
+{
+  "slug": "grapleomon",
+  "name": "GrapLeomon",
+  "name_en": "GrapLeomon",
+  "name_ja": "グラップレオモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク3以上◆攻撃力510以上",
+  "evolves_from": [
+    "ガオモン",
+    "ベアモン",
+    "ロップモン"
+  ],
+  "evolves_to": [
+    "フレアモン",
+    "グラップレオモン",
+    "パンジャモン",
+    "ローダーレオモン"
+  ],
+  "main_image": "https://img.game8.co/4296756/d5350f34594b5144dbec70b4b0f7b6ec.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555580",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Ultimate"
+}

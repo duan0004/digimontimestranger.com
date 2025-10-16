@@ -1,0 +1,27 @@
+{
+  "slug": "seraphimon",
+  "slug_ja": "serahuimon",
+  "name_en": "Seraphimon",
+  "name_ja": "セラフィモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "天啓所持特攻魔神",
+  "evolution_conditions": "エージェントランク7以上◆最大SP1380以上◆知力1990以上◆精神1730以上",
+  "evolves_from": [
+    "ホーリーエンジェモン",
+    "フレアモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://j-img.game8.co/11833406/70b57dbe3d1ee4a60488a496c057683e.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555727",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355048",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9,
+  "name": "Seraphimon",
+  "stage": "Mega"
+}

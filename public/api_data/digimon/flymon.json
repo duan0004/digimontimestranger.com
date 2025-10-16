@@ -1,0 +1,17 @@
+{
+  "slug": "flymon",
+  "name_en": "Flymon",
+  "stage_en": "Champion",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295822/db743304c44b396a9dff11de8b86b3f5.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555363",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Flymon",
+  "stage": "Champion",
+  "name_ja": "フライモン"
+}

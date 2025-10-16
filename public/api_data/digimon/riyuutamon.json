@@ -1,0 +1,28 @@
+{
+  "slug": "riyuutamon",
+  "name_ja": "リュウダモン",
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "熱血",
+  "evolution_conditions": "エージェントランク1以上◆最大HP520以上◆攻撃力250以上",
+  "evolves_from": [
+    "ツノモン"
+  ],
+  "evolves_to": [
+    "レッパモン",
+    "シーラモン",
+    "ギンリュウモン",
+    "グレイモン",
+    "モノクロモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_38.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298300",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "リュウダモン",
+  "stage": "成長期",
+  "name_en": "Ryudamon"
+}

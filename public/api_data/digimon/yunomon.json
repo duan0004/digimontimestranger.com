@@ -1,0 +1,25 @@
+{
+  "slug": "yunomon",
+  "name_ja": "ユノモン",
+  "stage_ja": "究極体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク7以上◆最大SP1100以上◆知力1370以上",
+  "evolves_from": [
+    "エンジェウーモン",
+    "シャッコウモン"
+  ],
+  "evolves_to": [
+    "ユノモンHM"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_410.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355288",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ユノモン",
+  "stage": "究極体",
+  "name_en": "Yunomon"
+}

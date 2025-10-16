@@ -1,0 +1,24 @@
+{
+  "slug": "huresiomon",
+  "name_ja": "プレシオモン",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "蛮勇所持特攻人",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2680以上◆知力1830以上◆精神1660以上",
+  "evolves_from": [
+    "ホエーモン",
+    "ズドモン",
+    "ハンギョモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_361.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355144",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "プレシオモン",
+  "stage": "究極体",
+  "name_en": "Huresiomon"
+}

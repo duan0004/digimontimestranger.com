@@ -1,0 +1,32 @@
+{
+  "slug": "deramon",
+  "slug_ja": "teramon",
+  "name_en": "Deramon",
+  "name_ja": "デラモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "データ",
+  "personality": "戦略家所持特攻虫",
+  "evolution_conditions": "エージェントランク5以上◆最大HP1700以上◆最大SP650以上",
+  "evolves_from": [
+    "サンフラウモン",
+    "キウイモン",
+    "ツチダルモン"
+  ],
+  "evolves_to": [
+    "ヴァロドゥルモン",
+    "ケレスモン",
+    "プラチナヌメモン"
+  ],
+  "main_image": "https://img.game8.co/4296750/88ff2e227bbf667b9f43c1aa02881c12.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555624",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354802",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Deramon",
+  "stage": "Ultimate"
+}

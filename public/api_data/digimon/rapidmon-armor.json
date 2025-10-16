@@ -1,0 +1,17 @@
+{
+  "slug": "rapidmon-armor",
+  "name_en": "Rapidmon (Armor)",
+  "stage_en": "Armor",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11833323/799f024e48019467102973b4913c5d39.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555866",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Rapidmon (Armor)",
+  "stage": "Armor",
+  "name_ja": "ラピッドモン（アーマー体）"
+}

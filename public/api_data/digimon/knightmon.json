@@ -1,0 +1,33 @@
+{
+  "slug": "knightmon",
+  "name": "Knightmon",
+  "name_en": "Knightmon",
+  "name_ja": "ナイトモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "日和見",
+  "evolution_conditions": "エージェントランク1以上◆攻撃力150以上◆防御力160以上",
+  "evolves_from": [
+    "プカモン"
+  ],
+  "evolves_to": [
+    "ガワッパモン",
+    "オクタモン",
+    "シェルモン",
+    "レアモン",
+    "スナイモン",
+    "シーラモン"
+  ],
+  "main_image": "https://img.game8.co/4296791/9df0e28c0de3506e0743c63decd0ae5d.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555627",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "Ultimate"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "takomon",
+  "name_ja": "ダゴモン",
+  "stage_ja": "完全体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大SP820以上◆知力930以上◆精神940以上",
+  "evolves_from": [
+    "オクタモン",
+    "レアモン",
+    "クリサリモン"
+  ],
+  "evolves_to": [
+    "ウルカヌスモン",
+    "イーバモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_282.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354913",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ダゴモン",
+  "stage": "完全体",
+  "name_en": "Dragomon"
+}

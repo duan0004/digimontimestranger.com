@@ -1,0 +1,17 @@
+{
+  "slug": "guardromon",
+  "name_en": "Guardromon",
+  "stage_en": "Champion",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295834/beba66ff1de8e905582b3f696ecbd936.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555344",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Guardromon",
+  "stage": "Champion",
+  "name_ja": "ガードロモン"
+}

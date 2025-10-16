@@ -1,0 +1,25 @@
+{
+  "slug": "omekamonsuwaruto",
+  "name_ja": "オメガモンズワルト",
+  "stage_ja": "超究極体",
+  "attribute": "ワクチン",
+  "personality": "気さく所持特攻竜獣",
+  "evolution_conditions": "<<ジョグレス進化>>◆エージェントランク8以上◆ブラックウォーグレイモンの性格が蛮勇◆メタルガルルモン(黒)の性格が気さく◆orオメガモンをモードチェンジ",
+  "evolves_from": [
+    "ブラックウォーグレイモン",
+    "メタルガルルモン(黒)"
+  ],
+  "evolves_to": [
+    "オメガモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_431.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355348",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "オメガモンズワルト",
+  "stage": "超究極体",
+  "name_en": "Omekamonsuwaruto"
+}

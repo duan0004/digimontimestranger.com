@@ -1,0 +1,24 @@
+{
+  "slug": "hahumon",
+  "name_ja": "バブモン",
+  "stage_ja": "幼年期1",
+  "attribute": "NO DATA",
+  "personality": "包容力",
+  "evolution_conditions": "なし",
+  "evolves_from": [],
+  "evolves_to": [
+    "モチモン",
+    "ピョコモン",
+    "タネモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_4.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305194",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "バブモン",
+  "stage": "幼年期1",
+  "name_en": "Hahumon"
+}

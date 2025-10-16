@@ -1,0 +1,31 @@
+{
+  "slug": "renamon",
+  "name_en": "Renamon",
+  "name_ja": "レナモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "データ",
+  "personality": "天啓",
+  "evolution_conditions": "エージェントランク1以上◆最大SP380以上◆知力230以上",
+  "evolves_from": [
+    "ワニャモン"
+  ],
+  "evolves_to": [
+    "レキスモン",
+    "サンフラウモン",
+    "レッパモン",
+    "キュウビモン",
+    "ガルルモン(黒)"
+  ],
+  "main_image": "https://img.game8.co/4294402/d5af86231ca28ade44fc84d6bbc36619.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555123",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298333",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Renamon",
+  "stage": "Rookie"
+}

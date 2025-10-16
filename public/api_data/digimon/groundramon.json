@@ -1,0 +1,33 @@
+{
+  "slug": "groundramon",
+  "name": "Groundramon",
+  "name_en": "Groundramon",
+  "name_ja": "グラウンドラモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "天啓",
+  "evolution_conditions": "エージェントランク1以上◆精神240以上",
+  "evolves_from": [
+    "ニャロモン"
+  ],
+  "evolves_to": [
+    "レキスモン",
+    "ガルルモン",
+    "ユキダルモン",
+    "ヒョーガモン",
+    "ソーサリモン",
+    "アイスモン"
+  ],
+  "main_image": "https://img.game8.co/4296762/df962196ea8406fdeb5324d14a1a10ec.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555662",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "Ultimate"
+}

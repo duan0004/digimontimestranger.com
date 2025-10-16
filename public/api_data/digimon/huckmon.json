@@ -1,0 +1,32 @@
+{
+  "slug": "huckmon",
+  "slug_ja": "hukamon",
+  "name_en": "Huckmon",
+  "name_ja": "フーガモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成熟期",
+  "attribute": "Data",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大SP380以上◆攻撃力640以上",
+  "evolves_from": [
+    "シャーマモン",
+    "ムーチョモン",
+    "ガブモン(黒)"
+  ],
+  "evolves_to": [
+    "ボルケーモン",
+    "スカルサタモン",
+    "ガルダモン"
+  ],
+  "main_image": "https://img.game8.co/4294398/a790c85c33835813693a53bd2486200a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555130",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350203",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8571428571428571,
+  "name": "Huckmon",
+  "stage": "Rookie"
+}

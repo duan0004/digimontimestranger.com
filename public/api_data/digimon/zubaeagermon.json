@@ -1,0 +1,17 @@
+{
+  "slug": "zubaeagermon",
+  "name_en": "ZubaEagermon",
+  "stage_en": "Champion",
+  "attribute": "Vaccine",
+  "main_image": "https://img.game8.co/4295766/d5175778405fdaeab0d8853a1ef9ddbb.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555233",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ZubaEagermon",
+  "stage": "Champion",
+  "name_ja": "ズバイガーモン"
+}

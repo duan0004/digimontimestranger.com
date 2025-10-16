@@ -1,0 +1,30 @@
+{
+  "slug": "centarumon",
+  "slug_ja": "kentarumon",
+  "name_en": "Centarumon",
+  "name_ja": "ケンタルモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "気さく",
+  "evolution_conditions": "エージェントランク3以上◆攻撃力550以上◆素早さ330以上",
+  "evolves_from": [
+    "パタモンコクワモン"
+  ],
+  "evolves_to": [
+    "アンドロモン",
+    "ナノモン",
+    "ラピッドモン"
+  ],
+  "main_image": "https://img.game8.co/4295860/7afd0f7ae2ec9397b3f8a138b43adff9.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555321",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350107",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9,
+  "name": "Centarumon",
+  "stage": "Champion"
+}

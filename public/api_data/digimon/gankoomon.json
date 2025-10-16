@@ -1,0 +1,32 @@
+{
+  "slug": "gankoomon",
+  "name": "Gankoomon",
+  "name_en": "Gankoomon",
+  "name_ja": "ガンクゥモン",
+  "stage_en": "Mega",
+  "stage_ja": null,
+  "attribute": "ワクチン",
+  "personality": "献身的所持特攻機械",
+  "evolution_conditions": "エージェントランク5以上◆防御力810以上◆精神1040以上",
+  "evolves_from": [
+    "ガードロモン",
+    "ケンタルモン",
+    "クロックモン"
+  ],
+  "evolves_to": [
+    "ハイアンドロモン",
+    "ボルトモン",
+    "クレニアムモン"
+  ],
+  "main_image": "https://j-img.game8.co/11833405/dbaf48531668930fef4b31fd500ffa5e.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555783",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.78)",
+  "stage": "Mega"
+}

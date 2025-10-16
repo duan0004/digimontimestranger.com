@@ -1,0 +1,28 @@
+{
+  "slug": "shoutmon",
+  "slug_ja": "horutomon",
+  "name_en": "Shoutmon",
+  "name_ja": "ボルトモン",
+  "stage_en": "Rookie",
+  "stage_ja": "究極体",
+  "attribute": "データ",
+  "personality": "熱血所持特攻硬体",
+  "evolution_conditions": "エージェントランク7以上◆最大HP2380以上◆攻撃力1570以上◆防御力2010以上",
+  "evolves_from": [
+    "アンドロモン",
+    "デスメラモン",
+    "インセキモン"
+  ],
+  "evolves_to": [],
+  "main_image": "https://img.game8.co/4294394/244d5f02bdc689e6f684f015ce07218c.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555184",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355147",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Shoutmon",
+  "stage": "Rookie"
+}

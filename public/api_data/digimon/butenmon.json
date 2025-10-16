@@ -1,0 +1,33 @@
+{
+  "slug": "butenmon",
+  "slug_ja": "hutenmon",
+  "name_en": "Butenmon",
+  "name_ja": "ブテンモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "蛮勇所持特攻戦士",
+  "evolution_conditions": "エージェントランク5以上◆精神960以上◆素早さ1040以上",
+  "evolves_from": [
+    "ギンリュウモン",
+    "ムシャモン",
+    "ブライモン"
+  ],
+  "evolves_to": [
+    "クロノモンHM",
+    "クロノモンDM",
+    "グリフォモン",
+    "ガイオウモン"
+  ],
+  "main_image": "https://img.game8.co/4296789/9c211dc6a5f3e638882b7570c3afdd39.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555595",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354721",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.875,
+  "name": "Butenmon",
+  "stage": "Ultimate"
+}

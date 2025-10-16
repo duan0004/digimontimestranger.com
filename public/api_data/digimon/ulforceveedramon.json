@@ -1,0 +1,17 @@
+{
+  "slug": "ulforceveedramon",
+  "name_en": "UlforceVeedramon",
+  "stage_en": "Mega",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11833426/68ee2e3c09ba6d4f65d8234d88d0c863.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555743",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "UlforceVeedramon",
+  "stage": "Mega",
+  "name_ja": "アルフォースブイドラモン"
+}

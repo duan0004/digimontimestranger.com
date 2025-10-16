@@ -1,0 +1,25 @@
+{
+  "slug": "keruheromonjm",
+  "name_ja": "ケルベロモンJM",
+  "stage_ja": "完全体",
+  "attribute": "ワクチン",
+  "personality": "社交的所持特攻獣",
+  "evolution_conditions": "ケルベロモンをモードチェンジする",
+  "evolves_from": [],
+  "evolves_to": [
+    "プルートモン",
+    "ケルベロモン",
+    "プルートモン",
+    "メタルガルルモン(黒)"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_209.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354694",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ケルベロモンJM",
+  "stage": "完全体",
+  "name_en": "Keruheromonjm"
+}

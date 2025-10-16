@@ -1,0 +1,32 @@
+{
+  "slug": "hyogamon",
+  "slug_ja": "hiyokamon",
+  "name_en": "Hyogamon",
+  "name_ja": "ヒョーガモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆最大HP1010以上◆攻撃力380以上",
+  "evolves_from": [
+    "ルナモン",
+    "ゴマモン",
+    "スノーゴブリモン"
+  ],
+  "evolves_to": [
+    "ズドモン",
+    "ファントモン",
+    "パンジャモン"
+  ],
+  "main_image": "https://img.game8.co/4295829/03cd7554681fbbb9f86971581413ae24.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555361",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298462",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Hyogamon",
+  "stage": "Champion"
+}

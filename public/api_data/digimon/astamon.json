@@ -1,0 +1,32 @@
+{
+  "slug": "astamon",
+  "slug_ja": "asutamon",
+  "name_en": "Astamon",
+  "name_ja": "アスタモン",
+  "stage_en": "Ultimate",
+  "stage_ja": "完全体",
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆攻撃力1070以上◆知力1030◆精神940以上",
+  "evolves_from": [
+    "サングルゥモン",
+    "デビモン"
+  ],
+  "evolves_to": [
+    "ベルゼブモン",
+    "プルートモン",
+    "ベルフェモンSM",
+    "ヴェノムヴァンデモン"
+  ],
+  "main_image": "https://img.game8.co/4296779/60481caeddc26554fb1e6249146e750c.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555653",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354862",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9333333333333333,
+  "name": "Astamon",
+  "stage": "Ultimate"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "kahemon",
+  "name_ja": "ガーべモン",
+  "stage_ja": "完全体",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大HP1880以上◆最大SP1020以上",
+  "evolves_from": [
+    "スカモン",
+    "ベジーモン",
+    "ツチダルモン"
+  ],
+  "evolves_to": [
+    "ジャンボガメモン",
+    "メタルエテモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_271.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79354880",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ガーべモン",
+  "stage": "完全体",
+  "name_en": "Kahemon"
+}

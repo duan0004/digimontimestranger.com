@@ -1,0 +1,28 @@
+{
+  "slug": "pandamon",
+  "name": "Pandamon",
+  "name_en": "Pandamon",
+  "name_ja": "パンダモン",
+  "stage_en": "Ultimate",
+  "stage_ja": null,
+  "attribute": "ヴァリアブル",
+  "personality": "天啓",
+  "evolution_conditions": "エージェントランク3以上◆最大SP1580以上◆知力1130以上",
+  "evolves_from": [
+    "ギザモン"
+  ],
+  "evolves_to": [
+    "カルマーラモン"
+  ],
+  "main_image": "https://img.game8.co/4296766/6b08b9404f0e0186c3fbbbee83f0a3e6.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555629",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Ultimate"
+}

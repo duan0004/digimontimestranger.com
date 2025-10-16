@@ -1,0 +1,33 @@
+{
+  "slug": "gatomon",
+  "name": "Gatomon",
+  "name_en": "Gatomon",
+  "name_ja": "オーガモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "データ",
+  "personality": "熱血所持特攻騎士",
+  "evolution_conditions": "エージェントランク5以上◆防御力1040以上◆精神950以上",
+  "evolves_from": [
+    "クロックモン",
+    "ディノヒューモン",
+    "ズバイガーモン"
+  ],
+  "evolves_to": [
+    "ザンバモン",
+    "スラッシュエンジェモン",
+    "ロードナイトモン",
+    "ドゥフトモン"
+  ],
+  "main_image": "https://img.game8.co/4295757/5bf806ba4d04eb9b92a65807af746b1f.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555235",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Champion"
+}

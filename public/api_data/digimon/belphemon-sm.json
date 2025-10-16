@@ -1,0 +1,17 @@
+{
+  "slug": "belphemon-sm",
+  "name_en": "Belphemon SM",
+  "stage_en": "Mega",
+  "attribute": "Virus",
+  "main_image": "https://j-img.game8.co/11833336/65a4e7e8d95ccd7c38d58b8824422c2d.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555846",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Belphemon SM",
+  "stage": "Mega",
+  "name_ja": "ベルフェモンSM"
+}

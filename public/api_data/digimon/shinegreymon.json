@@ -1,0 +1,17 @@
+{
+  "slug": "shinegreymon",
+  "name_en": "ShineGreymon",
+  "stage_en": "Mega",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11833416/a35d155e56848838763f3c6b9bb1aeb5.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555756",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ShineGreymon",
+  "stage": "Mega",
+  "name_ja": "シャイングレイモン"
+}

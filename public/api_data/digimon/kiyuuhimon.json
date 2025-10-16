@@ -1,0 +1,29 @@
+{
+  "slug": "kiyuuhimon",
+  "name_ja": "キュウビモン",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "天啓",
+  "evolution_conditions": "エージェントランク3以上◆知力730以上",
+  "evolves_from": [
+    "ガブモン",
+    "バクモン",
+    "レナモン"
+  ],
+  "evolves_to": [
+    "ブルーメラモン",
+    "ケルベロモン",
+    "タオモン",
+    "アンヴァルモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_117.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298426",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "キュウビモン",
+  "stage": "成熟期",
+  "name_en": "Kyubimon"
+}

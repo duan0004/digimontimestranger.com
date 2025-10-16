@@ -1,0 +1,31 @@
+{
+  "slug": "sorcermon_jp",
+  "name": "ゴーレモン",
+  "name_en": "Sorcermon Jp",
+  "name_ja": "ゴーレモン",
+  "stage_en": null,
+  "stage_ja": "成熟期",
+  "attribute": "Vaccine",
+  "personality": null,
+  "evolution_conditions": "エージェントランク3以上◆防御力480以上",
+  "evolves_from": [
+    "ゴブリモン",
+    "ゴツモン",
+    "アルマジモン"
+  ],
+  "evolves_to": [
+    "ボルケーモン",
+    "マンモン",
+    "インセキモン"
+  ],
+  "main_image": "https://img.game8.co/4295754/77befc6b3a014ea255391cc49ae83116.png/show",
+  "detail_url_en": null,
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350179",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.75)",
+  "stage": "成熟期"
+}

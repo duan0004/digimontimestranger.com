@@ -1,0 +1,31 @@
+{
+  "slug": "tanemon",
+  "name_en": "Tanemon",
+  "name_ja": "タネモン",
+  "stage_en": "In-Training II",
+  "stage_ja": "幼年期2",
+  "attribute": "NO DATA",
+  "personality": "社交的",
+  "evolution_conditions": "エージェントランク1以上◆最大HP370以上◆知力140以上",
+  "evolves_from": [
+    "バブモン"
+  ],
+  "evolves_to": [
+    "ファンビーモン",
+    "ララモン",
+    "パルモン",
+    "マッシュモン",
+    "フローラモン"
+  ],
+  "main_image": "https://img.game8.co/4294377/8d5d71da8725591b5ec59cd8fd20242a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555172",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305200",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "exact",
+  "confidence": 1.0,
+  "name": "Tanemon",
+  "stage": "In-Training II"
+}

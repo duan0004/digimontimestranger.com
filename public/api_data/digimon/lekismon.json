@@ -1,0 +1,32 @@
+{
+  "slug": "lekismon",
+  "slug_ja": "rekisumon",
+  "name_en": "Lekismon",
+  "name_ja": "レキスモン",
+  "stage_en": "Champion",
+  "stage_ja": "成熟期",
+  "attribute": "データ",
+  "personality": "天啓所持特攻獣",
+  "evolution_conditions": "エージェントランク3以上◆最大SP470以上◆素早さ640以上",
+  "evolves_from": [
+    "ルナモン",
+    "レナモン",
+    "テリアモン"
+  ],
+  "evolves_to": [
+    "クレシェモン",
+    "ワーガルルモン",
+    "グラップレオモン"
+  ],
+  "main_image": "https://img.game8.co/4295802/9c35311d2c5292887b58b83e83079681.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555339",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350155",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8235294117647058,
+  "name": "Lekismon",
+  "stage": "Champion"
+}

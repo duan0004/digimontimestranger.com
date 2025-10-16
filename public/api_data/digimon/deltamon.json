@@ -1,0 +1,31 @@
+{
+  "slug": "deltamon",
+  "name": "Deltamon",
+  "name_en": "Deltamon",
+  "name_ja": "デルタモン",
+  "stage_en": "Champion",
+  "stage_ja": null,
+  "attribute": "Virus",
+  "personality": null,
+  "evolution_conditions": "エージェントランク5以上◆最大SP580以上◆知力860以上◆精神700以上",
+  "evolves_from": [
+    "ゴールドヌメモン",
+    "ベジーモン",
+    "プラチナスカモン"
+  ],
+  "evolves_to": [
+    "イーバモン",
+    "アヴェンジキッドモン"
+  ],
+  "main_image": "https://img.game8.co/4295848/82fda292e2b18d6cabd1bdf946f1eed5.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555357",
+  "detail_url_ja": null,
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "split_from_fuzzy",
+  "confidence": 1.0,
+  "split_reason": "置信度过低 (0.80)",
+  "stage": "Champion"
+}

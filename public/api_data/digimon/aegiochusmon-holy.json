@@ -1,0 +1,17 @@
+{
+  "slug": "aegiochusmon-holy",
+  "name_en": "Aegiochusmon Holy",
+  "stage_en": "Ultimate",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11831595/4e428d7cce0cf3e4dcac2a05c0a618ae.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555719",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Aegiochusmon Holy",
+  "stage": "Ultimate",
+  "name_ja": "アイギオテュースモン：ホーリー"
+}

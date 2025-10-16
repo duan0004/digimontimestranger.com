@@ -1,0 +1,30 @@
+{
+  "slug": "ouryumon",
+  "slug_ja": "ouriyuumon",
+  "name_en": "Ouryumon",
+  "name_ja": "オウリュウモン",
+  "stage_en": "Mega",
+  "stage_ja": "究極体",
+  "attribute": "ワクチン",
+  "personality": "熱血所持特攻竜軟体",
+  "evolution_conditions": "エージェントランク7以上◆最大HP1850以上◆攻撃力2150以上◆防御力1860以上",
+  "evolves_from": [
+    "メガシードラモン",
+    "ヒシャリュウモン",
+    "ブラキモン"
+  ],
+  "evolves_to": [
+    "アルファモン王竜剣"
+  ],
+  "main_image": "https://j-img.game8.co/11833420/983df0a346cac5b94a6209a0fb8604ad.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555747",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79355006",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.8888888888888888,
+  "name": "Ouryumon",
+  "stage": "Mega"
+}

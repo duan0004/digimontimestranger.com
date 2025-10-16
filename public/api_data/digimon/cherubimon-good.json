@@ -1,0 +1,17 @@
+{
+  "slug": "cherubimon-good",
+  "name_en": "Cherubimon (Good)",
+  "stage_en": "Mega",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11833362/7cfa02d06772ac20f26f6b20ba1d1f37.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555754",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Cherubimon (Good)",
+  "stage": "Mega",
+  "name_ja": "ケルビモン(悪)"
+}

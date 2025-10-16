@@ -1,0 +1,17 @@
+{
+  "slug": "cyclonemon",
+  "name_en": "Cyclonemon",
+  "stage_en": "Champion",
+  "attribute": "Virus",
+  "main_image": "https://img.game8.co/4295833/8b05fd095f18ae8fb31baf32eb7dd68a.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555142",
+  "sources": [
+    "game8_en",
+    "manual_override"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Cyclonemon",
+  "stage": "Champion",
+  "name_ja": "サイクロモン"
+}

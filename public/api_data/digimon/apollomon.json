@@ -1,0 +1,17 @@
+{
+  "slug": "apollomon",
+  "name_en": "Apollomon",
+  "stage_en": "Mega",
+  "attribute": "Vaccine",
+  "main_image": "https://j-img.game8.co/11833422/520a02afc00fc87f0e38f80a3e72e1c4.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555750",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Apollomon",
+  "stage": "Mega",
+  "name_ja": "アポロモン"
+}

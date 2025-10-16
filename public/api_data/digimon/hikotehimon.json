@@ -1,0 +1,28 @@
+{
+  "slug": "hikotehimon",
+  "name_ja": "ピコデビモン",
+  "stage_ja": "成長期",
+  "attribute": null,
+  "personality": null,
+  "evolution_conditions": "エージェントランク1以上◆攻撃力230以上◆知力350以上",
+  "evolves_from": [
+    "パグモン"
+  ],
+  "evolves_to": [
+    "バケモン",
+    "アイスデビモン",
+    "デビモン",
+    "オーガモン",
+    "グレイモン(青)"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_72.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79298363",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ピコデビモン",
+  "stage": "成長期",
+  "name_en": "Hikotehimon"
+}

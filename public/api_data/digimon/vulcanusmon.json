@@ -1,0 +1,17 @@
+{
+  "slug": "vulcanusmon",
+  "name_en": "Vulcanusmon",
+  "stage_en": "Mega",
+  "attribute": "Data",
+  "main_image": "https://j-img.game8.co/11833391/52987b81014d8413e9700a09791bc0af.webp/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555784",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "Vulcanusmon",
+  "stage": "Mega",
+  "name_ja": "ウルカヌスモン"
+}

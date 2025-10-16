@@ -1,0 +1,31 @@
+{
+  "slug": "hyokomon",
+  "slug_ja": "hiyokomon",
+  "name_en": "Hyokomon",
+  "name_ja": "ヒョコモン",
+  "stage_en": "Rookie",
+  "stage_ja": "成長期",
+  "attribute": "ワクチン",
+  "personality": "蛮勇",
+  "evolution_conditions": "エージェントランク1以上◆攻撃力200以上◆素早さ170以上",
+  "evolves_from": [
+    "ピョコモン"
+  ],
+  "evolves_to": [
+    "ペックモン",
+    "バードラモン",
+    "ディノヒューモン",
+    "ブライモン"
+  ],
+  "main_image": "https://img.game8.co/4294386/b00e746f72506947e715ffe24c2fdd5d.png/show",
+  "detail_url_en": "https://game8.co/games/Digimon-Story-Time-Stranger/archives/555200",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79305215",
+  "sources": [
+    "game8_en",
+    "appmedia_jp"
+  ],
+  "match_type": "fuzzy",
+  "confidence": 0.9411764705882353,
+  "name": "Hyokomon",
+  "stage": "Rookie"
+}

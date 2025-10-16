@@ -1,0 +1,29 @@
+{
+  "slug": "suhaikamon",
+  "name_ja": "ズバイガーモン",
+  "stage_ja": "成熟期",
+  "attribute": "ワクチン",
+  "personality": "熱血所持特攻人",
+  "evolution_conditions": "エージェントランク3以上◆攻撃力530以上",
+  "evolves_from": [
+    "ギザモン",
+    "シャウトモン",
+    "ズバモン"
+  ],
+  "evolves_to": [
+    "グレイドモン",
+    "メガログラウモン",
+    "デュラモン",
+    "ナイトモン"
+  ],
+  "main_image": "https://appmedia.jp/wp-content/themes/appmedia/lib/digimon_ts/img/タイムストレンジャー_図鑑_95.webp",
+  "detail_url_ja": "https://appmedia.jp/digimon_ts/79350062",
+  "sources": [
+    "appmedia_jp"
+  ],
+  "match_type": "single_source",
+  "confidence": 0.7,
+  "name": "ズバイガーモン",
+  "stage": "成熟期",
+  "name_en": "Suhaikamon"
+}
