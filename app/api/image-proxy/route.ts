@@ -90,7 +90,7 @@ export async function GET(req: NextRequest) {
       resHeaders.set('Content-Type', cached.meta.contentType || 'image/webp');
       resHeaders.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400');
       resHeaders.set('ETag', cached.etag);
-      return new NextResponse(cached.buf, { status: 200, headers: resHeaders });
+      return new NextResponse(new Uint8Array(cached.buf), { status: 200, headers: resHeaders });
     }
 
     // Fetch upstream
@@ -120,7 +120,7 @@ export async function GET(req: NextRequest) {
       resHeaders.set('Content-Type', contentType);
       resHeaders.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400');
       resHeaders.set('ETag', etag);
-      return new NextResponse(upstreamBuf, { status: 200, headers: resHeaders });
+      return new NextResponse(new Uint8Array(upstreamBuf), { status: 200, headers: resHeaders });
     }
 
     // Upstream failed: serve stale cache if available
@@ -130,7 +130,7 @@ export async function GET(req: NextRequest) {
       resHeaders.set('Cache-Control', 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400');
       resHeaders.set('ETag', cached.etag);
       resHeaders.set('Warning', '110 - "Response is Stale"');
-      return new NextResponse(cached.buf, { status: 200, headers: resHeaders });
+      return new NextResponse(new Uint8Array(cached.buf), { status: 200, headers: resHeaders });
     }
 
     return NextResponse.json({ error: 'Upstream failed' }, { status: 502 });

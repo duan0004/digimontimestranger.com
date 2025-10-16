@@ -2,14 +2,16 @@ import { Metadata } from 'next';
 
 export interface GenerateMetadataOptions {
   title: string;
-  description: string;
+  description?: string;
   keywords?: string[];
   ogImage?: string;
   path?: string;
+  url?: string;
+  noindex?: boolean;
 }
 
 export function generateMetadata(options: GenerateMetadataOptions): Metadata {
-  const { title, description, keywords = [], ogImage, path = '' } = options;
+  const { title, description = '', keywords = [], ogImage, path = '', noindex = false } = options;
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://digimontimestranger.com';
   const url = `${baseUrl}${path}`;
 
@@ -17,6 +19,7 @@ export function generateMetadata(options: GenerateMetadataOptions): Metadata {
     title,
     description,
     keywords,
+    ...(noindex && { robots: { index: false, follow: false } }),
     openGraph: {
       title,
       description,
