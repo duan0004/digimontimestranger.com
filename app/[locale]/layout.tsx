@@ -8,6 +8,7 @@ import { generateMetadata as genMeta } from '@/lib/seo';
 import GoogleAnalytics from '@/components/analytics/GoogleAnalytics';
 import GoogleAdsense from '@/components/ads/GoogleAdsense';
 import { locales, type Locale } from '@/i18n';
+import { FavoritesProvider } from '@/contexts/FavoritesContext';
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
@@ -51,35 +52,37 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 
   return (
     <NextIntlClientProvider messages={messages}>
-      <div className="flex flex-col min-h-screen">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'WebSite',
-              name: 'Digimon Time Stranger Guide',
-              description:
-                'Complete strategies and database for Digimon Story: Time Stranger',
-              url: 'https://digimontimestranger.com',
-              potentialAction: {
-                '@type': 'SearchAction',
-                target: {
-                  '@type': 'EntryPoint',
-                  urlTemplate:
-                    'https://digimontimestranger.com/search?q={search_term_string}',
+      <FavoritesProvider>
+        <div className="flex flex-col min-h-screen">
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'WebSite',
+                name: 'Digimon Time Stranger Guide',
+                description:
+                  'Complete strategies and database for Digimon Story: Time Stranger',
+                url: 'https://digimontimestranger.com',
+                potentialAction: {
+                  '@type': 'SearchAction',
+                  target: {
+                    '@type': 'EntryPoint',
+                    urlTemplate:
+                      'https://digimontimestranger.com/search?q={search_term_string}',
+                  },
+                  'query-input': 'required name=search_term_string',
                 },
-                'query-input': 'required name=search_term_string',
-              },
-            }),
-          }}
-        />
-        <GoogleAnalytics />
-        <GoogleAdsense />
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
-      </div>
+              }),
+            }}
+          />
+          <GoogleAnalytics />
+          <GoogleAdsense />
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </div>
+      </FavoritesProvider>
     </NextIntlClientProvider>
   );
 }

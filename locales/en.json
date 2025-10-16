@@ -7,7 +7,20 @@
     "loading": "Loading...",
     "error": "An error occurred",
     "notFound": "Not Found",
-    "backToHome": "Back to Home"
+    "backToHome": "Back to Home",
+    "total": "Total",
+    "digimon": "Digimon",
+    "stage": "Stage",
+    "attribute": "Attribute",
+    "currentFilters": "Current Filters",
+    "clearFilters": "Clear All",
+    "found": "Found",
+    "results": "results",
+    "noResults": "No results found",
+    "tryOtherKeywords": "Try different search terms or filters",
+    "searchPlaceholder": "Search Digimon...",
+    "searchHistory": "Search History",
+    "clear": "Clear"
   },
   "nav": {
     "home": "Home",
@@ -22,7 +35,10 @@
     "community": "Community",
     "about": "About",
     "siteTitle": "Digimon Time Stranger",
-    "siteSubtitle": "Complete Strategy Guide"
+    "siteSubtitle": "Complete Strategy Guide",
+    "favorites": "My Favorites",
+    "compare": "Compare",
+    "pathPlanner": "Path Planner"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
@@ -921,5 +937,33 @@
       "title": "Guides & Strategies | Digimon Story Time Stranger",
       "description": "Expert guides, strategies, and tips for Digimon Story: Time Stranger. Evolution guides, team building, and advanced tactics."
     }
+  },
+  "dex": {
+    "title": "Complete Dex Database"
+  },
+  "stages": {
+    "all": "All Stages",
+    "inTrainingI": "In-Training I",
+    "inTrainingII": "In-Training II",
+    "rookie": "Rookie",
+    "champion": "Champion",
+    "ultimate": "Ultimate",
+    "mega": "Mega",
+    "megaPlus": "Mega+",
+    "armor": "Armor",
+    "hybrid": "Hybrid"
+  },
+  "attributes": {
+    "all": "All Attributes",
+    "vaccine": "Vaccine",
+    "data": "Data",
+    "virus": "Virus",
+    "free": "Free",
+    "variable": "Variable"
+  },
+  "filterLabels": {
+    "search": "Search",
+    "stage": "Stage",
+    "attribute": "Attribute"
   }
 }
