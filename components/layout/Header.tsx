@@ -52,10 +52,10 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-16 items-center justify-between gap-4">
           {/* Logo */}
-          <div className="flex items-center">
-            <Link href={getLocalizedHref('/')} className="flex items-center space-x-3">
+          <div className="flex items-center flex-shrink-0 min-w-0">
+            <Link href={getLocalizedHref('/')} className="flex items-center space-x-2">
               <div className="relative w-10 h-10 flex-shrink-0">
                 <Image
                   src="/logo.png"
@@ -66,11 +66,11 @@ export default function Header() {
                   priority
                 />
               </div>
-              <div className="hidden sm:block">
-                <div className="text-lg font-bold gradient-text">
+              <div className="hidden lg:block">
+                <div className="text-base font-bold gradient-text whitespace-nowrap">
                   {t('siteTitle')}
                 </div>
-                <div className="text-xs text-gray-500 dark:text-gray-400">
+                <div className="text-[10px] text-gray-500 dark:text-gray-400 whitespace-nowrap">
                   {t('siteSubtitle')}
                 </div>
               </div>
@@ -78,16 +78,16 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex md:items-center md:space-x-1">
+          <div className="hidden xl:flex xl:items-center xl:space-x-0.5 flex-1 justify-center">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={getLocalizedHref(item.href)}
-                className="relative px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors"
+                className="relative px-2 py-2 text-xs font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors whitespace-nowrap"
               >
                 {item.name}
                 {item.isNew && (
-                  <span className="absolute -top-1 -right-1 px-1.5 py-0.5 text-[10px] font-bold text-white bg-gradient-to-r from-red-500 to-pink-500 rounded-full animate-pulse">
+                  <span className="absolute -top-0.5 -right-0.5 px-1 py-0.5 text-[8px] font-bold text-white bg-gradient-to-r from-red-500 to-pink-500 rounded-full animate-pulse">
                     NEW
                   </span>
                 )}
@@ -96,26 +96,26 @@ export default function Header() {
           </div>
 
           {/* Language Switcher, Search & Mobile Menu Button */}
-          <div className="flex items-center space-x-2">
-            <div className="hidden md:block">
+          <div className="flex items-center space-x-1 flex-shrink-0">
+            <div className="hidden xl:block">
               <LanguageSwitcher />
             </div>
             <button
               onClick={() => setSearchOpen(true)}
               aria-label="Search"
-              className="hidden md:flex items-center gap-2 px-3 py-2 text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md transition-colors"
+              className="hidden xl:flex items-center gap-1.5 px-2 py-1.5 text-xs text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md transition-colors"
             >
-              <Search className="w-4 h-4" />
-              <span>{tCommon('search')}</span>
-              <kbd className="hidden lg:inline-flex items-center gap-1 px-2 py-1 text-xs bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-600 rounded">
-                <span className="text-xs">⌘</span>K
+              <Search className="w-3.5 h-3.5" />
+              <span className="hidden 2xl:inline">{tCommon('search')}</span>
+              <kbd className="hidden 2xl:inline-flex items-center gap-0.5 px-1.5 py-0.5 text-[10px] bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-600 rounded">
+                <span className="text-[10px]">⌘</span>K
               </kbd>
             </button>
 
             <button
               onClick={() => setSearchOpen(true)}
               aria-label="Search"
-              className="md:hidden p-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors"
+              className="xl:hidden p-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors"
             >
               <Search className="w-5 h-5" />
             </button>
@@ -123,7 +123,7 @@ export default function Header() {
             {/* Mobile menu button */}
             <button
               type="button"
-              className="md:hidden p-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors"
+              className="xl:hidden p-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle menu"
             >
@@ -138,7 +138,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-800">
+          <div className="xl:hidden py-4 border-t border-gray-200 dark:border-gray-800">
             <div className="space-y-1 mb-4">
               {navigation.map((item) => (
                 <Link
