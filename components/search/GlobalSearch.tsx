@@ -150,15 +150,15 @@ export default function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-start justify-center p-4 bg-black/50 backdrop-blur-sm"
+      className="fixed inset-0 z-50 flex items-end sm:items-start justify-center p-0 sm:p-4 bg-black/50 backdrop-blur-sm"
       onClick={onClose}
     >
       <div
-        className="w-full max-w-2xl mt-20 bg-white dark:bg-gray-800 rounded-lg shadow-2xl overflow-hidden"
+        className="w-full sm:max-w-2xl sm:mt-20 mt-0 bg-white dark:bg-gray-800 rounded-t-3xl sm:rounded-2xl shadow-2xl overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Search Input */}
-        <div className="flex items-center gap-3 p-4 border-b border-gray-200 dark:border-gray-700">
+        <div className="flex items-center gap-3 p-4 sm:p-5 border-b border-gray-200 dark:border-gray-700">
           <Search className="w-5 h-5 text-gray-400" />
           <input
             ref={inputRef}
@@ -166,7 +166,7 @@ export default function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search Digimon, guides, tools..."
-            className="flex-1 bg-transparent text-lg outline-none text-gray-900 dark:text-white placeholder-gray-400"
+            className="flex-1 bg-transparent text-base sm:text-lg outline-none text-gray-900 dark:text-white placeholder-gray-400"
           />
           {isLoading && <Loader2 className="w-5 h-5 text-gray-400 animate-spin" />}
           <button
@@ -181,10 +181,10 @@ export default function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
         {/* Search Results */}
         <div
           ref={resultsRef}
-          className="max-h-[60vh] overflow-y-auto"
+          className="max-h-[75vh] sm:max-h-[60vh] overflow-y-auto overscroll-contain"
         >
           {query.trim() && results.length === 0 && !isLoading && (
-            <div className="p-8 text-center text-gray-500 dark:text-gray-400">
+            <div className="p-8 sm:p-10 text-center text-gray-500 dark:text-gray-400">
               <Search className="w-12 h-12 mx-auto mb-3 opacity-50" />
               <p className="text-lg font-medium">No results found</p>
               <p className="text-sm">Try searching for a different term</p>
@@ -192,7 +192,7 @@ export default function GlobalSearch({ isOpen, onClose }: GlobalSearchProps) {
           )}
 
           {!query.trim() && (
-            <div className="p-6">
+            <div className="p-6 sm:p-8">
               <h3 className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-3">
                 POPULAR SEARCHES
               </h3>

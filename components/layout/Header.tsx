@@ -8,6 +8,7 @@ import { Menu, X, Search } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import GlobalSearch from '@/components/search/GlobalSearch';
 import LanguageSwitcher from './LanguageSwitcher';
+import MobileQuickNav from './MobileQuickNav';
 import type { Locale } from '@/i18n';
 
 export default function Header() {
@@ -162,6 +163,8 @@ export default function Header() {
           </div>
         )}
       </nav>
+
+      <MobileQuickNav onOpenSearch={() => setSearchOpen(true)} />
 
       {/* Global Search Modal */}
       <GlobalSearch isOpen={searchOpen} onClose={() => setSearchOpen(false)} />

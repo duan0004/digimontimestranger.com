@@ -3,12 +3,13 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
-import { BookOpen, Zap, Users, TrendingUp, Target, Shield } from 'lucide-react';
+import { BookOpen, Users, TrendingUp, Target, Shield, Database, ArrowRight } from 'lucide-react';
 
 export default function HomePage() {
   const t = useTranslations('home');
   const params = useParams();
   const locale = params.locale as string;
+  const tDatabase = useTranslations('database');
 
   const featuredCards = [
     {
@@ -72,7 +73,7 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-gradient-to-br from-primary-900/90 via-primary-800/80 to-primary-600/90 animate-gradient"></div>
           <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/30 via-transparent to-purple-900/30 animate-gradient-slow"></div>
         </div>
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-32">
           <div className="text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-gradient-to-r from-yellow-400/90 via-orange-400/90 to-red-400/90 backdrop-blur-sm rounded-full border border-yellow-300/40 shadow-lg">
               <span className="text-2xl animate-pulse">🎉</span>
@@ -108,7 +109,7 @@ export default function HomePage() {
             </div>
 
             {/* Stats Banner */}
-            <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            <div className="mt-12 md:mt-16 grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-6 max-w-4xl mx-auto">
               {stats.map((stat) => (
                 <div
                   key={stat.label}
@@ -138,6 +139,49 @@ export default function HomePage() {
               className="text-white dark:text-gray-900"
             />
           </svg>
+        </div>
+      </section>
+
+      {/* Mobile Database Quick Access */}
+      <section className="md:hidden bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800 py-6">
+        <div className="mx-auto max-w-7xl px-4">
+          <div className="grid gap-3">
+            <Link
+              href={`/${locale}/database`}
+              className="card px-4 py-3 flex items-center gap-3"
+            >
+              <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-pink-500 text-white shadow">
+                <Database className="w-5 h-5" />
+              </span>
+              <div className="flex-1">
+                <h3 className="text-base font-semibold text-gray-900 dark:text-white">
+                  {tDatabase('title')}
+                </h3>
+                <p className="text-xs text-gray-500 dark:text-gray-400 line-clamp-2">
+                  {tDatabase('description')}
+                </p>
+              </div>
+              <ArrowRight className="w-4 h-4 text-gray-400" />
+            </Link>
+
+            <Link
+              href={`/${locale}/digidex`}
+              className="card px-4 py-3 flex items-center gap-3"
+            >
+              <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-indigo-500 text-white shadow">
+                <BookOpen className="w-5 h-5" />
+              </span>
+              <div className="flex-1">
+                <h3 className="text-base font-semibold text-gray-900 dark:text-white">
+                  {t('features.digidex.title')}
+                </h3>
+                <p className="text-xs text-gray-500 dark:text-gray-400 line-clamp-2">
+                  {t('features.digidex.description')}
+                </p>
+              </div>
+              <ArrowRight className="w-4 h-4 text-gray-400" />
+            </Link>
+          </div>
         </div>
       </section>
 
