@@ -1,932 +1,969 @@
 {
   "common": {
-    "readMore": "Read More",
-    "search": "Search",
-    "filter": "Filter",
-    "sort": "Sort",
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "notFound": "Not Found",
-    "backToHome": "Back to Home"
+    "readMore": "阅读更多",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "notFound": "未找到",
+    "backToHome": "返回首页",
+    "total": "总计",
+    "digimon": "数码宝贝",
+    "stage": "阶段",
+    "attribute": "属性",
+    "currentFilters": "当前筛选",
+    "clearFilters": "清除全部",
+    "found": "找到",
+    "results": "个结果",
+    "noResults": "未找到结果",
+    "tryOtherKeywords": "尝试不同的搜索词或筛选条件",
+    "searchPlaceholder": "搜索数码宝贝...",
+    "searchHistory": "搜索历史",
+    "clear": "清除"
   },
   "nav": {
-    "home": "Home",
-    "walkthrough": "Walkthrough",
-    "digidex": "Digidex",
-    "database": "Database",
-    "guides": "Guides",
-    "evolution": "Evolution",
-    "bosses": "Bosses",
-    "walkthroughs": "Walkthroughs",
-    "tools": "Tools",
-    "community": "Community",
-    "about": "About",
-    "siteTitle": "Digimon Time Stranger",
-    "siteSubtitle": "Complete Strategy Guide"
+    "home": "首页",
+    "walkthrough": "攻略",
+    "digidex": "图鉴",
+    "database": "数据库",
+    "guides": "指南",
+    "evolution": "进化",
+    "bosses": "首领",
+    "walkthroughs": "攻略",
+    "tools": "工具",
+    "community": "社区",
+    "about": "关于",
+    "siteTitle": "数码宝贝：时间旅行者",
+    "siteSubtitle": "完整攻略指南",
+    "favorites": "我的收藏",
+    "compare": "对比",
+    "pathPlanner": "路径规划"
   },
   "home": {
-    "title": "Digimon Story: Time Stranger",
-    "subtitle": "Your Complete Guide to the Digital World",
-    "description": "Explore comprehensive guides, evolution trees, boss strategies, and community resources for Digimon Story: Time Stranger.",
+    "title": "数码宝贝故事：时间旅行者",
+    "subtitle": "数码世界的完整指南",
+    "description": "探索数码宝贝故事：时间旅行者的综合指南、进化树、首领策略和社区资源。",
     "hero": {
-      "title": "Welcome to the Digital World",
-      "subtitle": "Your ultimate guide for Digimon Story: Time Stranger",
-      "cta": "Explore Digidex"
+      "title": "欢迎来到数码世界",
+      "subtitle": "数码宝贝故事：时间旅行者的终极指南",
+      "cta": "探索图鉴"
     },
     "features": {
-      "title": "Everything You Need",
+      "title": "您需要的一切",
       "digidex": {
-        "title": "Complete Digidex",
-        "description": "Detailed stats, evolution paths, and locations for every Digimon"
+        "title": "完整图鉴",
+        "description": "每个数码宝贝的详细数据、进化路径和位置信息"
       },
       "guides": {
-        "title": "Expert Guides",
-        "description": "In-depth walkthroughs, strategies, and tips from experienced players"
+        "title": "专家指南",
+        "description": "经验丰富驯兽师的深度攻略、策略和技巧"
       },
       "evolution": {
-        "title": "Evolution Trees",
-        "description": "Interactive evolution charts showing all paths and requirements"
+        "title": "进化树",
+        "description": "显示所有路径和条件的交互式进化图表"
       },
       "bosses": {
-        "title": "Boss Strategies",
-        "description": "Proven tactics and team compositions for every boss battle"
+        "title": "首领策略",
+        "description": "每个首领战斗的经过验证的战术和队伍配置"
       }
     },
     "quickStart": {
-      "title": "Quick Start Guide",
-      "beginner": "New to the game? Start here!",
-      "evolution": "Learn about Digimon evolution",
-      "team": "Build your perfect team"
+      "title": "快速入门指南",
+      "beginner": "游戏新手？从这里开始！",
+      "evolution": "了解数码宝贝进化",
+      "team": "组建你的完美队伍"
     },
     "popularGuides": {
-      "title": "Popular Guides",
-      "evolutionGuide": "Digimon Evolution Guide",
-      "teamBuilding": "Team Building Strategies",
-      "storyBranches": "Story Branches & Endings",
-      "memoryManagement": "Memory Management Tips"
+      "title": "热门指南",
+      "evolutionGuide": "数码宝贝进化指南",
+      "teamBuilding": "队伍构建策略",
+      "storyBranches": "故事分支与结局",
+      "memoryManagement": "内存管理技巧"
     },
     "recentUpdates": {
-      "title": "Recent Updates",
-      "seeAll": "See All Updates"
+      "title": "最新更新",
+      "seeAll": "查看所有更新"
     },
     "community": {
-      "title": "Join Our Community",
-      "description": "Connect with other Tamers, share strategies, and stay updated",
-      "discord": "Join Discord",
-      "forum": "Visit Forum"
+      "title": "加入我们的社区",
+      "description": "与其他驯兽师联系，分享策略，保持最新状态",
+      "discord": "加入Discord",
+      "forum": "访问论坛"
     }
   },
   "digidex": {
-    "title": "Digidex",
-    "description": "Browse all Digimon with detailed stats and evolution paths",
-    "searchPlaceholder": "Search Digimon...",
+    "title": "数码图鉴",
+    "description": "浏览所有数码宝贝的详细数据和进化路径",
+    "searchPlaceholder": "搜索数码宝贝...",
     "filters": {
-      "all": "All",
-      "stage": "Stage",
-      "attribute": "Attribute",
-      "element": "Element"
+      "all": "全部",
+      "stage": "阶段",
+      "attribute": "属性",
+      "element": "元素"
     },
     "stats": {
       "hp": "HP",
-      "atk": "ATK",
-      "def": "DEF",
-      "spAtk": "SP.ATK",
-      "spDef": "SP.DEF",
-      "speed": "SPEED"
+      "atk": "攻击",
+      "def": "防御",
+      "spAtk": "特攻",
+      "spDef": "特防",
+      "speed": "速度"
     }
   },
   "database": {
-    "title": "Database",
-    "description": "Complete game database with bosses, items, skills, and stats",
-    "breadcrumb": "Database",
+    "title": "数据库",
+    "description": "包含首领、道具、技能和数据的完整游戏数据库",
+    "breadcrumb": "数据库",
     "categories": {
-      "bosses": "Bosses",
-      "items": "Items",
-      "skills": "Skills",
-      "stats": "Stats",
-      "personalities": "Personalities",
-      "agentSkills": "Agent Skills"
+      "bosses": "首领",
+      "items": "道具",
+      "skills": "技能",
+      "stats": "数据",
+      "personalities": "性格",
+      "agentSkills": "代理技能"
     },
     "bosses": {
-      "title": "Boss Database",
-      "description": "Complete boss guide with strategies and weaknesses",
-      "difficulty": "Difficulty",
-      "level": "Level",
+      "title": "首领数据库",
+      "description": "包含策略和弱点的完整首领指南",
+      "difficulty": "难度",
+      "level": "等级",
       "hp": "HP",
-      "weaknesses": "Weaknesses",
-      "resistances": "Resistances",
-      "strategy": "Strategy",
-      "rewards": "Rewards",
-      "location": "Location"
+      "weaknesses": "弱点",
+      "resistances": "抗性",
+      "strategy": "策略",
+      "rewards": "奖励",
+      "location": "位置"
     },
     "items": {
-      "title": "Item Database",
-      "description": "Complete item list with effects and locations"
+      "title": "道具数据库",
+      "description": "包含效果和位置的完整道具列表"
     },
     "skills": {
-      "title": "Skill Database",
-      "description": "All Digimon skills and abilities"
+      "title": "技能数据库",
+      "description": "所有数码宝贝技能和能力"
     },
     "stats": {
-      "title": "Stats Reference",
-      "description": "Game mechanics and stat calculations"
+      "title": "数据参考",
+      "description": "游戏机制和属性计算"
     },
     "personalities": {
-      "title": "Personalities Guide",
-      "description": "Personality types and stat growth rates"
+      "title": "性格指南",
+      "description": "性格类型和属性成长率"
     },
     "agentSkills": {
-      "title": "Agent Skills",
-      "description": "Special agent abilities and effects"
+      "title": "代理技能",
+      "description": "特殊代理能力和效果"
     }
   },
   "digimon": {
-    "baseStats": "Base Stats",
-    "skills": "Skills",
-    "evolvesTo": "Evolves To",
-    "devolvesFrom": "Devolves From",
-    "locations": "Locations",
-    "memory": "Memory",
-    "quickLinks": "Quick Links",
-    "viewEvolutionTree": "View Evolution Tree",
-    "addToTeamBuilder": "Add to Team Builder",
-    "backToDigidex": "Back to Digidex",
-    "howToGet": "How to Get {name}",
-    "foundIn": "{name} can be found in: {locations}",
-    "obtainThroughEvolution": "{name} can be obtained through evolution"
+    "baseStats": "基础数据",
+    "skills": "技能",
+    "evolvesTo": "进化为",
+    "devolvesFrom": "退化自",
+    "locations": "位置",
+    "memory": "内存",
+    "quickLinks": "快速链接",
+    "viewEvolutionTree": "查看进化树",
+    "addToTeamBuilder": "添加到队伍构建器",
+    "backToDigidex": "返回图鉴",
+    "howToGet": "如何获得 {name}",
+    "foundIn": "{name} 可以在以下位置找到：{locations}",
+    "obtainThroughEvolution": "{name} 可以通过进化获得"
   },
   "guides": {
-    "title": "Guides",
-    "description": "Comprehensive guides and strategies",
+    "title": "指南",
+    "description": "综合指南和策略",
     "categories": {
-      "beginner": "Beginner",
-      "advanced": "Advanced",
-      "evolution": "Evolution",
-      "team": "Team Building",
-      "story": "Story"
+      "beginner": "新手",
+      "advanced": "进阶",
+      "evolution": "进化",
+      "team": "队伍构建",
+      "story": "故事"
     },
     "bestStarters": {
-      "title": "Best Starter Digimon Guide for Time Stranger",
-      "description": "Complete analysis of starter Digimon, evolution paths, and early-game strategies",
-      "breadcrumb": "Best Starters",
-      "seoTitle": "Best Starter Digimon Guide - Top Picks for Early Game Success",
-      "seoDescription": "Discover the best starter Digimon in Time Stranger for 2025. Complete analysis of early-game choices, evolution paths, stats, and team synergy. Updated for the latest patch.",
+      "title": "时间旅行者最佳初始数码宝贝指南",
+      "description": "初始数码宝贝、进化路径和早期游戏策略的完整分析",
+      "breadcrumb": "最佳初始",
+      "seoTitle": "最佳初始数码宝贝指南 - 早期游戏成功首选",
+      "seoDescription": "发现2025年时间旅行者中最佳的初始数码宝贝。早期游戏选择、进化路径、数据和队伍协同的完整分析。针对最新补丁更新。",
       "hero": {
-        "title": "Best Starter Digimon Guide for Time Stranger",
-        "subtitle": "Complete analysis of starter Digimon, evolution paths, and early-game strategies",
-        "updated": "Updated: January 2025",
-        "readTime": "8 min read",
-        "author": "By DTS Team"
+        "title": "时间旅行者最佳初始数码宝贝指南",
+        "subtitle": "初始数码宝贝、进化路径和早期游戏策略的完整分析",
+        "updated": "更新：2025年1月",
+        "readTime": "8分钟阅读",
+        "author": "作者：DTS团队"
       },
       "intro": {
-        "paragraph1": "Choosing your first Digimon partner in Digimon Story: Time Stranger is one of the most important decisions you'll make in your journey. While you'll eventually have access to hundreds of Digimon, your starter will carry you through the critical early game hours and set the foundation for your team composition.",
-        "paragraph2": "In this comprehensive guide, we'll analyze all available starter options, their evolution paths, stat distributions, and ideal team synergies. Whether you're a returning Digimon veteran or brand new to the series, this guide will help you make an informed choice that matches your playstyle."
+        "paragraph1": "在数码宝贝故事：时间旅行者中选择你的第一个数码宝贝伙伴是你旅程中最重要的决定之一。虽然你最终会获得数百个数码宝贝，但你的初始伙伴将带你度过关键的早期游戏时间，并为你的队伍构成奠定基础。",
+        "paragraph2": "在这个综合指南中，我们将分析所有可用的初始选择、它们的进化路径、属性分布和理想的队伍协同。无论你是回归的数码宝贝老手还是该系列的新手，本指南都会帮助你做出符合你游戏风格的明智选择。"
       },
       "quickRecs": {
-        "title": "TL;DR - Quick Recommendations",
-        "bestOverall": "Best Overall: Agumon - Excellent balanced stats, strong evolution path, beginner-friendly",
-        "bestSpeed": "Best for Speed: Veemon - High speed stat, versatile evolutions, great for outpacing enemies",
-        "bestDefense": "Best for Defense: Guilmon - Tank build, excellent HP and DEF scaling"
+        "title": "简而言之 - 快速推荐",
+        "bestOverall": "最佳全能：亚古兽 - 出色的平衡属性，强大的进化路径，对新手友好",
+        "bestSpeed": "速度首选：V仔兽 - 高速度属性，多样的进化，适合超越敌人",
+        "bestDefense": "防御首选：基尔兽 - 坦克构建，出色的HP和防御成长"
       },
       "mechanics": {
-        "title": "Understanding Starter Mechanics",
-        "intro": "Before diving into specific recommendations, it's crucial to understand how starter Digimon work in Time Stranger:",
-        "statBonus": "Permanent Stat Bonus: Your starter receives a permanent +5% bonus to all base stats, making it slightly stronger than the same Digimon obtained later.",
-        "abiGrowth": "Faster ABI Growth: Starters gain ABI (Ability) points 20% faster, reaching evolution requirements sooner.",
-        "bondMove": "Special Bond Move: After reaching Champion stage, your starter unlocks a unique signature move not available to other Digimon of the same species.",
-        "memoryEfficiency": "Memory Efficiency: Your starter costs -2 Memory in team composition, allowing for more flexible team building."
+        "title": "了解初始机制",
+        "intro": "在深入具体推荐之前，了解初始数码宝贝在时间旅行者中如何运作至关重要：",
+        "statBonus": "永久属性加成：你的初始数码宝贝获得所有基础属性永久+5%加成，使其比稍后获得的相同数码宝贝略强。",
+        "abiGrowth": "更快的ABI成长：初始数码宝贝获得ABI（能力）点数的速度快20%，更快达到进化要求。",
+        "bondMove": "特殊羁绊技能：达到成熟期后，你的初始数码宝贝解锁同种其他数码宝贝无法获得的独特招牌技能。",
+        "memoryEfficiency": "内存效率：你的初始数码宝贝在队伍构成中消耗-2内存，允许更灵活的队伍构建。"
       },
       "rankings": {
-        "title": "Top Starter Digimon Ranked",
+        "title": "顶级初始数码宝贝排名",
         "agumon": {
           "rank": "1",
-          "name": "Agumon - The Perfect All-Rounder",
-          "types": [
-            "Fire",
-            "Vaccine"
-          ],
-          "description": "Agumon is the quintessential starter choice and has been a franchise favorite since the original Digimon World. In Time Stranger, Agumon excels in all areas without significant weaknesses.",
-          "strengthsTitle": "Strengths:",
+          "name": "亚古兽 - 完美全能型",
+          "types": ["火", "疫苗"],
+          "description": "亚古兽是典型的初始选择，自原版数码宝贝世界以来一直是该系列的受欢迎选择。在时间旅行者中，亚古兽在所有领域都表现出色，没有明显弱点。",
+          "strengthsTitle": "优势：",
           "strengths": [
-            "Balanced stat distribution perfect for beginners",
-            "Strong offensive capabilities with Fire-type moves",
-            "Clear evolution path to WarGreymon (top-tier Mega)",
-            "Learns Pepper Breath early for strong early damage",
-            "Excellent synergy with most team compositions"
+            "平衡的属性分布，非常适合新手",
+            "强大的火系技能攻击能力",
+            "清晰的进化路径到战斗暴龙兽（顶级究极体）",
+            "早期学习小型火焰造成强力伤害",
+            "与大多数队伍构成有出色的协同作用"
           ],
-          "weaknessesTitle": "Weaknesses:",
+          "weaknessesTitle": "弱点：",
           "weaknesses": [
-            "No significant weaknesses",
-            "Slightly slower than Veemon",
-            "Fire typing weak to Water (common early-game)"
+            "没有明显弱点",
+            "比V仔兽略慢",
+            "火属性弱于水系（早期游戏常见）"
           ],
-          "evolutionPath": "Koromon → Agumon → Greymon → MetalGreymon → WarGreymon",
-          "evolutionTip": "Evolution Tip: Wait until Level 16 to evolve to Greymon after learning Claw Swipe."
+          "evolutionPath": "滚球兽 → 亚古兽 → 暴龙兽 → 机械暴龙兽 → 战斗暴龙兽",
+          "evolutionTip": "进化提示：等到16级学会爪击后再进化到暴龙兽。"
         },
         "veemon": {
           "rank": "2",
-          "name": "Veemon - The Speed Demon",
-          "types": [
-            "Light",
-            "Free"
-          ],
-          "description": "Veemon is the ideal choice for players who value speed and versatility. With the highest Speed stat among starters and multiple evolution branches, Veemon offers exceptional tactical flexibility.",
-          "strengthsTitle": "Strengths:",
+          "name": "V仔兽 - 速度恶魔",
+          "types": ["光", "自由"],
+          "description": "V仔兽是重视速度和多样性的玩家的理想选择。凭借初始数码宝贝中最高的速度属性和多个进化分支，V仔兽提供出色的战术灵活性。",
+          "strengthsTitle": "优势：",
           "strengths": [
-            "Highest Speed stat (60 base) among all starters",
-            "Multiple evolution paths (ExVeemon, Veedramon, Flamedramon)",
-            "Excellent for competitive play and speedrun strategies",
-            "Free attribute makes it neutral to most matchups",
-            "Can pivot team composition based on evolution choice"
+            "所有初始数码宝贝中最高的速度属性（60基础）",
+            "多个进化路径（V仔兽EX、飞V龙兽、火焰龙兽）",
+            "非常适合竞技游戏和速通策略",
+            "自由属性使其对大多数对战中性",
+            "可以根据进化选择转换队伍构成"
           ],
-          "weaknessesTitle": "Weaknesses:",
+          "weaknessesTitle": "弱点：",
           "weaknesses": [
-            "Lower HP and DEF compared to other starters",
-            "Requires more strategic positioning",
-            "Some evolution paths are harder to unlock",
-            "Glass cannon playstyle not beginner-friendly"
+            "HP和防御低于其他初始数码宝贝",
+            "需要更多战略定位",
+            "一些进化路径更难解锁",
+            "玻璃大炮游戏风格对新手不友好"
           ],
-          "evolutionPath": "DemiVeemon → Veemon → ExVeemon → Paildramon → Imperialdramon",
-          "evolutionTip": "Evolution Tip: Paildramon requires ExVeemon + Stingmon DNA Digivolution. Plan ahead."
+          "evolutionPath": "幼年期I → V仔兽 → V仔兽EX → 机甲龙兽 → 帝皇龙甲兽",
+          "evolutionTip": "进化提示：机甲龙兽需要V仔兽EX + 刺钉兽 DNA进化。提前规划。"
         },
         "guilmon": {
           "rank": "3",
-          "name": "Guilmon - The Tank",
-          "types": [
-            "Fire",
-            "Virus"
-          ],
-          "description": "Guilmon is the tank specialist among starters. With exceptional HP and DEF scaling, Guilmon can take hits that would KO other Digimon, making it perfect for defensive playstyles.",
-          "strengthsTitle": "Strengths:",
+          "name": "基尔兽 - 坦克",
+          "types": ["火", "病毒"],
+          "description": "基尔兽是初始数码宝贝中的坦克专家。凭借出色的HP和防御成长，基尔兽可以承受会击倒其他数码宝贝的攻击，使其完美适合防御性游戏风格。",
+          "strengthsTitle": "优势：",
           "strengths": [
-            "Highest HP (62 base) and DEF (50 base) among starters",
-            "Can survive boss attacks in early-mid game",
-            "Evolution to Gallantmon is extremely powerful",
-            "Virus attribute effective against Vaccine bosses",
-            "Learns Rock Breaker for AOE damage"
+            "初始数码宝贝中最高的HP（62基础）和防御（50基础）",
+            "可以在早期中期游戏中存活首领攻击",
+            "进化到红莲骑士兽极其强大",
+            "病毒属性对疫苗首领有效",
+            "学习岩石破坏造成范围伤害"
           ],
-          "weaknessesTitle": "Weaknesses:",
+          "weaknessesTitle": "弱点：",
           "weaknesses": [
-            "Slowest Speed stat (48 base)",
-            "Often moves last in battle",
-            "Lower SP.ATK makes special moves less effective",
-            "Gallantmon evolution path requires late-game items"
+            "最慢的速度属性（48基础）",
+            "在战斗中经常最后行动",
+            "较低特攻使特殊技能效果较差",
+            "红莲骑士兽进化路径需要后期游戏道具"
           ],
-          "evolutionPath": "Gigimon → Guilmon → Growlmon → WarGrowlmon → Gallantmon",
-          "evolutionTip": "Evolution Tip: Save \"Crimson Mode\" evolution for post-game content."
+          "evolutionPath": "基基兽 → 基尔兽 → 古拉兽 → 大古拉兽 → 红莲骑士兽",
+          "evolutionTip": "进化提示：将\"红莲模式\"进化保留给游戏后内容。"
         }
       },
       "teamBuilding": {
-        "title": "Early Game Team Building Tips",
-        "intro": "Your starter is just the foundation. Here's how to build a balanced early-game team around each starter:",
-        "agumonTip": "For Agumon Starters: Add a Water-type like Gomamon or Palmon (Plant) to cover Fire's weakness. Include a support Digimon like Patamon for healing.",
-        "veemonTip": "For Veemon Starters: Since Veemon lacks bulk, add defensive Digimon like Armadillomon or Kotemon. Use Veemon's speed to strike first and eliminate threats.",
-        "guilmonTip": "For Guilmon Starters: Complement Guilmon's slow speed with fast attackers like Terriermon or Renamon. Let Guilmon tank hits while others deal damage."
+        "title": "早期游戏队伍构建技巧",
+        "intro": "你的初始数码宝贝只是基础。以下是围绕每个初始数码宝贝构建平衡的早期游戏队伍的方法：",
+        "agumonTip": "亚古兽初始者：添加水系如哥玛兽或巴鲁达兽（植物）来克制火系弱点。包括一个支援数码宝贝如巴达兽进行治疗。",
+        "veemonTip": "V仔兽初始者：由于V仔兽缺乏耐久度，添加防御性数码宝贝如穿山兽或甲龙兽。利用V仔兽的速度先发制人并消除威胁。",
+        "guilmonTip": "基尔兽初始者：用快速攻击者如大耳兽或妖狐兽补充基尔兽的慢速。让基尔兽承受攻击而其他造成伤害。"
       },
       "mistakes": {
-        "title": "Common Starter Mistakes to Avoid",
+        "title": "要避免的常见初始错误",
         "evolvingEarly": {
-          "title": "Evolving Too Early",
-          "description": "Wait until your starter learns its signature Rookie-level move before evolving. For Agumon, that's Claw Swipe at Level 16."
+          "title": "过早进化",
+          "description": "等到你的初始数码宝贝学会其招牌成长期技能后再进化。对于亚古兽，那是16级的爪击。"
         },
         "ignoringABI": {
-          "title": "Ignoring ABI Training",
-          "description": "ABI (Ability) points are crucial for reaching Mega evolutions. Use the DigiFarm to train ABI even when not actively using your starter."
+          "title": "忽略ABI训练",
+          "description": "ABI（能力）点数对于达到究极体进化至关重要。即使没有积极使用你的初始数码宝贝，也要使用数码农场训练ABI。"
         },
         "overRelying": {
-          "title": "Over-Relying on Your Starter",
-          "description": "While starters are strong, don't neglect building a diverse team. Some bosses will hard counter your starter's typing."
+          "title": "过度依赖初始数码宝贝",
+          "description": "虽然初始数码宝贝很强，但不要忽视构建多样化的队伍。一些首领会强力克制你初始数码宝贝的属性。"
         }
       },
       "faqs": {
-        "title": "Frequently Asked Questions",
+        "title": "常见问题",
         "q1": {
-          "question": "What is the best starter Digimon in Time Stranger?",
-          "answer": "Agumon is widely considered the best overall starter due to excellent stats, strong Fire-type offense, and straightforward evolution path to powerful forms like WarGreymon."
+          "question": "时间旅行者中最佳的初始数码宝贝是什么？",
+          "answer": "亚古兽被广泛认为是最佳的整体初始选择，因为它出色的属性、强大的火系攻击和到强大形态如战斗暴龙兽的直接进化路径。"
         },
         "q2": {
-          "question": "Can I get all starters in one playthrough?",
-          "answer": "Yes! While you choose one starter at the beginning, you can recruit all other starter Digimon later through scanning and evolution."
+          "question": "我可以在一次游戏中获得所有初始数码宝贝吗？",
+          "answer": "可以！虽然你在开始时选择一个初始数码宝贝，但你稍后可以通过扫描和进化招募所有其他初始数码宝贝。"
         },
         "q3": {
-          "question": "Does my starter choice affect the story?",
-          "answer": "Your starter choice has minor dialogue variations but does not significantly impact the main story. Choose based on playstyle preference."
+          "question": "我的初始选择会影响故事吗？",
+          "answer": "你的初始选择有轻微的对话变化，但不会显著影响主线故事。根据游戏风格偏好选择。"
         },
         "q4": {
-          "question": "When should I evolve my starter?",
-          "answer": "Most starters should evolve to Champion around level 15-18. Wait until they learn their signature Rookie-level skills before evolving."
+          "question": "我应该什么时候进化我的初始数码宝贝？",
+          "answer": "大多数初始数码宝贝应该在15-18级左右进化到成熟期。等到它们学会招牌成长期技能后再进化。"
         }
       },
       "conclusion": {
-        "title": "Final Verdict",
-        "paragraph1": "While all starters are viable in Time Stranger, Agumon remains the safest and most beginner-friendly choice. Its balanced stats, straightforward evolution path, and powerful end-game form make it an excellent companion from start to finish.",
-        "paragraph2": "However, if you value speed and tactical depth, Veemon offers incredible versatility. For players who prefer defensive playstyles, Guilmon's tankiness is unmatched.",
-        "paragraph3": "Remember: your starter choice matters most for the first 10-15 hours of gameplay. By mid-game, you'll have access to dozens of powerful Digimon, so choose the starter that appeals to your personal playstyle and enjoy the journey!"
+        "title": "最终评价",
+        "paragraph1": "虽然所有初始数码宝贝在时间旅行者中都可行，但亚古兽仍然是最安全、最对新手友好的选择。其平衡的属性、直接的进化路径和强大的游戏后期形态使其从开始到结束都是优秀的伙伴。",
+        "paragraph2": "然而，如果你重视速度和战术深度，V仔兽提供令人难以置信的多功能性。对于偏好防御性游戏风格的玩家，基尔兽的坦克性是无与伦比的。",
+        "paragraph3": "记住：你的初始选择对游戏前10-15小时最重要。到游戏中期，你将获得数十个强大的数码宝贝，所以选择吸引你个人游戏风格的初始数码宝贝，享受旅程！"
       },
       "relatedGuides": {
-        "title": "Related Guides",
-        "fastLeveling": "Fast Leveling Routes Guide",
-        "evolutionGuide": "Complete Evolution Guide",
-        "teamBuilder": "Team Builder Tool"
+        "title": "相关指南",
+        "fastLeveling": "快速升级路线指南",
+        "evolutionGuide": "完整进化指南",
+        "teamBuilder": "队伍构建器工具"
       }
     },
     "evolutionGuide": {
-      "title": "Evolution Guide",
-      "description": "Master the art of Digivolution and unlock your Digimon's full potential",
-      "breadcrumb": "Evolution Guide",
-      "seoTitle": "Evolution Guide - Master Digivolution in Time Stranger",
-      "seoDescription": "Complete evolution guide for Digimon Story: Time Stranger. Learn evolution mechanics, requirements, optimal timing, and digivolution strategies."
+      "title": "进化指南",
+      "description": "掌握数码进化艺术，解锁你的数码宝贝全部潜力",
+      "breadcrumb": "进化指南",
+      "seoTitle": "进化指南 - 掌握时间旅行者数码进化",
+      "seoDescription": "数码宝贝故事：时间旅行者的完整进化指南。学习进化机制、要求、最佳时机和数码进化策略。"
     },
     "fastLeveling": {
-      "title": "Fast Leveling Guide",
-      "description": "Master efficient XP grinding and reach max level faster with optimal strategies",
-      "breadcrumb": "Fast Leveling",
-      "seoTitle": "Fast Leveling Guide - Efficient XP Grinding in Time Stranger",
-      "seoDescription": "Complete fast leveling guide for Digimon Story: Time Stranger. Learn optimal grinding locations, XP optimization, team leveling strategies, and efficient progression routes."
+      "title": "快速升级指南",
+      "description": "掌握高效经验值研磨，通过最佳策略更快达到最高等级",
+      "breadcrumb": "快速升级",
+      "seoTitle": "快速升级指南 - 时间旅行者高效经验值研磨",
+      "seoDescription": "数码宝贝故事：时间旅行者的完整快速升级指南。学习最佳研磨位置、经验值优化、队伍升级策略和高效进展路线。"
     },
     "teamBuilding": {
-      "title": "Team Building Guide",
-      "description": "Master team composition and synergy to dominate every battle",
-      "breadcrumb": "Team Building",
-      "seoTitle": "Team Building Guide - Build the Ultimate Team",
-      "seoDescription": "Master team composition in Digimon Story: Time Stranger. Learn role balance, synergy strategies, and how to build competitive teams."
+      "title": "队伍构建指南",
+      "description": "掌握队伍构成和协同作用，主宰每场战斗",
+      "breadcrumb": "队伍构建",
+      "seoTitle": "队伍构建指南 - 构建终极队伍",
+      "seoDescription": "掌握数码宝贝故事：时间旅行者中的队伍构成。学习角色平衡、协同策略以及如何构建竞技队伍。"
     },
     "bossStrategies": {
-      "title": "Boss Battle Strategies",
-      "description": "Master advanced tactics to defeat the toughest encounters in Time Stranger",
-      "breadcrumb": "Boss Strategies",
-      "seoTitle": "Boss Battle Strategies - Master Difficult Encounters",
-      "seoDescription": "Comprehensive boss battle strategies for Digimon Story: Time Stranger. Learn tactics, counter strategies, team compositions, and preparation tips to defeat any boss."
+      "title": "首领战斗策略",
+      "description": "掌握高级战术，击败时间旅行者中最艰难的遭遇战",
+      "breadcrumb": "首领策略",
+      "seoTitle": "首领战斗策略 - 掌握困难遭遇战",
+      "seoDescription": "数码宝贝故事：时间旅行者的综合首领战斗策略。学习战术、反制策略、队伍构成和准备技巧以击败任何首领。"
     },
     "storyBranches": {
-      "title": "Story Branches & Timeline Guide",
-      "description": "Navigate the branching paths and unlock all endings",
-      "breadcrumb": "Story Branches",
-      "seoTitle": "Story Branches & Timeline Guide - Multiple Endings",
-      "seoDescription": "Complete guide to story branches, key decisions, and multiple endings in Digimon Time Stranger. Learn how your choices affect the timeline and unlock all endings."
+      "title": "故事分支与时间线指南",
+      "description": "导航分支路径并解锁所有结局",
+      "breadcrumb": "故事分支",
+      "seoTitle": "故事分支与时间线指南 - 多重结局",
+      "seoDescription": "数码宝贝时间旅行者故事分支、关键决定和多重结局的完整指南。了解你的选择如何影响时间线并解锁所有结局。"
     },
     "collectibles": {
-      "title": "Collectibles Guide",
-      "description": "Find every hidden treasure and collectible across all 9 chapters",
-      "breadcrumb": "Collectibles",
-      "seoTitle": "Collectibles Guide - Complete List & Locations",
-      "seoDescription": "Complete guide to all collectibles in Digimon Time Stranger. Find every Ancient Tablet Fragment, rare item, and hidden treasure across all 9 chapters."
+      "title": "收藏品指南",
+      "description": "在所有9个章节中找到每个隐藏宝藏和收藏品",
+      "breadcrumb": "收藏品",
+      "seoTitle": "收藏品指南 - 完整列表与位置",
+      "seoDescription": "数码宝贝时间旅行者所有收藏品的完整指南。在所有9个章节中找到每个古代石板碎片、稀有道具和隐藏宝藏。"
     }
   },
   "evolution": {
-    "title": "Evolution Trees",
-    "description": "Interactive evolution charts and requirements",
-    "requirements": "Requirements",
-    "level": "Level {level}",
-    "stats": "Stats Required"
+    "title": "进化树",
+    "description": "交互式进化图表和要求",
+    "requirements": "要求",
+    "level": "等级 {level}",
+    "stats": "要求数据"
   },
   "bosses": {
-    "title": "Boss Guides",
-    "description": "Strategies and team recommendations for boss battles",
-    "difficulty": "Difficulty",
-    "recommendedLevel": "Recommended Level",
-    "weaknesses": "Weaknesses",
-    "strategy": "Strategy",
-    "teamComposition": "Recommended Team"
+    "title": "首领指南",
+    "description": "首领战斗的策略和队伍推荐",
+    "difficulty": "难度",
+    "recommendedLevel": "推荐等级",
+    "weaknesses": "弱点",
+    "strategy": "策略",
+    "teamComposition": "推荐队伍"
   },
   "walkthroughs": {
-    "title": "Walkthroughs",
-    "description": "Step-by-step guides for story chapters",
-    "chapter": "Chapter {number}",
-    "objectives": "Objectives",
-    "rewards": "Rewards"
+    "title": "攻略",
+    "description": "故事章节的分步指南",
+    "chapter": "第 {number} 章",
+    "objectives": "目标",
+    "rewards": "奖励"
   },
   "walkthrough": {
-    "title": "Walkthrough",
-    "description": "Complete chapter-by-chapter guides",
-    "breadcrumb": "Walkthrough"
+    "title": "攻略",
+    "description": "完整的章节指南",
+    "breadcrumb": "攻略"
   },
   "walkthroughChapter": {
     "navigation": {
-      "allChapters": "All Chapters",
-      "nextChapter": "Next Chapter",
-      "previousChapter": "Previous Chapter",
-      "next": "Next: Chapter {number}"
+      "allChapters": "所有章节",
+      "nextChapter": "下一章",
+      "previousChapter": "上一章",
+      "next": "下一章：第 {number} 章"
     },
-    "chapter": "Chapter {number}",
+    "chapter": "第 {number} 章",
     "difficulty": {
-      "easy": "Easy",
-      "medium": "Medium",
-      "hard": "Hard",
-      "veryHard": "Very Hard"
+      "easy": "简单",
+      "medium": "中等",
+      "hard": "困难",
+      "veryHard": "非常困难"
     },
     "overview": {
-      "title": "Chapter Overview",
-      "recommendedLevel": "Recommended Level",
-      "averageTime": "Average Time",
-      "difficulty": "Difficulty",
-      "boss": "Boss: {name}",
-      "collectibles": "{count} Collectibles"
+      "title": "章节概览",
+      "recommendedLevel": "推荐等级",
+      "averageTime": "平均时间",
+      "difficulty": "难度",
+      "boss": "首领：{name}",
+      "collectibles": "{count} 个收藏品"
     },
     "parts": {
-      "part": "Part {number}",
-      "bossBattle": "Boss Battle"
+      "part": "第 {number} 部分",
+      "bossBattle": "首领战斗"
     },
     "labels": {
-      "tip": "Tip:",
-      "collectible": "Collectible #{number}:",
-      "encounters": "Encounters:",
-      "recommendation": "Recommendation:",
-      "preparationChecklist": "Preparation Checklist:",
-      "battleStrategy": "Battle Strategy:",
-      "victoryRewards": "Victory Rewards:",
-      "keyAchievements": "Key Achievements:",
-      "collectiblesFound": "Collectibles Found:",
-      "nextChapter": "Next Chapter:",
-      "chapterComplete": "Chapter Complete!"
+      "tip": "提示：",
+      "collectible": "收藏品 #{number}：",
+      "encounters": "遭遇：",
+      "recommendation": "推荐：",
+      "preparationChecklist": "准备清单：",
+      "battleStrategy": "战斗策略：",
+      "victoryRewards": "胜利奖励：",
+      "keyAchievements": "关键成就：",
+      "collectiblesFound": "找到的收藏品：",
+      "nextChapter": "下一章：",
+      "chapterComplete": "章节完成！"
     },
     "battle": {
-      "level": "Level",
+      "level": "等级",
       "hp": "HP",
-      "weaknesses": "Weaknesses",
-      "mainAttacks": "Main Attacks",
-      "strategy": "Battle Strategy:"
+      "weaknesses": "弱点",
+      "mainAttacks": "主要攻击",
+      "strategy": "战斗策略："
     },
     "summary": {
-      "title": "Chapter {number} Summary"
+      "title": "第 {number} 章总结"
     }
   },
   "tools": {
-    "title": "Tools",
-    "description": "Helpful calculators and builders",
+    "title": "工具",
+    "description": "有用的计算器和构建器",
     "teamBuilder": {
-      "title": "Team Builder",
-      "description": "Build and optimize your perfect Digimon team",
-      "breadcrumb": "Team Builder"
+      "title": "队伍构建器",
+      "description": "构建和优化你的完美数码宝贝队伍",
+      "breadcrumb": "队伍构建器"
     },
     "statCalculator": {
-      "title": "Stat Calculator",
-      "description": "Calculate final stats with different builds"
+      "title": "属性计算器",
+      "description": "用不同构建计算最终属性"
     }
   },
   "about": {
-    "title": "About",
-    "description": "Learn more about this project",
-    "breadcrumb": "About"
+    "title": "关于",
+    "description": "了解更多关于这个项目",
+    "breadcrumb": "关于"
   },
   "community": {
-    "title": "Community",
-    "description": "Connect with other players",
-    "backToCommunity": "Back to Community",
-    "categoryGuidelines": "Category Guidelines",
-    "discussions": "Discussions",
-    "signInInfo": "Sign in with GitHub to start a new discussion or reply to existing ones. Click the button below to open the discussion in GitHub.",
-    "signInTitle": "Sign in with GitHub",
-    "viewOnGithub": "View on GitHub →",
+    "title": "社区",
+    "description": "与其他玩家联系",
+    "backToCommunity": "返回社区",
+    "categoryGuidelines": "分类指南",
+    "discussions": "讨论",
+    "signInInfo": "使用GitHub登录开始新讨论或回复现有讨论。点击下面的按钮在GitHub中打开讨论。",
+    "signInTitle": "使用GitHub登录",
+    "viewOnGithub": "在GitHub上查看 →",
     "categories": {
-      "discussion": "General Discussion",
-      "strategy": "Strategy & Tips",
-      "showcase": {
-        "name": "Achievements & Showcase",
-        "description": "Share your accomplishments, rare finds, and collections",
-        "guidelines": [
-          "Share your achievements and milestones",
-          "Show off rare Digimon finds",
-          "Display your collections",
-          "Celebrate community successes"
-        ]
-      },
-      "questions": {
-        "name": "Questions & Help",
-        "description": "Get help from the community and ask your questions",
-        "guidelines": [
-          "Ask clear and specific questions",
-          "Search before asking duplicates",
-          "Provide context and details",
-          "Mark helpful answers"
-        ]
-      },
+      "discussion": "一般讨论",
+      "strategy": "策略与技巧",
+      "showcase": "成就与展示",
+      "questions": "问题与帮助",
       "general": {
-        "name": "General Discussion",
-        "description": "Chat about anything related to Digimon Time Stranger",
+        "name": "一般讨论",
+        "description": "讨论与数码宝贝时间旅行者相关的任何事情",
         "guidelines": [
-          "Share your general thoughts and experiences",
-          "Discuss game updates and news",
-          "Connect with other Tamers",
-          "Keep discussions friendly and on-topic"
+          "分享你的一般想法和经历",
+          "讨论游戏更新和新闻",
+          "与其他驯兽师联系",
+          "保持讨论友好和切题"
         ]
       },
       "strategies": {
-        "name": "Battle Strategies",
-        "description": "Share and discuss battle tactics, boss strategies, and combat tips",
+        "name": "战斗策略",
+        "description": "分享和讨论战斗战术、首领策略和战斗技巧",
         "guidelines": [
-          "Share effective battle strategies",
-          "Discuss boss fight tactics",
-          "Analyze combat mechanics",
-          "Help others improve their gameplay"
+          "分享有效的战斗策略",
+          "讨论首领战斗战术",
+          "分析战斗机制",
+          "帮助他人改善游戏玩法"
         ]
       },
       "team-builds": {
-        "name": "Team Building",
-        "description": "Show off your team compositions and get feedback",
+        "name": "队伍构建",
+        "description": "展示你的队伍构成并获得反馈",
         "guidelines": [
-          "Share your team compositions",
-          "Discuss synergies and combos",
-          "Get feedback on your builds",
-          "Suggest improvements for others"
+          "分享你的队伍构成",
+          "讨论协同作用和连招",
+          "获得你的构建反馈",
+          "为他人建议改进"
+        ]
+      },
+      "questions": {
+        "name": "问题与帮助",
+        "description": "从社区获得帮助并提出你的问题",
+        "guidelines": [
+          "提出清晰和具体的问题",
+          "在询问重复问题之前搜索",
+          "提供上下文和细节",
+          "标记有用的答案"
         ]
       },
       "guides": {
-        "name": "Player Guides",
-        "description": "Community-created guides and tutorials",
+        "name": "玩家指南",
+        "description": "社区创建的指南和教程",
         "guidelines": [
-          "Create comprehensive guides",
-          "Use clear formatting and structure",
-          "Include examples and screenshots",
-          "Keep guides up-to-date"
+          "创建综合指南",
+          "使用清晰的格式和结构",
+          "包括示例和截图",
+          "保持指南最新"
+        ]
+      },
+      "showcase": {
+        "name": "成就与展示",
+        "description": "分享你的成就、稀有发现和收藏",
+        "guidelines": [
+          "分享你的成就和里程碑",
+          "炫耀稀有数码宝贝发现",
+          "展示你的收藏",
+          "庆祝社区成功"
         ]
       }
     }
   },
   "contribute": {
-    "title": "Contribute to the Community - Share Your Knowledge",
-    "description": "Contribute guides, strategies, and improvements to the Digimon Time Stranger community. Learn how to submit content, report issues, and help other players.",
-    "breadcrumb": "Contribute",
+    "title": "为社区做贡献 - 分享你的知识",
+    "description": "为数码宝贝时间旅行者社区贡献指南、策略和改进。学习如何提交内容、报告问题和帮助其他玩家。",
+    "breadcrumb": "贡献",
     "header": {
-      "title": "Contribute to the Community",
-      "subtitle": "Help us build the best Digimon Time Stranger resource"
+      "title": "为社区做贡献",
+      "subtitle": "帮助我们建立最好的数码宝贝时间旅行者资源"
     },
     "intro": {
-      "title": "Why Contribute?",
-      "description": "This website is built by and for the Digimon Time Stranger community. Your contributions help thousands of players discover strategies, overcome challenges, and enjoy the game more. Whether you're sharing a guide, reporting a bug, or suggesting improvements, every contribution matters!"
+      "title": "为什么要贡献？",
+      "description": "这个网站由数码宝贝时间旅行者社区为社区而建。你的贡献帮助数千名玩家发现策略、克服挑战并更多地享受游戏。无论你是分享指南、报告错误还是建议改进，每个贡献都很重要！"
     },
     "stats": {
       "communityMembers": "2.5K+",
-      "communityMembersLabel": "Community Members",
+      "communityMembersLabel": "社区成员",
       "contributors": "150+",
-      "contributorsLabel": "Contributors",
-      "openSource": "Open",
-      "openSourceLabel": "Source Project"
+      "contributorsLabel": "贡献者",
+      "openSource": "开源",
+      "openSourceLabel": "源项目"
     },
-    "waysTitle": "Ways to Contribute",
+    "waysTitle": "贡献方式",
     "ways": {
       "github": {
-        "title": "Report Issues or Request Features",
-        "description": "Found a bug? Have an idea for improvement? Open an issue on GitHub to let us know!",
-        "bugReportsLabel": "Bug Reports:",
-        "bugReportsText": "Incorrect information, broken links, display issues",
-        "featureRequestsLabel": "Feature Requests:",
-        "featureRequestsText": "New tools, guides, or functionality you'd like to see",
-        "contentUpdatesLabel": "Content Updates:",
-        "contentUpdatesText": "New game updates, patches, or balance changes",
-        "button": "Open an Issue"
+        "title": "报告问题或请求功能",
+        "description": "发现错误？有改进想法？在GitHub上打开问题让我们知道！",
+        "bugReportsLabel": "错误报告：",
+        "bugReportsText": "不正确的信息、损坏的链接、显示问题",
+        "featureRequestsLabel": "功能请求：",
+        "featureRequestsText": "你想看到的新工具、指南或功能",
+        "contentUpdatesLabel": "内容更新：",
+        "contentUpdatesText": "新游戏更新、补丁或平衡更改",
+        "button": "打开问题"
       },
       "forum": {
-        "title": "Share in Community Discussions",
-        "description": "Join discussions, answer questions, and share your strategies with other players in our forum.",
-        "answerQuestionsLabel": "Answer Questions:",
-        "answerQuestionsText": "Help new players with gameplay questions",
-        "shareBuildsLabel": "Share Builds:",
-        "shareBuildsText": "Post your best team compositions and strategies",
-        "startDiscussionsLabel": "Start Discussions:",
-        "startDiscussionsText": "Create topics about game mechanics, lore, or updates",
-        "button": "Visit Forum"
+        "title": "在社区讨论中分享",
+        "description": "在我们的论坛中加入讨论、回答问题并与其他玩家分享你的策略。",
+        "answerQuestionsLabel": "回答问题：",
+        "answerQuestionsText": "帮助新玩家解决游戏玩法问题",
+        "shareBuildsLabel": "分享构建：",
+        "shareBuildsText": "发布你的最佳队伍构成和策略",
+        "startDiscussionsLabel": "开始讨论：",
+        "startDiscussionsText": "创建关于游戏机制、背景故事或更新的主题",
+        "button": "访问论坛"
       },
       "guides": {
-        "title": "Submit Written Guides",
-        "description": "Have expertise in a specific area? Write a guide to help the community!",
-        "strategyGuidesLabel": "Strategy Guides:",
-        "strategyGuidesText": "Team building, evolution paths, boss strategies",
-        "characterGuidesLabel": "Character Guides:",
-        "characterGuidesText": "Detailed analysis of specific Digimon",
-        "beginnerGuidesLabel": "Beginners Guides:",
-        "beginnerGuidesText": "Help new players get started",
-        "howToSubmitTitle": "How to Submit:",
-        "step1": "Write your guide in Markdown format",
-        "step2": "Create a GitHub pull request with your content",
-        "step3": "Our team will review and publish it",
-        "step4": "Your name will be credited as the author",
-        "button": "Guide Template"
+        "title": "提交书面指南",
+        "description": "在特定领域有专业知识？写一个指南来帮助社区！",
+        "strategyGuidesLabel": "策略指南：",
+        "strategyGuidesText": "队伍构建、进化路径、首领策略",
+        "characterGuidesLabel": "角色指南：",
+        "characterGuidesText": "特定数码宝贝的详细分析",
+        "beginnerGuidesLabel": "新手指南：",
+        "beginnerGuidesText": "帮助新玩家开始",
+        "howToSubmitTitle": "如何提交：",
+        "step1": "用Markdown格式写你的指南",
+        "step2": "用你的内容创建GitHub拉取请求",
+        "step3": "我们的团队将审查并发布它",
+        "step4": "你的名字将被记为作者",
+        "button": "指南模板"
       },
       "videos": {
-        "title": "Submit Video Guides",
-        "description": "Created helpful video tutorials? We'd love to feature them in our video library!",
-        "youtubeLabel": "YouTube Videos:",
-        "youtubeText": "Gameplay guides, walkthroughs, tutorials",
-        "requirementsLabel": "Requirements:",
-        "requirementsText": "Clear audio, accurate information, family-friendly content",
-        "featuredLabel": "Featured:",
-        "featuredText": "Your video will be added to our video library with full credit",
-        "button": "Submit Video"
+        "title": "提交视频指南",
+        "description": "创建了有用的视频教程？我们很乐意在我们的视频库中推荐它们！",
+        "youtubeLabel": "YouTube视频：",
+        "youtubeText": "游戏玩法指南、攻略、教程",
+        "requirementsLabel": "要求：",
+        "requirementsText": "清晰的音频、准确的信息、家庭友好的内容",
+        "featuredLabel": "推荐：",
+        "featuredText": "你的视频将被添加到我们的视频库中并完全记功",
+        "button": "提交视频"
       },
       "dataErrors": {
-        "title": "Report Data Errors",
-        "description": "Found incorrect Digimon stats, evolution requirements, or other data? Help us keep information accurate!",
-        "statCorrectionsLabel": "Stat Corrections:",
-        "statCorrectionsText": "HP, Attack, Defense, Speed values",
-        "evolutionDataLabel": "Evolution Data:",
-        "evolutionDataText": "Requirements, paths, or missing evolutions",
-        "contentErrorsLabel": "Content Errors:",
-        "contentErrorsText": "Typos, outdated info, missing content",
-        "button": "Report Error"
+        "title": "报告数据错误",
+        "description": "发现不正确的数码宝贝数据、进化要求或其他数据？帮助我们保持信息准确！",
+        "statCorrectionsLabel": "数据修正：",
+        "statCorrectionsText": "HP、攻击、防御、速度值",
+        "evolutionDataLabel": "进化数据：",
+        "evolutionDataText": "要求、路径或缺失的进化",
+        "contentErrorsLabel": "内容错误：",
+        "contentErrorsText": "拼写错误、过时信息、缺失内容",
+        "button": "报告错误"
       },
       "suggestions": {
-        "title": "Share Ideas & Suggestions",
-        "description": "Have ideas for new features, tools, or improvements? We're always listening!",
-        "newToolsLabel": "New Tools:",
-        "newToolsText": "Calculators, planners, interactive features",
-        "uiImprovementsLabel": "UI Improvements:",
-        "uiImprovementsText": "Better navigation, design, or user experience",
-        "contentIdeasLabel": "Content Ideas:",
-        "contentIdeasText": "New guides, databases, or resources",
-        "button": "Share Idea"
+        "title": "分享想法和建议",
+        "description": "对新功能、工具或改进有想法？我们随时在听！",
+        "newToolsLabel": "新工具：",
+        "newToolsText": "计算器、规划器、交互功能",
+        "uiImprovementsLabel": "UI改进：",
+        "uiImprovementsText": "更好的导航、设计或用户体验",
+        "contentIdeasLabel": "内容想法：",
+        "contentIdeasText": "新指南、数据库或资源",
+        "button": "分享想法"
       }
     },
     "guidelines": {
-      "title": "Contribution Guidelines",
-      "beRespectful": "Be Respectful: Treat all community members with kindness and respect",
-      "accuracyFirst": "Accuracy First: Ensure all information is tested and verified",
-      "creditSources": "Credit Sources: Give credit when using others' strategies or data",
-      "noSpoilers": "No Spoilers: Use spoiler warnings for story-related content",
-      "qualityContent": "Quality Content: Proofread and format your submissions properly"
+      "title": "贡献指南",
+      "beRespectful": "尊重：以友善和尊重对待所有社区成员",
+      "accuracyFirst": "准确第一：确保所有信息都经过测试和验证",
+      "creditSources": "记功来源：使用他人策略或数据时记功",
+      "noSpoilers": "无剧透：对故事相关内容使用剧透警告",
+      "qualityContent": "质量内容：正确校对和格式化你的提交"
     },
     "recognition": {
-      "title": "Top Contributors Hall of Fame",
-      "description": "Outstanding contributors are featured here with our deepest gratitude!",
-      "thankYou": "Your contributions help thousands of players enjoy the game. Thank you for being part of our community!"
+      "title": "顶级贡献者名人堂",
+      "description": "杰出的贡献者在这里被推荐，我们深表感激！",
+      "thankYou": "你的贡献帮助数千名玩家享受游戏。感谢成为我们社区的一部分！"
     }
   },
   "footer": {
-    "description": "Complete guides, evolution paths, and team building tools for Digimon Story: Time Stranger.",
-    "siteTitle": "Digimon Time Stranger",
-    "siteSubtitle": "Strategy Guide",
-    "guidesTitle": "Guides",
-    "toolsTitle": "Tools",
-    "resourcesTitle": "Resources",
-    "bestStarters": "Best Starters",
-    "evolutionGuide": "Evolution Guide",
-    "teamBuilding": "Team Building",
-    "fastLeveling": "Fast Leveling",
-    "teamBuilder": "Team Builder",
-    "evolutionTree": "Evolution Tree",
-    "communityForum": "Community Forum",
-    "pcSettings": "PC Settings",
-    "updatesPatches": "Updates & Patches",
-    "about": "About",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "copyright": "© {year} Digimon Time Stranger Guide. All rights reserved.",
-    "disclaimer": "This is an unofficial fan site. Digimon and all related properties are trademarks of Bandai Namco Entertainment. We are not affiliated with or endorsed by Bandai Namco.",
-    "builtWith": "Built with ❤️ for Tamers"
+    "description": "数码宝贝故事：时间旅行者的完整指南、进化路径和队伍构建工具。",
+    "siteTitle": "数码宝贝时间旅行者",
+    "siteSubtitle": "策略指南",
+    "guidesTitle": "指南",
+    "toolsTitle": "工具",
+    "resourcesTitle": "资源",
+    "bestStarters": "最佳初始",
+    "evolutionGuide": "进化指南",
+    "teamBuilding": "队伍构建",
+    "fastLeveling": "快速升级",
+    "teamBuilder": "队伍构建器",
+    "evolutionTree": "进化树",
+    "communityForum": "社区论坛",
+    "pcSettings": "PC设置",
+    "updatesPatches": "更新与补丁",
+    "about": "关于",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "copyright": "© {year} 数码宝贝时间旅行者指南。保留所有权利。",
+    "disclaimer": "这是一个非官方粉丝网站。数码宝贝和所有相关属性是万代南梦宫娱乐的商标。我们与万代南梦宫无关或未得到其认可。",
+    "builtWith": "为驯兽师用❤️构建"
   },
   "events": {
-    "title": "Events Calendar",
-    "description": "Stay updated with game events, updates, and community activities",
-    "breadcrumb": "Events",
+    "title": "活动日历",
+    "description": "了解游戏活动、更新和社区活动的最新情况",
+    "breadcrumb": "活动",
     "stats": {
-      "upcoming": "Upcoming",
-      "activeNow": "Active Now",
-      "totalEvents": "Total Events",
-      "eventTypes": "Event Types"
+      "upcoming": "即将举行",
+      "activeNow": "正在进行",
+      "totalEvents": "总活动数",
+      "eventTypes": "活动类型"
     },
     "filters": {
-      "title": "Filter Events",
-      "eventType": "Event Type",
-      "status": "Status",
-      "allTypes": "All Types",
-      "allStatus": "All Status"
+      "title": "筛选活动",
+      "eventType": "活动类型",
+      "status": "状态",
+      "allTypes": "所有类型",
+      "allStatus": "所有状态"
     },
     "types": {
-      "update": "Update",
+      "update": "更新",
       "dlc": "DLC",
-      "community": "Community",
-      "seasonal": "Seasonal"
+      "community": "社区",
+      "seasonal": "季节性"
     },
     "statuses": {
-      "upcoming": "Upcoming",
-      "active": "Active",
-      "ended": "Ended",
-      "live": "LIVE"
+      "upcoming": "即将举行",
+      "active": "活跃",
+      "ended": "已结束",
+      "live": "直播中"
     },
-    "noEvents": "No events found",
-    "tryAdjusting": "Try adjusting your filters",
-    "rewards": "Rewards",
+    "noEvents": "未找到活动",
+    "tryAdjusting": "尝试调整你的筛选器",
+    "rewards": "奖励",
     "cta": {
-      "title": "Never Miss an Event!",
-      "description": "Follow our social media channels or enable notifications to stay updated on all upcoming events, updates, and special activities.",
-      "viewUpdates": "View All Updates",
-      "joinCommunity": "Join Community"
+      "title": "不要错过任何活动！",
+      "description": "关注我们的社交媒体渠道或启用通知以了解所有即将举行的活动、更新和特别活动。",
+      "viewUpdates": "查看所有更新",
+      "joinCommunity": "加入社区"
     }
   },
   "evolutionTree": {
-    "title": "Evolution Tree",
-    "description": "Explore all Digimon evolution paths and requirements",
-    "breadcrumb": "Evolution Tree",
+    "title": "进化树",
+    "description": "探索所有数码宝贝进化路径和要求",
+    "breadcrumb": "进化树",
     "header": {
-      "title": "Evolution Tree",
-      "subtitle": "Explore all Digimon evolution paths and requirements"
+      "title": "进化树",
+      "subtitle": "探索所有数码宝贝进化路径和要求"
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
-    "description": "Find answers to common questions about Digimon Time Stranger",
+    "title": "常见问题",
+    "description": "找到关于数码宝贝时间旅行者的常见问题答案",
     "breadcrumb": "FAQ",
     "header": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Find answers to common questions about Digimon Time Stranger"
+      "title": "常见问题",
+      "subtitle": "找到关于数码宝贝时间旅行者的常见问题答案"
     },
     "stats": {
-      "questions": "Questions",
-      "categories": "Categories",
-      "available": "Available",
-      "accurate": "Accurate"
+      "questions": "问题",
+      "categories": "分类",
+      "available": "可用",
+      "accurate": "准确"
     },
     "search": {
-      "placeholder": "Search questions...",
-      "noResults": "No questions found",
-      "tryAdjusting": "Try adjusting your search or category filter"
+      "placeholder": "搜索问题...",
+      "noResults": "未找到问题",
+      "tryAdjusting": "尝试调整你的搜索或分类筛选器"
     },
-    "filterTitle": "Filter by Category",
+    "filterTitle": "按分类筛选",
     "categories": {
-      "all": "All Questions",
-      "gettingStarted": "Getting Started",
-      "gameplay": "Gameplay",
-      "evolution": "Evolution",
-      "endgame": "Endgame",
-      "technical": "Technical"
+      "all": "所有问题",
+      "gettingStarted": "开始游戏",
+      "gameplay": "游戏玩法",
+      "evolution": "进化",
+      "endgame": "游戏后期",
+      "technical": "技术"
     },
     "cta": {
-      "title": "Still Have Questions?",
-      "description": "Can't find what you're looking for? Join our community forum to ask questions and get help from experienced players.",
-      "button": "Visit Community Forum"
+      "title": "还有问题？",
+      "description": "找不到你要找的？加入我们的社区论坛提问并从经验丰富的玩家那里获得帮助。",
+      "button": "访问社区论坛"
     }
   },
   "updates": {
-    "title": "Updates & Patch Notes",
-    "description": "Latest game updates and fixes for Digimon Story: Time Stranger",
-    "breadcrumb": "Updates",
+    "title": "更新与补丁说明",
+    "description": "数码宝贝故事：时间旅行者的最新游戏更新和修复",
+    "breadcrumb": "更新",
     "header": {
-      "title": "Updates & Patch Notes",
-      "subtitle": "Latest game updates and fixes for Digimon Story: Time Stranger"
+      "title": "更新与补丁说明",
+      "subtitle": "数码宝贝故事：时间旅行者的最新游戏更新和修复"
     },
-    "version": "Version {version}",
+    "version": "版本 {version}",
     "types": {
-      "release": "Release",
-      "patch": "Patch",
-      "hotfix": "Hotfix"
+      "release": "发布",
+      "patch": "补丁",
+      "hotfix": "热修复"
     },
     "changes": {
-      "new": "NEW",
-      "fix": "FIX",
-      "improvement": "IMPROVEMENT"
+      "new": "新",
+      "fix": "修复",
+      "improvement": "改进"
     },
     "cta": {
-      "title": "📢 Stay Updated",
-      "description": "This page is regularly updated with the latest patch notes and game updates.",
-      "note": "For official announcements, visit the"
+      "title": "📢 保持最新",
+      "description": "此页面定期更新最新的补丁说明和游戏更新。",
+      "note": "对于官方公告，请访问"
     }
   },
   "videos": {
-    "title": "Video Guides & Tutorials",
-    "description": "Watch comprehensive video guides and tutorials for Digimon Time Stranger",
-    "breadcrumb": "Videos",
+    "title": "视频指南与教程",
+    "description": "观看数码宝贝时间旅行者的综合视频指南和教程",
+    "breadcrumb": "视频",
     "header": {
-      "title": "Video Guides & Tutorials",
-      "subtitle": "Watch comprehensive guides to master every aspect of the game"
+      "title": "视频指南与教程",
+      "subtitle": "观看综合指南以掌握游戏的每个方面"
     },
     "stats": {
-      "videoGuides": "Video Guides",
-      "totalContent": "Total Content",
-      "totalViews": "Total Views",
-      "categories": "Categories"
+      "videoGuides": "视频指南",
+      "totalContent": "总内容",
+      "totalViews": "总观看次数",
+      "categories": "分类"
     },
-    "browseTitle": "Browse by Category",
-    "allVideos": "All Video Guides",
+    "browseTitle": "按分类浏览",
+    "allVideos": "所有视频指南",
     "categories": {
-      "all": "All Videos",
-      "beginner": "Beginner",
-      "evolution": "Evolution",
-      "teamBuilding": "Team Building",
-      "boss": "Boss Battles",
-      "advanced": "Advanced",
-      "speedrun": "Speedrun"
+      "all": "所有视频",
+      "beginner": "新手",
+      "evolution": "进化",
+      "teamBuilding": "队伍构建",
+      "boss": "首领战斗",
+      "advanced": "进阶",
+      "speedrun": "速通"
     },
     "difficulty": {
-      "easy": "Easy",
-      "medium": "Medium",
-      "hard": "Hard"
+      "easy": "简单",
+      "medium": "中等",
+      "hard": "困难"
     },
     "sections": {
-      "beginnerTitle": "Beginner Guides",
-      "beginnerDescription": "Perfect for new players starting their journey",
-      "bossTitle": "Boss Battle Guides",
-      "bossDescription": "Master every boss encounter with detailed strategies",
-      "advancedTitle": "Advanced Techniques",
-      "advancedDescription": "For experienced players",
-      "speedrunTitle": "Speedrun Content",
-      "speedrunDescription": "Optimize your playtime"
+      "beginnerTitle": "新手指南",
+      "beginnerDescription": "非常适合开始旅程的新玩家",
+      "bossTitle": "首领战斗指南",
+      "bossDescription": "通过详细策略掌握每个首领遭遇战",
+      "advancedTitle": "进阶技巧",
+      "advancedDescription": "适合经验丰富的玩家",
+      "speedrunTitle": "速通内容",
+      "speedrunDescription": "优化你的游戏时间"
     },
-    "views": "views",
+    "views": "观看次数",
     "cta": {
-      "title": "Want More Content?",
-      "description": "Subscribe to our YouTube channel for weekly video guides, updates, and community highlights. Never miss new strategies and tips!",
-      "button": "Subscribe on YouTube"
+      "title": "想要更多内容？",
+      "description": "订阅我们的YouTube频道获取每周视频指南、更新和社区亮点。不要错过新策略和技巧！",
+      "button": "在YouTube上订阅"
     }
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "description": "Learn how we collect, use, and protect your data",
-    "breadcrumb": "Privacy Policy"
+    "title": "隐私政策",
+    "description": "了解我们如何收集、使用和保护你的数据",
+    "breadcrumb": "隐私政策"
   },
   "terms": {
-    "title": "Terms of Service",
-    "description": "Terms and conditions for using this website",
-    "breadcrumb": "Terms of Service"
+    "title": "服务条款",
+    "description": "使用本网站的服务条款和条件",
+    "breadcrumb": "服务条款"
   },
   "pc": {
     "steamDeck": {
-      "title": "PC & Steam Deck Settings Guide",
-      "description": "Optimize your gaming experience on PC and Steam Deck",
-      "seoTitle": "PC & Steam Deck Settings - Optimal Configuration Guide",
-      "seoDescription": "Complete guide for optimizing Digimon Story: Time Stranger on PC and Steam Deck. Graphics settings, control configurations, and performance tips.",
-      "subtitle": "Optimize your gaming experience on PC and Steam Deck",
+      "title": "PC和Steam Deck设置指南",
+      "description": "优化你在PC和Steam Deck上的游戏体验",
+      "seoTitle": "PC和Steam Deck设置 - 最佳配置指南",
+      "seoDescription": "PC和Steam Deck上数码宝贝故事：时间旅行者的优化完整指南。图形设置、控制配置和性能技巧。",
+      "subtitle": "优化你在PC和Steam Deck上的游戏体验",
       "systemRequirements": {
-        "title": "System Requirements",
-        "minimum": "Minimum Requirements",
-        "recommended": "Recommended Requirements",
-        "os": "OS:",
-        "cpu": "CPU:",
-        "ram": "RAM:",
-        "gpu": "GPU:",
-        "storage": "Storage:",
-        "directx": "DirectX:"
+        "title": "系统要求",
+        "minimum": "最低要求",
+        "recommended": "推荐要求",
+        "os": "操作系统：",
+        "cpu": "CPU：",
+        "ram": "内存：",
+        "gpu": "GPU：",
+        "storage": "存储：",
+        "directx": "DirectX："
       },
       "graphics": {
-        "title": "Recommended Graphics Settings",
-        "highEnd": "🖥️ High-End PC (RTX 3070 / RX 6800 or better)",
-        "midRange": "💻 Mid-Range PC (GTX 1660 Ti / RX 5600 XT)",
-        "resolution": "Resolution:",
-        "quality": "Quality Preset:",
-        "antiAliasing": "Anti-Aliasing:",
-        "shadows": "Shadows:",
-        "textures": "Textures:",
-        "effects": "Effects:",
-        "vSync": "V-Sync:",
-        "fpsCap": "FPS Cap:",
-        "performance": "Expected Performance:"
+        "title": "推荐图形设置",
+        "highEnd": "🖥️ 高端PC（RTX 3070 / RX 6800或更好）",
+        "midRange": "💻 中端PC（GTX 1660 Ti / RX 5600 XT）",
+        "resolution": "分辨率：",
+        "quality": "质量预设：",
+        "antiAliasing": "抗锯齿：",
+        "shadows": "阴影：",
+        "textures": "纹理：",
+        "effects": "效果：",
+        "vSync": "垂直同步：",
+        "fpsCap": "FPS上限：",
+        "performance": "预期性能："
       },
       "steamDeckSettings": {
-        "title": "Steam Deck Optimized Settings",
-        "verified": "Steam Deck Verified Settings",
-        "optimized": "✓ Optimized for Steam Deck",
-        "fsr": "FSR:",
-        "tdpLimit": "TDP Limit:",
-        "batteryTitle": "💡 Battery Life Tips:",
-        "tip1": "Use 40 FPS cap for extended battery life (4-5 hours)",
-        "tip2": "Enable FSR for better performance without quality loss",
-        "tip3": "Lower screen brightness to 60% for optimal balance",
-        "tip4": "Use TDP limit of 10W for maximum battery duration"
+        "title": "Steam Deck优化设置",
+        "verified": "Steam Deck验证设置",
+        "optimized": "✓ 为Steam Deck优化",
+        "fsr": "FSR：",
+        "tdpLimit": "TDP限制：",
+        "batteryTitle": "💡 电池寿命技巧：",
+        "tip1": "使用40 FPS上限延长电池寿命（4-5小时）",
+        "tip2": "启用FSR以获得更好的性能而没有质量损失",
+        "tip3": "将屏幕亮度降低到60%以获得最佳平衡",
+        "tip4": "使用10W的TDP限制以获得最大电池持续时间"
       },
       "controls": {
-        "title": "Control Settings",
-        "recommended": "Recommended Controller Layout",
-        "movement": "Movement & Camera",
-        "leftStick": "Left Stick:",
-        "rightStick": "Right Stick:",
-        "dPad": "D-Pad:",
-        "actions": "Actions",
-        "confirm": "A/Cross:",
-        "cancel": "B/Circle:",
-        "menu": "X/Square:",
-        "info": "Y/Triangle:",
-        "characterMovement": "Character Movement",
-        "cameraControl": "Camera Control",
-        "quickMenu": "Quick Menu Navigation",
-        "confirmInteract": "Confirm / Interact",
-        "cancelBack": "Cancel / Back",
-        "menuLabel": "Menu",
-        "quickInfo": "Quick Digimon Info"
+        "title": "控制设置",
+        "recommended": "推荐控制器布局",
+        "movement": "移动与相机",
+        "leftStick": "左摇杆：",
+        "rightStick": "右摇杆：",
+        "dPad": "方向键：",
+        "actions": "操作",
+        "confirm": "A/叉键：",
+        "cancel": "B/圆圈键：",
+        "menu": "X/方键：",
+        "info": "Y/三角键：",
+        "characterMovement": "角色移动",
+        "cameraControl": "相机控制",
+        "quickMenu": "快速菜单导航",
+        "confirmInteract": "确认 / 互动",
+        "cancelBack": "取消 / 返回",
+        "menuLabel": "菜单",
+        "quickInfo": "快速数码宝贝信息"
       },
       "troubleshooting": {
-        "title": "Common Issues & Fixes",
-        "lowFps": "Low FPS / Stuttering",
-        "controller": "Controller Not Working",
-        "saves": "Save File Issues"
+        "title": "常见问题与修复",
+        "lowFps": "低FPS / 卡顿",
+        "controller": "控制器不工作",
+        "saves": "存档文件问题"
       }
     }
   },
   "search": {
-    "title": "Search Results",
-    "description": "Search the complete Digimon Time Stranger guide",
-    "breadcrumb": "Search"
+    "title": "搜索结果",
+    "description": "搜索完整的数码宝贝时间旅行者指南",
+    "breadcrumb": "搜索"
   },
   "seo": {
     "home": {
-      "title": "Digimon Story: Time Stranger - Complete Guide & Database",
-      "description": "Comprehensive guide for Digimon Story: Time Stranger. Complete Digidex, evolution trees, boss strategies, walkthroughs, and community resources."
+      "title": "数码宝贝故事：时间旅行者 - 完整指南与数据库",
+      "description": "数码宝贝故事：时间旅行者的综合指南。完整图鉴、进化树、首领策略、攻略和社区资源。"
     },
     "digidex": {
-      "title": "Digidex - Complete Digimon Database | Digimon Story Time Stranger",
-      "description": "Browse all Digimon with detailed stats, evolution paths, locations, and skills. Complete database for Digimon Story: Time Stranger."
+      "title": "图鉴 - 完整数码宝贝数据库 | 数码宝贝故事时间旅行者",
+      "description": "浏览所有数码宝贝的详细数据、进化路径、位置和技能。数码宝贝故事：时间旅行者的完整数据库。"
     },
     "guides": {
-      "title": "Guides & Strategies | Digimon Story Time Stranger",
-      "description": "Expert guides, strategies, and tips for Digimon Story: Time Stranger. Evolution guides, team building, and advanced tactics."
+      "title": "指南与策略 | 数码宝贝故事时间旅行者",
+      "description": "数码宝贝故事：时间旅行者的专家指南、策略和技巧。进化指南、队伍构建和高级战术。"
     }
+  },
+  "dex": {
+    "title": "完整图鉴数据库"
+  },
+  "stages": {
+    "all": "所有阶段",
+    "inTrainingI": "幼年期I",
+    "inTrainingII": "幼年期II",
+    "rookie": "成长期",
+    "champion": "成熟期",
+    "ultimate": "完全体",
+    "mega": "究极体",
+    "megaPlus": "究极体+",
+    "armor": "装甲体",
+    "hybrid": "混合体"
+  },
+  "attributes": {
+    "all": "所有属性",
+    "vaccine": "疫苗",
+    "data": "数据",
+    "virus": "病毒",
+    "free": "自由",
+    "variable": "可变"
+  },
+  "filterLabels": {
+    "search": "搜索",
+    "stage": "阶段",
+    "attribute": "属性"
   }
 }

@@ -1,932 +1,969 @@
 {
   "common": {
-    "readMore": "Read More",
-    "search": "Search",
-    "filter": "Filter",
-    "sort": "Sort",
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "notFound": "Not Found",
-    "backToHome": "Back to Home"
+    "readMore": "Lire Plus",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "notFound": "Non Trouvé",
+    "backToHome": "Retour à l'Accueil",
+    "total": "Total",
+    "digimon": "Digimon",
+    "stage": "Stade",
+    "attribute": "Attribut",
+    "currentFilters": "Filtres Actuels",
+    "clearFilters": "Tout Effacer",
+    "found": "Trouvé",
+    "results": "résultats",
+    "noResults": "Aucun résultat trouvé",
+    "tryOtherKeywords": "Essayez d'autres termes de recherche ou filtres",
+    "searchPlaceholder": "Rechercher Digimon...",
+    "searchHistory": "Historique de Recherche",
+    "clear": "Effacer"
   },
   "nav": {
-    "home": "Home",
-    "walkthrough": "Walkthrough",
+    "home": "Accueil",
+    "walkthrough": "Soluce",
     "digidex": "Digidex",
-    "database": "Database",
+    "database": "Base de Données",
     "guides": "Guides",
-    "evolution": "Evolution",
-    "bosses": "Bosses",
-    "walkthroughs": "Walkthroughs",
-    "tools": "Tools",
-    "community": "Community",
-    "about": "About",
+    "evolution": "Évolution",
+    "bosses": "Boss",
+    "walkthroughs": "Soluces",
+    "tools": "Outils",
+    "community": "Communauté",
+    "about": "À Propos",
     "siteTitle": "Digimon Time Stranger",
-    "siteSubtitle": "Complete Strategy Guide"
+    "siteSubtitle": "Guide Stratégique Complet",
+    "favorites": "Mes Favoris",
+    "compare": "Comparer",
+    "pathPlanner": "Planificateur de Parcours"
   },
   "home": {
     "title": "Digimon Story: Time Stranger",
-    "subtitle": "Your Complete Guide to the Digital World",
-    "description": "Explore comprehensive guides, evolution trees, boss strategies, and community resources for Digimon Story: Time Stranger.",
+    "subtitle": "Votre Guide Complet du Monde Digital",
+    "description": "Explorez des guides complets, arbres d'évolution, stratégies de boss et ressources communautaires pour Digimon Story: Time Stranger.",
     "hero": {
-      "title": "Welcome to the Digital World",
-      "subtitle": "Your ultimate guide for Digimon Story: Time Stranger",
-      "cta": "Explore Digidex"
+      "title": "Bienvenue dans le Monde Digital",
+      "subtitle": "Votre guide ultime pour Digimon Story: Time Stranger",
+      "cta": "Explorer le Digidex"
     },
     "features": {
-      "title": "Everything You Need",
+      "title": "Tout Ce Dont Vous Avez Besoin",
       "digidex": {
-        "title": "Complete Digidex",
-        "description": "Detailed stats, evolution paths, and locations for every Digimon"
+        "title": "Digidex Complet",
+        "description": "Stats détaillées, parcours d'évolution et localisations pour chaque Digimon"
       },
       "guides": {
-        "title": "Expert Guides",
-        "description": "In-depth walkthroughs, strategies, and tips from experienced players"
+        "title": "Guides d'Experts",
+        "description": "Soluces approfondies, stratégies et astuces de joueurs expérimentés"
       },
       "evolution": {
-        "title": "Evolution Trees",
-        "description": "Interactive evolution charts showing all paths and requirements"
+        "title": "Arbres d'Évolution",
+        "description": "Graphiques d'évolution interactifs montrant tous les parcours et exigences"
       },
       "bosses": {
-        "title": "Boss Strategies",
-        "description": "Proven tactics and team compositions for every boss battle"
+        "title": "Stratégies de Boss",
+        "description": "Tactiques éprouvées et compositions d'équipe pour chaque combat de boss"
       }
     },
     "quickStart": {
-      "title": "Quick Start Guide",
-      "beginner": "New to the game? Start here!",
-      "evolution": "Learn about Digimon evolution",
-      "team": "Build your perfect team"
+      "title": "Guide de Démarrage Rapide",
+      "beginner": "Nouveau au jeu ? Commencez ici !",
+      "evolution": "Apprenez l'évolution des Digimon",
+      "team": "Constituez votre équipe parfaite"
     },
     "popularGuides": {
-      "title": "Popular Guides",
-      "evolutionGuide": "Digimon Evolution Guide",
-      "teamBuilding": "Team Building Strategies",
-      "storyBranches": "Story Branches & Endings",
-      "memoryManagement": "Memory Management Tips"
+      "title": "Guides Populaires",
+      "evolutionGuide": "Guide d'Évolution des Digimon",
+      "teamBuilding": "Stratégies de Constitution d'Équipe",
+      "storyBranches": "Branches d'Histoire & Fins",
+      "memoryManagement": "Astuces de Gestion de Mémoire"
     },
     "recentUpdates": {
-      "title": "Recent Updates",
-      "seeAll": "See All Updates"
+      "title": "Mises à Jour Récentes",
+      "seeAll": "Voir Toutes les Mises à Jour"
     },
     "community": {
-      "title": "Join Our Community",
-      "description": "Connect with other Tamers, share strategies, and stay updated",
-      "discord": "Join Discord",
-      "forum": "Visit Forum"
+      "title": "Rejoignez Notre Communauté",
+      "description": "Connectez-vous avec d'autres Dresseurs, partagez des stratégies et restez informé",
+      "discord": "Rejoindre Discord",
+      "forum": "Visiter le Forum"
     }
   },
   "digidex": {
     "title": "Digidex",
-    "description": "Browse all Digimon with detailed stats and evolution paths",
-    "searchPlaceholder": "Search Digimon...",
+    "description": "Parcourez tous les Digimon avec des stats détaillées et parcours d'évolution",
+    "searchPlaceholder": "Rechercher Digimon...",
     "filters": {
-      "all": "All",
-      "stage": "Stage",
-      "attribute": "Attribute",
-      "element": "Element"
+      "all": "Tous",
+      "stage": "Stade",
+      "attribute": "Attribut",
+      "element": "Élément"
     },
     "stats": {
-      "hp": "HP",
-      "atk": "ATK",
+      "hp": "PV",
+      "atk": "ATQ",
       "def": "DEF",
-      "spAtk": "SP.ATK",
-      "spDef": "SP.DEF",
-      "speed": "SPEED"
+      "spAtk": "ATQ.SP",
+      "spDef": "DEF.SP",
+      "speed": "VITESSE"
     }
   },
   "database": {
-    "title": "Database",
-    "description": "Complete game database with bosses, items, skills, and stats",
-    "breadcrumb": "Database",
+    "title": "Base de Données",
+    "description": "Base de données complète du jeu avec boss, objets, compétences et stats",
+    "breadcrumb": "Base de Données",
     "categories": {
-      "bosses": "Bosses",
-      "items": "Items",
-      "skills": "Skills",
+      "bosses": "Boss",
+      "items": "Objets",
+      "skills": "Compétences",
       "stats": "Stats",
-      "personalities": "Personalities",
-      "agentSkills": "Agent Skills"
+      "personalities": "Personnalités",
+      "agentSkills": "Compétences d'Agent"
     },
     "bosses": {
-      "title": "Boss Database",
-      "description": "Complete boss guide with strategies and weaknesses",
-      "difficulty": "Difficulty",
-      "level": "Level",
-      "hp": "HP",
-      "weaknesses": "Weaknesses",
-      "resistances": "Resistances",
-      "strategy": "Strategy",
-      "rewards": "Rewards",
-      "location": "Location"
+      "title": "Base de Données des Boss",
+      "description": "Guide complet des boss avec stratégies et faiblesses",
+      "difficulty": "Difficulté",
+      "level": "Niveau",
+      "hp": "PV",
+      "weaknesses": "Faiblesses",
+      "resistances": "Résistances",
+      "strategy": "Stratégie",
+      "rewards": "Récompenses",
+      "location": "Localisation"
     },
     "items": {
-      "title": "Item Database",
-      "description": "Complete item list with effects and locations"
+      "title": "Base de Données des Objets",
+      "description": "Liste complète des objets avec effets et localisations"
     },
     "skills": {
-      "title": "Skill Database",
-      "description": "All Digimon skills and abilities"
+      "title": "Base de Données des Compétences",
+      "description": "Toutes les compétences et capacités des Digimon"
     },
     "stats": {
-      "title": "Stats Reference",
-      "description": "Game mechanics and stat calculations"
+      "title": "Référence des Stats",
+      "description": "Mécaniques de jeu et calculs de stats"
     },
     "personalities": {
-      "title": "Personalities Guide",
-      "description": "Personality types and stat growth rates"
+      "title": "Guide des Personnalités",
+      "description": "Types de personnalité et taux de croissance des stats"
     },
     "agentSkills": {
-      "title": "Agent Skills",
-      "description": "Special agent abilities and effects"
+      "title": "Compétences d'Agent",
+      "description": "Capacités spéciales d'agent et effets"
     }
   },
   "digimon": {
-    "baseStats": "Base Stats",
-    "skills": "Skills",
-    "evolvesTo": "Evolves To",
-    "devolvesFrom": "Devolves From",
-    "locations": "Locations",
-    "memory": "Memory",
-    "quickLinks": "Quick Links",
-    "viewEvolutionTree": "View Evolution Tree",
-    "addToTeamBuilder": "Add to Team Builder",
-    "backToDigidex": "Back to Digidex",
-    "howToGet": "How to Get {name}",
-    "foundIn": "{name} can be found in: {locations}",
-    "obtainThroughEvolution": "{name} can be obtained through evolution"
+    "baseStats": "Stats de Base",
+    "skills": "Compétences",
+    "evolvesTo": "Évolue En",
+    "devolvesFrom": "Régresse De",
+    "locations": "Localisations",
+    "memory": "Mémoire",
+    "quickLinks": "Liens Rapides",
+    "viewEvolutionTree": "Voir l'Arbre d'Évolution",
+    "addToTeamBuilder": "Ajouter au Constructeur d'Équipe",
+    "backToDigidex": "Retour au Digidex",
+    "howToGet": "Comment Obtenir {name}",
+    "foundIn": "{name} peut être trouvé dans : {locations}",
+    "obtainThroughEvolution": "{name} peut être obtenu par évolution"
   },
   "guides": {
     "title": "Guides",
-    "description": "Comprehensive guides and strategies",
+    "description": "Guides complets et stratégies",
     "categories": {
-      "beginner": "Beginner",
-      "advanced": "Advanced",
-      "evolution": "Evolution",
-      "team": "Team Building",
-      "story": "Story"
+      "beginner": "Débutant",
+      "advanced": "Avancé",
+      "evolution": "Évolution",
+      "team": "Constitution d'Équipe",
+      "story": "Histoire"
     },
     "bestStarters": {
-      "title": "Best Starter Digimon Guide for Time Stranger",
-      "description": "Complete analysis of starter Digimon, evolution paths, and early-game strategies",
-      "breadcrumb": "Best Starters",
-      "seoTitle": "Best Starter Digimon Guide - Top Picks for Early Game Success",
-      "seoDescription": "Discover the best starter Digimon in Time Stranger for 2025. Complete analysis of early-game choices, evolution paths, stats, and team synergy. Updated for the latest patch.",
+      "title": "Guide des Meilleurs Digimon de Départ pour Time Stranger",
+      "description": "Analyse complète des Digimon de départ, parcours d'évolution et stratégies de début de jeu",
+      "breadcrumb": "Meilleurs Départs",
+      "seoTitle": "Guide des Meilleurs Digimon de Départ - Choix de Qualité pour le Début de Jeu",
+      "seoDescription": "Découvrez les meilleurs Digimon de départ dans Time Stranger pour 2025. Analyse complète des choix de début de jeu, parcours d'évolution, stats et synergie d'équipe. Mis à jour pour la dernière version.",
       "hero": {
-        "title": "Best Starter Digimon Guide for Time Stranger",
-        "subtitle": "Complete analysis of starter Digimon, evolution paths, and early-game strategies",
-        "updated": "Updated: January 2025",
-        "readTime": "8 min read",
-        "author": "By DTS Team"
+        "title": "Guide des Meilleurs Digimon de Départ pour Time Stranger",
+        "subtitle": "Analyse complète des Digimon de départ, parcours d'évolution et stratégies de début de jeu",
+        "updated": "Mis à jour : Janvier 2025",
+        "readTime": "8 min de lecture",
+        "author": "Par l'équipe DTS"
       },
       "intro": {
-        "paragraph1": "Choosing your first Digimon partner in Digimon Story: Time Stranger is one of the most important decisions you'll make in your journey. While you'll eventually have access to hundreds of Digimon, your starter will carry you through the critical early game hours and set the foundation for your team composition.",
-        "paragraph2": "In this comprehensive guide, we'll analyze all available starter options, their evolution paths, stat distributions, and ideal team synergies. Whether you're a returning Digimon veteran or brand new to the series, this guide will help you make an informed choice that matches your playstyle."
+        "paragraph1": "Choisir votre premier partenaire Digimon dans Digimon Story: Time Stranger est l'une des décisions les plus importantes que vous prendrez dans votre aventure. Bien que vous finissiez par avoir accès à des centaines de Digimon, votre départ vous portera pendant les heures critiques du début du jeu et établira les fondations de la composition de votre équipe.",
+        "paragraph2": "Dans ce guide complet, nous analyserons toutes les options de départ disponibles, leurs parcours d'évolution, distributions de stats et synergies d'équipe idéales. Que vous soyez un vétéran de Digimon ou complètement nouveau dans la série, ce guide vous aidera à faire un choix éclairé qui correspond à votre style de jeu."
       },
       "quickRecs": {
-        "title": "TL;DR - Quick Recommendations",
-        "bestOverall": "Best Overall: Agumon - Excellent balanced stats, strong evolution path, beginner-friendly",
-        "bestSpeed": "Best for Speed: Veemon - High speed stat, versatile evolutions, great for outpacing enemies",
-        "bestDefense": "Best for Defense: Guilmon - Tank build, excellent HP and DEF scaling"
+        "title": "En Bref - Recommandations Rapides",
+        "bestOverall": "Meilleur en Général : Agumon - Stats équilibrées excellentes, parcours d'évolution fort, convivial pour débutants",
+        "bestSpeed": "Meilleur pour la Vitesse : Veemon - Stat de vitesse élevée, évolutions polyvalentes, excellent pour dépasser les ennemis",
+        "bestDefense": "Meilleur pour la Défense : Guilmon - Build tank, excellent scaling PV et DEF"
       },
       "mechanics": {
-        "title": "Understanding Starter Mechanics",
-        "intro": "Before diving into specific recommendations, it's crucial to understand how starter Digimon work in Time Stranger:",
-        "statBonus": "Permanent Stat Bonus: Your starter receives a permanent +5% bonus to all base stats, making it slightly stronger than the same Digimon obtained later.",
-        "abiGrowth": "Faster ABI Growth: Starters gain ABI (Ability) points 20% faster, reaching evolution requirements sooner.",
-        "bondMove": "Special Bond Move: After reaching Champion stage, your starter unlocks a unique signature move not available to other Digimon of the same species.",
-        "memoryEfficiency": "Memory Efficiency: Your starter costs -2 Memory in team composition, allowing for more flexible team building."
+        "title": "Comprendre les Mécaniques de Départ",
+        "intro": "Avant de plonger dans des recommandations spécifiques, il est crucial de comprendre comment les Digimon de départ fonctionnent dans Time Stranger :",
+        "statBonus": "Bonus de Stats Permanent : Votre départ reçoit un bonus permanent de +5% à toutes les stats de base, le rendant légèrement plus fort que le même Digimon obtenu plus tard.",
+        "abiGrowth": "Croissance ABI Plus Rapide : Les départs gagnent des points ABI (Capacité) 20% plus vite, atteignant les exigences d'évolution plus tôt.",
+        "bondMove": "Mouvement de Lien Spécial : Après avoir atteint le stade Champion, votre départ débloque un mouvement signature unique non disponible aux autres Digimon de la même espèce.",
+        "memoryEfficiency": "Efficacité Mémoire : Votre départ coûte -2 Mémoire dans la composition d'équipe, permettant une construction d'équipe plus flexible."
       },
       "rankings": {
-        "title": "Top Starter Digimon Ranked",
+        "title": "Classement des Meilleurs Digimon de Départ",
         "agumon": {
           "rank": "1",
-          "name": "Agumon - The Perfect All-Rounder",
-          "types": [
-            "Fire",
-            "Vaccine"
-          ],
-          "description": "Agumon is the quintessential starter choice and has been a franchise favorite since the original Digimon World. In Time Stranger, Agumon excels in all areas without significant weaknesses.",
-          "strengthsTitle": "Strengths:",
+          "name": "Agumon - Le Polyvalent Parfait",
+          "types": ["Feu", "Vaccin"],
+          "description": "Agumon est le choix de départ quintessentiel et a été un favori de la franchise depuis le Digimon World original. Dans Time Stranger, Agumon excelle dans tous les domaines sans faiblesses significatives.",
+          "strengthsTitle": "Forces :",
           "strengths": [
-            "Balanced stat distribution perfect for beginners",
-            "Strong offensive capabilities with Fire-type moves",
-            "Clear evolution path to WarGreymon (top-tier Mega)",
-            "Learns Pepper Breath early for strong early damage",
-            "Excellent synergy with most team compositions"
+            "Distribution de stats équilibrée parfaite pour débutants",
+            "Capacités offensives puissantes avec mouvements de type Feu",
+            "Parcours d'évolution clair vers WarGreymon (Mega de premier ordre)",
+            "Apprend Souffle Poivre tôt pour dégâts forts en début",
+            "Excellente synergie avec la plupart des compositions d'équipe"
           ],
-          "weaknessesTitle": "Weaknesses:",
+          "weaknessesTitle": "Faiblesses :",
           "weaknesses": [
-            "No significant weaknesses",
-            "Slightly slower than Veemon",
-            "Fire typing weak to Water (common early-game)"
+            "Aucune faiblesse significative",
+            "Légèrement plus lent que Veemon",
+            "Typage Feu faible contre Eau (commun en début de jeu)"
           ],
           "evolutionPath": "Koromon → Agumon → Greymon → MetalGreymon → WarGreymon",
-          "evolutionTip": "Evolution Tip: Wait until Level 16 to evolve to Greymon after learning Claw Swipe."
+          "evolutionTip": "Astuce d'Évolution : Attendez le Niveau 16 pour évoluer en Greymon après avoir appris Griffes."
         },
         "veemon": {
           "rank": "2",
-          "name": "Veemon - The Speed Demon",
-          "types": [
-            "Light",
-            "Free"
-          ],
-          "description": "Veemon is the ideal choice for players who value speed and versatility. With the highest Speed stat among starters and multiple evolution branches, Veemon offers exceptional tactical flexibility.",
-          "strengthsTitle": "Strengths:",
+          "name": "Veemon - Le Démon de Vitesse",
+          "types": ["Lumière", "Libre"],
+          "description": "Veemon est le choix idéal pour les joueurs qui valorisent la vitesse et la polyvalence. Avec la stat de Vitesse la plus élevée parmi les départs et multiples branches d'évolution, Veemon offre une flexibilité tactique exceptionnelle.",
+          "strengthsTitle": "Forces :",
           "strengths": [
-            "Highest Speed stat (60 base) among all starters",
-            "Multiple evolution paths (ExVeemon, Veedramon, Flamedramon)",
-            "Excellent for competitive play and speedrun strategies",
-            "Free attribute makes it neutral to most matchups",
-            "Can pivot team composition based on evolution choice"
+            "Stat de Vitesse la plus élevée (60 base) parmi tous les départs",
+            "Parcours d'évolution multiples (ExVeemon, Veedramon, Flamedramon)",
+            "Excellent pour jeu compétitif et stratégies de speedrun",
+            "Attribut Libre le rend neutre contre la plupart des matchups",
+            "Peut pivoter la composition d'équipe basée sur le choix d'évolution"
           ],
-          "weaknessesTitle": "Weaknesses:",
+          "weaknessesTitle": "Faiblesses :",
           "weaknesses": [
-            "Lower HP and DEF compared to other starters",
-            "Requires more strategic positioning",
-            "Some evolution paths are harder to unlock",
-            "Glass cannon playstyle not beginner-friendly"
+            "PV et DEF inférieurs aux autres départs",
+            "Nécessite plus de positionnement stratégique",
+            "Certains parcours d'évolution sont plus difficiles à débloquer",
+            "Style de jeu canon de verre peu convivial pour débutants"
           ],
           "evolutionPath": "DemiVeemon → Veemon → ExVeemon → Paildramon → Imperialdramon",
-          "evolutionTip": "Evolution Tip: Paildramon requires ExVeemon + Stingmon DNA Digivolution. Plan ahead."
+          "evolutionTip": "Astuce d'Évolution : Paildramon nécessite ExVeemon + Stingmon DNA Digivolution. Planifiez à l'avance."
         },
         "guilmon": {
           "rank": "3",
-          "name": "Guilmon - The Tank",
-          "types": [
-            "Fire",
-            "Virus"
-          ],
-          "description": "Guilmon is the tank specialist among starters. With exceptional HP and DEF scaling, Guilmon can take hits that would KO other Digimon, making it perfect for defensive playstyles.",
-          "strengthsTitle": "Strengths:",
+          "name": "Guilmon - Le Tank",
+          "types": ["Feu", "Virus"],
+          "description": "Guilmon est le spécialiste tank parmi les départs. Avec un scaling PV et DEF exceptionnel, Guilmon peut encaisser des coups qui mettraient KO d'autres Digimon, le rendant parfait pour les styles de jeu défensifs.",
+          "strengthsTitle": "Forces :",
           "strengths": [
-            "Highest HP (62 base) and DEF (50 base) among starters",
-            "Can survive boss attacks in early-mid game",
-            "Evolution to Gallantmon is extremely powerful",
-            "Virus attribute effective against Vaccine bosses",
-            "Learns Rock Breaker for AOE damage"
+            "PV le plus élevé (62 base) et DEF (50 base) parmi les départs",
+            "Peut survivre aux attaques de boss en milieu de partie",
+            "Évolution vers Gallantmon extrêmement puissante",
+            "Attribut Virus efficace contre les boss Vaccin",
+            "Apprend Brise-Roche pour dégâts AOE"
           ],
-          "weaknessesTitle": "Weaknesses:",
+          "weaknessesTitle": "Faiblesses :",
           "weaknesses": [
-            "Slowest Speed stat (48 base)",
-            "Often moves last in battle",
-            "Lower SP.ATK makes special moves less effective",
-            "Gallantmon evolution path requires late-game items"
+            "Stat de Vitesse la plus lente (48 base)",
+            "Souvent le dernier à agir au combat",
+            "ATQ.SP inférieure rend les mouvements spéciaux moins efficaces",
+            "Parcours d'évolution Gallantmon nécessite objets de fin de jeu"
           ],
           "evolutionPath": "Gigimon → Guilmon → Growlmon → WarGrowlmon → Gallantmon",
-          "evolutionTip": "Evolution Tip: Save \"Crimson Mode\" evolution for post-game content."
+          "evolutionTip": "Astuce d'Évolution : Réservez l'évolution \"Mode Crimson\" pour le contenu post-jeu."
         }
       },
       "teamBuilding": {
-        "title": "Early Game Team Building Tips",
-        "intro": "Your starter is just the foundation. Here's how to build a balanced early-game team around each starter:",
-        "agumonTip": "For Agumon Starters: Add a Water-type like Gomamon or Palmon (Plant) to cover Fire's weakness. Include a support Digimon like Patamon for healing.",
-        "veemonTip": "For Veemon Starters: Since Veemon lacks bulk, add defensive Digimon like Armadillomon or Kotemon. Use Veemon's speed to strike first and eliminate threats.",
-        "guilmonTip": "For Guilmon Starters: Complement Guilmon's slow speed with fast attackers like Terriermon or Renamon. Let Guilmon tank hits while others deal damage."
+        "title": "Astuces de Construction d'Équipe en Début de Jeu",
+        "intro": "Votre départ n'est que la fondation. Voici comment construire une équipe équilibrée en début de jeu autour de chaque départ :",
+        "agumonTip": "Pour Départs Agumon : Ajoutez un type Eau comme Gomamon ou Palmon (Plante) pour couvrir la faiblesse du Feu. Incluez un Digimon de support comme Patamon pour les soins.",
+        "veemonTip": "Pour Départs Veemon : Puisque Veemon manque de robustesse, ajoutez des Digimon défensifs comme Armadillomon ou Kotemon. Utilisez la vitesse de Veemon pour frapper en premier et éliminer les menaces.",
+        "guilmonTip": "Pour Départs Guilmon : Complétez la lenteur de Guilmon avec des attaquants rapides comme Terriermon ou Renamon. Laissez Guilmon encaisser les coups pendant que les autres infligent des dégâts."
       },
       "mistakes": {
-        "title": "Common Starter Mistakes to Avoid",
+        "title": "Erreurs Courantes de Départ à Éviter",
         "evolvingEarly": {
-          "title": "Evolving Too Early",
-          "description": "Wait until your starter learns its signature Rookie-level move before evolving. For Agumon, that's Claw Swipe at Level 16."
+          "title": "Évoluer Trop Tôt",
+          "description": "Attendez que votre départ apprenne son mouvement signature de niveau Rookie avant d'évoluer. Pour Agumon, c'est Griffes au Niveau 16."
         },
         "ignoringABI": {
-          "title": "Ignoring ABI Training",
-          "description": "ABI (Ability) points are crucial for reaching Mega evolutions. Use the DigiFarm to train ABI even when not actively using your starter."
+          "title": "Ignorer l'Entraînement ABI",
+          "description": "Les points ABI (Capacité) sont cruciaux pour atteindre les évolutions Mega. Utilisez la DigiFerme pour entraîner l'ABI même lorsque vous n'utilisez pas activement votre départ."
         },
         "overRelying": {
-          "title": "Over-Relying on Your Starter",
-          "description": "While starters are strong, don't neglect building a diverse team. Some bosses will hard counter your starter's typing."
+          "title": "Sur-Dépendance à Votre Départ",
+          "description": "Bien que les départs soient forts, ne négligez pas de construire une équipe diversifiée. Certains boss contreduront durement le typage de votre départ."
         }
       },
       "faqs": {
-        "title": "Frequently Asked Questions",
+        "title": "Questions Fréquemment Posées",
         "q1": {
-          "question": "What is the best starter Digimon in Time Stranger?",
-          "answer": "Agumon is widely considered the best overall starter due to excellent stats, strong Fire-type offense, and straightforward evolution path to powerful forms like WarGreymon."
+          "question": "Quel est le meilleur Digimon de départ dans Time Stranger ?",
+          "answer": "Agumon est largement considéré comme le meilleur départ en général grâce à ses stats excellentes, son offense de type Feu puissante, et son parcours d'évolution simple vers des formes puissantes comme WarGreymon."
         },
         "q2": {
-          "question": "Can I get all starters in one playthrough?",
-          "answer": "Yes! While you choose one starter at the beginning, you can recruit all other starter Digimon later through scanning and evolution."
+          "question": "Puis-je obtenir tous les départs dans une seule partie ?",
+          "answer": "Oui ! Bien que vous choisissiez un départ au début, vous pouvez recruter tous les autres Digimon de départ plus tard via scanning et évolution."
         },
         "q3": {
-          "question": "Does my starter choice affect the story?",
-          "answer": "Your starter choice has minor dialogue variations but does not significantly impact the main story. Choose based on playstyle preference."
+          "question": "Mon choix de départ affecte-t-il l'histoire ?",
+          "answer": "Votre choix de départ a des variations de dialogue mineures mais n'affecte pas significativement l'histoire principale. Choisissez basé sur votre préférence de style de jeu."
         },
         "q4": {
-          "question": "When should I evolve my starter?",
-          "answer": "Most starters should evolve to Champion around level 15-18. Wait until they learn their signature Rookie-level skills before evolving."
+          "question": "Quand dois-je faire évoluer mon départ ?",
+          "answer": "La plupart des départs devraient évoluer en Champion autour du niveau 15-18. Attendez qu'ils apprennent leurs compétences signature de niveau Rookie avant d'évoluer."
         }
       },
       "conclusion": {
-        "title": "Final Verdict",
-        "paragraph1": "While all starters are viable in Time Stranger, Agumon remains the safest and most beginner-friendly choice. Its balanced stats, straightforward evolution path, and powerful end-game form make it an excellent companion from start to finish.",
-        "paragraph2": "However, if you value speed and tactical depth, Veemon offers incredible versatility. For players who prefer defensive playstyles, Guilmon's tankiness is unmatched.",
-        "paragraph3": "Remember: your starter choice matters most for the first 10-15 hours of gameplay. By mid-game, you'll have access to dozens of powerful Digimon, so choose the starter that appeals to your personal playstyle and enjoy the journey!"
+        "title": "Verdict Final",
+        "paragraph1": "Bien que tous les départs soient viables dans Time Stranger, Agumon reste le choix le plus sûr et le plus convivial pour débutants. Ses stats équilibrées, parcours d'évolution simple, et forme de fin de jeu puissante en font un excellent compagnon du début à la fin.",
+        "paragraph2": "Cependant, si vous valorisez la vitesse et la profondeur tactique, Veemon offre une polyvalence incroyable. Pour les joueurs qui préfèrent les styles de jeu défensifs, la robustesse de Guilmon est inégalée.",
+        "paragraph3": "Rappelez-vous : votre choix de départ compte le plus pendant les 10-15 premières heures de jeu. En milieu de partie, vous aurez accès à des dizaines de Digimon puissants, alors choisissez le départ qui plaît à votre style de jeu personnel et profitez du voyage !"
       },
       "relatedGuides": {
-        "title": "Related Guides",
-        "fastLeveling": "Fast Leveling Routes Guide",
-        "evolutionGuide": "Complete Evolution Guide",
-        "teamBuilder": "Team Builder Tool"
+        "title": "Guides Connexes",
+        "fastLeveling": "Guide des Parcours de Nivellement Rapide",
+        "evolutionGuide": "Guide d'Évolution Complet",
+        "teamBuilder": "Outil Constructeur d'Équipe"
       }
     },
     "evolutionGuide": {
-      "title": "Evolution Guide",
-      "description": "Master the art of Digivolution and unlock your Digimon's full potential",
-      "breadcrumb": "Evolution Guide",
-      "seoTitle": "Evolution Guide - Master Digivolution in Time Stranger",
-      "seoDescription": "Complete evolution guide for Digimon Story: Time Stranger. Learn evolution mechanics, requirements, optimal timing, and digivolution strategies."
+      "title": "Guide d'Évolution",
+      "description": "Maîtrisez l'art de la Digivolution et débloquez le plein potentiel de votre Digimon",
+      "breadcrumb": "Guide d'Évolution",
+      "seoTitle": "Guide d'Évolution - Maîtrisez la Digivolution dans Time Stranger",
+      "seoDescription": "Guide d'évolution complet pour Digimon Story: Time Stranger. Apprenez les mécaniques d'évolution, exigences, timing optimal et stratégies de digivolution."
     },
     "fastLeveling": {
-      "title": "Fast Leveling Guide",
-      "description": "Master efficient XP grinding and reach max level faster with optimal strategies",
-      "breadcrumb": "Fast Leveling",
-      "seoTitle": "Fast Leveling Guide - Efficient XP Grinding in Time Stranger",
-      "seoDescription": "Complete fast leveling guide for Digimon Story: Time Stranger. Learn optimal grinding locations, XP optimization, team leveling strategies, and efficient progression routes."
+      "title": "Guide de Nivellement Rapide",
+      "description": "Maîtrisez le farming d'XP efficace et atteignez le niveau maximum plus vite avec des stratégies optimales",
+      "breadcrumb": "Nivellement Rapide",
+      "seoTitle": "Guide de Nivellement Rapide - Farming d'XP Efficace dans Time Stranger",
+      "seoDescription": "Guide de nivellement rapide complet pour Digimon Story: Time Stranger. Apprenez les lieux de farming optimaux, optimisation XP, stratégies de nivellement d'équipe et parcours de progression efficaces."
     },
     "teamBuilding": {
-      "title": "Team Building Guide",
-      "description": "Master team composition and synergy to dominate every battle",
-      "breadcrumb": "Team Building",
-      "seoTitle": "Team Building Guide - Build the Ultimate Team",
-      "seoDescription": "Master team composition in Digimon Story: Time Stranger. Learn role balance, synergy strategies, and how to build competitive teams."
+      "title": "Guide de Constitution d'Équipe",
+      "description": "Maîtrisez la composition d'équipe et la synergie pour dominer chaque combat",
+      "breadcrumb": "Constitution d'Équipe",
+      "seoTitle": "Guide de Constitution d'Équipe - Construisez l'Équipe Ultime",
+      "seoDescription": "Maîtrisez la composition d'équipe dans Digimon Story: Time Stranger. Apprenez l'équilibre des rôles, stratégies de synergie, et comment construire des équipes compétitives."
     },
     "bossStrategies": {
-      "title": "Boss Battle Strategies",
-      "description": "Master advanced tactics to defeat the toughest encounters in Time Stranger",
-      "breadcrumb": "Boss Strategies",
-      "seoTitle": "Boss Battle Strategies - Master Difficult Encounters",
-      "seoDescription": "Comprehensive boss battle strategies for Digimon Story: Time Stranger. Learn tactics, counter strategies, team compositions, and preparation tips to defeat any boss."
+      "title": "Stratégies de Combat de Boss",
+      "description": "Maîtrisez les tactiques avancées pour vaincre les rencontres les plus difficiles dans Time Stranger",
+      "breadcrumb": "Stratégies de Boss",
+      "seoTitle": "Stratégies de Combat de Boss - Maîtrisez les Rencontres Difficiles",
+      "seoDescription": "Stratégies complètes de combat de boss pour Digimon Story: Time Stranger. Apprenez les tactiques, contre-stratégies, compositions d'équipe et astuces de préparation pour vaincre n'importe quel boss."
     },
     "storyBranches": {
-      "title": "Story Branches & Timeline Guide",
-      "description": "Navigate the branching paths and unlock all endings",
-      "breadcrumb": "Story Branches",
-      "seoTitle": "Story Branches & Timeline Guide - Multiple Endings",
-      "seoDescription": "Complete guide to story branches, key decisions, and multiple endings in Digimon Time Stranger. Learn how your choices affect the timeline and unlock all endings."
+      "title": "Guide des Branches d'Histoire & Timeline",
+      "description": "Naviguez les parcours branchés et débloquez toutes les fins",
+      "breadcrumb": "Branches d'Histoire",
+      "seoTitle": "Guide des Branches d'Histoire & Timeline - Fins Multiples",
+      "seoDescription": "Guide complet des branches d'histoire, décisions clés et fins multiples dans Digimon Time Stranger. Apprenez comment vos choix affectent la timeline et débloquez toutes les fins."
     },
     "collectibles": {
-      "title": "Collectibles Guide",
-      "description": "Find every hidden treasure and collectible across all 9 chapters",
-      "breadcrumb": "Collectibles",
-      "seoTitle": "Collectibles Guide - Complete List & Locations",
-      "seoDescription": "Complete guide to all collectibles in Digimon Time Stranger. Find every Ancient Tablet Fragment, rare item, and hidden treasure across all 9 chapters."
+      "title": "Guide des Objets de Collection",
+      "description": "Trouvez chaque trésor caché et objet de collection à travers tous les 9 chapitres",
+      "breadcrumb": "Objets de Collection",
+      "seoTitle": "Guide des Objets de Collection - Liste Complète & Localisations",
+      "seoDescription": "Guide complet de tous les objets de collection dans Digimon Time Stranger. Trouvez chaque Fragment de Tablette Ancienne, objet rare et trésor caché à travers tous les 9 chapitres."
     }
   },
   "evolution": {
-    "title": "Evolution Trees",
-    "description": "Interactive evolution charts and requirements",
-    "requirements": "Requirements",
-    "level": "Level {level}",
-    "stats": "Stats Required"
+    "title": "Arbres d'Évolution",
+    "description": "Graphiques d'évolution interactifs et exigences",
+    "requirements": "Exigences",
+    "level": "Niveau {level}",
+    "stats": "Stats Requises"
   },
   "bosses": {
-    "title": "Boss Guides",
-    "description": "Strategies and team recommendations for boss battles",
-    "difficulty": "Difficulty",
-    "recommendedLevel": "Recommended Level",
-    "weaknesses": "Weaknesses",
-    "strategy": "Strategy",
-    "teamComposition": "Recommended Team"
+    "title": "Guides de Boss",
+    "description": "Stratégies et recommandations d'équipe pour les combats de boss",
+    "difficulty": "Difficulté",
+    "recommendedLevel": "Niveau Recommandé",
+    "weaknesses": "Faiblesses",
+    "strategy": "Stratégie",
+    "teamComposition": "Équipe Recommandée"
   },
   "walkthroughs": {
-    "title": "Walkthroughs",
-    "description": "Step-by-step guides for story chapters",
-    "chapter": "Chapter {number}",
-    "objectives": "Objectives",
-    "rewards": "Rewards"
+    "title": "Soluces",
+    "description": "Guides étape par étape pour les chapitres d'histoire",
+    "chapter": "Chapitre {number}",
+    "objectives": "Objectifs",
+    "rewards": "Récompenses"
   },
   "walkthrough": {
-    "title": "Walkthrough",
-    "description": "Complete chapter-by-chapter guides",
-    "breadcrumb": "Walkthrough"
+    "title": "Soluce",
+    "description": "Guides complets chapitre par chapitre",
+    "breadcrumb": "Soluce"
   },
   "walkthroughChapter": {
     "navigation": {
-      "allChapters": "All Chapters",
-      "nextChapter": "Next Chapter",
-      "previousChapter": "Previous Chapter",
-      "next": "Next: Chapter {number}"
+      "allChapters": "Tous les Chapitres",
+      "nextChapter": "Chapitre Suivant",
+      "previousChapter": "Chapitre Précédent",
+      "next": "Suivant : Chapitre {number}"
     },
-    "chapter": "Chapter {number}",
+    "chapter": "Chapitre {number}",
     "difficulty": {
-      "easy": "Easy",
-      "medium": "Medium",
-      "hard": "Hard",
-      "veryHard": "Very Hard"
+      "easy": "Facile",
+      "medium": "Moyen",
+      "hard": "Difficile",
+      "veryHard": "Très Difficile"
     },
     "overview": {
-      "title": "Chapter Overview",
-      "recommendedLevel": "Recommended Level",
-      "averageTime": "Average Time",
-      "difficulty": "Difficulty",
-      "boss": "Boss: {name}",
-      "collectibles": "{count} Collectibles"
+      "title": "Aperçu du Chapitre",
+      "recommendedLevel": "Niveau Recommandé",
+      "averageTime": "Temps Moyen",
+      "difficulty": "Difficulté",
+      "boss": "Boss : {name}",
+      "collectibles": "{count} Objets de Collection"
     },
     "parts": {
-      "part": "Part {number}",
-      "bossBattle": "Boss Battle"
+      "part": "Partie {number}",
+      "bossBattle": "Combat de Boss"
     },
     "labels": {
-      "tip": "Tip:",
-      "collectible": "Collectible #{number}:",
-      "encounters": "Encounters:",
-      "recommendation": "Recommendation:",
-      "preparationChecklist": "Preparation Checklist:",
-      "battleStrategy": "Battle Strategy:",
-      "victoryRewards": "Victory Rewards:",
-      "keyAchievements": "Key Achievements:",
-      "collectiblesFound": "Collectibles Found:",
-      "nextChapter": "Next Chapter:",
-      "chapterComplete": "Chapter Complete!"
+      "tip": "Astuce :",
+      "collectible": "Objet de Collection #{number} :",
+      "encounters": "Rencontres :",
+      "recommendation": "Recommandation :",
+      "preparationChecklist": "Liste de Préparation :",
+      "battleStrategy": "Stratégie de Combat :",
+      "victoryRewards": "Récompenses de Victoire :",
+      "keyAchievements": "Réalisations Clés :",
+      "collectiblesFound": "Objets de Collection Trouvés :",
+      "nextChapter": "Chapitre Suivant :",
+      "chapterComplete": "Chapitre Terminé !"
     },
     "battle": {
-      "level": "Level",
-      "hp": "HP",
-      "weaknesses": "Weaknesses",
-      "mainAttacks": "Main Attacks",
-      "strategy": "Battle Strategy:"
+      "level": "Niveau",
+      "hp": "PV",
+      "weaknesses": "Faiblesses",
+      "mainAttacks": "Attaques Principales",
+      "strategy": "Stratégie de Combat :"
     },
     "summary": {
-      "title": "Chapter {number} Summary"
+      "title": "Résumé du Chapitre {number}"
     }
   },
   "tools": {
-    "title": "Tools",
-    "description": "Helpful calculators and builders",
+    "title": "Outils",
+    "description": "Calculateurs et constructeurs utiles",
     "teamBuilder": {
-      "title": "Team Builder",
-      "description": "Build and optimize your perfect Digimon team",
-      "breadcrumb": "Team Builder"
+      "title": "Constructeur d'Équipe",
+      "description": "Construisez et optimisez votre équipe parfaite de Digimon",
+      "breadcrumb": "Constructeur d'Équipe"
     },
     "statCalculator": {
-      "title": "Stat Calculator",
-      "description": "Calculate final stats with different builds"
+      "title": "Calculateur de Stats",
+      "description": "Calculez les stats finales avec différentes builds"
     }
   },
   "about": {
-    "title": "About",
-    "description": "Learn more about this project",
-    "breadcrumb": "About"
+    "title": "À Propos",
+    "description": "En savoir plus sur ce projet",
+    "breadcrumb": "À Propos"
   },
   "community": {
-    "title": "Community",
-    "description": "Connect with other players",
-    "backToCommunity": "Back to Community",
-    "categoryGuidelines": "Category Guidelines",
+    "title": "Communauté",
+    "description": "Connectez-vous avec d'autres joueurs",
+    "backToCommunity": "Retour à la Communauté",
+    "categoryGuidelines": "Directives de Catégorie",
     "discussions": "Discussions",
-    "signInInfo": "Sign in with GitHub to start a new discussion or reply to existing ones. Click the button below to open the discussion in GitHub.",
-    "signInTitle": "Sign in with GitHub",
-    "viewOnGithub": "View on GitHub →",
+    "signInInfo": "Connectez-vous avec GitHub pour commencer une nouvelle discussion ou répondre aux existantes. Cliquez sur le bouton ci-dessous pour ouvrir la discussion dans GitHub.",
+    "signInTitle": "Connectez-vous avec GitHub",
+    "viewOnGithub": "Voir sur GitHub →",
     "categories": {
-      "discussion": "General Discussion",
-      "strategy": "Strategy & Tips",
-      "showcase": {
-        "name": "Achievements & Showcase",
-        "description": "Share your accomplishments, rare finds, and collections",
-        "guidelines": [
-          "Share your achievements and milestones",
-          "Show off rare Digimon finds",
-          "Display your collections",
-          "Celebrate community successes"
-        ]
-      },
-      "questions": {
-        "name": "Questions & Help",
-        "description": "Get help from the community and ask your questions",
-        "guidelines": [
-          "Ask clear and specific questions",
-          "Search before asking duplicates",
-          "Provide context and details",
-          "Mark helpful answers"
-        ]
-      },
+      "discussion": "Discussion Générale",
+      "strategy": "Stratégie & Astuces",
+      "showcase": "Team Showcase",
+      "questions": "Questions",
       "general": {
-        "name": "General Discussion",
-        "description": "Chat about anything related to Digimon Time Stranger",
+        "name": "Discussion Générale",
+        "description": "Discutez de tout ce qui concerne Digimon Time Stranger",
         "guidelines": [
-          "Share your general thoughts and experiences",
-          "Discuss game updates and news",
-          "Connect with other Tamers",
-          "Keep discussions friendly and on-topic"
+          "Partagez vos pensées et expériences générales",
+          "Discutez des mises à jour et nouvelles du jeu",
+          "Connectez-vous avec d'autres Dresseurs",
+          "Gardez les discussions amicales et pertinentes"
         ]
       },
       "strategies": {
-        "name": "Battle Strategies",
-        "description": "Share and discuss battle tactics, boss strategies, and combat tips",
+        "name": "Stratégies de Combat",
+        "description": "Partagez et discutez des tactiques de combat, stratégies de boss et astuces de combat",
         "guidelines": [
-          "Share effective battle strategies",
-          "Discuss boss fight tactics",
-          "Analyze combat mechanics",
-          "Help others improve their gameplay"
+          "Partagez des stratégies de combat efficaces",
+          "Discutez des tactiques de combat de boss",
+          "Analysez les mécaniques de combat",
+          "Aidez les autres à améliorer leur gameplay"
         ]
       },
       "team-builds": {
-        "name": "Team Building",
-        "description": "Show off your team compositions and get feedback",
+        "name": "Construction d'Équipe",
+        "description": "Montrez vos compositions d'équipe et obtenez des retours",
         "guidelines": [
-          "Share your team compositions",
-          "Discuss synergies and combos",
-          "Get feedback on your builds",
-          "Suggest improvements for others"
+          "Partagez vos compositions d'équipe",
+          "Discutez des synergies et combos",
+          "Obtenez des retours sur vos builds",
+          "Suggérez des améliorations pour les autres"
+        ]
+      },
+      "questions": {
+        "name": "Questions & Aide",
+        "description": "Obtenez de l'aide de la communauté et posez vos questions",
+        "guidelines": [
+          "Posez des questions claires et spécifiques",
+          "Cherchez avant de poser des doublons",
+          "Fournissez du contexte et des détails",
+          "Marquez les réponses utiles"
         ]
       },
       "guides": {
-        "name": "Player Guides",
-        "description": "Community-created guides and tutorials",
+        "name": "Guides de Joueurs",
+        "description": "Guides et tutoriels créés par la communauté",
         "guidelines": [
-          "Create comprehensive guides",
-          "Use clear formatting and structure",
-          "Include examples and screenshots",
-          "Keep guides up-to-date"
+          "Créez des guides complets",
+          "Utilisez un formatage et une structure clairs",
+          "Incluez des exemples et captures d'écran",
+          "Gardez les guides à jour"
+        ]
+      },
+      "showcase": {
+        "name": "Réalisations & Showcase",
+        "description": "Partagez vos accomplissements, trouvailles rares et collections",
+        "guidelines": [
+          "Partagez vos réalisations et jalons",
+          "Montrez vos trouvailles de Digimon rares",
+          "Affichez vos collections",
+          "Célébrez les succès de la communauté"
         ]
       }
     }
   },
   "contribute": {
-    "title": "Contribute to the Community - Share Your Knowledge",
-    "description": "Contribute guides, strategies, and improvements to the Digimon Time Stranger community. Learn how to submit content, report issues, and help other players.",
-    "breadcrumb": "Contribute",
+    "title": "Contribuez à la Communauté - Partagez Vos Connaissances",
+    "description": "Contribuez avec des guides, stratégies et améliorations à la communauté Digimon Time Stranger. Apprenez comment soumettre du contenu, signaler des problèmes et aider d'autres joueurs.",
+    "breadcrumb": "Contribuer",
     "header": {
-      "title": "Contribute to the Community",
-      "subtitle": "Help us build the best Digimon Time Stranger resource"
+      "title": "Contribuez à la Communauté",
+      "subtitle": "Aidez-nous à construire la meilleure ressource Digimon Time Stranger"
     },
     "intro": {
-      "title": "Why Contribute?",
-      "description": "This website is built by and for the Digimon Time Stranger community. Your contributions help thousands of players discover strategies, overcome challenges, and enjoy the game more. Whether you're sharing a guide, reporting a bug, or suggesting improvements, every contribution matters!"
+      "title": "Pourquoi Contribuer ?",
+      "description": "Ce site est construit par et pour la communauté Digimon Time Stranger. Vos contributions aident des milliers de joueurs à découvrir des stratégies, surmonter des défis et profiter davantage du jeu. Que vous partagiez un guide, signaliez un bug, ou suggériez des améliorations, chaque contribution compte !"
     },
     "stats": {
       "communityMembers": "2.5K+",
-      "communityMembersLabel": "Community Members",
+      "communityMembersLabel": "Membres de la Communauté",
       "contributors": "150+",
-      "contributorsLabel": "Contributors",
-      "openSource": "Open",
-      "openSourceLabel": "Source Project"
+      "contributorsLabel": "Contributeurs",
+      "openSource": "Projet",
+      "openSourceLabel": "Open Source"
     },
-    "waysTitle": "Ways to Contribute",
+    "waysTitle": "Façons de Contribuer",
     "ways": {
       "github": {
-        "title": "Report Issues or Request Features",
-        "description": "Found a bug? Have an idea for improvement? Open an issue on GitHub to let us know!",
-        "bugReportsLabel": "Bug Reports:",
-        "bugReportsText": "Incorrect information, broken links, display issues",
-        "featureRequestsLabel": "Feature Requests:",
-        "featureRequestsText": "New tools, guides, or functionality you'd like to see",
-        "contentUpdatesLabel": "Content Updates:",
-        "contentUpdatesText": "New game updates, patches, or balance changes",
-        "button": "Open an Issue"
+        "title": "Signaler des Problèmes ou Demander des Fonctionnalités",
+        "description": "Vous avez trouvé un bug ? Une idée d'amélioration ? Ouvrez une issue sur GitHub pour nous le faire savoir !",
+        "bugReportsLabel": "Rapports de Bug :",
+        "bugReportsText": "Informations incorrectes, liens cassés, problèmes d'affichage",
+        "featureRequestsLabel": "Demandes de Fonctionnalité :",
+        "featureRequestsText": "Nouveaux outils, guides ou fonctionnalités que vous aimeriez voir",
+        "contentUpdatesLabel": "Mises à Jour de Contenu :",
+        "contentUpdatesText": "Nouvelles mises à jour de jeu, patches ou changements d'équilibre",
+        "button": "Ouvrir une Issue"
       },
       "forum": {
-        "title": "Share in Community Discussions",
-        "description": "Join discussions, answer questions, and share your strategies with other players in our forum.",
-        "answerQuestionsLabel": "Answer Questions:",
-        "answerQuestionsText": "Help new players with gameplay questions",
-        "shareBuildsLabel": "Share Builds:",
-        "shareBuildsText": "Post your best team compositions and strategies",
-        "startDiscussionsLabel": "Start Discussions:",
-        "startDiscussionsText": "Create topics about game mechanics, lore, or updates",
-        "button": "Visit Forum"
+        "title": "Participer aux Discussions Communautaires",
+        "description": "Rejoignez les discussions, répondez aux questions et partagez vos stratégies avec d'autres joueurs dans notre forum.",
+        "answerQuestionsLabel": "Répondre aux Questions :",
+        "answerQuestionsText": "Aidez les nouveaux joueurs avec les questions de gameplay",
+        "shareBuildsLabel": "Partager des Builds :",
+        "shareBuildsText": "Publiez vos meilleures compositions d'équipe et stratégies",
+        "startDiscussionsLabel": "Commencer des Discussions :",
+        "startDiscussionsText": "Créez des sujets sur les mécaniques de jeu, lore ou mises à jour",
+        "button": "Visiter le Forum"
       },
       "guides": {
-        "title": "Submit Written Guides",
-        "description": "Have expertise in a specific area? Write a guide to help the community!",
-        "strategyGuidesLabel": "Strategy Guides:",
-        "strategyGuidesText": "Team building, evolution paths, boss strategies",
-        "characterGuidesLabel": "Character Guides:",
-        "characterGuidesText": "Detailed analysis of specific Digimon",
-        "beginnerGuidesLabel": "Beginners Guides:",
-        "beginnerGuidesText": "Help new players get started",
-        "howToSubmitTitle": "How to Submit:",
-        "step1": "Write your guide in Markdown format",
-        "step2": "Create a GitHub pull request with your content",
-        "step3": "Our team will review and publish it",
-        "step4": "Your name will be credited as the author",
-        "button": "Guide Template"
+        "title": "Soumettre des Guides Écrits",
+        "description": "Vous avez une expertise dans un domaine spécifique ? Écrivez un guide pour aider la communauté !",
+        "strategyGuidesLabel": "Guides Stratégiques :",
+        "strategyGuidesText": "Construction d'équipe, parcours d'évolution, stratégies de boss",
+        "characterGuidesLabel": "Guides de Personnage :",
+        "characterGuidesText": "Analyse détaillée de Digimon spécifiques",
+        "beginnerGuidesLabel": "Guides Débutants :",
+        "beginnerGuidesText": "Aidez les nouveaux joueurs à démarrer",
+        "howToSubmitTitle": "Comment Soumettre :",
+        "step1": "Écrivez votre guide au format Markdown",
+        "step2": "Créez une pull request GitHub avec votre contenu",
+        "step3": "Notre équipe examinera et publiera",
+        "step4": "Votre nom sera crédité comme auteur",
+        "button": "Modèle de Guide"
       },
       "videos": {
-        "title": "Submit Video Guides",
-        "description": "Created helpful video tutorials? We'd love to feature them in our video library!",
-        "youtubeLabel": "YouTube Videos:",
-        "youtubeText": "Gameplay guides, walkthroughs, tutorials",
-        "requirementsLabel": "Requirements:",
-        "requirementsText": "Clear audio, accurate information, family-friendly content",
-        "featuredLabel": "Featured:",
-        "featuredText": "Your video will be added to our video library with full credit",
-        "button": "Submit Video"
+        "title": "Soumettre des Guides Vidéo",
+        "description": "Vous avez créé des tutoriels vidéo utiles ? Nous aimerions les présenter dans notre vidéothèque !",
+        "youtubeLabel": "Vidéos YouTube :",
+        "youtubeText": "Guides de gameplay, soluces, tutoriels",
+        "requirementsLabel": "Exigences :",
+        "requirementsText": "Audio clair, informations précises, contenu familial",
+        "featuredLabel": "En Vedette :",
+        "featuredText": "Votre vidéo sera ajoutée à notre vidéothèque avec crédit complet",
+        "button": "Soumettre une Vidéo"
       },
       "dataErrors": {
-        "title": "Report Data Errors",
-        "description": "Found incorrect Digimon stats, evolution requirements, or other data? Help us keep information accurate!",
-        "statCorrectionsLabel": "Stat Corrections:",
-        "statCorrectionsText": "HP, Attack, Defense, Speed values",
-        "evolutionDataLabel": "Evolution Data:",
-        "evolutionDataText": "Requirements, paths, or missing evolutions",
-        "contentErrorsLabel": "Content Errors:",
-        "contentErrorsText": "Typos, outdated info, missing content",
-        "button": "Report Error"
+        "title": "Signaler des Erreurs de Données",
+        "description": "Vous avez trouvé des stats de Digimon incorrectes, exigences d'évolution ou autres données ? Aidez-nous à garder les informations précises !",
+        "statCorrectionsLabel": "Corrections de Stats :",
+        "statCorrectionsText": "PV, Attaque, Défense, Vitesse valeurs",
+        "evolutionDataLabel": "Données d'Évolution :",
+        "evolutionDataText": "Exigences, parcours ou évolutions manquantes",
+        "contentErrorsLabel": "Erreurs de Contenu :",
+        "contentErrorsText": "Fautes de frappe, infos obsolètes, contenu manquant",
+        "button": "Signaler une Erreur"
       },
       "suggestions": {
-        "title": "Share Ideas & Suggestions",
-        "description": "Have ideas for new features, tools, or improvements? We're always listening!",
-        "newToolsLabel": "New Tools:",
-        "newToolsText": "Calculators, planners, interactive features",
-        "uiImprovementsLabel": "UI Improvements:",
-        "uiImprovementsText": "Better navigation, design, or user experience",
-        "contentIdeasLabel": "Content Ideas:",
-        "contentIdeasText": "New guides, databases, or resources",
-        "button": "Share Idea"
+        "title": "Partager des Idées & Suggestions",
+        "description": "Vous avez des idées pour de nouvelles fonctionnalités, outils ou améliorations ? Nous écoutons toujours !",
+        "newToolsLabel": "Nouveaux Outils :",
+        "newToolsText": "Calculateurs, planificateurs, fonctionnalités interactives",
+        "uiImprovementsLabel": "Améliorations UI :",
+        "uiImprovementsText": "Meilleure navigation, design ou expérience utilisateur",
+        "contentIdeasLabel": "Idées de Contenu :",
+        "contentIdeasText": "Nouveaux guides, bases de données ou ressources",
+        "button": "Partager une Idée"
       }
     },
     "guidelines": {
-      "title": "Contribution Guidelines",
-      "beRespectful": "Be Respectful: Treat all community members with kindness and respect",
-      "accuracyFirst": "Accuracy First: Ensure all information is tested and verified",
-      "creditSources": "Credit Sources: Give credit when using others' strategies or data",
-      "noSpoilers": "No Spoilers: Use spoiler warnings for story-related content",
-      "qualityContent": "Quality Content: Proofread and format your submissions properly"
+      "title": "Directives de Contribution",
+      "beRespectful": "Soyez Respectueux : Traitez tous les membres de la communauté avec gentillesse et respect",
+      "accuracyFirst": "Précision d'Abord : Assurez-vous que toutes les informations sont testées et vérifiées",
+      "creditSources": "Créditer les Sources : Donnez du crédit lorsque vous utilisez les stratégies ou données d'autres",
+      "noSpoilers": "Pas de Spoilers : Utilisez des avertissements de spoiler pour le contenu lié à l'histoire",
+      "qualityContent": "Contenu de Qualité : Relisez et formatez correctement vos soumissions"
     },
     "recognition": {
-      "title": "Top Contributors Hall of Fame",
-      "description": "Outstanding contributors are featured here with our deepest gratitude!",
-      "thankYou": "Your contributions help thousands of players enjoy the game. Thank you for being part of our community!"
+      "title": "Temple de la Renommée des Meilleurs Contributeurs",
+      "description": "Les contributeurs exceptionnels sont présentés ici avec notre plus profonde gratitude !",
+      "thankYou": "Vos contributions aident des milliers de joueurs à profiter du jeu. Merci de faire partie de notre communauté !"
     }
   },
   "footer": {
-    "description": "Complete guides, evolution paths, and team building tools for Digimon Story: Time Stranger.",
+    "description": "Guides complets, parcours d'évolution et outils de construction d'équipe pour Digimon Story: Time Stranger.",
     "siteTitle": "Digimon Time Stranger",
-    "siteSubtitle": "Strategy Guide",
+    "siteSubtitle": "Guide Stratégique",
     "guidesTitle": "Guides",
-    "toolsTitle": "Tools",
-    "resourcesTitle": "Resources",
-    "bestStarters": "Best Starters",
-    "evolutionGuide": "Evolution Guide",
-    "teamBuilding": "Team Building",
-    "fastLeveling": "Fast Leveling",
-    "teamBuilder": "Team Builder",
-    "evolutionTree": "Evolution Tree",
-    "communityForum": "Community Forum",
-    "pcSettings": "PC Settings",
-    "updatesPatches": "Updates & Patches",
-    "about": "About",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "copyright": "© {year} Digimon Time Stranger Guide. All rights reserved.",
-    "disclaimer": "This is an unofficial fan site. Digimon and all related properties are trademarks of Bandai Namco Entertainment. We are not affiliated with or endorsed by Bandai Namco.",
-    "builtWith": "Built with ❤️ for Tamers"
+    "toolsTitle": "Outils",
+    "resourcesTitle": "Ressources",
+    "bestStarters": "Meilleurs Départs",
+    "evolutionGuide": "Guide d'Évolution",
+    "teamBuilding": "Construction d'Équipe",
+    "fastLeveling": "Nivellement Rapide",
+    "teamBuilder": "Constructeur d'Équipe",
+    "evolutionTree": "Arbre d'Évolution",
+    "communityForum": "Forum Communautaire",
+    "pcSettings": "Paramètres PC",
+    "updatesPatches": "Mises à Jour & Patches",
+    "about": "À Propos",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation",
+    "copyright": "© {year} Digimon Time Stranger Guide. Tous droits réservés.",
+    "disclaimer": "Ceci est un site de fan non officiel. Digimon et toutes les propriétés connexes sont des marques déposées de Bandai Namco Entertainment. Nous ne sommes pas affiliés ou approuvés par Bandai Namco.",
+    "builtWith": "Construit avec ❤️ pour les Dresseurs"
   },
   "events": {
-    "title": "Events Calendar",
-    "description": "Stay updated with game events, updates, and community activities",
-    "breadcrumb": "Events",
+    "title": "Calendrier d'Événements",
+    "description": "Restez informé des événements de jeu, mises à jour et activités communautaires",
+    "breadcrumb": "Événements",
     "stats": {
-      "upcoming": "Upcoming",
-      "activeNow": "Active Now",
-      "totalEvents": "Total Events",
-      "eventTypes": "Event Types"
+      "upcoming": "À Venir",
+      "activeNow": "Actif Maintenant",
+      "totalEvents": "Total des Événements",
+      "eventTypes": "Types d'Événements"
     },
     "filters": {
-      "title": "Filter Events",
-      "eventType": "Event Type",
-      "status": "Status",
-      "allTypes": "All Types",
-      "allStatus": "All Status"
+      "title": "Filtrer les Événements",
+      "eventType": "Type d'Événement",
+      "status": "Statut",
+      "allTypes": "Tous les Types",
+      "allStatus": "Tous les Statuts"
     },
     "types": {
-      "update": "Update",
+      "update": "Mise à Jour",
       "dlc": "DLC",
-      "community": "Community",
-      "seasonal": "Seasonal"
+      "community": "Communauté",
+      "seasonal": "Saisonnier"
     },
     "statuses": {
-      "upcoming": "Upcoming",
-      "active": "Active",
-      "ended": "Ended",
-      "live": "LIVE"
+      "upcoming": "À Venir",
+      "active": "Actif",
+      "ended": "Terminé",
+      "live": "EN DIRECT"
     },
-    "noEvents": "No events found",
-    "tryAdjusting": "Try adjusting your filters",
-    "rewards": "Rewards",
+    "noEvents": "Aucun événement trouvé",
+    "tryAdjusting": "Essayez d'ajuster vos filtres",
+    "rewards": "Récompenses",
     "cta": {
-      "title": "Never Miss an Event!",
-      "description": "Follow our social media channels or enable notifications to stay updated on all upcoming events, updates, and special activities.",
-      "viewUpdates": "View All Updates",
-      "joinCommunity": "Join Community"
+      "title": "Ne Manquez Jamais un Événement !",
+      "description": "Suivez nos chaînes de médias sociaux ou activez les notifications pour rester informé de tous les événements à venir, mises à jour et activités spéciales.",
+      "viewUpdates": "Voir Toutes les Mises à Jour",
+      "joinCommunity": "Rejoindre la Communauté"
     }
   },
   "evolutionTree": {
-    "title": "Evolution Tree",
-    "description": "Explore all Digimon evolution paths and requirements",
-    "breadcrumb": "Evolution Tree",
+    "title": "Arbre d'Évolution",
+    "description": "Explorez tous les parcours d'évolution et exigences des Digimon",
+    "breadcrumb": "Arbre d'Évolution",
     "header": {
-      "title": "Evolution Tree",
-      "subtitle": "Explore all Digimon evolution paths and requirements"
+      "title": "Arbre d'Évolution",
+      "subtitle": "Explorez tous les parcours d'évolution et exigences des Digimon"
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
-    "description": "Find answers to common questions about Digimon Time Stranger",
+    "title": "Questions Fréquemment Posées",
+    "description": "Trouvez des réponses aux questions courantes sur Digimon Time Stranger",
     "breadcrumb": "FAQ",
     "header": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Find answers to common questions about Digimon Time Stranger"
+      "title": "Questions Fréquemment Posées",
+      "subtitle": "Trouvez des réponses aux questions courantes sur Digimon Time Stranger"
     },
     "stats": {
       "questions": "Questions",
-      "categories": "Categories",
-      "available": "Available",
-      "accurate": "Accurate"
+      "categories": "Catégories",
+      "available": "Disponibles",
+      "accurate": "Précises"
     },
     "search": {
-      "placeholder": "Search questions...",
-      "noResults": "No questions found",
-      "tryAdjusting": "Try adjusting your search or category filter"
+      "placeholder": "Rechercher des questions...",
+      "noResults": "Aucune question trouvée",
+      "tryAdjusting": "Essayez d'ajuster votre recherche ou filtre de catégorie"
     },
-    "filterTitle": "Filter by Category",
+    "filterTitle": "Filtrer par Catégorie",
     "categories": {
-      "all": "All Questions",
-      "gettingStarted": "Getting Started",
+      "all": "Toutes les Questions",
+      "gettingStarted": "Démarrage",
       "gameplay": "Gameplay",
-      "evolution": "Evolution",
-      "endgame": "Endgame",
-      "technical": "Technical"
+      "evolution": "Évolution",
+      "endgame": "Fin de Jeu",
+      "technical": "Technique"
     },
     "cta": {
-      "title": "Still Have Questions?",
-      "description": "Can't find what you're looking for? Join our community forum to ask questions and get help from experienced players.",
-      "button": "Visit Community Forum"
+      "title": "Vous Avez Encore des Questions ?",
+      "description": "Vous ne trouvez pas ce que vous cherchez ? Rejoignez notre forum communautaire pour poser des questions et obtenir de l'aide de joueurs expérimentés.",
+      "button": "Visiter le Forum Communautaire"
     }
   },
   "updates": {
-    "title": "Updates & Patch Notes",
-    "description": "Latest game updates and fixes for Digimon Story: Time Stranger",
-    "breadcrumb": "Updates",
+    "title": "Mises à Jour & Notes de Patch",
+    "description": "Dernières mises à jour de jeu et corrections pour Digimon Story: Time Stranger",
+    "breadcrumb": "Mises à Jour",
     "header": {
-      "title": "Updates & Patch Notes",
-      "subtitle": "Latest game updates and fixes for Digimon Story: Time Stranger"
+      "title": "Mises à Jour & Notes de Patch",
+      "subtitle": "Dernières mises à jour de jeu et corrections pour Digimon Story: Time Stranger"
     },
     "version": "Version {version}",
     "types": {
-      "release": "Release",
+      "release": "Version",
       "patch": "Patch",
       "hotfix": "Hotfix"
     },
     "changes": {
-      "new": "NEW",
-      "fix": "FIX",
-      "improvement": "IMPROVEMENT"
+      "new": "NOUVEAU",
+      "fix": "CORRECTION",
+      "improvement": "AMÉLIORATION"
     },
     "cta": {
-      "title": "📢 Stay Updated",
-      "description": "This page is regularly updated with the latest patch notes and game updates.",
-      "note": "For official announcements, visit the"
+      "title": "📢 Restez Informé",
+      "description": "Cette page est régulièrement mise à jour avec les dernières notes de patch et mises à jour de jeu.",
+      "note": "Pour les annonces officielles, visitez le"
     }
   },
   "videos": {
-    "title": "Video Guides & Tutorials",
-    "description": "Watch comprehensive video guides and tutorials for Digimon Time Stranger",
-    "breadcrumb": "Videos",
+    "title": "Guides Vidéo & Tutoriels",
+    "description": "Regardez des guides vidéo complets et tutoriels pour Digimon Time Stranger",
+    "breadcrumb": "Vidéos",
     "header": {
-      "title": "Video Guides & Tutorials",
-      "subtitle": "Watch comprehensive guides to master every aspect of the game"
+      "title": "Guides Vidéo & Tutoriels",
+      "subtitle": "Regardez des guides complets pour maîtriser chaque aspect du jeu"
     },
     "stats": {
-      "videoGuides": "Video Guides",
-      "totalContent": "Total Content",
-      "totalViews": "Total Views",
-      "categories": "Categories"
+      "videoGuides": "Guides Vidéo",
+      "totalContent": "Contenu Total",
+      "totalViews": "Vues Totales",
+      "categories": "Catégories"
     },
-    "browseTitle": "Browse by Category",
-    "allVideos": "All Video Guides",
+    "browseTitle": "Parcourir par Catégorie",
+    "allVideos": "Tous les Guides Vidéo",
     "categories": {
-      "all": "All Videos",
-      "beginner": "Beginner",
-      "evolution": "Evolution",
-      "teamBuilding": "Team Building",
-      "boss": "Boss Battles",
-      "advanced": "Advanced",
+      "all": "Toutes les Vidéos",
+      "beginner": "Débutant",
+      "evolution": "Évolution",
+      "teamBuilding": "Construction d'Équipe",
+      "boss": "Combats de Boss",
+      "advanced": "Avancé",
       "speedrun": "Speedrun"
     },
     "difficulty": {
-      "easy": "Easy",
-      "medium": "Medium",
-      "hard": "Hard"
+      "easy": "Facile",
+      "medium": "Moyen",
+      "hard": "Difficile"
     },
     "sections": {
-      "beginnerTitle": "Beginner Guides",
-      "beginnerDescription": "Perfect for new players starting their journey",
-      "bossTitle": "Boss Battle Guides",
-      "bossDescription": "Master every boss encounter with detailed strategies",
-      "advancedTitle": "Advanced Techniques",
-      "advancedDescription": "For experienced players",
-      "speedrunTitle": "Speedrun Content",
-      "speedrunDescription": "Optimize your playtime"
+      "beginnerTitle": "Guides Débutants",
+      "beginnerDescription": "Parfait pour les nouveaux joueurs commençant leur voyage",
+      "bossTitle": "Guides de Combat de Boss",
+      "bossDescription": "Maîtrisez chaque rencontre de boss avec des stratégies détaillées",
+      "advancedTitle": "Techniques Avancées",
+      "advancedDescription": "Pour joueurs expérimentés",
+      "speedrunTitle": "Contenu Speedrun",
+      "speedrunDescription": "Optimisez votre temps de jeu"
     },
-    "views": "views",
+    "views": "vues",
     "cta": {
-      "title": "Want More Content?",
-      "description": "Subscribe to our YouTube channel for weekly video guides, updates, and community highlights. Never miss new strategies and tips!",
-      "button": "Subscribe on YouTube"
+      "title": "Vous Voulez Plus de Contenu ?",
+      "description": "Abonnez-vous à notre chaîne YouTube pour des guides vidéo hebdomadaires, mises à jour et points forts communautaires. Ne manquez jamais les nouvelles stratégies et astuces !",
+      "button": "S'abonner sur YouTube"
     }
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "description": "Learn how we collect, use, and protect your data",
-    "breadcrumb": "Privacy Policy"
+    "title": "Politique de Confidentialité",
+    "description": "Apprenez comment nous collectons, utilisons et protégeons vos données",
+    "breadcrumb": "Politique de Confidentialité"
   },
   "terms": {
-    "title": "Terms of Service",
-    "description": "Terms and conditions for using this website",
-    "breadcrumb": "Terms of Service"
+    "title": "Conditions d'Utilisation",
+    "description": "Conditions et termes pour utiliser ce site web",
+    "breadcrumb": "Conditions d'Utilisation"
   },
   "pc": {
     "steamDeck": {
-      "title": "PC & Steam Deck Settings Guide",
-      "description": "Optimize your gaming experience on PC and Steam Deck",
-      "seoTitle": "PC & Steam Deck Settings - Optimal Configuration Guide",
-      "seoDescription": "Complete guide for optimizing Digimon Story: Time Stranger on PC and Steam Deck. Graphics settings, control configurations, and performance tips.",
-      "subtitle": "Optimize your gaming experience on PC and Steam Deck",
+      "title": "Guide des Paramètres PC & Steam Deck",
+      "description": "Optimisez votre expérience de jeu sur PC et Steam Deck",
+      "seoTitle": "Paramètres PC & Steam Deck - Guide de Configuration Optimale",
+      "seoDescription": "Guide complet pour optimiser Digimon Story: Time Stranger sur PC et Steam Deck. Paramètres graphiques, configurations de contrôle et astuces de performance.",
+      "subtitle": "Optimisez votre expérience de jeu sur PC et Steam Deck",
       "systemRequirements": {
-        "title": "System Requirements",
-        "minimum": "Minimum Requirements",
-        "recommended": "Recommended Requirements",
-        "os": "OS:",
-        "cpu": "CPU:",
-        "ram": "RAM:",
-        "gpu": "GPU:",
-        "storage": "Storage:",
-        "directx": "DirectX:"
+        "title": "Exigences Système",
+        "minimum": "Exigences Minimum",
+        "recommended": "Exigences Recommandées",
+        "os": "OS :",
+        "cpu": "CPU :",
+        "ram": "RAM :",
+        "gpu": "GPU :",
+        "storage": "Stockage :",
+        "directx": "DirectX :"
       },
       "graphics": {
-        "title": "Recommended Graphics Settings",
-        "highEnd": "🖥️ High-End PC (RTX 3070 / RX 6800 or better)",
-        "midRange": "💻 Mid-Range PC (GTX 1660 Ti / RX 5600 XT)",
-        "resolution": "Resolution:",
-        "quality": "Quality Preset:",
-        "antiAliasing": "Anti-Aliasing:",
-        "shadows": "Shadows:",
-        "textures": "Textures:",
-        "effects": "Effects:",
-        "vSync": "V-Sync:",
-        "fpsCap": "FPS Cap:",
-        "performance": "Expected Performance:"
+        "title": "Paramètres Graphiques Recommandés",
+        "highEnd": "🖥️ PC Haut de Gamme (RTX 3070 / RX 6800 ou meilleur)",
+        "midRange": "💻 PC Milieu de Gamme (GTX 1660 Ti / RX 5600 XT)",
+        "resolution": "Résolution :",
+        "quality": "Préréglage Qualité :",
+        "antiAliasing": "Anti-Aliasing :",
+        "shadows": "Ombres :",
+        "textures": "Textures :",
+        "effects": "Effets :",
+        "vSync": "V-Sync :",
+        "fpsCap": "Limite FPS :",
+        "performance": "Performance Attendue :"
       },
       "steamDeckSettings": {
-        "title": "Steam Deck Optimized Settings",
-        "verified": "Steam Deck Verified Settings",
-        "optimized": "✓ Optimized for Steam Deck",
-        "fsr": "FSR:",
-        "tdpLimit": "TDP Limit:",
-        "batteryTitle": "💡 Battery Life Tips:",
-        "tip1": "Use 40 FPS cap for extended battery life (4-5 hours)",
-        "tip2": "Enable FSR for better performance without quality loss",
-        "tip3": "Lower screen brightness to 60% for optimal balance",
-        "tip4": "Use TDP limit of 10W for maximum battery duration"
+        "title": "Paramètres Optimisés Steam Deck",
+        "verified": "Paramètres Vérifiés Steam Deck",
+        "optimized": "✓ Optimisé pour Steam Deck",
+        "fsr": "FSR :",
+        "tdpLimit": "Limite TDP :",
+        "batteryTitle": "💡 Astuces de Durée de Batterie :",
+        "tip1": "Utilisez la limite 40 FPS pour une durée de batterie étendue (4-5 heures)",
+        "tip2": "Activez FSR pour de meilleures performances sans perte de qualité",
+        "tip3": "Baissez la luminosité de l'écran à 60% pour un équilibre optimal",
+        "tip4": "Utilisez la limite TDP de 10W pour une durée de batterie maximum"
       },
       "controls": {
-        "title": "Control Settings",
-        "recommended": "Recommended Controller Layout",
-        "movement": "Movement & Camera",
-        "leftStick": "Left Stick:",
-        "rightStick": "Right Stick:",
-        "dPad": "D-Pad:",
+        "title": "Paramètres de Contrôle",
+        "recommended": "Disposition de Manette Recommandée",
+        "movement": "Mouvement & Caméra",
+        "leftStick": "Stick Gauche :",
+        "rightStick": "Stick Droit :",
+        "dPad": "D-Pad :",
         "actions": "Actions",
-        "confirm": "A/Cross:",
-        "cancel": "B/Circle:",
-        "menu": "X/Square:",
-        "info": "Y/Triangle:",
-        "characterMovement": "Character Movement",
-        "cameraControl": "Camera Control",
-        "quickMenu": "Quick Menu Navigation",
-        "confirmInteract": "Confirm / Interact",
-        "cancelBack": "Cancel / Back",
+        "confirm": "A/Croix :",
+        "cancel": "B/Cercle :",
+        "menu": "X/Carré :",
+        "info": "Y/Triangle :",
+        "characterMovement": "Mouvement de Personnage",
+        "cameraControl": "Contrôle de Caméra",
+        "quickMenu": "Navigation Menu Rapide",
+        "confirmInteract": "Confirmer / Interagir",
+        "cancelBack": "Annuler / Retour",
         "menuLabel": "Menu",
-        "quickInfo": "Quick Digimon Info"
+        "quickInfo": "Infos Rapides Digimon"
       },
       "troubleshooting": {
-        "title": "Common Issues & Fixes",
-        "lowFps": "Low FPS / Stuttering",
-        "controller": "Controller Not Working",
-        "saves": "Save File Issues"
+        "title": "Problèmes Courants & Solutions",
+        "lowFps": "Faible FPS / Saccades",
+        "controller": "Manette Ne Fonctionne Pas",
+        "saves": "Problèmes de Fichier de Sauvegarde"
       }
     }
   },
   "search": {
-    "title": "Search Results",
-    "description": "Search the complete Digimon Time Stranger guide",
-    "breadcrumb": "Search"
+    "title": "Résultats de Recherche",
+    "description": "Recherchez le guide complet Digimon Time Stranger",
+    "breadcrumb": "Recherche"
   },
   "seo": {
     "home": {
-      "title": "Digimon Story: Time Stranger - Complete Guide & Database",
-      "description": "Comprehensive guide for Digimon Story: Time Stranger. Complete Digidex, evolution trees, boss strategies, walkthroughs, and community resources."
+      "title": "Digimon Story: Time Stranger - Guide Complet & Base de Données",
+      "description": "Guide complet pour Digimon Story: Time Stranger. Digidex complet, arbres d'évolution, stratégies de boss, soluces et ressources communautaires."
     },
     "digidex": {
-      "title": "Digidex - Complete Digimon Database | Digimon Story Time Stranger",
-      "description": "Browse all Digimon with detailed stats, evolution paths, locations, and skills. Complete database for Digimon Story: Time Stranger."
+      "title": "Digidex - Base de Données Complète Digimon | Digimon Story Time Stranger",
+      "description": "Parcourez tous les Digimon avec stats détaillées, parcours d'évolution, localisations et compétences. Base de données complète pour Digimon Story: Time Stranger."
     },
     "guides": {
-      "title": "Guides & Strategies | Digimon Story Time Stranger",
-      "description": "Expert guides, strategies, and tips for Digimon Story: Time Stranger. Evolution guides, team building, and advanced tactics."
+      "title": "Guides & Stratégies | Digimon Story Time Stranger",
+      "description": "Guides d'experts, stratégies et astuces pour Digimon Story: Time Stranger. Guides d'évolution, construction d'équipe et tactiques avancées."
     }
+  },
+  "dex": {
+    "title": "Base de Données Complète Dex"
+  },
+  "stages": {
+    "all": "Tous les Stades",
+    "inTrainingI": "Entraînement I",
+    "inTrainingII": "Entraînement II",
+    "rookie": "Rookie",
+    "champion": "Champion",
+    "ultimate": "Ultimate",
+    "mega": "Mega",
+    "megaPlus": "Mega+",
+    "armor": "Armure",
+    "hybrid": "Hybride"
+  },
+  "attributes": {
+    "all": "Tous les Attributs",
+    "vaccine": "Vaccin",
+    "data": "Données",
+    "virus": "Virus",
+    "free": "Libre",
+    "variable": "Variable"
+  },
+  "filterLabels": {
+    "search": "Recherche",
+    "stage": "Stade",
+    "attribute": "Attribut"
   }
 }
