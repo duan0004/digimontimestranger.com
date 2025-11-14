@@ -7,6 +7,7 @@ import Footer from '@/components/layout/Footer';
 import { generateMetadata as genMeta } from '@/lib/seo';
 import GoogleAnalytics from '@/components/analytics/GoogleAnalytics';
 import GoogleAdsense from '@/components/ads/GoogleAdsense';
+import { MiddleAd, BottomAd } from '@/components/ads/AdInserter';
 import { locales, type Locale } from '@/i18n';
 import { FavoritesProvider } from '@/contexts/FavoritesContext';
 
@@ -79,7 +80,11 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
           <GoogleAnalytics />
           <GoogleAdsense />
           <Header />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1">
+            {children}
+          </main>
+          <MiddleAd />
+          <BottomAd />
           <Footer />
         </div>
       </FavoritesProvider>
